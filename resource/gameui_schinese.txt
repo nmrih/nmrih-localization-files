@@ -1,0 +1,78 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{ 
+
+"NMRiH_GameMenu_ResumeGame"		"继续"
+"NMRiH_GameMenu_Disconnect"		"离开屏障"
+"NMRiH_GameMenu_PlayerList"		"生还者伙伴"
+
+"NMRiH_GameMenu_FindServers"		"寻找生还者"
+"NMRiH_GameMenu_CreateServer"		"集合生还者"
+
+"NMRiH_GameMenu_CharSelect"		"选择你的生还者"
+"NMRiH_GameMenu_Options"		"设置"
+
+"NMRiH_GameMenu_Quit"			"撤离"
+
+"NMRiH_Dev_NextObjective"		"下一个任务目标：%s1"
+
+"NMRiH_CharSelect_Random"		"随机"
+
+"NMRiH_Options_Compass"			"指南针"
+"NMRiH_Options_InventoryWeapons"	"武器栏"
+"NMRiH_Options_InventoryAmmo"		"弹药栏"
+"NMRiH_Options_VoiceCommands"		"语音命令"
+"NMRiH_Options_Suicide"			"自杀"
+"NMRiH_Options_Shove"			"推/撞"
+"NMRiH_Options_ShowObjective"		"显示当前任务目标"
+"NMRiH_Options_DropWeapon"		"丢弃武器"
+"NMRiH_Options_Sprint"			"冲刺"
+"NMRiH_Options_Reload"			"上子弹（按住以检查弹药）"
+"NMRiH_Options_Holster"			"收起武器"
+"NMRiH_Options_UnloadWeapon"		"Unload weapon"
+"NMRiH_Call_Vote"				"Call vote"
+"NMRiH_Options_SelectFire"		"Change fire mode"
+"NMRiH_Options_ShowMOTD"		"Show message of the day"
+
+"NMRiH_Difficulty"	"Difficulty"
+
+"NMRiH_Difficulty_Classic"	"Classic"
+"NMRiH_Difficulty_Casual"	"Casual"
+"NMRiH_Difficulty_Nightmare"	"Nightmare"
+
+"VoiceSet"				"语音设置"
+"AmmoCheckType"				"检查弹药"
+
+"AmmoCheckType_Both"			"同时"
+"AmmoCheckType_Voice"			"语音"
+"AmmoCheckType_HUD"			"HUD"
+
+VoiceSet_Default		"牧师"
+VoiceSet_Alt1			"tFg"
+VoiceSet_Alt2			"船长 Munky"
+
+"NMRiH_VoteKickReason"			"Reason"
+"NMRiH_VoteKickReason_Other"	"Other"
+"NMRiH_VoteKickReason_Cheating"	"Cheating"
+"NMRiH_VoteKickReason_Idle"		"Idle"
+"NMRiH_VoteKickReason_Scamming"	"Scamming"
+
+"NMRiH_Vote_Column_Issue"	"Issue"
+"NMRiH_Vote_Column_Name"	"Name"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"No maps available."
+
+"Vote_kick"				"Kick Player"
+"Vote_changelevel"		"Change Level"
+"Vote_nextlevel"		"Next Level"
+"Vote_restart"			"Restart Round"
+
+"NMRiH_Vote_KickPlayer"		"Kick %s1 for %s2?"
+"NMRiH_Vote_ChangeLevel"	"Change level to %s1?"
+"NMRiH_Vote_NextLevel"		"Set next level to %s1?"
+"NMRiH_Vote_RestartRound"	"Restart the round?"
+} 
+}  

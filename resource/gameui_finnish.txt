@@ -1,0 +1,300 @@
+"lang"
+{
+"Language" "Finnish"
+"Tokens"
+{
+
+"GameUI_Error"	"Virhe"
+"GameUI_Notice"	"Ilmoitus"
+"GameUI_Confirm"	"Varmista"
+
+"NMRiH_Dev_NextObjective"		"Seuraava tavoite: %s1"
+
+"NMRiH_CharSelect_Random"		"Satunnainen"
+
+"NMRiH_Options_Compass"			"Kompassi"
+"NMRiH_Options_InventoryWeapons"	"Aseiden tavaraluettelo"
+"NMRiH_Options_InventoryAmmo"		"Ammuksien tavaraluettelo"
+"NMRiH_Options_VoiceCommands"		"Äänikomennot"
+"NMRiH_Options_Suicide"			"Itsemurha"
+"NMRiH_Options_Shove"			"Tönäise"
+"NMRiH_Options_ShowObjective"		"Näytä tavoite"
+"NMRiH_Options_DropWeapon"		"Pudota ase"
+"NMRiH_Options_Sprint"			"Juokse"
+"NMRiH_Options_Reload"			"Lataa ase (pidä pohjassa tarkistaaksesi ammukset)"
+"NMRiH_Options_Holster"			"Koteloi ase"
+"NMRiH_Options_UnloadWeapon"		"Poista panokset"
+"NMRiH_Call_Vote"				"Aloita äänestys"
+"NMRiH_Options_SelectFire"		"Vaihda ampumistilaa"
+"NMRiH_Options_ShowMOTD"		"Näytä MOTD"
+
+"NMRiH_Difficulty"	"Vaikeustaso"
+
+"NMRiH_Difficulty_Classic"		"Klassinen"
+"NMRiH_Difficulty_Casual"		"Rento"
+"NMRiH_Difficulty_Nightmare"	"Painajainen"
+
+"NMRiH_LAN"				"Vain LAN-yhteys"
+
+"VoiceSet"				"Äänipaketti"
+"AmmoCheckType"				"Ammuksien tarkastus"
+
+"AmmoCheckType_Both"			"Ääni ja HUD"
+"AmmoCheckType_Voice"			"Vain ääni"
+"AmmoCheckType_HUD"			"Vain HUD"
+
+"Title_CharacterSelect"			"Hahmon Valinta"
+
+"NMRiH_VoteKickReason"			"Syy"
+"NMRiH_VoteKickReason_Other"	"Muu"
+"NMRiH_VoteKickReason_Cheating"	"Huijaaminen"
+"NMRiH_VoteKickReason_Idle"		"Toimeton"
+"NMRiH_VoteKickReason_Griefing"	"Kiusanteko"
+
+"NMRiH_Vote_Column_Issue"	"Aihe"
+"NMRiH_Vote_Column_Name"	"Nimi"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"Ei karttoja saatavilla."
+
+"Vote_kick"				"Erota pelaaja"
+"Vote_changelevel"		"Vaihda kartta"
+"Vote_nextlevel"		"Seuraava kartta"
+"Vote_restart"			"Aloita kartta alusta"
+"Vote_changechallenge"		"Vaihda haastetta"
+
+"NMRiH_Vote_Kick_Player_Other"		"Erota pelaaja: %s1?\n(syytä ei annettu)"
+"NMRiH_Vote_Kick_Player_Cheating"		"Erota player: %s1?\n(syytetty huijaamisesta)"
+"NMRiH_Vote_Kick_Player_Idle"		"Erota pelaaja: %s1?\n(syytetty toimettomuudesta)"
+"NMRiH_Vote_Kick_Player_Griefing"		"Erota pelaaja: %s1?\n(syytetty kiusanteosta)"
+"NMRiH_Vote_Kick_Player"			"Erota pelaaja: %s1?"
+"NMRiH_Vote_Passed_Kick_Player"	"Erotetaan pelaaja: %s1..."
+
+"NMRiH_Vote_ChangeLevel"	"Vaihdetaanko kartaksi %s1?"
+"NMRiH_Vote_NextLevel"		"Vaihdetaanko seuraavaksi kartaksi %s1?"
+"NMRiH_Vote_RestartRound"	"Aloita kartta alusta?"
+"NMRiH_Vote_ChangeChallenge"	"Vaihdetaanko haasteeksi %s1?"
+
+"NMRiH_Scoreboard_MutePlayer"	"Mykistä pelaaja"
+"NMRiH_Scoreboard_ViewSteamProfile"	"Steam-profiili"
+
+"NMRiH_MutedPlayer"	"Mykistetty pelaaja %s1"
+"NMRiH_UnmutedPlayer"	"Poistettu mykistys pelaajalta %s1"
+
+"NMRiH_Challenge_Random"	"Satunnainen"
+
+//============================
+//Add-on Manager
+//============================
+"Addon_Manager"						"Lisäosien hallinta"
+
+"Addon_Manager_UpdatingAddons"		"Päivitetään lisäosia..."
+"Addon_Manager_ByAuthor"			"Tekijä: %s1"
+"Addon_Manager_Search"				"Hae:"
+"Addon_Manager_Category"				"Kategoria:"
+"Addon_Manager_Sort"				"Järjestys:"
+"Addon_Manager_Refresh"				"Päivitä"
+"Addon_Manager_OpenInWorkshop"		"Avaa Steam Workshop:ssa..."
+"Addon_Manager_BrowseAddons"		"Selaa lisäosia..."
+"Addon_Manager_ApplyChanges"		"Käytä muutoksia"
+"Addon_Manager_InvalidAddon"		"Tämä lisäosa ei ole yhteensopiva."
+"Addon_Manager_MultiSelect"			"[%s1 lisäosaa valittu]"
+
+"Addon_Manager_DropMenu_Disable"	"Ei käytössä"
+"Addon_Manager_DropMenu_ShowInfo"	"Näytä tiedot"
+"Addon_Manager_DropMenu_OpenInWorkshop"	"Avaa Workshop:ssa..."
+"Addon_Manager_DropMenu_ViewChangeNotes"	"Näytä muutosilmoitukset..."
+"Addon_Manager_DropMenu_Uninstall"	"Poista"
+"Addon_Manager_DropMenu_Unsubscribe"	"Peruuta tilaus"
+"Addon_Manager_DropMenu_PackToVPK"	"Pakkaa VPK..."
+"Addon_Manager_DropMenu_PublisherUpdate"	"Päivitä (Julkaisija)"
+"Addon_Manager_DropMenu_Validate"	"Vahvista yhteensopivuus"
+"Addon_Manager_DropMenu_CheckForConflicts"	"Tarkista ristiriitaiset tiedostot..."
+"Addon_Manager_DropMenu_OpenDataFolder"	"Avaa sisällön kansio..."
+"Addon_Manager_DropMenu_PrintAddonInfo"	"Tulosta lisäosan tiedot konsoliin"
+
+"Addon_Manager_DropMenu_MultiSelectEnable"	"Ota käyttöön valitut"
+"Addon_Manager_DropMenu_MultiSelectDisable"	"Poista käytöstä valitut"
+"Addon_Manager_DropMenu_MultiSelectUninstall"	"Poista valitut lisäosat"
+
+"Addon_Manager_Category_All"		"Kaikki"
+"Addon_Manager_Category_Local"		"Paikalliset"
+"Addon_Manager_Category_Workshop"	"Workshop"
+"Addon_Manager_Category_Published"	"Julkaistut"
+"Addon_Manager_Category_VotedUp"	"Äänestetyt"
+"Addon_Manager_Category_Favorited"	"Suosikit"
+"Addon_Manager_Category_Followed"	"Seuratut"
+
+"Addon_Manager_Sort_Title"				"Otsikko"
+"Addon_Manager_Sort_LoadOrder"			"Latausjärjestys"
+"Addon_Manager_Sort_LastUpdated"		"Viimeksi päivitetty"
+
+"Addon_Manager_EmptyList"				"Tyhjä!"
+"Addon_Manager_EmptyList_Tip"			"Käy lisäosien Workshop:ssa."
+"Addon_Manager_EmptyList_TipFilter"		"Tarkista suodattimet."
+
+"Addon_Manager_Search_NotFound"			"Ei tuloksia!"
+"Addon_Manager_Search_NotFound_Tip"		"Tarkista hakusanat."
+
+"Addon_Manager_NotAvailable"				"Lisäosat eivät ole saatavilla."
+"Addon_Manager_NotAvailable_CmdLine"		"Käynnistysasetus \"-noaddons\" on päällä."
+"Addon_Manager_NotAvailable_Disabled"		"Voit ottaa lisäosat käyttöön asetuksista."
+"Addon_Manager_NotAvailable_NoSteam"		"Ei yhteyttä Steamiin."
+
+"Addon_Manager_DisabledNotice"		"Lisäosat ovat pois käytöstä, mutta voit silti muokata niitä. Voit ottaa lisäosat käyttöön asetuksista.\n(Tämä ei vaikuta Workshop karttoihin.)"
+"Addon_Manager_NoConnection"		"Ei yhteyttä Steamiin, Workshopin lisäosia ei voida hallita. Asentamasi lisäosat toimivat myös ilman verkkoyhteyttä."
+
+"Addon_Manager_UnsubscribeAddon_Title"		"Peruuta lisäosan tilaus"
+"Addon_Manager_UnsubscribeAddon_Message"	"Lisäosan %s1 tilaus peruutetaan, oletko varma?"
+
+"Addon_Manager_UninstallAddon_Title"	"Poista lisäosa"
+"Addon_Manager_UninstallAddon_Message"	"%s1 poistetaan pysyvästi jos jatkat, tätä ei voi peruuttaa."
+"Addon_Manager_UninstallAddon_Tip"		"VINKKI: Voit helposti poistaa lisäosan käytöstä pudotusvalikosta sen sijaan, että poistaisit sen."
+"Addon_Manager_UninstallAddon_Failed"	"Lisäosan poisto epäonnistui!"
+
+"Addon_Manager_MultiSelectUninstall_Title"		"Poista useita lisäosia"
+"Addon_Manager_MultiSelectUninstall_Message"	"%s1 valittua lisäosaa poistetaan/peruutetaan. Oletko varma?"
+
+"Addon_Manager_SubscribedAddon"			"Lisäosien hallinta löysi uusia tilattuja lisäosia."
+"Addon_Manager_ApplyChangesDialog"		"Haluatko ottaa muutokset käyttöön? Peli käynnistetään uudelleen."
+
+"Addon_Manager_AdvancedPanel"		"Lisäasetukset"
+"Addon_Manager_Advanced_ImportCfg"		"Tuo lisäosien asetukset..."
+"Addon_Manager_Advanced_ExportCfg"		"Vie lisäosien asetukset..."
+"Addon_Manager_Advanced_ClearPreviewCache"		"Tyhjennä esikatseluiden välimuisti"
+"Addon_Manager_Advanced_ConfigReset"		"Palauta kaikkien lisäosien asetukset..."
+
+"Addon_Manager_ImportCfg"			"Tuo lisäosien asetukset"
+"Addon_Manager_ExportCfg"			"Vie lisäosien asetukset"
+"Addon_Manager_CfgFileType"		"Lisäosien asetukset (.txt)"
+"Addon_Manager_ImportCfgSuccess"		"Lisäosien asetukset tuotiin onnistuneesti, käynnistä peli uudelleen ottaaksesi muutokset käyttöön."
+"Addon_Manager_ExportCfgSuccess"		"Lisäosien asetukset vietiin onnistuneesti."
+"Addon_Manager_FailedToImportCfg"		"Lisäosien asetuksien tuonti epäonnistui. Tiedosto on viallinen."
+
+"Addon_Manager_PreviewCacheCleared_Title"	"Välimuisti tyhjennetty"
+"Addon_Manager_PreviewCacheCleared_Message"	"Esikatselukuvien välimuisti on tyhjennetty."
+
+"Addon_Manager_ConfigReset_Confirm"	"Haluatko varmasti palauttaa lisäosien asetukset? Latausjärjestyksesi ja nykyiset asetukset katoavat."
+
+"Addon_Manager_ConfigReset_Title"	"Asetukset palautettu"
+"Addon_Manager_ConfigReset_Message"	"Lisäosien asetukset on palautettu. Muutokset tulevat voimaan pelin uudelleen käynnistyksen jälkeen."
+
+"Addon_Manager_InfoPanel"				"Lisäosan tiedot"
+"Addon_Manager_InfoPanel_Title"			"Otsikko"
+"Addon_Manager_InfoPanel_Author"		"Tekijä"
+"Addon_Manager_InfoPanel_Summary"		"Tiivistelmä"
+"Addon_Manager_InfoPanel_Workshop"		"Workshop"
+"Addon_Manager_InfoPanel_Tags"			"Tunnisteet"
+"Addon_Manager_InfoPanel_LoadOrder"		"Latausjärjestys"
+"Addon_Manager_InfoPanel_Installed"		"Asennettu"
+"Addon_Manager_InfoPanel_LastModified"	"Viimeksi muokattu"
+"Addon_Manager_InfoPanel_FileSize"		"Tiedostokoko"
+"Addon_Manager_InfoPanel_WorkshopID"	"Workshop ID"
+"Addon_Manager_InfoPanel_UserRating"	"Käyttäjien pisteet"
+"Addon_Manager_InfoPanel_None"			"[tyhjä]"
+
+//============================
+//Workshop Publisher
+//============================
+"Workshop_Publisher"				"Workshop-julkaisija"
+"Workshop_Publisher_AddonForm"		"Lisäosan lomake"
+"Workshop_Publisher_UpdateExisting"	"Päivitä olemassa oleva lisäosa"
+"Workshop_Publisher_UploadProgress"	"Lähetetään lisäosaa Steam Workshop:iin..."		
+
+"Workshop_Publisher_TaskSelection"		"Valitse tehtävä:"
+"Workshop_Publisher_TaskSelection_UploadNew"	"Julkaise uusi lisäosa"
+"Workshop_Publisher_TaskSelection_UpdateExisting"	"Päivitä olemassa oleva lisäosa"
+
+"Workshop_Publisher_NoConnection"	"Ei yhteyttä Steamiin, Workshop-julkaisija ei ole saatavilla."
+"Workshop_Publisher_NoAddons"		"Lisäosat ovat poistettu käytöstä, Workshop-julkaisija ei ole saatavilla."
+
+"Workshop_Publisher_AddonForm_Title"				"Otsikko: *"
+"Workshop_Publisher_AddonForm_Desc"					"Kuvaus:"
+"Workshop_Publisher_AddonForm_Summary"				"Tiivistelmä:"
+"Workshop_Publisher_AddonForm_ChangeNotes"			"Muutosloki:"
+"Workshop_Publisher_AddonForm_ContentPath"			"Sisällön polku: *"
+"Workshop_Publisher_AddonForm_PreviewImage"			"Esikatselun kuvake: *"
+"Workshop_Publisher_AddonForm_Category"				"Luokka:"
+"Workshop_Publisher_AddonForm_Tags"					"Tunnisteet (erittele ',' merkillä):"
+"Workshop_Publisher_AddonForm_ItemVisibility"		"Lisäosan näkyvyys:"
+"Workshop_Publisher_AddonForm_Browse"				"Selaa..."
+"Workshop_Publisher_AddonForm_PackToVPK"			"Pakkaa VPK tiedostoon"
+"Workshop_Publisher_AddonForm_Publish"				"Julkaise"
+"Workshop_Publisher_AddonForm_KeepExisting"			"Pidä nykyinen"
+"Workshop_Publisher_AddonForm_LegalAccept"			"Hyväksyn Steamin käyttöehdot"
+"Workshop_Publisher_AddonForm_ViewLegal"			"Lue käyttöehdot..."
+"Workshop_Publisher_AddonForm_ClearForm"			"Tyhjennä lomake"
+"Workshop_Publisher_AddonForm_TooltipSummary"		"Lyhyt kuvaus lisäosasta, joka näkyy käyttöliittymässä."
+"Workshop_Publisher_AddonForm_TooltipChangeNotes"	"Tämä kommentti näkyy Workshop-sivusi muutosilmoituksissa."
+
+"Workshop_Publisher_BrowseContent"		"Valitse sisältö"
+"Workshop_Publisher_BrowsePreview"		"Valitse esikatselun kuvake"
+
+"Workshop_Publisher_Filter_AllContent"		"Kaikki sisältö (*.vpk, *.bsp)"
+"Workshop_Publisher_Filter_VPK"				"Valven pakkaustiedosto (*.vpk)"
+"Workshop_Publisher_Filter_BSP"				"BSP-karttatiedosto (*.bsp)"
+
+"Workshop_Publisher_Filter_AllImages"		"Kaikki kuvat (*.jpg, *.png, *.gif)"
+"Workshop_Publisher_Filter_JPEG"			"JPEG kuvat (*.jpg)"
+"Workshop_Publisher_Filter_PNG"				"PNG kuvat (*.png)"
+"Workshop_Publisher_Filter_GIF"				"GIF kuvat (*.gif)"
+
+"Workshop_Publisher_Visibility_Public"		"Julkinen"
+"Workshop_Publisher_Visibility_FriendsOnly"	"Vain kaverit"
+"Workshop_Publisher_Visibility_Private"		"Yksityinen"
+
+"Workshop_Publisher_Category_None"			"Tyhjä"
+
+"Workshop_Publisher_UpdatingExisting"		"(Päivitetään olemassa olevaa lisäosaa %s1)"
+
+"Workshop_Publisher_OpenInWorkshop"			"Avaa Workshop:ssa..."
+
+"Workshop_Publisher_ConfirmClose"			"Sinulla on julkaisemattomia muutoksia, haluatko varmasti poistua?"
+"Workshop_Publisher_ConfirmClear"			"Sinulla on julkaisemattomia muutoksia, haluatko varmasti tyhjentää lomakkeen?"
+
+"Workshop_Publisher_Status_StartingUp"				"Aloitetaan..."
+"Workshop_Publisher_Status_PreparingConfig"			"Valmistellaan asetuksia..."
+"Workshop_Publisher_Status_PreparingContent"		"Valmistellaan sisältöä..."
+"Workshop_Publisher_Status_StartingContentUpload"	"Aloitetaan sisällön lähetys..."
+"Workshop_Publisher_Status_UploadingContent"		"Lähetetään sisältöä... (%s1/%s2)"
+"Workshop_Publisher_Status_UploadingPreviewFile"	"Lähetetään esikatselun tiedostoa..."
+"Workshop_Publisher_Status_CommittingChanges"		"Tehdään muutokset..."
+"Workshop_Publisher_Status_Finished"				"Lähetys on valmis."
+
+"Workshop_Publisher_VPK_PackDir"			"Pakkaa kansio VPK-tiedostoon"
+"Workshop_Publisher_VPK_Save"				"Tallenna pakattu VPK..."
+"Workshop_Publisher_VPK_Overwrite"			"%s1 on jo olemessa, haluatko korvata tiedoston?"
+
+"Workshop_Publisher_Error_NoSteam"			"Steam Workshop ei ole saatavilla. Tarkista verkkoyhteytesi tai yritä myöhemmin uudelleen."
+"Workshop_Publisher_Error_NoTitle"			"Lisäosa tarvitsee otsikon."
+"Workshop_Publisher_Error_NoContentPath"	"Lisäosasta puuttuu sisältö."
+"Workshop_Publisher_Error_NoPreviewPath"	"Lisäosasta puuttuu esikatselun kuvake."
+"Workshop_Publisher_Error_NoContentPathExisting"	"Lisäosasta puuttuu sisältö.. (Valitse \"Pidä nykyinen\" käyttääksesi nykyistä sisältöä.)"
+"Workshop_Publisher_Error_NoPreviewPathExisting"	"Lisäosasta puuttuu esikatselun kuvake. (Valitse \"Pidä nykyinen\" käyttääksesi nykyistä kuvaketta.)"
+"Workshop_Publisher_Error_TooBigPreview"	"Esikatselun kuvake on liian suuri, tiedostokoon raja on 1 MB."
+"Workshop_Publisher_Error_PublisherError"	"Virhe julkaisemisessa"
+"Workshop_Publisher_Error_UploadFailed"		"Lisäosan julkaisussa tapahtui virhe. Lisäosaa ei ole julkaistu. (Virhekoodi: %s1)"
+"Workshop_Publisher_Error_InvalidBSP"		"Viallinen BSP-tiedosto! Tiedosto ei ole yhteensopiva, tai on vioittunut."
+
+"Workshop_Publisher_MissingNMO"			"Valitsemasi kartta ei sisällä .nmo tiedostoa! Varmista että tämä tiedosto on samassa polussa BSP tiedoston kanssa.\Mikäli julkaiset tämän kartan, pelin tavoitteet eivät toimi."
+"Workshop_Publisher_MissingNAV"			"Valitsemasi kartta ei sisällä .nav tiedostoa! Varmista että tämä tiedosto on samassa polussa BSP tiedoston kanssa.\nMikäli julkaiset tämän kartan, zombit eivät välttämättä osaa kulkea kartan alueilla."
+"Workshop_Publisher_MissingNMOAndNAV"	"Valitsemastasi kartasta puuttuu .nmo ja .nav tiedostot! Varmista että tiedostot ovat samassa polussa BSP tiedoston kanssa.\nMikäli julkaiset tämän kartan, pelin tavoitteet eivät toimi ja zombit eivät välttämättä osaa kulkea kartan alueilla."
+
+"VPKTools_Error"						"VPK virhe"
+"VPKTools_Error_Name"					"Virhe: %s1"
+"VPKTools_Error_BadFileExtension"		"Virhe: Kielletty tiedostopääte \"%s1\" löydetty!"
+"VPKTools_Error_FailedToPack"			"Lisäosan pakkaus VPK-tiedostoon epäonnistui!"
+"VPKTools_Error_FailedToPackDir"		"Kansion pakkaus VPK-tiedostoon epäonnistui!"
+"VPKTools_Error_NotValid"				"Valitsemasi VPK-tiedosto ei ole yhteensopiva, eikä sitä voi lähettää Steam Workshop:iin!"
+
+"VPKTools_Error_FileNotFound"			"Tiedosto ei ole yhteensopiva, tai on vioittunut."
+"VPKTools_Error_FileEmpty"				"Tiedosto on tyhjä."
+"VPKTools_Error_FileNotOK"				"Tiedoston 'kahva' ei ole 'OK'. (Mahdollisesti yhteensopimaton, vahingoittunut tai puuttuva tiedosto)"
+"VPKTools_Error_BadSignature"			"Tiedoston allekirjoitus on väärä."
+"VPKTools_Error_BadVersion"				"VPK-tiedoston versio ei ole yhteensopiva."
+"VPKTools_Error_BannedFileExtension"	"Kielletty tiedostopääte löytyi."
+"VPKTools_Error_CfgFilesNotAllowed"		"Käyttäjän asetuksia sisältävät tiedostot (cfg) ovat kielletty, poista \"cfg\" kansio VPK-tiedostosta jatkaaksesi."
+}
+}
+
+// Felis - last updated: 2020-07-24

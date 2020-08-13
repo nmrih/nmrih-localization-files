@@ -1,0 +1,65 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{ 
+
+"NMRiH_Dev_NextObjective"		"Następny Cel: %s1"
+
+"NMRiH_CharSelect_Random"		"domyślny"
+
+"NMRiH_Options_Compass"			"Kompas"
+"NMRiH_Options_InventoryWeapons"	"Weapon inventory"
+"NMRiH_Options_InventoryAmmo"		"Zapas amunicji"
+"NMRiH_Options_VoiceCommands"		"Voice commands"
+"NMRiH_Options_Suicide"			"Samobójstwo"
+"NMRiH_Options_Shove"			"pchnij/odepchnij"
+"NMRiH_Options_ShowObjective"		"Pokaż aktualny cel"
+"NMRiH_Options_DropWeapon"		"Upuść broń"
+"NMRiH_Options_Sprint"			"Sprint"
+"NMRiH_Options_Reload"			"Przeładuj broń (przytrzymaj aby sprawdzić)"
+"NMRiH_Options_Holster"			"Broń w kaburze"
+"NMRiH_Options_UnloadWeapon"		"Unload weapon"
+"NMRiH_Call_Vote"				"Call vote"
+"NMRiH_Options_SelectFire"		"Change fire mode"
+"NMRiH_Options_ShowMOTD"		"Show message of the day"
+
+"NMRiH_Difficulty"	"Difficulty"
+
+"NMRiH_Difficulty_Classic"	"Classic"
+"NMRiH_Difficulty_Casual"	"Casual"
+"NMRiH_Difficulty_Nightmare"	"Nightmare"
+
+"VoiceSet"				"Voice Set"
+"AmmoCheckType"				"Sprawdzenie amunicji"
+
+"AmmoCheckType_Both"			"Głos i HUD"
+"AmmoCheckType_Voice"			"Tylko głos"
+"AmmoCheckType_HUD"			"Tylko HUD"
+
+"Title_CharacterSelect"			"Wybór charakteru"
+
+"NMRiH_VoteKickReason"			"Reason"
+"NMRiH_VoteKickReason_Other"	"Other"
+"NMRiH_VoteKickReason_Cheating"	"Cheating"
+"NMRiH_VoteKickReason_Idle"		"Idle"
+"NMRiH_VoteKickReason_Scamming"	"Scamming"
+
+"NMRiH_Vote_Column_Issue"	"Issue"
+"NMRiH_Vote_Column_Name"	"Name"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"No maps available."
+
+"Vote_kick"				"Kick Player"
+"Vote_changelevel"		"Change Level"
+"Vote_nextlevel"		"Next Level"
+"Vote_restart"			"Restart Round"
+
+"NMRiH_Vote_KickPlayer"		"Kick %s1 for %s2?"
+"NMRiH_Vote_ChangeLevel"	"Change level to %s1?"
+"NMRiH_Vote_NextLevel"		"Set next level to %s1?"
+"NMRiH_Vote_RestartRound"	"Restart the round?"
+} 
+}
+//Credit to Alex Wawros

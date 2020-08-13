@@ -1,0 +1,298 @@
+"lang" 
+{ 
+"Language" "Korean" 
+"Tokens" 
+{ 
+
+"GameUI_Error"	"오류"
+"GameUI_Notice"	"Notice"
+"GameUI_Confirm"	"확인"
+
+"NMRiH_Dev_NextObjective"		"다음 목표: %s1"
+
+"NMRiH_CharSelect_Random"		"무작위"
+
+"NMRiH_Options_Compass"			"나침반"
+"NMRiH_Options_InventoryWeapons"	"무기 인벤토리"
+"NMRiH_Options_InventoryAmmo"		"탄약 인벤토리"
+"NMRiH_Options_VoiceCommands"		"대화"
+"NMRiH_Options_Suicide"			"자살"
+"NMRiH_Options_Shove"			"밀치기/베기"
+"NMRiH_Options_ShowObjective"		"현재 목표 확인"
+"NMRiH_Options_DropWeapon"		"무기 버리기"
+"NMRiH_Options_Sprint"			"전력질주"
+"NMRiH_Options_Reload"			"장전 (꾹 눌러 탄약 체크)"
+"NMRiH_Options_Holster"			"무기 거두기"
+"NMRiH_Options_UnloadWeapon"		"총알 빼기"
+"NMRiH_Call_Vote"				"투표 신청"
+"NMRiH_Options_SelectFire"		"사격 모드 전환"
+"NMRiH_Options_ShowMOTD"		"서버의 규칙 보기"
+
+"NMRiH_Difficulty"	"난이도"
+
+"NMRiH_Difficulty_Classic"		"클래식"
+"NMRiH_Difficulty_Casual"		"캐주얼"
+"NMRiH_Difficulty_Nightmare"	"나이트메어"
+
+"NMRiH_LAN"				"LAN 전용"
+
+"VoiceSet"				"음성 설정"
+"AmmoCheckType"				"총알 수 확인"
+
+"AmmoCheckType_Both"			"음성과 HUD"
+"AmmoCheckType_Voice"			"음성만"
+"AmmoCheckType_HUD"			"HUD만"
+
+"Title_CharacterSelect"			"캐릭터 선택"
+
+"NMRiH_VoteKickReason"			"이유"
+"NMRiH_VoteKickReason_Other"	"그 외"
+"NMRiH_VoteKickReason_Cheating"	"부정 행위"
+"NMRiH_VoteKickReason_Idle"		"잠수"
+"NMRiH_VoteKickReason_Scamming"	"사기"
+
+"NMRiH_Vote_Column_Issue"	"주제"
+"NMRiH_Vote_Column_Name"	"닉네임"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"활성화 된 맵 없음."
+
+"Vote_kick"				"플레이어 추방"
+"Vote_changelevel"		"레벨 변경"
+"Vote_nextlevel"		"다음 레벨"
+"Vote_restart"			"라운드 재시작"
+"Vote_changechallenge"		"챌린지 변경"
+
+"NMRiH_Vote_Kick_Player_Other"		"플레이어 추방: %s1?\n(이유 불명)"
+"NMRiH_Vote_Kick_Player_Cheating"		"플레이어 추방: %s1?\n(부정 행위)"
+"NMRiH_Vote_Kick_Player_Idle"		"플레이어 추방: %s1?\n(잠수)"
+"NMRiH_Vote_Kick_Player_Griefing"		"플레이어 추방: %s1?\n(사기)"
+"NMRiH_Vote_Kick_Player"			"플레이어 추방: %s1?"
+"NMRiH_Vote_Passed_Kick_Player"	"플레이어 추방 중: %s1..."
+
+"NMRiH_Vote_ChangeLevel"	"맵을 %s1으로 변경할까요?"
+"NMRiH_Vote_NextLevel"		"%s1맵을 다음 맵으로 설정할까요?"
+"NMRiH_Vote_RestartRound"	"라운드를 재시작 할까요?"
+"NMRiH_Vote_ChangeChallenge"	"챌린지를 %s1으로 변경할까요?"
+
+"NMRiH_Scoreboard_MutePlayer"	"플레이어 음소거"
+"NMRiH_Scoreboard_ViewSteamProfile"	"Steam 프로필 보기"
+
+"NMRiH_MutedPlayer"	"%s1의 목소리 음소거"
+"NMRiH_UnmutedPlayer"	"%s1의 목소리 음소거 해제"
+
+"NMRiH_Challenge_Random"	"무작위"
+
+//============================
+//Add-on Manager
+//============================
+"Addon_Manager"						"애드온 매니저"
+
+"Addon_Manager_UpdatingAddons"		"에드온 업데이트 중..."
+"Addon_Manager_ByAuthor"			"게시자 %s1"
+"Addon_Manager_Search"				"검색:"
+"Addon_Manager_Category"				"카테고리:"
+"Addon_Manager_Sort"				"분류:"
+"Addon_Manager_Refresh"				"새로고침"
+"Addon_Manager_OpenInWorkshop"		"Steam 창작마당에서 열기..."
+"Addon_Manager_BrowseAddons"		"애드온 검색..."
+"Addon_Manager_ApplyChanges"		"변경 적용"
+"Addon_Manager_InvalidAddon"		"이 애드온은 호환이 불가능한 애드온입니다."
+"Addon_Manager_MultiSelect"			"[%s1 애드온 선택됨]"
+
+"Addon_Manager_DropMenu_Disable"	"끄기"
+"Addon_Manager_DropMenu_ShowInfo"	"정보 보기"
+"Addon_Manager_DropMenu_OpenInWorkshop"	"창작마당에서 열기..."
+"Addon_Manager_DropMenu_ViewChangeNotes"	"변경 사항 보기..."
+"Addon_Manager_DropMenu_Uninstall"	"삭제"
+"Addon_Manager_DropMenu_Unsubscribe"	"구독 해제"
+"Addon_Manager_DropMenu_PackToVPK"	"VPK로 압축..."
+"Addon_Manager_DropMenu_PublisherUpdate"	"게시자로서 업데이트"
+"Addon_Manager_DropMenu_Validate"	"무결성 검사"
+"Addon_Manager_DropMenu_CheckForConflicts"	"Check for Conflicts..."
+"Addon_Manager_DropMenu_OpenDataFolder"	"데이터 폴더 열기..."
+"Addon_Manager_DropMenu_PrintAddonInfo"	"콘솔로 애드온 정보 프린트하기"
+
+"Addon_Manager_DropMenu_MultiSelectEnable"	"켜기 선택됨"
+"Addon_Manager_DropMenu_MultiSelectDisable"	"끄기 선택됨"
+"Addon_Manager_DropMenu_MultiSelectUninstall"	"삭제 선택됨"
+
+"Addon_Manager_Category_All"		"모두"
+"Addon_Manager_Category_Local"		"로컬"
+"Addon_Manager_Category_Workshop"	"창작마당"
+"Addon_Manager_Category_Published"	"게시한 작품"
+"Addon_Manager_Category_VotedUp"	"좋아요 누른 작품"
+"Addon_Manager_Category_Favorited"	"즐겨찾기"
+"Addon_Manager_Category_Followed"	"팔로우"
+
+"Addon_Manager_Sort_Title"				"제목"
+"Addon_Manager_Sort_LoadOrder"			"사용자 분류"
+"Addon_Manager_Sort_LastUpdated"		"업데이트 순"
+
+"Addon_Manager_EmptyList"				"아무것도 없습니다!"
+"Addon_Manager_EmptyList_Tip"			"창작마당을 방문해 보세요."
+"Addon_Manager_EmptyList_TipFilter"		"필터를 확인해 보세요."
+
+"Addon_Manager_Search_NotFound"			"아무것도 찾을 수 없습니다!"
+"Addon_Manager_Search_NotFound_Tip"		"띄어쓰기를 확인해 보세요."
+
+"Addon_Manager_NotAvailable"				"애드온을 사용할 수 없습니다."
+"Addon_Manager_NotAvailable_CmdLine"		"시작 옵션 설정에서 \"-noaddons\" 이 설정되어 있습니다."
+"Addon_Manager_NotAvailable_Disabled"		"설정에서 애드온을 켤 수 있습니다."
+"Addon_Manager_NotAvailable_NoSteam"		"Steam에 연결되지 않았습니다."
+
+"Addon_Manager_DisabledNotice"		"애드온을 사용할 수 없습니다, 그렇지만 관리는 할 수 있습니다. 설정에서 에드온을 켤 수 있습니다.\n(이 사항은 창작마당 맵에 포함되지 않습니다.)"
+"Addon_Manager_NoConnection"		"Steam에 연결 할 수 없습니다, 창작마당 애드온 관리도 할 수없습니다. 오프라인으로 설치한 애드온은 사용할 수 있습니다."
+
+"Addon_Manager_UnsubscribeAddon_Title"		"애드온 구독 해제"
+"Addon_Manager_UnsubscribeAddon_Message"	"%s1이(가) 구독 해제됩니다, 확실합니까?"
+
+"Addon_Manager_UninstallAddon_Title"	"애드온 삭제"
+"Addon_Manager_UninstallAddon_Message"	"%s1이(가) 영구적으로 삭제됩니다, 취소할 수 없습니다."
+"Addon_Manager_UninstallAddon_Tip"		"팁: 애드온을 삭제하는 대신에 간단하게 해제 할 수 있습니다."
+"Addon_Manager_UninstallAddon_Failed"	"삭제 실패!"
+
+"Addon_Manager_MultiSelectUninstall_Title"		"다수의 애드온 삭제"
+"Addon_Manager_MultiSelectUninstall_Message"	"%s1 애드온이 삭제/구독 해제됩니다, 확실합니까?"
+
+"Addon_Manager_SubscribedAddon"			"애드온 매니저는 새로 구독한 애드온을 알려줍니다."
+"Addon_Manager_ApplyChangesDialog"		"정말 변경 사항을 적용하시겠습니까? 게임을 재시작해야합니다."
+
+"Addon_Manager_AdvancedPanel"		"고급"
+"Addon_Manager_Advanced_ImportCfg"		"애드온 구성 불러오기..."
+"Addon_Manager_Advanced_ExportCfg"		"애드온 구성 내보내기..."
+"Addon_Manager_Advanced_ClearPreviewCache"		"미리보기 캐시 비우기"
+"Addon_Manager_Advanced_ConfigReset"		"모든 애드온 설정 초기화..."
+
+"Addon_Manager_ImportCfg"			"애드온 구성 불러오기"
+"Addon_Manager_ExportCfg"			"애드온 구성 내보내기"
+"Addon_Manager_CfgFileType"		"애드온 구성 (.txt)"
+"Addon_Manager_ImportCfgSuccess"		"애드온을 불러왔습니다, 재시작을 해야 적용됩니다."
+"Addon_Manager_ExportCfgSuccess"		"애드온을 내보냈습니다."
+"Addon_Manager_FailedToImportCfg"		"애드온 불러오기를 실패했습니다. 파일이 무효합니다."
+
+"Addon_Manager_PreviewCacheCleared_Title"	"캐시가 비워졌습니다"
+"Addon_Manager_PreviewCacheCleared_Message"	"미리보기 이미지 캐시가 비워졌습니다."
+
+"Addon_Manager_ConfigReset_Confirm"	"애드온 설정을 정말 초기화 하시겠습니까? 설정하신 사용자 분류랑 켜기/끄기 설정을 잃습니다."
+
+"Addon_Manager_ConfigReset_Title"	"설정 초기화"
+"Addon_Manager_ConfigReset_Message"	"애드온 설정이 초기화됬습니다. 재시작을 해야 적용됩니다."
+
+"Addon_Manager_InfoPanel"				"애드온 정보"
+"Addon_Manager_InfoPanel_Title"			"제목"
+"Addon_Manager_InfoPanel_Author"		"게시자"
+"Addon_Manager_InfoPanel_Summary"		"개요"
+"Addon_Manager_InfoPanel_Workshop"		"창작마당"
+"Addon_Manager_InfoPanel_Tags"			"태그"
+"Addon_Manager_InfoPanel_LoadOrder"		"사용자 분류"
+"Addon_Manager_InfoPanel_Installed"		"설치됨"
+"Addon_Manager_InfoPanel_LastModified"	"마지막으로 수정된"
+"Addon_Manager_InfoPanel_FileSize"		"파일 크기"
+"Addon_Manager_InfoPanel_WorkshopID"	"창작마당 ID"
+"Addon_Manager_InfoPanel_UserRating"	"유저 평가"
+"Addon_Manager_InfoPanel_None"			"[none]"
+
+//============================
+//Workshop Publisher
+//============================
+"Workshop_Publisher"				"창작마당 게시자"
+"Workshop_Publisher_AddonForm"		"Add-on Form"
+"Workshop_Publisher_UpdateExisting"	"존재하는 애드온 업데이트"
+"Workshop_Publisher_UploadProgress"	"창작마당에 애드온 업로드 중..."		
+
+"Workshop_Publisher_TaskSelection"		"선택하세요:"
+"Workshop_Publisher_TaskSelection_UploadNew"	"애드온 새로 업로드하기"
+"Workshop_Publisher_TaskSelection_UpdateExisting"	"업로드했던 애드온 업데이트하기"
+
+"Workshop_Publisher_NoConnection"	"Steam과 연결되어 있지 않습니다, 창작마당 게시자를 사용할 수 없습니다."
+"Workshop_Publisher_NoAddons"		"에드온이 꺼져있습니다, 창작마당 게시자를 사용할 수 없습니다."
+
+"Workshop_Publisher_AddonForm_Title"				"제목: *"
+"Workshop_Publisher_AddonForm_Desc"					"설명:"
+"Workshop_Publisher_AddonForm_Summary"				"짧은 설명:"
+"Workshop_Publisher_AddonForm_ChangeNotes"			"변경 노트:"
+"Workshop_Publisher_AddonForm_ContentPath"			"컨텐츠 경로: *"
+"Workshop_Publisher_AddonForm_PreviewImage"			"미리보기 이미지: *"
+"Workshop_Publisher_AddonForm_Category"				"카테고리:"
+"Workshop_Publisher_AddonForm_Tags"					"태그 (','으로 분류합니다):"
+"Workshop_Publisher_AddonForm_ItemVisibility"		"공개 유형:"
+"Workshop_Publisher_AddonForm_Browse"				"찾아보기..."
+"Workshop_Publisher_AddonForm_PackToVPK"			"VPK로 압축"
+"Workshop_Publisher_AddonForm_Publish"				"게시하기"
+"Workshop_Publisher_AddonForm_KeepExisting"			"이미 존재하는 것"
+"Workshop_Publisher_AddonForm_LegalAccept"			"Steam Subscriber Agreement에 동의합니다"
+"Workshop_Publisher_AddonForm_ViewLegal"			"Agreement 보기..."
+"Workshop_Publisher_AddonForm_ClearForm"			"전부 지우기"
+"Workshop_Publisher_AddonForm_TooltipSummary"		"애드온에 관한 짧은 설명입니다, GUI에 표시됩니다."
+"Workshop_Publisher_AddonForm_TooltipChangeNotes"	"이 노트는 업데이트마다 무엇을 업데이트했는지 알려주는 노트입니다."
+
+"Workshop_Publisher_BrowseContent"		"컨텐츠 찾아보기"
+"Workshop_Publisher_BrowsePreview"		"미리보기 이미지 찾아보기"
+
+"Workshop_Publisher_Filter_AllContent"		"모든 컨텐츠 (*.vpk, *.bsp)"
+"Workshop_Publisher_Filter_VPK"				"Valve Pack File (*.vpk)"
+"Workshop_Publisher_Filter_BSP"				"BSP 맵 파일 (*.bsp)"
+
+"Workshop_Publisher_Filter_AllImages"		"모든 이미지 (*.jpg, *.png, *.gif)"
+"Workshop_Publisher_Filter_JPEG"			"JPEG 이미지 (*.jpg)"
+"Workshop_Publisher_Filter_PNG"				"PNG 이미지 (*.png)"
+"Workshop_Publisher_Filter_GIF"				"GIF 이미지 (*.gif)"
+
+"Workshop_Publisher_Visibility_Public"		"공개"
+"Workshop_Publisher_Visibility_FriendsOnly"	"친구 전용"
+"Workshop_Publisher_Visibility_Private"		"비공개"
+
+"Workshop_Publisher_Category_None"			"None"
+
+"Workshop_Publisher_UpdatingExisting"		"(이미 존재하는 %s1애드온 업데이트 중)"
+
+"Workshop_Publisher_OpenInWorkshop"			"창작마당에서 열기..."
+
+"Workshop_Publisher_ConfirmClose"			"변경점이 게시되지 않았습니다, 정말로 닫으시겠습니까?"
+"Workshop_Publisher_ConfirmClear"			"변경점이 게시되지 않았습니다, 정말로 모두 지우시겠습니까?"
+
+"Workshop_Publisher_Status_StartingUp"				"시작하는 중..."
+"Workshop_Publisher_Status_PreparingConfig"			"설정 준비하는 중..."
+"Workshop_Publisher_Status_PreparingContent"		"컨텐츠 준비하는 중..."
+"Workshop_Publisher_Status_StartingContentUpload"	"컨텐츠 업로드를 시작하는 중..."
+"Workshop_Publisher_Status_UploadingContent"		"컨텐츠 업로드 중... (%s1/%s2)"
+"Workshop_Publisher_Status_UploadingPreviewFile"	"미리보기 파일 업로드 중..."
+"Workshop_Publisher_Status_CommittingChanges"		"변경점 적용 중..."
+"Workshop_Publisher_Status_Finished"				"업로드 완료."
+
+"Workshop_Publisher_VPK_PackDir"			"Pack directory to VPK"
+"Workshop_Publisher_VPK_Save"				"Save packed VPK..."
+"Workshop_Publisher_VPK_Overwrite"			"%s1이(가) 이미 존재합니다, 정말로 붙여 쓰시겠습니까?"
+
+"Workshop_Publisher_Error_NoSteam"			"Steam 창작마당을 사용할 수 없습니다. 네트워크 연결을 확인하거나 나중에 다시 시도해보세요."
+"Workshop_Publisher_Error_NoTitle"			"애드온에 제목이 필요합니다."
+"Workshop_Publisher_Error_NoContentPath"	"지정된 컨텐츠 경로가 비었습니다."
+"Workshop_Publisher_Error_NoPreviewPath"	"지정된 미리보기 이미지 경로가 비었습니다."
+"Workshop_Publisher_Error_NoContentPathExisting"	"지정된 컨텐츠 경로가 비었습니다. (이미 있는 컨텐츠를 사용하려면 \"이미 존재하는(Keep Existing)\"을 선택하세요.)"
+"Workshop_Publisher_Error_NoPreviewPathExisting"	"지정된 미리보기 이미지 경로가 비었습니다. (이미 있는 미리보기를 사용하려면 \"이미 존재하는(Keep Existing)\" 을 선택하세요.)"
+"Workshop_Publisher_Error_TooBigPreview"	"미리보기 파일이 너무 큽니다, 파일 크기는 1 MB로 제한되어 있습니다."
+"Workshop_Publisher_Error_PublisherError"	"게시자 오류"
+"Workshop_Publisher_Error_UploadFailed"		"오류가 발생하였습니다, 애드온이 게시되지 않았습니다. (오류 코드: %s1)"
+"Workshop_Publisher_Error_InvalidBSP"		"알 수 없는 BSP! 파일이 불안정하거나 손상되었습니다."
+
+"Workshop_Publisher_MissingNMO"			"선택된 오브젝트 맵에 .nmo 파일이 비었습니다! 그 파일은 BSP. 파일과 똑같은 위치에 있어야 합니다.\n만약 이 상태로 맵을 게시하면, 오브젝트(목표)가 작동되지 않을 수 있습니다."
+"Workshop_Publisher_MissingNAV"			"선택된 맵에 .nav 파일이 비었습니다! 그 파일은 BSP. 파일과 똑같은 위치에 있어야 합니다.\n만약 이 상태로 맵을 게시하면, 좀비가 안 움직일 수도 있습니다."
+"Workshop_Publisher_MissingNMOAndNAV"	"선택된 맵에 .nmo 파일과 .nav 파일이 비었습니다! 파일과 똑같은 위치에 있어야 합니다.\n만약 이 상태로 맵을 게시하면, 오브젝트(목표)가 작동되지 않고 좀비가 안 움직일 수도 있습니다."
+
+"VPKTools_Error"						"VPK 오류"
+"VPKTools_Error_Name"					"오류: %s1"
+"VPKTools_Error_BadFileExtension"		"오류: 금지된(Banned) 파일 확장자 \"%s1\"을(를) 찾았습니다!"
+"VPKTools_Error_FailedToPack"			"애드온을 VPK로 압축하는 걸 실패하였습니다!"
+"VPKTools_Error_FailedToPackDir"		"Failed to pack directory into VPK!"
+"VPKTools_Error_NotValid"				"VPK 파일이 유효하지 않습니다 그리고 창작마당에 업로드 할 수 없습니다!"
+
+"VPKTools_Error_FileNotFound"			"파일이 무효하거나 존재하지 않습니다."
+"VPKTools_Error_FileEmpty"				"파일이 비었습니다."
+"VPKTools_Error_FileNotOK"				"파일이 영 좋지 않습니다. (아마도 무효하거나, 손상되었거나 아니면 파일이 비었습니다)"
+"VPKTools_Error_BadSignature"			"나쁜 시그니처(Bad signature)."
+"VPKTools_Error_BadVersion"				"지원되지 않는 VPK 버전입니다."
+"VPKTools_Error_BannedFileExtension"	"금지된(banned) 파일이 발견되었습니다."
+"VPKTools_Error_CfgFilesNotAllowed"		"Configuration (cfg) 파일을 허용 할 수 없습니다, VPK 폴더에서 \"cfg\" 파일을 삭제해주세요."
+} 
+}  

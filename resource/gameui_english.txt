@@ -1,0 +1,317 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{ 
+
+"GameUI_Error"	"Error"
+"GameUI_Notice"	"Notice"
+"GameUI_Confirm"	"Confirm"
+
+"NMRiH_Dev_NextObjective"		"Next Objective: %s1"
+
+"NMRiH_CharSelect_Random"		"Random"
+
+"NMRiH_Options_Compass"			"Compass"
+"NMRiH_Options_InventoryWeapons"	"Weapon inventory"
+"NMRiH_Options_InventoryAmmo"		"Ammo inventory"
+"NMRiH_Options_VoiceCommands"		"Voice commands"
+"NMRiH_Options_Suicide"			"Suicide"
+"NMRiH_Options_Shove"			"Shove/Bash"
+"NMRiH_Options_ShowObjective"		"Show current objective"
+"NMRiH_Options_DropWeapon"		"Drop weapon"
+"NMRiH_Options_Sprint"			"Sprint"
+"NMRiH_Options_Reload"			"Reload (hold for Ammo Check)"
+"NMRiH_Options_Holster"			"Holster weapon"
+"NMRiH_Options_UnloadWeapon"		"Unload weapon"
+"NMRiH_Call_Vote"				"Call vote"
+"NMRiH_Options_SelectFire"		"Change fire mode"
+"NMRiH_Options_ShowMOTD"		"Show message of the day"
+"NMRiH_Options_RecordDemo"		"Record demo"
+
+"NMRiH_Difficulty"	"Difficulty"
+
+"NMRiH_Difficulty_Classic"		"Classic"
+"NMRiH_Difficulty_Casual"		"Casual"
+"NMRiH_Difficulty_Nightmare"	"Nightmare"
+
+"NMRiH_LAN"				"LAN Only"
+
+"VoiceSet"				"Voice Set"
+"AmmoCheckType"				"Ammo Check"
+
+"AmmoCheckType_Both"			"Voice and HUD"
+"AmmoCheckType_Voice"			"Voice Only"
+"AmmoCheckType_HUD"			"HUD Only"
+
+"Title_CharacterSelect"			"Character Select"
+
+"NMRiH_VoteKickReason"			"Reason"
+"NMRiH_VoteKickReason_Other"	"Other"
+"NMRiH_VoteKickReason_Cheating"	"Cheating"
+"NMRiH_VoteKickReason_Idle"		"Idle"
+"NMRiH_VoteKickReason_Griefing"	"Griefing"
+
+"NMRiH_Vote_Column_Issue"	"Issue"
+"NMRiH_Vote_Column_Name"	"Name"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"No maps available."
+
+"Vote_kick"				"Kick Player"
+"Vote_changelevel"		"Change Level"
+"Vote_nextlevel"		"Next Level"
+"Vote_restart"			"Restart Round"
+"Vote_changechallenge"		"Change Challenge"
+
+"NMRiH_Vote_Kick_Player_Other"		"Kick player: %s1?\n(no reason given)"
+"NMRiH_Vote_Kick_Player_Cheating"		"Kick player: %s1?\n(accused of cheating)"
+"NMRiH_Vote_Kick_Player_Idle"		"Kick player: %s1?\n(accused of being idle)"
+"NMRiH_Vote_Kick_Player_Griefing"		"Kick player: %s1?\n(accused of griefing)"
+"NMRiH_Vote_Kick_Player"			"Kick player: %s1?"
+"NMRiH_Vote_Passed_Kick_Player"	"Kicking player: %s1..."
+
+"NMRiH_Vote_ChangeLevel"	"Change level to %s1?"
+"NMRiH_Vote_NextLevel"		"Set next level to %s1?"
+"NMRiH_Vote_RestartRound"	"Restart the round?"
+"NMRiH_Vote_ChangeChallenge"	"Change challenge to %s1?"
+
+"NMRiH_Scoreboard_MutePlayer"	"Mute player"
+"NMRiH_Scoreboard_ViewSteamProfile"	"View Steam profile"
+
+"NMRiH_MutedPlayer"	"Muted player %s1's voice"
+"NMRiH_UnmutedPlayer"	"Unmuted player %s1's voice"
+
+"NMRiH_Challenge_Select"	"Choose a challenge:"
+"NMRiH_Challenge_Random"	"Random Objectives"
+"NMRiH_Challenge_Random_Desc"	"Complete a set of objectives as quick as you can!"
+"NMRiH_Challenge_NoDesc"	"No description available."
+
+"Downloading_Workshop_Map"		"Downloading map from Workshop..."
+"Downloading_Workshop_Map_Progress"		"Downloading map from Workshop... (%s1/%s2)"
+
+"GameUI_Multiplayer" 	"NMRiH"
+"GameUI_OptionNeedsRestart"		"(This option requires restart)"
+
+"NMRiH_CreateGame_NATWarning_Title"	"NAT Warning"
+"NMRiH_CreateGame_NATWarning1"		"Your network device appears to be behind NAT. (Network address translation)"
+"NMRiH_CreateGame_NATWarning2"		"This may prevent other players from joining your game."
+"NMRiH_CreateGame_NATWarning3"		"Before you begin, ensure that your router has UDP port 27015 forwarded."
+"NMRiH_CreateGame_NATWarning_DontShowAgain"		"Don't show again"
+"NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"Open hosting guide..."
+
+//============================
+//Add-on Manager
+//============================
+"Addon_Manager"						"Add-on Manager"
+
+"Addon_Manager_UpdatingAddons"		"Updating Add-ons..."
+"Addon_Manager_ByAuthor"			"by %s1"
+"Addon_Manager_Search"				"Search:"
+"Addon_Manager_Category"				"Category:"
+"Addon_Manager_Sort"				"Sort:"
+"Addon_Manager_Refresh"				"Refresh"
+"Addon_Manager_OpenInWorkshop"		"Open in Steam Workshop..."
+"Addon_Manager_BrowseAddons"		"Browse add-ons..."
+"Addon_Manager_ApplyChanges"		"Apply changes"
+"Addon_Manager_InvalidAddon"		"This add-on is incompatible."
+"Addon_Manager_MultiSelect"			"[%s1 add-ons selected]"
+
+"Addon_Manager_DropMenu_Disable"	"Disable"
+"Addon_Manager_DropMenu_ShowInfo"	"Show Info"
+"Addon_Manager_DropMenu_OpenInWorkshop"	"Open in Workshop..."
+"Addon_Manager_DropMenu_ViewChangeNotes"	"View Change Notes..."
+"Addon_Manager_DropMenu_Uninstall"	"Uninstall"
+"Addon_Manager_DropMenu_Unsubscribe"	"Unsubscribe"
+"Addon_Manager_DropMenu_PackToVPK"	"Pack to VPK..."
+"Addon_Manager_DropMenu_PublisherUpdate"	"Update in Publisher"
+"Addon_Manager_DropMenu_Validate"	"Validate"
+"Addon_Manager_DropMenu_CheckForConflicts"	"Check for Conflicts..."
+"Addon_Manager_DropMenu_OpenDataFolder"	"Open Data Folder..."
+"Addon_Manager_DropMenu_PrintAddonInfo"	"Print Add-on Info to Console"
+
+"Addon_Manager_DropMenu_MultiSelectEnable"	"Enable Selected"
+"Addon_Manager_DropMenu_MultiSelectDisable"	"Disable Selected"
+"Addon_Manager_DropMenu_MultiSelectUninstall"	"Uninstall Selected"
+
+"Addon_Manager_Category_All"		"All"
+"Addon_Manager_Category_Local"		"Local"
+"Addon_Manager_Category_Workshop"	"Workshop"
+"Addon_Manager_Category_Published"	"Published"
+"Addon_Manager_Category_VotedUp"	"Voted Up"
+"Addon_Manager_Category_Favorited"	"Favorited"
+"Addon_Manager_Category_Followed"	"Followed"
+
+"Addon_Manager_Sort_Title"				"Title"
+"Addon_Manager_Sort_LoadOrder"			"Load Order"
+"Addon_Manager_Sort_LastUpdated"		"Last Updated"
+
+"Addon_Manager_EmptyList"				"Nothing here!"
+"Addon_Manager_EmptyList_Tip"			"Visit the Workshop for add-ons."
+"Addon_Manager_EmptyList_TipFilter"		"Check the filters."
+
+"Addon_Manager_Search_NotFound"			"Nothing found!"
+"Addon_Manager_Search_NotFound_Tip"		"Check the search terms."
+
+"Addon_Manager_NotAvailable"				"Add-ons are not available."
+"Addon_Manager_NotAvailable_CmdLine"		"Launch option \"-noaddons\" is set."
+"Addon_Manager_NotAvailable_Disabled"		"You can enable add-ons in the options."
+"Addon_Manager_NotAvailable_NoSteam"		"No connection to Steam."
+
+"Addon_Manager_DisabledNotice"		"Add-ons are currently disabled, however you can still manage them. You can enable add-ons in the options.\n(This does not apply to Workshop maps.)"
+"Addon_Manager_NoConnection"		"No connection to Steam, Workshop add-ons cannot be managed. Your installed add-ons still work offline."
+
+"Addon_Manager_UnsubscribeAddon_Title"		"Unsubscribe Add-on"
+"Addon_Manager_UnsubscribeAddon_Message"	"%s1 will be unsubscribed, are you sure?"
+
+"Addon_Manager_UninstallAddon_Title"	"Uninstall Add-on"
+"Addon_Manager_UninstallAddon_Message"	"%s1 will be permanently removed if you continue, this cannot be undone."
+"Addon_Manager_UninstallAddon_Tip"		"TIP: You can easily disable add-ons from the drop menu instead of removing them."
+"Addon_Manager_UninstallAddon_Failed"	"Uninstall failed!"
+
+"Addon_Manager_MultiSelectUninstall_Title"		"Uninstall multiple add-ons"
+"Addon_Manager_MultiSelectUninstall_Message"	"%s1 selected add-ons will be uninstalled/unsubscribed, are you sure?"
+
+"Addon_Manager_SubscribedAddon"			"Add-on Manager has noticed that you subscribed new add-on(s)."
+"Addon_Manager_ApplyChangesDialog"		"Do you wish to apply changes? The game will be restarted."
+
+"Addon_Manager_AdvancedPanel"		"Advanced"
+"Addon_Manager_Advanced_ImportCfg"		"Import add-on config..."
+"Addon_Manager_Advanced_ExportCfg"		"Export add-on config..."
+"Addon_Manager_Advanced_ClearPreviewCache"		"Clear preview cache"
+"Addon_Manager_Advanced_ConfigReset"		"Reset all add-on settings..."
+
+"Addon_Manager_ImportCfg"			"Import add-on config"
+"Addon_Manager_ExportCfg"			"Export add-on config"
+"Addon_Manager_CfgFileType"		"Add-on config (.txt)"
+"Addon_Manager_ImportCfgSuccess"		"Add-on config imported successfully, restart the game to apply changes."
+"Addon_Manager_ExportCfgSuccess"		"Add-on config exported successfully."
+"Addon_Manager_FailedToImportCfg"		"Failed to import add-on config. The file is invalid."
+
+"Addon_Manager_PreviewCacheCleared_Title"	"Cache cleared"
+"Addon_Manager_PreviewCacheCleared_Message"	"Preview image cache has been cleared."
+
+"Addon_Manager_ConfigReset_Confirm"	"Are you sure you want to reset your add-on settings? Your load order and enabled/disabled settings will be lost."
+
+"Addon_Manager_ConfigReset_Title"	"Settings reset"
+"Addon_Manager_ConfigReset_Message"	"Add-on settings have been reset. Restart the game to apply changes."
+
+"Addon_Manager_MapDownloadFailed"	"Failed to download a map from Workshop! Steam could be down, or the server is misconfigured. Try again later. (Error code: %s1)"
+
+"Addon_Manager_InfoPanel"				"Add-on Info"
+"Addon_Manager_InfoPanel_Title"			"Title"
+"Addon_Manager_InfoPanel_Author"		"Author"
+"Addon_Manager_InfoPanel_Summary"		"Summary"
+"Addon_Manager_InfoPanel_Workshop"		"Workshop"
+"Addon_Manager_InfoPanel_Tags"			"Tags"
+"Addon_Manager_InfoPanel_LoadOrder"		"Load Order"
+"Addon_Manager_InfoPanel_Installed"		"Installed"
+"Addon_Manager_InfoPanel_LastModified"	"Last Modified"
+"Addon_Manager_InfoPanel_FileSize"		"File Size"
+"Addon_Manager_InfoPanel_WorkshopID"	"Workshop ID"
+"Addon_Manager_InfoPanel_UserRating"	"User Rating"
+"Addon_Manager_InfoPanel_None"			"[none]"
+
+//============================
+//Workshop Publisher
+//============================
+"Workshop_Publisher"				"Workshop Publisher"
+"Workshop_Publisher_AddonForm"		"Add-on Form"
+"Workshop_Publisher_UpdateExisting"	"Update existing add-on"
+"Workshop_Publisher_UploadProgress"	"Uploading add-on to Workshop..."		
+
+"Workshop_Publisher_TaskSelection"		"Choose a task:"
+"Workshop_Publisher_TaskSelection_UploadNew"	"Upload new add-on"
+"Workshop_Publisher_TaskSelection_UpdateExisting"	"Update existing add-on"
+
+"Workshop_Publisher_NoConnection"	"No connection to Steam, Workshop Publisher is not available."
+"Workshop_Publisher_NoAddons"		"Add-ons are disabled, Workshop Publisher is not available."
+
+"Workshop_Publisher_AddonForm_Title"				"Title: *"
+"Workshop_Publisher_AddonForm_Desc"					"Description:"
+"Workshop_Publisher_AddonForm_Summary"				"Short Description:"
+"Workshop_Publisher_AddonForm_ChangeNotes"			"Change Notes:"
+"Workshop_Publisher_AddonForm_ContentPath"			"Content Path: *"
+"Workshop_Publisher_AddonForm_PreviewImage"			"Preview Image: *"
+"Workshop_Publisher_AddonForm_Category"				"Category:"
+"Workshop_Publisher_AddonForm_Tags"					"Tags (separate with ','):"
+"Workshop_Publisher_AddonForm_ItemVisibility"		"Item Visibility:"
+"Workshop_Publisher_AddonForm_Browse"				"Browse..."
+"Workshop_Publisher_AddonForm_PackToVPK"			"Pack to VPK"
+"Workshop_Publisher_AddonForm_Publish"				"Publish"
+"Workshop_Publisher_AddonForm_KeepExisting"			"Keep existing"
+"Workshop_Publisher_AddonForm_LegalAccept"			"I accept the terms of the Steam Subscriber Agreement"
+"Workshop_Publisher_AddonForm_ViewLegal"			"View agreement..."
+"Workshop_Publisher_AddonForm_ClearForm"			"Clear Form"
+"Workshop_Publisher_AddonForm_TooltipSummary"		"A short description of the add-on, shown in the GUI."
+"Workshop_Publisher_AddonForm_TooltipChangeNotes"	"These notes will appear in your Workshop item changelog for each update."
+
+"Workshop_Publisher_BrowseContent"		"Browse for content"
+"Workshop_Publisher_BrowsePreview"		"Browse for preview image"
+
+"Workshop_Publisher_Filter_AllContent"		"All content (*.vpk, *.bsp)"
+"Workshop_Publisher_Filter_VPK"				"Valve Pack File (*.vpk)"
+"Workshop_Publisher_Filter_BSP"				"BSP Map File (*.bsp)"
+
+"Workshop_Publisher_Filter_AllImages"		"All images (*.jpg, *.png, *.gif)"
+"Workshop_Publisher_Filter_JPEG"			"JPEG Images (*.jpg)"
+"Workshop_Publisher_Filter_PNG"				"PNG Images (*.png)"
+"Workshop_Publisher_Filter_GIF"				"GIF Images (*.gif)"
+
+"Workshop_Publisher_Visibility_Public"		"Public"
+"Workshop_Publisher_Visibility_FriendsOnly"	"Friends Only"
+"Workshop_Publisher_Visibility_Private"		"Private"
+
+"Workshop_Publisher_Category_None"			"None"
+
+"Workshop_Publisher_UpdatingExisting"		"(Updating existing add-on %s1)"
+
+"Workshop_Publisher_OpenInWorkshop"			"Open in Workshop..."
+
+"Workshop_Publisher_ConfirmClose"			"There are unpublished changes, do you wish to close?"
+"Workshop_Publisher_ConfirmClear"			"There are unpublished changes, do you wish to clear the form?"
+
+"Workshop_Publisher_Status_StartingUp"				"Starting up..."
+"Workshop_Publisher_Status_PreparingConfig"			"Preparing config..."
+"Workshop_Publisher_Status_PreparingContent"		"Preparing content..."
+"Workshop_Publisher_Status_StartingContentUpload"	"Starting content upload..."
+"Workshop_Publisher_Status_UploadingContent"		"Uploading content... (%s1/%s2)"
+"Workshop_Publisher_Status_UploadingPreviewFile"	"Uploading preview file..."
+"Workshop_Publisher_Status_CommittingChanges"		"Committing changes..."
+"Workshop_Publisher_Status_Finished"				"Upload finished."
+
+"Workshop_Publisher_VPK_PackDir"			"Pack directory to VPK"
+"Workshop_Publisher_VPK_Save"				"Save packed VPK..."
+"Workshop_Publisher_VPK_Overwrite"			"%s1 already exists, do you wish to overwrite it?"
+
+"Workshop_Publisher_Error_NoSteam"			"Steam Workshop is not available. Check your network connection or try again later."
+"Workshop_Publisher_Error_NoTitle"			"The add-on needs a title."
+"Workshop_Publisher_Error_NoContentPath"	"Empty content path specified."
+"Workshop_Publisher_Error_NoPreviewPath"	"Empty preview image path specified."
+"Workshop_Publisher_Error_NoContentPathExisting"	"Empty content path specified. (Select \"Keep existing\" to use existing content.)"
+"Workshop_Publisher_Error_NoPreviewPathExisting"	"Empty preview image path specified. (Select \"Keep existing\" to use existing preview.)"
+"Workshop_Publisher_Error_TooBigPreview"	"Preview file is too large, file size limit is 1 MB."
+"Workshop_Publisher_Error_PublisherError"	"Publisher Error"
+"Workshop_Publisher_Error_UploadFailed"		"An error has occurred, your add-on has not been published. (Error code: %s1)"
+"Workshop_Publisher_Error_InvalidBSP"		"Invalid BSP! The file might be incompatible or corrupted."
+
+"Workshop_Publisher_MissingNMO"			"Selected objective map is missing a .nmo file! Make sure this file is in the same directory as the chosen BSP.\nIf you publish this map, objectives will not work."
+"Workshop_Publisher_MissingNAV"			"Selected map is missing a .nav file! Make sure this file is in the same directory as the chosen BSP.\nIf you publish this map, zombies may fail to navigate."
+"Workshop_Publisher_MissingNMOAndNAV"	"Selected objective map is missing both .nmo and .nav files! Make sure these files are in the same directory as the chosen BSP.\nIf you publish this map, objectives will not work and zombies may fail to navigate."
+
+"VPKTools_Error"						"VPK Error"
+"VPKTools_Error_Name"					"Error: %s1"
+"VPKTools_Error_BadFileExtension"		"Error: Banned file extension \"%s1\" found!"
+"VPKTools_Error_FailedToPack"			"Failed to pack add-on to VPK!"
+"VPKTools_Error_FailedToPackDir"		"Failed to pack directory into VPK!"
+"VPKTools_Error_NotValid"				"Your VPK is not valid and can't be uploaded to Workshop!"
+
+"VPKTools_Error_FileNotFound"			"File is invalid or does not exist."
+"VPKTools_Error_FileEmpty"				"File is empty."
+"VPKTools_Error_FileNotOK"				"File handle is not OK. (Possibly invalid, corrupted or missing file)"
+"VPKTools_Error_BadSignature"			"Bad signature."
+"VPKTools_Error_BadVersion"				"VPK version not supported."
+"VPKTools_Error_BannedFileExtension"	"Found banned file extension."
+"VPKTools_Error_CfgFilesNotAllowed"		"Configuration (cfg) files are not allowed, please remove the \"cfg\" folder from the VPK."
+} 
+}  

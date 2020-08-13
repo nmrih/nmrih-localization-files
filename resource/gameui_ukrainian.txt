@@ -1,0 +1,79 @@
+"lang" 
+{ 
+"Language" "Ukrainian" 
+"Tokens" 
+{ 
+
+"NMRiH_GameMenu_ResumeGame"		"ПРОДОВЖИТИ"
+"NMRiH_GameMenu_Disconnect"		"ВІД'ЄДНАТИСЯ"
+"NMRiH_GameMenu_PlayerList"		"ПЕРЕЛІК ГРАВЦІВ"
+
+"NMRiH_GameMenu_FindServers"		"ЗНАЙТИ СЕРВЕРИ"
+"NMRiH_GameMenu_CreateServer"		"СТВОРИТИ СЕРВЕР"
+
+"NMRiH_GameMenu_CharSelect"		"ОБРАТИ ПЕРСОНАЖА"
+"NMRiH_GameMenu_Options"		"НАЛАШТУВАННЯ"
+
+"NMRiH_GameMenu_Quit"			"ВИЙТИ"
+
+"NMRiH_Dev_NextObjective"		"Наступне завдання: %s1"
+
+"NMRiH_CharSelect_Random"		"Випадковий"
+
+"NMRiH_Options_Compass"			"Компас"
+"NMRiH_Options_InventoryWeapons"	"Зброя"
+"NMRiH_Options_InventoryAmmo"		"Набої"
+"NMRiH_Options_VoiceCommands"		"Голосові команди"
+"NMRiH_Options_Suicide"			"Самогубство"
+"NMRiH_Options_Shove"			"Відштовхнути"
+"NMRiH_Options_ShowObjective"		"Поточне завдання"
+"NMRiH_Options_DropWeapon"		"Викинути зброю"
+"NMRiH_Options_Sprint"			"Рвонути"
+"NMRiH_Options_Reload"			"Перезарядка (утримувати для перевірки набоїв)"
+"NMRiH_Options_Holster"			"Сховати зброю"
+"NMRiH_Call_Vote"				"Call vote"
+"NMRiH_Options_SelectFire"		"Change fire mode"
+"NMRiH_Options_ShowMOTD"		"Show message of the day"
+
+"NMRiH_Difficulty"	"Difficulty"
+
+"NMRiH_Difficulty_Classic"	"Classic"
+"NMRiH_Difficulty_Casual"	"Casual"
+"NMRiH_Difficulty_Nightmare"	"Nightmare"
+
+"NMRiH_LAN"				"LAN Only"
+
+"VoiceSet"				"Обрати голос"
+"AmmoCheckType"				"Перевірити набої"
+
+"AmmoCheckType_Both"			"Голос та HUD"
+"AmmoCheckType_Voice"			"Лише голосом"
+"AmmoCheckType_HUD"			"Лише HUD"
+
+VoiceSet_Default		"Типово"
+VoiceSet_Alt1			"tFg"
+VoiceSet_Alt2			"Капітан Манкі"
+
+"NMRiH_VoteKickReason"			"Reason"
+"NMRiH_VoteKickReason_Other"	"Other"
+"NMRiH_VoteKickReason_Cheating"	"Cheating"
+"NMRiH_VoteKickReason_Idle"		"Idle"
+"NMRiH_VoteKickReason_Scamming"	"Scamming"
+
+"NMRiH_Vote_Column_Issue"	"Issue"
+"NMRiH_Vote_Column_Name"	"Name"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"No maps available."
+
+"Vote_kick"				"Kick Player"
+"Vote_changelevel"		"Change Level"
+"Vote_nextlevel"		"Next Level"
+"Vote_restart"			"Restart Round"
+
+"NMRiH_Vote_KickPlayer"		"Kick %s1 for %s2?"
+"NMRiH_Vote_ChangeLevel"	"Change level to %s1?"
+"NMRiH_Vote_NextLevel"		"Set next level to %s1?"
+"NMRiH_Vote_RestartRound"	"Restart the round?"
+} 
+}  

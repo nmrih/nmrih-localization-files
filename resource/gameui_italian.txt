@@ -1,0 +1,64 @@
+"lang" 
+{ 
+"Language" "Italiano" 
+"Tokens" 
+{ 
+
+"NMRiH_Dev_NextObjective"		"Prossimo obiettivo: %s1"
+
+"NMRiH_CharSelect_Random"		"Casuale"
+
+"NMRiH_Options_Compass"			"Bussola"
+"NMRiH_Options_InventoryWeapons"	"Inventario Armi"
+"NMRiH_Options_InventoryAmmo"		"Inventario Munizioni"
+"NMRiH_Options_VoiceCommands"		"Comandi vocali"
+"NMRiH_Options_Suicide"			"Suicidio"
+"NMRiH_Options_Shove"			"Spinta"
+"NMRiH_Options_ShowObjective"		"Mostra obiettivo attuale"
+"NMRiH_Options_DropWeapon"		"Abbandona arma"
+"NMRiH_Options_Sprint"			"Scatto"
+"NMRiH_Options_Reload"			"Ricarica (tenere premuto per Controllo Munizioni)"
+"NMRiH_Options_Holster"			"A mani nude"
+"NMRiH_Options_UnloadWeapon"		"Unload weapon"
+"NMRiH_Call_Vote"				"Call vote"
+"NMRiH_Options_SelectFire"		"Change fire mode"
+"NMRiH_Options_ShowMOTD"		"Show message of the day"
+
+"NMRiH_Difficulty"	"Difficulty"
+
+"NMRiH_Difficulty_Classic"	"Classic"
+"NMRiH_Difficulty_Casual"	"Casual"
+"NMRiH_Difficulty_Nightmare"	"Nightmare"
+
+"VoiceSet"				"Tipo di Voce"
+"AmmoCheckType"				"Controllo Munizioni"
+
+"AmmoCheckType_Both"			"Voce e HUD"
+"AmmoCheckType_Voice"			"Solo Voce"
+"AmmoCheckType_HUD"			"Solo HUD"
+
+"Title_CharacterSelect"			"Selezione Personaggio"
+
+"NMRiH_VoteKickReason"			"Reason"
+"NMRiH_VoteKickReason_Other"	"Other"
+"NMRiH_VoteKickReason_Cheating"	"Cheating"
+"NMRiH_VoteKickReason_Idle"		"Idle"
+"NMRiH_VoteKickReason_Scamming"	"Scamming"
+
+"NMRiH_Vote_Column_Issue"	"Issue"
+"NMRiH_Vote_Column_Name"	"Name"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"No maps available."
+
+"Vote_kick"				"Kick Player"
+"Vote_changelevel"		"Change Level"
+"Vote_nextlevel"		"Next Level"
+"Vote_restart"			"Restart Round"
+
+"NMRiH_Vote_KickPlayer"		"Kick %s1 for %s2?"
+"NMRiH_Vote_ChangeLevel"	"Change level to %s1?"
+"NMRiH_Vote_NextLevel"		"Set next level to %s1?"
+"NMRiH_Vote_RestartRound"	"Restart the round?"
+} 
+}  

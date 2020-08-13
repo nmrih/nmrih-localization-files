@@ -1,0 +1,64 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{ 
+
+"NMRiH_Dev_NextObjective"		"下一個任務：%s1"
+
+"NMRiH_CharSelect_Random"		"隨機"
+
+"NMRiH_Options_Compass"			"指示"
+"NMRiH_Options_InventoryWeapons"	"武器選單"
+"NMRiH_Options_InventoryAmmo"		"彈藥選單"
+"NMRiH_Options_VoiceCommands"		"語音指示"
+"NMRiH_Options_Suicide"			"自殺"
+"NMRiH_Options_Shove"			"推開/近戰"
+"NMRiH_Options_ShowObjective"		"顯示目前任務"
+"NMRiH_Options_DropWeapon"		"丟棄武器"
+"NMRiH_Options_Sprint"			"衝刺"
+"NMRiH_Options_Reload"			"填裝彈藥 (按住確認彈藥)"
+"NMRiH_Options_Holster"			"收起武器"
+"NMRiH_Options_UnloadWeapon"		"Unload weapon"
+"NMRiH_Call_Vote"				"Call vote"
+"NMRiH_Options_SelectFire"		"Change fire mode"
+"NMRiH_Options_ShowMOTD"		"Show message of the day"
+
+"NMRiH_Difficulty"	"Difficulty"
+
+"NMRiH_Difficulty_Classic"	"Classic"
+"NMRiH_Difficulty_Casual"	"Casual"
+"NMRiH_Difficulty_Nightmare"	"Nightmare"
+
+"VoiceSet"				"配音員設定"
+"AmmoCheckType"				"彈藥確認設定"
+
+"AmmoCheckType_Both"			"語音與抬頭顯示"
+"AmmoCheckType_Voice"			"只有語音"
+"AmmoCheckType_HUD"			"只有抬頭顯示"
+
+"Title_CharacterSelect"			"人物選擇"
+
+"NMRiH_VoteKickReason"			"Reason"
+"NMRiH_VoteKickReason_Other"	"Other"
+"NMRiH_VoteKickReason_Cheating"	"Cheating"
+"NMRiH_VoteKickReason_Idle"		"Idle"
+"NMRiH_VoteKickReason_Scamming"	"Scamming"
+
+"NMRiH_Vote_Column_Issue"	"Issue"
+"NMRiH_Vote_Column_Name"	"Name"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"No maps available."
+
+"Vote_kick"				"Kick Player"
+"Vote_changelevel"		"Change Level"
+"Vote_nextlevel"		"Next Level"
+"Vote_restart"			"Restart Round"
+
+"NMRiH_Vote_KickPlayer"		"Kick %s1 for %s2?"
+"NMRiH_Vote_ChangeLevel"	"Change level to %s1?"
+"NMRiH_Vote_NextLevel"		"Set next level to %s1?"
+"NMRiH_Vote_RestartRound"	"Restart the round?"
+} 
+}

@@ -1,0 +1,58 @@
+"lang" 
+{ 
+"Language" "Greek" 
+"Tokens" 
+{ 
+"NMRiH_Dev_NextObjective"		"Επόμενος στόχος: %s1"
+"NMRiH_CharSelect_Random"		"Τυχαίο"
+"NMRiH_Options_Compass"			"Πυξίδα"
+"NMRiH_Options_InventoryWeapons"	"Αποθήκη όπλων"
+"NMRiH_Options_InventoryAmmo"		"Αποθήκη πυρομαχικών"
+"NMRiH_Options_VoiceCommands"		"Φωνητικές εντολές"
+"NMRiH_Options_Suicide"			"αυτοκτονίας"
+"NMRiH_Options_Shove"			"Σπρώχνω/Χτυπώ"
+"NMRiH_Options_ShowObjective"		"Εμφάνιση σκοπού"
+"NMRiH_Options_DropWeapon"		"Ρίξιμο όπλου"
+"NMRiH_Options_Sprint"			"Τρέξιμο"(κράτημα για έλεγχο πυρομαχικών)"
+"NMRiH_Options_Holster"			"Κρύψιμο όπλου"
+"NMRiH_Options_UnloadWeapon"		"Unload weapon"
+"NMRiH_Call_Vote"				"Call vote"
+"NMRiH_Options_SelectFire"		"Change fire mode"
+"NMRiH_Options_ShowMOTD"		"Show message of the day"
+
+"NMRiH_Difficulty"	"Difficulty"
+
+"NMRiH_Difficulty_Classic"	"Classic"
+"NMRiH_Difficulty_Casual"	"Casual"
+"NMRiH_Difficulty_Nightmare"	"Nightmare"
+
+"VoiceSet"				"Επιλογή Φωνής"
+"AmmoCheckType"				"Έλεγχος πυρομαχικών"
+"AmmoCheckType_Both"			"Φωνή και ενδείξεις οθόνης"
+"AmmoCheckType_Voice"			"Φωνή μόνο"
+"AmmoCheckType_HUD"			"Ενδείξεις οθόνης μόνο"
+"Title_CharacterSelect"			"Επιλογή Χαρακτήρων"
+
+"NMRiH_VoteKickReason"			"Reason"
+"NMRiH_VoteKickReason_Other"	"Other"
+"NMRiH_VoteKickReason_Cheating"	"Cheating"
+"NMRiH_VoteKickReason_Idle"		"Idle"
+"NMRiH_VoteKickReason_Scamming"	"Scamming"
+
+"NMRiH_Vote_Column_Issue"	"Issue"
+"NMRiH_Vote_Column_Name"	"Name"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"No maps available."
+
+"Vote_kick"				"Kick Player"
+"Vote_changelevel"		"Change Level"
+"Vote_nextlevel"		"Next Level"
+"Vote_restart"			"Restart Round"
+
+"NMRiH_Vote_KickPlayer"		"Kick %s1 for %s2?"
+"NMRiH_Vote_ChangeLevel"	"Change level to %s1?"
+"NMRiH_Vote_NextLevel"		"Set next level to %s1?"
+"NMRiH_Vote_RestartRound"	"Restart the round?"
+} 
+}

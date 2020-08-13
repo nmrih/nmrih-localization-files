@@ -1,0 +1,66 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{ 
+
+"NMRiH_Dev_NextObjective"		"Objectif suivant: %s1"
+
+"NMRiH_CharSelect_Random"		"Aléatoire"
+
+"NMRiH_Options_Compass"			"Boussole"
+"NMRiH_Options_InventoryWeapons"	"Armes"
+"NMRiH_Options_InventoryAmmo"		"Munitions"
+"NMRiH_Options_VoiceCommands"		"Commandes vocales"
+"NMRiH_Options_Suicide"			"Suicide"
+"NMRiH_Options_Shove"			"Pousser/Frapper"
+"NMRiH_Options_ShowObjective"		"Afficher objectif en cours"
+"NMRiH_Options_DropWeapon"		"Jeter arme"
+"NMRiH_Options_Sprint"			"Sprint"
+"NMRiH_Options_Reload"			"Recharger (garder appuyé pour afficher munitions)"
+"NMRiH_Options_Holster"			"Rengainer arme"
+"NMRiH_Options_UnloadWeapon"		"Unload weapon"
+"NMRiH_Call_Vote"				"Call vote"
+"NMRiH_Options_SelectFire"		"Change fire mode"
+"NMRiH_Options_ShowMOTD"		"Show message of the day"
+
+"NMRiH_Difficulty"	"Difficulty"
+
+"NMRiH_Difficulty_Classic"	"Classic"
+"NMRiH_Difficulty_Casual"	"Casual"
+"NMRiH_Difficulty_Nightmare"	"Nightmare"
+
+"VoiceSet"				"Voix"
+"AmmoCheckType"				"Vérification munitions"
+
+"AmmoCheckType_Both"			"Voix et HUD"
+"AmmoCheckType_Voice"			"Voix seulement"
+"AmmoCheckType_HUD"			"HUD seulement"
+
+"Title_CharacterSelect"			"Sélection de personnage"
+
+"NMRiH_VoteKickReason"			"Reason"
+"NMRiH_VoteKickReason_Other"	"Other"
+"NMRiH_VoteKickReason_Cheating"	"Cheating"
+"NMRiH_VoteKickReason_Idle"		"Idle"
+"NMRiH_VoteKickReason_Scamming"	"Scamming"
+
+"NMRiH_Vote_Column_Issue"	"Issue"
+"NMRiH_Vote_Column_Name"	"Name"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"No maps available."
+
+"Vote_kick"				"Kick Player"
+"Vote_changelevel"		"Change Level"
+"Vote_nextlevel"		"Next Level"
+"Vote_restart"			"Restart Round"
+
+"NMRiH_Vote_KickPlayer"		"Kick %s1 for %s2?"
+"NMRiH_Vote_ChangeLevel"	"Change level to %s1?"
+"NMRiH_Vote_NextLevel"		"Set next level to %s1?"
+"NMRiH_Vote_RestartRound"	"Restart the round?"
+} 
+}
+
+//credits to Charles Cantin
