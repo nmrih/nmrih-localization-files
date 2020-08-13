@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# UTF-16 diff hackery
+*.txt text diff working-tree-encoding=UTF-16
