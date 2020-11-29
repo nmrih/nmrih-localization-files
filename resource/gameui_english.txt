@@ -34,6 +34,7 @@
 "NMRiH_Difficulty_Classic"		"Classic"
 "NMRiH_Difficulty_Casual"		"Casual"
 "NMRiH_Difficulty_Nightmare"	"Nightmare"
+"NMRiH_Difficulty_PVP"			"PvP"
 
 "NMRiH_LAN"				"LAN Only"
 
