@@ -246,6 +246,7 @@
 "Workshop_Publisher_AddonForm_ClearForm"			"Clear Form"
 "Workshop_Publisher_AddonForm_TooltipSummary"		"A short description of the add-on, shown in the GUI."
 "Workshop_Publisher_AddonForm_TooltipChangeNotes"	"These notes will appear in your Workshop item changelog for each update."
+"Workshop_Publisher_AddonForm_RequiredField"		"* = required field"
 
 "Workshop_Publisher_BrowseContent"		"Browse for content"
 "Workshop_Publisher_BrowsePreview"		"Browse for preview image"
