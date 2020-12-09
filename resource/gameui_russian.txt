@@ -34,6 +34,7 @@
 "NMRiH_Difficulty_Classic"	"Classic"
 "NMRiH_Difficulty_Casual"	"Casual"
 "NMRiH_Difficulty_Nightmare"	"Nightmare"
+"NMRiH_Difficulty_PVP"		"PvP"
 
 "NMRiH_LAN"			"Только LAN"
 
@@ -79,8 +80,8 @@
 "NMRiH_Scoreboard_MutePlayer"		"Отключить микрофон и чат"
 "NMRiH_Scoreboard_ViewSteamProfile"	"Показать профиль Steam"
 
-"NMRiH_MutedPlayer"			"Отключен микрофон и чат у игрока %s1"
-"NMRiH_UnmutedPlayer"			"Включен микрофон и чат у игрока %s1"
+"NMRiH_MutedPlayer"			"Отключены микрофон и чат у игрока %s1"
+"NMRiH_UnmutedPlayer"			"Включены микрофон и чат у игрока %s1"
 
 "NMRiH_Challenge_Select"		"Выбрать испытание:"
 "NMRiH_Challenge_Random"		"Случайные задания"
@@ -165,12 +166,12 @@
 "Addon_Manager_UnsubscribeAddon_Message"	"Вы будете отписаны от %s1 , вы уверены?"
 
 "Addon_Manager_UninstallAddon_Title"		"Удалить аддон"
-"Addon_Manager_UninstallAddon_Message"		"%s1 будет уален навсегда, если вы продолжите, данное действие нельзя будет отменить."
+"Addon_Manager_UninstallAddon_Message"		"%s1 будет удален навсегда, если вы продолжите, данное действие нельзя будет отменить."
 "Addon_Manager_UninstallAddon_Tip"		"СОВЕТ: Вы можете легко отключить аддоны в списке вместо их удаления."
 "Addon_Manager_UninstallAddon_Failed"		"Удаление прервано!"
 
 "Addon_Manager_MultiSelectUninstall_Title"	"Удалить несколько аддонов"
-"Addon_Manager_MultiSelectUninstall_Message"	"%s1 будут удалены/Вы отпишитесь от них , Вы уверены?"
+"Addon_Manager_MultiSelectUninstall_Message"	"%s1 будут удалены/Вы отпишитесь от них, Вы уверены?"
 
 "Addon_Manager_SubscribedAddon"			"Менеджер аддонов заметил, что вы подписались на новый(-ые) аддон(-ы)."
 "Addon_Manager_ApplyChangesDialog"		"Вы хотите применить изменения? Игра будет перезапущена."
@@ -196,7 +197,7 @@
 "Addon_Manager_ConfigReset_Title"		"Сброс настроек"
 "Addon_Manager_ConfigReset_Message"		"Настройки аддона были сброшены. Перезапустите игру, чтобы изменения вступили в силу."
 
-"Addon_Manager_MapDownloadFailed"		"Не удалось загрузить карту из Мастерской!Steam не доступен или проблемы с сервером.Попробуйте позже. (Код ошибки: %s1)"
+"Addon_Manager_MapDownloadFailed"		"Не удалось загрузить карту из Мастерской! Steam не доступен или есть проблемы с сервером. Попробуйте позже. (Код ошибки: %s1)"
 
 "Addon_Manager_InfoPanel"			"Информация аддона"
 "Addon_Manager_InfoPanel_Title"			"Название"
@@ -244,7 +245,8 @@
 "Workshop_Publisher_AddonForm_ViewLegal"			"Посмотреть соглашение..."
 "Workshop_Publisher_AddonForm_ClearForm"			"Очистить бланк"
 "Workshop_Publisher_AddonForm_TooltipSummary"			"Краткое описание аддона, которое показывается в списке аддонов."
-"Workshop_Publisher_AddonForm_TooltipChangeNotes"		"Списки изменений будут появлятся в вашей Мастерской для каждого обновления ."
+"Workshop_Publisher_AddonForm_TooltipChangeNotes"		"Списки изменений будут появлятся в вашей Мастерской для каждого обновления."
+"Workshop_Publisher_AddonForm_RequiredField"			"* = обязательное поле"
 
 "Workshop_Publisher_BrowseContent"		"Выбор файлов"
 "Workshop_Publisher_BrowsePreview"		"Выбор изображения"
