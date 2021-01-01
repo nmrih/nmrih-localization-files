@@ -8,6 +8,8 @@
 "GameUI_Notice"	"Aviso"
 "GameUI_Confirm"	"Confirmar"
 
+"GameUI_Enable_Addons"			"Activar add-ons"
+
 "NMRiH_Dev_NextObjective"		"Próximo Objetivo: %s1"
 
 "NMRiH_CharSelect_Random"		"Aleatorio"
@@ -16,8 +18,8 @@
 "NMRiH_Options_InventoryWeapons"	"Inventario de armas"
 "NMRiH_Options_InventoryAmmo"		"Inventario de munición"
 "NMRiH_Options_VoiceCommands"		"Comandos de voz"
-"NMRiH_Options_Suicide"			"Suicidio"
-"NMRiH_Options_Shove"			"Empujón"
+"NMRiH_Options_Suicide"			"Suicidarse"
+"NMRiH_Options_Shove"			"Empujar"
 "NMRiH_Options_ShowObjective"		"Mostrar objetivo actual"
 "NMRiH_Options_DropWeapon"		"Arrojar arma"
 "NMRiH_Options_Sprint"			"Correr"
@@ -34,15 +36,16 @@
 "NMRiH_Difficulty_Classic"	"Clásica"
 "NMRiH_Difficulty_Casual"	"Casual"
 "NMRiH_Difficulty_Nightmare"	"Pesadilla"
+"NMRiH_Difficulty_PVP"			"PvP"
 
 "NMRiH_LAN"				"Sólo LAN"
 
 "VoiceSet"				"Establecer Voz" // Puede ser configurar? No recuerdo en donde aparece esta linea exactamente: Original es [Voice Set]
 "AmmoCheckType"				"Chequeo de Munición"
 
-"AmmoCheckType_Both"			"Voz y en Interfaz"
-"AmmoCheckType_Voice"			"Sólo Voz"
-"AmmoCheckType_HUD"			"Sólo en Interfaz
+"AmmoCheckType_Both"			"Voz e interfaz"
+"AmmoCheckType_Voice"			"Sólo voz"
+"AmmoCheckType_HUD"			"Sólo interfaz
 
 "Title_CharacterSelect"			"Elección de Personaje"
 
@@ -110,6 +113,7 @@
 "Addon_Manager_Search"				"Búsqueda:"
 "Addon_Manager_Category"				"Categoría:"
 "Addon_Manager_Sort"				"Ordenar:"
+"GameUI_Enable_Addons"			"Activar add-ons"
 "Addon_Manager_Refresh"				"Refrescar"
 "Addon_Manager_OpenInWorkshop"		"Abrir en Steam Workshop..."
 "Addon_Manager_BrowseAddons"		"Buscar add-ons..."
@@ -245,6 +249,7 @@
 "Workshop_Publisher_AddonForm_ClearForm"			"Limpiar Formulario"
 "Workshop_Publisher_AddonForm_TooltipSummary"		"Descripción corta del add-on, se mostrará en la interfaz gráfica de usuario."
 "Workshop_Publisher_AddonForm_TooltipChangeNotes"	"Se mostrarán estos mensajes en tus notas de cambio del Workshop en cada actualización."
+"Workshop_Publisher_AddonForm_RequiredField"		"* = campo requerido"
 
 "Workshop_Publisher_BrowseContent"		"Buscar por contenido"
 "Workshop_Publisher_BrowsePreview"		"Buscar imagen de vista previa"
