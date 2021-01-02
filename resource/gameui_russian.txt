@@ -8,6 +8,8 @@
 "GameUI_Notice"			"Уведомление"
 "GameUI_Confirm"		"Подтверждение"
 
+"GameUI_Enable_Addons"		"Включить аддоны"
+
 "NMRiH_Dev_NextObjective"	"Следующая задача: %s1"
 
 "NMRiH_CharSelect_Random"	"Случайный"
@@ -111,6 +113,7 @@
 "Addon_Manager_Search"			"Поиск:"
 "Addon_Manager_Category"		"Категория:"
 "Addon_Manager_Sort"			"Сортировка:"
+"Addon_Manager_SwapWith"		"Поменять c:"
 "Addon_Manager_Refresh"			"Обновить"
 "Addon_Manager_OpenInWorkshop"		"Открыть в Мастерской Steam..."
 "Addon_Manager_BrowseAddons"		"Найти аддоны..."
@@ -144,7 +147,7 @@
 "Addon_Manager_Category_Followed"		"Подписки"
 
 "Addon_Manager_Sort_Title"			"Название"
-"Addon_Manager_Sort_LoadOrder"			"Порядок загрузки"
+"Addon_Manager_Sort_LoadOrder"			"Очередь загрузки"
 "Addon_Manager_Sort_LastUpdated"		"Недавно обновленные"
 
 "Addon_Manager_EmptyList"			"Здесь ничего нет!"
@@ -192,7 +195,7 @@
 "Addon_Manager_PreviewCacheCleared_Title"	"Очистка кэша"
 "Addon_Manager_PreviewCacheCleared_Message"	"Кэш превью картинок был очищен."
 
-"Addon_Manager_ConfigReset_Confirm"		"Вы уверены, что хотите сбросить настройки аддона? Порядок загрузки и другие настройки будут утеряны."
+"Addon_Manager_ConfigReset_Confirm"		"Вы уверены, что хотите сбросить настройки аддона? Очередь загрузки и другие настройки будут утеряны."
 
 "Addon_Manager_ConfigReset_Title"		"Сброс настроек"
 "Addon_Manager_ConfigReset_Message"		"Настройки аддона были сброшены. Перезапустите игру, чтобы изменения вступили в силу."
@@ -205,7 +208,7 @@
 "Addon_Manager_InfoPanel_Summary"		"Сводка"
 "Addon_Manager_InfoPanel_Workshop"		"Мастерская"
 "Addon_Manager_InfoPanel_Tags"			"Тэги"
-"Addon_Manager_InfoPanel_LoadOrder"		"Порядок загрузки"
+"Addon_Manager_InfoPanel_LoadOrder"		"Очередь загрузки"
 "Addon_Manager_InfoPanel_Installed"		"Установлен"
 "Addon_Manager_InfoPanel_LastModified"		"Последнее изменение"
 "Addon_Manager_InfoPanel_FileSize"		"Размер файла"
