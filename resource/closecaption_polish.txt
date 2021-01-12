@@ -107,7 +107,7 @@
 		"Reload.Default.Mag25" "Zostało mi dwadzieścia pięć magazynków!"
 		"Reload.Default.Mag24" "Zostały mi dwadzieścia cztery magazynki!"
 		"Reload.Default.Mag23" "Zostały mi dwadzieścia trzy magazynki!"
-		"Reload.Default.Mag22" "Zostały mi dwadzieścia dwa magazynki!
+		"Reload.Default.Mag22" "Zostały mi dwadzieścia dwa magazynki!"
 		"Reload.Default.Mag21" "Zostało mi dwadzieścia jeden magazynków!"
 		"Reload.Default.Mag20" "Zostało mi dwadzieścia magazynków!"
 		"Reload.Default.Mag19" "Zostało mi dziewiętnaście magazynków!"
@@ -139,7 +139,7 @@
 		"Reload.Alt1.Mag25" "Zostało mi dwadzieścia pięć magazynków!"
 		"Reload.Alt1.Mag24" "Zostały mi dwadzieścia cztery magazynki!"
 		"Reload.Alt1.Mag23" "Zostały mi dwadzieścia trzy magazynki!"
-		"Reload.Alt1.Mag22" "Zostały mi dwadzieścia dwa magazynki!
+		"Reload.Alt1.Mag22" "Zostały mi dwadzieścia dwa magazynki!"
 		"Reload.Alt1.Mag21" "Zostało mi dwadzieścia jeden magazynków!"
 		"Reload.Alt1.Mag20" "Zostało mi dwadzieścia magazynków!"
 		"Reload.Alt1.Mag19" "Zostało mi dziewiętnaście magazynków!"
@@ -171,7 +171,7 @@
 		"Reload.Alt2.Mag25" "Zostało mi dwadzieścia pięć magazynków!"
 		"Reload.Alt2.Mag24" "Zostały mi dwadzieścia cztery magazynki!"
 		"Reload.Alt2.Mag23" "Zostały mi dwadzieścia trzy magazynki!"
-		"Reload.Alt2.Mag22" "Zostały mi dwadzieścia dwa magazynki!
+		"Reload.Alt2.Mag22" "Zostały mi dwadzieścia dwa magazynki!"
 		"Reload.Alt2.Mag21" "Zostało mi dwadzieścia jeden magazynków!"
 		"Reload.Alt2.Mag20" "Zostało mi dwadzieścia magazynków!"
 		"Reload.Alt2.Mag19" "Zostało mi dziewiętnaście magazynków!"

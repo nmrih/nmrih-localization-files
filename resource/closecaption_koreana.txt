@@ -310,7 +310,7 @@
 		"Reload.Alt1.Mag25" "탄창이 스물 다섯 개 남았어!"
 		"Reload.Alt1.Mag24" "탄창이 스물 네 개 남았어!"
 		"Reload.Alt1.Mag23" "탄창이 스물 세 개 남았어!"
-		"Reload.Alt1.Mag22" "탄창이 스물 두 개 남았어!
+		"Reload.Alt1.Mag22" "탄창이 스물 두 개 남았어!"
 		"Reload.Alt1.Mag21" "탄창이 스물 한 개 남았어!"
 		"Reload.Alt1.Mag20" "탄창이 스무 개 남았어!"
 		"Reload.Alt1.Mag19" "탄창이 열아홉 개 남았어!"
@@ -342,7 +342,7 @@
 		"Reload.Alt2.Mag25" "탄창이 스물 다섯 개 남았어!"
 		"Reload.Alt2.Mag24" "탄창이 스물 네 개 남았어!"
 		"Reload.Alt2.Mag23" "탄창이 스물 세 개 남았어!"
-		"Reload.Alt2.Mag22" "탄창이 스물 두 개 남았어!
+		"Reload.Alt2.Mag22" "탄창이 스물 두 개 남았어!"
 		"Reload.Alt2.Mag21" "탄창이 스물 한 개 남았어!"
 		"Reload.Alt2.Mag20" "탄창이 스무 개 남았어!"
 		"Reload.Alt2.Mag19" "탄창이 열아홉 개 남았어!"
@@ -374,7 +374,7 @@
 		"Reload.Alt3.Mag25" "탄창이 스물 다섯 개 남았어!"
 		"Reload.Alt3.Mag24" "탄창이 스물 네 개 남았어!"
 		"Reload.Alt3.Mag23" "탄창이 스물 세 개 남았어!"
-		"Reload.Alt3.Mag22" "탄창이 스물 두 개 남았어!
+		"Reload.Alt3.Mag22" "탄창이 스물 두 개 남았어!"
 		"Reload.Alt3.Mag21" "탄창이 스물 한 개 남았어!"
 		"Reload.Alt3.Mag20" "탄창이 스무 개 남았어!"
 		"Reload.Alt3.Mag19" "탄창이 열아홉 개 남았어!"
@@ -406,7 +406,7 @@
 		"Reload.Alt4.Mag25" "탄창이 스물 다섯 개 남았어!"
 		"Reload.Alt4.Mag24" "탄창이 스물 네 개 남았어!"
 		"Reload.Alt4.Mag23" "탄창이 스물 세 개 남았어!"
-		"Reload.Alt4.Mag22" "탄창이 스물 두 개 남았어!
+		"Reload.Alt4.Mag22" "탄창이 스물 두 개 남았어!"
 		"Reload.Alt4.Mag21" "탄창이 스물 한 개 남았어!"
 		"Reload.Alt4.Mag20" "탄창이 스무 개 남았어!"
 		"Reload.Alt4.Mag19" "탄창이 열아홉 개 남았어!"
@@ -438,7 +438,7 @@
 		"Reload.Alt5.Mag25" "탄창이 스물 다섯 개 남았어!"
 		"Reload.Alt5.Mag24" "탄창이 스물 네 개 남았어!"
 		"Reload.Alt5.Mag23" "탄창이 스물 세 개 남았어!"
-		"Reload.Alt5.Mag22" "탄창이 스물 두 개 남았어!
+		"Reload.Alt5.Mag22" "탄창이 스물 두 개 남았어!"
 		"Reload.Alt5.Mag21" "탄창이 스물 한 개 남았어!"
 		"Reload.Alt5.Mag20" "탄창이 스무 개 남았어!"
 		"Reload.Alt5.Mag19" "탄창이 열아홉 개 남았어!"
@@ -470,7 +470,7 @@
 		"Reload.Alt6.Mag25" "탄창이 스물 다섯 개 남았어!"
 		"Reload.Alt6.Mag24" "탄창이 스물 네 개 남았어!"
 		"Reload.Alt6.Mag23" "탄창이 스물 세 개 남았어!"
-		"Reload.Alt6.Mag22" "탄창이 스물 두 개 남았어!
+		"Reload.Alt6.Mag22" "탄창이 스물 두 개 남았어!"
 		"Reload.Alt6.Mag21" "탄창이 스물 한 개 남았어!"
 		"Reload.Alt6.Mag20" "탄창이 스무 개 남았어!"
 		"Reload.Alt6.Mag19" "탄창이 열아홉 개 남았어!"
@@ -502,7 +502,7 @@
 		"Reload.Alt7.Mag25" "탄창이 스물 다섯 개 남았어!"
 		"Reload.Alt7.Mag24" "탄창이 스물 네 개 남았어!"
 		"Reload.Alt7.Mag23" "탄창이 스물 세 개 남았어!"
-		"Reload.Alt7.Mag22" "탄창이 스물 두 개 남았어!
+		"Reload.Alt7.Mag22" "탄창이 스물 두 개 남았어!"
 		"Reload.Alt7.Mag21" "탄창이 스물 한 개 남았어!"
 		"Reload.Alt7.Mag20" "탄창이 스무 개 남았어!"
 		"Reload.Alt7.Mag19" "탄창이 열아홉 개 남았어!"
@@ -534,7 +534,7 @@
 		"Reload.Default.Mag25" "탄창이 스물 다섯 개 남았어!"
 		"Reload.Default.Mag24" "탄창이 스물 네 개 남았어!"
 		"Reload.Default.Mag23" "탄창이 스물 세 개 남았어!"
-		"Reload.Default.Mag22" "탄창이 스물 두 개 남았어!
+		"Reload.Default.Mag22" "탄창이 스물 두 개 남았어!"
 		"Reload.Default.Mag21" "탄창이 스물 한 개 남았어!"
 		"Reload.Default.Mag20" "탄창이 스무 개 남았어!"
 		"Reload.Default.Mag19" "탄창이 열아홉 개 남았어!"
@@ -566,7 +566,7 @@
 		"Reload.FemaleDefault.Mag25" "탄창이 스물 다섯 개 남았어!"
 		"Reload.FemaleDefault.Mag24" "탄창이 스물 네 개 남았어!"
 		"Reload.FemaleDefault.Mag23" "탄창이 스물 세 개 남았어!"
-		"Reload.FemaleDefault.Mag22" "탄창이 스물 두 개 남았어!
+		"Reload.FemaleDefault.Mag22" "탄창이 스물 두 개 남았어!"
 		"Reload.FemaleDefault.Mag21" "탄창이 스물 한 개 남았어!"
 		"Reload.FemaleDefault.Mag20" "탄창이 스무 개 남았어!"
 		"Reload.FemaleDefault.Mag19" "탄창이 열아홉 개 남았어!"
@@ -602,7 +602,7 @@
 		"Reload.Alt1.Load25" "스물 다섯 번 장전할 수 있어!"
 		"Reload.Alt1.Load24" "스물 네 번 장전할 수 있어!"
 		"Reload.Alt1.Load23" "스물 세 번 장전할 수 있어!"
-		"Reload.Alt1.Load22" "스물 두 번 장전할 수 있어!
+		"Reload.Alt1.Load22" "스물 두 번 장전할 수 있어!"
 		"Reload.Alt1.Load21" "스물 한 번 장전할 수 있어!"
 		"Reload.Alt1.Load20" "스무 번 장전할 수 있어!"
 		"Reload.Alt1.Load19" "열아홉 번 장전할 수 있어!"
@@ -634,7 +634,7 @@
 		"Reload.Alt2.Load25" "스물 다섯 번 장전할 수 있어!"
 		"Reload.Alt2.Load24" "스물 네 번 장전할 수 있어!"
 		"Reload.Alt2.Load23" "스물 세 번 장전할 수 있어!"
-		"Reload.Alt2.Load22" "스물 두 번 장전할 수 있어!
+		"Reload.Alt2.Load22" "스물 두 번 장전할 수 있어!"
 		"Reload.Alt2.Load21" "스물 한 번 장전할 수 있어!"
 		"Reload.Alt2.Load20" "스무 번 장전할 수 있어!"
 		"Reload.Alt2.Load19" "열아홉 번 장전할 수 있어!"
@@ -666,7 +666,7 @@
 		"Reload.Alt3.Load25" "스물 다섯 번 장전할 수 있어!"
 		"Reload.Alt3.Load24" "스물 네 번 장전할 수 있어!"
 		"Reload.Alt3.Load23" "스물 세 번 장전할 수 있어!"
-		"Reload.Alt3.Load22" "스물 두 번 장전할 수 있어!
+		"Reload.Alt3.Load22" "스물 두 번 장전할 수 있어!"
 		"Reload.Alt3.Load21" "스물 한 번 장전할 수 있어!"
 		"Reload.Alt3.Load20" "스무 번 장전할 수 있어!"
 		"Reload.Alt3.Load19" "열아홉 번 장전할 수 있어!"
@@ -698,7 +698,7 @@
 		"Reload.Alt4.Load25" "스물 다섯 번 장전할 수 있어!"
 		"Reload.Alt4.Load24" "스물 네 번 장전할 수 있어!"
 		"Reload.Alt4.Load23" "스물 세 번 장전할 수 있어!"
-		"Reload.Alt4.Load22" "스물 두 번 장전할 수 있어!
+		"Reload.Alt4.Load22" "스물 두 번 장전할 수 있어!"
 		"Reload.Alt4.Load21" "스물 한 번 장전할 수 있어!"
 		"Reload.Alt4.Load20" "스무 번 장전할 수 있어!"
 		"Reload.Alt4.Load19" "열아홉 번 장전할 수 있어!"
@@ -730,7 +730,7 @@
 		"Reload.Alt5.Load25" "스물 다섯 번 장전할 수 있어!"
 		"Reload.Alt5.Load24" "스물 네 번 장전할 수 있어!"
 		"Reload.Alt5.Load23" "스물 세 번 장전할 수 있어!"
-		"Reload.Alt5.Load22" "스물 두 번 장전할 수 있어!
+		"Reload.Alt5.Load22" "스물 두 번 장전할 수 있어!"
 		"Reload.Alt5.Load21" "스물 한 번 장전할 수 있어!"
 		"Reload.Alt5.Load20" "스무 번 장전할 수 있어!"
 		"Reload.Alt5.Load19" "열아홉 번 장전할 수 있어!"
@@ -762,7 +762,7 @@
 		"Reload.Alt6.Load25" "스물 다섯 번 장전할 수 있어!"
 		"Reload.Alt6.Load24" "스물 네 번 장전할 수 있어!"
 		"Reload.Alt6.Load23" "스물 세 번 장전할 수 있어!"
-		"Reload.Alt6.Load22" "스물 두 번 장전할 수 있어!
+		"Reload.Alt6.Load22" "스물 두 번 장전할 수 있어!"
 		"Reload.Alt6.Load21" "스물 한 번 장전할 수 있어!"
 		"Reload.Alt6.Load20" "스무 번 장전할 수 있어!"
 		"Reload.Alt6.Load19" "열아홉 번 장전할 수 있어!"
@@ -794,7 +794,7 @@
 		"Reload.Alt7.Load25" "스물 다섯 번 장전할 수 있어!"
 		"Reload.Alt7.Load24" "스물 네 번 장전할 수 있어!"
 		"Reload.Alt7.Load23" "스물 세 번 장전할 수 있어!"
-		"Reload.Alt7.Load22" "스물 두 번 장전할 수 있어!
+		"Reload.Alt7.Load22" "스물 두 번 장전할 수 있어!"
 		"Reload.Alt7.Load21" "스물 한 번 장전할 수 있어!"
 		"Reload.Alt7.Load20" "스무 번 장전할 수 있어!"
 		"Reload.Alt7.Load19" "열아홉 번 장전할 수 있어!"
@@ -858,7 +858,7 @@
 		"Reload.FemaleDefault.Load25" "스물 다섯 번 장전할 수 있어!"
 		"Reload.FemaleDefault.Load24" "스물 네 번 장전할 수 있어!"
 		"Reload.FemaleDefault.Load23" "스물 세 번 장전할 수 있어!"
-		"Reload.FemaleDefault.Load22" "스물 두 번 장전할 수 있어!
+		"Reload.FemaleDefault.Load22" "스물 두 번 장전할 수 있어!"
 		"Reload.FemaleDefault.Load21" "스물 한 번 장전할 수 있어!"
 		"Reload.FemaleDefault.Load20" "스무 번 장전할 수 있어!"
 		"Reload.FemaleDefault.Load19" "열아홉 번 장전할 수 있어!"

@@ -26,7 +26,6 @@
 		"AmmoCheck.Alt7.1" "I only have one round left!"
 		"AmmoCheck.Alt7.0" "I'm out!"
 
-
 		"AmmoCheck.Alt6.Full" "My magazine is full."
 		"AmmoCheck.Alt6.AlmostFull" "My magazine is almost full."
 		"AmmoCheck.Alt6.OverHalf" "Over half a magazine left."
@@ -131,7 +130,6 @@
 		"AmmoCheck.Alt2.2" "Two rounds remaining!"
 		"AmmoCheck.Alt2.1" "I only have one round left!"
 		"AmmoCheck.Alt2.0" "I'm out!"
-
 
 		"AmmoCheck.Alt1.Full" "My magazine is full."
 		"AmmoCheck.Alt1.AlmostFull" "My magazine is almost full."
@@ -296,8 +294,6 @@
 		"VoiceCommand.FemaleDefault.Incoming"	"Incoming!"
 		"VoiceCommand.FemaleDefault.Injured"	"Injured!"
 		"VoiceCommand.FemaleDefault.FireInTheHole" "Fire in the hole!"
-		
-		
 
 		//reserve ammo check for magazines
 		// 'X magazines remaining'
@@ -310,7 +306,7 @@
 		"Reload.Alt1.Mag25" "Twenty-five magazines remaining!"
 		"Reload.Alt1.Mag24" "Twenty-four magazines remaining!"
 		"Reload.Alt1.Mag23" "Twenty-three magazines remaining!"
-		"Reload.Alt1.Mag22" "Twenty-two magazines remaining!
+		"Reload.Alt1.Mag22" "Twenty-two magazines remaining!"
 		"Reload.Alt1.Mag21" "Twenty-one magazines remaining!"
 		"Reload.Alt1.Mag20" "Twenty magazines remaining!"
 		"Reload.Alt1.Mag19" "Nineteen magazines remaining!"
@@ -342,7 +338,7 @@
 		"Reload.Alt2.Mag25" "Twenty-five magazines remaining!"
 		"Reload.Alt2.Mag24" "Twenty-four magazines remaining!"
 		"Reload.Alt2.Mag23" "Twenty-three magazines remaining!"
-		"Reload.Alt2.Mag22" "Twenty-two magazines remaining!
+		"Reload.Alt2.Mag22" "Twenty-two magazines remaining!"
 		"Reload.Alt2.Mag21" "Twenty-one magazines remaining!"
 		"Reload.Alt2.Mag20" "Twenty magazines remaining!"
 		"Reload.Alt2.Mag19" "Nineteen magazines remaining!"
@@ -374,7 +370,7 @@
 		"Reload.Alt3.Mag25" "Twenty-five magazines remaining!"
 		"Reload.Alt3.Mag24" "Twenty-four magazines remaining!"
 		"Reload.Alt3.Mag23" "Twenty-three magazines remaining!"
-		"Reload.Alt3.Mag22" "Twenty-two magazines remaining!
+		"Reload.Alt3.Mag22" "Twenty-two magazines remaining!"
 		"Reload.Alt3.Mag21" "Twenty-one magazines remaining!"
 		"Reload.Alt3.Mag20" "Twenty magazines remaining!"
 		"Reload.Alt3.Mag19" "Nineteen magazines remaining!"
@@ -406,7 +402,7 @@
 		"Reload.Alt4.Mag25" "Twenty-five magazines remaining!"
 		"Reload.Alt4.Mag24" "Twenty-four magazines remaining!"
 		"Reload.Alt4.Mag23" "Twenty-three magazines remaining!"
-		"Reload.Alt4.Mag22" "Twenty-two magazines remaining!
+		"Reload.Alt4.Mag22" "Twenty-two magazines remaining!"
 		"Reload.Alt4.Mag21" "Twenty-one magazines remaining!"
 		"Reload.Alt4.Mag20" "Twenty magazines remaining!"
 		"Reload.Alt4.Mag19" "Nineteen magazines remaining!"
@@ -438,7 +434,7 @@
 		"Reload.Alt5.Mag25" "Twenty-five magazines remaining!"
 		"Reload.Alt5.Mag24" "Twenty-four magazines remaining!"
 		"Reload.Alt5.Mag23" "Twenty-three magazines remaining!"
-		"Reload.Alt5.Mag22" "Twenty-two magazines remaining!
+		"Reload.Alt5.Mag22" "Twenty-two magazines remaining!"
 		"Reload.Alt5.Mag21" "Twenty-one magazines remaining!"
 		"Reload.Alt5.Mag20" "Twenty magazines remaining!"
 		"Reload.Alt5.Mag19" "Nineteen magazines remaining!"
@@ -470,7 +466,7 @@
 		"Reload.Alt6.Mag25" "Twenty-five magazines remaining!"
 		"Reload.Alt6.Mag24" "Twenty-four magazines remaining!"
 		"Reload.Alt6.Mag23" "Twenty-three magazines remaining!"
-		"Reload.Alt6.Mag22" "Twenty-two magazines remaining!
+		"Reload.Alt6.Mag22" "Twenty-two magazines remaining!"
 		"Reload.Alt6.Mag21" "Twenty-one magazines remaining!"
 		"Reload.Alt6.Mag20" "Twenty magazines remaining!"
 		"Reload.Alt6.Mag19" "Nineteen magazines remaining!"
@@ -502,7 +498,7 @@
 		"Reload.Alt7.Mag25" "Twenty-five magazines remaining!"
 		"Reload.Alt7.Mag24" "Twenty-four magazines remaining!"
 		"Reload.Alt7.Mag23" "Twenty-three magazines remaining!"
-		"Reload.Alt7.Mag22" "Twenty-two magazines remaining!
+		"Reload.Alt7.Mag22" "Twenty-two magazines remaining!"
 		"Reload.Alt7.Mag21" "Twenty-one magazines remaining!"
 		"Reload.Alt7.Mag20" "Twenty magazines remaining!"
 		"Reload.Alt7.Mag19" "Nineteen magazines remaining!"
@@ -534,7 +530,7 @@
 		"Reload.Default.Mag25" "Twenty-five magazines remaining!"
 		"Reload.Default.Mag24" "Twenty-four magazines remaining!"
 		"Reload.Default.Mag23" "Twenty-three magazines remaining!"
-		"Reload.Default.Mag22" "Twenty-two magazines remaining!
+		"Reload.Default.Mag22" "Twenty-two magazines remaining!"
 		"Reload.Default.Mag21" "Twenty-one magazines remaining!"
 		"Reload.Default.Mag20" "Twenty magazines remaining!"
 		"Reload.Default.Mag19" "Nineteen magazines remaining!"
@@ -566,7 +562,7 @@
 		"Reload.FemaleDefault.Mag25" "Twenty-five magazines remaining!"
 		"Reload.FemaleDefault.Mag24" "Twenty-four magazines remaining!"
 		"Reload.FemaleDefault.Mag23" "Twenty-three magazines remaining!"
-		"Reload.FemaleDefault.Mag22" "Twenty-two magazines remaining!
+		"Reload.FemaleDefault.Mag22" "Twenty-two magazines remaining!"
 		"Reload.FemaleDefault.Mag21" "Twenty-one magazines remaining!"
 		"Reload.FemaleDefault.Mag20" "Twenty magazines remaining!"
 		"Reload.FemaleDefault.Mag19" "Nineteen magazines remaining!"
@@ -593,7 +589,6 @@
 		//reserve ammo check for shotgun and magnum
 		// 'X loads remaining'
 
-
 		"Reload.Alt1.Load30" "Thirty loads remaining!"
 		"Reload.Alt1.Load29" "Twenty-nine loads remaining!"
 		"Reload.Alt1.Load28" "Twenty-eight loads remaining!"
@@ -602,7 +597,7 @@
 		"Reload.Alt1.Load25" "Twenty-five loads remaining!"
 		"Reload.Alt1.Load24" "Twenty-four loads remaining!"
 		"Reload.Alt1.Load23" "Twenty-three loads remaining!"
-		"Reload.Alt1.Load22" "Twenty-two loads remaining!
+		"Reload.Alt1.Load22" "Twenty-two loads remaining!"
 		"Reload.Alt1.Load21" "Twenty-one loads remaining!"
 		"Reload.Alt1.Load20" "Twenty loads remaining!"
 		"Reload.Alt1.Load19" "Nineteen loads remaining!"
@@ -634,7 +629,7 @@
 		"Reload.Alt2.Load25" "Twenty-five loads remaining!"
 		"Reload.Alt2.Load24" "Twenty-four loads remaining!"
 		"Reload.Alt2.Load23" "Twenty-three loads remaining!"
-		"Reload.Alt2.Load22" "Twenty-two loads remaining!
+		"Reload.Alt2.Load22" "Twenty-two loads remaining!"
 		"Reload.Alt2.Load21" "Twenty-one loads remaining!"
 		"Reload.Alt2.Load20" "Twenty loads remaining!"
 		"Reload.Alt2.Load19" "Nineteen loads remaining!"
@@ -666,7 +661,7 @@
 		"Reload.Alt3.Load25" "Twenty-five loads remaining!"
 		"Reload.Alt3.Load24" "Twenty-four loads remaining!"
 		"Reload.Alt3.Load23" "Twenty-three loads remaining!"
-		"Reload.Alt3.Load22" "Twenty-two loads remaining!
+		"Reload.Alt3.Load22" "Twenty-two loads remaining!"
 		"Reload.Alt3.Load21" "Twenty-one loads remaining!"
 		"Reload.Alt3.Load20" "Twenty loads remaining!"
 		"Reload.Alt3.Load19" "Nineteen loads remaining!"
@@ -698,7 +693,7 @@
 		"Reload.Alt4.Load25" "Twenty-five loads remaining!"
 		"Reload.Alt4.Load24" "Twenty-four loads remaining!"
 		"Reload.Alt4.Load23" "Twenty-three loads remaining!"
-		"Reload.Alt4.Load22" "Twenty-two loads remaining!
+		"Reload.Alt4.Load22" "Twenty-two loads remaining!"
 		"Reload.Alt4.Load21" "Twenty-one loads remaining!"
 		"Reload.Alt4.Load20" "Twenty loads remaining!"
 		"Reload.Alt4.Load19" "Nineteen loads remaining!"
@@ -730,7 +725,7 @@
 		"Reload.Alt5.Load25" "Twenty-five loads remaining!"
 		"Reload.Alt5.Load24" "Twenty-four loads remaining!"
 		"Reload.Alt5.Load23" "Twenty-three loads remaining!"
-		"Reload.Alt5.Load22" "Twenty-two loads remaining!
+		"Reload.Alt5.Load22" "Twenty-two loads remaining!"
 		"Reload.Alt5.Load21" "Twenty-one loads remaining!"
 		"Reload.Alt5.Load20" "Twenty loads remaining!"
 		"Reload.Alt5.Load19" "Nineteen loads remaining!"
@@ -762,7 +757,7 @@
 		"Reload.Alt6.Load25" "Twenty-five loads remaining!"
 		"Reload.Alt6.Load24" "Twenty-four loads remaining!"
 		"Reload.Alt6.Load23" "Twenty-three loads remaining!"
-		"Reload.Alt6.Load22" "Twenty-two loads remaining!
+		"Reload.Alt6.Load22" "Twenty-two loads remaining!"
 		"Reload.Alt6.Load21" "Twenty-one loads remaining!"
 		"Reload.Alt6.Load20" "Twenty loads remaining!"
 		"Reload.Alt6.Load19" "Nineteen loads remaining!"
@@ -794,7 +789,7 @@
 		"Reload.Alt7.Load25" "Twenty-five loads remaining!"
 		"Reload.Alt7.Load24" "Twenty-four loads remaining!"
 		"Reload.Alt7.Load23" "Twenty-three loads remaining!"
-		"Reload.Alt7.Load22" "Twenty-two loads remaining!
+		"Reload.Alt7.Load22" "Twenty-two loads remaining!"
 		"Reload.Alt7.Load21" "Twenty-one loads remaining!"
 		"Reload.Alt7.Load20" "Twenty loads remaining!"
 		"Reload.Alt7.Load19" "Nineteen loads remaining!"
@@ -826,7 +821,7 @@
 		"Reload.Default.Load25" "Twenty-five loads remaining!"
 		"Reload.Default.Load24" "Twenty-four loads remaining!"
 		"Reload.Default.Load23" "Twenty-three loads remaining!"
-		"Reload.Default.Load22" "Twenty-two loads remaining!
+		"Reload.Default.Load22" "Twenty-two loads remaining!"
 		"Reload.Default.Load21" "Twenty-one loads remaining!"
 		"Reload.Default.Load20" "Twenty loads remaining!"
 		"Reload.Default.Load19" "Nineteen loads remaining!"
@@ -858,7 +853,7 @@
 		"Reload.FemaleDefault.Load25" "Twenty-five loads remaining!"
 		"Reload.FemaleDefault.Load24" "Twenty-four loads remaining!"
 		"Reload.FemaleDefault.Load23" "Twenty-three loads remaining!"
-		"Reload.FemaleDefault.Load22" "Twenty-two loads remaining!
+		"Reload.FemaleDefault.Load22" "Twenty-two loads remaining!"
 		"Reload.FemaleDefault.Load21" "Twenty-one loads remaining!"
 		"Reload.FemaleDefault.Load20" "Twenty loads remaining!"
 		"Reload.FemaleDefault.Load19" "Nineteen loads remaining!"
@@ -882,12 +877,11 @@
 		"Reload.FemaleDefault.Load1" "One load remaining!"
 		"Reload.FemaleDefault.Load0" "Zero loads remaining!"
 
-
 		//Survival mode
 
 		"NGSurvivalExtraction" "<I>Extraction is inbound towards your location, get to it!"
 		"NGSurvivalSupply" "<I>Be advised, FEMA supply drop inbound towards your location, out."
-		"NGSurvivalBegin" "<I>Break break, this is the United States National Guard. There are Safe Zones in your area. As per the National Pandemic Act and UN Redeker Initative, hold until the area is clear. You will earn extraction to safety. Do your part, out."
+		"NGSurvivalBegin" "<I>Break break, this is the United States National Guard. There are Safe Zones in your area. As per the National Pandemic Act and UN Redeker Initiative, hold until the area is clear. You will earn extraction to safety. Do your part, out."
 		"NGSurvivalWaveStart" "<I>Zombie horde approaching your current location! Get Ready!"
 		"NGSurvivalZoneA" "<clr: 255, 255, 0><I>Zone A is under attack! Protect it!"
 		"NGSurvivalZoneB" "<clr: 255, 255, 0><I>Zone B is under attack! Protect it!"
@@ -901,6 +895,5 @@
 		"NMRPlayer.TokenDenied" "[UNUSED RESPAWN TICKETS REMOVED]"
 		"NMRPlayer.TokenUsed" "[RESPAWN TICKET USED]"
 		"Wave.LowZombies" "[PREPARE FOR NEXT ZOMBIE WAVE]"
-
 	}
 }

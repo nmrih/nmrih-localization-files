@@ -105,7 +105,7 @@
 		"Reload.Default.Mag25" "Vinte e cinco cartuchos restantes!"
 		"Reload.Default.Mag24" "Vinte e quatro cartuchos restantes!"
 		"Reload.Default.Mag23" "Vinte e três cartuchos restantes!"
-		"Reload.Default.Mag22" "Vinte e dois cartuchos restantes!
+		"Reload.Default.Mag22" "Vinte e dois cartuchos restantes!"
 		"Reload.Default.Mag21" "Vinte e um cartuchos restantes!"
 		"Reload.Default.Mag20" "Vinte cartuchos restantes!"
 		"Reload.Default.Mag19" "Dezenove cartuchos restantes!"
@@ -137,7 +137,7 @@
 		"Reload.Alt1.Mag25" "Vinte e cinco cartuchos restantes!"
 		"Reload.Alt1.Mag24" "Vinte e quatro cartuchos restantes!"
 		"Reload.Alt1.Mag23" "Vinte e três cartuchos restantes!"
-		"Reload.Alt1.Mag22" "Vinte e dois cartuchos restantes!
+		"Reload.Alt1.Mag22" "Vinte e dois cartuchos restantes!"
 		"Reload.Alt1.Mag21" "Vinte e um cartuchos restantes!"
 		"Reload.Alt1.Mag20" "Vinte cartuchos restantes!"
 		"Reload.Alt1.Mag19" "Dezenove cartuchos restantes!"
@@ -169,7 +169,7 @@
 		"Reload.Alt2.Mag25" "Vinte e cinco cartuchos restantes!"
 		"Reload.Alt2.Mag24" "Vinte e quatro cartuchos restantes!"
 		"Reload.Alt2.Mag23" "Vinte e três cartuchos restantes!"
-		"Reload.Alt2.Mag22" "Vinte e dois cartuchos restantes!
+		"Reload.Alt2.Mag22" "Vinte e dois cartuchos restantes!"
 		"Reload.Alt2.Mag21" "Vinte e um cartuchos restantes!"
 		"Reload.Alt2.Mag20" "Vinte cartuchos restantes!"
 		"Reload.Alt2.Mag19" "Dezenove cartuchos restantes!"

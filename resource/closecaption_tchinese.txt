@@ -308,7 +308,7 @@
 		"Reload.Alt1.Mag25" "我還剩二十五個彈匣！"
 		"Reload.Alt1.Mag24" "我還剩二十四個彈匣！"
 		"Reload.Alt1.Mag23" "我還剩二十三個彈匣！"
-		"Reload.Alt1.Mag22" "我還剩二十二個彈匣！
+		"Reload.Alt1.Mag22" "我還剩二十二個彈匣！"
 		"Reload.Alt1.Mag21" "我還剩二十一個彈匣！"
 		"Reload.Alt1.Mag20" "我還剩二十個彈匣！"
 		"Reload.Alt1.Mag19" "我還剩十九個彈匣！"
@@ -340,7 +340,7 @@
 		"Reload.Alt2.Mag25" "我還剩二十五個彈匣！"
 		"Reload.Alt2.Mag24" "我還剩二十四個彈匣！"
 		"Reload.Alt2.Mag23" "我還剩二十三個彈匣！"
-		"Reload.Alt2.Mag22" "我還剩二十二個彈匣！
+		"Reload.Alt2.Mag22" "我還剩二十二個彈匣！"
 		"Reload.Alt2.Mag21" "我還剩二十一個彈匣！"
 		"Reload.Alt2.Mag20" "我還剩二十個彈匣！"
 		"Reload.Alt2.Mag19" "我還剩十九個彈匣！"
@@ -372,7 +372,7 @@
 		"Reload.Alt3.Mag25" "我還剩二十五個彈匣！"
 		"Reload.Alt3.Mag24" "我還剩二十四個彈匣！"
 		"Reload.Alt3.Mag23" "我還剩二十三個彈匣！"
-		"Reload.Alt3.Mag22" "我還剩二十二個彈匣！
+		"Reload.Alt3.Mag22" "我還剩二十二個彈匣！"
 		"Reload.Alt3.Mag21" "我還剩二十一個彈匣！"
 		"Reload.Alt3.Mag20" "我還剩二十個彈匣！"
 		"Reload.Alt3.Mag19" "我還剩十九個彈匣！"
@@ -404,7 +404,7 @@
 		"Reload.Alt4.Mag25" "我還剩二十五個彈匣！"
 		"Reload.Alt4.Mag24" "我還剩二十四個彈匣！"
 		"Reload.Alt4.Mag23" "我還剩二十三個彈匣！"
-		"Reload.Alt4.Mag22" "我還剩二十二個彈匣！
+		"Reload.Alt4.Mag22" "我還剩二十二個彈匣！"
 		"Reload.Alt4.Mag21" "我還剩二十一個彈匣！"
 		"Reload.Alt4.Mag20" "我還剩二十個彈匣！"
 		"Reload.Alt4.Mag19" "我還剩十九個彈匣！"
@@ -436,7 +436,7 @@
 		"Reload.Alt5.Mag25" "我還剩二十五個彈匣！"
 		"Reload.Alt5.Mag24" "我還剩二十四個彈匣！"
 		"Reload.Alt5.Mag23" "我還剩二十三個彈匣！"
-		"Reload.Alt5.Mag22" "我還剩二十二個彈匣！
+		"Reload.Alt5.Mag22" "我還剩二十二個彈匣！"
 		"Reload.Alt5.Mag21" "我還剩二十一個彈匣！"
 		"Reload.Alt5.Mag20" "我還剩二十個彈匣！"
 		"Reload.Alt5.Mag19" "我還剩十九個彈匣！"
@@ -468,7 +468,7 @@
 		"Reload.Alt6.Mag25" "我還剩二十五個彈匣！"
 		"Reload.Alt6.Mag24" "我還剩二十四個彈匣！"
 		"Reload.Alt6.Mag23" "我還剩二十三個彈匣！"
-		"Reload.Alt6.Mag22" "我還剩二十二個彈匣！
+		"Reload.Alt6.Mag22" "我還剩二十二個彈匣！"
 		"Reload.Alt6.Mag21" "我還剩二十一個彈匣！"
 		"Reload.Alt6.Mag20" "我還剩二十個彈匣！"
 		"Reload.Alt6.Mag19" "我還剩十九個彈匣！"
@@ -500,7 +500,7 @@
 		"Reload.Alt7.Mag25" "我還剩二十五個彈匣！"
 		"Reload.Alt7.Mag24" "我還剩二十四個彈匣！"
 		"Reload.Alt7.Mag23" "我還剩二十三個彈匣！"
-		"Reload.Alt7.Mag22" "我還剩二十二個彈匣！
+		"Reload.Alt7.Mag22" "我還剩二十二個彈匣！"
 		"Reload.Alt7.Mag21" "我還剩二十一個彈匣！"
 		"Reload.Alt7.Mag20" "我還剩二十個彈匣！"
 		"Reload.Alt7.Mag19" "我還剩十九個彈匣！"
@@ -532,7 +532,7 @@
 		"Reload.FemaleDefault.Mag25" "我還剩二十五個彈匣！"
 		"Reload.FemaleDefault.Mag24" "我還剩二十四個彈匣！"
 		"Reload.FemaleDefault.Mag23" "我還剩二十三個彈匣！"
-		"Reload.FemaleDefault.Mag22" "我還剩二十二個彈匣！
+		"Reload.FemaleDefault.Mag22" "我還剩二十二個彈匣！"
 		"Reload.FemaleDefault.Mag21" "我還剩二十一個彈匣！"
 		"Reload.FemaleDefault.Mag20" "我還剩二十個彈匣！"
 		"Reload.FemaleDefault.Mag19" "我還剩十九個彈匣！"
@@ -564,7 +564,7 @@
 		"Reload.Default.Mag25" "我還剩二十五個彈匣！"
 		"Reload.Default.Mag24" "我還剩二十四個彈匣！"
 		"Reload.Default.Mag23" "我還剩二十三個彈匣！"
-		"Reload.Default.Mag22" "我還剩二十二個彈匣！
+		"Reload.Default.Mag22" "我還剩二十二個彈匣！"
 		"Reload.Default.Mag21" "我還剩二十一個彈匣！"
 		"Reload.Default.Mag20" "我還剩二十個彈匣！"
 		"Reload.Default.Mag19" "我還剩十九個彈匣！"
@@ -600,7 +600,7 @@
 		"Reload.Alt1.Load25" "還能裝二十五次！"
 		"Reload.Alt1.Load24" "還能裝二十四次！"
 		"Reload.Alt1.Load23" "還能裝二十三次！"
-		"Reload.Alt1.Load22" "還能裝二十二次！
+		"Reload.Alt1.Load22" "還能裝二十二次！"
 		"Reload.Alt1.Load21" "還能裝二十一次！"
 		"Reload.Alt1.Load20" "還能裝二十次！"
 		"Reload.Alt1.Load19" "還能裝十九次！"
@@ -632,7 +632,7 @@
 		"Reload.Alt2.Load25" "還能裝二十五次！"
 		"Reload.Alt2.Load24" "還能裝二十四次！"
 		"Reload.Alt2.Load23" "還能裝二十三次！"
-		"Reload.Alt2.Load22" "還能裝二十二次！
+		"Reload.Alt2.Load22" "還能裝二十二次！"
 		"Reload.Alt2.Load21" "還能裝二十一次！"
 		"Reload.Alt2.Load20" "還能裝二十次！"
 		"Reload.Alt2.Load19" "還能裝十九次！"
@@ -664,7 +664,7 @@
 		"Reload.Alt3.Load25" "還能裝二十五次！"
 		"Reload.Alt3.Load24" "還能裝二十四次！"
 		"Reload.Alt3.Load23" "還能裝二十三次！"
-		"Reload.Alt3.Load22" "還能裝二十二次！
+		"Reload.Alt3.Load22" "還能裝二十二次！"
 		"Reload.Alt3.Load21" "還能裝二十一次！"
 		"Reload.Alt3.Load20" "還能裝二十次！"
 		"Reload.Alt3.Load19" "還能裝十九次！"
@@ -696,7 +696,7 @@
 		"Reload.Alt4.Load25" "還能裝二十五次！"
 		"Reload.Alt4.Load24" "還能裝二十四次！"
 		"Reload.Alt4.Load23" "還能裝二十三次！"
-		"Reload.Alt4.Load22" "還能裝二十二次！
+		"Reload.Alt4.Load22" "還能裝二十二次！"
 		"Reload.Alt4.Load21" "還能裝二十一次！"
 		"Reload.Alt4.Load20" "還能裝二十次！"
 		"Reload.Alt4.Load19" "還能裝十九次！"
@@ -728,7 +728,7 @@
 		"Reload.Alt5.Load25" "還能裝二十五次！"
 		"Reload.Alt5.Load24" "還能裝二十四次！"
 		"Reload.Alt5.Load23" "還能裝二十三次！"
-		"Reload.Alt5.Load22" "還能裝二十二次！
+		"Reload.Alt5.Load22" "還能裝二十二次！"
 		"Reload.Alt5.Load21" "還能裝二十一次！"
 		"Reload.Alt5.Load20" "還能裝二十次！"
 		"Reload.Alt5.Load19" "還能裝十九次！"
@@ -760,7 +760,7 @@
 		"Reload.Alt6.Load25" "還能裝二十五次！"
 		"Reload.Alt6.Load24" "還能裝二十四次！"
 		"Reload.Alt6.Load23" "還能裝二十三次！"
-		"Reload.Alt6.Load22" "還能裝二十二次！
+		"Reload.Alt6.Load22" "還能裝二十二次！"
 		"Reload.Alt6.Load21" "還能裝二十一次！"
 		"Reload.Alt6.Load20" "還能裝二十次！"
 		"Reload.Alt6.Load19" "還能裝十九次！"
@@ -792,7 +792,7 @@
 		"Reload.Alt7.Load25" "還能裝二十五次！"
 		"Reload.Alt7.Load24" "還能裝二十四次！"
 		"Reload.Alt7.Load23" "還能裝二十三次！"
-		"Reload.Alt7.Load22" "還能裝二十二次！
+		"Reload.Alt7.Load22" "還能裝二十二次！"
 		"Reload.Alt7.Load21" "還能裝二十一次！"
 		"Reload.Alt7.Load20" "還能裝二十次！"
 		"Reload.Alt7.Load19" "還能裝十九次！"
@@ -824,7 +824,7 @@
 		"Reload.FemaleDefault.Load25" "還能裝二十五次！"
 		"Reload.FemaleDefault.Load24" "還能裝二十四次！"
 		"Reload.FemaleDefault.Load23" "還能裝二十三次！"
-		"Reload.FemaleDefault.Load22" "還能裝二十二次！
+		"Reload.FemaleDefault.Load22" "還能裝二十二次！"
 		"Reload.FemaleDefault.Load21" "還能裝二十一次！"
 		"Reload.FemaleDefault.Load20" "還能裝二十次！"
 		"Reload.FemaleDefault.Load19" "還能裝十九次！"
@@ -856,7 +856,7 @@
 		"Reload.Default.Load25" "還能裝二十五次！"
 		"Reload.Default.Load24" "還能裝二十四次！"
 		"Reload.Default.Load23" "還能裝二十三次！"
-		"Reload.Default.Load22" "還能裝二十二次！
+		"Reload.Default.Load22" "還能裝二十二次！"
 		"Reload.Default.Load21" "還能裝二十一次！"
 		"Reload.Default.Load20" "還能裝二十次！"
 		"Reload.Default.Load19" "還能裝十九次！"
@@ -889,7 +889,7 @@
 		"Reload.FemaleDefault.Load25" "還能裝二十五次！"
 		"Reload.FemaleDefault.Load24" "還能裝二十四次！"
 		"Reload.FemaleDefault.Load23" "還能裝二十三次！"
-		"Reload.FemaleDefault.Load22" "還能裝二十二次！
+		"Reload.FemaleDefault.Load22" "還能裝二十二次！"
 		"Reload.FemaleDefault.Load21" "還能裝二十一次！"
 		"Reload.FemaleDefault.Load20" "還能裝二十次！"
 		"Reload.FemaleDefault.Load19" "還能裝十九次！"

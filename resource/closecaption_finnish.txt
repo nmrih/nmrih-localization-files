@@ -310,7 +310,7 @@
 		"Reload.Alt1.Mag25" "Kaksikymmentäviisi makasiinia jäljellä!"
 		"Reload.Alt1.Mag24" "Kaksikymmentäneljä makasiinia jäljellä!"
 		"Reload.Alt1.Mag23" "Kaksikymmentäkolme makasiinia jäljellä!"
-		"Reload.Alt1.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!
+		"Reload.Alt1.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!"
 		"Reload.Alt1.Mag21" "Kaksikymmentäyksi makasiinia jäljellä!"
 		"Reload.Alt1.Mag20" "Kaksikymmentä makasiinia jäljellä!"
 		"Reload.Alt1.Mag19" "Yhdeksäntoista makasiinia jäljellä!"
@@ -342,7 +342,7 @@
 		"Reload.Alt2.Mag25" "Kaksikymmentäviisi makasiinia jäljellä!"
 		"Reload.Alt2.Mag24" "Kaksikymmentäneljä makasiinia jäljellä!"
 		"Reload.Alt2.Mag23" "Kaksikymmentäkolme makasiinia jäljellä!"
-		"Reload.Alt2.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!
+		"Reload.Alt2.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!"
 		"Reload.Alt2.Mag21" "Kaksikymmentäyksi makasiinia jäljellä!"
 		"Reload.Alt2.Mag20" "Kaksikymmentä makasiinia jäljellä!"
 		"Reload.Alt2.Mag19" "Yhdeksäntoista makasiinia jäljellä!"
@@ -374,7 +374,7 @@
 		"Reload.Alt3.Mag25" "Kaksikymmentäviisi makasiinia jäljellä!"
 		"Reload.Alt3.Mag24" "Kaksikymmentäneljä makasiinia jäljellä!"
 		"Reload.Alt3.Mag23" "Kaksikymmentäkolme makasiinia jäljellä!"
-		"Reload.Alt3.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!
+		"Reload.Alt3.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!"
 		"Reload.Alt3.Mag21" "Kaksikymmentäyksi makasiinia jäljellä!"
 		"Reload.Alt3.Mag20" "Kaksikymmentä makasiinia jäljellä!"
 		"Reload.Alt3.Mag19" "Yhdeksäntoista makasiinia jäljellä!"
@@ -406,7 +406,7 @@
 		"Reload.Alt4.Mag25" "Kaksikymmentäviisi makasiinia jäljellä!"
 		"Reload.Alt4.Mag24" "Kaksikymmentäneljä makasiinia jäljellä!"
 		"Reload.Alt4.Mag23" "Kaksikymmentäkolme makasiinia jäljellä!"
-		"Reload.Alt4.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!
+		"Reload.Alt4.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!"
 		"Reload.Alt4.Mag21" "Kaksikymmentäyksi makasiinia jäljellä!"
 		"Reload.Alt4.Mag20" "Kaksikymmentä makasiinia jäljellä!"
 		"Reload.Alt4.Mag19" "Yhdeksäntoista makasiinia jäljellä!"
@@ -438,7 +438,7 @@
 		"Reload.Alt5.Mag25" "Kaksikymmentäviisi makasiinia jäljellä!"
 		"Reload.Alt5.Mag24" "Kaksikymmentäneljä makasiinia jäljellä!"
 		"Reload.Alt5.Mag23" "Kaksikymmentäkolme makasiinia jäljellä!"
-		"Reload.Alt5.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!
+		"Reload.Alt5.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!"
 		"Reload.Alt5.Mag21" "Kaksikymmentäyksi makasiinia jäljellä!"
 		"Reload.Alt5.Mag20" "Kaksikymmentä makasiinia jäljellä!"
 		"Reload.Alt5.Mag19" "Yhdeksäntoista makasiinia jäljellä!"
@@ -470,7 +470,7 @@
 		"Reload.Alt6.Mag25" "Kaksikymmentäviisi makasiinia jäljellä!"
 		"Reload.Alt6.Mag24" "Kaksikymmentäneljä makasiinia jäljellä!"
 		"Reload.Alt6.Mag23" "Kaksikymmentäkolme makasiinia jäljellä!"
-		"Reload.Alt6.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!
+		"Reload.Alt6.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!"
 		"Reload.Alt6.Mag21" "Kaksikymmentäyksi makasiinia jäljellä!"
 		"Reload.Alt6.Mag20" "Kaksikymmentä makasiinia jäljellä!"
 		"Reload.Alt6.Mag19" "Yhdeksäntoista makasiinia jäljellä!"
@@ -502,7 +502,7 @@
 		"Reload.Alt7.Mag25" "Kaksikymmentäviisi makasiinia jäljellä!"
 		"Reload.Alt7.Mag24" "Kaksikymmentäneljä makasiinia jäljellä!"
 		"Reload.Alt7.Mag23" "Kaksikymmentäkolme makasiinia jäljellä!"
-		"Reload.Alt7.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!
+		"Reload.Alt7.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!"
 		"Reload.Alt7.Mag21" "Kaksikymmentäyksi makasiinia jäljellä!"
 		"Reload.Alt7.Mag20" "Kaksikymmentä makasiinia jäljellä!"
 		"Reload.Alt7.Mag19" "Yhdeksäntoista makasiinia jäljellä!"
@@ -534,7 +534,7 @@
 		"Reload.Default.Mag25" "Kaksikymmentäviisi makasiinia jäljellä!"
 		"Reload.Default.Mag24" "Kaksikymmentäneljä makasiinia jäljellä!"
 		"Reload.Default.Mag23" "Kaksikymmentäkolme makasiinia jäljellä!"
-		"Reload.Default.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!
+		"Reload.Default.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!"
 		"Reload.Default.Mag21" "Kaksikymmentäyksi makasiinia jäljellä!"
 		"Reload.Default.Mag20" "Kaksikymmentä makasiinia jäljellä!"
 		"Reload.Default.Mag19" "Yhdeksäntoista makasiinia jäljellä!"
@@ -566,7 +566,7 @@
 		"Reload.FemaleDefault.Mag25" "Kaksikymmentäviisi makasiinia jäljellä!"
 		"Reload.FemaleDefault.Mag24" "Kaksikymmentäneljä makasiinia jäljellä!"
 		"Reload.FemaleDefault.Mag23" "Kaksikymmentäkolme makasiinia jäljellä!"
-		"Reload.FemaleDefault.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!
+		"Reload.FemaleDefault.Mag22" "Kaksikymmentäkaksi makasiinia jäljellä!"
 		"Reload.FemaleDefault.Mag21" "Kaksikymmentäyksi makasiinia jäljellä!"
 		"Reload.FemaleDefault.Mag20" "Kaksikymmentä makasiinia jäljellä!"
 		"Reload.FemaleDefault.Mag19" "Yhdeksäntoista makasiinia jäljellä!"
@@ -602,7 +602,7 @@
 		"Reload.Alt1.Load25" "Kaksikymmentäviisi ammusta jäljellä!"
 		"Reload.Alt1.Load24" "Kaksikymmentäneljä ammusta jäljellä!"
 		"Reload.Alt1.Load23" "Kaksikymmentäkolme ammusta jäljellä!"
-		"Reload.Alt1.Load22" "Kaksikymmentäkaksi ammusta jäljellä!
+		"Reload.Alt1.Load22" "Kaksikymmentäkaksi ammusta jäljellä!"
 		"Reload.Alt1.Load21" "Kaksikymmentäyksi ammusta jäljellä!"
 		"Reload.Alt1.Load20" "Kaksikymmentä ammusta jäljellä!"
 		"Reload.Alt1.Load19" "Yhdeksäntoista ammusta jäljellä!"
@@ -634,7 +634,7 @@
 		"Reload.Alt2.Load25" "Kaksikymmentäviisi ammusta jäljellä!"
 		"Reload.Alt2.Load24" "Kaksikymmentäneljä ammusta jäljellä!"
 		"Reload.Alt2.Load23" "Kaksikymmentäkolme ammusta jäljellä!"
-		"Reload.Alt2.Load22" "Kaksikymmentäkaksi ammusta jäljellä!
+		"Reload.Alt2.Load22" "Kaksikymmentäkaksi ammusta jäljellä!"
 		"Reload.Alt2.Load21" "Kaksikymmentäyksi ammusta jäljellä!"
 		"Reload.Alt2.Load20" "Kaksikymmentä ammusta jäljellä!"
 		"Reload.Alt2.Load19" "Yhdeksäntoista ammusta jäljellä!"
@@ -666,7 +666,7 @@
 		"Reload.Alt3.Load25" "Kaksikymmentäviisi ammusta jäljellä!"
 		"Reload.Alt3.Load24" "Kaksikymmentäneljä ammusta jäljellä!"
 		"Reload.Alt3.Load23" "Kaksikymmentäkolme ammusta jäljellä!"
-		"Reload.Alt3.Load22" "Kaksikymmentäkaksi ammusta jäljellä!
+		"Reload.Alt3.Load22" "Kaksikymmentäkaksi ammusta jäljellä!"
 		"Reload.Alt3.Load21" "Kaksikymmentäyksi ammusta jäljellä!"
 		"Reload.Alt3.Load20" "Kaksikymmentä ammusta jäljellä!"
 		"Reload.Alt3.Load19" "Yhdeksäntoista ammusta jäljellä!"
@@ -698,7 +698,7 @@
 		"Reload.Alt4.Load25" "Kaksikymmentäviisi ammusta jäljellä!"
 		"Reload.Alt4.Load24" "Kaksikymmentäneljä ammusta jäljellä!"
 		"Reload.Alt4.Load23" "Kaksikymmentäkolme ammusta jäljellä!"
-		"Reload.Alt4.Load22" "Kaksikymmentäkaksi ammusta jäljellä!
+		"Reload.Alt4.Load22" "Kaksikymmentäkaksi ammusta jäljellä!"
 		"Reload.Alt4.Load21" "Kaksikymmentäyksi ammusta jäljellä!"
 		"Reload.Alt4.Load20" "Kaksikymmentä ammusta jäljellä!"
 		"Reload.Alt4.Load19" "Yhdeksäntoista ammusta jäljellä!"
@@ -730,7 +730,7 @@
 		"Reload.Alt5.Load25" "Kaksikymmentäviisi ammusta jäljellä!"
 		"Reload.Alt5.Load24" "Kaksikymmentäneljä ammusta jäljellä!"
 		"Reload.Alt5.Load23" "Kaksikymmentäkolme ammusta jäljellä!"
-		"Reload.Alt5.Load22" "Kaksikymmentäkaksi ammusta jäljellä!
+		"Reload.Alt5.Load22" "Kaksikymmentäkaksi ammusta jäljellä!"
 		"Reload.Alt5.Load21" "Kaksikymmentäyksi ammusta jäljellä!"
 		"Reload.Alt5.Load20" "Kaksikymmentä ammusta jäljellä!"
 		"Reload.Alt5.Load19" "Yhdeksäntoista ammusta jäljellä!"
@@ -762,7 +762,7 @@
 		"Reload.Alt6.Load25" "Kaksikymmentäviisi ammusta jäljellä!"
 		"Reload.Alt6.Load24" "Kaksikymmentäneljä ammusta jäljellä!"
 		"Reload.Alt6.Load23" "Kaksikymmentäkolme ammusta jäljellä!"
-		"Reload.Alt6.Load22" "Kaksikymmentäkaksi ammusta jäljellä!
+		"Reload.Alt6.Load22" "Kaksikymmentäkaksi ammusta jäljellä!"
 		"Reload.Alt6.Load21" "Kaksikymmentäyksi ammusta jäljellä!"
 		"Reload.Alt6.Load20" "Kaksikymmentä ammusta jäljellä!"
 		"Reload.Alt6.Load19" "Yhdeksäntoista ammusta jäljellä!"
@@ -794,7 +794,7 @@
 		"Reload.Alt7.Load25" "Kaksikymmentäviisi ammusta jäljellä!"
 		"Reload.Alt7.Load24" "Kaksikymmentäneljä ammusta jäljellä!"
 		"Reload.Alt7.Load23" "Kaksikymmentäkolme ammusta jäljellä!"
-		"Reload.Alt7.Load22" "Kaksikymmentäkaksi ammusta jäljellä!
+		"Reload.Alt7.Load22" "Kaksikymmentäkaksi ammusta jäljellä!"
 		"Reload.Alt7.Load21" "Kaksikymmentäyksi ammusta jäljellä!"
 		"Reload.Alt7.Load20" "Kaksikymmentä ammusta jäljellä!"
 		"Reload.Alt7.Load19" "Yhdeksäntoista ammusta jäljellä!"
@@ -826,7 +826,7 @@
 		"Reload.Default.Load25" "Kaksikymmentäviisi ammusta jäljellä!"
 		"Reload.Default.Load24" "Kaksikymmentäneljä ammusta jäljellä!"
 		"Reload.Default.Load23" "Kaksikymmentäkolme ammusta jäljellä!"
-		"Reload.Default.Load22" "Kaksikymmentäkaksi ammusta jäljellä!
+		"Reload.Default.Load22" "Kaksikymmentäkaksi ammusta jäljellä!"
 		"Reload.Default.Load21" "Kaksikymmentäyksi ammusta jäljellä!"
 		"Reload.Default.Load20" "Kaksikymmentä ammusta jäljellä!"
 		"Reload.Default.Load19" "Yhdeksäntoista ammusta jäljellä!"
@@ -858,7 +858,7 @@
 		"Reload.FemaleDefault.Load25" "Kaksikymmentäviisi ammusta jäljellä!"
 		"Reload.FemaleDefault.Load24" "Kaksikymmentäneljä ammusta jäljellä!"
 		"Reload.FemaleDefault.Load23" "Kaksikymmentäkolme ammusta jäljellä!"
-		"Reload.FemaleDefault.Load22" "Kaksikymmentäkaksi ammusta jäljellä!
+		"Reload.FemaleDefault.Load22" "Kaksikymmentäkaksi ammusta jäljellä!"
 		"Reload.FemaleDefault.Load21" "Kaksikymmentäyksi ammusta jäljellä!"
 		"Reload.FemaleDefault.Load20" "Kaksikymmentä ammusta jäljellä!"
 		"Reload.FemaleDefault.Load19" "Yhdeksäntoista ammusta jäljellä!"
