@@ -1,0 +1,319 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{ 
+
+"GameUI_Error"	"Erro"
+"GameUI_Notice"	"Aviso"
+"GameUI_Confirm"	"Confirmar"
+
+"NMRiH_Dev_NextObjective"		"Próximo Objetivo: %s1"
+
+"NMRiH_CharSelect_Random"		"Aleatório"
+
+"NMRiH_Options_Compass"			"Bússola"
+"NMRiH_Options_InventoryWeapons"	"Inventário de Armas"
+"NMRiH_Options_InventoryAmmo"		"Inventário de Munições"
+"NMRiH_Options_VoiceCommands"		"Comandos de voz"
+"NMRiH_Options_Suicide"			"Suicidar"
+"NMRiH_Options_Shove"			"Empurrar/Bater"
+"NMRiH_Options_ShowObjective"		"Mostrar objetivo atual"
+"NMRiH_Options_DropWeapon"		"Largar arma"
+"NMRiH_Options_Sprint"			"Correr"
+"NMRiH_Options_Reload"			"Recarrer (segure para checar sua munição)"
+"NMRiH_Options_Holster"			"Coldre de arma"
+"NMRiH_Options_UnloadWeapon"		"Descarregar arma"
+"NMRiH_Call_Vote"				"Iniciar votação"
+"NMRiH_Options_SelectFire"		"Mudar modo de disparo"
+"NMRiH_Options_ShowMOTD"		"Mostrar mensagem do dia"
+"NMRiH_Options_RecordDemo"		"Gravar demo"
+
+"NMRiH_Difficulty"	"Dificuldade"
+
+"NMRiH_Difficulty_Classic"		"Clássico"
+"NMRiH_Difficulty_Casual"		"Casual"
+"NMRiH_Difficulty_Nightmare"	"Pesadelo"
+"NMRiH_Difficulty_PVP"			"PvP"
+
+"NMRiH_LAN"				"Apenas LAN"
+
+"VoiceSet"				"Conjunto de voz"
+"AmmoCheckType"				"Ver. Munição"
+
+"AmmoCheckType_Both"			"Voz e HUD"
+"AmmoCheckType_Voice"			"Apenas Voz"
+"AmmoCheckType_HUD"			"Apenas HUD"
+
+"Title_CharacterSelect"			"Seleção de Personagem"
+
+"NMRiH_VoteKickReason"			"Razão"
+"NMRiH_VoteKickReason_Other"	"Outro"
+"NMRiH_VoteKickReason_Cheating"	"Trapaça"
+"NMRiH_VoteKickReason_Idle"		"Ausente"
+"NMRiH_VoteKickReason_Griefing"	"Tóxico"
+
+"NMRiH_Vote_Column_Issue"	"Problema"
+"NMRiH_Vote_Column_Name"	"Nome"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"Nenhum mapa disponível."
+
+"Vote_kick"				"Expulsar Jogador"
+"Vote_changelevel"		"Mudar Mapa"
+"Vote_nextlevel"		"Próximo Mapa"
+"Vote_restart"			"Reininciar Partida"
+"Vote_changechallenge"		"Mudar Desafio"
+
+"NMRiH_Vote_Kick_Player_Other"		"Expulsar Jogador: %s1?\n(nenhum motivo informado)"
+"NMRiH_Vote_Kick_Player_Cheating"		"Expulsar JogadorExpulsar Jogador: %s1?\n(acusado de usar trapaças)"
+"NMRiH_Vote_Kick_Player_Idle"		"Expulsar Jogador: %s1?\n(acusado de estar ausente)"
+"NMRiH_Vote_Kick_Player_Griefing"		"Expulsar JogadorExpulsar Jogador: %s1?\n(acusado de ser tóxico)"
+"NMRiH_Vote_Kick_Player"			"Expulsar Jogador: %s1?"
+"NMRiH_Vote_Passed_Kick_Player"	"Expulsando Jogador: %s1..."
+
+"NMRiH_Vote_ChangeLevel"	"Mudar mapa para %s1?"
+"NMRiH_Vote_NextLevel"		"Mudar o próximo mapa para %s1?"
+"NMRiH_Vote_RestartRound"	"Reiniciar Partida?"
+"NMRiH_Vote_ChangeChallenge"	"Mudar desafio para %s1?"
+
+"NMRiH_Scoreboard_MutePlayer"	"Silenciar Jogador(a)"
+"NMRiH_Scoreboard_ViewSteamProfile"	"Ver perfil steam"
+
+"NMRiH_MutedPlayer"	"Silenciou a voz do(a) jogador(a) %s1"
+"NMRiH_UnmutedPlayer"	"Voltou a escutar a voz do(a) jogador(a) %s1"
+
+"NMRiH_Challenge_Select"	"Escolher Desafio:"
+"NMRiH_Challenge_Random"	"Objetivos Aleatórios"
+"NMRiH_Challenge_Random_Desc"	"Conclua um conjunto de objetivos o mais rápido possível!"
+"NMRiH_Challenge_NoDesc"	"Nenhuma descrição disponível."
+
+"Downloading_Workshop_Map"		"Baixando mapa da Oficina..."
+"Downloading_Workshop_Map_Progress"		"Baixando mapa da Oficina... (%s1/%s2)"
+
+"GameUI_Multiplayer" 	"NMRiH"
+"GameUI_OptionNeedsRestart"		"(Esta opção requer reiniciar o jogo)"
+
+"NMRiH_CreateGame_NATWarning_Title"	"Aviso NAT"
+"NMRiH_CreateGame_NATWarning1"		"Seu dispositivo de rede parece estar atrás de NAT. (Network address translation - Tradução de Endereço de Rede)"
+"NMRiH_CreateGame_NATWarning2"		"Isso pode impedir que outros jogadores entrem no seu jogo."
+"NMRiH_CreateGame_NATWarning3"		"Antes de começar, certifique-se de que seu roteador tenha encaminhamento UDP porta 27015 (port forward)."
+"NMRiH_CreateGame_NATWarning_DontShowAgain"		"Não mostrar novamente"
+"NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"Abrir guia de hospedagem..."
+
+//============================
+//Add-on Manager
+//============================
+"Addon_Manager"						"Gerenciamento de Add-on"
+
+"Addon_Manager_UpdatingAddons"		"Atualizando Add-ons..."
+"Addon_Manager_ByAuthor"			"por %s1"
+"Addon_Manager_Search"				"Pesquisar:"
+"Addon_Manager_Category"				"Categoria:"
+"Addon_Manager_Sort"				"Ordem:"
+"Addon_Manager_Refresh"				"Atualizar"
+"Addon_Manager_OpenInWorkshop"		"Abrir na Oficina da Steam..."
+"Addon_Manager_BrowseAddons"		"Pesquisar add-ons..."
+"Addon_Manager_ApplyChanges"		"Aplicar mudanças"
+"Addon_Manager_InvalidAddon"		"Este add-on é imcompatível."
+"Addon_Manager_MultiSelect"			"[%s1 add-ons selecionados]"
+
+"Addon_Manager_DropMenu_Disable"	"Desativar"
+"Addon_Manager_DropMenu_ShowInfo"	"Mostrar Informação"
+"Addon_Manager_DropMenu_OpenInWorkshop"	"Abrir na Oficina..."
+"Addon_Manager_DropMenu_ViewChangeNotes"	"Ver notas de mudanças..."
+"Addon_Manager_DropMenu_Uninstall"	"Desinstalar"
+"Addon_Manager_DropMenu_Unsubscribe"	"Desinscrever"
+"Addon_Manager_DropMenu_PackToVPK"	"Empacotar para VPK..."
+"Addon_Manager_DropMenu_PublisherUpdate"	"Atualizar no Editor"
+"Addon_Manager_DropMenu_Validate"	"Validar"
+"Addon_Manager_DropMenu_CheckForConflicts"	"Verificar por Conflitos..."
+"Addon_Manager_DropMenu_OpenDataFolder"	"Abrir Pasta de Dados..."
+"Addon_Manager_DropMenu_PrintAddonInfo"	"Imprimir informações do Add-on no Console"
+
+"Addon_Manager_DropMenu_MultiSelectEnable"	"Habilitar Selecionado"
+"Addon_Manager_DropMenu_MultiSelectDisable"	"Desabilitar Selecionado"
+"Addon_Manager_DropMenu_MultiSelectUninstall"	"Desinstalar Selecionado"
+
+"Addon_Manager_Category_All"		"Todos"
+"Addon_Manager_Category_Local"		"Local"
+"Addon_Manager_Category_Workshop"	"Oficina"
+"Addon_Manager_Category_Published"	"Publicado"
+"Addon_Manager_Category_VotedUp"	"Mais Votado"
+"Addon_Manager_Category_Favorited"	"Favoritos"
+"Addon_Manager_Category_Followed"	"Seguidos"
+
+"Addon_Manager_Sort_Title"				"Título"
+"Addon_Manager_Sort_LoadOrder"			"Carregar Pedido"
+"Addon_Manager_Sort_LastUpdated"		"Último atualizado"
+
+"Addon_Manager_EmptyList"				"Nada aqui!"
+"Addon_Manager_EmptyList_Tip"			"Visite a Oficina para os add-ons."
+"Addon_Manager_EmptyList_TipFilter"		"Verifique os filtros."
+
+"Addon_Manager_Search_NotFound"			"Nada Encontrado!"
+"Addon_Manager_Search_NotFound_Tip"		"Verifique os termos de pesquisa."
+
+"Addon_Manager_NotAvailable"				"Add-ons não estão disponíveis."
+"Addon_Manager_NotAvailable_CmdLine"		"A opção de inicialização \"-noaddons\" está ativada."
+"Addon_Manager_NotAvailable_Disabled"		"Você pode habilitar os add-ons nas opções."
+"Addon_Manager_NotAvailable_NoSteam"		"Sem conexão com a Steam."
+
+"Addon_Manager_DisabledNotice"		"Add-ons estão desabilitados no momento, mas você ainda pode gerenciá-los. Você pode habilitar add-ons nas opções.\n(Isso não se aplica aos mapas da oficina.)"
+"Addon_Manager_NoConnection"		"Sem conexão com o Steam, os add-ons da Oficina não podem ser gerenciados. Seus add-ons instalados ainda funcionam offline."
+
+"Addon_Manager_UnsubscribeAddon_Title"		"Desinscrever do Add-on"
+"Addon_Manager_UnsubscribeAddon_Message"	"Irá desinscrever de %s1, tem certeza?"
+
+"Addon_Manager_UninstallAddon_Title"	"Desinstalar Add-on"
+"Addon_Manager_UninstallAddon_Message"	"%s1 será removido permanentemente se você continuar, isso não pode ser desfeito."
+"Addon_Manager_UninstallAddon_Tip"		"DICA: você pode facilmente desabilitar os add-ons no menu suspenso em vez de removê-los."
+"Addon_Manager_UninstallAddon_Failed"	"Falha na Desinstalação!"
+
+"Addon_Manager_MultiSelectUninstall_Title"		"Desinstalar múltiplos add-ons"
+"Addon_Manager_MultiSelectUninstall_Message"	"%s1 add-ons selecionados serão desinstalados e anulará a inscrição, tem certeza?"
+
+"Addon_Manager_SubscribedAddon"			"O gerenciador de Add-ons percebeu que você se inscreveu em um novo add-on."
+"Addon_Manager_ApplyChangesDialog"		"Você deseja aplicar as alterações? O jogo será reiniciado."
+
+"Addon_Manager_AdvancedPanel"		"Avançado"
+"Addon_Manager_Advanced_ImportCfg"		"Importar configuração do add-on..."
+"Addon_Manager_Advanced_ExportCfg"		"Exportar configuração do add-on..."
+"Addon_Manager_Advanced_ClearPreviewCache"		"Limpar cache de visualização"
+"Addon_Manager_Advanced_ConfigReset"		"Redefinir todas as configurações de add-on..."
+
+"Addon_Manager_ImportCfg"			"Importar configuração do add-on"
+"Addon_Manager_ExportCfg"			"Exportar configuração do add-on"
+"Addon_Manager_CfgFileType"		"Configurações do Add-on (.txt)"
+"Addon_Manager_ImportCfgSuccess"		"Configuração do add-on importada com sucesso, reinicie o jogo para aplicar as alterações."
+"Addon_Manager_ExportCfgSuccess"		"Configuração do add-on exportada com sucesso."
+"Addon_Manager_FailedToImportCfg"		"Falha ao importar configuração do complemento. O arquivo é inválido."
+
+"Addon_Manager_PreviewCacheCleared_Title"	"Cache Limpo"
+"Addon_Manager_PreviewCacheCleared_Message"	"O cache da imagem de visualização foi limpo."
+
+"Addon_Manager_ConfigReset_Confirm"	"Tem certeza de que deseja redefinir as configurações do add-on? Sua ordem de carregamento e configurações ativadas/desativadas serão perdidas."
+
+"Addon_Manager_ConfigReset_Title"	"Configurações redefinidas"
+"Addon_Manager_ConfigReset_Message"	"As configurações de add-on foram redefinidas. Reinicie o jogo para aplicar as alterações."
+
+"Addon_Manager_MapDownloadFailed"	"Falha ao baixar um mapa da Oficina! O Steam pode estar inativo ou o servidor está mal configurado. Tente mais tarde. (Código do ERRO: %s1)"
+
+"Addon_Manager_InfoPanel"				"Informação do Add-on"
+"Addon_Manager_InfoPanel_Title"			"Título"
+"Addon_Manager_InfoPanel_Author"		"Autor"
+"Addon_Manager_InfoPanel_Summary"		"Resumo"
+"Addon_Manager_InfoPanel_Workshop"		"Oficina"
+"Addon_Manager_InfoPanel_Tags"			"Etiquetas"
+"Addon_Manager_InfoPanel_LoadOrder"		"Carregar Pedido"
+"Addon_Manager_InfoPanel_Installed"		"Instalado"
+"Addon_Manager_InfoPanel_LastModified"	"Ùlimo Modificado"
+"Addon_Manager_InfoPanel_FileSize"		"Tamanho do Arquivo"
+"Addon_Manager_InfoPanel_WorkshopID"	"ID da Oficina"
+"Addon_Manager_InfoPanel_UserRating"	"Avaliação do Usuário"
+"Addon_Manager_InfoPanel_None"			"[nenhum]"
+
+//============================
+//Workshop Publisher
+//============================
+"Workshop_Publisher"				"Editor da Oficina"
+"Workshop_Publisher_AddonForm"		"Add-on Form"
+"Workshop_Publisher_UpdateExisting"	"Atualizar add-on existente"
+"Workshop_Publisher_UploadProgress"	"Enviar add-on a Oficina..."		
+
+"Workshop_Publisher_TaskSelection"		"Escolha uma tarefa:"
+"Workshop_Publisher_TaskSelection_UploadNew"	"Enviar novo add-on"
+"Workshop_Publisher_TaskSelection_UpdateExisting"	"Atualizar add-on existente"
+
+"Workshop_Publisher_NoConnection"	"Sem conexão com o Steam, o Editor da Oficina não está disponível."
+"Workshop_Publisher_NoAddons"		"Os add-ons estão desabilitados, o Editor da Oficina não está disponível."
+
+"Workshop_Publisher_AddonForm_Title"				"Título: *"
+"Workshop_Publisher_AddonForm_Desc"					"Descrição:"
+"Workshop_Publisher_AddonForm_Summary"				"Descrição Curta:"
+"Workshop_Publisher_AddonForm_ChangeNotes"			"Notas de Mudanças:"
+"Workshop_Publisher_AddonForm_ContentPath"			"Caminho do Conteúdo: *"
+"Workshop_Publisher_AddonForm_PreviewImage"			"Imagem de Prévisualização: *"
+"Workshop_Publisher_AddonForm_Category"				"Categoria:"
+"Workshop_Publisher_AddonForm_Tags"					"Etiquetas (separado com ','):"
+"Workshop_Publisher_AddonForm_ItemVisibility"		"Visibilidade do item:"
+"Workshop_Publisher_AddonForm_Browse"				"Pesquisar..."
+"Workshop_Publisher_AddonForm_PackToVPK"			"Empacotar para VPK"
+"Workshop_Publisher_AddonForm_Publish"				"Publicar"
+"Workshop_Publisher_AddonForm_KeepExisting"			"Manter Existentes"
+"Workshop_Publisher_AddonForm_LegalAccept"			"Eu aceito os termos do Acordo de Assinante Steam"
+"Workshop_Publisher_AddonForm_ViewLegal"			"Ver acordo..."
+"Workshop_Publisher_AddonForm_ClearForm"			"Limpar Formulário"
+"Workshop_Publisher_AddonForm_TooltipSummary"		"Uma breve descrição do add-on, mostrado na GUI."
+"Workshop_Publisher_AddonForm_TooltipChangeNotes"	"Estas notas irão aparecer no seu log de alterações de itens da oficina para cada atualização."
+"Workshop_Publisher_AddonForm_RequiredField"		"* = Campo obrigatório"
+
+"Workshop_Publisher_BrowseContent"		"Navegue pelo conteúdo"
+"Workshop_Publisher_BrowsePreview"		"Navegue para visualizar imagem"
+
+"Workshop_Publisher_Filter_AllContent"		"Todos conteúdos (*.vpk, *.bsp)"
+"Workshop_Publisher_Filter_VPK"				"Valve Pack File (*.vpk)"
+"Workshop_Publisher_Filter_BSP"				"Arquivo de Mapa BSP (*.bsp)"
+
+"Workshop_Publisher_Filter_AllImages"		"Todas Imagens (*.jpg, *.png, *.gif)"
+"Workshop_Publisher_Filter_JPEG"			"Imagens JPEG (*.jpg)"
+"Workshop_Publisher_Filter_PNG"				"Imagens PNG (*.png)"
+"Workshop_Publisher_Filter_GIF"				"Imagens GIF (*.gif)"
+
+"Workshop_Publisher_Visibility_Public"		"Público"
+"Workshop_Publisher_Visibility_FriendsOnly"	"Apenas Amigos"
+"Workshop_Publisher_Visibility_Private"		"Privado"
+
+"Workshop_Publisher_Category_None"			"Nenhum"
+
+"Workshop_Publisher_UpdatingExisting"		"(Atualizando add-on existente %s1)"
+
+"Workshop_Publisher_OpenInWorkshop"			"Abrir na Oficina..."
+
+"Workshop_Publisher_ConfirmClose"			"Existem alterações não publicadas, deseja fechar?"
+"Workshop_Publisher_ConfirmClear"			"Existem alterações não publicadas. Deseja limpar o formulário?"
+
+"Workshop_Publisher_Status_StartingUp"				"Iniciando..."
+"Workshop_Publisher_Status_PreparingConfig"			"Preparando configuração..."
+"Workshop_Publisher_Status_PreparingContent"		"Preparando conteúdo..."
+"Workshop_Publisher_Status_StartingContentUpload"	"Iniciando envio de conteúdo..."
+"Workshop_Publisher_Status_UploadingContent"		"Enviando conteúdo... (%s1/%s2)"
+"Workshop_Publisher_Status_UploadingPreviewFile"	"Enviando arquivo de visualização..."
+"Workshop_Publisher_Status_CommittingChanges"		"Alterando..."
+"Workshop_Publisher_Status_Finished"				"Envio terminado."
+
+"Workshop_Publisher_VPK_PackDir"			"Empacotar diretório para VPK"
+"Workshop_Publisher_VPK_Save"				"Salvar VPK empacotado..."
+"Workshop_Publisher_VPK_Overwrite"			"%s1 já existe, deseja sobrescrevê-lo?"
+
+"Workshop_Publisher_Error_NoSteam"			"A Oficina Steam não está disponível. Verifique sua conexão de rede ou tente novamente mais tarde."
+"Workshop_Publisher_Error_NoTitle"			"O add-on precisa de um título."
+"Workshop_Publisher_Error_NoContentPath"	"O caminho do conteúdo está vazio."
+"Workshop_Publisher_Error_NoPreviewPath"	"O caminho da imagem de prévisualização está vazio."
+"Workshop_Publisher_Error_NoContentPathExisting"	"O caminho do conteúdo está vazio. (Selecione \"Manter\" para usar o conteúdo existente.)"
+"Workshop_Publisher_Error_NoPreviewPathExisting"	"O caminho da imagem de prévisualização está vazio. (Selecione \"Manter\" para usar a visualização existente.)"
+"Workshop_Publisher_Error_TooBigPreview"	"O arquivo de visualização é muito grande, o limite de tamanho do arquivo é 1 MB."
+"Workshop_Publisher_Error_PublisherError"	"Erro do Editor"
+"Workshop_Publisher_Error_UploadFailed"		"Ocorreu um erro, seu add-on não foi publicado. (Erro de código: %s1)"
+"Workshop_Publisher_Error_InvalidBSP"		"BSP Inválido! O arquivo pode ser incompatível ou corrompido."
+
+"Workshop_Publisher_MissingNMO"			"Está faltando um arquivo .nmo no mapa objetivo selecionado! Certifique-se de que este arquivo esteja no mesmo diretório do BSP escolhido.\nSe você publicar este mapa, os objetivos não funcionarão."
+"Workshop_Publisher_MissingNAV"			"O mapa selecionado está sem um arquivo .nav! Certifique-se de que este arquivo esteja no mesmo diretório do BSP escolhido.\nSe você publicar este mapa, os zumbis podem não conseguir navegar pelo mapa."
+"Workshop_Publisher_MissingNMOAndNAV"	"O mapa de objetivos selecionado não contém os arquivos .nmo e .nav! Certifique-se de que esses arquivos estejam no mesmo diretório do BSP escolhido.\nSe você publicar este mapa, os objetivos não funcionarão e os zumbis podem não conseguir navegar pelo mapa."
+
+"VPKTools_Error"						"Erro de VPK"
+"VPKTools_Error_Name"					"Erro: %s1"
+"VPKTools_Error_BadFileExtension"		"Erro: Extensão de arquivo banida \"%s1\" encontrada!"
+"VPKTools_Error_FailedToPack"			"Falha ao empacotar add-on ao VPK!"
+"VPKTools_Error_FailedToPackDir"		"Falha ao empacotar diretório ao VPK!"
+"VPKTools_Error_NotValid"				"Seu VPK não é válido e não pode ser carregado para a Oficina!"
+
+"VPKTools_Error_FileNotFound"			"O arquivo é inválido ou não existe."
+"VPKTools_Error_FileEmpty"				"Arquivo está vazio."
+"VPKTools_Error_FileNotOK"				"O identificador de arquivo não está OK. (Arquivo possivelmente inválido, corrompido ou ausente)"
+"VPKTools_Error_BadSignature"			"Má Assinatura."
+"VPKTools_Error_BadVersion"				"Versão VPK não suportada."
+"VPKTools_Error_BannedFileExtension"	"Foi encontrada uma extensão de arquivo banida."
+"VPKTools_Error_CfgFilesNotAllowed"		"Arquivos de configuração (cfg) não são permitidos, remova o \"cfg\" da pasta do VPK."
+} 
+}  
