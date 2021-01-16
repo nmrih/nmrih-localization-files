@@ -310,7 +310,7 @@
 		"Reload.Alt1.Mag25" "Vinte e cinco carregadores sobrando!"
 		"Reload.Alt1.Mag24" "Vinte e quatro carregadores sobrando!"
 		"Reload.Alt1.Mag23" "Vinte e três carregadores sobrando!"
-		"Reload.Alt1.Mag22" "Vinte e dois carregadores sobrando!""
+		"Reload.Alt1.Mag22" "Vinte e dois carregadores sobrando!"
 		"Reload.Alt1.Mag21" "Vinte e um carregadores sobrando!"
 		"Reload.Alt1.Mag20" "Vinte carregadores sobrando!"
 		"Reload.Alt1.Mag19" "Dezenove carregadores sobrando!"
