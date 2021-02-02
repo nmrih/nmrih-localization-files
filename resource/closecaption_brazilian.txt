@@ -22,7 +22,7 @@
 		"AmmoCheck.Alt7.5" "Eu tenho cinco balas sobrando!"
 		"AmmoCheck.Alt7.4" "Eu tenho quatro balas sobrando!"
 		"AmmoCheck.Alt7.3" "Três balas restando!"
-		"AmmoCheck.Alt7.2" "Dois balas restando!"
+		"AmmoCheck.Alt7.2" "Duas balas restando!"
 		"AmmoCheck.Alt7.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.Alt7.0" "Sem munição!"
 
@@ -44,7 +44,7 @@
 		"AmmoCheck.Alt6.5" "Eu tenho cinco balas sobrando!"
 		"AmmoCheck.Alt6.4" "Eu tenho quatro balas sobrando!"
 		"AmmoCheck.Alt6.3" "Três balas restando!"
-		"AmmoCheck.Alt6.2" "Dois balas restando!"
+		"AmmoCheck.Alt6.2" "Duas balas restando!"
 		"AmmoCheck.Alt6.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.Alt6.0" "Sem munição!"
 
@@ -65,7 +65,7 @@
 		"AmmoCheck.Alt5.5" "Eu tenho cinco balas sobrando!"
 		"AmmoCheck.Alt5.4" "Eu tenho quatro balas sobrando!"
 		"AmmoCheck.Alt5.3" "Três balas restando!"
-		"AmmoCheck.Alt5.2" "Dois balas restando!"
+		"AmmoCheck.Alt5.2" "Duas balas restando!"
 		"AmmoCheck.Alt5.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.Alt5.0" "Sem munição!"
 
@@ -86,7 +86,7 @@
 		"AmmoCheck.Alt4.5" "Eu tenho cinco balas sobrando!"
 		"AmmoCheck.Alt4.4" "Eu tenho quatro balas sobrando!"
 		"AmmoCheck.Alt4.3" "Três balas restando!"
-		"AmmoCheck.Alt4.2" "Dois balas restando!"
+		"AmmoCheck.Alt4.2" "Duas balas restando!"
 		"AmmoCheck.Alt4.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.Alt4.0" "Sem munição!"
 
@@ -107,7 +107,7 @@
 		"AmmoCheck.Alt3.5" "Eu tenho cinco balas sobrando!"
 		"AmmoCheck.Alt3.4" "Eu tenho quatro balas sobrando!"
 		"AmmoCheck.Alt3.3" "Três balas restando!"
-		"AmmoCheck.Alt3.2" "Dois balas restando!"
+		"AmmoCheck.Alt3.2" "Duas balas restando!"
 		"AmmoCheck.Alt3.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.Alt3.0" "Sem munição!"
 
@@ -128,7 +128,7 @@
 		"AmmoCheck.Alt2.5" "Eu tenho cinco balas sobrando!"
 		"AmmoCheck.Alt2.4" "Eu tenho quatro balas sobrando!"
 		"AmmoCheck.Alt2.3" "Três balas restando!"
-		"AmmoCheck.Alt2.2" "Dois balas restando!"
+		"AmmoCheck.Alt2.2" "Duas balas restando!"
 		"AmmoCheck.Alt2.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.Alt2.0" "Sem munição!"
 
@@ -150,7 +150,7 @@
 		"AmmoCheck.Alt1.5" "Eu tenho cinco balas sobrando!"
 		"AmmoCheck.Alt1.4" "Eu tenho quatro balas sobrando!"
 		"AmmoCheck.Alt1.3" "Três balas restando!"
-		"AmmoCheck.Alt1.2" "Dois balas restando!"
+		"AmmoCheck.Alt1.2" "Duas balas restando!"
 		"AmmoCheck.Alt1.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.Alt1.0" "Sem munição!"
 
@@ -171,7 +171,7 @@
 		"AmmoCheck.Default.5" "Eu tenho cinco balas sobrando!"
 		"AmmoCheck.Default.4" "Eu tenho quatro balas sobrando!"
 		"AmmoCheck.Default.3" "Três balas restando!"
-		"AmmoCheck.Default.2" "Dois balas restando!"
+		"AmmoCheck.Default.2" "Duas balas restando!"
 		"AmmoCheck.Default.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.Default.0" "Sem munição!"
 
@@ -192,7 +192,7 @@
 		"AmmoCheck.FemaleDefault.5" "Eu tenho cinco balas sobrando!"
 		"AmmoCheck.FemaleDefault.4" "Eu tenho quatro balas sobrando!"
 		"AmmoCheck.FemaleDefault.3" "Três balas restando!"
-		"AmmoCheck.FemaleDefault.2" "Dois balas restando!"
+		"AmmoCheck.FemaleDefault.2" "Duas balas restando!"
 		"AmmoCheck.FemaleDefault.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.FemaleDefault.0" "Sem munição!"
 
@@ -216,7 +216,7 @@
 		"VoiceCommand.Alt2.Yes" "Sim"
 		"VoiceCommand.Alt2.Stay" "Fique aqui!"
 		"VoiceCommand.Alt2.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt2.Estão vindo!"	"Estão vindo!!"
+		"VoiceCommand.Alt2.Estão vindo!"	"Estão vindo!"
 		"VoiceCommand.Alt2.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt2.FireInTheHole" "Jogando explosivo!"
 
@@ -227,7 +227,7 @@
 		"VoiceCommand.Alt3.Yes" "Sim"
 		"VoiceCommand.Alt3.Stay" "Fique aqui!"
 		"VoiceCommand.Alt3.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt3.Estão vindo!"	"Estão vindo!!"
+		"VoiceCommand.Alt3.Estão vindo!"	"Estão vindo!"
 		"VoiceCommand.Alt3.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt3.FireInTheHole" "Jogando explosivo!"
 
@@ -238,7 +238,7 @@
 		"VoiceCommand.Alt4.Yes" "Sim"
 		"VoiceCommand.Alt4.Stay" "Fique aqui!"
 		"VoiceCommand.Alt4.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt4.Estão vindo!"	"Estão vindo!!"
+		"VoiceCommand.Alt4.Estão vindo!"	"Estão vindo!"
 		"VoiceCommand.Alt4.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt4.FireInTheHole" "Jogando explosivo!"
 
@@ -249,7 +249,7 @@
 		"VoiceCommand.Alt5.Yes" "Sim"
 		"VoiceCommand.Alt5.Stay" "Fique aqui!"
 		"VoiceCommand.Alt5.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt5.Estão vindo!"	"Estão vindo!!"
+		"VoiceCommand.Alt5.Estão vindo!"	"Estão vindo!"
 		"VoiceCommand.Alt5.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt5.FireInTheHole" "Jogando explosivo!"
 
@@ -260,7 +260,7 @@
 		"VoiceCommand.Alt6.Yes" "Sim"
 		"VoiceCommand.Alt6.Stay" "Fique aqui!"
 		"VoiceCommand.Alt6.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt6.Estão vindo!"	"Estão vindo!!"
+		"VoiceCommand.Alt6.Estão vindo!"	"Estão vindo!"
 		"VoiceCommand.Alt6.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt6.FireInTheHole" "Jogando explosivo!"
 
@@ -271,7 +271,7 @@
 		"VoiceCommand.Alt7.Yes" "Sim"
 		"VoiceCommand.Alt7.Stay" "Fique aqui!"
 		"VoiceCommand.Alt7.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt7.Estão vindo!"	"Estão vindo!!"
+		"VoiceCommand.Alt7.Estão vindo!"	"Estão vindo!"
 		"VoiceCommand.Alt7.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt7.FireInTheHole" "Jogando explosivo!"
 
@@ -282,7 +282,7 @@
 		"VoiceCommand.Default.Yes" "Sim"
 		"VoiceCommand.Default.Stay" "Fique aqui!"
 		"VoiceCommand.Default.ThankYou" "Obrigado!"
-		"VoiceCommand.Default.Estão vindo!"	"Estão vindo!!"
+		"VoiceCommand.Default.Estão vindo!"	"Estão vindo!"
 		"VoiceCommand.Default.Injured"	"Estou machucado!"
 		"VoiceCommand.Default.FireInTheHole" "Jogando explosivo!"
 
@@ -293,7 +293,7 @@
 		"VoiceCommand.FemaleDefault.Yes" "Sim"
 		"VoiceCommand.FemaleDefault.Stay" "Fique aqui!"
 		"VoiceCommand.FemaleDefault.ThankYou" "Obrigado!"
-		"VoiceCommand.FemaleDefault.Estão vindo!"	"Estão vindo!!"
+		"VoiceCommand.FemaleDefault.Estão vindo!"	"Estão vindo!"
 		"VoiceCommand.FemaleDefault.Injured"	"Estou machucado!"
 		"VoiceCommand.FemaleDefault.FireInTheHole" "Jogando explosivo!"
 		

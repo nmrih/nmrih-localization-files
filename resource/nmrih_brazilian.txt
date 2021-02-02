@@ -21,9 +21,9 @@
 "NMRiH_Extraction_Start"		""
 "NMRiH_Post_Extraction"			"Fracasso!"
 
-"NMRiH_Player_Extracted"		"Você foi extraÍdo(a)!"
+"NMRiH_Player_Extracted"		"Você foi extraído(a)!"
 
-"NMRiH_Players_Win"			"Todos os sobreviventes foram extraÍdos!"
+"NMRiH_Players_Win"			"Todos os sobreviventes foram extraídos!"
 "NMRiH_Players_Win_Wave"		"Os sobreviventes resistiram à horda!"
 "NMRiH_Zombies_Win"			"Os sobreviventes foram derrotados!"
 
@@ -98,7 +98,7 @@
 "Chat_Dead"				"(Morto(a)) %s: "
 "Chat_Spec"				"(Espec) %s: "
 "Chat_Prefix"				"%s: "
-"Chat_Extracted"			"(ExtraÍdo(a)) %s: "
+"Chat_Extracted"			"(Extraído(a)) %s: "
 
 "Chat_Connected"			"%s1 entrou no jogo"
 "Chat_Disconnected"			"%s1 saiu do jogo (%s2)"
@@ -121,7 +121,7 @@
 "Radial_ammo"				"Munição"
 
 "Weapon_bow_deerhunter"			"PSE Caça Cervos"
-"Weapon_exp_grenade"			"M67 Granada"
+"Weapon_exp_grenade"			"Granada M67"
 "Weapon_exp_molotov"			"Molotov"
 "Weapon_exp_tnt"			"TNT"
 "Weapon_fa_500a"			"Mossberg 500a"
