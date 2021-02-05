@@ -8,6 +8,8 @@
 "GameUI_Notice"	"Ilmoitus"
 "GameUI_Confirm"	"Varmista"
 
+"GameUI_Enable_Addons"			"Lisäosat päälle"
+
 "NMRiH_Dev_NextObjective"		"Seuraava tavoite: %s1"
 
 "NMRiH_CharSelect_Random"		"Satunnainen"
@@ -33,6 +35,7 @@
 "NMRiH_Difficulty_Classic"		"Klassinen"
 "NMRiH_Difficulty_Casual"		"Rento"
 "NMRiH_Difficulty_Nightmare"	"Painajainen"
+"NMRiH_Difficulty_PVP"			"PvP"
 
 "NMRiH_LAN"				"Vain LAN-yhteys"
 
@@ -81,7 +84,23 @@
 "NMRiH_MutedPlayer"	"Mykistetty pelaaja %s1"
 "NMRiH_UnmutedPlayer"	"Poistettu mykistys pelaajalta %s1"
 
+"NMRiH_Challenge_Select"	"Valitse haaste:"
 "NMRiH_Challenge_Random"	"Satunnainen"
+"NMRiH_Challenge_Random_Desc"	"Suorita tavoitteet niin nopeasti kuin pystyt!"
+"NMRiH_Challenge_NoDesc"	"Ei kuvausta saatavilla."
+
+"Downloading_Workshop_Map"		"Ladataan karttaa Workshop:sta..."
+"Downloading_Workshop_Map_Progress"		"Ladataan karttaa Workshop:sta... (%s1/%s2)"
+
+"GameUI_Multiplayer" 	"NMRiH"
+"GameUI_OptionNeedsRestart"		"(Tämä asetus vaatii uudelleenkäynnistyksen)"
+
+"NMRiH_CreateGame_NATWarning_Title"	"NAT-varoitus"
+"NMRiH_CreateGame_NATWarning1"		"Verkkolaitteesi näyttäisi olevan osoitteenmuunnoksen takana. (NAT)"
+"NMRiH_CreateGame_NATWarning2"		"Tämä saattaa estää muita pelaajia liittymästä."
+"NMRiH_CreateGame_NATWarning3"		"Ennen kuin aloitat, varmista että reitittimesi UDP portti 27015 on uudelleenohjattu."
+"NMRiH_CreateGame_NATWarning_DontShowAgain"		"Älä näytä uudelleen"
+"NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"Avaa opas..."
 
 //============================
 //Add-on Manager
@@ -297,4 +316,4 @@
 }
 }
 
-// Felis - last updated: 2020-07-24
+// Felis - last updated: 2021-02-05
