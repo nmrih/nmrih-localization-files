@@ -66,6 +66,9 @@
 "Round_Restart"				"Round is Restarting in %s1"
 "Round_PlayerShortage"			"Not Enough Players to Start the Round"
 
+// Prefix for (Voice) subtitle
+"Voice"							"Voice"
+
 "NMRiH_VoiceCommand_Ammo"		"Need ammo"
 "NMRiH_VoiceCommand_Follow"		"Follow me"
 "NMRiH_VoiceCommand_Help"		"Help!"
