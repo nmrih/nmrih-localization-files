@@ -66,6 +66,9 @@
 "Round_Restart"				"Раунд будет перезапущен через %s1"
 "Round_PlayerShortage"			"Недостаточно игроков для начала раунда"
 
+// Префикс в чате (Voice)
+"Voice"					"Говорит"
+
 "NMRiH_VoiceCommand_Ammo"		"Нужны патроны"
 "NMRiH_VoiceCommand_Follow"		"Следуй за мной"
 "NMRiH_VoiceCommand_Help"		"На помощь!"
