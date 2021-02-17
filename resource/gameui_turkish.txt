@@ -1,0 +1,321 @@
+"lang" 
+{ 
+"Language" "Turkish" 
+"Tokens" 
+{ 
+
+"GameUI_Error"	"Hata"
+"GameUI_Notice"	"Uyarı"
+"GameUI_Confirm"	"Kabul"
+
+"GameUI_Enable_Addons"			"Eklentileri etkinleştirin"
+
+"NMRiH_Dev_NextObjective"		"Sıradaki görev: %s1"
+
+"NMRiH_CharSelect_Random"		"Rastgele"
+
+"NMRiH_Options_Compass"			"Pusula"
+"NMRiH_Options_InventoryWeapons"	"Silah envanteri"
+"NMRiH_Options_InventoryAmmo"		"Cephane envanteri"
+"NMRiH_Options_VoiceCommands"		"Ses komutları"
+"NMRiH_Options_Suicide"			"İntihar"
+"NMRiH_Options_Shove"			"İtme/Deneme"
+"NMRiH_Options_ShowObjective"		"Mevcut görevi göster"
+"NMRiH_Options_DropWeapon"		"Silahı bırak"
+"NMRiH_Options_Sprint"			"Koş"
+"NMRiH_Options_Reload"			"Yeniden yükle (Cephane Kontrolü için basılı tutun)"
+"NMRiH_Options_Holster"			"Silahı gizle"
+"NMRiH_Options_UnloadWeapon"		"Silahı boşalt"
+"NMRiH_Call_Vote"				"Oy başlat"
+"NMRiH_Options_SelectFire"		"Ateş modunu değiştir"
+"NMRiH_Options_ShowMOTD"		"Günün mesajını göster"
+"NMRiH_Options_RecordDemo"		"Demo kaydet"
+
+"NMRiH_Difficulty"	"Zorluk"
+
+"NMRiH_Difficulty_Classic"		"Klasik"
+"NMRiH_Difficulty_Casual"		"Normal"
+"NMRiH_Difficulty_Nightmare"	"Kabus"
+"NMRiH_Difficulty_PVP"			"PvP"
+
+"NMRiH_LAN"				"Yalnızca LAN"
+
+"VoiceSet"				"Ses Seti"
+"AmmoCheckType"				"Cephane Kontrolü"
+
+"AmmoCheckType_Both"			"Ses ve HUD"
+"AmmoCheckType_Voice"			"Yalnızca Ses"
+"AmmoCheckType_HUD"			"Yalnızca HUD"
+
+"Title_CharacterSelect"			"Karakter seç"
+
+"NMRiH_VoteKickReason"			"Sebep"
+"NMRiH_VoteKickReason_Other"	"Diğer"
+"NMRiH_VoteKickReason_Cheating"	"Hile"
+"NMRiH_VoteKickReason_Idle"		"Boşta"
+"NMRiH_VoteKickReason_Griefing"	"Zarar"
+
+"NMRiH_Vote_Column_Issue"	"Konu"
+"NMRiH_Vote_Column_Name"	"İsim"
+"NMRiH_Vote_Column_Properties"	""
+
+"NMRIH_vote_no_maps"	"Kullanılabilir harita yok."
+
+"Vote_kick"				"Oyuncuyu at"
+"Vote_changelevel"		"Harita değiş"
+"Vote_nextlevel"		"Sıradaki harita"
+"Vote_restart"			"Turu tekrar başlat"
+"Vote_changechallenge"		"Meydan okumayı değiştir"
+
+"NMRiH_Vote_Kick_Player_Other"		"Oyuncuyu at: %s1?\n(sebep verilmedi)"
+"NMRiH_Vote_Kick_Player_Cheating"		"Oyuncuyu at: %s1?\n(hile yapmakla suçlandı)"
+"NMRiH_Vote_Kick_Player_Idle"		"Oyuncuyu at: %s1?\n(boş olmakla suçlandı)"
+"NMRiH_Vote_Kick_Player_Griefing"		"Oyuncuyu at: %s1?\n(takım arkadaşına zarar vermekle suçlandı)"
+"NMRiH_Vote_Kick_Player"			"Oyuncuyu at: %s1?"
+"NMRiH_Vote_Passed_Kick_Player"	"Oyuncu atılıyor: %s1..."
+
+"NMRiH_Vote_ChangeLevel"	"Haritayı şuna değiştir: %s1?"
+"NMRiH_Vote_NextLevel"		"Sonraki haritayı ayarla %s1?"
+"NMRiH_Vote_RestartRound"	"Tur yeniden başlatılsın mı?"
+"NMRiH_Vote_ChangeChallenge"	"Meydan okumayı şununla değiştir: %s1?"
+
+"NMRiH_Scoreboard_MutePlayer"	"Oyuncuyu sustur"
+"NMRiH_Scoreboard_ViewSteamProfile"	"Steam profilini görüntüle"
+
+"NMRiH_MutedPlayer"	"Oyuncu %s1'in sesi kapatıldı"
+"NMRiH_UnmutedPlayer"	"Oyuncu %s1'in sesi açıldı"
+
+"NMRiH_Challenge_Select"	"Meydan okuma seç:"
+"NMRiH_Challenge_Random"	"Rastgele görevler"
+"NMRiH_Challenge_Random_Desc"	"Olabildiğince çok görevi hızlı bitir!"
+"NMRiH_Challenge_NoDesc"	"Açıklama yok."
+
+"Downloading_Workshop_Map"		"Harita atölyeden indiriliyor..."
+"Downloading_Workshop_Map_Progress"		"Harita atölyeden indiriliyor... (%s1/%s2)"
+
+"GameUI_Multiplayer" 	"NMRiH"
+"GameUI_OptionNeedsRestart"		"(Bu ayarlar tekrar başlatmayı gerektirir)"
+
+"NMRiH_CreateGame_NATWarning_Title"	"NAT Uyarı"
+"NMRiH_CreateGame_NATWarning1"		"Ağ cihazınız NAT'ın arkasında görünüyor.(Ağ adresi çevirisi)"
+"NMRiH_CreateGame_NATWarning2"		"Bu diğer oyuncuların oyununuza katılmasını engelleyebilir."
+"NMRiH_CreateGame_NATWarning3"		"Başlamadan önce,yönlendiricinizin 27015 UDP bağlantı noktasının yönlendirildiğinden emin olun."
+"NMRiH_CreateGame_NATWarning_DontShowAgain"		"Bir daha gösterme"
+"NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"Barındırma kılavuzunu açın..."
+
+//============================
+//Add-on Manager
+//============================
+"Addon_Manager"						"Eklenti Yöneticisi"
+
+"Addon_Manager_UpdatingAddons"		"Eklentileri Güncelle..."
+"Addon_Manager_ByAuthor"			"%s1 tarafından "
+"Addon_Manager_Search"				"Ara:"
+"Addon_Manager_Category"				"Kategori:"
+"Addon_Manager_Sort"				"Çeşit:"
+"Addon_Manager_SwapWith"			"Bununla değiş:"
+"Addon_Manager_Refresh"				"Yenile"
+"Addon_Manager_OpenInWorkshop"		"Atölyeden açılıyor..."
+"Addon_Manager_BrowseAddons"		"Eklentilere göz at..."
+"Addon_Manager_ApplyChanges"		"Değişiklikleri uygula"
+"Addon_Manager_InvalidAddon"		"Bu eklenti uyumsuz."
+"Addon_Manager_MultiSelect"			"[%s1 eklenti seçildi]"
+
+"Addon_Manager_DropMenu_Disable"	"Devre dışı bırak"
+"Addon_Manager_DropMenu_ShowInfo"	"Bilgi göster"
+"Addon_Manager_DropMenu_OpenInWorkshop"	"Atölyede göster..."
+"Addon_Manager_DropMenu_ViewChangeNotes"	"Değişiklik notlarına bak..."
+"Addon_Manager_DropMenu_Uninstall"	"Sil"
+"Addon_Manager_DropMenu_Unsubscribe"	"Abonelikten çık"
+"Addon_Manager_DropMenu_PackToVPK"	"VPK'ye paketle..."
+"Addon_Manager_DropMenu_PublisherUpdate"	"yayıncıda güncelle"
+"Addon_Manager_DropMenu_Validate"	"Doğrula"
+"Addon_Manager_DropMenu_CheckForConflicts"	"Çakışmaları Kontrol Edin..."
+"Addon_Manager_DropMenu_OpenDataFolder"	"Veri Klasörünü Aç..."
+"Addon_Manager_DropMenu_PrintAddonInfo"	"Eklenti Bilgilerini Konsola Yazdır"
+
+"Addon_Manager_DropMenu_MultiSelectEnable"	"Seçileni Etkinleştir"
+"Addon_Manager_DropMenu_MultiSelectDisable"	"Seçileni Devre Dışı Bırak"
+"Addon_Manager_DropMenu_MultiSelectUninstall"	"Seçileni Kaldır"
+
+"Addon_Manager_Category_All"		"Hepsi"
+"Addon_Manager_Category_Local"		"Yerel"
+"Addon_Manager_Category_Workshop"	"Atölye"
+"Addon_Manager_Category_Published"	"Yayınlandı"
+"Addon_Manager_Category_VotedUp"	"Oy verildi"
+"Addon_Manager_Category_Favorited"	"Favorilere eklendi"
+"Addon_Manager_Category_Followed"	"Takip ediliyor"
+
+"Addon_Manager_Sort_Title"				"Başlık"
+"Addon_Manager_Sort_LoadOrder"			"Yükleme Sırası"
+"Addon_Manager_Sort_LastUpdated"		"Son güncelleme"
+
+"Addon_Manager_EmptyList"				"Burada hiçbir şey yok!"
+"Addon_Manager_EmptyList_Tip"			"Eklentiler için Atölyeyi ziyaret edin."
+"Addon_Manager_EmptyList_TipFilter"		"Filtreleri kontrol edin."
+
+"Addon_Manager_Search_NotFound"			"Bir şey bulunamadı!"
+"Addon_Manager_Search_NotFound_Tip"		"Arama terimlerini kontrol edin."
+
+"Addon_Manager_NotAvailable"				"Eklentiler mevcut değil."
+"Addon_Manager_NotAvailable_CmdLine"		"Başlatma seçeneği \ "-noaddons \" ayarlandı."
+"Addon_Manager_NotAvailable_Disabled"		"Eklentileri seçeneklerde etkinleştirebilirsiniz."
+"Addon_Manager_NotAvailable_NoSteam"		"Steam ile bağlantı yok."
+
+"Addon_Manager_DisabledNotice"		"Eklentiler şu anda devre dışı,ancak yine de onları yönetebilirsiniz.Eklentileri seçeneklerde etkinleştirebilirsiniz.\n(Bu,Atölye haritaları için geçerli değildir.)"
+"Addon_Manager_NoConnection"		"Steam ile bağlantı yok,Atölye eklentileri yönetilemez.Yüklü eklentileriniz hala çevrimdışı çalışıyor."
+
+"Addon_Manager_UnsubscribeAddon_Title"		"Eklentiyi İptal Et"
+"Addon_Manager_UnsubscribeAddon_Message"	"%s1 abonelikten çıkacak,emin misin?"
+
+"Addon_Manager_UninstallAddon_Title"	"Eklentiyi Kaldır"
+"Addon_Manager_UninstallAddon_Message"	"Devam ederseniz %s1 kalıcı olarak kaldırılacak,bu geri alınamaz."
+"Addon_Manager_UninstallAddon_Tip"		"İPUCU:Eklentileri kaldırmak yerine açılır menüden kolayca devre dışı bırakabilirsiniz."
+"Addon_Manager_UninstallAddon_Failed"	"Kaldırma başarısız oldu!"
+
+"Addon_Manager_MultiSelectUninstall_Title"		"Birden çok eklentiyi kaldırın"
+"Addon_Manager_MultiSelectUninstall_Message"	"%s1 seçilen eklentiler kaldırılacak/abonelikten çıkacak,emin misiniz?"
+
+"Addon_Manager_SubscribedAddon"			"Eklenti Yöneticisi,yeni eklentilere abone olduğunuzu fark etti."
+"Addon_Manager_ApplyChangesDialog"		"Değişiklikleri uygulamak ister misiniz?Oyun yeniden başlatılacak."
+
+"Addon_Manager_AdvancedPanel"		"Gelişmiş"
+"Addon_Manager_Advanced_ImportCfg"		"Eklenti yapılandırmasını içe aktar..."
+"Addon_Manager_Advanced_ExportCfg"		"Eklenti yapılandırmasını dışa aktar..."
+"Addon_Manager_Advanced_ClearPreviewCache"		"Önizleme önbelleğini temizle"
+"Addon_Manager_Advanced_ConfigReset"		"Tüm eklenti ayarlarını sıfırlayın..."
+
+"Addon_Manager_ImportCfg"			"Eklenti yapılandırmasını içe aktar"
+"Addon_Manager_ExportCfg"			"Eklenti yapılandırmasını dışa aktar"
+"Addon_Manager_CfgFileType"		"Eklenti yapılandırması(.txt)"
+"Addon_Manager_ImportCfgSuccess"		"Eklenti yapılandırması başarıyla içe aktarıldı,değişiklikleri uygulamak için oyunu yeniden başlatın."
+"Addon_Manager_ExportCfgSuccess"		"Eklenti yapılandırması başarıyla dışa aktarıldı."
+"Addon_Manager_FailedToImportCfg"		"Eklenti yapılandırması içe aktarılamadı.Dosya geçersiz."
+
+"Addon_Manager_PreviewCacheCleared_Title"	"Önbellek temizlendi"
+"Addon_Manager_PreviewCacheCleared_Message"	"Önizleme görüntüsü önbelleği temizlendi."
+
+"Addon_Manager_ConfigReset_Confirm"	"Eklenti ayarlarınızı sıfırlamak istediğinizden emin misiniz? Yükleme sıranız ve etkin/devre dışı ayarlarınız kaybolacak."
+
+"Addon_Manager_ConfigReset_Title"	"Ayarları sıfırla"
+"Addon_Manager_ConfigReset_Message"	"Eklenti ayarları sıfırlandı. Değişiklikleri uygulamak için oyunu yeniden başlatın."
+
+"Addon_Manager_MapDownloadFailed"	"Atölye'den harita indirilemedi! Steam çalışmıyor olabilir veya sunucu yanlış yapılandırılmış.Daha sonra tekrar deneyin.(Hata kodu:% s1)"
+"Addon_Manager_InfoPanel"				"Eklenti Bilgileri"
+"Addon_Manager_InfoPanel_Title"			"Başlık"
+"Addon_Manager_InfoPanel_Author"		"Yazar"
+"Addon_Manager_InfoPanel_Summary"		"Özet"
+"Addon_Manager_InfoPanel_Workshop"		"Atölye"
+"Addon_Manager_InfoPanel_Tags"			"Etiketler"
+"Addon_Manager_InfoPanel_LoadOrder"		"Yükleme Sırası"
+"Addon_Manager_InfoPanel_Installed"		"Kurulmuş"
+"Addon_Manager_InfoPanel_LastModified"	"Son düzenleme"
+"Addon_Manager_InfoPanel_FileSize"		"Dosya boyutu"
+"Addon_Manager_InfoPanel_WorkshopID"	"Atölye kimliği"
+"Addon_Manager_InfoPanel_UserRating"	"Kullanıcı oyu"
+"Addon_Manager_InfoPanel_None"			"[Yok]"
+
+//============================
+//Workshop Publisher
+//============================
+"Workshop_Publisher"				"Atölye Yayıncısı"
+"Workshop_Publisher_AddonForm"		"Eklenti Formu"
+"Workshop_Publisher_UpdateExisting"	"Mevcut eklentiyi güncelleyin"
+"Workshop_Publisher_UploadProgress"	"Workshop'a eklenti yükleniyor..."		
+
+"Workshop_Publisher_TaskSelection"		"Bir görev seçin:"
+"Workshop_Publisher_TaskSelection_UploadNew"	"Yeni eklenti yükle"
+"Workshop_Publisher_TaskSelection_UpdateExisting"	"Mevcut eklentiyi güncelleyin"
+
+"Workshop_Publisher_NoConnection"	"Steam ile bağlantı yok,Atölye yayıncısı mevcut değil."
+"Workshop_Publisher_NoAddons"		"Eklentiler devre dışı bırakıldı,Atölye yayıncısı  mevcut değil."
+
+"Workshop_Publisher_AddonForm_Title"				"Başlık: *"
+"Workshop_Publisher_AddonForm_Desc"					"Açıklama:"
+"Workshop_Publisher_AddonForm_Summary"				"Kısa Açıklama:"
+"Workshop_Publisher_AddonForm_ChangeNotes"			"Değişiklik Notları:"
+"Workshop_Publisher_AddonForm_ContentPath"			"İçerik Yolu: *"
+"Workshop_Publisher_AddonForm_PreviewImage"			"Önizleme resmi: *"
+"Workshop_Publisher_AddonForm_Category"				"Kategori:"
+"Workshop_Publisher_AddonForm_Tags"					"Etiketler (',' ile ayrı):"
+"Workshop_Publisher_AddonForm_ItemVisibility"		"Öğe Görünürlüğü:"
+"Workshop_Publisher_AddonForm_Browse"				"Araştır..."
+"Workshop_Publisher_AddonForm_PackToVPK"			"VPK'ya Paketleyin"
+"Workshop_Publisher_AddonForm_Publish"				"Yayınla"
+"Workshop_Publisher_AddonForm_KeepExisting"			"Mevcut kal"
+"Workshop_Publisher_AddonForm_LegalAccept"			"Steam Abonelik Sözleşmesinin şartlarını kabul ediyorum"
+"Workshop_Publisher_AddonForm_ViewLegal"			"Sözleşmeyi görüntüle..."
+"Workshop_Publisher_AddonForm_ClearForm"			"Formu Temizle"
+"Workshop_Publisher_AddonForm_TooltipSummary"		"GUI'de gösterilen eklentinin kısa bir açıklaması."
+"Workshop_Publisher_AddonForm_TooltipChangeNotes"	"Bu notlar,her güncelleme için Atölye eşya değişim günlüğünüzde görünecektir.."
+"Workshop_Publisher_AddonForm_RequiredField"		"* = gerekli alan"
+
+"Workshop_Publisher_BrowseContent"		"İçeriğe göz atın"
+"Workshop_Publisher_BrowsePreview"		"Önizleme görüntüsüne göz atın"
+
+"Workshop_Publisher_Filter_AllContent"		"Tüm içerik (*.vpk, *.bsp)"
+"Workshop_Publisher_Filter_VPK"				"Valve Pack Dosyası (*.vpk)"
+"Workshop_Publisher_Filter_BSP"				"BSP Harita Dosyası (*.bsp)"
+
+"Workshop_Publisher_Filter_AllImages"		"All Resimler (*.jpg, *.png, *.gif)"
+"Workshop_Publisher_Filter_JPEG"			"JPEG Resimler (*.jpg)"
+"Workshop_Publisher_Filter_PNG"				"PNG Resimler (*.png)"
+"Workshop_Publisher_Filter_GIF"				"GIF Resimler (*.gif)"
+
+"Workshop_Publisher_Visibility_Public"		"Herkes"
+"Workshop_Publisher_Visibility_FriendsOnly"	"Sadece arkadaşlar"
+"Workshop_Publisher_Visibility_Private"		"Gizli"
+
+"Workshop_Publisher_Category_None"			"Yok"
+
+"Workshop_Publisher_UpdatingExisting"		"(Mevcut %s1 eklentisini güncelle)"
+
+"Workshop_Publisher_OpenInWorkshop"			"Atölyede Aç..."
+
+"Workshop_Publisher_ConfirmClose"			"Yayınlanmamış değişiklikler var,kapatmak ister misiniz?"
+"Workshop_Publisher_ConfirmClear"			"Yayınlanmamış değişiklikler var,formu temizlemek istiyor musunuz?"
+
+"Workshop_Publisher_Status_StartingUp"				"Başlatılıyor..."
+"Workshop_Publisher_Status_PreparingConfig"			"Yapılandırma hazırlanıyor..."
+"Workshop_Publisher_Status_PreparingContent"		"İçerik hazırlanıyor..."
+"Workshop_Publisher_Status_StartingContentUpload"	"İçerik yüklemeye başlanıyor..."
+"Workshop_Publisher_Status_UploadingContent"		"İçerik yükleniyor... (%s1/%s2)"
+"Workshop_Publisher_Status_UploadingPreviewFile"	"Önizleme dosyası yükleniyor..."
+"Workshop_Publisher_Status_CommittingChanges"		"Değişiklikleri uygulanıyor..."
+"Workshop_Publisher_Status_Finished"				"Yükleme tamamlandı."
+
+"Workshop_Publisher_VPK_PackDir"			"Dizini VPK'ya paketle"
+"Workshop_Publisher_VPK_Save"				"Paketlenmiş VPK'yı kaydedin..."
+"Workshop_Publisher_VPK_Overwrite"			"%s1 zaten var,üzerine yazmak ister misiniz?"
+
+"Workshop_Publisher_Error_NoSteam"			"Steam Atölyesi mevcut değil.Ağ bağlantınızı kontrol edin veya daha sonra tekrar deneyin."
+"Workshop_Publisher_Error_NoTitle"			"Eklentinin bir başlığa ihtiyacı var."
+"Workshop_Publisher_Error_NoContentPath"	"Boş içerik yolu belirtildi."
+"Workshop_Publisher_Error_NoPreviewPath"	"Boş önizleme resim yolu belirtildi."
+"Workshop_Publisher_Error_NoContentPathExisting"	"Boş içerik yolu belirtildi.(Mevcut içeriği kullanmak için \"Mevcut olanı koru"\ seçin.)"
+"Workshop_Publisher_Error_NoPreviewPathExisting"	"Boş önizleme resim yolu belirtildi.(Mevcut önizlemeyi kullanmak için \"Mevcut olanı koru"\ seçin.)"
+"Workshop_Publisher_Error_TooBigPreview"	"Önizleme dosyası çok büyük, dosya boyutu sınırı 1 MB'tır."
+"Workshop_Publisher_Error_PublisherError"	"Yayıncı Hatası"
+"Workshop_Publisher_Error_UploadFailed"		"Bir hata oluştu,eklentiniz yayınlanmadı.(Hata kodu: %s1)"
+"Workshop_Publisher_Error_InvalidBSP"		"Geçersiz BSP! Dosya uyumsuz veya bozuk olabilir."
+
+"Workshop_Publisher_MissingNMO"			"Seçilen hedef haritada bir .nmo dosyası eksik! Bu dosyanın seçilen BSP ile aynı dizinde olduğundan emin olun.\nBu haritayı yayınlarsanız,hedefler çalışmayacaktır."
+"Workshop_Publisher_MissingNAV"			"Seçili haritada bir .nav dosyası eksik! Bu dosyanın seçilen BSP ile aynı dizinde olduğundan emin olun.\nBu haritayı yayınlarsanız zombiler gezinmeyebilir."
+"Workshop_Publisher_MissingNMOAndNAV"	"Seçilen hedef haritada hem .nmo hem de .nav dosyaları eksik! Bu dosyaların seçilen BSP ile aynı dizinde olduğundan emin olun.\nBu haritayı yayınlarsanız,hedefler çalışmaz ve zombiler gezinmeyi başaramayabilir."
+
+"VPKTools_Error"						"VPK Hatası"
+"VPKTools_Error_Name"					"Hata: %s1"
+"VPKTools_Error_BadFileExtension"		"Hata: Yasaklanan "\%s1\" dosya uzantısı bulundu!"
+"VPKTools_Error_FailedToPack"			"Eklenti VPK'ya paketlenemedi!"
+"VPKTools_Error_FailedToPackDir"		"Dizin VPK'ya paketlenemedi!"
+"VPKTools_Error_NotValid"				"VPK'nız geçerli değil ve Atölye'ye yüklenemez!"
+
+"VPKTools_Error_FileNotFound"			"Dosya geçersiz veya mevcut değil."
+"VPKTools_Error_FileEmpty"				"Dosya boş."
+"VPKTools_Error_FileNotOK"				"Dosya tutamacı tamam değil.(Muhtemelen geçersiz,bozuk veya eksik dosya)"
+"VPKTools_Error_BadSignature"			"Kötü imza."
+"VPKTools_Error_BadVersion"				"VPK sürümü desteklenmiyor."
+"VPKTools_Error_BannedFileExtension"	"Yasaklı dosya uzantısı bulundu."
+"VPKTools_Error_CfgFilesNotAllowed"		"Yapılandırma (cfg) dosyalarına izin verilmiyor, lütfen \"cfg"\ klasörünü VPK'dan kaldırın."
+} 
+}  
