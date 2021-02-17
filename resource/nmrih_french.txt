@@ -62,6 +62,8 @@
 "Round_Restart" "La manche redémarre dans %s1"
 "Round_PlayerShortage" "Pas assez de joueurs pour commencer la manche"
 
+"Voice"	"Voix"
+
 "NMRiH_VoiceCommand_Ammo" "Besoin de munitions!"
 "NMRiH_VoiceCommand_Follow" "Suivez-moi!"
 "NMRiH_VoiceCommand_Help" "À l'aide!"

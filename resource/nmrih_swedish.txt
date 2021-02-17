@@ -59,6 +59,8 @@
 "Round_Restart"				"Rond startarom om %s1"
 "Round_PlayerShortage"			"Inte tillräckligt med spelare för att starta ronden"
 
+"Voice"						"Tal"
+
 "NMRiH_VoiceCommand_Ammo"		"Behöver ammo!"
 "NMRiH_VoiceCommand_Follow"		"Följ mig"
 "NMRiH_VoiceCommand_Help"		"Hjälp!"

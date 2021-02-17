@@ -59,6 +59,8 @@
 "Round_Restart"				"遊戲將在 %s1 後開始"
 "Round_PlayerShortage"			"玩家不足"
 
+"Voice"						"聲音"
+
 "NMRiH_VoiceCommand_Ammo"		"要求彈藥"
 "NMRiH_VoiceCommand_Follow"		"跟著我"
 "NMRiH_VoiceCommand_Help"		"救命！"

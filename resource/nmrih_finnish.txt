@@ -54,6 +54,8 @@
 "Round_Restart"				"Kierros käynnistyy uudelleen: %s1"
 "Round_PlayerShortage"			"Ei tarpeeksi pelaajia kierroksen aloittamiseen!"
 
+"Voice"						"Puhe"
+
 "NMRiH_VoiceCommand_Ammo"		"Tarvitsen ammuksia"
 "NMRiH_VoiceCommand_Follow"		"Seuraa minua"
 "NMRiH_VoiceCommand_Help"		"Apua!"

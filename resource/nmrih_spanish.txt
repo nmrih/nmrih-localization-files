@@ -66,6 +66,8 @@
 "Round_Restart"				"La ronda se reiniciará en %s1 segundos."
 "Round_PlayerShortage"			"No hay jugadores suficientes para comenzar la ronda."
 
+"Voice"						"Voz"
+
 "NMRiH_VoiceCommand_Ammo"		"Necesito munición"
 "NMRiH_VoiceCommand_Follow"		"Sígueme"
 "NMRiH_VoiceCommand_Help"		"¡Ayuda!"

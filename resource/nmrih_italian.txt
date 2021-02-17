@@ -60,6 +60,8 @@ l'espulsione."
 "Round_Restart"				"Il sarà riavviato in %s1"
 "Round_PlayerShortage"			"Non ci sono abbastanza giocatori per cominciare il round"
 
+"Voice"						"Voce"
+
 "NMRiH_VoiceCommand_Ammo"		"Ho bisogno di munizioni"
 "NMRiH_VoiceCommand_Follow"		"Seguitemi"
 "NMRiH_VoiceCommand_Help"		"Aiuto!"

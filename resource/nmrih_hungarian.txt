@@ -58,6 +58,8 @@
 		"Round_Start"				"A kör megkezdődik!"
 		"Round_Restart"				"A kör újraindul %s1 mp múlva"
 		"Round_PlayerShortage"			"Kör indításhoz nincs elég játékos"
+		
+		"Voice"						"Beszéd"
 
 		"NMRiH_VoiceCommand_Ammo"		"Lőszerre van szükségem!"
 		"NMRiH_VoiceCommand_Follow"		"Kövess!"

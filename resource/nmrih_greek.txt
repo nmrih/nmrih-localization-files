@@ -62,6 +62,8 @@
 "Round_Restart"				"Ο Γύρος κάνει επανεκκίνηση σε %s1"
 "Round_PlayerShortage"			"Δεν υπάρχουν αρκετοί παίκτες για να αρχίσει ο γύρος"
 
+"Voice"						"Ομιλία"
+
 "NMRiH_VoiceCommand_Ammo"		"Χρειάζομαι σφαίρες!"
 "NMRiH_VoiceCommand_Follow"		"Ακολούθα με!"
 "NMRiH_VoiceCommand_Help"		"Βοήθεια!"

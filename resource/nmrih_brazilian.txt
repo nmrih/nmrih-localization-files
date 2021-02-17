@@ -66,6 +66,8 @@
 "Round_Restart"				"A rodada está reiniciando em %s1"
 "Round_PlayerShortage"			"Jogadores insuficientes para iniciar a partida"
 
+"Voice"						"Voz"
+
 "NMRiH_VoiceCommand_Ammo"		"Preciso de Munição"
 "NMRiH_VoiceCommand_Follow"		"Me Siga!"
 "NMRiH_VoiceCommand_Help"		"Ajuda!"

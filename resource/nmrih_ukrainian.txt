@@ -59,6 +59,8 @@
 "Round_Restart"				"Раунд буде повторно запущено через %s1"
 "Round_PlayerShortage"			"Недостатньо гравців, аби розпочати раунд"
 
+"Voice"						"Голос"
+
 "NMRiH_VoiceCommand_Ammo"		"Потрібні набої"
 "NMRiH_VoiceCommand_Follow"		"За мною"
 "NMRiH_VoiceCommand_Help"		"Допоможіть!"

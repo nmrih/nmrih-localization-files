@@ -62,6 +62,8 @@
 "Round_Restart"				"ラウンドがリスタート： %s1"
 "Round_PlayerShortage"			"ラウンド開始に必要なプレイヤーが不足しています。"
 
+"Voice"						"ボイス"
+
 "NMRiH_VoiceCommand_Ammo"		"弾をくれ"
 "NMRiH_VoiceCommand_Follow"		"ついてこい"
 "NMRiH_VoiceCommand_Help"		"助けてくれ"

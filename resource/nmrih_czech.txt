@@ -66,6 +66,8 @@
 "Round_Restart"				"Restart kola za %s1"
 "Round_PlayerShortage"			"Nedostatek hráčů pro start kola"
 
+"Voice"						"Hlas"
+
 "NMRiH_VoiceCommand_Ammo"		"Potřebuji munici"
 "NMRiH_VoiceCommand_Follow"		"Pojď za mnou"
 "NMRiH_VoiceCommand_Help"		"Pomoc!"

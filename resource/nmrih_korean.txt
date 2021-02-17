@@ -66,6 +66,8 @@
 "Round_Restart"				"%s1 초 안에 라운드가 재시작 됩니다"
 "Round_PlayerShortage"			"라운드를 시작하는데 인원이 부족합니다"
 
+"Voice"						"음성"
+
 "NMRiH_VoiceCommand_Ammo"		"총알이 필요해"
 "NMRiH_VoiceCommand_Follow"		"날 따라와"
 "NMRiH_VoiceCommand_Help"		"도와줘!"

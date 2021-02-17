@@ -66,6 +66,8 @@
 "Round_Restart"				"游戏将在 %s1 秒内重新开始"
 "Round_PlayerShortage"			"没有足够的玩家来开始游戏"
 
+"Voice"						"语音"
+
 "NMRiH_VoiceCommand_Ammo"		"需要子弹"
 "NMRiH_VoiceCommand_Follow"		"跟我来"
 "NMRiH_VoiceCommand_Help"		"救命!"
