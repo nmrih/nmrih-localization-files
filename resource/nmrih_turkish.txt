@@ -66,6 +66,8 @@
 "Round_Restart"				"Tur %s1 içinde Yeniden Başlıyor"
 "Round_PlayerShortage"			"Turu Başlatmak İçin Yeterli Oyuncu Yok"
 
+"Voice"						"İletişim"
+
 "NMRiH_VoiceCommand_Ammo"		"Mermiye ihtiyacım var"
 "NMRiH_VoiceCommand_Follow"		"Beni takip et"
 "NMRiH_VoiceCommand_Help"		"Yardım!"
