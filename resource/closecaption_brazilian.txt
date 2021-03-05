@@ -26,7 +26,6 @@
 		"AmmoCheck.Alt7.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.Alt7.0" "Sem munição!"
 
-
 		"AmmoCheck.Alt6.Full" "Meu carregador está cheio."
 		"AmmoCheck.Alt6.AlmostFull" "Meu carregador está quase cheio."
 		"AmmoCheck.Alt6.OverHalf" "Sobrou mais da metade do carregador."
@@ -131,7 +130,6 @@
 		"AmmoCheck.Alt2.2" "Duas balas restando!"
 		"AmmoCheck.Alt2.1" "Tenho apenas uma bala restando!"
 		"AmmoCheck.Alt2.0" "Sem munição!"
-
 
 		"AmmoCheck.Alt1.Full" "Meu carregador está cheio."
 		"AmmoCheck.Alt1.AlmostFull" "Meu carregador está quase cheio."
@@ -297,8 +295,6 @@
 		"VoiceCommand.FemaleDefault.Injured"	"Estou machucado!"
 		"VoiceCommand.FemaleDefault.FireInTheHole" "Jogando explosivo!"
 		
-		
-
 		//reserve ammo check for magazines
 		// 'X magazines remaining'
 
@@ -593,7 +589,6 @@
 		//reserve ammo check for shotgun and magnum
 		// 'X loads remaining'
 
-
 		"Reload.Alt1.Load30" "Trinta disparos restando!"
 		"Reload.Alt1.Load29" "Vinte e nove disparos restando!"
 		"Reload.Alt1.Load28" "Vinte e oito disparos restando!"
@@ -882,7 +877,6 @@
 		"Reload.FemaleDefault.Load1" "Um disparo sobrando!"
 		"Reload.FemaleDefault.Load0" "Zero disparos restando!"
 
-
 		//Survival mode
 
 		"NGSurvivalExtraction" "<I>A extração está chegando em direção à sua localização, vá até ela!"
@@ -901,6 +895,5 @@
 		"NMRPlayer.TokenDenied" "[TICKETS DE RENASCIMENTOS NÃO USADOS REMOVIDOS]"
 		"NMRPlayer.TokenUsed" "[TICKET DE RENASCIMENTO USADO]"
 		"Wave.LowZombies" "[PREPARE-SE PARA A PRÓXIMA ONDA DE ZUMBIS]"
-
 	}
 }

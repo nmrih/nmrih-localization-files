@@ -8,6 +8,8 @@
 "GameUI_Notice"	"Aviso"
 "GameUI_Confirm"	"Confirmar"
 
+"GameUI_Enable_Addons"			"Habilitar add-ons"
+
 "NMRiH_Dev_NextObjective"		"Próximo Objetivo: %s1"
 
 "NMRiH_CharSelect_Random"		"Aleatório"
@@ -111,6 +113,7 @@
 "Addon_Manager_Search"				"Pesquisar:"
 "Addon_Manager_Category"				"Categoria:"
 "Addon_Manager_Sort"				"Ordem:"
+"Addon_Manager_SwapWith"			"Trocar com:"
 "Addon_Manager_Refresh"				"Atualizar"
 "Addon_Manager_OpenInWorkshop"		"Abrir na Oficina da Steam..."
 "Addon_Manager_BrowseAddons"		"Pesquisar add-ons..."

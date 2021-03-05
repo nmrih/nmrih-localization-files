@@ -66,6 +66,7 @@
 "Round_Restart"				"A rodada está reiniciando em %s1"
 "Round_PlayerShortage"			"Jogadores insuficientes para iniciar a partida"
 
+// Prefix for (Voice) subtitle
 "Voice"						"Voz"
 
 "NMRiH_VoiceCommand_Ammo"		"Preciso de Munição"
@@ -272,7 +273,7 @@
 "Suicide_nuke"	"#PLAYER# foi bombardeado."
 
 "DeathNotice_NPC_ShamblerZombie"	"Zumbi"
-"DeathNotice_NPC_RunnerZombie"	"Zumbie Rápido"
+"DeathNotice_NPC_RunnerZombie"	"Zumbi Corredor"
 "DeathNotice_NPC_KidZombie"	"Criança Zumbi"
 "DeathNotice_NPC_TurnedZombie"	"Zumbi Transformado"
 
