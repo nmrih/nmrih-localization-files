@@ -38,6 +38,10 @@
 "NMRiH_Difficulty_Nightmare"	"Nightmare"
 "NMRiH_Difficulty_PVP"			"PvP"
 
+"NMRiH_GameType_Objective"		"Objective"
+"NMRiH_GameType_Survival"		"Survival"
+"NMRiH_GameType_PVP"			"PvP"
+
 "NMRiH_LAN"				"LAN Only"
 
 "VoiceSet"				"Voice Set"
