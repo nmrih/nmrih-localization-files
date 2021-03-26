@@ -14,22 +14,22 @@
 
 "NMRiH_CharSelect_Random"		"Aleatório"
 
-"NMRiH_Options_Compass"			"Bússola"
+"NMRiH_Options_Compass"				"Bússola"
 "NMRiH_Options_InventoryWeapons"	"Inventário de Armas"
 "NMRiH_Options_InventoryAmmo"		"Inventário de Munições"
 "NMRiH_Options_VoiceCommands"		"Comandos de voz"
-"NMRiH_Options_Suicide"			"Suicidar"
-"NMRiH_Options_Shove"			"Empurrar/Bater"
+"NMRiH_Options_Suicide"				"Suicidar"
+"NMRiH_Options_Shove"				"Empurrar/Bater"
 "NMRiH_Options_ShowObjective"		"Mostrar objetivo atual"
-"NMRiH_Options_DropWeapon"		"Largar arma"
-"NMRiH_Options_Sprint"			"Correr"
-"NMRiH_Options_Reload"			"Recarrer (segure para checar sua munição)"
-"NMRiH_Options_Holster"			"Coldre de arma"
+"NMRiH_Options_DropWeapon"			"Largar arma"
+"NMRiH_Options_Sprint"				"Correr"
+"NMRiH_Options_Reload"				"Recarrer (segure para checar sua munição)"
+"NMRiH_Options_Holster"				"Coldre de arma"
 "NMRiH_Options_UnloadWeapon"		"Descarregar arma"
-"NMRiH_Call_Vote"				"Iniciar votação"
-"NMRiH_Options_SelectFire"		"Mudar modo de disparo"
-"NMRiH_Options_ShowMOTD"		"Mostrar mensagem do dia"
-"NMRiH_Options_RecordDemo"		"Gravar demo"
+"NMRiH_Call_Vote"					"Iniciar votação"
+"NMRiH_Options_SelectFire"			"Mudar modo de disparo"
+"NMRiH_Options_ShowMOTD"			"Mostrar mensagem do dia"
+"NMRiH_Options_RecordDemo"			"Gravar demo"
 
 "NMRiH_Difficulty"	"Dificuldade"
 
@@ -37,6 +37,10 @@
 "NMRiH_Difficulty_Casual"		"Casual"
 "NMRiH_Difficulty_Nightmare"	"Pesadelo"
 "NMRiH_Difficulty_PVP"			"PvP"
+
+"NMRiH_GameType_Objective"		"Objetivo"
+"NMRiH_GameType_Survival"		"Sobrevivência"
+"NMRiH_GameType_PVP"			"PvP"
 
 "NMRiH_LAN"				"Apenas LAN"
 
