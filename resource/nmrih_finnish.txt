@@ -268,5 +268,3 @@
 "ChallengeTimer_NewRecord"	"UUSI ENNÄTYS!"
 }
 }
-
-// Felis - last updated: 2020-07-24

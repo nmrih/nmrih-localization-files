@@ -904,5 +904,3 @@
 
 	}
 }
-
-// Felis - last updated: 2020-08-13

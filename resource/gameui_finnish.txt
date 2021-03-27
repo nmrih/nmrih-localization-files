@@ -37,6 +37,10 @@
 "NMRiH_Difficulty_Nightmare"	"Painajainen"
 "NMRiH_Difficulty_PVP"			"PvP"
 
+"NMRiH_GameType_Objective"		"Tavoitteet"
+"NMRiH_GameType_Survival"		"Selviytyminen"
+"NMRiH_GameType_PVP"			"PvP"
+
 "NMRiH_LAN"				"Vain LAN-yhteys"
 
 "VoiceSet"				"Äänipaketti"
@@ -315,5 +319,3 @@
 "VPKTools_Error_CfgFilesNotAllowed"		"Käyttäjän asetuksia sisältävät tiedostot (cfg) ovat kielletty, poista \"cfg\" kansio VPK-tiedostosta jatkaaksesi."
 }
 }
-
-// Felis - last updated: 2021-02-05
