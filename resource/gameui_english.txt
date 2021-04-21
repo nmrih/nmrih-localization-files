@@ -31,6 +31,20 @@
 "NMRiH_Options_ShowMOTD"		"Show message of the day"
 "NMRiH_Options_RecordDemo"		"Record demo"
 
+"NMRiH_Advanced_cl_vmcamera_enabled"	"Enable viewmodel headbobbing"
+"NMRiH_Advanced_cl_stickyironsight"		"Enable toggable ironsights"
+"NMRiH_Advanced_cl_voicesubtitles"		"Enable voice subtitles in chat"
+"NMRiH_Advanced_cl_ejectbrass"			"Enable ejecting bullet casings/shotgun shells"
+"NMRiH_Advanced_cl_muzzle_dlight"		"Enable Dynamic Lighting for Muzzle Flashes (expensive)"
+"NMRiH_Advanced_cl_disablehtmlmotd"		"Disable HTML MOTD"
+"NMRiH_Advanced_nmrih_screenspace"		"Enable screen shaders (disable only for troubleshooting)"
+"NMRiH_Advanced_nmrih_grain"			"Enable film grain"
+"NMRiH_Advanced_nmrih_grain_intensity"	"Intensity of film grain shader"
+"NMRiH_Advanced_nmrih_lensflare"		"Enable lens flare"
+"NMRiH_Advanced_nmrih_dof"				"Enable Depth of Field"
+"NMRiH_Advanced_nmrih_ssao"				"Enable ambient occlusion (HBAO)"
+"NMRiH_Advanced_mp_decals"				"Decal limit (max. 4096)"
+
 "NMRiH_Difficulty"	"Difficulty"
 
 "NMRiH_Difficulty_Classic"		"Classic"
