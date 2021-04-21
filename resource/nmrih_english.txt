@@ -39,6 +39,10 @@
 "PracticeTimeRemaining"			"Round Starting in %s1"
 "RoundStarting"				"Round Starting!"
 
+"HudSurvivalWave"			"WAVE"
+"HudSurvivalRemaining"		"REMAINING"
+"HudSurvivalZone"			"ZONE"
+
 "NMRiH_Votekick_List"			"User IDs for votekick are as follows:\n%s1"
 "NMRiH_Votekick_InProgress"		"Vote already in progress!"
 "NMRiH_Votekick_KickSelf"		"You can't vote to kick yourself!"

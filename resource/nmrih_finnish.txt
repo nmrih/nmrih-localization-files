@@ -39,6 +39,10 @@
 "PracticeTimeRemaining"			"Kierros alkaa: %s1"
 "RoundStarting"				"Kierros alkaa!"
 
+"HudSurvivalWave"			"AALTO"
+"HudSurvivalRemaining"		"JÄLJELLÄ"
+"HudSurvivalZone"			"ALUE"
+
 "NMR_Automatic_Weapon_Switch"		"Vaihda asetta automaattisesti poimimisen jälkeen (jos parempi)"
 
 "NMR_Tertiary_Attack"			"Tertiäärinen hyökkäys"
