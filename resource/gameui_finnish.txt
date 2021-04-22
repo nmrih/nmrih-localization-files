@@ -30,6 +30,20 @@
 "NMRiH_Options_SelectFire"		"Vaihda ampumistilaa"
 "NMRiH_Options_ShowMOTD"		"Näytä MOTD"
 
+"NMRiH_Advanced_cl_vmcamera_enabled"	"Kameran heilunta päälle"
+"NMRiH_Advanced_cl_stickyironsight"		"Pysyvä tähtäys päälle"
+"NMRiH_Advanced_cl_voicesubtitles"		"Näytä puheen tekstitykset chat-ikkunassa"
+"NMRiH_Advanced_cl_ejectbrass"			"Näytä aseiden hylsyt"
+"NMRiH_Advanced_cl_muzzle_dlight"		"Dynaaminen valaistus aseen lauetessa (hidas)"
+"NMRiH_Advanced_cl_disablehtmlmotd"		"Poista käytöstä HTML MOTD"
+"NMRiH_Advanced_nmrih_screenspace"		"Ota käyttöön ruudun varjostimet (vain ongelmanratkaisuun)"
+"NMRiH_Advanced_nmrih_grain"			"Filmin rakeisuus-tehoste päälle"
+"NMRiH_Advanced_nmrih_grain_intensity"	"Filmin rakeisuuden voimakkuus"
+"NMRiH_Advanced_nmrih_lensflare"		"Linssiheijastus-tehoste päälle"
+"NMRiH_Advanced_nmrih_dof"				"Kentän syvyys-tehoste päälle (DOF)"
+"NMRiH_Advanced_nmrih_ssao"				"Ambient occlusion-tehoste päälle (HBAO)"
+"NMRiH_Advanced_mp_decals"				"Pintakuvien rajoitus (maks. 4096)"
+
 "NMRiH_Difficulty"	"Vaikeustaso"
 
 "NMRiH_Difficulty_Classic"		"Klassinen"
