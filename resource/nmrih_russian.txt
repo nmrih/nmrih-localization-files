@@ -39,6 +39,10 @@
 "PracticeTimeRemaining"			"Раунд начнется через %s1"
 "RoundStarting"				"Раунд начинается!"
 
+"HudSurvivalWave"			"ВОЛНА"
+"HudSurvivalRemaining"			"ОСТАЛОСЬ"
+"HudSurvivalZone"			"ЗОНА"
+
 "NMRiH_Votekick_List"			"Следующие ID в голосовании на исключение:\n%s1"
 "NMRiH_Votekick_InProgress"		"Голосование уже идет!"
 "NMRiH_Votekick_KickSelf"		"Вы не можете голосовать за своё исключение!"
