@@ -57,6 +57,15 @@
 
 "NMRiH_LAN"				"Vain LAN-yhteys"
 
+"NMRiH_Difficulty_Tooltip"	"Valitse vaikeustaso.\nKlassinen: Oletusasetukset, uudelleensyntymis-alueet käytössä.\nRento: Pelaajat uudelleensyntyvät aina, heille annetaan myös valmiit aseet.\nPainajainen: Zombien elämäpisteet, määrä, sekä infektion mahdollisuus nousevat.\nPvP: Asettaa päälle PvP pisteytyksen ja näyttää tapposyötteen ruudulla, poistaa zombit ja kartan tavoitteet."
+"NMRiH_Map_Time_Tooltip"	"Kartan aikarajoitus."
+"NMRiH_LAN_Tooltip"	"Pakottaa LAN-yhteyden, ei lähetä pääpalvelimelle."
+"NMRiH_FriendlyFire_Tooltip"	"Ottaa käyttöön omien tulituksen, sairastuneet pelaajat ottavat aina vahinkoa."
+"NMRiH_RealismMode_Tooltip"	"Realistissa tilassa pelaajat kuolevat pysyvästi, zombit ottavat vain päähän kohdistunutta vahinkoa, ja kaikki pääosumat tappavat yhdestä osumasta ammustyypistä riippumatta."
+"NMRiH_HardcoreSurvival_Tooltip"	"Piilottaa HUD:in selviytymistilassa."
+"NMRiH_AdvOptions"	"Lisäasetukset..."
+"NMRiH_AdvOptions_Tooltip"	"Muokkaa pelin lisäasetuksia."
+
 "VoiceSet"				"Äänipaketti"
 "AmmoCheckType"				"Ammuksien tarkastus"
 
