@@ -38,6 +38,7 @@
 "NMRiH_Advanced_cl_muzzle_dlight"		"Enable Dynamic Lighting for Muzzle Flashes (expensive)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Disable HTML MOTD"
 "NMRiH_Advanced_nmrih_screenspace"		"Enable screen shaders (disable only for troubleshooting)"
+"NMRiH_Advanced_nmrih_screenspace_shadow"	"Enable screen vignette effect"
 "NMRiH_Advanced_nmrih_grain"			"Enable film grain"
 "NMRiH_Advanced_nmrih_grain_intensity"	"Intensity of film grain shader"
 "NMRiH_Advanced_nmrih_lensflare"		"Enable lens flare"
