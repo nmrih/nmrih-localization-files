@@ -38,6 +38,7 @@
 "NMRiH_Advanced_cl_muzzle_dlight"		"Динамическое освещение для вспышек из дула"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Отключить HTML MOTD"
 "NMRiH_Advanced_nmrih_screenspace"		"Игровые шейдеры (инфекция, малое кол-во здоровья и т.д.)"
+"NMRiH_Advanced_nmrih_screenspace_shadow"	"Эффект виньетирования"
 "NMRiH_Advanced_nmrih_grain"			"Зернистость (шейдер)"
 "NMRiH_Advanced_nmrih_grain_intensity"		"Интенсивность зернистости"
 "NMRiH_Advanced_nmrih_lensflare"		"Блики"
