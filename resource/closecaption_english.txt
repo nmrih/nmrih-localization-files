@@ -947,7 +947,7 @@
 		"JunctionVoice.02"	"It's good to hear someone's voice! So there is someone left in the city after all. Well, this is private Jones from the 42nd, and I don't know if you've heard but the Lincoln Tunnel is our only way out of the city. We were going to seal it off, but one of the bombs went off before it was supposed to. Demolition experts were killed, and I was wounded by the blast. I managed to climb on one of the trucks, I'll lay low 'til you get here."
 		"JunctionVoice.03"	"I can't believe you made it, I was about to take off! The three explosives you see are powerful enough to seal the tunnel for good, and secure our escape. Plant them all on the pillars, and then get in the truck!"
 		"JunctionVoice.04"	"Okay, now get on quick! There isn't much time!"
-		"JunctionVoice.04"	"Let's get the hell out of here, I hope you're on board!"
+		"JunctionVoice.05"	"Let's get the hell out of here, I hope you're on board!"
 		
 		// Quarantine
 		"QuarantineVoice.RadioIntro"	"Hello? We're what's left of the quarantine.. what's left.. anyone except for us is.. you know. Listen, there are helicopters on the other side of the quarantine from us, if it weren't from the fact we were surrounded by those.. fucking things, we would be outta here by now! I mean, it's kinda great that you guys came along because.. you can help us out there, we can both help each other out."
