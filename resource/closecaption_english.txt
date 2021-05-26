@@ -927,9 +927,9 @@
 
 		// FEMA
 		"FemaVoice.BillyComplex"	"Is this signal coming from the complex? The whole facility is gone! Whatever the eggheads did killed everyone before they could trigger the containment protocol. You need to finish the job, and stop whatever they didn't get out of there!"
-		"FemaVoice.BillyFuel"	"We can lift you up to safety, but we're low on fuel! We need to fill her up before we're going to make it out of here."
+		"FemaVoice.BillyFuel"	"We can lift you out to safety, but we're low on fuel! We need to fill 'er up before we're going to make it out of here."
 		"FemaVoice.BillyGetIn"	"Come on and get in! We're flying into the promised land!"
-		"FemaVoice.BillyTopside"	"Hello? Hello! If you can still hear me, get topside so we can lift you up to safety. Check the cabinet in our trailer, I stashed some of the vaccine the eggheads were developing. We can't be too careful, grab it and get moving!"
+		"FemaVoice.BillyTopside"	"Hello? Hello! If you can still hear me, get topside so we can lift you out to safety. Check the cabinet in our trailer, I stashed some of the vaccine the eggheads were developing. We can't be too careful, grab it and get moving!"
 		"FemaVoice.MengelerOkayBob"	"<I>Okay Bub. Now, flip the switch."
 		"FemaVoice.MengelerThatsIt"	"<I>That's it Bub! Then, you can have your reward."
 		"FemaVoice.MengelerSayHello"	"<I>Say hello to your aunt Alicia, Bub."
@@ -944,20 +944,20 @@
 		"MidwestVoice.EngineerStart"	"Guys, the train engine just went kaput... I have no idea what's going on. We're gonna have to stop here for a while, there won't be another town for several miles."
 		
 		// Junction
-		"JunctionVoice.02"	"It's good to hear someone's voice! So there is someone left in the city after all. Well, this is private Jones from the 42nd, and I don't know if you've heard but the Lincoln Tunnel is our only way out of the city. We were going to seal it off, but one of the bombs went off before it was supposed to. Demolition experts were killed, and I was wounded by the blast. I managed to climb on one of the trucks, I'll lay low 'til you get here."
+		"JunctionVoice.02"	"It's good to hear someone's voice! So there is someone left in the city after all. Well, this is private Jones from the 42nd, and I don't know if you've heard but the Lincoln Tunnel is our only way out of the city. We were going to seal it off, but one of the bombs we had went off before it was supposed to. Demolition experts were killed, and I was wounded by the blast. I managed to climb into the driver seat of one of the trucks, I'll lay low until you get here."
 		"JunctionVoice.03"	"I can't believe you made it, I was about to take off! The three explosives you see are powerful enough to seal the tunnel for good, and secure our escape. Plant them all on the pillars, and then get in the truck!"
 		"JunctionVoice.04"	"Okay, now get on quick! There isn't much time!"
 		"JunctionVoice.05"	"Let's get the hell out of here, I hope you're on board!"
 		
 		// Quarantine
-		"QuarantineVoice.RadioIntro"	"Hello? We're what's left of the quarantine.. what's left.. anyone except for us is.. you know. Listen, there are helicopters on the other side of the quarantine from us, if it weren't from the fact we were surrounded by those.. fucking things, we would be outta here by now! I mean, it's kinda great that you guys came along because.. you can help us out there, we can both help each other out."
+		"QuarantineVoice.RadioIntro"	"Hello? We're what's left of the quarantine... what's left... anyone except for us is... you know. Listen, there are helicopters on the other side of the quarantine from us, if it weren't from the fact we were surrounded by those... fucking things, we would be outta here by now! I mean, it's kinda great that you guys came along because... you can help kinda us out here, we can both help each other out."
 		"QuarantineVoice.RadioIntro2"	"So here's what you gotta do: You have to close the entrance gate to the quarantine, the automatic system will keep the inner quarantine gate shut. You need to be in the inner quarantine, but first you have to close the entrance gate."
-		"QuarantineVoice.RadioTalk"	"Once you close the entrance gate we'll open the inner quarantine gate. But, there's a failsafe in the automated system, the inner gate will close in about a minute, and.. well.. given how long the entrance gate is open, it will trigger the secondary failsafe, let's just say - if you're not inside the inner quarantine when the gate closes, you're gonna die!"
-		"QuarantineVoice.RadioTalk2"	"Here's what we gotta do, there's a siren, <I>there is a siren<I>, in that area you're in. You need to activate the siren, what that is going to do, is that's going to get the zombies off of us. When we can, we're going to go for the helicopter, and then we're going to come back, we're gonna pick you up, and we're all going to get the fuck outta here. So I suggest boarding whatever up you can, when you're ready trigger up the siren!"
+		"QuarantineVoice.RadioTalk"	"Once you close the entrance gate we'll open the inner quarantine gate. But, there's a failsafe in the automated system, the inner gate will close in about a minute, and... well... given how long the entrance gate has been open, it will trigger the secondary failsafe, let's just say - if you're not inside the inner quarantine when the gate closes, you're gonna die!"
+		"QuarantineVoice.RadioTalk2"	"Here's what we gotta do, there's a siren, <I>there is a siren<I>, in that area you're in. You need to activate the siren, what that is going to do, is that's going to get the zombies off of us. When we can, we're going to go for the helicopter, and then we're going to come back, we're gonna pick you up, and we're all going to get the fuck outta here. So I suggest boarding whatever up you can, just... get ready. When you're ready, trigger the siren, alright?"
 		"QuarantineVoice.RadioTalk3"	"First things first, there should be a walkie talkie somewhere in that room, just grab it."
 		
 		// Toxteth
-		"ToxtethSurvivor"	"Yes, we can hear you, we're hovering over the local area. Get to Hartington Road, we'll be there in five seconds to pick you up."
+		"ToxtethSurvivor"	"Yes, we can hear you, we're hovering over the local area. Get to Hartington Road, we'll be there in five minutes to pick you up."
 		"ToxtethPilot"	"Hey! I have been watching you for days now on CCTV! I'm in a store few hundred meters from you, and have the ability to call for help, but I'm locked in! You need to get here quick, I suggest cutting through the graveyard."
 		
 		// Zephyr
@@ -969,8 +969,8 @@
 		"ZephyrVoice.Engineer10"	"To anyone left out there, get on the train! NOW!"
 		"ZephyrVoice.AllAboard"		"<B>ALL ABOARD!"
 		"ZephyrVoice.OhCrud"		"<I>Oh crud..."
-		"ZephyrVoice.Speech1901"	"Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. Listen, currently I'm being hold up in the engine sheds by the turntable, if you guys can go out of your way, and lend me a hand, I greatly appreciate it. In fact, I might just return the favor, but first things first. The door to the platform requires an access code, the code is: <B>1-9-0-1."	
-		"ZephyrVoice.Speech2606"	"Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. Listen, currently I'm being hold up in the engine sheds by the turntable, if you guys can go out of your way, and lend me a hand, I greatly appreciate it. In fact, I might just return the favor, but first things first. The door to the platform requires an access code, the code is: <B>2-6-0-6."	
-		"ZephyrVoice.Speech2710"	"Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. Listen, currently I'm being hold up in the engine sheds by the turntable, if you guys can go out of your way, and lend me a hand, I greatly appreciate it. In fact, I might just return the favor, but first things first. The door to the platform requires an access code, the code is: <B>2-7-1-0."	
+		"ZephyrVoice.Speech1901"	"Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. Listen, currently I'm being hold up in the engine sheds by the turntable, if you guys can go out of your way, and lend me a hand, I greatly appreciate it. In fact, I might just return the favor, but first things first. The door to the platform requires an access code, the code is: 1-9-0-1."
+		"ZephyrVoice.Speech2606"	"Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. Listen, currently I'm being hold up in the engine sheds by the turntable, if you guys can go out of your way, and lend me a hand, I greatly appreciate it. In fact, I might just return the favor, but first things first. The door to the platform requires an access code, the code is: 2-6-0-6."
+		"ZephyrVoice.Speech2710"	"Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. Listen, currently I'm being hold up in the engine sheds by the turntable, if you guys can go out of your way, and lend me a hand, I greatly appreciate it. In fact, I might just return the favor, but first things first. The door to the platform requires an access code, the code is: 2-7-1-0."
 	}
 }
