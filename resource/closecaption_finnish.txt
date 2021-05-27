@@ -902,5 +902,81 @@
 		"NMRPlayer.TokenUsed" "[UUDELLEENSYNTYMINEN KÄYTETTY]"
 		"Wave.LowZombies" "[VALMISTAUTUKAA UUTEEN AALTOON]"
 
+		// Dialogue
+	
+		// Generic
+		"Heli.Approach_Alert_NoAccent"	"Tämä on kansalliskaarti, huomio selviytyjät, me olemme paikalla 30 sekunnissa!"
+		"Heli.Approach_Alert_US"	"Tämä on kansalliskaarti, huomio selviytyjät, me olemme paikalla 30 sekunnissa!"
+		"Heli.Arrival1min_NoAccent"	"Tämä on kansalliskaarti, me olemme paikalla mutta emme voi pysytellä kauan. Teillä on yksi minuutti aikaa."
+		"Heli.Arrival1min_US"	"Tämä on kansalliskaarti, me olemme laskeutuneet mutta emme voi pysytellä kauan. Teillä on yksi minuutti aikaa."
+		"Heli.Departure_NoAccent"	"Meidän täytyy lähteä, bensa on melkein loppu. Jos joku on vielä hengissä, lykkyä tykö."
+		"Heli.Departure_US"	"Pitää häipätä, olette nyt omillanne! Sori!"
+	
+		// Brooklyn
+		"brooklyn_voice.01"	"Hei kiitti kun hyppäsitte sisään, voisitteko olla avuksi?"
+		"brooklyn_voice.02"	"Mitä vittua?! Tässä portissa ei ole virtaa, meidän täytyy korjata se jotta pääsemme ulos täältä."
+		"brooklyn_voice.03"	"Järkevää! Sido se kiinni aitaan niin voin vetää sen alas."
+		"brooklyn_voice.04"	"Hei jätkät! Hyvä nähdä että en ole ainoa tuore lihaskimppu! Olen mielelläni lähdössä tästä paskaläjästä, mutta meidän täytyy vetää alas tuo ulkona oleva aita jotta pääsemme läpi."
+		"brooklyn_voice.05"	"Jooh, kiitti. Yritän saada tämän pakun käyntiin, mutta jos olemme häipymässä tarvitsemme myös varusteita. Huomasin vanhan kärryn kadun toisella puolella, voimme kai saalistaa sillä kaiken mitä tästä naapurustosta löytyy."
+		"brooklyn_voice.06"	"Olette vielä hengissä! Heittäkää kamat sisään, me houkuttelemme väkeä!"
+		"brooklyn_voice.07"	"Noniin olemme melkein matkalla! Meidän täytyy vielä avata tämä portti, sen ohjaimet ei voi olla kovin kaukana."
+		"brooklyn_voice.08"	"<I>Älkää viitsikö <clr:255,0,0>SIAT<clr:255,255,255> - en halua jättää teitä tänne!"
+		"brooklyn_voice.09"	"Paskat. Olisiko parkkisakon paikka."
+		"brooklyn_voice.10"	"En tiedä teistä jätkät, mut mul on <I>kamala nälkä."
+		
+		// Campblood
+		"CampbloodVoice.RalphComingForYa"	"Hei selviytyjät! Olen tulossa!"
+		"CampbloodVoice.RalphLastChance"	"Tämä on viimeinen mahdollisuutesi!"
+		"CampbloodVoice.RalphLightsOff"	"Muistithan laittaa valot kiinni?"
+		"CampbloodVoice.RalphWelcome"	"Olet menossa Camp Blood:iin vai? Et tule koskaan takaisin, se paikka on <I>KIROTTU!"
+		"CampbloodVoice.RalphYourDoomed"	"Olet <I>TUOMITTU! <clr:255,0,0><B>EHEHEHEHE!"
+
+		// FEMA
+		"FemaVoice.BillyComplex"	"Tämä signaali tulee laitoksesta? Koko paikka on raunioina! Mitä tahansa ne älyköt teki tappoivat kaikki ennen kuin he pystyivät käynnistämään protokolan. Sinun täytyy hoitaa se loppuun, ja eristää kaikki mitä he eivät saaneet poistettua!"
+		"FemaVoice.BillyFuel"	"Voimme lennättää teidät turvaan, mutta bensa on lähes loppu! Meidän täytyy tankata se ennen kuin menemme mihinkään."
+		"FemaVoice.BillyGetIn"	"Tulkaa! Me lennämme luvattuun maahan!"
+		"FemaVoice.BillyTopside"	"Haloo, haloo? Jos kuulet tämän, tule pinnalle niin voimme lähettää sinut turvaan. Jätin perävaunuun rokotteen jonka ne älyköt kehittivät. Emme voi olla tarpeeksi varovaisia, ota se ja lähde liikkeelle!"
+		"FemaVoice.MengelerOkayBob"	"<I>Okei Bub. Nyt, käännä kytkintä."
+		"FemaVoice.MengelerThatsIt"	"<I>Hienoa Bub! Nyt, voit saada palkintosi."
+		"FemaVoice.MengelerSayHello"	"<I>Sano terve Alicia-tädille, Bub."
+		"FemaVoice.ColonelNatSec"	"Tämä on eversti Kazan, turvallisuussyistä voimme pelastaa sinut, mutta vain jos kokeellinen rokote on mukanasi. Meillä on sijaintisi ja odotamme vastaustasi maan pinnalla."
+		"FemaVoice.ColonelStow"	"Tämä on eversti Kazan kansallisesta turvallisuusvirastosta, meillä on signaalisi. Pakkaa rokote ja turvaa se evakuointiin."
+		
+		// Midwest
+		"MidwestVoice.EngineerBarbara"	"He käyvät kimppuun, Barbara!"
+		"MidwestVoice.EngineerEnd"	"Okei, löysin sen vian, nyt se täytyy vaan korjata."
+		"MidwestVoice.EngineerEnd2"	"Okei, kaikki toimii taas! Tulkaa kyytiin!"
+		"MidwestVoice.EngineerFirst"	"Pysytelkää siellä, korjaan tämän mahdollisimman pian!"
+		"MidwestVoice.EngineerStart"	"Jätkät, veturin moottori sanoi poks... ei mitään hajua miksi. Meidän täytyy pysähtyä hetkeksi tänne, seuraava kaupunki on vasta pitkän matkan päässä."
+		
+		// Junction
+		"JunctionVoice.02"	"Hyvä kuulla toisen ihmisen ääntä! Joku on siis vielä hengissä. Olen sotamies Jones, ja jos ette vielä tiedä, Lincoln Tunnel on ainoa reitti ulos kaupungista. Meidän oli tarkoitus sulkea se, mutta yksi räjähteistä laukesi. Purkutyön asiantuntijat kuolivat, ja itse haavoituin räjähdyksessä. Pystyin kiipemään sisään yhteen rekoista, pysyttelen täällä kunnes saavutte."
+		"JunctionVoice.03"	"En voi uskoa että pääsitte tänne asti, olin jo lähdössä! Nämä kolme räjähdettä ovat tarpeeksi tunnelin sulkemiseen ja paomme turvaamiseen. Asettakaa ne pylväisiin, ja hypätkää rekkaan!"
+		"JunctionVoice.04"	"Hypätkää kyytiin! Aikaa on vähän!"
+		"JunctionVoice.05"	"Nyt pakoon, toivon että olette kyydissä!"
+		
+		// Quarantine
+		"QuarantineVoice.RadioIntro"	"Haloo? Me olemme kaikki mitä on jäljellä karanteenista... kaikki muu on... kuten tiedät. Kuuntele, meillä on helikoptereita toisella puolella karanteenia, ilman näitä... paskiaisia, me olisimme jo kaukana! Tai siis, on mukavaa että satuitte paikalle koska... voisitte kai auttaa meitä, me voimme auttaa toisiamme."
+		"QuarantineVoice.RadioIntro2"	"Tässä on homman nimi: Sinun täytyy sulkea karanteenin sisääntuloportti, automaattinen järjestelmä pitää sisäisen karanteenin portin kiinni. Sinun täytyy olla sisällä karanteenissa, mutta ensin sinun täytyy sulkea se sisääntuloportti."
+		"QuarantineVoice.RadioTalk"	"Kun suljet sisääntuloportin, me avaamme karanteenin portin. Mutta, siinä automaattisessa systeemissä on turvamekanismi, karanteenin portti sulkeutuu minuutin päästä, ja... tuota... riippuen kuinka kauan sisääntuloportti on ollut auki, se laukaisee toisen turvamekanismin, sanotaan vaan että - jos et ole sisällä ennen kuin portti sulkeutuu, olet mennyttä!"
+		"QuarantineVoice.RadioTalk2"	"Tässä on homman nimi, lähistölläsi on sireeni, <I>siellä on sireeni<I>. Sinun täytyy käynnistää se, sen pitäisi houkutella kaikki zombit pois päältämme. Sitten kun tie on vapaa, me hyppäämme helikopteriin, saavumme takaisin, me otamme sinut mukaan, ja sitten me kaikki painutaan vittuun täältä. Suosittelen siis pysyttelemään siellä, tuota... valmistautukaa. Kun olet valmis, käynnistä sireeni, okei?"
+		"QuarantineVoice.RadioTalk3"	"Mutta ensin, siellä huoneessa pitäisi olla radiopuhelin, nappaa se."
+		
+		// Toxteth
+		"ToxtethSurvivor"	"Kyllä, olemme kuulolla, ja lennämme alueellasi. Mene osoitteeseen \"Hartington Road\", me olemme siellä muutamassa minuutissa."
+		"ToxtethPilot"	"Hei! Olen tarkkaillut teitä päiväkausia valvontakameran kautta! Oleskelen läheisessä kaupparakennuksessa, ja minulla on mahdollisuus hälyttää apua, mutta olen jumissa täällä! Tulkaa pian, ehdotan että menette hautausmaan läpi."
+		
+		// Zephyr
+		"ZephyrVoice.Engineer04"	"Sori kaverit, muisti pätkii. Voisitteko kääntää takanani olevaa kytkintä jotta pääsen laiturille?"
+		"ZephyrVoice.Engineer06"	"Okei, vielä yksi kytkin jäljellä. Ööh, sori, olisi pitänyt mainita se aiemmin, sinne on vähän matkaa, hehe."
+		"ZephyrVoice.Engineer07"	"Okei, yksi homma vielä. Vapauta konduktöörinvaunun jarrut, se on vihreä vaunu tuossa takanani."
+		"ZephyrVoice.Engineer08"	"Kaikki valmista! Hihkaise, niin lähdemme."
+		"ZephyrVoice.Engineer09"	"Nyt mennään!"
+		"ZephyrVoice.Engineer10"	"Jos ette ole vielä kyydissä, nousekaa junaan! HETI!"
+		"ZephyrVoice.AllAboard"		"<B>JUNA LÄHTEE!"
+		"ZephyrVoice.OhCrud"		"<I>Voi rähmä..."
+		"ZephyrVoice.Speech1901"	"Haloo? Siitä on aikaa kun viimeksi kuulin virkistävää ihmisen ääntä. Kuuntele, olen jumissa täällä vaunuvarikolla, jos voisitte hieman auttaa, olisin hyvin kiitollinen. Itse asiassa, voin tehdä vastapalveluksen. Mutta ensin, pääsy laiturille vaatii ovikoodin, koodi on: 1-9-0-1."
+		"ZephyrVoice.Speech2606"	"Haloo? Siitä on aikaa kun viimeksi kuulin virkistävää ihmisen ääntä. Kuuntele, olen jumissa täällä vaunuvarikolla, jos voisitte hieman auttaa, olisin hyvin kiitollinen. Itse asiassa, voin tehdä vastapalveluksen. Mutta ensin, pääsy laiturille vaatii ovikoodin, koodi on: 2-6-0-6."
+		"ZephyrVoice.Speech2710"	"Haloo? Siitä on aikaa kun viimeksi kuulin virkistävää ihmisen ääntä. Kuuntele, olen jumissa täällä vaunuvarikolla, jos voisitte hieman auttaa, olisin hyvin kiitollinen. Itse asiassa, voin tehdä vastapalveluksen. Mutta ensin, pääsy laiturille vaatii ovikoodin, koodi on: 2-7-1-0."
 	}
 }
