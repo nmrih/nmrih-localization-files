@@ -39,6 +39,10 @@
 "PracticeTimeRemaining"			"Partida começando em %s1"
 "RoundStarting"				"Partida Começando!"
 
+"HudSurvivalWave"			"ONDA"
+"HudSurvivalRemaining"		"RESTANDO"
+"HudSurvivalZone"			"ZONA"
+
 "NMRiH_Votekick_List"			"As IDs de usuário para expulsar são as seguintes:\n%s1"
 "NMRiH_Votekick_InProgress"		"Votação já está em andamento!"
 "NMRiH_Votekick_KickSelf"		"Você não pode votar para se expulsar!"

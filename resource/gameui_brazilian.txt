@@ -31,20 +31,20 @@
 "NMRiH_Options_ShowMOTD"		"Mostrar mensagem do dia"
 "NMRiH_Options_RecordDemo"		"Gravar demo"
 
-"NMRiH_Advanced_cl_vmcamera_enabled"	"Habilitar balanço da cabeça do personagem"
+"NMRiH_Advanced_cl_vmcamera_enabled"	"Habilitar movimento da cabeça do personagem"
 "NMRiH_Advanced_cl_stickyironsight"		"Habilitar alternância da mira"
 "NMRiH_Advanced_cl_voicesubtitles"		"Habilitar legendas de voz no bate-papo"
-"NMRiH_Advanced_cl_ejectbrass"			"Permitir a ejeção de cartuchos de bala/cartuchos de espingarda"
-"NMRiH_Advanced_cl_muzzle_dlight"		"Ativar iluminação dinâmica para flashes de disparo"
+"NMRiH_Advanced_cl_ejectbrass"			"Habilitar ejetar cartuchos de bala/cartuchos de espingarda"
+"NMRiH_Advanced_cl_muzzle_dlight"		"Habilitar iluminação dinâmica para luzes de disparo (pesado)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Desabilitar HTML MOTD"
-"NMRiH_Advanced_nmrih_screenspace"		"Habilitar sombreadores de tela (desativar apenas para solução de problemas)"
-"NMRiH_Advanced_nmrih_screenspace_shadow" "Habilitar efeito de vinheta de tela"
-"NMRiH_Advanced_nmrih_grain"			"Habilitar efeito grão de filme"
+"NMRiH_Advanced_nmrih_screenspace"		"Habilitar shaders de tela (desative apenas para solução de problemas)"
+"NMRiH_Advanced_nmrih_screenspace_shadow"	"Habilitar efeito de vinheta de tela"
+"NMRiH_Advanced_nmrih_grain"			"Habilitar grão de filme"
 "NMRiH_Advanced_nmrih_grain_intensity"	"Intensidade do shader de grão de filme"
-"NMRiH_Advanced_nmrih_lensflare"		"Habilitar dispersão de luzes na lente"
+"NMRiH_Advanced_nmrih_lensflare"		"Habilitar reflexo de lente"
 "NMRiH_Advanced_nmrih_dof"				"Habilitar Profundidade de Campo"
-"NMRiH_Advanced_nmrih_ssao"				"Habilitar oclusão de ambiente (HBAO)"
-"NMRiH_Advanced_mp_decals"				"Limite de decalque (max. 4096)"
+"NMRiH_Advanced_nmrih_ssao"				"Habilitar oclusão ambiente (HBAO)"
+"NMRiH_Advanced_mp_decals"				"Limite de decalque (máx. 4096)"
 
 "NMRiH_Difficulty"	"Dificuldade"
 
@@ -59,7 +59,7 @@
 
 "NMRiH_LAN"				"Apenas LAN"
 
-"NMRiH_Difficulty_Tooltip"		"Escolha um nível de dificuldade.\nClássico: opções padrão, pontos de renascimento ativos.\nCasual: Sempre renasce, armas dadas na geração.\nPesadelo: Zombie health, density and infection chance increased.\nPvP: Ativa pontuação PvP e avisos de morte, zumbis e objetivos desativados."
+"NMRiH_Difficulty_Tooltip"		"Escolha um nível de dificuldade.\nClássico: opções padrão, pontos de renascimento ativos.\nCasual: Sempre renasce, armas dadas na geração.\nPesadelo: Saúde, densidade e chance de infecção do zumbi aumentam.\nPvP: Ativa pontuação PvP e avisos de morte, zumbis e objetivos desativados."
 "NMRiH_Map_Time_Tooltip"					"Limite de tempo do mapa."
 "NMRiH_LAN_Tooltip"							"Impõe conexões LAN, não anuncia ao público."
 "NMRiH_FriendlyFire_Tooltip"				"Habilita fogo amigo, jogadores infectados sempre sofrerão danos."
@@ -68,7 +68,7 @@
 "NMRiH_AdvOptions"							"Opções Estendidas..."
 "NMRiH_AdvOptions_Tooltip"					"Editar opções de jogo estendidas."
 
-"NMRiH_Extended_Options"					"Opções Extendidas"
+"NMRiH_Extended_Options"					"Opções Estendidas"
 
 "NMRiH_TokensEnabledObjective"				"Objetivo: Habilitar Tokens de Renascimento"
 "NMRiH_KillsPerTokenObjective"				"Objetivo: Mortes por Token"
