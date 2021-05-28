@@ -926,7 +926,7 @@
 		"CampbloodVoice.RalphYourDoomed"	"You're <I>DOOMED! <clr:255,0,0><B>EHEHEHEHE!"
 
 		// FEMA
-		"FemaVoice.BillyComplex"	"Is this signal coming from the complex? The whole facility is gone! Whatever the eggheads did killed everyone before they could trigger the containment protocol. You need to finish the job, and stop whatever they didn't get out of there!"
+		"FemaVoice.BillyComplex"	"Is this signal coming from the complex? The whole facility is gone! Whatever the eggheads did killed everyone before they could trigger the containment protocol. You need to finish the job, and stop whatever they did get out of there!"
 		"FemaVoice.BillyFuel"	"We can lift you out to safety, but we're low on fuel! We need to fill 'er up before we're going to make it out of here."
 		"FemaVoice.BillyGetIn"	"Come on and get in! We're flying into the promised land!"
 		"FemaVoice.BillyTopside"	"Hello? Hello! If you can still hear me, get topside so we can lift you out to safety. Check the cabinet in our trailer, I stashed some of the vaccine the eggheads were developing. We can't be too careful, grab it and get moving!"
@@ -961,7 +961,7 @@
 		"ToxtethPilot"	"Hey! I have been watching you for days now on CCTV! I'm in a store few hundred meters from you, and have the ability to call for help, but I'm locked in! You need to get here quick, I suggest cutting through the graveyard."
 		
 		// Zephyr
-		"ZephyrVoice.Engineer04"	"Sorry about that guys, loss of memory. Can you please flip the switch right behind me so I can get to the station?"
+		"ZephyrVoice.Engineer04"	"Sorry about that guys, loss of memory. Can you please flip the switch right behind me so I can get to the station, caboose and carriages?"
 		"ZephyrVoice.Engineer06"	"Alright, one more switch to go. I'm... sorry guys I should have told you this earlier, it's kinda far away... heh."
 		"ZephyrVoice.Engineer07"	"Alright guys, one last thing to do. Release the handbrakes on the caboose, that's the green carriage right behind me by the way."
 		"ZephyrVoice.Engineer08"	"I'm all set! Give me the word, and we'll depart."
