@@ -150,7 +150,7 @@
 "Downloading_Workshop_Map"		"Downloading map from Workshop..."
 "Downloading_Workshop_Map_Progress"		"Downloading map from Workshop... (%s1/%s2)"
 
-"GameUI_Multiplayer" 	"NMRiH"
+"GameUI_Multiplayer" 	"Game"
 "GameUI_OptionNeedsRestart"		"(This option requires restart)"
 
 "NMRiH_CreateGame_NATWarning_Title"	"NAT Warning"
