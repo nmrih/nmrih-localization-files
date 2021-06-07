@@ -150,7 +150,7 @@
 "Downloading_Workshop_Map"		"Загрузка карты из Мастерской..."
 "Downloading_Workshop_Map_Progress"	"Загрузка карты из Мастерской... (%s1/%s2)"
 
-"GameUI_Multiplayer" 			"NMRiH"
+"GameUI_Multiplayer" 			"Игра"
 "GameUI_OptionNeedsRestart"		"(Требуется перезапуск игры)"
 
 "NMRiH_CreateGame_NATWarning_Title"		"NAT предупреждение"
