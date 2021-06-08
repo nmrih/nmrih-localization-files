@@ -950,6 +950,7 @@
 		"MidwestVoice.EngineerStart"	"Guys, the train engine just went kaput... I have no idea what's going on. We're gonna have to stop here for a while, there won't be another town for several miles."
 		
 		// Junction
+		"JunctionVoice.01"	"<I>The following message is transmitted at the request of the New Jersey Office of Emergency Management, Union City, New Jersey. If you are still alive, remain where you are and await rescue. Traveling the streets is extremely hazardous. The following counties have been put under quarantine: Union, Hudson, and Monmouth. If you have been injured or you have an emergency, please remain calm and stay where you are until further notice. Emergency vehicles may not be able to reach you at this time."
 		"JunctionVoice.02"	"It's good to hear someone's voice! So there is someone left in the city after all. Well, this is private Jones from the 42nd, and I don't know if you've heard but the Lincoln Tunnel is our only way out of the city. We were going to seal it off, but one of the bombs we had went off before it was supposed to. Demolition experts were killed, and I was wounded by the blast. I managed to climb into the driver seat of one of the trucks, I'll lay low until you get here."
 		"JunctionVoice.03"	"I can't believe you made it, I was about to take off! The three explosives you see are powerful enough to seal the tunnel for good, and secure our escape. Plant them all on the pillars, and then get in the truck!"
 		"JunctionVoice.04"	"Okay, now get on quick! There isn't much time!"
@@ -963,8 +964,16 @@
 		"QuarantineVoice.RadioTalk3"	"First things first, there should be a walkie talkie somewhere in that room, just grab it."
 		
 		// Toxteth
-		"ToxtethSurvivor"	"Yes, we can hear you, we're hovering over the local area. Get to Hartington Road, we'll be there in five minutes to pick you up."
-		"ToxtethPilot"	"Hey! I have been watching you for days now on CCTV! I'm in a store few hundred meters from you, and have the ability to call for help, but I'm locked in! You need to get here quick, I suggest cutting through the graveyard."
+		"ToxtethVoice.PilotRadio"	"Yes, we can hear you. We're hovering over the local area now. Listen, get to Hartington Road, we'll be there in five minutes to pick you up, we can not afford much time so be quick!"
+		"ToxtethVoice.PilotRadio2"	"Yes, we can hear you. We're hovering over the local area. Get to Hartington Road, we'll be there in five minutes to pick you up, we can't afford much time so be quick!"
+		"ToxtethVoice.PilotRadio3"	"Yes, we can hear you. We're hovering over the local area now. Get to Hartington Road, we'll be there in five minutes to pick you up, we really can't afford much time so be quick!"
+		"ToxtethVoice.PilotRadio4"	"Yeah, we can hear you. We're hovering over the local area now. Get to Hartington Road, we'll be there in five minutes to pick you up, we can't afford much time so be quick!"
+		"ToxtethVoice.PilotDelay"	"Hey, there's been a delay. You need to hold out for another five minutes. We'll be there as soon as possible, hold on tight!"
+		"ToxtethVoice.PilotDelay2"	"Hey, there's been a delay. You need to hold out for another five minutes. We'll be there as soon as possible, hold on tight!"
+		"ToxtethVoice.SurvivorPhone"	"Hey? Hey! Oh thank god you guys picked up, I have been watching you. I hacked into the CCTV system. I'm in the store few hundred meters from you, and I got the ability to call for help... but I'm locked in here! There's zombies outside, I'm not sure how many exactly but... you need to get here quick! There's no time to waste, I suggest cutting through the graveyard."
+		"ToxtethVoice.SurvivorPhone2"	"Hey? Hey! Oh, thank god you guys picked up! I have been watching you. I hacked into the CCTV system. I'm in the store few hundred meters from you, and I got the ability to call for help... but I'm locked in! There's zombies outside, I'm not sure how many exactly but... you need to get here quick! There's no time to waste, I suggest cutting through the graveyard."
+		"ToxtethVoice.SurvivorPhone3"	"Hey? Hey! Oh, thank god you guys picked up! I have been watching you. I hacked into the CCTV system. I'm in the store few hundred meters from you, and I've got the ability to call for help, but I'm locked in here! There's zombies outside, I'm not sure exactly how many, but you need to get here quick! There's no time to waste, I suggest cutting through the graveyard."
+		"ToxtethVoice.SurvivorPhone4"	"Hey! I have been watching you guys for days now on the CCTV. You need to get to the store located just behind the graveyard, I'm stuck in here, and there's zombies everywhere outside! I have made a call to get us out of here, but you need to come and help me before we can leave. There's no time to waste!"
 		
 		// Zephyr
 		"ZephyrVoice.Engineer04"	"Sorry about that guys, loss of memory. Can you please flip the switch right behind me so I can get to the station, caboose and carriages?"
