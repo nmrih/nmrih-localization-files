@@ -219,7 +219,7 @@
 "Addon_Manager_NotAvailable_Disabled"		"You can enable add-ons in the options."
 "Addon_Manager_NotAvailable_NoSteam"		"No connection to Steam."
 
-"Addon_Manager_DisabledNotice"		"Add-ons are currently disabled, however you can still manage them. You can enable add-ons in the options.\n(This does not apply to Workshop maps.)"
+"Addon_Manager_DisabledNotice"		"Add-ons are currently disabled, however you can still use the manager. You can enable add-ons in the options.\n(This does not apply to Workshop maps.)"
 "Addon_Manager_NoConnection"		"No connection to Steam, Workshop add-ons cannot be managed. Your installed add-ons still work offline."
 
 "Addon_Manager_UnsubscribeAddon_Title"		"Unsubscribe Add-on"
@@ -252,12 +252,12 @@
 "Addon_Manager_PreviewCacheCleared_Title"	"Cache cleared"
 "Addon_Manager_PreviewCacheCleared_Message"	"Preview image cache has been cleared."
 
-"Addon_Manager_ConfigReset_Confirm"	"Are you sure you want to reset your add-on settings? Your load order and enabled/disabled settings will be lost."
+"Addon_Manager_ConfigReset_Confirm"	"All settings will be lost, do you wish to continue?"
 
 "Addon_Manager_ConfigReset_Title"	"Settings reset"
 "Addon_Manager_ConfigReset_Message"	"Add-on settings have been reset. Restart the game to apply changes."
 
-"Addon_Manager_MapDownloadFailed"	"Failed to download a map from Workshop! Steam could be down, or the server is misconfigured. Try again later. (Error code: %s1)"
+"Addon_Manager_MapDownloadFailed"	"Failed to download a map from Workshop! (Error code: %s1)"
 
 "Addon_Manager_InfoPanel"				"Add-on Info"
 "Addon_Manager_InfoPanel_Title"			"Title"
@@ -304,9 +304,13 @@
 "Workshop_Publisher_AddonForm_LegalAccept"			"I accept the terms of the Steam Subscriber Agreement"
 "Workshop_Publisher_AddonForm_ViewLegal"			"View agreement..."
 "Workshop_Publisher_AddonForm_ClearForm"			"Clear Form"
-"Workshop_Publisher_AddonForm_TooltipSummary"		"A short description of the add-on, shown in the GUI."
-"Workshop_Publisher_AddonForm_TooltipChangeNotes"	"These notes will appear in your Workshop item changelog for each update."
+"Workshop_Publisher_AddonForm_TooltipSummary"		"A short description of the add-on, displayed in the user interface."
+"Workshop_Publisher_AddonForm_TooltipChangeNotes"	"These notes will appear in the Workshop item changelog for each update."
 "Workshop_Publisher_AddonForm_RequiredField"		"* = required field"
+"Workshop_Publisher_AddonForm_IncludeMaphack"		"Include MapHack file"
+"Workshop_Publisher_AddonForm_RepairItem"			"Repair item"
+"Workshop_Publisher_AddonForm_TooltipMaphack"		"Ships a MapHack file named {mapname}.txt if present."
+"Workshop_Publisher_AddonForm_TooltipRepair"		"Choose this if your Workshop item has leftover files or bad metadata, without replacing content."
 
 "Workshop_Publisher_BrowseContent"		"Browse for content"
 "Workshop_Publisher_BrowsePreview"		"Browse for preview image"
@@ -358,7 +362,7 @@
 "Workshop_Publisher_Error_InvalidBSP"		"Invalid BSP! The file might be incompatible or corrupted."
 
 "Workshop_Publisher_MissingNMO"			"Selected objective map is missing a .nmo file! Make sure this file is in the same directory as the chosen BSP.\nIf you publish this map, objectives will not work."
-"Workshop_Publisher_MissingNAV"			"Selected map is missing a .nav file! Make sure this file is in the same directory as the chosen BSP.\nIf you publish this map, zombies may fail to navigate."
+"Workshop_Publisher_MissingNAV"			"Selected map is missing a .nav file! Make sure this file is in the same directory as the chosen BSP.\nIf you publish this map, zombiesz may fail to navigate."
 "Workshop_Publisher_MissingNMOAndNAV"	"Selected objective map is missing both .nmo and .nav files! Make sure these files are in the same directory as the chosen BSP.\nIf you publish this map, objectives will not work and zombies may fail to navigate."
 
 "VPKTools_Error"						"VPK Error"
