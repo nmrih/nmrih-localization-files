@@ -150,7 +150,7 @@
 "Downloading_Workshop_Map"		"Baixando mapa da Oficina..."
 "Downloading_Workshop_Map_Progress"		"Baixando mapa da Oficina... (%s1/%s2)"
 
-"GameUI_Multiplayer" 	"NMRiH"
+"GameUI_Multiplayer" 	"Jogo"
 "GameUI_OptionNeedsRestart"		"(Esta opção requer reiniciar o jogo)"
 
 "NMRiH_CreateGame_NATWarning_Title"	"Aviso NAT"
