@@ -362,7 +362,7 @@
 "Workshop_Publisher_Error_InvalidBSP"		"Invalid BSP! The file might be incompatible or corrupted."
 
 "Workshop_Publisher_MissingNMO"			"Selected objective map is missing a .nmo file! Make sure this file is in the same directory as the chosen BSP.\nIf you publish this map, objectives will not work."
-"Workshop_Publisher_MissingNAV"			"Selected map is missing a .nav file! Make sure this file is in the same directory as the chosen BSP.\nIf you publish this map, zombiesz may fail to navigate."
+"Workshop_Publisher_MissingNAV"			"Selected map is missing a .nav file! Make sure this file is in the same directory as the chosen BSP.\nIf you publish this map, zombies may fail to navigate."
 "Workshop_Publisher_MissingNMOAndNAV"	"Selected objective map is missing both .nmo and .nav files! Make sure these files are in the same directory as the chosen BSP.\nIf you publish this map, objectives will not work and zombies may fail to navigate."
 
 "VPKTools_Error"						"VPK Error"

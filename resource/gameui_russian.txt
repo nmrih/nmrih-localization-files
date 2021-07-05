@@ -219,7 +219,7 @@
 "Addon_Manager_NotAvailable_Disabled"		"Вы можете включить аддоны в настройках."
 "Addon_Manager_NotAvailable_NoSteam"		"Нет связи со Steam."
 
-"Addon_Manager_DisabledNotice"			"В данный момент аддоны отключены, однако вы все еще можете управлять ими. Вы можете включить аддоны в настройках.\n(Не относится к картам из Мастерской.)"
+"Addon_Manager_DisabledNotice"			"В данный момент аддоны отключены, однако вы все еще можете использовать менеджер аддонов. Вы можете включить аддоны в настройках.\n(Не относится к картам из Мастерской.)"
 "Addon_Manager_NoConnection"			"Нет связи со Steam, невозможно управлять аддонами в Мастерской. Ваши установленные аддоны могут работать в оффлайн режиме."
 
 "Addon_Manager_UnsubscribeAddon_Title"		"Отписаться от аддона"
@@ -252,12 +252,12 @@
 "Addon_Manager_PreviewCacheCleared_Title"	"Очистка кэша"
 "Addon_Manager_PreviewCacheCleared_Message"	"Кэш превью картинок был очищен."
 
-"Addon_Manager_ConfigReset_Confirm"		"Вы уверены, что хотите сбросить настройки аддона? Очередь загрузки и другие настройки будут утеряны."
+"Addon_Manager_ConfigReset_Confirm"		"Все настройки будут потеряны, вы уверены, что хотите продолжить?"
 
 "Addon_Manager_ConfigReset_Title"		"Сброс настроек"
 "Addon_Manager_ConfigReset_Message"		"Настройки аддона были сброшены. Перезапустите игру, чтобы изменения вступили в силу."
 
-"Addon_Manager_MapDownloadFailed"		"Не удалось загрузить карту из Мастерской! Steam не доступен или есть проблемы с сервером. Попробуйте позже. (Код ошибки: %s1)"
+"Addon_Manager_MapDownloadFailed"		"Не удалось загрузить карту из Мастерской! (Код ошибки: %s1)"
 
 "Addon_Manager_InfoPanel"			"Информация аддона"
 "Addon_Manager_InfoPanel_Title"			"Название"
@@ -289,14 +289,14 @@
 "Workshop_Publisher_NoAddons"			"Аддоны отключены, публикация в Мастерской не доступна."
 
 "Workshop_Publisher_AddonForm_Title"				"Название: *"
-"Workshop_Publisher_AddonForm_Desc"				"Описание:"
+"Workshop_Publisher_AddonForm_Desc"					"Описание:"
 "Workshop_Publisher_AddonForm_Summary"				"Сводка:"
 "Workshop_Publisher_AddonForm_ChangeNotes"			"Список изменений:"
 "Workshop_Publisher_AddonForm_ContentPath"			"Путь к файлам: *"
 "Workshop_Publisher_AddonForm_PreviewImage"			"Превью картинка: *"
 "Workshop_Publisher_AddonForm_Category"				"Категория:"
-"Workshop_Publisher_AddonForm_Tags"				"Тэги (разделять символом ','):"
-"Workshop_Publisher_AddonForm_ItemVisibility"			"Права доступа:"
+"Workshop_Publisher_AddonForm_Tags"					"Тэги (разделять символом ','):"
+"Workshop_Publisher_AddonForm_ItemVisibility"		"Права доступа:"
 "Workshop_Publisher_AddonForm_Browse"				"Выбор..."
 "Workshop_Publisher_AddonForm_PackToVPK"			"Упаковать в VPK"
 "Workshop_Publisher_AddonForm_Publish"				"Опубликовать"
@@ -304,9 +304,13 @@
 "Workshop_Publisher_AddonForm_LegalAccept"			"Я принимаю условия Соглашения Подписчика Steam"
 "Workshop_Publisher_AddonForm_ViewLegal"			"Посмотреть соглашение..."
 "Workshop_Publisher_AddonForm_ClearForm"			"Очистить бланк"
-"Workshop_Publisher_AddonForm_TooltipSummary"			"Краткое описание аддона, которое показывается в списке аддонов."
-"Workshop_Publisher_AddonForm_TooltipChangeNotes"		"Списки изменений будут появлятся в вашей Мастерской для каждого обновления."
-"Workshop_Publisher_AddonForm_RequiredField"			"* = обязательное поле"
+"Workshop_Publisher_AddonForm_TooltipSummary"		"Краткое описание аддона, которое показывается в списке аддонов."
+"Workshop_Publisher_AddonForm_TooltipChangeNotes"	"Списки изменений будут появляться в Мастерской для каждого обновления."
+"Workshop_Publisher_AddonForm_RequiredField"		"* = обязательное поле"
+"Workshop_Publisher_AddonForm_IncludeMaphack"		"Добавить MapHack файл"
+"Workshop_Publisher_AddonForm_RepairItem"			"Исправить файлы"
+"Workshop_Publisher_AddonForm_TooltipMaphack"		"Добавляет MapHack файл {mapname}.txt, если такой есть."
+"Workshop_Publisher_AddonForm_TooltipRepair"		"Выберите этот пункт, чтобы удалить ненужные файлы или неправильные метаданные, не заменяя файлы."
 
 "Workshop_Publisher_BrowseContent"		"Выбор файлов"
 "Workshop_Publisher_BrowsePreview"		"Выбор изображения"
