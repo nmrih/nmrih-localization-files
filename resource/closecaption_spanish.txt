@@ -152,7 +152,6 @@
 		"AmmoCheck.Alt2.1" "¡Me queda una bala!"
 		"AmmoCheck.Alt2.0" "¡No me quedan balas!"
 
-
 		"AmmoCheck.Alt1.Full" "Tengo el arma llena."
 		"AmmoCheck.Alt1.AlmostFull" "Tengo el arma casi llena."
 		"AmmoCheck.Alt1.OverHalf" "Tengo el arma más de la mitad llena."
@@ -902,6 +901,97 @@
 		"Wave.LowZombies" "[PREPÁRENSE PARA LA SIGUIENTE OLEADA]"
 
 
+		// Dialogue
+	
+		// Generic
+		"Heli.Approach_Alert_NoAccent"	"¡Habla la Guardia Nacional! ¡En caso de que haya supervivientes, estaremos allí en 30 segundos!"
+		"Heli.Approach_Alert_US"	"¡Habla la Guardia Nacional! ¡En caso de que haya supervivientes, estaremos allí en 30 segundos!"
+		"Heli.Arrival1min_NoAccent"	"Habla la Guardia Nacional. Hemos llegado pero no podemos esperar a todos. Tienen un minuto."
+		"Heli.Arrival1min_US"	"Habla la Guardia Nacional. Hemos aterrizado pero no podemos esperar a todos. Tienen un minuto."
+		"Heli.Departure_NoAccent"	"Bueno, tenemos que irnos, ya casi no nos queda combustible. Si alguien sigue vivo por allí, buena suerte."
+		"Heli.Departure_US"	"¡Nos vamos, están por su cuenta! ¡Lo siento!"
+	
+		// Broadway2
+		"Broadway2Voice.Extraction"	"Atención, atención. Si pueden oirme, deben ir a la azotea lo antes posible y esperar el rescate. Tienen cinco minutos hasta que el gobierno lance una bomba. Por favor, salgan de allí."
+		
+		// Brooklyn
+		"brooklyn_voice.01"	"Hey, gracias por venir. ¿Podrían darme una mano aquí?"
+		"brooklyn_voice.02"	"¿Qué carajo? ¡El portón no tiene energía, necesitamos arreglarlo para poder salir de esta cloaca!"
+		"brooklyn_voice.03"	"¡Buena idea! Amárrenlo así podemos tirarlo abajo."
+		"brooklyn_voice.04"	"Hey muchachos! ¡Es bueno ver que no soy el único pedazo de carne que no está podrido! Apoyo intentar salir de esta cloaca pero necesitamos tirar abajo la reja de afuera para poder avanzar."
+		"brooklyn_voice.05"	"¡Bien, gracias! Miren, voy a intentar encender la camioneta pero si vamos a salir de aquí, vamos a necesitar suministros. He visto un carrito viejo en el callejón cruzando la calle, con eso vamos a poder cargar lo que necesitamos de lo que queda en el barrio."
+		"brooklyn_voice.06"	"¡Bien, siguen vivos! Vamos, carguen la camioneta, estamos atrayendo una multitud."
+		"brooklyn_voice.07"	"¡Ok, ya estamos casi fuera de esta cloaca! Tenemos que encontrar los controles para abrir el portón, no pueden estar muy lejos."
+		"brooklyn_voice.08"	"<I>VAMOS <clr:255,0,0>CERDITOS<clr:255,255,255> - no me hagan irme sin ustedes!"
+		"brooklyn_voice.09"	"Mierda. Parece que alguien no sabe cómo estacionar."
+		"brooklyn_voice.10"	"No se ustedes muchachos, pero mi estómago está <I>rugiendo."
+		
+		// Campblood
+		"CampbloodVoice.RalphComingForYa"	"¡Hey, supervivientes! ¡Estoy yendo por ustedes!"
+		"CampbloodVoice.RalphLastChance"	"¡Esta es su última chance!"
+		"CampbloodVoice.RalphLightsOff"	"¿Alguien recordó apagar las luces?"
+		"CampbloodVoice.RalphWelcome"	"Están yendo al Campamento Sangre verdad? No volverán de allí, tiene una <I>MALDICIÓN DE MUERTE!"
+		"CampbloodVoice.RalphYourDoomed"	"¡Están <I>CONDENADOS! <clr:255,0,0><B>¡EHEHEHEHE!"
+
+		// Cleopas
+		"CleopasVoice.Radio"	"Esta es la patruya 206 pidiendo ayuda inmediata en el centro, hemos sufrido muchas bajas. Estas... cosas, simplemente... ¡no dejan de levantarse! ¡Si alguien puede oir esto, por favor envíen refuerzos! Repito, necesitamos refuerzos en el centro lo antes posible. Tenemos pocas municiones, nos estamos quedando sin opciones, por favor respond-- [disparos, se corta la transmisión]"
+
+		// FEMA
+		"FemaVoice.BillyComplex"	"Acaso esta señal viene del complejo? ¡Toda la instalación está perdida! Lo que sea que hayan hecho los cerebritos ha matado a todas las personas antes de que pudieran activar el protocolo de contenimiento. ¡Ustedes deben terminar el trabajo y detener lo que se haya escapado de allí!"
+		"FemaVoice.BillyFuel"	"¡Nosotros podemos sacarlos de aquí pero tenemos poco combustible! Necesitamos llenar el tanque antes de partir."
+		"FemaVoice.BillyGetIn"	"¡Vamos, entren! ¡Nos iremos a la tierra prometida!"
+		"FemaVoice.BillyTopside"	"¿Hola? ¡Hola! Si todavía pueden escucharme, vayan a la superficie para que podamos rescatarlos. Revisen el locker en nuestro remolque, he escondido un poco de la vacuna que los cerebritos estaban desarrollando. ¡No podemos perder más tiempo, tómenla y muévanse!"
+		"FemaVoice.MengelerOkayBob"	"<I>Okey Bub. Ahora, apreta el botón."
+		"FemaVoice.MengelerThatsIt"	"<I>¡Eso es Bub! Ahora, puedes recibir tu recompensa."
+		"FemaVoice.MengelerSayHello"	"<I>Bub, dile hola a tu tía Alicia."
+		"FemaVoice.ColonelNatSec"	"Habla el Coronel Kazan. Siendo esto un asunto de seguridad nacional, podemos rescatarlos, pero sólo si recuperan la vacuna experimental. Conocemos su ubicación y estaremos esperando su respuesta en la superficie."
+		"FemaVoice.ColonelStow"	"Habla el Coronel Kazan de la Agencia de Seguridad Nacional, recibimos su señal. Coloquen la vacuna sobre la carga y asegúrenla para el transporte."
+		
+		// Midwest
+		"MidwestVoice.EngineerBarbara"	"¡Vienen por nosotros, Bárbara!"
+		"MidwestVoice.EngineerEnd"	"Okey, creo que he encontrado el problema, ahora el asunto es arreglarlo."
+		"MidwestVoice.EngineerEnd2"	"¡Okey, todo está arreglado! ¡Vamos muchachos, suban!"
+		"MidwestVoice.EngineerFirst"	"¡Defiendan el área, arreglaré el problema lo antes posible!"
+		"MidwestVoice.EngineerStart"	"Muchachos, el motor del tren se ha roto... No tengo idea qué le sucede. Tendremos que frenar aquí por un tiempo, no hay otro pueblo en varias millas."
+	
+		// Junction
+		"JunctionVoice.01"	"<I>El siguiente mensaje está siendo transmitido a pedido de la Oficina de Control de Emergencias de New Jersey, Union City, New Jersey. Si están vivos, quédense donde están y esperen al rescate. Moverse por las calles es extremadamente peligroso. Los siguientes condados han sido puestos bajo cuarentena: Union, Hudson y Monmouth. Si están heridos o han sufrido una emergencia, por favor mantengan la calma y quédense donde están hasta nuevo aviso. Es posible que actualmente los vehículos de emergencia no puedan llegar a su posición."
+		"JunctionVoice.02"	"¡Qué bueno oir la voz de otra persona! Parece que todavía hay gente en la ciudad después de todo. Bueno, habla el soldado Jones de la división 42. No se si se han enterado, pero el Túnel Lincoln es la única via para escapar de la ciudad. Nosotros íbamos a sellarlo pero una de las bombas se detonó por accidente. El experto en demolición ha muerto y yo acabé herido por la explosión. He logrado trepar hasta el asiento de conductor de uno de los camiones. Estaré allí hasta que lleguen ustedes."
+		"JunctionVoice.03"	"¡No puedo creer que lo hayan logrado, estaba por irme de aquí! Los tres explosivos que ven aquí son lo suficientemente poderosos para sellar el túnel para siempre y asegurar nuestro escape. ¡Colóquenlos en los pilares y vuelvan al camión!"
+		"JunctionVoice.04"	"¡Okey, ahora suban rápido! ¡No queda mucho tiempo!"
+		"JunctionVoice.05"	"¡Vámonos de aquí, espero que ya estén arriba!"
+		
+		// Quarantine
+		"QuarantineVoice.RadioIntro"	"¿Hola? Nosotros somos lo que quedó de la cuarentena...lo que quedó...todos excepto nosotros...ya saben. Escuchen, hay helicópteros del otro lado de la cuarentena desde nuestra ubicación. Si no fuera por el hecho de que estamos rodeados por esas... putas cosas, ¡ya nos hubiésemos escapado! Quiero decir, es genial que ustedes hayan aparecido... porque pueden ayudarnos, podremos ayudarnos entre ambos."
+		"QuarantineVoice.RadioIntro2"	"Entonces, esto es lo que deben hacer: Deben cerrar el portón de entrada a la cuarentena, el sistema automático mantendrá el otro portón de la cuarentena interna cerrado. Deben ingresar a la cuarentena interna, pero primero hay que cerrar el portón de entrada."
+		"QuarantineVoice.RadioTalk"	"Una vez cerrado el portón de entrada, nosotros abriremos el portón de la cuarentena interna. Pero, hay un seguro en el sistema automático, el portón interno se cerrará en un minuto y... bueno... dado el tiempo largo durante el cual el portón de entrada ha estado abierto, se iniciará el segundo seguro. Digamos que si no llegan a entrar a la cuarentena interna cuando se cierre el portón, ¡todos morirán!"
+		"QuarantineVoice.RadioTalk2"	"Esto es lo que debemos hacer, <I>hay una sirena<I> en el área donde entrarán. Deben activarla y eso alejará los zombis de nuestra posición. Apenas podamos, iremos al helicóptero y volveremos por ustedes. Nos iremos todos de aquí. Entonces, sugiero que construyan barricadas donde puedan... prepárense. Cuando estén listos, prendan la sirena, ¿está bien?"
+		"QuarantineVoice.RadioTalk3"	"Primero lo primero, debería haber una radio portátil cerca de ustedes. Tómenla."
+		
+		// Toxteth
+		"ToxtethVoice.PilotRadio"	"Sí, podemos oírlos. Estamos sobrevolando el área ahora mismo. Escuchen, vayan a la calle Hartington, estaremos allí en cinco minutos para rescatarlos. No podemos perder más tiempo, ¡así que vayan rápido!"
+		"ToxtethVoice.PilotRadio2"	"Sí, podemos oírlos. Estamos sobrevolando el área ahora mismo. Vayan a la calle Hartington, estaremos allí en cinco minutos para rescatarlos. No podemos perder más tiempo, ¡así que vayan rápido!"
+		"ToxtethVoice.PilotRadio3"	"Sí, podemos oírlos. Estamos sobrevolando el área ahora mismo. Vayan a la calle Hartington, estaremos allí en cinco minutos para rescatarlos. No podemos perder más tiempo, ¡así que vayan rápido!"
+		"ToxtethVoice.PilotRadio4"	"Sí, podemos oírlos. Estamos sobrevolando el área ahora mismo. Vayan a la calle Hartington, estaremos allí en cinco minutos para rescatarlos. No podemos perder más tiempo, ¡así que vayan rápido!"
+		"ToxtethVoice.PilotDelay"	"Hey, ha habido un retraso. Deben resistir por otros cinco minutos. Estaremos allí lo antes posible. ¡Tengan cuidado!"
+		"ToxtethVoice.PilotDelay2"	"Hey, ha habido un retraso. Deben resistir por otros cinco minutos. Estaremos allí lo antes posible. ¡Tengan cuidado!"
+		"ToxtethVoice.SurvivorPhone"	"¿Hey? ¡Hey! ¡Gracias a dios que han atendido! He estado observándolos. He hackeado el sistema de vigilancia. Estoy en la tienda a unas pocas cuadras de ustedes y tengo la posibilidad de pedir ayuda... ¡pero estoy encerrado aquí! Hay zombis afuera, no se cuantos exactamente pero... ¡deben venir hasta aquí rápido! No hay tiempo que perder, les sugiero acortar camino por el cementerio."
+		"ToxtethVoice.SurvivorPhone2"	"¿Hey? ¡Hey! ¡Gracias a dios que han atendido! He estado observándolos. He hackeado el sistema de vigilancia. Estoy en la tienda a unas pocas cuadras de ustedes y tengo la posibilidad de pedir ayuda... ¡pero estoy encerrado aquí! Hay zombis afuera, no se cuantos exactamente pero... ¡deben venir hasta aquí rápido! No hay tiempo que perder, les sugiero acortar camino por el cementerio."
+		"ToxtethVoice.SurvivorPhone3"	"¿Hey? ¡Hey! ¡Gracias a dios que han atendido! He estado observándolos. He hackeado el sistema de vigilancia. Estoy en la tienda a unas pocas cuadras de ustedes y tengo la posibilidad de pedir ayuda... ¡pero estoy encerrado aquí! Hay zombis afuera, no se cuantos exactamente pero... ¡deben venir hasta aquí rápido! No hay tiempo que perder, les sugiero acortar camino por el cementerio."
+		"ToxtethVoice.SurvivorPhone4"	"¡Hey! Los he estado observando durante días por las cámaras de seguridad. Deben ir a la tienda que se encuentra justo detrás del cementerio. ¡Estoy atrapado aquí y hay zombis afuera por todos lados! He hecho una llamada para que nos rescaten, pero deben venir a rescatarme antes de poder irnos. ¡No hay tiempo que perder!"
+		
+		// Zephyr
+		"ZephyrVoice.Engineer04"	"Lo siento muchachos, me he olvidado. ¿Podrían activar la palanca detrás mio para que pueda llegar a la estación con los vagones?"
+		"ZephyrVoice.Engineer06"	"De acuerdo, sólo falta una palanca. Lo siento.. tendría que habérselos dicho antes, está un poco lejos... heh."
+		"ZephyrVoice.Engineer07"	"Bueno, último paso. Desacoplen los frenos en el vagón. Es el que está detrás mio."
+		"ZephyrVoice.Engineer08"	"Estoy listo. Avísenme y nos iremos."
+		"ZephyrVoice.Engineer09"	"¡Aquí vamos!"
+		"ZephyrVoice.Engineer10"	"A todos los que se hayan quedado atrás, ¡suban al tren! ¡AHORA!"
+		"ZephyrVoice.AllAboard"		"<B>¡TODOS A BORDO!"
+		"ZephyrVoice.OhCrud"		"<I>Oh mierda..."
+		"ZephyrVoice.Speech1901"	"¿Hola, hola? Oh, ha pasado tanto tiempo desde que he oído otra voz humana, es un cambio. Escuchen, estoy atrapado en el depósito de locomotoras cerca de la mesa giratoria. Si ustedes podrían hacer el esfuerzo y ayudarme, se los agradecería mucho. De hecho, podría devolverles el favor, pero primero lo primero. La puerta a la estación requiere un código de acceso. El código es, dejenme ver... : 1-9-0-1."
+		"ZephyrVoice.Speech2606"	"¿Hola, hola? Oh, ha pasado tanto tiempo desde que he oído otra voz humana, es un cambio. Escuchen, estoy atrapado en el depósito de locomotoras cerca de la mesa giratoria. Si ustedes podrían hacer el esfuerzo y ayudarme, se los agradecería mucho. De hecho, podría devolverles el favor, pero primero lo primero. La puerta a la estación requiere un código de acceso. El código es, dejenme ver... : 2-6-0-6."
+		"ZephyrVoice.Speech2710"	"¿Hola, hola? Oh, ha pasado tanto tiempo desde que he oído otra voz humana, es un cambio. Escuchen, estoy atrapado en el depósito de locomotoras cerca de la mesa giratoria. Si ustedes podrían hacer el esfuerzo y ayudarme, se los agradecería mucho. De hecho, podría devolverles el favor, pero primero lo primero. La puerta a la estación requiere un código de acceso. El código es, dejenme ver... : 2-7-1-0."
 	}
 }
 

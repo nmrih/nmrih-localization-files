@@ -39,6 +39,10 @@
 "PracticeTimeRemaining"			"La ronda iniciará en %s1 segundos"
 "RoundStarting"				"¡Iniciando ronda!"
 
+"HudSurvivalWave"			"OLEADA"
+"HudSurvivalRemaining"		"RESTANTES"
+"HudSurvivalZone"			"ZONA"
+
 "NMRiH_Votekick_List"			"Los IDs de jugadores para expulsar son:\n%s1"
 "NMRiH_Votekick_InProgress"		"¡Ya hay una votación en curso!"
 "NMRiH_Votekick_KickSelf"		"¡No puedes expulsarte a tí mismo!"
@@ -66,6 +70,7 @@
 "Round_Restart"				"La ronda se reiniciará en %s1 segundos."
 "Round_PlayerShortage"			"No hay jugadores suficientes para comenzar la ronda."
 
+// Prefix for (Voice) subtitle
 "Voice"						"Voz"
 
 "NMRiH_VoiceCommand_Ammo"		"Necesito munición"
@@ -185,7 +190,7 @@
 "ammobox_556"				"5.56mm"
 "ammobox_762mm"				"7.62x39"
 "ammobox_grenades"			"Granadas"
-"ammobox_molotov"		"Molotov"
+"ammobox_molotov"		"Molotovs"
 "ammobox_tnt"			"TNT"
 "ammobox_arrow"				"Flechas"
 "ammobox_fuel"				"Combustible"
@@ -271,10 +276,10 @@
 "Suicide_drowned"	"#PLAYER# se ha ahogado."
 "Suicide_nuke"        "#PLAYER# ha sido vaporizado."
 
-"DeathNotice_NPC_ShamblerZombie"	"Zombie"
-"DeathNotice_NPC_RunnerZombie"	"Zombie Corredor"
-"DeathNotice_NPC_KidZombie"	"Niño Zombie"
-"DeathNotice_NPC_TurnedZombie"	"Zombie Convertido"
+"DeathNotice_NPC_ShamblerZombie"	"Zombi"
+"DeathNotice_NPC_RunnerZombie"	"Zombi Corredor"
+"DeathNotice_NPC_KidZombie"	"Niño Zombi"
+"DeathNotice_NPC_TurnedZombie"	"Zombi Convertido"
 
 "ChallengeTimer_PersonalBest"	"MEJOR TIEMPO"
 "ChallengeTimer_NoTime"	"NO HAY RECORD"
