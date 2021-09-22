@@ -75,6 +75,8 @@
 "Round_Restart"				"Round is Restarting in %s1"
 "Round_PlayerShortage"			"Not Enough Players to Start the Round"
 
+"Watermelon_Rescued"		"Watermelon rescued! %s1 points awarded to all players."
+
 // Prefix for (Voice) subtitle
 "Voice"							"Voice"
 
