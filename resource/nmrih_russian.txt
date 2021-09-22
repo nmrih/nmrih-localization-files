@@ -39,9 +39,14 @@
 "PracticeTimeRemaining"			"Раунд начнется через %s1"
 "RoundStarting"				"Раунд начинается!"
 
+"HudNextObjective"			"СЛЕДУЮЩЕЕ ЗАДАНИЕ"
+
 "HudSurvivalWave"			"ВОЛНА"
 "HudSurvivalRemaining"			"ОСТАЛОСЬ"
 "HudSurvivalZone"			"ЗОНА"
+"HudSurvivalResupply"			"СБРОС ПРИПАСОВ"
+"HudSurvivalWaveBegin"			"ВОЛНА НАЧАЛАСЬ"
+"HudSurvivalWaveEnd"			"ВОЛНА ЗАВЕРШЕНА"
 
 "NMRiH_Votekick_List"			"Следующие ID в голосовании на исключение:\n%s1"
 "NMRiH_Votekick_InProgress"		"Голосование уже идет!"
