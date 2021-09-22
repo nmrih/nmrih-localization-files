@@ -123,6 +123,7 @@
 "Vote_nextlevel"		"Next Level"
 "Vote_restart"			"Restart Round"
 "Vote_changechallenge"		"Change Challenge"
+"Vote_changedifficulty"		"Change Difficulty"
 
 "NMRiH_Vote_Kick_Player_Other"		"Kick player: %s1?\n(no reason given)"
 "NMRiH_Vote_Kick_Player_Cheating"		"Kick player: %s1?\n(accused of cheating)"
@@ -135,6 +136,7 @@
 "NMRiH_Vote_NextLevel"		"Set next level to %s1?"
 "NMRiH_Vote_RestartRound"	"Restart the round?"
 "NMRiH_Vote_ChangeChallenge"	"Change challenge to %s1?"
+"NMRiH_Vote_ChangeDifficulty"	"Change difficulty to %s1?"
 
 "NMRiH_Scoreboard_MutePlayer"	"Mute player"
 "NMRiH_Scoreboard_ViewSteamProfile"	"View Steam profile"
