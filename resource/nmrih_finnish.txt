@@ -39,9 +39,14 @@
 "PracticeTimeRemaining"			"Kierros alkaa: %s1"
 "RoundStarting"				"Kierros alkaa!"
 
+"HudNextObjective"			"SEURAAVA TAVOITE"
+
 "HudSurvivalWave"			"AALTO"
 "HudSurvivalRemaining"		"JÄLJELLÄ"
 "HudSurvivalZone"			"ALUE"
+"HudSurvivalResupply"		"TARVIKELAATIKKO SAAPUU"
+"HudSurvivalWaveBegin"		"AALTO ALKAA"
+"HudSurvivalWaveEnd"		"AALTO SUORITETTU"
 
 "NMR_Automatic_Weapon_Switch"		"Vaihda asetta automaattisesti poimimisen jälkeen (jos parempi)"
 

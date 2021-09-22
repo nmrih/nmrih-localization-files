@@ -39,9 +39,14 @@
 "PracticeTimeRemaining"			"Round Starting in %s1"
 "RoundStarting"				"Round Starting!"
 
+"HudNextObjective"			"NEXT OBJECTIVE"
+
 "HudSurvivalWave"			"WAVE"
 "HudSurvivalRemaining"		"REMAINING"
 "HudSurvivalZone"			"ZONE"
+"HudSurvivalResupply"		"SUPPLY DROP INCOMING"
+"HudSurvivalWaveBegin"		"WAVE STARTING"
+"HudSurvivalWaveEnd"		"WAVE COMPLETE"
 
 "NMRiH_Votekick_List"			"User IDs for votekick are as follows:\n%s1"
 "NMRiH_Votekick_InProgress"		"Vote already in progress!"
