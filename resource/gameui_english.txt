@@ -31,6 +31,8 @@
 "NMRiH_Options_ShowMOTD"		"Show message of the day"
 "NMRiH_Options_RecordDemo"		"Record demo"
 
+"NMRiH_Advanced_cl_textfilter"			"Enable chat text filter (powered by Steam)"
+"NMRiH_Advanced_cl_richpresence"		"Enable rich presence (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"Enable viewmodel headbobbing"
 "NMRiH_Advanced_cl_stickyironsight"		"Enable toggable ironsights"
 "NMRiH_Advanced_cl_voicesubtitles"		"Enable voice subtitles in chat"
@@ -45,6 +47,11 @@
 "NMRiH_Advanced_nmrih_dof"				"Enable Depth of Field"
 "NMRiH_Advanced_nmrih_ssao"				"Enable ambient occlusion (HBAO)"
 "NMRiH_Advanced_mp_decals"				"Decal limit (max. 4096)"
+"NMRiH_Advanced_cl_mainmenu_background"		"Menu background preference"
+"NMRiH_Advanced_cl_mainmenu_background_Random"	"Random"
+"NMRiH_Advanced_cl_mainmenu_background_0"		"Anniversary (v1.12)"
+"NMRiH_Advanced_cl_mainmenu_background_1"		"Greenlit (v1.07)"
+"NMRiH_Advanced_cl_mainmenu_background_2"		"Rebirth (v1.10)"
 
 "NMRiH_Difficulty"	"Difficulty"
 
@@ -65,6 +72,7 @@
 "NMRiH_FriendlyFire_Tooltip"	"Enables friendly fire, infected players will always take damage."
 "NMRiH_RealismMode_Tooltip"	"In Realism mode, respawns are disabled, zombies only take headshot damage, and all headshots are 1-hit-kill regardless of ammo type."
 "NMRiH_HardcoreSurvival_Tooltip"	"Hides the HUD in survival mode."
+"NMRiH_Max_Players_Tooltip"	"Player limit, minimum of 2, maximum of 8."
 "NMRiH_AdvOptions"	"Extended Options..."
 "NMRiH_AdvOptions_Tooltip"	"Edit extended game options."
 
