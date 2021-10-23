@@ -75,6 +75,8 @@
 "Round_Restart"				"Round is Restarting in %s1"
 "Round_PlayerShortage"			"Not Enough Players to Start the Round"
 
+"Item_Received"				"%s1 gave you %s2."
+
 "Watermelon_Rescued"		"Watermelon rescued! %s1 points awarded to all players."
 
 // Prefix for (Voice) subtitle
@@ -291,5 +293,18 @@
 "ChallengeTimer_PersonalBest"	"PERSONAL BEST"
 "ChallengeTimer_NoTime"	"NO TIME"
 "ChallengeTimer_NewRecord"	"NEW RECORD!"
+
+"Hint_Generic_Compass" "Check your compass for objectives! Press %+compass%."
+"Hint_Generic_CheckAmmo" "You can check ammo by holding the %+reload% key."
+"Hint_Generic_CheckInventory" "You can view your inventory and equip weapons by holding %+inventory%."
+"Hint_Generic_AmmoInventory" "You can share ammo with other players by opening the ammo menu by holding %+ammoinv%."
+"Hint_Generic_VoiceCommand" "You can use voice commands to communicate with your team! Open the voice menu by holding %+voicecmd%."
+"Hint_Generic_Infected" "You are infected if you see veins growing around the border of your screen, and your vision is growing faint."
+"Hint_Generic_Bleeding" "You are bleeding if your character is grunting, there's a flash on your border, and there's a trail of blood coming out of your body."
+"Hint_Generic_LowHealth" "You are at low health if your screen starts to lose color."
+"Hint_Generic_Pills" "If you find them, you can use pills to stem off infection for a few minutes."
+"Hint_Generic_Bandages" "If you are bleeding you can find bandages to stop it."
+"Hint_Generic_FirstAid" "If you are at low health, you can use first aid kits to heal yourself."
+
 } 
 }  
