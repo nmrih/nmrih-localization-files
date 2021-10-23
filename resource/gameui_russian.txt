@@ -31,6 +31,8 @@
 "NMRiH_Options_ShowMOTD"	"Показать сообщение дня"
 "NMRiH_Options_RecordDemo"	"Записать демо"
 
+"NMRiH_Advanced_cl_textfilter"			"Включить фильтрацию чата (Функция Steam)"
+"NMRiH_Advanced_cl_richpresence"		"Включить Rich presence (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"		"Покачивание камеры"
 "NMRiH_Advanced_cl_stickyironsight"		"Переключение прицела"
 "NMRiH_Advanced_cl_voicesubtitles"		"Субтитиры голосовых команд в чате"
@@ -45,6 +47,11 @@
 "NMRiH_Advanced_nmrih_dof"			"Глубина резкости"
 "NMRiH_Advanced_nmrih_ssao"			"Модель затенения (HBAO)"
 "NMRiH_Advanced_mp_decals"			"Лимит декалей (макс. 4096)"
+"NMRiH_Advanced_cl_mainmenu_background"		"Фон в меню"
+"NMRiH_Advanced_cl_mainmenu_background_Random"	"Случайный"
+"NMRiH_Advanced_cl_mainmenu_background_0"	"Anniversary (v1.12)"
+"NMRiH_Advanced_cl_mainmenu_background_1"	"Greenlight (v1.07)"
+"NMRiH_Advanced_cl_mainmenu_background_2"	"Rebirth (v1.10)"
 
 "NMRiH_Difficulty"		"Сложность"
 
@@ -65,6 +72,7 @@
 "NMRiH_FriendlyFire_Tooltip"		"Огонь по своим, зараженные игроки всегда получают урон."
 "NMRiH_RealismMode_Tooltip"		"В режиме Реализм нет точек возрождения, зомби получают урон только от попаданий в голову и ,независимо от патронов, выстрелы в голову убивают с одной пули."
 "NMRiH_HardcoreSurvival_Tooltip"	"Зоны не показываются на экране."
+"NMRiH_Max_Players_Tooltip"		"Лимит игроков, минимум 2, максимум 8."
 "NMRiH_AdvOptions"			"Расширенные опции..."
 "NMRiH_AdvOptions_Tooltip"		"Изменить расширенные опции."
 
