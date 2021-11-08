@@ -76,6 +76,8 @@
 "Round_PlayerShortage"			"Not Enough Players to Start the Round"
 
 "Item_Received"				"%s1 gave you %s2."
+"Item_TargetOwns"			"%s1 already owns %s2."
+"Item_TargetFull"			"%s1 has no room for this item."
 
 "Watermelon_Rescued"		"Watermelon rescued! %s1 points awarded to all players."
 
