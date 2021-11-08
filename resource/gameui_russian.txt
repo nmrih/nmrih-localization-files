@@ -131,6 +131,7 @@
 "Vote_nextlevel"		"Выбрать следующий уровень"
 "Vote_restart"			"Перезапустить раунд"
 "Vote_changechallenge"		"Изменить Испытание"
+"Vote_changedifficulty"		"Изменить сложность"
 
 "NMRiH_Vote_Kick_Player_Other"		"Кикнуть игрока: %s1?\n(Другая причина)"
 "NMRiH_Vote_Kick_Player_Cheating"	"Кикнуть игрока: %s1?\n(Читерство)"
@@ -143,6 +144,7 @@
 "NMRiH_Vote_NextLevel"			"Установить следующим уровнем %s1?"
 "NMRiH_Vote_RestartRound"		"Перезапустить раунд?"
 "NMRiH_Vote_ChangeChallenge"		"Изменить Испытание на %s1?"
+"NMRiH_Vote_ChangeDifficulty"		"Изменить сложность на %s1?"
 
 "NMRiH_Scoreboard_MutePlayer"		"Отключить микрофон и чат"
 "NMRiH_Scoreboard_ViewSteamProfile"	"Показать профиль Steam"
