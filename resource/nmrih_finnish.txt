@@ -63,6 +63,12 @@
 "Round_Restart"				"Kierros käynnistyy uudelleen: %s1"
 "Round_PlayerShortage"			"Ei tarpeeksi pelaajia kierroksen aloittamiseen!"
 
+"Item_Received"				"%s1 antoi sinulle esineen %s2."
+"Item_TargetOwns"			"%s1 omistaa jo esineen %s2."
+"Item_TargetFull"			"Pelaajalla %s1 ei ole tilaa tälle esineelle."
+
+"Watermelon_Rescued"		"Vesimeloni pelastettu! %s1 pistettä kaikille pelaajille."
+
 "Voice"						"Puhe"
 
 "NMRiH_VoiceCommand_Ammo"		"Tarvitsen ammuksia"
@@ -216,7 +222,7 @@
 "Weapon_fa_sv10_short"				"SV10"
 "Weapon_fa_sw686_short"				"S&W 686"
 "Weapon_fa_winchester1892_short"		"Win. 1892"
-"Weapon_item_bandages_short"			"Sideharsot"
+"Weapon_item_bandages_short"			"Sideharso"
 "Weapon_item_maglite_short"			"Maglite"
 "Weapon_item_pills_short"			"Pillerit"
 "Weapon_item_first_aid_short"		"Ensiapu"

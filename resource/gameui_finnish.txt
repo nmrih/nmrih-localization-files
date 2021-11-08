@@ -29,7 +29,10 @@
 "NMRiH_Call_Vote"				"Aloita äänestys"
 "NMRiH_Options_SelectFire"		"Vaihda ampumistilaa"
 "NMRiH_Options_ShowMOTD"		"Näytä MOTD"
+"NMRiH_Options_RecordDemo"		"Äänitä demo"
 
+"NMRiH_Advanced_cl_textfilter"			"Kirosanafiltteri päälle (Steam)"
+"NMRiH_Advanced_cl_richpresence"		"Rich presence päälle (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"Kameran heilunta päälle"
 "NMRiH_Advanced_cl_stickyironsight"		"Pysyvä tähtäys päälle"
 "NMRiH_Advanced_cl_voicesubtitles"		"Näytä puheen tekstitykset chat-ikkunassa"
@@ -37,12 +40,18 @@
 "NMRiH_Advanced_cl_muzzle_dlight"		"Dynaaminen valaistus aseen lauetessa (hidas)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Poista käytöstä HTML MOTD"
 "NMRiH_Advanced_nmrih_screenspace"		"Ota käyttöön ruudun varjostimet (vain ongelmanratkaisuun)"
+"NMRiH_Advanced_nmrih_screenspace_shadow" "Vignette-tehoste päälle"
 "NMRiH_Advanced_nmrih_grain"			"Filmin rakeisuus-tehoste päälle"
 "NMRiH_Advanced_nmrih_grain_intensity"	"Filmin rakeisuuden voimakkuus"
 "NMRiH_Advanced_nmrih_lensflare"		"Linssiheijastus-tehoste päälle"
 "NMRiH_Advanced_nmrih_dof"				"Kentän syvyys-tehoste päälle (DOF)"
 "NMRiH_Advanced_nmrih_ssao"				"Ambient occlusion-tehoste päälle (HBAO)"
 "NMRiH_Advanced_mp_decals"				"Pintakuvien rajoitus (maks. 4096)"
+"NMRiH_Advanced_cl_mainmenu_background"		"Valikon taustakuva"
+"NMRiH_Advanced_cl_mainmenu_background_Random"	"Satunnainen"
+"NMRiH_Advanced_cl_mainmenu_background_0"		"Juhlavuosi (v1.12)"
+"NMRiH_Advanced_cl_mainmenu_background_1"		"Vihreää valoa! (v1.07)"
+"NMRiH_Advanced_cl_mainmenu_background_2"		"Uudestisyntyminen (v1.10)"
 
 "NMRiH_Difficulty"	"Vaikeustaso"
 
@@ -63,8 +72,11 @@
 "NMRiH_FriendlyFire_Tooltip"	"Ottaa käyttöön omien tulituksen, sairastuneet pelaajat ottavat aina vahinkoa."
 "NMRiH_RealismMode_Tooltip"	"Realistissa tilassa pelaajat kuolevat pysyvästi, zombit ottavat vain päähän kohdistunutta vahinkoa, ja kaikki pääosumat tappavat yhdestä osumasta ammustyypistä riippumatta."
 "NMRiH_HardcoreSurvival_Tooltip"	"Piilottaa HUD:in selviytymistilassa."
+"NMRiH_Max_Players_Tooltip"	"Palvelimen pelaajaraja, minimi on 2, maksimi on 8."
 "NMRiH_AdvOptions"	"Lisäasetukset..."
 "NMRiH_AdvOptions_Tooltip"	"Muokkaa pelin lisäasetuksia."
+
+"NMRiH_Extended_Options"	"Lisäasetukset"
 
 "VoiceSet"				"Äänipaketti"
 "AmmoCheckType"				"Ammuksien tarkastus"
@@ -92,6 +104,7 @@
 "Vote_nextlevel"		"Seuraava kartta"
 "Vote_restart"			"Aloita kartta alusta"
 "Vote_changechallenge"		"Vaihda haastetta"
+"Vote_changedifficulty"		"Vaihda vaikeustasoa"
 
 "NMRiH_Vote_Kick_Player_Other"		"Erota pelaaja: %s1?\n(syytä ei annettu)"
 "NMRiH_Vote_Kick_Player_Cheating"		"Erota player: %s1?\n(syytetty huijaamisesta)"
@@ -104,6 +117,7 @@
 "NMRiH_Vote_NextLevel"		"Vaihdetaanko seuraavaksi kartaksi %s1?"
 "NMRiH_Vote_RestartRound"	"Aloita kartta alusta?"
 "NMRiH_Vote_ChangeChallenge"	"Vaihdetaanko haasteeksi %s1?"
+"NMRiH_Vote_ChangeDifficulty"	"Vaihdetaanko vaikeustasoksi %s1?"
 
 "NMRiH_Scoreboard_MutePlayer"	"Mykistä pelaaja"
 "NMRiH_Scoreboard_ViewSteamProfile"	"Steam-profiili"
@@ -119,7 +133,7 @@
 "Downloading_Workshop_Map"		"Ladataan karttaa Workshop:sta..."
 "Downloading_Workshop_Map_Progress"		"Ladataan karttaa Workshop:sta... (%s1/%s2)"
 
-"GameUI_Multiplayer" 	"NMRiH"
+"GameUI_Multiplayer" 	"Peli"
 "GameUI_OptionNeedsRestart"		"(Tämä asetus vaatii uudelleenkäynnistyksen)"
 
 "NMRiH_CreateGame_NATWarning_Title"	"NAT-varoitus"
@@ -225,6 +239,8 @@
 "Addon_Manager_ConfigReset_Title"	"Asetukset palautettu"
 "Addon_Manager_ConfigReset_Message"	"Lisäosien asetukset on palautettu. Muutokset tulevat voimaan pelin uudelleen käynnistyksen jälkeen."
 
+"Addon_Manager_MapDownloadFailed"	"Kartan lataus Workshop:sta epäonnistui! (Virhekoodi: %s1)"
+
 "Addon_Manager_InfoPanel"				"Lisäosan tiedot"
 "Addon_Manager_InfoPanel_Title"			"Otsikko"
 "Addon_Manager_InfoPanel_Author"		"Tekijä"
@@ -272,6 +288,10 @@
 "Workshop_Publisher_AddonForm_ClearForm"			"Tyhjennä lomake"
 "Workshop_Publisher_AddonForm_TooltipSummary"		"Lyhyt kuvaus lisäosasta, joka näkyy käyttöliittymässä."
 "Workshop_Publisher_AddonForm_TooltipChangeNotes"	"Tämä kommentti näkyy Workshop-sivusi muutosilmoituksissa."
+"Workshop_Publisher_AddonForm_IncludeMaphack"		"Pakkaa MapHack-tiedosto"
+"Workshop_Publisher_AddonForm_RepairItem"			"Korjaa lisäosa"
+"Workshop_Publisher_AddonForm_TooltipMaphack"		"Pakkaa MapHack-tiedoston {kartan nimi}.txt, jos se on olemassa."
+"Workshop_Publisher_AddonForm_TooltipRepair"		"Valitse tämä jos lisäosasi sisältää turhia tiedostoja tai rikkinäistä metadataa, ilman sisällön muokkausta."
 
 "Workshop_Publisher_BrowseContent"		"Valitse sisältö"
 "Workshop_Publisher_BrowsePreview"		"Valitse esikatselun kuvake"
