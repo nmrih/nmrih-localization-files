@@ -912,17 +912,20 @@
 		"Heli.Departure_NoAccent"	"Meidän täytyy lähteä, bensa on melkein loppu. Jos joku on vielä hengissä, lykkyä tykö."
 		"Heli.Departure_US"	"Pitää häipätä, olette nyt omillanne! Sori!"
 	
+		// Broadway2
+		"Broadway2Voice.Extraction"	"Huomio, huomio. Jos kuulette tämän, teidän täytyy päästä läheisen rakennuksen katolle ja odottaa pelastajia. Teillä on viisi minuuttia aikaa ennen pommin putoamista. Lähtekää liikkeelle!"
+	
 		// Brooklyn
 		"brooklyn_voice.01"	"Hei kiitti kun hyppäsitte sisään, voisitteko olla avuksi?"
-		"brooklyn_voice.02"	"Mitä vittua?! Tässä portissa ei ole virtaa, meidän täytyy korjata se jotta pääsemme ulos täältä."
-		"brooklyn_voice.03"	"Järkevää! Sido se kiinni aitaan niin voin vetää sen alas."
-		"brooklyn_voice.04"	"Hei jätkät! Hyvä nähdä että en ole ainoa tuore lihaskimppu! Olen mielelläni lähdössä tästä paskaläjästä, mutta meidän täytyy vetää alas tuo ulkona oleva aita jotta pääsemme läpi."
-		"brooklyn_voice.05"	"Jooh, kiitti. Yritän saada tämän pakun käyntiin, mutta jos olemme häipymässä tarvitsemme myös varusteita. Huomasin vanhan kärryn kadun toisella puolella, voimme kai saalistaa sillä kaiken mitä tästä naapurustosta löytyy."
-		"brooklyn_voice.06"	"Olette vielä hengissä! Heittäkää kamat sisään, me houkuttelemme väkeä!"
+		"brooklyn_voice.02"	"Mitä vittua?! Tässä portissa ei ole virtaa, korjatkaa se niin pääsemme pois täältä!"
+		"brooklyn_voice.03"	"Hyvin pohdittu! Sido se kiinni aitaan niin voimme vetää sen alas."
+		"brooklyn_voice.04"	"Hei jätkät! Hyvä nähdä että en ole ainoa tuore lihaskimppu! Olen mielelläni lähdössä tästä paskaläjästä, mutta meidän täytyy ensin vetää alas tuo ulkona oleva aita jotta pääsemme läpi."
+		"brooklyn_voice.05"	"Jooh, kiitti. Yritän saada tämän pakun käyntiin, mutta jos olemme lähdössä tarvitsemme myös varusteita. Huomasin vanhan kärryn kadun toisella puolella, voisimme saalistaa sillä kaiken mitä tästä naapurustosta löytyy."
+		"brooklyn_voice.06"	"Olette vielä hengissä! Heittäkää kamat sisään, houkuttelemme väkeä!"
 		"brooklyn_voice.07"	"Noniin olemme melkein matkalla! Meidän täytyy vielä avata tämä portti, sen ohjaimet ei voi olla kovin kaukana."
 		"brooklyn_voice.08"	"<I>Älkää viitsikö <clr:255,0,0>SIAT<clr:255,255,255> - en halua jättää teitä tänne!"
 		"brooklyn_voice.09"	"Paskat. Olisiko parkkisakon paikka."
-		"brooklyn_voice.10"	"En tiedä teistä jätkät, mut mul on <I>kamala nälkä."
+		"brooklyn_voice.10"	"En tiedä teistä jätkät, mut mul on <I>hirveä nälkä."
 		
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"Hei selviytyjät! Olen tulossa!"
@@ -932,9 +935,9 @@
 		"CampbloodVoice.RalphYourDoomed"	"Olet <I>TUOMITTU! <clr:255,0,0><B>EHEHEHEHE!"
 
 		// FEMA
-		"FemaVoice.BillyComplex"	"Tämä signaali tulee laitoksesta? Koko paikka on raunioina! Mitä tahansa ne älyköt teki tappoivat kaikki ennen kuin he pystyivät käynnistämään protokolan. Sinun täytyy hoitaa se loppuun, ja eristää kaikki mitä he eivät saaneet poistettua!"
-		"FemaVoice.BillyFuel"	"Voimme lennättää teidät turvaan, mutta bensa on lähes loppu! Meidän täytyy tankata se ennen kuin menemme mihinkään."
-		"FemaVoice.BillyGetIn"	"Tulkaa! Me lennämme luvattuun maahan!"
+		"FemaVoice.BillyComplex"	"Tämä signaali tulee laitoksesta? Koko paikka on raunioina! Mitä tahansa ne älyköt tekivät tappoivat kaikki ennen kuin he pystyivät käynnistämään protokolan. Sinun täytyy hoitaa se loppuun, ja pysäyttää mitä tahansa he päästivät pihalle!"
+		"FemaVoice.BillyFuel"	"Voimme lennättää teidät turvaan, mutta bensa on lähes loppu! Meidän täytyy tankata ennen kuin lähdemme mihinkään."
+		"FemaVoice.BillyGetIn"	"Tulkaa! Lennämme luvattuun maahan!"
 		"FemaVoice.BillyTopside"	"Haloo, haloo? Jos kuulet tämän, tule pinnalle niin voimme lähettää sinut turvaan. Jätin perävaunuun rokotteen jonka ne älyköt kehittivät. Emme voi olla tarpeeksi varovaisia, ota se ja lähde liikkeelle!"
 		"FemaVoice.MengelerOkayBob"	"<I>Okei Bub. Nyt, käännä kytkintä."
 		"FemaVoice.MengelerThatsIt"	"<I>Hienoa Bub! Nyt, voit saada palkintosi."
@@ -963,8 +966,16 @@
 		"QuarantineVoice.RadioTalk3"	"Mutta ensin, siellä huoneessa pitäisi olla radiopuhelin, nappaa se."
 		
 		// Toxteth
-		"ToxtethSurvivor"	"Kyllä, olemme kuulolla, ja lennämme alueellasi. Mene osoitteeseen \"Hartington Road\", me olemme siellä muutamassa minuutissa."
-		"ToxtethPilot"	"Hei! Olen tarkkaillut teitä päiväkausia valvontakameran kautta! Oleskelen läheisessä kaupparakennuksessa, ja minulla on mahdollisuus hälyttää apua, mutta olen jumissa täällä! Tulkaa pian, ehdotan että menette hautausmaan läpi."
+		"ToxtethVoice.PilotRadio"	"Kyllä, olemme kuulolla, ja lennämme lähistölläsi. Menkää osoitteeseen \"Hartington Road\", olemme siellä muutamassa minuutissa. Emme voi tuhlata aikaa joten olkaa nopeita!"
+		"ToxtethVoice.PilotRadio2"	"Kyllä, olemme kuulolla, ja lennämme alueellasi. Mene osoitteeseen \"Hartington Road\", olemme siellä muutamassa minuutissa. Emme voi tuhlata aikaa joten olkaa nopeita!"
+		"ToxtethVoice.PilotRadio3"	"Olemme kuulolla, ja lennämme alueellasi. Mene osoitteeseen \"Hartington Road\", olemme siellä muutamassa minuutissa. Emme voi tuhlata yhtään aikaa. joten olkaa nopeita!"
+		"ToxtethVoice.PilotRadio4"	"Joo, olemme kuulolla, ja lennämme alueellasi. Menkää osoitteeseen \"Hartington Road\", olemme siellä muutamassa minuutissa. Älkää tuhlatko aikaa!"
+		"ToxtethVoice.PilotDelay"	"Hei, tuli viivästys. Odottakaa vielä noin viisi minuuttia. Olemme siellä mahdollisimman pian, koittakaa kestää!"
+		"ToxtethVoice.PilotDelay2"	"Hei, tapahtui viivästys. Odottakaa vielä toiset viisi minuuttia. Olemme siellä mahdollisimman pian, kestäkää vielä hetki!"
+		"ToxtethVoice.SurvivorPhone"	"Hei? Hei! Luojan kiitos että vastasitte, olen tarkkaillut teitä. Hakkeroin naapuruston valvontakamerat. Oleskelen läheisessä kaupparakennuksessa, ja minulla on mahdollisuus hälyttää apua, mutta olen jumissa täällä! Ulkona on zombeja, en tiedä kuinka monta, mutta... teidän täytyy päästä tänne pian! Älkää tuhlatko aikaa, ehdotan menemään hautausmaan läpi."
+		"ToxtethVoice.SurvivorPhone2"	"Hei? Hei! Luojan kiitos että vastasitte, olen seurannut teitä. Hakkeroin naapuruston valvontakamerat. Oleskelen läheisessä kaupparakennuksessa, ja voin hälyttää hälyttää apua... mutta jäin oven taakse! Ulkona on zombeja, en tiedä kuinka monta, mutta... teidän täytyy päästä tänne heti! Älkää tuhlatko aikaa, ehdotan menemään hautausmaan läpi."
+		"ToxtethVoice.SurvivorPhone3"	"Hei? Hei! Voi luojan kiitos että vastasitte, olen seurannut teitä. Onnistuin hakkeroimaan naapuruston valvontakamerat. Oleskelen kaupparakennuksessa muutaman sadan metrin päässä, ja voin hälyttää apua..., mutta olen jumissa täällä! Ulkona on zombeja, en tiedä kuinka monta, mutta... teidän täytyy päästä tänne pian! Aikaa ei ole tuhlattavaksi, ehdotan menemään hautausmaan läpi."
+		"ToxtethVoice.SurvivorPhone4"	"Hei! Olen tarkkaillut teitä päiväkausia valvontakameran kautta! Oleskelen läheisessä kaupparakennuksessa, ja minulla on mahdollisuus hälyttää apua, mutta olen jumissa täällä! Tulkaa pian, ehdotan että menette hautausmaan läpi."
 		
 		// Zephyr
 		"ZephyrVoice.Engineer04"	"Sori kaverit, muisti pätkii. Voisitteko kääntää takanani olevaa kytkintä jotta pääsen laiturille?"
