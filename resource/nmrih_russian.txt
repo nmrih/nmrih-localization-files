@@ -14,8 +14,8 @@
 "NMRiH_ChallengeMode"			"Испытание"
 
 "NMRiH_Practice_Starting"		"Недостаточно игроков для начала игры. Начинается режим тренировки."
-"NMRiH_Practice_Ending"			"Игра скоро начнется!"
-"NMRiH_Round_Starting"			"Выживание начнется через 5 секунд."
+"NMRiH_Practice_Ending"			"Игра скоро начнётся!"
+"NMRiH_Round_Starting"			"Выживание начнётся через 5 секунд."
 
 "NMRiH_Extraction_Preview"		"Доберитесь до точки эвакуации."
 "NMRiH_Extraction_Start"		""
@@ -27,7 +27,7 @@
 "NMRiH_Players_Win_Wave"		"Выжившие выстояли орду!"
 "NMRiH_Zombies_Win"			"Выжившие были задавлены ордой!"
 
-"NMRiH_Chat_All_Extracted"		"(СПАСЕН) %s1 :  %s2"
+"NMRiH_Chat_All_Extracted"		"(Спасён) %s1 :  %s2"
 
 "NMRiH_Waiting_For_Spawn"		"Ожидание точки возрождения.."
 
@@ -36,7 +36,7 @@
 "NMRiH_InventoryBox_CantCarry"		"Недостаточно места для этого предмета!"
 "NMRiH_InventoryBox_OwnsItem"		"Уже есть такой предмет!"
 
-"PracticeTimeRemaining"			"Раунд начнется через %s1"
+"PracticeTimeRemaining"			"Раунд начнётся через %s1"
 "RoundStarting"				"Раунд начинается!"
 
 "HudNextObjective"			"СЛЕДУЮЩЕЕ ЗАДАНИЕ"
@@ -49,18 +49,18 @@
 "HudSurvivalWaveEnd"			"ВОЛНА ЗАВЕРШЕНА"
 
 "NMRiH_Votekick_List"			"Следующие ID в голосовании на исключение:\n%s1"
-"NMRiH_Votekick_InProgress"		"Голосование уже идет!"
+"NMRiH_Votekick_InProgress"		"Голосование уже идёт!"
 "NMRiH_Votekick_KickSelf"		"Вы не можете голосовать за своё исключение!"
-"NMRiH_Votekick_Started"		"Началось голосование за исключение игрока: %s1\nУ вас %s2 секунд для голосования.\nНапишите !yes чтобы отдать голос за исключение."
-"NMRiH_Votekick_UnknownPlayer"		"Неизвестный id игрока!\nНапишите !vklist чтобы просмотреть список игроков."
-"NMRiH_Votekick_InvalidId"		"Неверный id игрока!\nНапишите !vklist чтобы просмотреть список игроков."
+"NMRiH_Votekick_Started"		"Началось голосование за исключение игрока: %s1\nУ вас %s2 сек. для голосования.\nНапишите !yes, чтобы отдать голос за исключение."
+"NMRiH_Votekick_UnknownPlayer"		"Неизвестный id игрока!\nНапишите !vklist, чтобы просмотреть список игроков."
+"NMRiH_Votekick_InvalidId"		"Неверный id игрока!\nНапишите !vklist, чтобы просмотреть список игроков."
 "NMRiH_Votekick_Pass"			"Голос принят!"
 "NMRiH_Votekick_Fail"			"Голос не принят!"
-"NMRiH_Votekick_NeedMorePlayers"	"Нужно минимум 3 игрока для начала голосования за исключение или бан."
+"NMRiH_Votekick_NeedMorePlayers"	"Нужно минимум 3 игрока для начала голосования за исключение или блокировку."
 "NMRiH_Votekick_BanSelf"		"Вы не можете голосовать против себя!"
-"NMRiH_Voteban_Started"			"Началось голосование за бан игрока: %s1\nУ вас %s2 секунд для голосования.\nНапишите !yes чтобы отдать свой голос."
+"NMRiH_Voteban_Started"			"Началось голосование за блокировку игрока: %s1\nУ вас %s2 сек. для голосования.\nНапишите !yes, чтобы отдать свой голос."
 
-"NMR_Automatic_Weapon_Switch"		"Автоматически переключаться на подобранное оружие (если оно эффективнее)"
+"NMR_Automatic_Weapon_Switch"		"Автоматическая смена оружия (если оно эффективнее)"
 
 "NMR_Tertiary_Attack"			"Третий тип атаки"
 "NMR_Drop_Weapon"			"Бросить текущее оружие"
@@ -68,8 +68,8 @@
 "NMR_Setup"				"Выбор персонажа и начального оружия"
 "NMR_Slots_Title"			"СЛОТЫ"
 
-"Game_connected"			"%s1 присоединился"
-"Game_disconnected"			"%s1 покинул игру"
+"Game_connected"			"%s1 подключается."
+"Game_disconnected"			"%s1 покидает игру."
 
 "Round_Start"				"Раунд начинается!"
 "Round_Restart"				"Раунд будет перезапущен через %s1"
@@ -102,44 +102,44 @@
 //  = 0x04 (EOT) - Use location color from this point forward
 //  = 0x05 (ENQ) - Use achievement color from this point forward
 //  = 0x01 (SOH) - Use normal color from this point forward
-"SDK_Chat_Team"				"(КОМАНДА) %s1 :  %s2"
-"SDK_Chat_Team_Dead"			"*МЕРТВ*(КОМАНДА) %s1 :  %s2"
-"SDK_Chat_Spec"				"(Зрители) %s1 :  %s2"
+"SDK_Chat_Team"				"(Команде) %s1 :  %s2"
+"SDK_Chat_Team_Dead"			"*Мёртв*(Команде) %s1 :  %s2"
+"SDK_Chat_Spec"				"(Наблюдатель) %s1 :  %s2"
 "SDK_Chat_All"				"%s1 :  %s2"
-"SDK_Chat_All_Dead"			"(МЕРТВ) %s1 :  %s2"
-"SDK_Chat_All_Spec"			"(ЗРИТЕЛИ) %s1 :  %s2"
+"SDK_Chat_All_Dead"			"(Мёртв) %s1 :  %s2"
+"SDK_Chat_All_Spec"			"(Набл.) %s1 :  %s2"
 
-"SDK_Team_Unassigned"			"Без записи"
-"SDK_Team_Spectator"			"Зрители"
+"SDK_Team_Unassigned"			"Не назначены"
+"SDK_Team_Spectator"			"Наблюдатели"
 
-"Chat_Admin"				"(АДМИН) "
-"Chat_Dead"				"(МЕРТВ) %s: "
-"Chat_Spec"				"(ЗРИТЕЛЬ) %s: "
+"Chat_Admin"				"(Администратор) "
+"Chat_Dead"				"(Мёртв) %s: "
+"Chat_Spec"				"(Набл.) %s: "
 "Chat_Prefix"				"%s: "
-"Chat_Extracted"			"(СПАСЕН) %s: "
+"Chat_Extracted"			"(Спасён) %s: "
 
-"Chat_Connected"			"%s1 присоединился к игре"
-"Chat_Disconnected"			"%s1 покинул игру (%s2)"
-"Chat_Team"				"%s1 выбрал команду %s2"
+"Chat_Connected"			"%s1 присоединяется к игре"
+"Chat_Disconnected"			"%s1 покидает игру (%s2)"
+"Chat_Team"				"%s1 выбирает команду: %s2"
 "Chat_Name"				"%s1 сменил имя на %s2"
-"Chat_Command"				"Серверная переменная \"%s1\" была изменена на %s2\n"
+"Chat_Command"				"Переменная сервера \"%s1\" была изменена на %s2\n"
 
-"Respawn_Minutes"			"Возрождение через %s1 минут"
-"Respawn_Seconds"			"Возрождение через %s1 секунд"
+"Respawn_Minutes"			"Возрождение через %s1 мин."
+"Respawn_Seconds"			"Возрождение через %s1 сек."
 "Respawn_Now"				"Возрождение ..."
 
 "Survival_Round_Lost"			"Вы не выжили"
 
-"PlayerAlive"				"Статус"
-"PlayerAlive_Alive"			"ЖИВ"
-"PlayerAlive_Dead"			"МЕРТВ"
-"PlayerAlive_Extracted"			"СПАСЕН"
+"PlayerAlive"				"Состояние"
+"PlayerAlive_Alive"			"В живых"
+"PlayerAlive_Dead"			"Мёртв"
+"PlayerAlive_Extracted"			"Спасён"
 "PlayerRespawns"			"Возрождения"
 
 "Radial_ammo"				"Патроны"
 
 "Weapon_bow_deerhunter"			"Охотничий лук"
-"Weapon_exp_grenade"			"M67 Граната"
+"Weapon_exp_grenade"			"Граната M67"
 "Weapon_exp_molotov"			"Коктейль Молотова"
 "Weapon_exp_tnt"			"Взрывчатка"
 "Weapon_fa_500a"			"Моссберг 500a"
@@ -192,13 +192,13 @@
 "Weapon_tool_flare_gun"			"Ракетница"
 "Weapon_tool_welder"			"Сварочный аппарат"
 
-"ammobox_9mm"				"9mm"
+"ammobox_9mm"				"9-мм"
 "ammobox_45ACP"				".45 ACP"
 "ammobox_357"				".357"
-"ammobox_12gauge"			"12 Gauge"
+"ammobox_12gauge"			"12 калибр"
 "ammobox_22LR"				".22 LR"
 "ammobox_308"				".308"
-"ammobox_556"				"5.56mm"
+"ammobox_556"				"5.56-мм"
 "ammobox_762mm"				"7.62x39"
 "ammobox_grenades"			"Граната"
 "ammobox_molotov"			"Молотов"
@@ -233,7 +233,7 @@
 "Weapon_fa_sks_nobayo_short"		"СКС без штыка"
 "Weapon_fa_superx3_short"		"Super X3"
 "Weapon_fa_sv10_short"			"SV10"
-"Weapon_fa_sw686_short"			"S&W 686"
+"Weapon_fa_sw686_short"			"С&В 686"
 "Weapon_fa_winchester1892_short"	"Вин. 1892"
 "Weapon_item_bandages_short"		"Бинты"
 "Weapon_item_maglite_short"		"Фонарь"
@@ -256,19 +256,19 @@
 "Weapon_me_pipe_lead_short"		"Труба"
 "Weapon_me_shovel_short"		"Лопата"
 "Weapon_me_sledge_short"		"Кувалда"
-"Weapon_me_wrench_short"		"Гаеч. Ключ"
+"Weapon_me_wrench_short"		"Гаеч. ключ"
 "Weapon_tool_barricade_short"		"Молоток"
 "Weapon_tool_extinguisher_short"	"Огнетуш."
 "Weapon_tool_flare_gun_short"		"Ракетница"
 "Weapon_tool_welder_short"		"Сварка"
 
-"ammobox_9mm_short"			"9mm"
+"ammobox_9mm_short"			"9-мм"
 "ammobox_45ACP_short"			".45 ACP"
 "ammobox_357_short"			".357"
-"ammobox_12gauge_short"			"12 Gauge"
+"ammobox_12gauge_short"			"12 кал."
 "ammobox_22LR_short"			".22 LR"
 "ammobox_308_short"			".308"
-"ammobox_556_short"			"5.56mm"
+"ammobox_556_short"			"5.56-мм"
 "ammobox_762mm_short"			"7.62x39"
 "ammobox_grenades_short"		"Граната"
 "ammobox_molotov_short"			"Молотов"
@@ -297,18 +297,19 @@
 "ChallengeTimer_NewRecord"		"НОВЫЙ РЕКОРД!"
 
 "Hint_Generic_Compass" 			"Используйте компас для поиска подсказок! Нажмите клавишу %+compass%."
-"Hint_Generic_CheckAmmo" 		"Зажав клавишу %+reload%, Вы сможете проверить количество патронов."
-"Hint_Generic_CheckInventory" 		"Зажав клавишу %+inventory%, Вы сможете посмотреть свой инвентарь и выбрать оружие."
-"Hint_Generic_AmmoInventory" 		"Зажав клавишу %+ammoinv%, Вы сможете открыть меню патронов и поделиться ими с другими игроками."
+"Hint_Generic_CheckAmmo" 		"Зажав клавишу %+reload%, вы сможете проверить количество патронов."
+"Hint_Generic_CheckInventory" 		"Зажав клавишу %+inventory%, вы сможете посмотреть свой инвентарь и выбрать оружие."
+"Hint_Generic_AmmoInventory" 		"Зажав клавишу %+ammoinv%, вы сможете открыть меню боеприпасов и поделиться ими с другими игроками."
 "Hint_Generic_VoiceCommand" 		"Вы можете использовать голосовые команды для общения с вашей командой! Для этого зажмите клавишу %+voicecmd% — откроется меню голосовых команд."
-"Hint_Generic_Infected" 		"Если вокруг границ экрана появляются вены и видимость ухудшается — Вы заражены."
-"Hint_Generic_Bleeding" 		"Если ваш персонаж кряхтит, появляется кровавая вспышка у границ экрана и из тела бежит кровь, то у Вас кровотечение."
-"Hint_Generic_LowHealth" 		"Если цвета на экране потускнели — у Вас мало очков здоровья."
+"Hint_Generic_Infected" 		"Если вокруг границ экрана появляются вены и темнеет в глазах, то вы заражены."
+"Hint_Generic_Bleeding" 		"Если ваш персонаж кряхтит, появляется кровавая вспышка у границ экрана и из тела бежит кровь, то у вас кровотечение."
+"Hint_Generic_LowHealth" 		"Если цвета на экране потускнели — у вас мало очков здоровья (ОЗ)."
 "Hint_Generic_Pills" 			"Используйте таблетки, чтобы остановить инфекцию на несколько минут."
 "Hint_Generic_Bandages" 		"Для остановки кровотечения используйте бинты."
-"Hint_Generic_FirstAid" 		"Используйте аптечку, когда у Вас мало очков здоровья."
+"Hint_Generic_FirstAid" 		"Используйте аптечку, когда у вас мало очков здоровья (ОЗ)."
 
 } 
 }  
 
 // Swooping Bears http://steamcommunity.com/groups/swooping_bears
+// berry https://steamcommunity.com/id/ingmodsince2008
