@@ -905,6 +905,7 @@
 		"Heli.Arrival1min_US"	"This is the National Guard, we have landed but we are not staying for long. You got one minute."
 		"Heli.Departure_NoAccent"	"Alright, we got to get going we're almost out of fuel. If anyone is still alive out there, good luck."
 		"Heli.Departure_US"	"We're outta here you're on your own! I'm sorry!"
+		"GenericVoice.YouFoundIt"	"Hell kick-ass, looks like you found it!"
 	
 		// Broadway2
 		"Broadway2Voice.Extraction"	"Attention, attention. If you can hear me, you need to get to the rooftop and await extraction ASAP. You have five minutes until the government drops a bomb. Please, get out of there."
@@ -920,6 +921,9 @@
 		"brooklyn_voice.08"	"<I>COME ON <clr:255,0,0>PIGGIES<clr:255,255,255> - don't make me leave without ya!"
 		"brooklyn_voice.09"	"Shit. Looks like someone doesn't know how to park."
 		"brooklyn_voice.10"	"Don't know about you guys, but my stomach is <I>growling."
+		
+		// Cabin
+		"CabinVoice.SpawnRadio"	"This is Hurricane 88 actual to all survivors in the area. We've reached the rendezvous, and are ready to proceed with the evacuations. Repeat, rescue has arrived. Be advised the time is up the essence, out."
 		
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"Hey survivors! I'm coming for ya!"
