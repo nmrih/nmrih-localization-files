@@ -39,9 +39,14 @@
 "PracticeTimeRemaining"			"Partida começando em %s1"
 "RoundStarting"				"Partida Começando!"
 
+"HudNextObjective"			"PRÓXIMO OBJETIVO"
+
 "HudSurvivalWave"			"ONDA"
 "HudSurvivalRemaining"		"RESTANDO"
 "HudSurvivalZone"			"ZONA"
+"HudSurvivalResupply"		"CAIXA DE SUPRIMENTOS A CAMINHO"
+"HudSurvivalWaveBegin"		"INICIANDO ONDA"
+"HudSurvivalWaveEnd"		"ONDA COMPLETA"
 
 "NMRiH_Votekick_List"			"As IDs de usuário para expulsar são as seguintes:\n%s1"
 "NMRiH_Votekick_InProgress"		"Votação já está em andamento!"
@@ -69,6 +74,10 @@
 "Round_Start"				"A partida está começando!"
 "Round_Restart"				"A rodada está reiniciando em %s1"
 "Round_PlayerShortage"			"Jogadores insuficientes para iniciar a partida"
+
+"Item_Received"				"%s1 lhe deu %s2."
+
+"Watermelon_Rescued"		"Melância resgatada! %s1 pontos atribuídos a todos os jogadores."
 
 // Prefix for (Voice) subtitle
 "Voice"						"Voz"
@@ -284,5 +293,18 @@
 "ChallengeTimer_PersonalBest"	"MELHOR PESSOAL"
 "ChallengeTimer_NoTime"	"SEM TEMPO"
 "ChallengeTimer_NewRecord"	"NOVO RECORDE!"
+
+"Hint_Generic_Compass" "Verifique sua bússola para os objetivos! Pressione %+compass%."
+"Hint_Generic_CheckAmmo" "Você pode verificar sua munição segurando a tecla %+reload%."
+"Hint_Generic_CheckInventory" "Você pode verificar seu inventário e equipar armas ao segurar %+inventory%."
+"Hint_Generic_AmmoInventory" "Você pode compartilhar sua munição com outros jogadores ao abrir o menu de munição segurando %+ammoinv%."
+"Hint_Generic_VoiceCommand" "Você pode usar comandos de voz para comunicar-se com a sua equipe! Abra o menu de voz segurando %+voicecmd%."
+"Hint_Generic_Infected" "Você está infectado se ver veias crescendo ao redor da borda da tela e sua visão ficar fraca."
+"Hint_Generic_Bleeding" "Você está sangrando se seu personagem está grunhindo, há um flash de sangue na sua tela e há um rastro de sangue saindo do seu corpo."
+"Hint_Generic_LowHealth" "Você está com pouca saúde se sua tela começar a perder a cor."
+"Hint_Generic_Pills" "Se você encontrar, você pode usar pílulas para estancar a infecção por alguns minutos."
+"Hint_Generic_Bandages" "Se você estiver sangrando, você pode encontrar curativos para estancar."
+"Hint_Generic_FirstAid" "Se você estiver com pouca saúde, pode usar kits de primeiros socorros para se curar."
+
 } 
 }  

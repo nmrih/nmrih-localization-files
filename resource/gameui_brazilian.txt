@@ -31,6 +31,8 @@
 "NMRiH_Options_ShowMOTD"		"Mostrar mensagem do dia"
 "NMRiH_Options_RecordDemo"		"Gravar demo"
 
+"NMRiH_Advanced_cl_textfilter"			"Habilitar filtro de texto do chat(distribuído pela Steam)"
+"NMRiH_Advanced_cl_richpresence"		"Habilitar Status de Atividade (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"Habilitar movimento da cabeça do personagem"
 "NMRiH_Advanced_cl_stickyironsight"		"Habilitar alternância da mira"
 "NMRiH_Advanced_cl_voicesubtitles"		"Habilitar legendas de voz no bate-papo"
@@ -45,6 +47,11 @@
 "NMRiH_Advanced_nmrih_dof"				"Habilitar Profundidade de Campo"
 "NMRiH_Advanced_nmrih_ssao"				"Habilitar oclusão ambiente (HBAO)"
 "NMRiH_Advanced_mp_decals"				"Limite de decalque (máx. 4096)"
+"NMRiH_Advanced_cl_mainmenu_background"		"Preferência de Fundo do Menu"
+"NMRiH_Advanced_cl_mainmenu_background_Random"	"Aleatório"
+"NMRiH_Advanced_cl_mainmenu_background_0"		"Anniversary (v1.12)"
+"NMRiH_Advanced_cl_mainmenu_background_1"		"Greenlit (v1.07)"
+"NMRiH_Advanced_cl_mainmenu_background_2"		"Rebirth (v1.10)"
 
 "NMRiH_Difficulty"	"Dificuldade"
 
@@ -65,6 +72,7 @@
 "NMRiH_FriendlyFire_Tooltip"				"Habilita fogo amigo, jogadores infectados sempre sofrerão danos."
 "NMRiH_RealismMode_Tooltip"					"No modo de realismo, os renascimentos são desativados, os zumbis só recebem dano de tiro na cabeça e todos os headshots têm 1 hit-kill independentemente do tipo de munição."
 "NMRiH_HardcoreSurvival_Tooltip"			"Esconde o HUD no modo de sobrevivência."
+"NMRiH_Max_Players_Tooltip"					"Limite de jogador, mínimo de 2, máximo de 8."
 "NMRiH_AdvOptions"							"Opções Estendidas..."
 "NMRiH_AdvOptions_Tooltip"					"Editar opções de jogo estendidas."
 
@@ -123,6 +131,7 @@
 "Vote_nextlevel"		"Próximo Mapa"
 "Vote_restart"			"Reininciar Partida"
 "Vote_changechallenge"		"Mudar Desafio"
+"Vote_changedifficulty"		"Mudar Dificuldade"
 
 "NMRiH_Vote_Kick_Player_Other"		"Expulsar Jogador: %s1?\n(nenhum motivo informado)"
 "NMRiH_Vote_Kick_Player_Cheating"		"Expulsar JogadorExpulsar Jogador: %s1?\n(acusado de usar trapaças)"
@@ -135,6 +144,7 @@
 "NMRiH_Vote_NextLevel"		"Mudar o próximo mapa para %s1?"
 "NMRiH_Vote_RestartRound"	"Reiniciar Partida?"
 "NMRiH_Vote_ChangeChallenge"	"Mudar desafio para %s1?"
+"NMRiH_Vote_ChangeDifficulty"	"Mudar dificuldade para %s1?"
 
 "NMRiH_Scoreboard_MutePlayer"	"Silenciar Jogador(a)"
 "NMRiH_Scoreboard_ViewSteamProfile"	"Ver perfil steam"
@@ -307,6 +317,10 @@
 "Workshop_Publisher_AddonForm_TooltipSummary"		"Uma breve descrição do add-on, mostrado na GUI."
 "Workshop_Publisher_AddonForm_TooltipChangeNotes"	"Estas notas irão aparecer no seu log de alterações de itens da oficina para cada atualização."
 "Workshop_Publisher_AddonForm_RequiredField"		"* = Campo obrigatório"
+"Workshop_Publisher_AddonForm_IncludeMaphack"		"Incluir arquivo MapHack"
+"Workshop_Publisher_AddonForm_RepairItem"			"Reparar item"
+"Workshop_Publisher_AddonForm_TooltipMaphack"		"Direciona um arquivo MapHack com nome de {nomedomapa}.txt se houver."
+"Workshop_Publisher_AddonForm_TooltipRepair"		"Escolha esta opção se o seu item da Oficina tiver arquivos restantes ou metadados ruins, sem substituir o conteúdo."
 
 "Workshop_Publisher_BrowseContent"		"Navegue pelo conteúdo"
 "Workshop_Publisher_BrowsePreview"		"Navegue para visualizar imagem"
