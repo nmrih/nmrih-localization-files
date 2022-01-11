@@ -5,8 +5,8 @@
 { 
 
 "NMRiH_Map_Time"			"Tempo por Mapa"
-"NMRiH_Extract_Min"			"Extração Min"
-"NMRiH_Extract_Max"			"Extração Máx"
+"NMRiH_Extract_Min"			"Extração Min."
+"NMRiH_Extract_Max"			"Extração Máx."
 
 "NMRiH_FriendlyFire"			"Fogo Amigo"
 "NMRiH_RealismMode"				"Modo Realismo"
@@ -77,7 +77,7 @@
 
 "Item_Received"				"%s1 lhe deu %s2."
 
-"Watermelon_Rescued"		"Melância resgatada! %s1 pontos atribuídos a todos os jogadores."
+"Watermelon_Rescued"		"Melancia resgatada! %s1 pontos atribuídos a todos os jogadores."
 
 // Prefix for (Voice) subtitle
 "Voice"						"Voz"
