@@ -884,8 +884,8 @@
 		//Survival mode
 
 		"NGSurvivalExtraction" "<I>¡La extracción se encuentra en camino hacia tu posición, muévete!"
-		"NGSurvivalSupply" "<I>Tengan en cuenta, Equipamiento de FEMA se dirige a su posición, fuera."
-		"NGSurvivalBegin" "<I>¡Atención, atención! Esta es la Guardia Nacional de los Estados Unidos. En su área se encuentran zonas seguras. De acuerdo con la Ley Nacional de Pandemia e Iniciativa ONU Redeker , resistan hasta que el área se encuentre despejada. Se les otorgará una extracción a un lugar seguro. Cumplan su parte, fuera."
+		"NGSurvivalSupply" "<I>Atención, equipamiento de FEMA se dirige a su posición, fuera."
+		"NGSurvivalBegin" "<I>¡Atención, atención! Esta es la Guardia Nacional de los Estados Unidos. En su área se encuentran zonas seguras. De acuerdo con la Ley Nacional de Pandemia e Iniciativa ONU Redeker, resistan hasta que el área se encuentre despejada. Se les otorgará una extracción a un lugar seguro. Cumplan su parte, fuera."
 		"NGSurvivalWaveStart" "<I>¡Una horda de zombis se aproxima hacia tu posición! ¡Prepárate!"
 		"NGSurvivalZoneA" "<clr: 255, 255, 0><I>¡La zona A esta siendo atacada! ¡Protégela!"
 		"NGSurvivalZoneB" "<clr: 255, 255, 0><I>¡La zona B esta siendo atacada! ¡Protégela!"
@@ -910,6 +910,7 @@
 		"Heli.Arrival1min_US"	"Habla la Guardia Nacional. Hemos aterrizado pero no podemos esperar a todos. Tienen un minuto."
 		"Heli.Departure_NoAccent"	"Bueno, tenemos que irnos, ya casi no nos queda combustible. Si alguien sigue vivo por allí, buena suerte."
 		"Heli.Departure_US"	"¡Nos vamos, están por su cuenta! ¡Lo siento!"
+		"GenericVoice.YouFoundIt"	"¡Excelente, parece que lo encontraron!"
 	
 		// Broadway2
 		"Broadway2Voice.Extraction"	"Atención, atención. Si pueden oirme, deben ir a la azotea lo antes posible y esperar el rescate. Tienen cinco minutos hasta que el gobierno lance una bomba. Por favor, salgan de allí."
@@ -925,12 +926,15 @@
 		"brooklyn_voice.08"	"<I>VAMOS <clr:255,0,0>CERDITOS<clr:255,255,255> - no me hagan irme sin ustedes!"
 		"brooklyn_voice.09"	"Mierda. Parece que alguien no sabe cómo estacionar."
 		"brooklyn_voice.10"	"No se ustedes muchachos, pero mi estómago está <I>rugiendo."
+
+		// Cabin
+		"CabinVoice.SpawnRadio"	"Les habla Hurricane 88 actual a todos los supervivientes en esta área. Hemos llegado al punto de encuentro y estamos listos para iniciar la evacuación. Repito, ha llegado el rescate. Recuerden, estamos cortos de tiempo, cambio y fuera."
 		
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"¡Hey, supervivientes! ¡Estoy yendo por ustedes!"
 		"CampbloodVoice.RalphLastChance"	"¡Esta es su última chance!"
 		"CampbloodVoice.RalphLightsOff"	"¿Alguien recordó apagar las luces?"
-		"CampbloodVoice.RalphWelcome"	"Están yendo al Campamento Sangre verdad? No volverán de allí, tiene una <I>MALDICIÓN DE MUERTE!"
+		"CampbloodVoice.RalphWelcome"	"Están yendo al Campamento Sangre verdad? No volverán de allí, tiene una <I>¡MALDICIÓN DE MUERTE!"
 		"CampbloodVoice.RalphYourDoomed"	"¡Están <I>CONDENADOS! <clr:255,0,0><B>¡EHEHEHEHE!"
 
 		// Cleopas
