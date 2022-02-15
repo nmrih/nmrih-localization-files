@@ -39,6 +39,15 @@
 "PracticeTimeRemaining"			"游戏将在 %s1 秒内开始"
 "RoundStarting"				"游戏即将开始！"
 
+"HudNextObjective"			"下一个任务"
+
+"HudSurvivalWave"			"回合数"
+"HudSurvivalRemaining"		"剩余丧尸数"
+"HudSurvivalZone"			"地点"
+"HudSurvivalResupply"		"空投物资即将抵达"
+"HudSurvivalWaveBegin"		"回合开始"
+"HudSurvivalWaveEnd"		"回合完成"
+
 "NMRiH_Votekick_List"			"等待被投票踢出的玩家 ID 如下:\n%s1"
 "NMRiH_Votekick_InProgress"		"投票正在进行中！"
 "NMRiH_Votekick_KickSelf"		"你不能投票踢出你自己！"
@@ -66,6 +75,13 @@
 "Round_Restart"				"游戏将在 %s1 秒内重新开始"
 "Round_PlayerShortage"			"没有足够的玩家来开始游戏"
 
+"Item_Received"				"%s1 将 %s2 递给了你。"
+"Item_TargetOwns"			"%s1 已经持有 %s2。"
+"Item_TargetFull"			"%s1 的背包没有更多空间了。"
+
+"Watermelon_Rescued"		"西瓜已被营救！所有玩家将被奖励 %s1 点分数。"
+
+// Prefix for (Voice) subtitle					  
 "Voice"						"语音"
 
 "NMRiH_VoiceCommand_Ammo"		"需要子弹"
@@ -279,5 +295,18 @@
 "ChallengeTimer_PersonalBest"	"个人最佳"
 "ChallengeTimer_NoTime"	"无记录"
 "ChallengeTimer_NewRecord"	"新纪录!"
+
+"Hint_Generic_Compass" "按下 %+compass% 键，用来打开指南针查看当前任务目标！"
+"Hint_Generic_CheckAmmo" "您可以按住 %+reload% 键查看当前武器的剩余弹药量。"
+"Hint_Generic_CheckInventory" "您可以按住 %+inventory% 键来查看背包中的装备以及切换武器。"
+"Hint_Generic_AmmoInventory" "您还可以按住 %+ammoinv% 键打开弹药菜单，将您的弹药分享给其他玩家。"
+"Hint_Generic_VoiceCommand" "通过按下 %+voicecmd% 键打开语音菜单，您还可以发送无线电指令以便和您的队友交流！"
+"Hint_Generic_Infected" "当您发现屏幕周围出现了血管，并且视野逐渐变得微弱时，这证明您已经被感染了。"
+"Hint_Generic_Bleeding" "在您流血时，您的角色会发出疼痛声，并且您会看到屏幕周围的闪烁效果，以及从您身体中流出的血液。"
+"Hint_Generic_LowHealth" "如果您的屏幕开始出现褪色，证明您正处于低血量状态。"
+"Hint_Generic_Pills" "药丸道具将会在您感染时延长病毒发作的潜伏期，前提是您得找到它们。"
+"Hint_Generic_Bandages" "如果您正处于流血状态，您可以寻找绷带道具来止血。"
+"Hint_Generic_FirstAid" "如果您受伤了，使用急救包道具将会帮助您恢复血量。"
+
 } 
 }  

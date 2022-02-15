@@ -7,8 +7,8 @@
 
 		"AmmoCheck.Alt7.Full" "我的弹匣是满的。"
 		"AmmoCheck.Alt7.AlmostFull" "我的弹匣几乎是满的。"
-		"AmmoCheck.Alt7.OverHalf" "还剩半个多一点的弹匣。"
-		"AmmoCheck.Alt7.Half" "还剩半个弹匣。"
+		"AmmoCheck.Alt7.OverHalf" "还剩半个多一点弹匣的子弹。"
+		"AmmoCheck.Alt7.Half" "还剩半个弹匣的子弹。"
 		"AmmoCheck.Alt7.15" "还有十五发子弹。"
 		"AmmoCheck.Alt7.14" "还有十四发子弹。"
 		"AmmoCheck.Alt7.13" "还有十三发子弹。"
@@ -26,11 +26,10 @@
 		"AmmoCheck.Alt7.1" "我只剩一发子弹了！"
 		"AmmoCheck.Alt7.0" "我没子弹了！"
 
-
 		"AmmoCheck.Alt6.Full" "我的弹匣是满的。"
 		"AmmoCheck.Alt6.AlmostFull" "我的弹匣几乎是满的。"
-		"AmmoCheck.Alt6.OverHalf" "还剩半个多一点的弹匣。"
-		"AmmoCheck.Alt6.Half" "还剩半个弹匣。"
+		"AmmoCheck.Alt6.OverHalf" "还剩半个多一点弹匣的子弹。"
+		"AmmoCheck.Alt6.Half" "还剩半个弹匣的子弹。"
 		"AmmoCheck.Alt6.15" "还有十五发子弹。"
 		"AmmoCheck.Alt6.14" "还有十四发子弹。"
 		"AmmoCheck.Alt6.13" "还有十三发子弹。"
@@ -50,8 +49,8 @@
 
 		"AmmoCheck.Alt5.Full" "我的弹匣是满的。"
 		"AmmoCheck.Alt5.AlmostFull" "我的弹匣几乎是满的。"
-		"AmmoCheck.Alt5.OverHalf" "还剩半个多一点的弹匣。"
-		"AmmoCheck.Alt5.Half" "还剩半个弹匣。"
+		"AmmoCheck.Alt5.OverHalf" "还剩半个多一点弹匣的子弹。"
+		"AmmoCheck.Alt5.Half" "还剩半个弹匣的子弹。"
 		"AmmoCheck.Alt5.15" "还有十五发子弹。"
 		"AmmoCheck.Alt5.14" "还有十四发子弹。"
 		"AmmoCheck.Alt5.13" "还有十三发子弹。"
@@ -71,8 +70,8 @@
 
 		"AmmoCheck.Alt4.Full" "我的弹匣是满的。"
 		"AmmoCheck.Alt4.AlmostFull" "我的弹匣几乎是满的。"
-		"AmmoCheck.Alt4.OverHalf" "还剩半个多一点的弹匣。"
-		"AmmoCheck.Alt4.Half" "还剩半个弹匣。"
+		"AmmoCheck.Alt4.OverHalf" "还剩半个多一点弹匣的子弹。"
+		"AmmoCheck.Alt4.Half" "还剩半个弹匣的子弹。"
 		"AmmoCheck.Alt4.15" "还有十五发子弹。"
 		"AmmoCheck.Alt4.14" "还有十四发子弹。"
 		"AmmoCheck.Alt4.13" "还有十三发子弹。"
@@ -92,8 +91,8 @@
 
 		"AmmoCheck.Alt3.Full" "我的弹匣是满的。"
 		"AmmoCheck.Alt3.AlmostFull" "我的弹匣几乎是满的。"
-		"AmmoCheck.Alt3.OverHalf" "还剩半个多一点的弹匣。"
-		"AmmoCheck.Alt3.Half" "还剩半个弹匣。"
+		"AmmoCheck.Alt3.OverHalf" "还剩半个多一点弹匣的子弹。"
+		"AmmoCheck.Alt3.Half" "还剩半个弹匣的子弹。"
 		"AmmoCheck.Alt3.15" "还有十五发子弹。"
 		"AmmoCheck.Alt3.14" "还有十四发子弹。"
 		"AmmoCheck.Alt3.13" "还有十三发子弹。"
@@ -113,8 +112,8 @@
 
 		"AmmoCheck.Alt2.Full" "我的弹匣是满的。"
 		"AmmoCheck.Alt2.AlmostFull" "我的弹匣几乎是满的。"
-		"AmmoCheck.Alt2.OverHalf" "还剩半个多一点的弹匣。"
-		"AmmoCheck.Alt2.Half" "还剩半个弹匣。"
+		"AmmoCheck.Alt2.OverHalf" "还剩半个多一点弹匣的子弹。"
+		"AmmoCheck.Alt2.Half" "还剩半个弹匣的子弹。"
 		"AmmoCheck.Alt2.15" "还有十五发子弹。"
 		"AmmoCheck.Alt2.14" "还有十四发子弹。"
 		"AmmoCheck.Alt2.13" "还有十三发子弹。"
@@ -132,11 +131,10 @@
 		"AmmoCheck.Alt2.1" "我只剩一发子弹了！"
 		"AmmoCheck.Alt2.0" "我没子弹了！"
 
-
 		"AmmoCheck.Alt1.Full" "我的弹匣是满的。"
 		"AmmoCheck.Alt1.AlmostFull" "我的弹匣几乎是满的。"
-		"AmmoCheck.Alt1.OverHalf" "还剩半个多一点的弹匣。"
-		"AmmoCheck.Alt1.Half" "还剩半个弹匣。"
+		"AmmoCheck.Alt1.OverHalf" "还剩半个多一点弹匣的子弹。"
+		"AmmoCheck.Alt1.Half" "还剩半个弹匣的子弹。"
 		"AmmoCheck.Alt1.15" "还有十五发子弹。"
 		"AmmoCheck.Alt1.14" "还有十四发子弹。"
 		"AmmoCheck.Alt1.13" "还有十三发子弹。"
@@ -156,8 +154,8 @@
 
 		"AmmoCheck.Default.Full" "我的弹匣是满的。"
 		"AmmoCheck.Default.AlmostFull" "我的弹匣几乎是满的。"
-		"AmmoCheck.Default.OverHalf" "还剩半个多一点的弹匣。"
-		"AmmoCheck.Default.Half" "还剩半个弹匣。"
+		"AmmoCheck.Default.OverHalf" "还剩半个多一点弹匣的子弹。"
+		"AmmoCheck.Default.Half" "还剩半个弹匣的子弹。"
 		"AmmoCheck.Default.15" "还有十五发子弹。"
 		"AmmoCheck.Default.14" "还有十四发子弹。"
 		"AmmoCheck.Default.13" "还有十三发子弹。"
@@ -177,8 +175,8 @@
 
 		"AmmoCheck.FemaleDefault.Full" "我的弹匣是满的。"
 		"AmmoCheck.FemaleDefault.AlmostFull" "我的弹匣几乎是满的。"
-		"AmmoCheck.FemaleDefault.OverHalf" "还剩半个多一点的弹匣。"
-		"AmmoCheck.FemaleDefault.Half" "还剩半个弹匣。"
+		"AmmoCheck.FemaleDefault.OverHalf" "还剩半个多一点弹匣的子弹。"
+		"AmmoCheck.FemaleDefault.Half" "还剩半个弹匣的子弹。"
 		"AmmoCheck.FemaleDefault.15" "还有十五发子弹。"
 		"AmmoCheck.FemaleDefault.14" "还有十四发子弹。"
 		"AmmoCheck.FemaleDefault.13" "还有十三发子弹。"
@@ -296,8 +294,6 @@
 		"VoiceCommand.FemaleDefault.Incoming"	"它们来了！"
 		"VoiceCommand.FemaleDefault.Injured"	"我受伤了！"
 		"VoiceCommand.FemaleDefault.FireInTheHole" "小心手雷！"
-		
-		
 
 		//reserve ammo check for magazines
 		// 'X magazines remaining'
@@ -311,7 +307,7 @@
 		"Reload.Alt1.Mag24" "还剩二十四个弹匣！"
 		"Reload.Alt1.Mag23" "还剩二十三个弹匣！"
 		"Reload.Alt1.Mag22" "还剩二十二个弹匣！"
-		"Reload.Alt1.Mag21" "还剩二十一个弹匣！
+		"Reload.Alt1.Mag21" "还剩二十一个弹匣！"
 		"Reload.Alt1.Mag20" "还剩二十个弹匣！"
 		"Reload.Alt1.Mag19" "还剩十九个弹匣！"
 		"Reload.Alt1.Mag18" "还剩十八个弹匣！"
@@ -343,7 +339,7 @@
 		"Reload.Alt2.Mag24" "还剩二十四个弹匣！"
 		"Reload.Alt2.Mag23" "还剩二十三个弹匣！"
 		"Reload.Alt2.Mag22" "还剩二十二个弹匣！"
-		"Reload.Alt2.Mag21" "还剩二十一个弹匣！
+		"Reload.Alt2.Mag21" "还剩二十一个弹匣！"
 		"Reload.Alt2.Mag20" "还剩二十个弹匣！"
 		"Reload.Alt2.Mag19" "还剩十九个弹匣！"
 		"Reload.Alt2.Mag18" "还剩十八个弹匣！"
@@ -375,7 +371,7 @@
 		"Reload.Alt3.Mag24" "还剩二十四个弹匣！"
 		"Reload.Alt3.Mag23" "还剩二十三个弹匣！"
 		"Reload.Alt3.Mag22" "还剩二十二个弹匣！"
-		"Reload.Alt3.Mag21" "还剩二十一个弹匣！
+		"Reload.Alt3.Mag21" "还剩二十一个弹匣！"
 		"Reload.Alt3.Mag20" "还剩二十个弹匣！"
 		"Reload.Alt3.Mag19" "还剩十九个弹匣！"
 		"Reload.Alt3.Mag18" "还剩十八个弹匣！"
@@ -407,7 +403,7 @@
 		"Reload.Alt4.Mag24" "还剩二十四个弹匣！"
 		"Reload.Alt4.Mag23" "还剩二十三个弹匣！"
 		"Reload.Alt4.Mag22" "还剩二十二个弹匣！"
-		"Reload.Alt4.Mag21" "还剩二十一个弹匣！
+		"Reload.Alt4.Mag21" "还剩二十一个弹匣！"
 		"Reload.Alt4.Mag20" "还剩二十个弹匣！"
 		"Reload.Alt4.Mag19" "还剩十九个弹匣！"
 		"Reload.Alt4.Mag18" "还剩十八个弹匣！"
@@ -439,7 +435,7 @@
 		"Reload.Alt5.Mag24" "还剩二十四个弹匣！"
 		"Reload.Alt5.Mag23" "还剩二十三个弹匣！"
 		"Reload.Alt5.Mag22" "还剩二十二个弹匣！"
-		"Reload.Alt5.Mag21" "还剩二十一个弹匣！
+		"Reload.Alt5.Mag21" "还剩二十一个弹匣！"
 		"Reload.Alt5.Mag20" "还剩二十个弹匣！"
 		"Reload.Alt5.Mag19" "还剩十九个弹匣！"
 		"Reload.Alt5.Mag18" "还剩十八个弹匣！"
@@ -471,7 +467,7 @@
 		"Reload.Alt6.Mag24" "还剩二十四个弹匣！"
 		"Reload.Alt6.Mag23" "还剩二十三个弹匣！"
 		"Reload.Alt6.Mag22" "还剩二十二个弹匣！"
-		"Reload.Alt6.Mag21" "还剩二十一个弹匣！
+		"Reload.Alt6.Mag21" "还剩二十一个弹匣！"
 		"Reload.Alt6.Mag20" "还剩二十个弹匣！"
 		"Reload.Alt6.Mag19" "还剩十九个弹匣！"
 		"Reload.Alt6.Mag18" "还剩十八个弹匣！"
@@ -503,7 +499,7 @@
 		"Reload.Alt7.Mag24" "还剩二十四个弹匣！"
 		"Reload.Alt7.Mag23" "还剩二十三个弹匣！"
 		"Reload.Alt7.Mag22" "还剩二十二个弹匣！"
-		"Reload.Alt7.Mag21" "还剩二十一个弹匣！
+		"Reload.Alt7.Mag21" "还剩二十一个弹匣！"
 		"Reload.Alt7.Mag20" "还剩二十个弹匣！"
 		"Reload.Alt7.Mag19" "还剩十九个弹匣！"
 		"Reload.Alt7.Mag18" "还剩十八个弹匣！"
@@ -535,7 +531,7 @@
 		"Reload.Default.Mag24" "还剩二十四个弹匣！"
 		"Reload.Default.Mag23" "还剩二十三个弹匣！"
 		"Reload.Default.Mag22" "还剩二十二个弹匣！"
-		"Reload.Default.Mag21" "还剩二十一个弹匣！
+		"Reload.Default.Mag21" "还剩二十一个弹匣！"
 		"Reload.Default.Mag20" "还剩二十个弹匣！"
 		"Reload.Default.Mag19" "还剩十九个弹匣！"
 		"Reload.Default.Mag18" "还剩十八个弹匣！"
@@ -567,7 +563,7 @@
 		"Reload.FemaleDefault.Mag24" "还剩二十四个弹匣！"
 		"Reload.FemaleDefault.Mag23" "还剩二十三个弹匣！"
 		"Reload.FemaleDefault.Mag22" "还剩二十二个弹匣！"
-		"Reload.FemaleDefault.Mag21" "还剩二十一个弹匣！
+		"Reload.FemaleDefault.Mag21" "还剩二十一个弹匣！"
 		"Reload.FemaleDefault.Mag20" "还剩二十个弹匣！"
 		"Reload.FemaleDefault.Mag19" "还剩十九个弹匣！"
 		"Reload.FemaleDefault.Mag18" "还剩十八个弹匣！"
@@ -592,7 +588,6 @@
 
 		//reserve ammo check for shotgun and magnum
 		// 'X loads remaining'
-
 
 		"Reload.Alt1.Load30" "还剩三十个弹匣！"
 		"Reload.Alt1.Load29" "还剩二十九个弹匣！"
@@ -882,12 +877,11 @@
 		"Reload.FemaleDefault.Load1" "只剩最后一个弹匣了！"
 		"Reload.FemaleDefault.Load0" "没有弹匣了！"
 
-
 		//Survival mode
 
 		"NGSurvivalExtraction" "<I>救援即将抵达，做好逃脱准备！"
 		"NGSurvivalSupply" "<I>注意：联邦应急管理署的空投物资即将抵达，完毕。"
-		"NGSurvivalBegin" "<I>插播重要指令，这里是国民警卫队。你们所在的位置有关键地点，根据国家流行病法案和联合国救助者倡议，请保护关键地点直到尸群被消灭干净，然后你们将会被救援到安全地区。请尽你们应尽的责任，完毕。"
+		"NGSurvivalBegin" "<I>插播重要指令，这里是国民警卫队。你们所在的位置有关键地点，根据国家流行病法案和联合国救助者倡议，请保护关键地点直到尸群被消灭，然后你们将会被救援到安全地区。请尽你们应尽的责任，完毕。"
 		"NGSurvivalWaveStart" "<I>尸群正在向你们靠近，做好准备！"
 		"NGSurvivalZoneA" "<clr: 255, 255, 0><I>关键地点 A 正遭受攻击，保卫关键地点！"
 		"NGSurvivalZoneB" "<clr: 255, 255, 0><I>关键地点 B 正遭受攻击，保卫关键地点！"
@@ -898,9 +892,104 @@
 		"SafeZone.Killed" "<clr: 255, 0, 0>[关键地点已失守，全部地点失守后国民警卫队将放弃对你们的营救！]"
 		"Wave.Complete" "[回合已完成]"
 		"NMRPlayer.TokenEarned" "[获得重生点数]"	
-		"NMRPlayer.TokenDenied" "[未使用的重生点数已失效]"
-		"NMRPlayer.TokenUsed" "[消耗重生点数]"
+		"NMRPlayer.TokenDenied" "[已清除未使用的重生点数]"
+		"NMRPlayer.TokenUsed" "[已使用重生点数]"
 		"Wave.LowZombies" "[为下一回合做好准备]"
+		
+		// Dialogue
+	
+		// Generic
+		"Heli.Approach_Alert_NoAccent"	"这里是国民警卫队，如果还有任何的生还者，请注意，我们将会在 30秒 内抵达！"
+		"Heli.Approach_Alert_US"	"这里是国民警卫队，如果还有任何的生还者，请注意，我们将会在 30秒 内抵达！"
+		"Heli.Arrival1min_NoAccent"	"这里是国民警卫队，我们已经到达。时间紧迫，我们只会等你一分钟的时间。"
+		"Heli.Arrival1min_US"	"这里是国民警卫队，我们已经到达。时间紧迫，我们只会等你一分钟的时间。"
+		"Heli.Departure_NoAccent"	"由于燃料不足，我们得先离开了。如果还有任何幸存的生还者，祝你好运。"
+		"Heli.Departure_US"	"我们得先走一步了，很抱歉，你们只能靠自己了！"
+		"GenericVoice.YouFoundIt"	"这简直太棒了，看起来你们找到它了！"
+	
+		// Broadway2
+		"Broadway2Voice.Extraction"	"请注意！如果有人能听到，你需要尽最快速度前往屋顶等待救援。在开始轰炸之前，你只有五分钟的时间，请赶快撤离！"
+		
+		// Brooklyn
+		"brooklyn_voice.01"	"嘿！感谢你的到来，想要在这帮我一个忙吗？"
+		"brooklyn_voice.02"	"可恶？！大门没有电了，我们需要修好它才能离开这个鬼地方！"
+		"brooklyn_voice.03"	"好主意！把它钩在铁栅栏上，这样我们就能把栅栏拉下来。"
+		"brooklyn_voice.04"	"你们好啊，很高兴看到你们！看来我还不是唯一的幸存者！我要离开这个该死的鬼地方，但是我们得先把外面的铁栅栏拆下来才能继续前进。"
+		"brooklyn_voice.05"	"太棒了，谢谢你！现在我来看看能不能启动这辆卡车，但如果想要离开这里，我们还需要补给品。我在街对面的小巷附近看到了一辆旧手推车，说不定我们可以在附近剩下的物资中找到我们要的东西。"
+		"brooklyn_voice.06"	"真高兴你还活着！现在快把补给品搬上货车，我们在这可是吸引了一大群丧尸。"
+		"brooklyn_voice.07"	"好了，我们快离开这个鬼地方了！但我们得找到大门的中控系统来打开大门，它应该就在离这不远的地方。"
+		"brooklyn_voice.08"	"<I>好了 <clr:255,0,0>贪心鬼们<clr:255,255,255> - 快上车，别让我把你们丢下离开！"
+		"brooklyn_voice.09"	"该死，看来有些人不知道该怎么停车啊，快把前面的车挪开！"
+		"brooklyn_voice.10"	"不知道你们感觉怎么样，但我的胃可是<I>饿坏了。"
+		
+		// Cabin
+		"CabinVoice.SpawnRadio"	"这里是龙卷风88号正在为所有存活的生还者广播。我们已经到达集合点并准备开始撤离。重复，救援已经到达，请务必抓紧时间，完毕。"
+		
+		// Campblood
+		"CampbloodVoice.RalphComingForYa"	"嘿，幸存者们！准备好迎接死亡的到来了吗！"
+		"CampbloodVoice.RalphLastChance"	"这将是你们最后一次投降的机会！"
+		"CampbloodVoice.RalphLightsOff"	"有人记得要把灯关上吗...？"
+		"CampbloodVoice.RalphWelcome"	"你们是要前往血腥营地吗？恐怕你将再不会活着回来，这里有着 <I>死亡诅咒！"
+		"CampbloodVoice.RalphYourDoomed"	"你们 <I>死定了！ <clr:255,0,0><B>啊哈哈哈哈！"
 
+		// Cleopas
+		"CleopasVoice.Radio"	"这里是206巡逻队正在市区请求紧急救援，我们遭受了猛烈袭击，这些...怪物，不会停下来...它们变得越来越多了！如果有任何人可以听到，请派出救援！重复，市区需要紧急救援，弹药已经不多了，留给我们的选择所剩无几，请告知总部--[枪声响起，传输中断]"
+
+		// FEMA
+		"FemaVoice.BillyComplex"	"这是来自地下的通讯信号吗？整个设施目前都已经沦陷了！这帮该死的书呆子不知道研究出了什么杀死了所有人，他们本该启动收容协议的。现在你需要完成这个任务，并且阻止他们研究出的东西离开那里！"
+		"FemaVoice.BillyFuel"	"我们可以把你带到安全的地方，但现在燃料不足了！在想要离开这里之前，我们需要将油箱加满。"
+		"FemaVoice.BillyGetIn"	"赶快到飞机上来！现在我们要飞往安全区了！"
+		"FemaVoice.BillyTopside"	"喂？喂！如果还有人能收到消息，就到地面上来，我们将会带你前往安全区。记得检查一下你所在拖车里的储藏柜，我保存了些研究员们正在开发的疫苗。现在行动起来并拿到疫苗，请务必小心行事！"
+		"FemaVoice.MengelerOkayBob"	"<I>好的，布布。现在，扳动开关。[电影台词]"
+		"FemaVoice.MengelerThatsIt"	"<I>就是这样，布布！然后，你就可以得到你的奖励了。[电影台词]"
+		"FemaVoice.MengelerSayHello"	"<I>向你的阿姨艾丽西亚问好，布布。[电影台词]"
+		"FemaVoice.ColonelNatSec"	"这里是卡赞上校，为了国家机密的安全，我们保证会将你救援至安全区，但前提是我们回收到实验疫苗。我们已经确认了你的位置，并且会等待你做出的行动。"
+		"FemaVoice.ColonelStow"	"这里是国家安全局的卡赞上校，我们已经收到了你的信号。现在保证好疫苗的安全，将疫苗上缴放好后准备进行撤离。"
+		
+		// Midwest
+		"MidwestVoice.EngineerBarbara"	"他们要来抓我们了，芭芭拉！[电影台词]"
+		"MidwestVoice.EngineerEnd"	"好的，我相信我已经找到了问题所在，现在唯一要做的就是让我把它修好。"
+		"MidwestVoice.EngineerEnd2"	"好了，已经修理完毕，并且引擎运转良好！伙计们，赶快到火车上来！"
+		"MidwestVoice.EngineerFirst"	"守住你们所待的建筑，我会尽快修理好这个问题！"
+		"MidwestVoice.EngineerStart"	"伙计们，火车引擎似乎出了问题... 我不知道引擎到底是什么状况。而距离最近的城镇也在几英里开外，看来我们不得不要在此滞留一段时间了。"
+		
+		// Junction
+		"JunctionVoice.01"	"<I>以下讯息是应新泽西州联合市的应急管理办公室的要求发送的。如果您还活着，请留在原地等待救援，在街道上穿行是十分危险的。尤宁县，哈德孙县和蒙默思县目前均被隔离。如果您已受伤或遇到紧急情况，请保持冷静，并在原地等待我们的后续通知。紧急救援车辆目前可能无法及时赶到。"
+		"JunctionVoice.02"	"很高兴还能听到其他人的声音！看起来城市里还有滞留的生还者。嗯，这里是第42区的琼斯，我不知道你是否听说过，不过目前林肯隧道是离开这座城市的唯一途径。我们本来是打算将隧道用炸弹封闭的，但其中一颗炸弹在本该爆炸前被引爆了。爆破专家阵亡了，而我也被炸弹炸伤。但我设法爬上了其中一辆卡车的驾驶座，如果你想要撤离，我会在你到来前一直潜伏在这。"
+		"JunctionVoice.03"	"真不敢相信你成功过来了，我正打算开车离开呢！如你所见，这里有三个威力强大的炸药，足够我们炸塌隧道并安全逃生了。现在把炸药放置在墙墩上，然后立刻到卡车上来！"
+		"JunctionVoice.04"	"好的，赶快到卡车上来！我们没有太多时间了！"
+		"JunctionVoice.05"	"现在让我们离开这个鬼地方，我希望你们都已经上车了！"
+		
+		// Quarantine
+		"QuarantineVoice.RadioIntro"	"喂？我们是隔离区内幸存的...还活着的生还者...除了我们之外的每个人都变成了...你知道的。听着，我知道在隔离区的另一侧有救援直升机，要不是我们被那些...该死的东西包围，我们现在本该离开这里了！嗯...我的意思是，你们能来真是太好了，因为...你们可以在这里帮助我们，我们可以互帮互助。"
+		"QuarantineVoice.RadioIntro2"	"所以要做的就是：你们必须关闭进入外部隔离区的入口大门，而自动门禁系统会保持内部隔离区的大门锁定。在这之后你们需要到内部隔离区里面来，总之，首先你们需要关闭外部隔离区的入口大门。"
+		"QuarantineVoice.RadioTalk"	"一旦你们关闭了入口大门，我们就会解除内部隔离区的门禁锁定。但是自动门禁系统有着故障保护装置，内部隔离区的大门会在开启后的大约一分钟内自动关闭，并且...嗯...取决于外部入口大门被打开的时间，它还会触发二级故障保护装置。这么说吧，如果在内部大门自动关闭之前你们没有进入内部隔离区，那么你们就完蛋了！"
+		"QuarantineVoice.RadioTalk2"	"现在你们要做的是，那里应该有一个警报器 <I>有一个警报器装置<I>就在内部隔离区的某个位置。你们需要激活警报，而这样就能够，就能够让这些丧尸不再包围我们。之后我们就会前往启动救援直升机，然后再回来接上你们，这样我们就都能离开这个鬼地方了。我希望你们都能够登机，所以...请务必做好准备。当你们准备好后，就激活警报，好吗？"
+		"QuarantineVoice.RadioTalk3"	"不过首先，在你们所在房子里的某处应该有一个对讲机，把它带上，以便我们之后继续联络。"
+		
+		// Toxteth
+		"ToxtethVoice.PilotRadio"	"是的，我们可以听到你的声音。我们现在就在当地上空盘旋。听着，现在回到哈丁顿路上去，我们五分钟后到那儿接你，我们没有多余的时间了，所以赶快行动！"
+		"ToxtethVoice.PilotRadio2"	"是的，我们可以听到你的声音。我们正在当地上空盘旋。现在回到哈丁顿路上去，我们五分钟后到那儿接你，我们没有多余的时间了，所以赶快行动！"
+		"ToxtethVoice.PilotRadio3"	"是的，我们可以听到你的声音。我们现在就在当地上空盘旋。现在回到哈丁顿路上去，我们五分钟后到那儿接你，我们没有多余的时间了，所以赶快行动！"
+		"ToxtethVoice.PilotRadio4"	"喂，我们可以听到你的声音。我们现在就在当地上空盘旋。现在回到哈丁顿路上去，我们五分钟后到那儿接你，我们没有多余的时间了，所以赶快行动！"
+		"ToxtethVoice.PilotDelay"	"嘿，我们可能要延误一段时间了。你们需要再坚持额外的五分钟。我们会尽可能快的赶到那里，一定要坚持住！"
+		"ToxtethVoice.PilotDelay2"	"嘿，我们可能要延误一段时间了。你们需要再坚持额外的五分钟。我们会尽可能快的赶到那里，一定要坚持住！"
+		"ToxtethVoice.SurvivorPhone"	"嘿？嘿！哦谢天谢地你们接电话了，通过破解附近的监控系统，我一直在看着你们的行动。我就在离你们几百米外的商店里，并且我能够呼叫支援...但我被困在这里了！外面都是丧尸，而且我不确定它们到底有多少...你们需要尽快到这里来！已经没有用来浪费的时间了，我建议你们直接穿过墓地过来。"
+		"ToxtethVoice.SurvivorPhone2"	"嘿？嘿！哦谢天谢地你们接电话了，通过破解附近的监控系统，我一直在看着你们的行动。我就在离你们几百米外的商店里，并且我能够呼叫支援...但我被困在这里了！外面都是丧尸，而且我不确定它们到底有多少...你们需要尽快到这里来！已经没有用来浪费的时间了，我建议你们直接穿过墓地过来。"
+		"ToxtethVoice.SurvivorPhone3"	"嘿？嘿！哦谢天谢地你们接电话了，通过破解附近的监控系统，我一直在看着你们的行动。我就在离你们几百米外的商店里，并且我能够呼叫支援...但我被困在这里了！外面都是丧尸，而且我不确定它们到底有多少...你们一定要尽快到这里来！已经没有用来浪费的时间了，我建议你们直接穿过墓地过来。"
+		"ToxtethVoice.SurvivorPhone4"	"嘿！我通过附近的监控系统已经观察你们好几天了。我需要你们到墓地后面的商店来，我被困在这里了，而且到处都是丧尸！我已经用无线电发出了带我们离开这里的救援信号，但在我们离开之前，我需要你们到商店来帮助我。我撑不了太长的时间了！"
+		
+		// Zephyr
+		"ZephyrVoice.Engineer04"	"伙计们，对不起，差点忘记了。你们能帮我扳动一下火车后面的开关吗，这样我就能到站台那边去，再拉上那些车厢了。"
+		"ZephyrVoice.Engineer06"	"好的，不过我们还差一个开关，真抱歉本应该早点告诉你们的。因为这个开关可能会有点儿远...哈哈。"
+		"ZephyrVoice.Engineer07"	"干得漂亮，伙计们，还有最后一件事要做了。现在你们需要释放控制车厢的手刹。顺便一提，它就在我身后的绿色车厢里。"
+		"ZephyrVoice.Engineer08"	"一切完毕！在你们准备好要出发时，就立刻告诉我！"
+		"ZephyrVoice.Engineer09"	"我们出发了！"
+		"ZephyrVoice.Engineer10"	"任何还落在后面的生还者，赶快上火车，立刻马上！"
+		"ZephyrVoice.AllAboard"		"<B>赶-快-上-车！"
+		"ZephyrVoice.OhCrud"		"<I>哦，该死..."
+		"ZephyrVoice.Speech1901"	"喂，喂？哦，我已经很久没有听见过人声了，很高兴知道你们还活着。听着，我目前被困在火车转盘后面的引擎室里，如果你们能过去帮我一把，我会非常感激。事实上，作为回报，我可以带你们离开这里。但首先，你们需要通往站台的门禁解锁密码，让我看看，密码是：1-9-0-1。"
+		"ZephyrVoice.Speech2606"	"喂，喂？哦，我已经很久没有听见过人声了，很高兴知道你们还活着。听着，我目前被困在火车转盘后面的引擎室里，如果你们能过去帮我一把，我会非常感激。事实上，作为回报，我可以带你们离开这里。但首先，你们需要通往站台的门禁解锁密码，让我看看，密码是：2-6-0-6。"
+		"ZephyrVoice.Speech2710"	"喂，喂？哦，我已经很久没有听见过人声了，很高兴知道你们还活着。听着，我目前被困在火车转盘后面的引擎室里，如果你们能过去帮我一把，我会非常感激。事实上，作为回报，我可以带你们离开这里。但首先，你们需要通往站台的门禁解锁密码，让我看看，密码是：2-7-1-0。"
 	}
 }

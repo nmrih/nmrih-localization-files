@@ -31,6 +31,28 @@
 "NMRiH_Options_ShowMOTD"		"显示服务器消息"
 "NMRiH_Options_RecordDemo"		"录制demo"
 
+"NMRiH_Advanced_cl_textfilter"			"启用聊天栏过滤器(通过Steam)"
+"NMRiH_Advanced_cl_richpresence"		"启用游戏状态显示(Discord/Steam)"
+"NMRiH_Advanced_cl_vmcamera_enabled"	"启用视角晃动"
+"NMRiH_Advanced_cl_stickyironsight"		"启用按下瞄准(关闭按住瞄准)"
+"NMRiH_Advanced_cl_voicesubtitles"		"启用聊天栏无线电语音指令显示"
+"NMRiH_Advanced_cl_ejectbrass"			"启用射击时退弹壳显示"
+"NMRiH_Advanced_cl_muzzle_dlight"		"启用枪口火焰动态照明效果(expensive)"
+"NMRiH_Advanced_cl_disablehtmlmotd"		"关闭使用HTML的服务器每日消息"
+"NMRiH_Advanced_nmrih_screenspace"		"启用屏幕着色器(请只在游玩出现问题时关闭该功能)"
+"NMRiH_Advanced_nmrih_screenspace_shadow"	"启用屏幕晕影效果"
+"NMRiH_Advanced_nmrih_grain"			"启用屏幕胶片颗粒效果"
+"NMRiH_Advanced_nmrih_grain_intensity"	"设置胶片颗粒强度"
+"NMRiH_Advanced_nmrih_lensflare"		"启用镜头光晕效果"
+"NMRiH_Advanced_nmrih_dof"				"启用景深效果"
+"NMRiH_Advanced_nmrih_ssao"				"启用环境光遮蔽效果(HBAO)"
+"NMRiH_Advanced_mp_decals"				"弹痕血迹等贴花效果上限(4096)"
+"NMRiH_Advanced_cl_mainmenu_background"		"主菜单背景图"
+"NMRiH_Advanced_cl_mainmenu_background_Random"	"随机"
+"NMRiH_Advanced_cl_mainmenu_background_0"		"周年庆(v1.12)"
+"NMRiH_Advanced_cl_mainmenu_background_1"		"准许通行(v1.07)"
+"NMRiH_Advanced_cl_mainmenu_background_2"		"重生之日(v1.10)"
+
 "NMRiH_Difficulty"	"游戏难度"
 
 "NMRiH_Difficulty_Classic"		"经典"
@@ -38,7 +60,50 @@
 "NMRiH_Difficulty_Nightmare"	"噩梦"
 "NMRiH_Difficulty_PVP"			"PvP"
 
+"NMRiH_GameType_Objective"		"任务模式"
+"NMRiH_GameType_Survival"		"生存模式"
+"NMRiH_GameType_PVP"			"PvP"
+
 "NMRiH_LAN"				"仅限局域网"
+
+"NMRiH_Difficulty_Tooltip"	"选择难度级别。\n经典：默认难度，并且能够使用复活点数。\n休闲：死亡后立即重生并在复活时附带初始武器。\n噩梦：丧尸的血量、数量以及感染几率均会增加。\nPvP：启用PvP记分牌以及死亡提示，并禁用丧尸生成和游戏任务。"
+"NMRiH_Map_Time_Tooltip"	"地图时间限制。"
+"NMRiH_LAN_Tooltip"	"强制使用局域网连接，并且服务器不会在公网中显示。"
+"NMRiH_FriendlyFire_Tooltip"	"启用友军伤害，您可以对已感染的玩家造成伤害。"
+"NMRiH_RealismMode_Tooltip"	"您将无法在写实模式中复活，并且丧尸只会受到爆头伤害。无论弹药类型如何，所有的爆头都是一击必杀。"
+"NMRiH_HardcoreSurvival_Tooltip"	"该模式将隐藏您的HUD菜单。"
+"NMRiH_Max_Players_Tooltip"	"玩家人数限制，最小为2人，最大为8人。"
+"NMRiH_AdvOptions"	"扩展设置..."
+"NMRiH_AdvOptions_Tooltip"	"编辑游戏的扩展设置。"
+
+"NMRiH_Extended_Options"	"扩展设置"
+
+"NMRiH_TokensEnabledObjective"	"任务模式: 启用复活点数"
+"NMRiH_KillsPerTokenObjective"	"任务模式: 每个复活点所需击杀数"
+"NMRiH_TokensEnabledSurvival"	"生存模式: 启用复活点数"
+"NMRiH_KillsPerTokenSurvival"	"生存模式: 每个复活点所需击杀数"
+"NMRiH_RespawnAllowed"	"启用复活"
+"NMRiH_RespawnWithWeapon"	"复活时携带初始武器"
+"NMRiH_NearbySpawningEnabled"	"启用在附近复活"
+"NMRiH_SpawnGrace"	"最迟加入宽限时间"
+"NMRiH_SpawnGraceWavePercent"	"最迟加入宽限时间(回合百分比)"
+"NMRiH_ResetTokensOnNewWave"	"在新回合重置复活点数"
+"NMRiH_RemoveInflictionsOnNewWave"	"在新回合移除所受伤害"
+"NMRiH_HealAmountOnNewWave"	"新回合所能恢复的血量值"
+"NMRiH_InitialTokenCountObjective"	"任务模式: 初始复活点个数"
+"NMRiH_InitialTokenCountSurvival"	"生存模式: 初始复活点个数"
+"NMRiH_ZombieHealth"	"丧尸生命值"
+"NMRiH_ZombieSpawnDensity"	"丧尸生成密度"
+"NMRiH_BrainStemMode"	"启用命中脑干时一击必杀"
+"NMRiH_InfectionChanceModifier"	"感染机率公式因数"
+"NMRiH_SurvivalInfectionChanceModifier"	"生存模式: 感染机率公式因数"
+"NMRiH_FriendlyFireModifier"	"友军伤害值公式因数"
+"NMRiH_RunnerSpawnerChance"	"跑尸生成机率"
+"NMRiH_ChildSpawnerChance"	"丧尸小孩生成机率"
+"NMRiH_DisplayPlayerHealth"	"显示玩家生命值"
+"NMRiH_ShowDeathNotice"	"显示死亡提示"
+"NMRiH_ForcePracticeMode"	"强制启用练习模式"
+"NMRiH_KillScorePenalty"	"启用误杀分数惩罚"
 
 "VoiceSet"				"人物语音"
 "AmmoCheckType"				"弹药设置"
@@ -63,9 +128,10 @@
 
 "Vote_kick"				"踢出玩家"
 "Vote_changelevel"		"更换地图"
-"Vote_nextlevel"		"下一张地图"
+"Vote_nextlevel"		"预定下一张地图"
 "Vote_restart"			"重新开始"
 "Vote_changechallenge"		"更换挑战"
+"Vote_changedifficulty"		"更换难度"
 
 "NMRiH_Vote_Kick_Player_Other"		"是否踢出: %s1?\n(原因其它)"
 "NMRiH_Vote_Kick_Player_Cheating"		"是否踢出: %s1?\n(疑似作弊)"
@@ -78,6 +144,7 @@
 "NMRiH_Vote_NextLevel"		"是否设定下一张地图为 %s1?"
 "NMRiH_Vote_RestartRound"	"是否重新开始回合?"
 "NMRiH_Vote_ChangeChallenge"	"是否更换挑战为 %s1?"
+"NMRiH_Vote_ChangeDifficulty"	"是否更换难度为 %s1?"
 
 "NMRiH_Scoreboard_MutePlayer"	"禁言玩家"
 "NMRiH_Scoreboard_ViewSteamProfile"	"查看Steam个人信息"
@@ -98,8 +165,8 @@
 
 "NMRiH_CreateGame_NATWarning_Title"	"注意"
 "NMRiH_CreateGame_NATWarning1"		"您的网络设备似乎经过了NAT转发. (Network address translation)"
-"NMRiH_CreateGame_NATWarning2"		"其他玩家可能无法加入到你的游戏.(详见端口映射,公网IP..)"
-"NMRiH_CreateGame_NATWarning3"		"在开始之前,请确保路由器已转发UDP端口27015."
+"NMRiH_CreateGame_NATWarning2"		"其他玩家可能无法加入到您创建的游戏中.(详见端口映射,公网IP..)"
+"NMRiH_CreateGame_NATWarning3"		"如果需要和其他玩家联机,请确保路由器已映射UDP端口27015."
 "NMRiH_CreateGame_NATWarning_DontShowAgain"		"不再显示"
 "NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"打开帮助.."
 
@@ -144,7 +211,7 @@
 "Addon_Manager_Category_Published"	"您发布的"
 "Addon_Manager_Category_VotedUp"	"您点赞的"
 "Addon_Manager_Category_Favorited"	"您收藏的"
-"Addon_Manager_Category_Followed"	"Followed"
+"Addon_Manager_Category_Followed"	"您关注的"
 
 "Addon_Manager_Sort_Title"				"按名称"
 "Addon_Manager_Sort_LoadOrder"			"按加载顺序"
@@ -162,7 +229,7 @@
 "Addon_Manager_NotAvailable_Disabled"		"您可以在设置中启用插件."
 "Addon_Manager_NotAvailable_NoSteam"		"没有连接到Steam."
 
-"Addon_Manager_DisabledNotice"		"插件功能当前被禁用，但您依然可以管理它们。您可以在设置中启用插件。\n(这将不适用于创意工坊物品。)"
+"Addon_Manager_DisabledNotice"		"插件功能当前被禁用，但您依然可以管理它们。您可以在设置中启用插件。\n(这将不适用于创意工坊地图物品。)"
 "Addon_Manager_NoConnection"		"没有连接到Steam，您将无法管理来自创意工坊的插件。但您安装的插件仍生效于离线模式。"
 
 "Addon_Manager_UnsubscribeAddon_Title"		"取消订阅插件"
@@ -234,7 +301,7 @@
 "Workshop_Publisher_AddonForm_Title"				"名称: *"
 "Workshop_Publisher_AddonForm_Desc"					"描述:"
 "Workshop_Publisher_AddonForm_Summary"				"简介:"
-"Workshop_Publisher_AddonForm_ChangeNotes"			"更新记录:"
+"Workshop_Publisher_AddonForm_ChangeNotes"			"更新说明:"
 "Workshop_Publisher_AddonForm_ContentPath"			"文件路径: *"
 "Workshop_Publisher_AddonForm_PreviewImage"			"选择预览图: *"
 "Workshop_Publisher_AddonForm_Category"				"类别:"
@@ -250,6 +317,10 @@
 "Workshop_Publisher_AddonForm_TooltipSummary"		"插件的简介内容将显示于GUI界面中。"
 "Workshop_Publisher_AddonForm_TooltipChangeNotes"	"这些记录将显示于创意工坊每次更新的更新日志中。"
 "Workshop_Publisher_AddonForm_RequiredField"		"* 为必填项"
+"Workshop_Publisher_AddonForm_IncludeMaphack"		"包含 MapHack 文件"
+"Workshop_Publisher_AddonForm_RepairItem"			"修复该物品"
+"Workshop_Publisher_AddonForm_TooltipMaphack"		"如果存在，则将会发送一个名字为 {地图名}.txt 的MapHack文件。"
+"Workshop_Publisher_AddonForm_TooltipRepair"		"如您的创意工坊物品有剩余文件或错误的元数据，则勾选此选项，此选项不会替换原内容。"
 
 "Workshop_Publisher_BrowseContent"		"浏览插件"
 "Workshop_Publisher_BrowsePreview"		"浏览预览图"
@@ -269,12 +340,12 @@
 
 "Workshop_Publisher_Category_None"			"无"
 
-"Workshop_Publisher_UpdatingExisting"		"(更新已有的插件 %s1)"
+"Workshop_Publisher_UpdatingExisting"		"(正在更新已有的插件 %s1)"
 
 "Workshop_Publisher_OpenInWorkshop"			"在创意工坊中打开..."
 
-"Workshop_Publisher_ConfirmClose"			"还有未被发布的改变内容，您确定要关闭吗？"
-"Workshop_Publisher_ConfirmClear"			"还有未被发布的改变内容，您确定要清除表格内容吗？"
+"Workshop_Publisher_ConfirmClose"			"还有未发布的改变内容，您确定要关闭吗？"
+"Workshop_Publisher_ConfirmClear"			"还有未发布的改变内容，您确定要清除表格内容吗？"
 
 "Workshop_Publisher_Status_StartingUp"				"开始中..."
 "Workshop_Publisher_Status_PreparingConfig"			"正准备配置文件..."
@@ -293,14 +364,14 @@
 "Workshop_Publisher_Error_NoTitle"			"插件至少需要一个名称。"
 "Workshop_Publisher_Error_NoContentPath"	"未指定插件上传路径。"
 "Workshop_Publisher_Error_NoPreviewPath"	"未指定预览图上传路径。"
-"Workshop_Publisher_Error_NoContentPathExisting"	"插件上传路径为空。 (勾选 \"Keep existing\" 来使用之前的路径。)"
-"Workshop_Publisher_Error_NoPreviewPathExisting"	"预览图上传路径为空。 (勾选 \"Keep existing\" 来使用之前的图片.)"
+"Workshop_Publisher_Error_NoContentPathExisting"	"插件上传路径为空。 (勾选 \"保持先前路径\" 来使用之前的路径。)"
+"Workshop_Publisher_Error_NoPreviewPathExisting"	"预览图上传路径为空。 (勾选 \"保持先前路径\" 来使用之前的图片.)"
 "Workshop_Publisher_Error_TooBigPreview"	"预览图的最大上传大小为 1MB"
 "Workshop_Publisher_Error_PublisherError"	"发布器出现错误"
 "Workshop_Publisher_Error_UploadFailed"		"由于出现错误，您的插件没有被成功发布。 (错误代码: %s1)"
 "Workshop_Publisher_Error_InvalidBSP"		"无效的BSP文件！该文件可能不兼容或已损坏。"
 
-"Workshop_Publisher_MissingNMO"			"选中的任务型地图缺少 .nmo文件！请确保该文件与地图处于同一路径下。\n如果您发布了这张地图，玩家执行的任务会不起作用。"
+"Workshop_Publisher_MissingNMO"			"选中的任务型地图缺少 .nmo文件！请确保该文件与地图处于同一路径下。\n如果您发布了这张地图，所设定的任务目标会不起作用。"
 "Workshop_Publisher_MissingNAV"			"选中的地图缺少 .nav文件！请确保该文件与地图处于同一路径下。\n如果您发布了这张地图，将会无法生成丧尸。"
 "Workshop_Publisher_MissingNMOAndNAV"	"选中的地图缺少 .nmo和.nav文件！请确保这些文件与地图处于同一路径下。\n如果您发布了这张地图，设置的任务目标与丧尸将不起作用。"
 
