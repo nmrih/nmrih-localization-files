@@ -76,6 +76,8 @@
 "Round_PlayerShortage"			"Jogadores insuficientes para iniciar a partida"
 
 "Item_Received"				"%s1 lhe deu %s2."
+"Item_TargetOwns"			"%s1 já possui %s2."
+"Item_TargetFull"			"%s1 não tem espaço para esse item."
 
 "Watermelon_Rescued"		"Melancia resgatada! %s1 pontos atribuídos a todos os jogadores."
 

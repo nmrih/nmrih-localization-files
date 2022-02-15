@@ -905,7 +905,8 @@
 		"Heli.Arrival1min_US"	"Esta é a Guarda Nacional, estamos aqui, mas não podemos ficar muito tempo. Voce tem um minuto."
 		"Heli.Departure_NoAccent"	"Tudo bem, temos que ir, estamos quase sem combustível. Se alguém ainda está vivo lá fora, boa sorte."
 		"Heli.Departure_US"	"Estamos saindo daqui, você está sozinho! Eu sinto Muito!"
-	
+		"GenericVoice.YouFoundIt"	"Porra, parece que você encontrou!"
+		
 		// Broadway2
 		"Broadway2Voice.Extraction"	"Atenção Atenção. Se você pode me ouvir, você precisa ir ao telhado e aguardar a extração o mais rápido possível. Você tem cinco minutos até que o governo lance uma bomba. Por favor sai daí."
 
@@ -917,10 +918,13 @@
 		"brooklyn_voice.05"	"Sim, obrigado cara! Olha, vou ver se consigo dar partida no caminhão, mas se sairmos daqui, vamos precisar de suprimentos. Eu vi um velho carrinho de mão perto do beco do outro lado da rua, com ele provavelmente podemos conseguir tudo o que precisamos com o que sobrou do bairro."
 		"brooklyn_voice.06"	"Tudo bem, você ainda está vivo! Vamos carregar a van, estamos atraindo uma multidão aqui."
 		"brooklyn_voice.07"	"Tudo bem, estamos quase saindo dessa merda! Precisamos encontrar os controles de substituição para o portão, não pode ser muito longe daqui."
-		"brooklyn_voice.08"	"<I>VAMOS <clr:255,0,0>PORQUINHOS<clr:255,255,255> - não me faça sair sem você!"
+		"brooklyn_voice.08"	"<I>VAMOS <clr:255,0,0>PORQUINHOS<clr:255,255,255> - não me faça sair sem você(s)!"
 		"brooklyn_voice.09"	"Merda. Parece que alguém não sabe estacionar."
 		"brooklyn_voice.10"	"Não sei sobre vocês, mas meu estômago está <I>roncando."
 		
+		// Cabin
+		"CabinVoice.SpawnRadio"	"Este é o furacão 88, confirmando para todos os sobreviventes na área. Chegamos ao ponto de encontro e estamos prontos para prosseguir com as evacuações. Repito, o resgate chegou. Esteja ciente de que o tempo é fundamental, câmbio."
+				
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"Ei sobreviventes! Estou indo até você!"
 		"CampbloodVoice.RalphLastChance"	"Esta é a sua última chance!"
@@ -947,7 +951,7 @@
 		"MidwestVoice.EngineerEnd"	"Ok, acredito ter encontrado o problema, agora é uma questão de corrigi-lo."
 		"MidwestVoice.EngineerEnd2"	"Ok, está tudo instalado e funcionando! Vamos galera, vamos!"
 		"MidwestVoice.EngineerFirst"	"Esperem, pessoal, vou consertar esse problema o mais rápido possível!"
-		"MidwestVoice.EngineerStart"	"Pessoal, a locomotiva do trem quebrou ... Não tenho ideia do que está acontecendo. Teremos que parar aqui por um tempo, não haverá outra cidade por vários quilômetros."
+		"MidwestVoice.EngineerStart"	"Pessoal, a locomotiva do trem quebrou... Não tenho ideia do que está acontecendo. Teremos que parar aqui por um tempo, não haverá outra cidade por vários quilômetros."
 		
 		// Junction
 		"JunctionVoice.01"	"<I>A mensagem a seguir é transmitida a pedido do Escritório de Gerenciamento de Emergências de Nova Jersey, Union City, Nova Jersey. Se você ainda está vivo, permaneça onde está e aguarde o resgate. Viajar pelas ruas é extremamente perigoso. Os seguintes condados foram colocados em quarentena: Union, Hudson e Monmouth. Se você se machucou ou tem uma emergência, mantenha a calma e fique onde está até novo aviso. Os veículos de emergência podem não conseguir chegar até você neste momento."
