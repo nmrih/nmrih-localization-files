@@ -14,4 +14,5 @@ https://partner.steamgames.com/doc/store/localization#supported_languages
 **Czech**: "I don't remember" \
 **Korean**: Mr.Halt, AngelHarp, 스팀유저, AlphaCeph, Ren, 제갈선생 \
 **Russian**: [@AtheistNMRiH](https://github.com/AtheistNMRiH), [@Blueberryy](https://github.com/Blueberryy) \
-**Simplified Chinese**: [@Klowby](https://github.com/Klowby)
+**Simplified Chinese**: [@Klowby](https://github.com/Klowby) \
+**Turkish**: Dragostai
