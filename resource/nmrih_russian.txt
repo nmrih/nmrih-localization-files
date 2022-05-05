@@ -36,6 +36,8 @@
 "NMRiH_InventoryBox_CantCarry"		"Недостаточно места для этого предмета!"
 "NMRiH_InventoryBox_OwnsItem"		"Уже есть такой предмет!"
 
+"NMRiH_BarricadePointBlocked"		"Место для баррикады заблокировано!"
+
 "PracticeTimeRemaining"			"Раунд начнётся через %s1"
 "RoundStarting"				"Раунд начинается!"
 
