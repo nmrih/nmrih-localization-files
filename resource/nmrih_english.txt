@@ -36,6 +36,8 @@
 "NMRiH_InventoryBox_CantCarry"		"Not enough room for this item!"
 "NMRiH_InventoryBox_OwnsItem"		"Already own an item of this type!"
 
+"NMRiH_BarricadePointBlocked"		"Barricade point is blocked!"
+
 "PracticeTimeRemaining"			"Round Starting in %s1"
 "RoundStarting"				"Round Starting!"
 
