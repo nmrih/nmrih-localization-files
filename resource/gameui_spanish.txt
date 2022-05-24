@@ -31,12 +31,15 @@
 "NMRiH_Options_ShowMOTD"		"Mostrar mensaje del dia"
 "NMRiH_Options_RecordDemo"		"Grabar demo"
 
+"NMRiH_Advanced_cl_textfilter"			"Activar filtro de texto en chat (provisto por Steam)"
+"NMRiH_Advanced_cl_richpresence"		"Activar detalles públicos de partida (Discord Rich Presence)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"Activar movimiento de cámara en primera persona"
 "NMRiH_Advanced_cl_stickyironsight"		"Activar mira alternable"
 "NMRiH_Advanced_cl_voicesubtitles"		"Activar subtítulos en el chat"
 "NMRiH_Advanced_cl_ejectbrass"			"Activar cartuchos eyectados"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Activar Luces Dinámicas para Fogonazos (pesado)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Desactivar HTML en el Mensaje del Día (MOTD)"
+"NMRiH_Advanced_fov_allow_change"		"El campo de visión (FOV) puede ser alterado por la jugabilidad"
 "NMRiH_Advanced_nmrih_screenspace"		"Activar efectos de pantalla (desactivar sólo para testeo)"
 "NMRiH_Advanced_nmrih_screenspace_shadow"	"Activar Efecto de Viñeta"
 "NMRiH_Advanced_nmrih_grain"			"Activar Grano de Película"
@@ -45,6 +48,11 @@
 "NMRiH_Advanced_nmrih_dof"				"Activar Profundidad de Campo"
 "NMRiH_Advanced_nmrih_ssao"				"Activar Oclusión Ambiental (HBAO)"
 "NMRiH_Advanced_mp_decals"				"Límite de decals (max. 4096)"
+"NMRiH_Advanced_cl_mainmenu_background"		"Preferencia de fondo del menu"
+"NMRiH_Advanced_cl_mainmenu_background_Random"	"Al azar"
+"NMRiH_Advanced_cl_mainmenu_background_0"		"Anniversary (v1.12)"
+"NMRiH_Advanced_cl_mainmenu_background_1"		"Greenlit (v1.07)"
+"NMRiH_Advanced_cl_mainmenu_background_2"		"Rebirth (v1.10)"
 
 "NMRiH_Difficulty"	"Dificultad"
 
@@ -65,6 +73,7 @@
 "NMRiH_FriendlyFire_Tooltip"	"Activa el fuego amigo, jugadores infectados siempre reciben daño."
 "NMRiH_RealismMode_Tooltip"	"Modo Realismo: reapariciones desactivadas, zombis sólo reciben daño a la cabeza y cada disparo a la cabeza mata instantáneamente, sin importar el tipo de munición."
 "NMRiH_HardcoreSurvival_Tooltip"	"Esconde las ayudas visuales en modo Supervivencia."
+"NMRiH_Max_Players_Tooltip"	"Límite de jugadores, mínimo de 2, máximo de 8."
 "NMRiH_AdvOptions"	"Opciones Extendidas..."
 "NMRiH_AdvOptions_Tooltip"	"Editar opciones extendidas."
 
@@ -123,6 +132,7 @@
 "Vote_nextlevel"		"Siguiente Mapa"
 "Vote_restart"			"Reiniciar Ronda"
 "Vote_changechallenge"		"Cambiar Desafío"
+"Vote_changedifficulty"		"Cambiar Dificultad"
 
 "NMRiH_Vote_Kick_Player_Other"		"¿Expulsar jugador: %s1?\n(sin razón dada)"
 "NMRiH_Vote_Kick_Player_Cheating"		"¿Expulsar jugador: %s1?\n(acusado de trampas)"
@@ -135,6 +145,7 @@
 "NMRiH_Vote_NextLevel"		"¿Elegir %s1 como próximo mapa?"
 "NMRiH_Vote_RestartRound"	"¿Reiniciar la ronda?"
 "NMRiH_Vote_ChangeChallenge"	"¿Cambiar desafío a %s1?"
+"NMRiH_Vote_ChangeDifficulty"	"¿Cambiar dificultad a %s1?"
 
 "NMRiH_Scoreboard_MutePlayer"	"Silenciar jugador"
 "NMRiH_Scoreboard_ViewSteamProfile"	"Ver perfil de Steam"
@@ -145,12 +156,12 @@
 "NMRiH_Challenge_Select"	"Elige un desafío:"
 "NMRiH_Challenge_Random"	"Objetivos al Azar"
 "NMRiH_Challenge_Random_Desc"	"Completa un conjunto de objetivos lo más rápido que puedas"
-"NMRiH_Challenge_NoDesc"	"No hay una descripción disponible."
+"NMRiH_Challenge_NoDesc"	"No hay descripción disponible."
 
 "Downloading_Workshop_Map"		"Descargando mapa desde el Workshop..."
 "Downloading_Workshop_Map_Progress"		"Descargando mapa desde el Workshop... (%s1/%s2)"
 
-"GameUI_Multiplayer" 	"NMRiH"
+"GameUI_Multiplayer" 	"Juego"
 "GameUI_OptionNeedsRestart"		"(Esta opción requiere reiniciar el juego)"
 
 "NMRiH_CreateGame_NATWarning_Title"	"Advertencia de Enmascaramiento de IP"

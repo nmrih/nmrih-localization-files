@@ -36,12 +36,19 @@
 "NMRiH_InventoryBox_CantCarry"		"¡No tienes suficiente espacio para tomar el objeto!"
 "NMRiH_InventoryBox_OwnsItem"		"¡Ya tienes un objeto de este tipo!"
 
+"NMRiH_BarricadePointBlocked"		"¡Punto de barricada bloqueado!"
+
 "PracticeTimeRemaining"			"La ronda iniciará en %s1 segundos"
 "RoundStarting"				"¡Iniciando ronda!"
+
+"HudNextObjective"			"PRÓXIMO OBJETIVO"
 
 "HudSurvivalWave"			"OLEADA"
 "HudSurvivalRemaining"		"RESTANTES"
 "HudSurvivalZone"			"ZONA"
+"HudSurvivalResupply"		"SUPPLY DROP INCOMING"
+"HudSurvivalWaveBegin"		"OLEADA INICIANDO"
+"HudSurvivalWaveEnd"		"OLEADA COMPLETADA"
 
 "NMRiH_Votekick_List"			"Los IDs de jugadores para expulsar son:\n%s1"
 "NMRiH_Votekick_InProgress"		"¡Ya hay una votación en curso!"
@@ -69,6 +76,14 @@
 "Round_Start"				"¡La ronda está comenzando!"
 "Round_Restart"				"La ronda se reiniciará en %s1 segundos."
 "Round_PlayerShortage"			"No hay jugadores suficientes para comenzar la ronda."
+
+"Item_Received"				"%s1 te ha dado %s2."
+"Item_TargetOwns"			"%s1 ya tiene %s2."
+"Item_TargetFull"			"%s1 no tiene espacio para este objeto."
+
+"Watermelon_Rescued"		"¡Sandía rescatada! Otorgados %s1 puntos a todos los jugadores."
+
+"Map_Time_Extended"			"Extendida la duración del mapa por %s1 minutos."
 
 // Prefix for (Voice) subtitle
 "Voice"						"Voz"
@@ -284,6 +299,19 @@
 "ChallengeTimer_PersonalBest"	"MEJOR TIEMPO"
 "ChallengeTimer_NoTime"	"NO HAY RECORD"
 "ChallengeTimer_NewRecord"	"¡NUEVO RECORD!"
+
+"Hint_Generic_Compass" "¡Revisa tu brújula para ver tus objetivos! Presiona %+compass%."
+"Hint_Generic_CheckAmmo" "Puedes ver tu munición al mantener pulsada la tecla %+reload%."
+"Hint_Generic_CheckInventory" "Puedes ver tu inventario y equipar armas al mantener pulsada la tecla %+inventory%."
+"Hint_Generic_AmmoInventory" "Puedes ver tu munición y compartirla con otros jugadores al mantener pulsada la tecla %+ammoinv%."
+"Hint_Generic_VoiceCommand" "¡Puedes usar comandos de voz para comunicarte con tu equipo! Manten pulsada la tecla %+voicecmd%."
+"Hint_Generic_Infected" "Estás infectado si ves venas creciendo alrededor de tu pantalla y empeora tu visión."
+"Hint_Generic_Bleeding" "Estás sangrando si aparece un borde rojo en tu pantalla, si tu personaje se queja y deja un rastro de sangre."
+"Hint_Generic_LowHealth" "Tienes poca vida si tu pantalla comienza a perder color."
+"Hint_Generic_Pills" "Puedes usar pastillas para retrasar la infección por unos minutos."
+"Hint_Generic_Bandages" "Puedes usar vendajes o botiquines para detener tu sangrado."
+"Hint_Generic_FirstAid" "Puedes usar botiquines para curarte si tienes poca vida."
+
 } 
 }  
 //credits to elbisbe, Ryo567 and Holy Crap
