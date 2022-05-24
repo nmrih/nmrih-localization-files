@@ -39,6 +39,7 @@
 "NMRiH_Advanced_cl_ejectbrass"			"Enable ejecting bullet casings/shotgun shells"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Enable Dynamic Lighting for Muzzle Flashes (expensive)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Disable HTML MOTD"
+"NMRiH_Advanced_fov_allow_change"		"FOV can be altered by gameplay"
 "NMRiH_Advanced_nmrih_screenspace"		"Enable screen shaders (disable only for troubleshooting)"
 "NMRiH_Advanced_nmrih_screenspace_shadow"	"Enable screen vignette effect"
 "NMRiH_Advanced_nmrih_grain"			"Enable film grain"
