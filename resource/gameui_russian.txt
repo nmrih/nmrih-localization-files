@@ -39,6 +39,7 @@
 "NMRiH_Advanced_cl_ejectbrass"			"Выпадение гильз\патронов от дробовика после выстрела"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Динамическое освещение для вспышек из дула"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Отключить HTML сообщения дня"
+"NMRiH_Advanced_fov_allow_change"		"Разрешить изменять поле зрения во время игры"
 "NMRiH_Advanced_nmrih_screenspace"		"Игровые шейдеры (инфекция, малое кол-во здоровья и т.д.)"
 "NMRiH_Advanced_nmrih_screenspace_shadow"	"Эффект виньетирования"
 "NMRiH_Advanced_nmrih_grain"			"Зернистость (шейдер)"
