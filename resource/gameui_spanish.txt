@@ -23,7 +23,7 @@
 "NMRiH_Options_ShowObjective"		"Mostrar objetivo actual"
 "NMRiH_Options_DropWeapon"		"Arrojar arma"
 "NMRiH_Options_Sprint"			"Correr"
-"NMRiH_Options_Reload"			"Recargar (mantener para Chequeo de Munición)"
+"NMRiH_Options_Reload"			"Recargar (mantener pulsado para chequear munición)"
 "NMRiH_Options_Holster"			"Enfundar arma"
 "NMRiH_Options_UnloadWeapon"		"Vaciar arma"
 "NMRiH_Call_Vote"				"Iniciar voto"
@@ -106,7 +106,7 @@
 "NMRiH_ForcePracticeMode"	"Forzar modo de práctica"
 "NMRiH_KillScorePenalty"	"Activar penalidad kills"
 
-"VoiceSet"				"Establecer Voz" // Puede ser configurar? No recuerdo en donde aparece esta linea exactamente: Original es [Voice Set]
+"VoiceSet"				"Elegir Voz"
 "AmmoCheckType"				"Chequeo de Munición"
 
 "AmmoCheckType_Both"			"Voz e interfaz"
