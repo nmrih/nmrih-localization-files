@@ -4,6 +4,18 @@
 "Tokens" 
 { 
 
+"MainMenu_FindServers"			"TROVA SERVER"
+"MainMenu_CreateServer"			"CREA SERVER"
+"MainMenu_CharacterSelect"		"SELEZIONE PERSONAGGIO"
+//"MainMenu_Addons"				"ADD-ONS"
+"MainMenu_Options"				"OPZIONI"
+"MainMenu_Quit"					"ESCI"
+
+"MainMenu_ResumeGame"			"RIPRENDI PARTITA"
+"MainMenu_Disconnect"			"DISCONNETTITI"
+"MainMenu_PlayerList"			"LISTA DEI GIOCATORI"
+"MainMenu_CallVote"				"RICHIEDI VOTAZIONE"
+
 "NMRiH_Dev_NextObjective"		"Prossimo obiettivo: %s1"
 
 "NMRiH_CharSelect_Random"		"Casuale"

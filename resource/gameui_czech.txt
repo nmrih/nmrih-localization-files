@@ -8,6 +8,18 @@
 "GameUI_Notice"	"Upozornění"
 "GameUI_Confirm"	"Potvrdit"
 
+"MainMenu_FindServers"			"NAJÍT SERVERY"
+"MainMenu_CreateServer"			"VYTVOŘIT SERVER"
+"MainMenu_CharacterSelect"		"VÝBĚR POSTAVY"
+//"MainMenu_Addons"				"ADD-ONS"
+"MainMenu_Options"				"MOŽNOSTI"
+"MainMenu_Quit"					"KONEC"
+
+"MainMenu_ResumeGame"			"POKRAČOVAT VE HŘE"
+"MainMenu_Disconnect"			"ODPOJIT"
+"MainMenu_PlayerList"			"ZTIŠIT HRÁČE"
+"MainMenu_CallVote"				"ZAHÁJIT HLASOVÁNÍ"
+
 "NMRiH_Dev_NextObjective"		"Následující úkol: %s1"
 
 "NMRiH_CharSelect_Random"		"Náhodný"

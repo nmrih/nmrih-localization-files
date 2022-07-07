@@ -10,6 +10,18 @@
 
 "GameUI_Enable_Addons"			"Lisäosat päälle"
 
+"MainMenu_FindServers"			"ETSI PALVELIMIA"
+"MainMenu_CreateServer"			"LUO PALVELIN"
+"MainMenu_CharacterSelect"		"VALITSE HAHMO"
+"MainMenu_Addons"				"LISÄOSAT"
+"MainMenu_Options"				"ASETUKSET"
+"MainMenu_Quit"					"POISTU"
+
+"MainMenu_ResumeGame"			"JATKA PELIÄ"
+"MainMenu_Disconnect"			"KATKAISE YHTEYS"
+"MainMenu_PlayerList"			"PELAAJALISTA"
+"MainMenu_CallVote"				"ALOITA ÄÄNESTYS"
+
 "NMRiH_Dev_NextObjective"		"Seuraava tavoite: %s1"
 
 "NMRiH_CharSelect_Random"		"Satunnainen"

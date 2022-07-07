@@ -1,25 +1,37 @@
 "lang" 
 { 
-	"Language" "Svenska (Swedish)" 
-	"Tokens" 
-	{ 
+"Language" "Svenska (Swedish)" 
+"Tokens" 
+{ 
 
-	"NMRiH_Dev_NextObjective"			"Nästa mål: %s1"
+"MainMenu_FindServers"			"SÖK EFTER SERVRAR"
+"MainMenu_CreateServer"			"SKAPA SERVER"
+"MainMenu_CharacterSelect"		"VÄLJ KARAKTÄR"
+"MainMenu_Addons"				"TILLÄGG"
+"MainMenu_Options"				"ALTERNATIV"
+"MainMenu_Quit"					"AVSLUTA"
 
-	"NMRiH_CharSelect_Random"			"Slumpvis"
+"MainMenu_ResumeGame"			"FORTSÄTT SPELET"
+"MainMenu_Disconnect"			"AVBRYT ANSLUTNINGEN"
+"MainMenu_PlayerList"			"STÄNG AV SPELARLJUD"
+"MainMenu_CallVote"				"BEGÄR OMRÖSTNING"
 
-	"NMRiH_Options_Compass"				"Kompass"
-	"NMRiH_Options_InventoryWeapons"		"Vapen"
-	"NMRiH_Options_InventoryAmmo"			"Ammunition"
-	"NMRiH_Options_VoiceCommands"			"Röstkommandon"
-	"NMRiH_Options_Suicide"				"Självmord"
-	"NMRiH_Options_Shove"				"Putta/Slå"
-	"NMRiH_Options_ShowObjective"			"Visa aktuellt mål"
-	"NMRiH_Options_DropWeapon"			"Släng vapen"
-	"NMRiH_Options_Sprint"				"Sprinta"
-	"NMRiH_Options_Reload"				"Ladda om (håll intryckt för att kontrollera ammo)"
-	"NMRiH_Options_Holster"				"Hölstra vapen"
-	"NMRiH_Options_UnloadWeapon"			"Unload weapon"
+"NMRiH_Dev_NextObjective"			"Nästa mål: %s1"
+
+"NMRiH_CharSelect_Random"			"Slumpvis"
+
+"NMRiH_Options_Compass"				"Kompass"
+"NMRiH_Options_InventoryWeapons"		"Vapen"
+"NMRiH_Options_InventoryAmmo"			"Ammunition"
+"NMRiH_Options_VoiceCommands"			"Röstkommandon"
+"NMRiH_Options_Suicide"				"Självmord"
+"NMRiH_Options_Shove"				"Putta/Slå"
+"NMRiH_Options_ShowObjective"			"Visa aktuellt mål"
+"NMRiH_Options_DropWeapon"			"Släng vapen"
+"NMRiH_Options_Sprint"				"Sprinta"
+"NMRiH_Options_Reload"				"Ladda om (håll intryckt för att kontrollera ammo)"
+"NMRiH_Options_Holster"				"Hölstra vapen"
+"NMRiH_Options_UnloadWeapon"			"Unload weapon"
 "NMRiH_Call_Vote"				"Call vote"
 "NMRiH_Options_SelectFire"		"Change fire mode"
 "NMRiH_Options_ShowMOTD"		"Show message of the day"
@@ -30,14 +42,14 @@
 "NMRiH_Difficulty_Casual"	"Casual"
 "NMRiH_Difficulty_Nightmare"	"Nightmare"
 
-	"VoiceSet"					"Röstval"
-	"AmmoCheckType"					"Kontrollera ammo"
+"VoiceSet"					"Röstval"
+"AmmoCheckType"					"Kontrollera ammo"
 
-	"AmmoCheckType_Both"				"Röst and HUD"
-	"AmmoCheckType_Voice"				"Endast röst"
-	"AmmoCheckType_HUD"				"Endast HUD"
+"AmmoCheckType_Both"				"Röst and HUD"
+"AmmoCheckType_Voice"				"Endast röst"
+"AmmoCheckType_HUD"				"Endast HUD"
 
-	"Title_CharacterSelect"				"Välj karaktär"
+"Title_CharacterSelect"				"Välj karaktär"
 
 "NMRiH_VoteKickReason"			"Reason"
 "NMRiH_VoteKickReason_Other"	"Other"
@@ -60,5 +72,5 @@
 "NMRiH_Vote_ChangeLevel"	"Change level to %s1?"
 "NMRiH_Vote_NextLevel"		"Set next level to %s1?"
 "NMRiH_Vote_RestartRound"	"Restart the round?"
-	} 
+} 
 }

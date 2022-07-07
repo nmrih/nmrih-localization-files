@@ -4,6 +4,18 @@
 "Tokens" 
 { 
 
+"MainMenu_FindServers"			"RECHERCHE SERVEURS"
+"MainMenu_CreateServer"			"CRÉER SERVEUR"
+"MainMenu_CharacterSelect"		"SÉLECTION DE PERSONNAGE"
+//"MainMenu_Addons"				"ADD-ONS"
+"MainMenu_Options"				"OPTIONS"
+"MainMenu_Quit"					"QUITTER"
+
+"MainMenu_ResumeGame"			"REPRENDRE LA PARTIE"
+"MainMenu_Disconnect"			"SE DÉCONNECTER"
+"MainMenu_PlayerList"			"ACTIVER MODE MUET POUR LES JOUEURS"
+"MainMenu_CallVote"				"DEMANDER UN VOTE"
+
 "NMRiH_Dev_NextObjective"		"Objectif suivant: %s1"
 
 "NMRiH_CharSelect_Random"		"Aléatoire"

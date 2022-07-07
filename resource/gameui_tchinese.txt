@@ -4,6 +4,18 @@
 "Tokens" 
 { 
 
+"MainMenu_FindServers"			"尋找伺服器"
+"MainMenu_CreateServer"			"建立伺服器"
+"MainMenu_CharacterSelect"		"人物選擇"
+//"MainMenu_Addons"				"ADD-ONS"
+"MainMenu_Options"				"選項"
+"MainMenu_Quit"					"離開"
+
+"MainMenu_ResumeGame"			"繼續遊戲"
+"MainMenu_Disconnect"			"斷線"
+"MainMenu_PlayerList"			"將玩家靜音"
+"MainMenu_CallVote"				"發起投票"
+
 "NMRiH_Dev_NextObjective"		"下一個任務：%s1"
 
 "NMRiH_CharSelect_Random"		"隨機"

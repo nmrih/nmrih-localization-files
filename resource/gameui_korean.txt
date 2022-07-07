@@ -8,6 +8,18 @@
 "GameUI_Notice"	"Notice"
 "GameUI_Confirm"	"확인"
 
+"MainMenu_FindServers"			"서버 찾기"
+"MainMenu_CreateServer"			"서버 생성"
+"MainMenu_CharacterSelect"		"캐릭터 선택"
+"MainMenu_Addons"				"애드온 매니저"
+"MainMenu_Options"				"설정"
+"MainMenu_Quit"					"종료"
+
+"MainMenu_ResumeGame"			"게임 계속"
+"MainMenu_Disconnect"			"연결 끊기"
+"MainMenu_PlayerList"			"플레이어 소리 끄기"
+"MainMenu_CallVote"				"투표 요청"
+
 "NMRiH_Dev_NextObjective"		"다음 목표: %s1"
 
 "NMRiH_CharSelect_Random"		"무작위"

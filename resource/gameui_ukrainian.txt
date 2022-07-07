@@ -4,17 +4,17 @@
 "Tokens" 
 { 
 
-"NMRiH_GameMenu_ResumeGame"		"ПРОДОВЖИТИ"
-"NMRiH_GameMenu_Disconnect"		"ВІД'ЄДНАТИСЯ"
-"NMRiH_GameMenu_PlayerList"		"ПЕРЕЛІК ГРАВЦІВ"
+"MainMenu_FindServers"			"ЗНАЙТИ СЕРВЕРИ"
+"MainMenu_CreateServer"			"СТВОРИТИ СЕРВЕР"
+"MainMenu_CharacterSelect"		"ОБРАТИ ПЕРСОНАЖА"
+//"MainMenu_Addons"				"ADD-ONS"
+"MainMenu_Options"				"ПАРАМЕТРИ"
+"MainMenu_Quit"					"ВИЙТИ"
 
-"NMRiH_GameMenu_FindServers"		"ЗНАЙТИ СЕРВЕРИ"
-"NMRiH_GameMenu_CreateServer"		"СТВОРИТИ СЕРВЕР"
-
-"NMRiH_GameMenu_CharSelect"		"ОБРАТИ ПЕРСОНАЖА"
-"NMRiH_GameMenu_Options"		"НАЛАШТУВАННЯ"
-
-"NMRiH_GameMenu_Quit"			"ВИЙТИ"
+"MainMenu_ResumeGame"			"ПРОДОВЖИТИ ГРУ"
+"MainMenu_Disconnect"			"ВІД’ЄДНАТИСЯ"
+"MainMenu_PlayerList"			"ПРИГЛУШИТИ ГРАВЦІВ"
+"MainMenu_CallVote"				"ГОЛОСУВАННЯ"
 
 "NMRiH_Dev_NextObjective"		"Наступне завдання: %s1"
 

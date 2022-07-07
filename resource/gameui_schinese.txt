@@ -10,6 +10,18 @@
 
 "GameUI_Enable_Addons"			"启用插件"
 
+"MainMenu_FindServers"			"寻找服务器"
+"MainMenu_CreateServer"			"创建服务器"
+"MainMenu_CharacterSelect"		"选择角色"
+"MainMenu_Addons"				"插件管理"
+"MainMenu_Options"				"选项"
+"MainMenu_Quit"					"退出"
+
+"MainMenu_ResumeGame"			"继续游戏"
+"MainMenu_Disconnect"			"断开连接"
+"MainMenu_PlayerList"			"屏蔽玩家"
+"MainMenu_CallVote"				"发起投票"
+
 "NMRiH_Dev_NextObjective"		"下一个任务：%s1"
 
 "NMRiH_CharSelect_Random"		"随机"

@@ -10,6 +10,18 @@
 
 "GameUI_Enable_Addons"			"Eklentileri etkinleştirin"
 
+"MainMenu_FindServers"			"SUNUCULARI BUL"
+"MainMenu_CreateServer"			"SUNUCU OLUŞTUR"
+"MainMenu_CharacterSelect"		"KARAKTER SEÇ"
+"MainMenu_Addons"				"EKLENTI YÖNETICISI"
+"MainMenu_Options"				"SEÇENEKLER"
+"MainMenu_Quit"					"ÇIKIŞ"
+
+"MainMenu_ResumeGame"			"OYUNA DEVAM ET"
+"MainMenu_Disconnect"			"BAĞLANTIYI KES"
+"MainMenu_PlayerList"			"OYUNCULARI SUSTUR"
+"MainMenu_CallVote"				"OYLAMA BAŞLAT"
+
 "NMRiH_Dev_NextObjective"		"Sıradaki görev: %s1"
 
 "NMRiH_CharSelect_Random"		"Rastgele"

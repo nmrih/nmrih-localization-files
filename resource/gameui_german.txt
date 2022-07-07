@@ -4,6 +4,18 @@
 "Tokens" 
 { 
 
+"MainMenu_FindServers"			"SERVER SUCHEN"
+"MainMenu_CreateServer"			"SERVER ERSTELLEN"
+"MainMenu_CharacterSelect"		"CHARAKTER AUSWÄHLEN"
+//"MainMenu_Addons"				"ADD-ONS"
+"MainMenu_Options"				"OPTIONEN"
+"MainMenu_Quit"					"SPIEL BEENDEN"
+
+"MainMenu_ResumeGame"			"SPIEL FORTSETZEN"
+"MainMenu_Disconnect"			"VERBINDUNG TRENNEN"
+"MainMenu_PlayerList"			"SPIELER STUMMSCHALTEN"
+"MainMenu_CallVote"				"ABSTIMMUNG STARTEN"
+
 "NMRiH_Dev_NextObjective"		"Nächstes Ziel: %s1"
 
 "NMRiH_CharSelect_Random"		"Zufällig"

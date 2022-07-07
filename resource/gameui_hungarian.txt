@@ -4,6 +4,18 @@
 "Tokens" 
 { 
 
+"MainMenu_FindServers"			"SZERVER KERESÉSE"
+"MainMenu_CreateServer"			"SZERVER LÉTREHOZÁS"
+"MainMenu_CharacterSelect"		"KARAKTER KIVÁLASZTÁSA"
+//"MainMenu_Addons"				"ADD-ONS"
+"MainMenu_Options"				"BEÁLLÍTÁSOK"
+"MainMenu_Quit"					"KILÉPÉS"
+
+"MainMenu_ResumeGame"			"JÁTÉK FOLYTATÁSA"
+"MainMenu_Disconnect"			"SZÉTKAPCSOLÁS"
+"MainMenu_PlayerList"			"NÉMA JÁTÉKOSOK"
+"MainMenu_CallVote"				"SZAVAZÁSRA BOCSÁTÁS"
+
 "NMRiH_Dev_NextObjective"		"Következő feladat: %s1"
 
 "NMRiH_CharSelect_Random"		"Véletlenszerű"

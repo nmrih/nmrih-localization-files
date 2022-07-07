@@ -10,6 +10,18 @@
 
 "GameUI_Enable_Addons"			"Enable add-ons"
 
+"MainMenu_FindServers"			"FIND SERVERS"
+"MainMenu_CreateServer"			"CREATE SERVER"
+"MainMenu_CharacterSelect"		"CHARACTER SELECT"
+"MainMenu_Addons"				"ADD-ONS"
+"MainMenu_Options"				"OPTIONS"
+"MainMenu_Quit"					"QUIT"
+
+"MainMenu_ResumeGame"			"RESUME GAME"
+"MainMenu_Disconnect"			"DISCONNECT"
+"MainMenu_PlayerList"			"PLAYER LIST"
+"MainMenu_CallVote"				"CALL VOTE"
+
 "NMRiH_Dev_NextObjective"		"Next Objective: %s1"
 
 "NMRiH_CharSelect_Random"		"Random"

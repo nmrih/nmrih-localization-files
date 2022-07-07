@@ -10,6 +10,18 @@
 
 "GameUI_Enable_Addons"			"Activar add-ons"
 
+"MainMenu_FindServers"			"ENCONTRAR SERVIDORES"
+"MainMenu_CreateServer"			"CREAR SERVIDOR"
+"MainMenu_CharacterSelect"		"ELECCIÓN DE PERSONAJE"
+"MainMenu_Addons"				"ADMINISTRADOR DE ADD-ONS"
+"MainMenu_Options"				"OPCIONES"
+"MainMenu_Quit"					"ABANDONAR PARTIDA"
+
+"MainMenu_ResumeGame"			"CONTINUAR PARTIDA"
+"MainMenu_Disconnect"			"DESCONECTAR"
+"MainMenu_PlayerList"			"SILENCIAR JUGADORES"
+"MainMenu_CallVote"				"PEDIR VOTOS"
+
 "NMRiH_Dev_NextObjective"		"Próximo Objetivo: %s1"
 
 "NMRiH_CharSelect_Random"		"Aleatorio"

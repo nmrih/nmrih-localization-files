@@ -3,6 +3,19 @@
 "Language" "Greek" 
 "Tokens" 
 { 
+
+"MainMenu_FindServers"			"ΕΥΡΕΣΗ ΔΙΑΚΟΜΙΣΤΩΝ"
+"MainMenu_CreateServer"			"ΔΗΜΙΟΥΡΓΙΑ ΔΙΑΚΟΜΙΣΤΗ"
+"MainMenu_CharacterSelect"		"ΕΠΙΛΟΓΉ ΧΑΡΑΚΤΉΡΩΝ"
+//"MainMenu_Addons"				"ADD-ONS"
+"MainMenu_Options"				"ΕΠΙΛΟΓΕΣ"
+"MainMenu_Quit"					"ΕΞΟΔΟΣ"
+
+"MainMenu_ResumeGame"			"ΕΠΑΝΑΦΟΡΑ ΠΑΙΧΝΙΔΙΟΥ"
+"MainMenu_Disconnect"			"ΑΠΟΣΥΝΔΕΣΗ"
+"MainMenu_PlayerList"			"ΣΙΓΑΣΗ ΠΑΙΚΤΩΝ"
+"MainMenu_CallVote"				"ΚΆΛΕΣΜΑ ΨΗΦΟΦΟΡΊΑς"
+
 "NMRiH_Dev_NextObjective"		"Επόμενος στόχος: %s1"
 "NMRiH_CharSelect_Random"		"Τυχαίο"
 "NMRiH_Options_Compass"			"Πυξίδα"

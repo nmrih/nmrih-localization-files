@@ -10,6 +10,18 @@
 
 "GameUI_Enable_Addons"		"Включить дополнения"
 
+"MainMenu_FindServers"			"НАЙТИ СЕРВЕРЫ"
+"MainMenu_CreateServer"			"СОЗДАТЬ СЕРВЕР"
+"MainMenu_CharacterSelect"		"ВЫБОР ПЕРСОНАЖА"
+"MainMenu_Addons"				"МЕНЕДЖЕР ДОПОЛНЕНИЙ"
+"MainMenu_Options"				"НАСТРОЙКИ"
+"MainMenu_Quit"					"ВЫХОД"
+
+"MainMenu_ResumeGame"			"ВОЗОБНОВИТЬ ИГРУ"
+"MainMenu_Disconnect"			"ОТКЛЮЧИТЬСЯ"
+"MainMenu_PlayerList"			"ЗАГЛУШИТЬ ИГРОКОВ"
+"MainMenu_CallVote"				"НАЧАТЬ ГОЛОСОВАНИЕ"
+
 "NMRiH_Dev_NextObjective"	"Следующая задача: %s1"
 
 "NMRiH_CharSelect_Random"	"Случайный"
