@@ -294,8 +294,6 @@
 		"VoiceCommand.Default.Incoming"	"¡Aquí vienen!"
 		"VoiceCommand.Default.Injured"	"¡Estoy herido!"
 		"VoiceCommand.Default.FireInTheHole" "¡Todos a cubierto!"
-		
-
 
 		//reserve ammo check for magazines
 		// 'X magazines remaining'
@@ -591,7 +589,6 @@
 		//reserve ammo check for shotgun and magnum
 		// 'X loads remaining'
 
-
 		"Reload.Alt1.Load30" "¡Me quedan treinta cartuchos!"
 		"Reload.Alt1.Load29" "¡Me quedan veintinueve cartuchos!"
 		"Reload.Alt1.Load28" "¡Me quedan veintiocho cartuchos!"
@@ -880,7 +877,6 @@
 		"Reload.Default.Load1" "¡Me queda un cartucho!"
 		"Reload.Default.Load0" "!No me quedan cartuchos!"
 
-
 		//Survival mode
 
 		"NGSurvivalExtraction" "<I>¡La extracción se encuentra en camino hacia tu posición, muévete!"
@@ -893,13 +889,12 @@
 		"NGSurvivalZoneD" "<clr: 255, 255, 0><I>¡La zona D esta siendo atacada! ¡Protégela!"
 		"NGSurvivalZoneE" "<clr: 255, 255, 0><I>¡La zona E esta siendo atacada! ¡Protégela!"
 		"NGSurvivalZoneF" "<clr: 255, 255, 0><I>¡La zona F esta siendo atacada! ¡Protégela!"
-		"SafeZone.Killed" "<clr: 255, 0, 0>[ZONA PERDIDA, PROTEGE LAS ZONAS RESTANTES O LOS MILITARES SE RETIRARÁN]"
+		"SafeZone.Killed" "<clr: 255, 0, 0>[ZONA PERDIDA, PROTEGE LAS ZONAS RESTANTES O LOS MILITARES TE ABANDONARÁN]"
 		"Wave.Complete" "[OLEADA COMPLETADA]"
 		"NMRPlayer.TokenEarned" "[TOKEN DE REAPARICIÓN OBTENIDO]"	
 		"NMRPlayer.TokenDenied" "[TOKENS DE REAPARICIÓN REMOVIDOS]"
 		"NMRPlayer.TokenUsed" "[TOKEN DE REAPARICIÓN USADO]"
 		"Wave.LowZombies" "[PREPÁRENSE PARA LA SIGUIENTE OLEADA]"
-
 
 		// Dialogue
 	
@@ -938,7 +933,7 @@
 		"CampbloodVoice.RalphYourDoomed"	"¡Están <I>CONDENADOS! <clr:255,0,0><B>¡EHEHEHEHE!"
 
 		// Cleopas
-		"CleopasVoice.Radio"	"Esta es la patruya 206 pidiendo ayuda inmediata en el centro, hemos sufrido muchas bajas. Estas... cosas, simplemente... ¡no dejan de levantarse! ¡Si alguien puede oir esto, por favor envíen refuerzos! Repito, necesitamos refuerzos en el centro lo antes posible. Tenemos pocas municiones, nos estamos quedando sin opciones, por favor respond-- [disparos, se corta la transmisión]"
+		"CleopasVoice.Radio"	"Esta es la patrulla 206 pidiendo ayuda inmediata en el centro, hemos sufrido muchas bajas. Estas... cosas, simplemente... ¡no dejan de levantarse! ¡Si alguien puede oir esto, por favor envíen refuerzos! Repito, necesitamos refuerzos en el centro lo antes posible. Tenemos poca munición, nos estamos quedando sin opciones, por favor respond-- [disparos, se corta la transmisión]"
 
 		// FEMA
 		"FemaVoice.BillyComplex"	"Acaso esta señal viene del complejo? ¡Toda la instalación está perdida! Lo que sea que hayan hecho los cerebritos ha matado a todas las personas antes de que pudieran activar el protocolo de contenimiento. ¡Ustedes deben terminar el trabajo y detener lo que se haya escapado de allí!"
@@ -960,7 +955,7 @@
 	
 		// Junction
 		"JunctionVoice.01"	"<I>El siguiente mensaje está siendo transmitido a pedido de la Oficina de Control de Emergencias de New Jersey, Union City, New Jersey. Si están vivos, quédense donde están y esperen al rescate. Moverse por las calles es extremadamente peligroso. Los siguientes condados han sido puestos bajo cuarentena: Union, Hudson y Monmouth. Si están heridos o han sufrido una emergencia, por favor mantengan la calma y quédense donde están hasta nuevo aviso. Es posible que actualmente los vehículos de emergencia no puedan llegar a su posición."
-		"JunctionVoice.02"	"¡Qué bueno oir la voz de otra persona! Parece que todavía hay gente en la ciudad después de todo. Bueno, habla el soldado Jones de la división 42. No se si se han enterado, pero el Túnel Lincoln es la única via para escapar de la ciudad. Nosotros íbamos a sellarlo pero una de las bombas se detonó por accidente. El experto en demolición ha muerto y yo acabé herido por la explosión. He logrado trepar hasta el asiento de conductor de uno de los camiones. Estaré allí hasta que lleguen ustedes."
+		"JunctionVoice.02"	"¡Qué bueno oir la voz de otra persona! Parece que todavía hay gente en la ciudad después de todo. Les habla el soldado Jones de la división 42. No se si se han enterado, pero el Túnel Lincoln es la única via para escapar de la ciudad. Nosotros queríamos sellarlo pero una de las bombas se detonó por accidente. El experto en demolición ha muerto y yo acabé herido por la explosión. He logrado trepar hasta el asiento de conductor de uno de los camiones. Estaré allí hasta que lleguen ustedes."
 		"JunctionVoice.03"	"¡No puedo creer que lo hayan logrado, estaba por irme de aquí! Los tres explosivos que ven aquí son lo suficientemente poderosos para sellar el túnel para siempre y asegurar nuestro escape. ¡Colóquenlos en los pilares y vuelvan al camión!"
 		"JunctionVoice.04"	"¡Okey, ahora suban rápido! ¡No queda mucho tiempo!"
 		"JunctionVoice.05"	"¡Vámonos de aquí, espero que ya estén arriba!"
@@ -992,7 +987,7 @@
 		"ZephyrVoice.Engineer09"	"¡Aquí vamos!"
 		"ZephyrVoice.Engineer10"	"A todos los que se hayan quedado atrás, ¡suban al tren! ¡AHORA!"
 		"ZephyrVoice.AllAboard"		"<B>¡TODOS A BORDO!"
-		"ZephyrVoice.OhCrud"		"<I>Oh mierda..."
+		"ZephyrVoice.OhCrud"		"<I>Ah mierda..."
 		"ZephyrVoice.Speech1901"	"¿Hola, hola? Oh, ha pasado tanto tiempo desde que he oído otra voz humana, es un cambio. Escuchen, estoy atrapado en el depósito de locomotoras cerca de la mesa giratoria. Si ustedes podrían hacer el esfuerzo y ayudarme, se los agradecería mucho. De hecho, podría devolverles el favor, pero primero lo primero. La puerta a la estación requiere un código de acceso. El código es, dejenme ver... : 1-9-0-1."
 		"ZephyrVoice.Speech2606"	"¿Hola, hola? Oh, ha pasado tanto tiempo desde que he oído otra voz humana, es un cambio. Escuchen, estoy atrapado en el depósito de locomotoras cerca de la mesa giratoria. Si ustedes podrían hacer el esfuerzo y ayudarme, se los agradecería mucho. De hecho, podría devolverles el favor, pero primero lo primero. La puerta a la estación requiere un código de acceso. El código es, dejenme ver... : 2-6-0-6."
 		"ZephyrVoice.Speech2710"	"¿Hola, hola? Oh, ha pasado tanto tiempo desde que he oído otra voz humana, es un cambio. Escuchen, estoy atrapado en el depósito de locomotoras cerca de la mesa giratoria. Si ustedes podrían hacer el esfuerzo y ayudarme, se los agradecería mucho. De hecho, podría devolverles el favor, pero primero lo primero. La puerta a la estación requiere un código de acceso. El código es, dejenme ver... : 2-7-1-0."

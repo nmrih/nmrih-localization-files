@@ -15,12 +15,12 @@
 "MainMenu_CharacterSelect"		"ELECCIÓN DE PERSONAJE"
 "MainMenu_Addons"				"ADMINISTRADOR DE ADD-ONS"
 "MainMenu_Options"				"OPCIONES"
-"MainMenu_Quit"					"ABANDONAR PARTIDA"
+"MainMenu_Quit"					"SALIR"
 
 "MainMenu_ResumeGame"			"CONTINUAR PARTIDA"
 "MainMenu_Disconnect"			"DESCONECTAR"
 "MainMenu_PlayerList"			"SILENCIAR JUGADORES"
-"MainMenu_CallVote"				"PEDIR VOTOS"
+"MainMenu_CallVote"				"PEDIR VOTACIÓN"
 
 "NMRiH_Dev_NextObjective"		"Próximo Objetivo: %s1"
 
@@ -35,7 +35,7 @@
 "NMRiH_Options_ShowObjective"		"Mostrar objetivo actual"
 "NMRiH_Options_DropWeapon"		"Arrojar arma"
 "NMRiH_Options_Sprint"			"Correr"
-"NMRiH_Options_Reload"			"Recargar (mantener pulsado para chequear munición)"
+"NMRiH_Options_Reload"			"Recargar (mantener para chequear munición)"
 "NMRiH_Options_Holster"			"Enfundar arma"
 "NMRiH_Options_UnloadWeapon"		"Vaciar arma"
 "NMRiH_Call_Vote"				"Iniciar voto"
@@ -106,7 +106,7 @@
 "NMRiH_InitialTokenCountObjective"	"Objetivo: Cantidad inicial de Tokens"
 "NMRiH_InitialTokenCountSurvival"	"Supervivencia: Cantidad inicial de Tokens"
 "NMRiH_ZombieHealth"	"Vida de los zombis"
-"NMRiH_ZombieSpawnDensity"	"Densidad de spawn de zombis"
+"NMRiH_ZombieSpawnDensity"	"Densidad de aparición de zombis"
 "NMRiH_BrainStemMode"	"Activar tronco encefálico en zombis"
 "NMRiH_InfectionChanceModifier"	"Modificador de chance de infección"
 "NMRiH_SurvivalInfectionChanceModifier"	"Supervivencia: Modificador de chance de infección"
@@ -116,7 +116,7 @@
 "NMRiH_DisplayPlayerHealth"	"Mostrar vida de los jugadores"
 "NMRiH_ShowDeathNotice"	"Mostrar avisos de muerte"
 "NMRiH_ForcePracticeMode"	"Forzar modo de práctica"
-"NMRiH_KillScorePenalty"	"Activar penalidad kills"
+"NMRiH_KillScorePenalty"	"Activar penalización por matar compañeros"
 
 "VoiceSet"				"Elegir Voz"
 "AmmoCheckType"				"Chequeo de Munición"
