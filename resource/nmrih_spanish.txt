@@ -94,7 +94,7 @@
 "NMRiH_VoiceCommand_Stay"		"Quieto"
 "NMRiH_VoiceCommand_No"			"No"
 "NMRiH_VoiceCommand_Yes"		"Sí"
-"NMRiH_VoiceCommand_ThankYou"		"¡Gracias!
+"NMRiH_VoiceCommand_ThankYou"		"¡Gracias!"
 "NMRiH_VoiceCommand_Incoming"		"¡Aquí vienen!"
 "NMRiH_VoiceCommand_Injured"		"Herido"
 "NMRiH_VoiceCommand_Taunt"		"Burla"

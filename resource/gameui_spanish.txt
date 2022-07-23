@@ -123,7 +123,7 @@
 
 "AmmoCheckType_Both"			"Voz e interfaz"
 "AmmoCheckType_Voice"			"Sólo voz"
-"AmmoCheckType_HUD"			"Sólo interfaz
+"AmmoCheckType_HUD"			"Sólo interfaz"
 
 "Title_CharacterSelect"			"Elección de Personaje"
 
