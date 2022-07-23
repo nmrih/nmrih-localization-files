@@ -43,7 +43,7 @@
 "NMRiH_Options_ShowMOTD"		"Mostrar mensagem do dia"
 "NMRiH_Options_RecordDemo"		"Gravar demo"
 
-"NMRiH_Advanced_cl_textfilter"			"Habilitar filtro de texto do chat(distribuído pela Steam)"
+"NMRiH_Advanced_cl_textfilter"			"Habilitar filtro de texto do chat (distribuído pela Steam)"
 "NMRiH_Advanced_cl_richpresence"		"Habilitar Status de Atividade (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"Habilitar movimento da cabeça do personagem"
 "NMRiH_Advanced_cl_stickyironsight"		"Habilitar alternância da mira"
@@ -51,6 +51,7 @@
 "NMRiH_Advanced_cl_ejectbrass"			"Habilitar ejetar cartuchos de bala/cartuchos de espingarda"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Habilitar iluminação dinâmica para luzes de disparo (pesado)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Desabilitar HTML MOTD"
+"NMRiH_Advanced_fov_allow_change"		"O FOV pode ser alterado pela jogabilidade"
 "NMRiH_Advanced_nmrih_screenspace"		"Habilitar shaders de tela (desative apenas para solução de problemas)"
 "NMRiH_Advanced_nmrih_screenspace_shadow"	"Habilitar efeito de vinheta de tela"
 "NMRiH_Advanced_nmrih_grain"			"Habilitar grão de filme"

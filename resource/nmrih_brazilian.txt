@@ -36,6 +36,8 @@
 "NMRiH_InventoryBox_CantCarry"		"Não há espaço suficiente para este item!"
 "NMRiH_InventoryBox_OwnsItem"		"Já possui um item deste tipo!"
 
+"NMRiH_BarricadePointBlocked"		"O ponto da barricada está bloqueado!"
+
 "PracticeTimeRemaining"			"Partida começando em %s1"
 "RoundStarting"				"Partida Começando!"
 
@@ -80,6 +82,8 @@
 "Item_TargetFull"			"%s1 não tem espaço para esse item."
 
 "Watermelon_Rescued"		"Melancia resgatada! %s1 pontos atribuídos a todos os jogadores."
+
+"Map_Time_Extended"			"Tempo do mapa estendido por %s1 minuto(s)."
 
 // Prefix for (Voice) subtitle
 "Voice"						"Voz"
@@ -307,6 +311,37 @@
 "Hint_Generic_Pills" "Se você encontrar, você pode usar pílulas para estancar a infecção por alguns minutos."
 "Hint_Generic_Bandages" "Se você estiver sangrando, você pode encontrar curativos para estancar."
 "Hint_Generic_FirstAid" "Se você estiver com pouca saúde, pode usar kits de primeiros socorros para se curar."
+
+"Hint_Advanced_Shamblers" "Mate zumbis carregando sua arma corpo a corpo por alguns segundos. Não sobrecarregue, você perderá muita resistência. Cada arma corpo a corpo tem um tempo específico."
+"Hint_Advanced_Shove" "Ao começar, sempre empurre os zumbis para trás com a tecla %+shove% depois de atacar via corpo a corpo. Você evitará qualquer dano recebido."
+"Hint_Advanced_MemorizeAmmo" "Memorize qual tipo de munição corresponde a cada arma de fogo."
+"Hint_Advanced_DontHoard" "Não acumule munição que você não pode usar. Compartilhe com um colega de equipe com uma arma de fogo compatível."
+"Hint_Advanced_ConserveAmmo" "Economize sua munição. Armas de fogo devem ser usadas em emergências como um grupo de Corredores ou uma horda de zumbis bloqueando seu caminho."
+"Hint_Advanced_RunnerTrick" "Corredores ou crianças zumbis por aí? Fique em movimento."
+"Hint_Advanced_ObjectiveVariation" "Os mapas objetivos têm variações aleatórias. Memorize-os para que você possa sobreviver de forma mais consistente."
+"Hint_Advanced_FocusOnObjective" "Evite matar muitos zumbis ao jogar mapas objetivos, a menos que você precise. Concentre-se em completar os objetivos."
+"Hint_Advanced_JumpToAvoidGrab" "Saltar impede que os zumbis o agarrem. Use isso para desviar de hordas de zumbis."
+"Hint_Advanced_InfectionDuration" "Se você estiver infectado, você tem cerca de 2 minutos até se transformar em um cadáver ambulante!"
+"Hint_Advanced_Pills" "Pílulas removem os sintomas da infecção e os atrasam por cerca de 3 minutos."
+"Hint_Advanced_PillsInfection" "Use suas pílulas quando estiver ficando difícil de ver. Você estará comprando mais tempo."
+"Hint_Advanced_PillsTiming" "Se você estiver em uma situação perigosa enquanto estiver infectado, tome seus comprimidos antes que sua visão comece a embaçar."
+"Hint_Advanced_Medkit" "Os kits médicos restauram um terço do total de pontos de saúde e param o sangramento."
+"Hint_Advanced_DontWasteMedkit" "Não use kits médicos se estiver perto da saúde máxima, a menos que haja muito de sobra."
+"Hint_Advanced_DontWasteGeneTherapy" "Use seringas de terapia de genes apenas quando infectado. Se você usá-las antes e morrer, elas serão desperdiçadas."
+"Hint_Advanced_InfectionChance" "Quanto menor for sua saúde, maior será a chance de infecção por mordida."
+"Hint_Advanced_InfectionOnlyWhenGrabbed" "Você só pode se infectar sendo agarrado e mordido."
+"Hint_Advanced_Bandages" "As bandagens restaurarão um sexto de seus pontos de saúde totais e pararão seu sangramento. Você só pode usá-los enquanto estiver sangrando."
+"Hint_Advanced_Bleeding" "Sangrar lentamente reduz sua saúde, impede você de correr e força você a usar mais resistência para cada ação."
+"Hint_Advanced_Suicide" "Você pode cometer suicídio com uma arma de fogo quando infectado para evitar a reanimação de seu cadáver."
+"Hint_Advanced_FriendlyFire" "Enquanto estiver infectado, você pode receber dano de companheiros de equipe mesmo se o fogo amigo estiver desativado."
+"Hint_Advanced_ScavengeMedicalItems" "Se você está infectado e não confia em seus companheiros de equipe, não peça suprimentos médicos. Vasculhe e encontre-os você mesmo!"
+"Hint_Advanced_HealthStationStopsBleeding" "Suprimentos de Saúde pararão seu sangramento se você se recuperar até a saúde total."
+"Hint_Advanced_StaminaRegen" "Ficar parado irá regenerar sua resistência mais rapidamente. Agachar enquanto se move fará o mesmo em menor grau. Os efeitos não se acumulam."
+"Hint_Advanced_StaminaDrain" "Atacar, empurrar, pular ou correr drenará sua resistência."
+"Hint_Advanced_LowStaminaVulnerable" "Quando com pouca resistência, você fica extremamente vulnerável. Você não pode realizar nenhuma ação defensiva."
+"Hint_Advanced_LowStaminaBreathing" "Quando estiver com pouca resistência, você ouvirá seu personagem ofegante desesperadamente."
+"Hint_Advanced_LowStaminaMovement" "Quando estiver com pouca resistência, pare de correr. Sua velocidade de movimento será mais lenta do que andar nesse estado."
+"Hint_Advanced_FlareGunSupplies" "Atire um sinalizador para o céu ao jogar um mapa de sobrevivência para obter uma queda de suprimentos adicional (uma vez por rodada)."
 
 } 
 }  
