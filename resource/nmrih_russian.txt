@@ -183,7 +183,7 @@
 "Weapon_me_cleaver"			"Мясницкий нож"
 "Weapon_me_etool"			"E-Tool"
 "Weapon_me_fubar"			"Fubar"
-"Weapon_me_hatchet"			"Топор"
+"Weapon_me_hatchet"			"Топорик"
 "Weapon_me_kitknife"			"Кухонный нож"
 "Weapon_me_machete"			"Мачете"
 "Weapon_me_pickaxe"			"Кирка"
