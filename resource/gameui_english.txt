@@ -25,6 +25,9 @@
 "NMRiH_Dev_NextObjective"		"Next Objective: %s1"
 
 "NMRiH_CharSelect_Random"		"Random"
+"NMRiH_CharSelect_Next"			"Next"
+"NMRiH_CharSelect_Previous"		"Previous"
+"NMRiH_CharSelect_VoicePreview"	"Preview"
 
 "NMRiH_Options_Compass"			"Compass"
 "NMRiH_Options_InventoryWeapons"	"Weapon inventory"
@@ -182,6 +185,8 @@
 "NMRiH_CreateGame_NATWarning3"		"Before you begin, ensure that your router has UDP port 27015 forwarded."
 "NMRiH_CreateGame_NATWarning_DontShowAgain"		"Don't show again"
 "NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"Open hosting guide..."
+
+"NMRiH_ScoreBoard_PlayerCount"	"Players: %s1"
 
 //============================
 //Add-on Manager
