@@ -25,6 +25,9 @@
 "NMRiH_Dev_NextObjective"		"下一个任务：%s1"
 
 "NMRiH_CharSelect_Random"		"随机"
+"NMRiH_CharSelect_Next"			"下一个"
+"NMRiH_CharSelect_Previous"		"上一个"
+"NMRiH_CharSelect_VoicePreview"	"语音预览"
 
 "NMRiH_Options_Compass"			"指南针"
 "NMRiH_Options_InventoryWeapons"	"武器栏"
@@ -182,6 +185,8 @@
 "NMRiH_CreateGame_NATWarning3"		"如果需要和其他玩家联机,请确保路由器已映射UDP端口27015."
 "NMRiH_CreateGame_NATWarning_DontShowAgain"		"不再显示"
 "NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"打开帮助.."
+
+"NMRiH_ScoreBoard_PlayerCount"	"玩家数: %s1"
 
 //============================
 //Add-on Manager
