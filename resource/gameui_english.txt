@@ -68,6 +68,9 @@
 "NMRiH_Advanced_cl_mainmenu_background_0"		"Anniversary (v1.12)"
 "NMRiH_Advanced_cl_mainmenu_background_1"		"Greenlit (v1.07)"
 "NMRiH_Advanced_cl_mainmenu_background_2"		"Rebirth (v1.10)"
+"NMRiH_Advanced_cl_new_impact_effects_cheap"	"Impact effect quality"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"High, with debris"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Low, no debris"
 
 "NMRiH_Difficulty"	"Difficulty"
 
