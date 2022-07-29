@@ -68,6 +68,9 @@
 "NMRiH_Advanced_cl_mainmenu_background_0"		"周年庆(v1.12)"
 "NMRiH_Advanced_cl_mainmenu_background_1"		"准许通行(v1.07)"
 "NMRiH_Advanced_cl_mainmenu_background_2"		"重生之日(v1.10)"
+"NMRiH_Advanced_cl_new_impact_effects_cheap"	"碰撞冲击特效质量"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高(带碎片效果)"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低(无碎片效果)"
 
 "NMRiH_Difficulty"	"游戏难度"
 
