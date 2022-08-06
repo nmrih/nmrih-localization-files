@@ -1,0 +1,12 @@
+"lang"
+{
+	"Language"	"english"
+	"Tokens"
+	{
+		"#Status_JoiningServer"	"Joining a server..."
+		"#Status_MainMenu"	"Main Menu"
+		"#Status_PlayingObjective"	"Playing Objective - %map%"
+		"#Status_PlayingSurvival"	"Playing Survival - %map%"
+		"#Status_PlayingCustom"	"Playing Custom - %map%"
+	}
+}
