@@ -24,7 +24,10 @@
 
 "NMRiH_Dev_NextObjective"	"Следующая задача: %s1"
 
-"NMRiH_CharSelect_Random"	"Случайный"
+"NMRiH_CharSelect_Random"		"Случайный"
+"NMRiH_CharSelect_Next"			"Следующий"
+"NMRiH_CharSelect_Previous"		"Предыдущий"
+"NMRiH_CharSelect_VoicePreview"		"Прослушать"
 
 "NMRiH_Options_Compass"		"Компас"
 "NMRiH_Options_InventoryWeapons""Инвентарь оружия"
@@ -65,6 +68,9 @@
 "NMRiH_Advanced_cl_mainmenu_background_0"	"Anniversary (v1.12)"
 "NMRiH_Advanced_cl_mainmenu_background_1"	"Greenlight (v1.07)"
 "NMRiH_Advanced_cl_mainmenu_background_2"	"Rebirth (v1.10)"
+"NMRiH_Advanced_cl_new_impact_effects_cheap"	"Качество эффектов от удара"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Высокое, с частицами"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Низкое, без частиц"
 
 "NMRiH_Difficulty"		"Сложность"
 
