@@ -136,7 +136,7 @@
 
 "PlayerAlive"				"Status"
 "PlayerAlive_Alive"			"ALIVE"
-"PlayerAlive_Dead"			"DECEASED"
+"PlayerAlive_Dead"			"DEAD"
 "PlayerAlive_Extracted"		"EXTRACTED"
 "PlayerRespawns"			"Respawns"
 
