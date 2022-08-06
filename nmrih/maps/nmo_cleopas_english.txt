@@ -1,0 +1,20 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_cleopas_ObjA"	"Find some TNT to get through the alley gate"
+	"nmo_cleopas_ObjB"	"Find some TNT to get through the alley gate"
+	"nmo_cleopas_ObjC"	"Find some TNT to get through the alley gate"
+	"nmo_cleopas_ObjZ"	"Follow the whiteboard objective"
+	"nmo_cleopas_ObjE"	"Find 4 boards to get across the electrified water"
+	"nmo_cleopas_ObjF"	"Find lever to turn power off"
+	"nmo_cleopas_ObjH"	"Use ladder to get into Samco store"
+	"nmo_cleopas_ObjI"	"Use welder to break into the store"
+	"nmo_cleopas_ObjJ"	"Find a ladder to get over the alley gate"
+	"nmo_cleopas_ObjG"	"Blast through alley wall"
+	"nmo_cleopas_OBjD"	"Go through the house and break through the front"
+	"nmo_cleopas_ObjK"	"Get to the next alley"
+	"nmo_cleopas_ObjR"	"Find some pliers to cut the lock, you have 3 minutes to get extracted!"
+	"nmo_cleopas_ObjL"	"Find welder to get back alley gate open"
+}

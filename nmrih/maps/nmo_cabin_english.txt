@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_cabin_objStart"	"Break out of the attic"
+	"nmo_cabin_ObjA"	"Find keys to unlock door"
+	"nmo_cabin_ObjB"	"Break planks to proceed"
+	"nmo_cabin_ObjC"	"Family is the answer, find the secret book"
+	"nmo_cabin_ObjD"	"Release stair gate"
+	"nmo_cabin_ObjE"	"Blast through cabin wall"
+	"nmo_cabin_ObjF"	"Enter the book into the shelf"
+	"nmo_cabin_ObjG"	"Weld through the kitchen door"
+	"nmo_cabin_ObjH"	"Reconnect the telegraph line"
+	"nmo_cabin_ObjI"	"Find the car battery, power up the generator and call for help!"
+	"nmo_cabin_ObjG2"	"Proceed through the underground"
+}

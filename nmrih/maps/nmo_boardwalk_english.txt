@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_boardwalk_Objectives_Radio"	"Use the radio to call for help"
+	"nmo_boardwalk_Objectives_Door"	"Find a key to open the door"
+	"nmo_boardwalk_Objectives_Survive"	"Survive"
+	"nmo_boardwalk_Objectives_Secure"	"Hold out until help arrives"
+	"nmo_boardwalk_Objectives_Propane"	"Breach the barricade"
+	"nmo_boardwalk_Objectives_Can"	"Burn away the obstruction"
+	"nmo_boardwalk_Objectives_Gauntlet"	"Make your way to the safehouse"
+	"nmo_boardwalk_Objectives_Signal"	"Light a signal fire"
+}

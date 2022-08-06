@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_broadway_objA"	"Break gate lock"
+	"nmo_broadway_objB1"	"Break through motel side door, find something suitable to do so"
+	"nmo_broadway_objB_1"	"Find a way to the basement"
+	"nmo_broadway_objC"	"Find the key to the cinema backdoor"
+	"nmo_broadway_objD"	"Find battery, power up truck"
+	"nmo_broadway_objD_1"	"Find battery, power up truck"
+	"nmo_broadway_objE"	"Proceed to the bar, find the key"
+	"nmo_broadway_objF"	"Turn sprinklers ON"
+	"nmo_broadway_objG1"	"Find lever for warehouse door"
+	"nmo_broadway_objH"	"Gain entry to managers office and call for extraction"
+	"nmo_broadway_objI"	"Weld open motel side entrance"
+}

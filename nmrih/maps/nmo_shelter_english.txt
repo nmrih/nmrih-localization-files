@@ -1,0 +1,20 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_shelter_Objective_1"	"Proceed to the main hall"
+	"nmo_shelter_Objective_2"	"Go upstairs"
+	"nmo_shelter_Objective_3"	"Find a way to open up the control room"
+	"nmo_shelter_Objective_4"	"Use the heart key to open up the door connecting to the lobby room (which is located upstairs)"
+	"nmo_shelter_Objective_5"	"Find a lever and use it to gain entrance towards the maintenance tunnels"
+	"nmo_shelter_Objective_6"	"Open the door which is pointing towards the sewers"
+	"nmo_shelter_Objective_7"	"Look for clues"
+	"nmo_shelter_Objective_8"	"Find switches"
+	"nmo_shelter_Objective_7_pre"	"Turn off the gas"
+	"nmo_shelter_Objective_5_pre"	"Activate the generator by pressing the button in the engine room"
+	"nmo_shelter_Objective_6_pre"	"Head downstairs into the maintenance tunnels"
+	"nmo_shelter_Objective_7_prepre"	"Destroy the board to gain access towards the sewer"
+	"nmo_shelter_Objective_pre9"	"Proceed through the tunnels"
+	"nmo_shelter_Objective_9"	"Prepare your escaping route!"
+}

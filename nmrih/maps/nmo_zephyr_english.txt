@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_zephyr_objective1_leavebuilding"	"Find the code and escape the office building"
+	"nmo_zephyr_objective2_blowwarehouse"	"Find a way to access the warehouse"
+	"nmo_zephyr_objective2a_sewertime"	"Find a tool to pry open the manhole"
+	"nmo_zephyr_objective2b_blowtorchsewer"	"Melt the grate using a welder"
+	"nmo_zephyr_objective3_warehouseelevator"	"Activate elevator and ascend to the upper level"
+	"nmo_zephyr_objective4_pickupwalkie"	"Pick up walkie talkie"
+	"nmo_zephyr_objective5a_2710"	"Code to the door is 2710"
+	"nmo_zephyr_objective5d_powerup"	"Find fuel to power up generator"
+	"nmo_zephyr_Objective5b_2606"	"Code to the door is 2606"
+	"nmo_zephyr_Objective5c_1901"	"Code to the door is 1901"
+	"nmo_zephyr_objective6_activate"	"Activate the turntable"
+	"nmo_zephyr_objective6a_unclog"	"Unclog the turntable mechanism"
+	"nmo_zephyr_objective7_switch1"	"Throw the switch behind the locomotive"
+	"nmo_zephyr_objective8_switchdasequel"	"Throw the other switch"
+	"nmo_zephyr_objective9_brakes"	"Release hand brakes"
+	"nmo_zephyr_objective10_allaboard"	"Radio the engineer when ready"
+}

@@ -1,0 +1,12 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_chinatown_subway_escape"	"Escape the subway!"
+	"nmo_chinatown_gate_fix"	"Find fuel for generator to open the gate!"
+	"nmo_chinatown_ladder_dismount"	"Release the ladder on the roadblock!"
+	"nmo_chinatown_sewer_way"	"Find your way through the sewers!"
+	"nmo_chinatown_welder"	"Use welder on the gate's lock to open it!"
+	"nmo_chinatown_docks_finale"	"Power up the radio and call for rescue!"
+}

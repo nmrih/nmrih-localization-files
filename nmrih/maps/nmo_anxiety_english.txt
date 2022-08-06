@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"Cut through the shutter"
+	"nmo_anxiety_Obj2"	"Extinguish the fire"
+	"nmo_anxiety_Obj3"	"Break down the barricade"
+	"nmo_anxiety_Obj4"	"Raise the gate"
+	"nmo_anxiety_Obj5"	"Exit the subway station"
+	"nmo_anxiety_Obj6"	"Climb the fence with a ladder"
+	"nmo_anxiety_Obj7"	"Torch through the parking garage"
+	"nmo_anxiety_Obj8"	"Unlock the hospital doors"
+	"nmo_anxiety_Obj9"	"Find keys to the recreational vehicle"
+}

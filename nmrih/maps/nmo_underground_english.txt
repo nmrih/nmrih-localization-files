@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_underground_Open_The_Door"	"Find a way to open the door!"
+	"nmo_underground_Fence_Welder"	"Weld through grate!"
+	"nmo_underground_Find_Dinamite"	"Find dynamite and blow up the wall!"
+	"nmo_underground_Elevator"	"Activate elevator!"
+	"nmo_underground_Last_Objective"	"Use all looted items!"
+	"nmo_underground_HelicopterCome"	"Wait for the helicopter!"
+	"nmo_underground_PushTheCart"	"Push the cart!"
+	"nmo_underground_LootSmokeGrenade"	"Loot a smoke grenade!"
+	"nmo_underground_FindCodeLootPaint"	"Look for a code in the office building and loot a can of paint!"
+	"nmo_underground_LootCarBattery"	"Loot the car battery!"
+	"nmo_underground_LootPaint"	"Loot a can of paint!"
+}

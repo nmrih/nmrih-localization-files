@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_toxteth_ObjF"	"Break into the store"
+	"nmo_toxteth_ObjE"	"Weld through store side entrance"
+	"nmo_toxteth_ObjD"	"Use TNT to get through to the store"
+	"nmo_toxteth_ObjC"	"Find fuel tank to blast through garden wall"
+	"nmo_toxteth_ObjB"	"Answer the phone"
+	"nmo_toxteth_ObjA"	"Proceed to Hartington Road"
+	"nmo_toxteth_ObjG_1"	"Find dead staff member to enter warehouse office"
+	"nmo_toxteth_ObjG_2"	"Find dead staff member to enter warehouse office"
+	"nmo_toxteth_ObjG_3"	"Find dead staff member to enter warehouse office"
+	"nmo_toxteth_ObjH"	"Call for help"
+	"nmo_toxteth_ObjI"	"Answer the phone"
+	"nmo_toxteth_ObjJ"	"Use welder on 3 wall sockets to cause a fire!"
+	"nmo_toxteth_ObjK"	"Find crank to open door"
+	"nmo_toxteth_ObjL"	"Proceed to the chapel"
+	"nmo_toxteth_ObjM"	"Use welder on manhole cover"
+	"nmo_toxteth_ObjZ"	"Proceed back to Hartington Road"
+}

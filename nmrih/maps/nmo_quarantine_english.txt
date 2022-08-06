@@ -1,0 +1,20 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_quarantine_obj_gravesite"	"Find a shovel and dig for fuel at the make-shift graveyard"
+	"nmo_quarantine_obj_leavespawn"	"Escape the alley"
+	"nmo_quarantine_obj_fillup_generator_turn_on"	"Fuel the generator and turn it on"
+	"nmo_quarantine_obj_get_sewer_key"	"Find the key to the maintenance room"
+	"nmo_quarantine_obj_get_sewer_crank"	"Find the missing crank and unflood the maintenance room!"
+	"nmo_quarantine_obj_leave_sewer"	"Escape the sewers"
+	"nmo_quarantine_obj_close_gate"	"Close the open quarantine entry gate to gain access to the inner quarantine!"
+	"nmo_quarantine_obj_waitfordoor"	"Wait for the rollup door to open"
+	"nmo_quarantine_obj_enter_sewer"	"Get into the sewers"
+	"nmo_quarantine_obj_enter_inner_quarantine"	"Get into the inner quarantine before the failsafe activates!"
+	"nmo_quarantine_obj_use_radio"	"Use the radio!"
+	"nmo_quarantine_obj_get_walkie"	"Take the walkie talkie"
+	"nmo_quarantine_obj_activate_siren"	"Activate the siren when ready"
+	"nmo_quarantine_obj_survive"	"Survive for 2 minutes"
+}

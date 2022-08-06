@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_junction_Street_door"	"Escape the safe haven"
+	"nmo_junction_Break_front"	"Break into the market"
+	"nmo_junction_Turn_off_alarm"	"Turn off the security alarm"
+	"nmo_junction_Exploding_door"	"Gain entry to the apartments through the alley"
+	"nmo_junction_Use_radio"	"Find a way to call for help"
+	"nmo_junction_Weld_door"	"Find a welder to get through the warehouse"
+	"nmo_junction_Pawnshop_fense_door"	"Open the door to the pawnshop"
+	"nmo_junction_pawnshop_door_code"	"Enter the access code"
+	"nmo_junction_Office_progress"	"Find an alternative way out of the building"
+	"nmo_junction_Find_sewer_key"	"Find the sewer key and escape the city for good"
+	"nmo_junction_Finale_tnt"	"Place three explosives in the tunnel to secure your escape"
+}
