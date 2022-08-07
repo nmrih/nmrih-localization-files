@@ -1,0 +1,18 @@
+"When there's no more room in hell, the dead will walk the earth."
+
+A tribute to the highly acclaimed film series in which the above quote originated from, No More Room in Hell (PC Gamer's Mod of the Year 2011, ModDB's Editor Choice Multiplayer Mod of the Year 2011), is a co-operative realistic first person survival horror modification for the Source Engine. Taking inspiration from George Romero's "Of the Dead" series, the mod is set during a time in which the world is on the verge of collapsing into chaos from a disease whose origin is unknown. Many experts and organizations have their theories and ideas on how such a disease emerged and started to systematically destroy our very way of life, but one fact is clear to all. Whoever perishes from the disease gets up and kills, and the people they killed get up and kill.
+
+The chances of you surviving this all out war of society and the undead are slim to none. Already, there are millions of the walking dead shambling about, searching for food to eat. There's no known cure. One bite can possibly end it all for you. However, you aren't alone in this nightmare. There are still a handful of uninfected survivors left in this god forsaken hellhole, and with co-operation and teamwork, you may live long enough to fight your way to salvation.
+
+[h2]Features:[/h2][list][*][b]Teamwork:[/b] Co-operative play with up to eight players.
+[*][b]Voice and Text Communications Limited by Distance:[/b] The further you're away the harder it is for other players to hear you. Keep those walkie talkies close!
+[*][b]Dynamic Objective Maps:[/b] The next playthrough may not be the same as the last!
+[*][b]Survival Mode:[/b] Defend and maintain your shelter against the undead in the hopes of getting extracted to a safe area.
+[*][b]A Realistic Approach:[/b] In short, no crosshairs with limited "only when you want it" HUD. In addition, ammo and weapons are extremely scarce. With that in mind, aim down your sights and shoot for the head!
+[*][b]Multitude of Different Opponents:[/b] Ranging from the iconic "walking zombie" to the more contemporary "runners", NMRiH will keep you on your toes with a mix of dangerous foes to face down. However, the most dangerous enemy may not always be the walking dead...
+[*][b]Infection:[/b] One bite may be what it takes to bring you down. If infected, you must decide if you want to alert your team to rid you of your burden, or to keep quiet in the hopes of finding a cure...
+[*]30+ weapons and counting, ranging from the diminutive .22 Target Pistol, to the almighty Chainsaw.
+[*]No ads (on official and community official servers, user-hosted servers may vary)
+[*]No pay to win items or microtransactions
+[*]100% Free (unless you buy the soundtrack DLC <3)
+[/list]No More Room in Hell is a Half-Life 2 Zombification. The mod was founded in 2003. It switched hands and a new team took over in 2009. Beta version 1.0 was released on Halloween of 2011. A full list of the No More Room in Hell Team and contributors can be found on the about page of our website: www.nmrih.com.
