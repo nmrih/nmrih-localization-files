@@ -1,0 +1,12 @@
+"lang"
+{
+	"Language"	"russian"
+	"Tokens"
+	{
+		"#Status_JoiningServer"	"Присоединяется к серверу..."
+		"#Status_MainMenu"	"Главное меню"
+		"#Status_PlayingObjective"	"Режим заданий - %map%"
+		"#Status_PlayingSurvival"	"Режим выживания - %map%"
+		"#Status_PlayingCustom"	"Пользовательская - %map%"
+	}
+}
