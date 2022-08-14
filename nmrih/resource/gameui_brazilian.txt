@@ -25,6 +25,9 @@
 "NMRiH_Dev_NextObjective"		"Próximo Objetivo: %s1"
 
 "NMRiH_CharSelect_Random"		"Aleatório"
+"NMRiH_CharSelect_Next"			"Próximo"
+"NMRiH_CharSelect_Previous"		"Anterior"
+"NMRiH_CharSelect_VoicePreview"	"Visualizar"
 
 "NMRiH_Options_Compass"			"Bússola"
 "NMRiH_Options_InventoryWeapons"	"Inventário de Armas"
@@ -65,6 +68,9 @@
 "NMRiH_Advanced_cl_mainmenu_background_0"		"Anniversary (v1.12)"
 "NMRiH_Advanced_cl_mainmenu_background_1"		"Greenlit (v1.07)"
 "NMRiH_Advanced_cl_mainmenu_background_2"		"Rebirth (v1.10)"
+"NMRiH_Advanced_cl_new_impact_effects_cheap"	"Impacto na qualidade do efeito"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Alta, com detritos"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Baixo, sem detritos"
 
 "NMRiH_Difficulty"	"Dificuldade"
 
@@ -182,6 +188,8 @@
 "NMRiH_CreateGame_NATWarning3"		"Antes de começar, certifique-se de que seu roteador tenha encaminhamento UDP porta 27015 (port forward)."
 "NMRiH_CreateGame_NATWarning_DontShowAgain"		"Não mostrar novamente"
 "NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"Abrir guia de hospedagem..."
+
+"NMRiH_ScoreBoard_PlayerCount"	"Jogadores: %s1"
 
 //============================
 //Add-on Manager

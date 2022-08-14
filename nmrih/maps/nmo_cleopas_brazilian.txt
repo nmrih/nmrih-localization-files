@@ -1,0 +1,20 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_cleopas_ObjA"	"Encontre algum TNT para passar pelo portão do beco"
+	"nmo_cleopas_ObjB"	"Encontre algum TNT para passar pelo portão do beco"
+	"nmo_cleopas_ObjC"	"Encontre algum TNT para passar pelo portão do beco"
+	"nmo_cleopas_ObjZ"	"Siga o objetivo do quadro branco"
+	"nmo_cleopas_ObjE"	"Encontre 4 tábuas para atravessar a água eletrificada"
+	"nmo_cleopas_ObjF"	"Encontre a alavanca para desligar a energia"
+	"nmo_cleopas_ObjH"	"Use a escada para entrar na loja Samco"
+	"nmo_cleopas_ObjI"	"Use um maçarico para invadir a loja"
+	"nmo_cleopas_ObjJ"	"Encontre uma escada para passar pelo portão do beco"
+	"nmo_cleopas_ObjG"	"Exploda a parede do beco"
+	"nmo_cleopas_OBjD"	"Atravesse a casa e saia pela frente"
+	"nmo_cleopas_ObjK"	"Vá para o próximo beco"
+	"nmo_cleopas_ObjR"	"Encontre um alicate para cortar o cadeado, você tem 3 minutos para ser extraído!"
+	"nmo_cleopas_ObjL"	"Encontre o maçarico para abrir o portão do beco"
+}

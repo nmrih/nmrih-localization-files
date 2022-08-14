@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_zephyr_objective1_leavebuilding"	"Encontre o código e escape do prédio de escritórios"
+	"nmo_zephyr_objective2_blowwarehouse"	"Encontre uma maneira de acessar o armazém"
+	"nmo_zephyr_objective2a_sewertime"	"Encontre uma ferramenta para abrir o bueiro"
+	"nmo_zephyr_objective2b_blowtorchsewer"	"Derreta a grade usando um maçarico"
+	"nmo_zephyr_objective3_warehouseelevator"	"Ative o elevador e suba para o andar superior"
+	"nmo_zephyr_objective4_pickupwalkie"	"Pegue o walkie-talkie"
+	"nmo_zephyr_objective5a_2710"	"O código para a porta é 2710"
+	"nmo_zephyr_objective5d_powerup"	"Encontre combustível para ligar o gerador"
+	"nmo_zephyr_Objective5b_2606"	"O código da porta é 2606"
+	"nmo_zephyr_Objective5c_1901"	"O código para a porta é 1901"
+	"nmo_zephyr_objective6_activate"	"Ative a plataforma giratória"
+	"nmo_zephyr_objective6a_unclog"	"Desobstrua o mecanismo da plataforma giratória"
+	"nmo_zephyr_objective7_switch1"	"Acione o interruptor atrás da locomotiva"
+	"nmo_zephyr_objective8_switchdasequel"	"Acione o outro interruptor"
+	"nmo_zephyr_objective9_brakes"	"Solte os freios de mão"
+	"nmo_zephyr_objective10_allaboard"	"Comunique pelo rádio com o engenheiro quando estiver pronto"
+}

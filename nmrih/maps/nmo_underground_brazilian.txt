@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_underground_Open_The_Door"	"Encontre uma maneira de abrir a porta!"
+	"nmo_underground_Fence_Welder"	"Use o maçarico na grade!"
+	"nmo_underground_Find_Dinamite"	"Encontre dinamite e exploda a parede!"
+	"nmo_underground_Elevator"	"Ative o elevador!"
+	"nmo_underground_Last_Objective"	"Use todos os itens saqueados!"
+	"nmo_underground_HelicopterCome"	"Espere o helicóptero!"
+	"nmo_underground_PushTheCart"	"Empurre o carrinho!"
+	"nmo_underground_LootSmokeGrenade"	"Saqueie uma granada de fumaça!"
+	"nmo_underground_FindCodeLootPaint"	"Procure um código no prédio de escritórios e pegue uma lata de tinta!"
+	"nmo_underground_LootCarBattery"	"Saqueie a bateria do carro!"
+	"nmo_underground_LootPaint"	"Saqueie uma lata de tinta!"
+}

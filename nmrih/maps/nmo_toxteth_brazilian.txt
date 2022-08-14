@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_toxteth_ObjF"	"Invada a loja"
+	"nmo_toxteth_ObjE"	"Use o maçarico na entrada lateral da loja"
+	"nmo_toxteth_ObjD"	"Use TNT para chegar até a loja"
+	"nmo_toxteth_ObjC"	"Encontre o tanque de combustível para explodir a parede do jardim"
+	"nmo_toxteth_ObjB"	"Atenda o telefone"
+	"nmo_toxteth_ObjA"	"Prossiga para a estrada Hartington"
+	"nmo_toxteth_ObjG_1"	"Encontre um funcionário morto para entrar no escritório do armazém"
+	"nmo_toxteth_ObjG_2"	"Encontre um funcionário morto para entrar no escritório do armazém"
+	"nmo_toxteth_ObjG_3"	"Encontre um funcionário morto para entrar no escritório do armazém"
+	"nmo_toxteth_ObjH"	"Peça ajuda"
+	"nmo_toxteth_ObjI"	"Atenda o telefone"
+	"nmo_toxteth_ObjJ"	"Use o maçarico em 3 tomadas de parede para causar um incêndio!"
+	"nmo_toxteth_ObjK"	"Encontre a valvula para abrir a porta"
+	"nmo_toxteth_ObjL"	"Siga para a capela"
+	"nmo_toxteth_ObjM"	"Use o maçarico na tampa do bueiro"
+	"nmo_toxteth_ObjZ"	"Prossiga de volta para a estrada Hartington"
+}
