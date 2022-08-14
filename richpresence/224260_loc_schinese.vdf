@@ -1,0 +1,12 @@
+"lang"
+{
+	"Language"	"schinese"
+	"Tokens"
+	{
+		"#Status_JoiningServer"	"正在加入服务器..."
+		"#Status_MainMenu"	"主菜单中"
+		"#Status_PlayingObjective"	"正在游玩任务地图 - %map%"
+		"#Status_PlayingSurvival"	"正在游玩生存地图 - %map%"
+		"#Status_PlayingCustom"	"正在游玩自定义地图 - %map%"
+	}
+}
