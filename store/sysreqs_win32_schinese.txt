@@ -1,0 +1,10 @@
+[b]最低要求：[/b]
+[list][*][b]系统：[/b]Windows® Vista 或更高
+    [*][b]处理器：[/b]双核 2.4 GHz 处理器或更好 
+    [*][b]内存：[/b]2 GB RAM
+    [*][b]显卡：[/b]Radeon HD 5000 系列或 nVidia GeForce 200 系列或更好
+    [*][b]DirectX®：[/b]9.0c
+    [*][b]硬盘：[/b]10 GB 可用空间
+    [*][b]声卡：[/b]DirectX 9.0c 可兼容声卡
+    [*][b]其它要求：[/b]鼠标，键盘, 以及上传/下载速度至少为 5Mbps 的网络连接
+[/list]
