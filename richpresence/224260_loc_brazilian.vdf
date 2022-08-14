@@ -1,0 +1,12 @@
+"lang"
+{
+	"Language"	"brazilian"
+	"Tokens"
+	{
+		"#Status_JoiningServer"	"Entrando em um servidor..."
+		"#Status_MainMenu"	"Menu Principal"
+		"#Status_PlayingObjective"	"Jogando Modo Objetivo - %map%"
+		"#Status_PlayingSurvival"	"Jogando Modo Sobrevivência - %map%"
+		"#Status_PlayingCustom"	"Jogando Modo Personalizado - %map%"
+	}
+}
