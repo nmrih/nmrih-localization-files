@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_zephyr_objective1_leavebuilding"	"在大楼内寻找密码，然后逃离这里。"
+	"nmo_zephyr_objective2_blowwarehouse"	"在找到炸药桶后，炸开仓库大门。"
+	"nmo_zephyr_objective2a_sewertime"	"在附近寻找 Fubar 多功能锤，然后撬开井盖。"
+	"nmo_zephyr_objective2b_blowtorchsewer"	"寻找焊枪，并用其焊开重回地面的井盖。"
+	"nmo_zephyr_objective3_warehouseelevator"	"想办法启动升降机，然后到第二层去。"
+	"nmo_zephyr_objective4_pickupwalkie"	"拿起安保室内的对讲机。"
+	"nmo_zephyr_objective5a_2710"	"出口大门的密码是 2710"
+	"nmo_zephyr_objective5d_powerup"	"寻找燃料，然后启动转盘旁的发电机。"
+	"nmo_zephyr_Objective5b_2606"	"出口大门的密码是 2606"
+	"nmo_zephyr_Objective5c_1901"	"出口大门的密码是 1901"
+	"nmo_zephyr_objective6_activate"	"使用控制台启动转盘。"
+	"nmo_zephyr_objective6a_unclog"	"将转盘里的杂物清理到别的地方。"
+	"nmo_zephyr_objective7_switch1"	"拉动位于火车头后面的拉杆。"
+	"nmo_zephyr_objective8_switchdasequel"	"拉动火车头前方铁轨旁的拉杆。"
+	"nmo_zephyr_objective9_brakes"	"松开位于车厢内的两个手刹。"
+	"nmo_zephyr_objective10_allaboard"	"在准备好后使用无线电告知火车司机。"
+}

@@ -1,0 +1,13 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_chinatown_subway_escape"	"离开地铁站，到地面上去！"
+	"nmo_chinatown_gate_fix"	"寻找燃料来启动发电机，再打开旁边的卷帘门。"
+	"nmo_chinatown_ladder_dismount"	"想办法将前方路障上的梯子放下来。"
+	"nmo_chinatown_sewer_way"	"前往下水道并顺利通过。"
+	"nmo_chinatown_welder"	"使用焊枪破坏掉大门上的锁头后将大门开启。"
+	"nmo_chinatown_docks_finale"	"想办法重新接通无线电的电源并呼叫救援！"
+	"nmo_chinatown_radio"	"救援直升机将在 60 秒后到达，坚持住！"
+}
