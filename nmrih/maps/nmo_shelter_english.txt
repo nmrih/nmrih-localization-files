@@ -14,7 +14,11 @@
 	"nmo_shelter_Objective_7_pre"	"Turn off the gas"
 	"nmo_shelter_Objective_5_pre"	"Activate the generator by pressing the button in the engine room"
 	"nmo_shelter_Objective_6_pre"	"Head downstairs into the maintenance tunnels"
-	"nmo_shelter_Objective_7_prepre"	"Destroy the board to gain access towards the sewer"
+	"nmo_shelter_Objective_7_prepre""Destroy the board to gain access towards the sewer"
 	"nmo_shelter_Objective_pre9"	"Proceed through the tunnels"
 	"nmo_shelter_Objective_9"	"Prepare your escaping route!"
+	"nmo_shelter_lever"		"Someone's using the lever!"
+	"nmo_shelter_6mins"		"You got 6 minutes to get extracted!"
+	"nmo_shelter_switch"		"Place all switches!"
+	"nmo_shelter_end"		"You give up to live another day..."
 }
