@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_boardwalk_Objectives_Radio"	"使用屋内的无线电呼叫救援。"
+	"nmo_boardwalk_Objectives_Door"	"在周围寻找钥匙，并打开救护车旁边的门。"
+	"nmo_boardwalk_Objectives_Survive"	"在小屋侧门解锁前抵御丧尸的进攻。"
+	"nmo_boardwalk_Objectives_Secure"	"在救援直升机到来前坚守阵地！"
+	"nmo_boardwalk_Objectives_Propane"	"在找到炸药后破坏掉大桥上的路障。"
+	"nmo_boardwalk_Objectives_Can"	"我们还需要一桶汽油才能烧掉前方的障碍物。"
+	"nmo_boardwalk_Objectives_Gauntlet"	"寻找能够通往安全屋的路。"
+	"nmo_boardwalk_Objectives_Signal"	"使用焊枪点燃信号弹以便军方发现。"
+}

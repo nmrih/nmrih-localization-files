@@ -1,0 +1,20 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_cleopas_ObjA"	"寻找TNT炸药，并用其炸开胡同的出口。"
+	"nmo_cleopas_ObjB"	"寻找TNT炸药，并用其炸开胡同的出口。"
+	"nmo_cleopas_ObjC"	"寻找TNT炸药，并用其炸开胡同的出口。"
+	"nmo_cleopas_ObjZ"	"将白板上的物品带回来后修复无线电。"
+	"nmo_cleopas_ObjE"	"寻找 4 块木板用来穿过通电的水坑。"
+	"nmo_cleopas_ObjF"	"在找到拉杆后关闭漏电的电源。"
+	"nmo_cleopas_ObjH"	"使用梯子进入街道尽头的Samco商场。"
+	"nmo_cleopas_ObjI"	"使用焊枪打开商场二楼的大门。"
+	"nmo_cleopas_ObjJ"	"在找到梯子后用它翻越胡同出口的大门。"
+	"nmo_cleopas_ObjG"	"炸穿胡同的墙壁。"
+	"nmo_cleopas_OBjD"	"穿过房子后从前门到街道上去。"
+	"nmo_cleopas_ObjK"	"到下一个胡同里去。"
+	"nmo_cleopas_ObjR"	"寻找钳子来打开商场右侧上锁的铁门，你只有 3 分钟的时间！"
+	"nmo_cleopas_ObjL"	"寻找焊枪，并用它焊开刚才翻越的胡同大门。"
+}

@@ -1,0 +1,21 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_underground_Open_The_Door"	"想办法解锁隧道尽头的大门！"
+	"nmo_underground_Fence_Welder"	"继续前进，并使用焊枪焊开铁丝网。"
+	"nmo_underground_Find_Dinamite"	"在找到炸药后炸开坦克车对面的墙壁！"
+	"nmo_underground_Elevator"	"想办法启动发电机，然后乘坐电梯重回地面！"
+	"nmo_underground_Last_Objective"	"在指定位置使用所有收集到的物资！"
+	"nmo_underground_HelicopterCome"	"等待救援直升机到来！"
+	"nmo_underground_PushTheCart"	"推动手推车并收集物资！"
+	"nmo_underground_LootSmokeGrenade"	"在附近寻找烟雾弹，并将其带回手推车！"
+	"nmo_underground_FindCodeLootPaint"	"在大楼内寻找密码，然后解锁密码门来获取油漆！"
+	"nmo_underground_LootCarBattery"	"在附近寻找汽车电池！"
+	"nmo_underground_LootPaint"	"在附近寻找一罐油漆！"
+	"nmo_underground_plugs"		"将插头插进发电机！"
+	"nmo_underground_car"		"推动警车！"
+	"nmo_underground_sos"		"画出《S.O.S》信号！"
+	"nmo_underground_gen"		"启动发电机！"
+}

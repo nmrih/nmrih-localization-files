@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_cabin_objStart"	"寻找离开阁楼的办法。"
+	"nmo_cabin_ObjA"	"在找到钥匙后打开上锁的门。"
+	"nmo_cabin_ObjB"	"破坏门上的木板继续前进。"
+	"nmo_cabin_ObjC"	"寻找秘密机关，线索是全家福。"
+	"nmo_cabin_ObjD"	"前往一楼并解除楼梯间的锁定。"
+	"nmo_cabin_ObjE"	"引爆墙边的炸药来爆破墙壁。"
+	"nmo_cabin_ObjF"	"将书放到一楼的书架上。"
+	"nmo_cabin_ObjG"	"使用焊枪打开厨房旁的出口木门。"
+	"nmo_cabin_ObjH"	"重新连接梯子附近断掉的电话线。"
+	"nmo_cabin_ObjI"	"在找到电池后启动发电机，然后使用无线电呼叫救援！"
+	"nmo_cabin_ObjG2"	"寻找通往地下的路并顺利穿过地下隧道。"
+}
