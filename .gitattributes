@@ -2,7 +2,16 @@
 * text=auto
 
 # UTF-16 diff hackery
-*.txt text diff working-tree-encoding=UTF-16
+hl2-base/resource/*.txt     text diff working-tree-encoding=UTF-16
+nmrih/maps/*.txt            text diff working-tree-encoding=UTF-16
+nmrih/resource/*.txt        text diff working-tree-encoding=UTF-16
+platform/admin/*.txt        text diff working-tree-encoding=UTF-16
+platform/resource/*.txt     text diff working-tree-encoding=UTF-16
+platform/servers/*.txt      text diff working-tree-encoding=UTF-16
+
+# Force UTF-8 on Steamworks files
+store/*.txt                 text diff working-tree-encoding=UTF-8
+workshop/*.txt              text diff working-tree-encoding=UTF-8
 
 # Shell scripts
 *.sh text eol=lf
