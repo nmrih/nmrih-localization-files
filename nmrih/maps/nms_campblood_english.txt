@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nms_campblood_45sec"	"45 seconds until pickup arrives..."
+	"nms_campblood_welcome"	"Welcome to Campblood"
+}
