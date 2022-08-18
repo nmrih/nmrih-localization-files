@@ -1,0 +1,12 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nms_northway_work"	"Door system is working! Shut all six accesses to this building!"
+	"nms_northway_5"	"5 doors left!"
+	"nms_northway_4"	"4 doors left!"
+	"nms_northway_3"	"3 doors left!"
+	"nms_northway_2"	"2 doors left!"
+	"nms_northway_1"	"1 door left!"
+}
