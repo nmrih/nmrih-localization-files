@@ -1,0 +1,12 @@
+"lang"
+{
+	"Language"	"TChinese"
+	"Tokens"
+	{
+		"#Status_JoiningServer"	"正在加入一個伺服器..."
+		"#Status_MainMenu"	"主選單"
+		"#Status_PlayingObjective"	"正在進行目標 - %map%"
+		"#Status_PlayingSurvival"	"正在進行生存 - %map%"
+		"#Status_PlayingCustom"	"正在進行自訂 - %map%"
+	}
+}
