@@ -1,0 +1,7 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nms_notld_title"	"活死人之夜"
+}

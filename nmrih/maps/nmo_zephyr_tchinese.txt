@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_zephyr_objective1_leavebuilding"	"尋找密碼逃離辦公大樓"
+	"nmo_zephyr_objective2_blowwarehouse"	"設法進入倉庫"
+	"nmo_zephyr_objective2a_sewertime"	"尋找工具撬開人孔蓋"
+	"nmo_zephyr_objective2b_blowtorchsewer"	"使用焊槍熔斷欄杆"
+	"nmo_zephyr_objective3_warehouseelevator"	"搭電梯至上方樓層"
+	"nmo_zephyr_objective4_pickupwalkie"	"撿起對講機"
+	"nmo_zephyr_objective5a_2710"	"門的密碼是 2710"
+	"nmo_zephyr_objective5d_powerup"	"尋找燃料啟動發電機"
+	"nmo_zephyr_Objective5b_2606"	"門的密碼是 2606"
+	"nmo_zephyr_Objective5c_1901"	"門的密碼是 1901"
+	"nmo_zephyr_objective6_activate"	"啟動轉盤"
+	"nmo_zephyr_objective6a_unclog"	"排除轉盤機關上的異物"
+	"nmo_zephyr_objective7_switch1"	"拉下火車頭後方的把手"
+	"nmo_zephyr_objective8_switchdasequel"	"拉下另一個把手"
+	"nmo_zephyr_objective9_brakes"	"放開手煞車"
+	"nmo_zephyr_objective10_allaboard"	"準備好之後用無線電通知工程師"
+}

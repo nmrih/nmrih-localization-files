@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_quarantine_obj_gravesite"	"找一把鏟子在臨時墓地挖出燃料"
+	"nmo_quarantine_obj_leavespawn"	"逃出巷子"
+	"nmo_quarantine_obj_fillup_generator_turn_on"	"灌飽並啟動發電機"
+	"nmo_quarantine_obj_get_sewer_key"	"找出維修室的鑰匙"
+	"nmo_quarantine_obj_get_sewer_crank"	"找出遺失的閥門，排出維修間的積水！"
+	"nmo_quarantine_obj_leave_sewer"	"逃出下水道"
+	"nmo_quarantine_obj_close_gate"	"關閉敞開的隔離區大門以開啟內部隔離區的入口！"
+	"nmo_quarantine_obj_waitfordoor"	"等待鐵捲門開啟"
+	"nmo_quarantine_obj_enter_sewer"	"進入下水道"
+	"nmo_quarantine_obj_enter_inner_quarantine"	"在保險機制啟動前進入內部隔離區！"
+	"nmo_quarantine_obj_use_radio"	"使用無線電！"
+	"nmo_quarantine_obj_get_walkie"	"拿對講機"
+	"nmo_quarantine_obj_activate_siren"	"準備完成後開啟警笛"
+	"nmo_quarantine_obj_survive"	"存活兩分鐘"
+	"nmo_quarantine_50sec"	"在爆炸前你還有 50 秒，盡快進入隔離區。"
+	"nmo_quarantine_10sec"	"剩餘 10 秒。"
+}
