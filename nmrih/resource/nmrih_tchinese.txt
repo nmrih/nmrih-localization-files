@@ -339,7 +339,7 @@
 "Hint_Advanced_StaminaRegen" 				"停止不動時會加快體力的恢復，蹲下來移動也能稍微加快體力的恢復。不過這兩者的效果無法疊加。"
 "Hint_Advanced_StaminaDrain" 				"攻擊、推、衝刺皆會消耗你的體力。"
 "Hint_Advanced_LowStaminaVulnerable" 		"在體力低落的時候你可能讓殭屍趁虛而入，你會無法執行許多防備的動作。"
-"Hint_Advanced_LowStaminaBreathing" 		"當體力低落的時候，你會聽見你的人物急促的喘息聲。"
+"Hint_Advanced_LowStaminaBreathing" 		"當體力低落的時候，你會聽見你的人物吃力的喘息聲。"
 "Hint_Advanced_LowStaminaMovement" 			"當體力低落時，別再衝刺了。在這種情況下你的移動速度會低於你走路的速度。"
 "Hint_Advanced_FlareGunSupplies" 			"在生存地圖向天空發射信號彈可以呼叫補給空投，每發一次。"
 
