@@ -1,0 +1,8 @@
+[b]最低配備:[/b]
+[list][*][b]作業系統:[/b] Ubuntu 14.04LTS 或更高 (建議 non-LTS latest) 
+    [*][b]處理器:[/b] 雙核心 2.8 GHz 處理器或更高
+    [*][b]記憶體:[/b] 2 GB RAM 
+    [*][b]顯示卡:[/b] Radeon HD 5000 Series 或 nVidia GeForce 200 series 或更高
+    [*][b]硬碟:[/b] 10 GB 可用空間
+    [*][b]備註:[/b] 滑鼠、鍵盤、至少 5Mbps 上/下之網際網路連線
+[/list]
