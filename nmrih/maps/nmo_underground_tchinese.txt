@@ -1,0 +1,21 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_underground_Open_The_Door"	"設法開門！"
+	"nmo_underground_Fence_Welder"	"焊開圍籬！"
+	"nmo_underground_Find_Dinamite"	"找炸藥來炸開牆壁！"
+	"nmo_underground_Elevator"	"啟動電梯！"
+	"nmo_underground_Last_Objective"	"使用所有搜刮來的物品！"
+	"nmo_underground_HelicopterCome"	"等待直升機！"
+	"nmo_underground_PushTheCart"	"推推車！"
+	"nmo_underground_LootSmokeGrenade"	"帶走煙霧彈！"
+	"nmo_underground_FindCodeLootPaint"	"尋找進入辦公大來的密碼並取走一桶油漆！"
+	"nmo_underground_LootCarBattery"	"拿走車用電頻！"
+	"nmo_underground_LootPaint"	"帶走一桶油漆！"
+	"nmo_underground_plugs"		"接上電源插座！"
+	"nmo_underground_car"		"推車！"
+	"nmo_underground_sos"		"畫上 S.O.S 記號！"
+	"nmo_underground_gen"		"啟動發電機！"
+}

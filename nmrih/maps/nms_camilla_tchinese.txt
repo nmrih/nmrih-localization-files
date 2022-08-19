@@ -1,0 +1,9 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nms_camilla_final"	"使用無線電！"
+	"nms_camilla_text1"	"這裡是美國國土安全部，我們目前無法前去接你"
+	"nms_camilla_text2"	"但是我們能利用火車運輸物資補給給你。火車就快通過你那邊的城鎮了，準備好去領取一箱補給品。"
+}
