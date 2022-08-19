@@ -142,7 +142,7 @@
 
 "Radial_ammo"	            	"彈藥"
 
-"Weapon_bow_deerhunter"		    "PSE 獵鹿手弓"
+"Weapon_bow_deerhunter"		    "PSE 獵鹿者"
 "Weapon_exp_grenade"     	    "M67 手榴彈"
 "Weapon_exp_molotov"        	"莫勒托夫汽油彈"
 "Weapon_exp_tnt"                "TNT 炸藥"
@@ -212,7 +212,7 @@
 "ammobox_board"					"木板"
 "ammobox_flare"					"信號彈"
 
-"Weapon_bow_deerhunter_short"		   	"PSE 獵弓"
+"Weapon_bow_deerhunter_short"		   	"PSE 獵鹿者"
 "Weapon_exp_grenade_short"		      	"手榴彈"
 "Weapon_exp_molotov_short"		      	"汽油彈"
 "Weapon_exp_tnt_short"			       	"TNT"
