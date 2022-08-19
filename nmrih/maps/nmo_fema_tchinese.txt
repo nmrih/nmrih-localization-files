@@ -8,7 +8,7 @@
 	"nmo_fema_objective7"	"使用曼格勒斯的密碼打開高戒備冷凍庫"
 	"nmo_fema_objective8"	"重新接通無線電中繼"
 	"nmo_fema_objective9"	"使用無線電發出求救訊號"
-	"nmo_fema_objective10"	"播放 Bub 主人的語音來開啟高戒備冷凍庫"
+	"nmo_fema_objective10"	"播放巴布主人的語音來開啟高戒備冷凍庫"
 	"nmo_fema_objective11"	"找回反轉錄病毒疫苗"
 	"nmo_fema_objective12"	"安裝燃燒劑罐"
 	"nmo_fema_objective13"	"在消殺作業進行前逃出設施"
