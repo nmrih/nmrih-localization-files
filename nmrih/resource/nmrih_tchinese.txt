@@ -194,7 +194,7 @@
 "Weapon_tool_barricade"	      	"釘板榔頭"
 "Weapon_tool_extinguisher"	    "滅火器"
 "Weapon_tool_flare_gun"		    "信號槍"
-"Weapon_tool_welder"		    "銲槍"
+"Weapon_tool_welder"		    "焊槍"
 
 "ammobox_9mm"		  			"9mm"
 "ammobox_45ACP"					".45 ACP"
@@ -264,7 +264,7 @@
 "Weapon_tool_barricade_short"   	  	"釘板工具"
 "Weapon_tool_extinguisher_short"    	"滅火器"
 "Weapon_tool_flare_gun_short"	      	"信號槍"
-"Weapon_tool_welder_short"		       	"銲槍"
+"Weapon_tool_welder_short"		       	"焊槍"
 
 "ammobox_9mm_short"			  	"9mm"
 "ammobox_45ACP_short"		  	".45 ACP"
