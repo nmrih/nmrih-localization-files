@@ -309,12 +309,12 @@
 //============================
 "Workshop_Publisher"			                      	"工作坊發行工具"
 "Workshop_Publisher_AddonForm"	                	"插件格式"
-"Workshop_Publisher_UpdateExisting"             	"更新固有的插件"
+"Workshop_Publisher_UpdateExisting"             	"更新現有的插件"
 "Workshop_Publisher_UploadProgress"	              "插件上傳至工作坊..."		
 
 "Workshop_Publisher_TaskSelection"	            	"選擇工作："
 "Workshop_Publisher_TaskSelection_UploadNew"	    "上傳新插件"
-"Workshop_Publisher_TaskSelection_UpdateExisting"	"更新固有插件"
+"Workshop_Publisher_TaskSelection_UpdateExisting"	"更新現有插件"
 
 "Workshop_Publisher_NoConnection"	    "無連接至 Steam，工作坊發行工具無法使用。"
 "Workshop_Publisher_NoAddons"		      "插件已停用，工作坊發行工具無法使用。"
@@ -361,7 +361,7 @@
 
 "Workshop_Publisher_Category_None"			"無"
 
-"Workshop_Publisher_UpdatingExisting"		"(更新固有插件 %s1)"
+"Workshop_Publisher_UpdatingExisting"		"(更新現有插件 %s1)"
 
 "Workshop_Publisher_OpenInWorkshop"			"於工作坊開啟..."
 
@@ -379,14 +379,14 @@
 
 "Workshop_Publisher_VPK_PackDir"			  "將路徑包裝成 VPK"
 "Workshop_Publisher_VPK_Save"			    	"儲存 VPK..."
-"Workshop_Publisher_VPK_Overwrite"			"%s1 以存在，是否要覆蓋？"
+"Workshop_Publisher_VPK_Overwrite"			"%s1 已存在，是否要覆蓋？"
 
 "Workshop_Publisher_Error_NoSteam"		          	"Steam 工作坊無法使用。請檢察您的網路連接或稍後再試。"
 "Workshop_Publisher_Error_NoTitle"		          	"插件需要標題。"
 "Workshop_Publisher_Error_NoContentPath"	        "所選路徑無內容。"
 "Workshop_Publisher_Error_NoPreviewPath"	        "所選路徑無預覽影像。"
-"Workshop_Publisher_Error_NoContentPathExisting"	"所選路徑無內容。(選擇「保留存在」來使用固有內容。)"
-"Workshop_Publisher_Error_NoPreviewPathExisting"	"所選路徑無預覽影像。(選擇「保留存在」來使用固有內容。)"
+"Workshop_Publisher_Error_NoContentPathExisting"	"所選路徑無內容。(選擇「保留存在」來使用現有內容。)"
+"Workshop_Publisher_Error_NoPreviewPathExisting"	"所選路徑無預覽影像。(選擇「保留存在」來使用現有內容。)"
 "Workshop_Publisher_Error_TooBigPreview"        	"預覽影像過大，檔案大小限制為 1 MB。"
 "Workshop_Publisher_Error_PublisherError"	        "發布工具錯誤"
 "Workshop_Publisher_Error_UploadFailed"		        "發生錯誤，您的插件尚未被發布。(錯誤代碼：%s1)"

@@ -10,7 +10,7 @@
 	"nmo_lakeside_find_way_back"	"找出能回到小屋的途徑"
 	"nmo_lakeside_find_basement_key"	"找到地窖鑰匙"
 	"nmo_lakeside_reset_trips"	"重設電源跳閘開關"
-	"nmo_lakeside_call_help"	"使用對講機！"
+	"nmo_lakeside_call_help"	"使用無線電！"
 	"nmo_lakeside_restore_power2"	"恢復地下總共三組發電機組"
 	"nmo_lakeside_fuel_gen"	"使用發電機開啟備用電"
 	"nmo_lakeside_use_laptop"	"使用筆電！"
