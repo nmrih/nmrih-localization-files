@@ -942,7 +942,7 @@
 		"FemaVoice.BillyTopside"	"喂？喂！如果有人聽見我說的，到地面上來我們能起飛帶你去安全處。去搜我們拖車的櫃子，我偷藏了一些那些金頭腦在開發的疫苗。凡事沒有過多的準備，把疫苗帶來馬上過來！"
 		"FemaVoice.MengelerOkayBob"	"<I>好，巴布，現在請拉下開關。"
 		"FemaVoice.MengelerThatsIt"	"<I>做得很好喔巴布！這樣你值得拿到鼓勵。"
-		"FemaVoice.MengelerSayHello"	"<I>跟艾莉卡阿姨說一聲喂，巴布。"
+		"FemaVoice.MengelerSayHello"	"<I>向艾莉西亞阿姨說聲喂，巴布。"
 		"FemaVoice.ColonelNatSec"	"這是卡珊上校，基於國家安全我們可以幫助你們脫困，前提是你們可以回收實驗中的疫苗。我們知道你的位置，我們會在地面上等待回應。"
 		"FemaVoice.ColonelStow"	"這是國家安全局卡珊上校，我們得到你們的訊號。妥當收納疫苗，準備疏散。"
 		
