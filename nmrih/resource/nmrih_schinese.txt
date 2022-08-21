@@ -38,6 +38,8 @@
 
 "NMRiH_BarricadePointBlocked"		"障碍放置点被阻挡！"
 
+"NMRiH_LevelChanging"				"将在 %s1 秒后更换地图..."
+
 "PracticeTimeRemaining"			"游戏将在 %s1 秒内开始"
 "RoundStarting"				"游戏即将开始！"
 
@@ -299,6 +301,15 @@
 "ChallengeTimer_PersonalBest"	"个人最佳"
 "ChallengeTimer_NoTime"	"无记录"
 "ChallengeTimer_NewRecord"	"新纪录!"
+
+"ChallengeInvalid"	"挑战结果将不被记录："
+"ChallengeReject_Cheats"	"已开启或使用了作弊模式。"
+"ChallengeReject_CvarChanged"	"在游戏过程中修改了服务器参数。"
+"ChallengeReject_ModifiedRuleset"	"使用了修改过的游戏难度。（Ruleset）"
+"ChallengeReject_OutsideMapHack"	"加载了自定义 MapHack 脚本。"
+"ChallengeReject_OutsideVScript"	"运行了自定义 VScript。"
+"ChallengeReject_LateValidate"	"校验系统加载过迟。"
+"ChallengeReject_GameStateCommand"	"执行了改变游戏状态的控制台指令。"
 
 "Hint_Generic_Compass" "按下 %+compass% 键，打开指南针来查看当前的任务目标！"
 "Hint_Generic_CheckAmmo" "您可以按住 %+reload% 键查看当前武器的剩余弹药量。"
