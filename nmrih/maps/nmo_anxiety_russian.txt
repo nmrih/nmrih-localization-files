@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"Прорежьте замок на воротах"
+	"nmo_anxiety_Obj2"	"Потушите огонь"
+	"nmo_anxiety_Obj3"	"Разрушьте баррикаду"
+	"nmo_anxiety_Obj4"	"Поднимите ворота"
+	"nmo_anxiety_Obj5"	"Выйдите из станции метро"
+	"nmo_anxiety_Obj6"	"Заберитесь на забор с помощью лестницы"
+	"nmo_anxiety_Obj7"	"Прорежьте проход через гараж"
+	"nmo_anxiety_Obj8"	"Откройте двери больницы"
+	"nmo_anxiety_Obj9"	"Найдите ключи от рекреационного транспортного средства"
+}

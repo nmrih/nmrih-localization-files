@@ -1,0 +1,7 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nms_notld_title"	"Ночь живых мертвецов"
+}
