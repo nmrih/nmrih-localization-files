@@ -38,6 +38,8 @@
 
 "NMRiH_BarricadePointBlocked"		"Barricade point is blocked!"
 
+"NMRiH_LevelChanging"				"Level changing in %s1 seconds..."
+
 "PracticeTimeRemaining"			"Round Starting in %s1"
 "RoundStarting"				"Round Starting!"
 
@@ -299,6 +301,15 @@
 "ChallengeTimer_PersonalBest"	"PERSONAL BEST"
 "ChallengeTimer_NoTime"	"NO TIME"
 "ChallengeTimer_NewRecord"	"NEW RECORD!"
+
+"ChallengeInvalid"	"Challenge result invalidated!"
+"ChallengeReject_Cheats"	"Cheats were turned on."
+"ChallengeReject_CvarChanged"	"Gameplay ConVar changed in middle of a run."
+"ChallengeReject_ModifiedRuleset"	"Modified difficulty / ruleset."
+"ChallengeReject_OutsideMapHack"	"Custom MapHack script loaded."
+"ChallengeReject_OutsideVScript"	"Custom VScript was run."
+"ChallengeReject_LateValidate"	"Validation was turned on late."
+"ChallengeReject_GameStateCommand"	"Game state console command was used."
 
 "Hint_Generic_Compass" "Check your compass for objectives! Press %+compass%."
 "Hint_Generic_CheckAmmo" "You can check ammo by holding the %+reload% key."
