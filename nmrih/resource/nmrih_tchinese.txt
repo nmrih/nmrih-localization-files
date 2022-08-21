@@ -38,6 +38,8 @@
 
 "NMRiH_BarricadePointBlocked"	"設置位置遭到阻擋！"
 
+"NMRiH_LevelChanging"			 	  "關卡將在 %s1 秒後變更..."
+
 "PracticeTimeRemaining"     	"回合開始倒數 %s1"
 "RoundStarting"             	"回合開始！"
 
@@ -46,7 +48,7 @@
 "HudSurvivalWave"	      		"波"
 "HudSurvivalRemaining"	  		"剩餘"
 "HudSurvivalZone"	    	  	"區域"
-"HudSurvivalResupply"	    	"發放物資空投"
+"HudSurvivalResupply"	    	"發放補給空投"
 "HudSurvivalWaveBegin"	 	 	"攻擊開始"
 "HudSurvivalWaveEnd"		    "完成此波侵襲"
 
@@ -144,7 +146,7 @@
 
 "Weapon_bow_deerhunter"		    "PSE 獵鹿者"
 "Weapon_exp_grenade"     	    "M67 手榴彈"
-"Weapon_exp_molotov"        	"莫勒托夫汽油彈"
+"Weapon_exp_molotov"        	"莫勒托夫燃燒彈"
 "Weapon_exp_tnt"                "TNT 炸藥"
 "Weapon_fa_500a"                "莫斯伯格 500a"
 "Weapon_fa_870"		          	"雷明頓 870"
@@ -214,7 +216,7 @@
 
 "Weapon_bow_deerhunter_short"		   	"PSE 獵鹿者"
 "Weapon_exp_grenade_short"		      	"手榴彈"
-"Weapon_exp_molotov_short"		      	"汽油彈"
+"Weapon_exp_molotov_short"		      	"燃燒彈"
 "Weapon_exp_tnt_short"			       	"TNT"
 "Weapon_fa_500a_short"			       	"Moss. 500a"
 "Weapon_fa_870_short"	      	    	"Rem. 870"
@@ -300,6 +302,15 @@
 "ChallengeTimer_NoTime"     		"無時間"
 "ChallengeTimer_NewRecord"	  		"新紀錄！"
 
+"ChallengeInvalid"	                "挑戰結果無效！"
+"ChallengeReject_Cheats"	          "曾啟用作弊。"
+"ChallengeReject_CvarChanged"	      "在遊戲中途曾更動遊戲性控制台參數。"
+"ChallengeReject_ModifiedRuleset"	  "自訂難易度 / 規則設定。"
+"ChallengeReject_OutsideMapHack"	  "讀取到自訂 MapHack。"
+"ChallengeReject_OutsideVScript"	  "執行到自訂 VScript。"
+"ChallengeReject_LateValidate"	    "驗證未及時啟用。"
+"ChallengeReject_GameStateCommand"	"曾使用遊戲狀態控制台指令。"
+
 "Hint_Generic_Compass" 				"檢查指示以取得方向與任務目標資訊！請按 %+compass%。"
 "Hint_Generic_CheckAmmo" 			"持續按住 %+reload% 鍵可以檢查彈藥。"
 "Hint_Generic_CheckInventory" 		"持續按住 %+inventory% 可以檢視您的道具欄與武器裝備。"
@@ -315,21 +326,21 @@
 "Hint_Advanced_Shamblers" 					"舉起你的武器為攻擊蓄力幾秒。不要過太久，不然會消耗多餘的體力。每一把武器都會有各自的時機要抓。"
 "Hint_Advanced_Shove" 						"剛加入遊戲時，建議在每一次近身攻擊後按下 %+shove% 鍵將殭屍推開。這可以減少遭受攻擊的可能。"
 "Hint_Advanced_MemorizeAmmo" 				"記熟不同的槍械所使用的彈藥類型。"
-"Hint_Advanced_DontHoard" 					"不要把自己用不到的彈藥囤在自己身上。把它們讓給使用那些槍械的同伴們。"
-"Hint_Advanced_ConserveAmmo" 				"省點子彈。遇上成群的跑屍或者你的路被成堆的蹣步者堵住的時候，都是需要用槍的緊急時刻。"
+"Hint_Advanced_DontHoard" 					"不要把自己用不到的彈藥囤在自己身上。把它們讓給使用對應槍械的同伴們。"
+"Hint_Advanced_ConserveAmmo" 				"省點子彈。遇上成群的跑屍，或是路被成堆的蹣步者阻擋時，都是需要用槍的緊急時刻。"
 "Hint_Advanced_RunnerTrick" 				"跑屍或孩童很難纏嗎？試試看保持前進不要停。"
 "Hint_Advanced_ObjectiveVariation" 			"目標地圖會隨機變化。記得各種路徑可以增加你存活的機會。"
-"Hint_Advanced_FocusOnObjective" 			"在目標地圖中非必要時不要太專注於殺殭屍。完成目標才是重點。"
+"Hint_Advanced_FocusOnObjective" 			"在目標地圖中，除非有必要否則不要專注在殺殭屍。完成目標才是重點。"
 "Hint_Advanced_JumpToAvoidGrab" 			"跳起來的時候殭屍無法抓住你，用這招穿越屍海吧。"
-"Hint_Advanced_InfectionDuration" 			"被感染後，你會在 2 分鐘之後轉化！"
+"Hint_Advanced_InfectionDuration" 			"被感染後，你會在 2 分鐘之內轉化！"
 "Hint_Advanced_Pills" 						"膠囊可以消除並延緩感染症狀 3 分鐘左右。"
 "Hint_Advanced_PillsInfection" 				"在你就要看不到前面的時候服用膠囊，這樣可以為自己多爭取一點時間。"
-"Hint_Advanced_PillsTiming" 				"如果你已遭到感染且即將面臨危險的情況，在視線模糊前就服用膠囊吧。"
+"Hint_Advanced_PillsTiming" 				"如果你已遭到感染且即將面臨危險的情況，那就在視線模糊前就服用膠囊吧。"
 "Hint_Advanced_Medkit" 						"醫療包可以恢復你三分之一的生命值，並且止血。"
-"Hint_Advanced_DontWasteMedkit" 			"如果你的生命值還很高的話請不要隨便浪費醫療包，除非真的有很多。"
-"Hint_Advanced_DontWasteGeneTherapy" 		"沒被感染時不需要用基因治療針，要是你先用了結果被殺了，就白費整個針劑了。"
-"Hint_Advanced_InfectionChance" 			"生命值愈低，被咬傷而感染的機會就愈高。"
-"Hint_Advanced_InfectionOnlyWhenGrabbed" 	"殭屍只有在抓住你咬上幾口的時候感染你。"
+"Hint_Advanced_DontWasteMedkit" 			"如果你的生命值還很高的話，請不要隨便浪費醫療包，除非真的有很多。"
+"Hint_Advanced_DontWasteGeneTherapy" 		"沒被感染時不需要用基因治療劑，要是你先用了結果被殺了，就白費整個針劑了。"
+"Hint_Advanced_InfectionChance" 			"生命值愈低，被咬傷而感染的風險就愈高。"
+"Hint_Advanced_InfectionOnlyWhenGrabbed" 	"殭屍只會在抓住你咬上幾口的時候感染你。"
 "Hint_Advanced_Bandages" 					"繃帶可以恢復你六分之一的生命值並止血，只有在傷口出血的時候可以使用。"
 "Hint_Advanced_Bleeding" 					"流血會緩慢減少你的生命值、使你無法衝刺，還會讓你在做任何動作時更費力。"
 "Hint_Advanced_Suicide" 					"在被感染後你可以舉槍自盡避免自己的屍體爬起來。"
@@ -341,7 +352,7 @@
 "Hint_Advanced_LowStaminaVulnerable" 		"在體力低落的時候你可能讓殭屍趁虛而入，你會無法執行許多防備的動作。"
 "Hint_Advanced_LowStaminaBreathing" 		"當體力低落的時候，你會聽見你的人物吃力的喘息聲。"
 "Hint_Advanced_LowStaminaMovement" 			"當體力低落時，別再衝刺了。在這種情況下你的移動速度會低於你走路的速度。"
-"Hint_Advanced_FlareGunSupplies" 			"在生存地圖向天空發射信號彈可以呼叫補給空投，每發一次。"
+"Hint_Advanced_FlareGunSupplies" 			"在生存地圖，向天空發射信號彈可以呼叫補給空投，每發一次。"
 
 } 
 }
