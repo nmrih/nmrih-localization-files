@@ -27,5 +27,5 @@
 	"nmo_suzhou_Objective20_flarelauncher"		"Найдите способ подать сигнал кораблю"
 	"nmo_suzhou_Objective21_burnbabehburn"		"Найдите немного топлива"
 	"nmo_suzhou_Objecitve22_burnbabehburn_ignite"	"Разожгите костёр в пункте эвакуации с помощью сварочного аппарата, чтобы подать сигнал кораблю!"
-	"nmo_suzhou_Objective23_holdout"		"Спасение уже близко! Выживите!"
+	"nmo_suzhou_Objective23_holdout"		"Спасение уже близко! Продержитесь!"
 }
