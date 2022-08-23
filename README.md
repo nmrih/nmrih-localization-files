@@ -15,5 +15,5 @@ https://partner.steamgames.com/doc/store/localization#supported_languages
 **Korean**: Mr.Halt, AngelHarp, 스팀유저, AlphaCeph, Ren, 제갈선생 \
 **Russian**: [@AtheistNMRiH](https://github.com/AtheistNMRiH), [@Blueberryy](https://github.com/Blueberryy) \
 **Simplified Chinese**: [@Klowby](https://github.com/Klowby) \
-**Spanish**: Holy Crap \
+**Spanish**: [@Holycrapjimhox](https://github.com/Holycrapjimhox) \
 **Turkish**: Dragostai
