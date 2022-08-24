@@ -38,6 +38,8 @@
 
 "NMRiH_BarricadePointBlocked"		"Место для баррикады заблокировано!"
 
+"NMRiH_LevelChanging"			"Карта сменится через %s1..."
+
 "PracticeTimeRemaining"			"Раунд начнётся через %s1"
 "RoundStarting"				"Раунд начинается!"
 
@@ -299,6 +301,15 @@
 "ChallengeTimer_PersonalBest"		"ЛИЧНЫЙ РЕКОРД"
 "ChallengeTimer_NoTime"			"НЕТ"
 "ChallengeTimer_NewRecord"		"НОВЫЙ РЕКОРД!"
+
+"ChallengeInvalid"			"Результаты испытания недействительны!"
+"ChallengeReject_Cheats"		"Были включены читы."
+"ChallengeReject_CvarChanged"		"Консольные переменные были изменены во время игры."
+"ChallengeReject_ModifiedRuleset"	"Модифицированы сложность / режим."
+"ChallengeReject_OutsideMapHack"	"Был загружен пользовательский MapHack скрипт."
+"ChallengeReject_OutsideVScript"	"Был запущен пользовательский VScript."
+"ChallengeReject_LateValidate"		"Проверка результатов была включена слишком поздно."
+"ChallengeReject_GameStateCommand"	"Были использованы команды сущности «nmrih_game_state»."
 
 "Hint_Generic_Compass" 			"Используйте компас для поиска подсказок! Нажмите клавишу %+compass%."
 "Hint_Generic_CheckAmmo" 		"Зажав клавишу %+reload%, вы сможете проверить количество патронов."
