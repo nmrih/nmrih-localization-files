@@ -22,4 +22,6 @@
 	"nmo_rockpit_obj_gen_underground"	"Восстановите питание лифта"
 	"nmo_rockpit_obj_moving"		"Направляйтесь к воротам"
 	"nmo_rockpit_obj_siren"			"Включите сирену, чтобы подать сигнал"
+	"nmo_rockpit_entervan"			"У вас есть 2 минуты, чтобы добраться до машины, иначе вам конец."
+	"nmo_rockpit_rescue"			"Вертолёт уже ищет вас! Будьте готовы."
 }
