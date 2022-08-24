@@ -22,4 +22,6 @@
 	"nmo_rockpit_obj_gen_underground"	"Restore power to the elevator"
 	"nmo_rockpit_obj_moving"	"Make your way towards the gate"
 	"nmo_rockpit_obj_siren"	"Activate a siren to signal your position"
+	"nmo_rockpit_entervan"	"You have 2 minutes to enter the van before you will get overwhelmed."
+	"nmo_rockpit_rescue"	"Rescue is now looking for you! Be ready."
 }
