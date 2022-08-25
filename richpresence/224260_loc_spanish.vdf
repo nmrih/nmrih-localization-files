@@ -1,0 +1,13 @@
+
+"lang"
+{
+	"Language"	"spanish"
+	"Tokens"
+	{
+		"#Status_JoiningServer"	"Conectándose a un Servidor..."
+		"#Status_MainMenu"	"Menu Principal"
+		"#Status_PlayingObjective"	"Jugando Objetivo - %map%"
+		"#Status_PlayingSurvival"	"Jugando Supervivencia - %map%"
+		"#Status_PlayingCustom"	"Jugando Custom - %map%"
+	}
+}

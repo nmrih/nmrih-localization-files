@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "Spanish" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"Encuentra una forma de abrir el portón"
+	"nmo_anxiety_Obj2"	"Busca algo para apagar el fuego y continúa por el tunel"
+	"nmo_anxiety_Obj3"	"Destruye la barricada para continuar hacia la estación"
+	"nmo_anxiety_Obj4"	"Encuentra una forma de abrir el portón de la estación"
+	"nmo_anxiety_Obj5"	"Continúa avanzando y escapa de la estación de metro"
+	"nmo_anxiety_Obj6"	"Busca algo para escalar la reja"
+	"nmo_anxiety_Obj7"	"Usa un soldador para abrir el portón del garage"
+	"nmo_anxiety_Obj8"	"Las llaves de la casa rodante no están. Busca en el hospital"
+	"nmo_anxiety_Obj9"	"Explora para encontrar las llaves de la casa rodante"
+}
