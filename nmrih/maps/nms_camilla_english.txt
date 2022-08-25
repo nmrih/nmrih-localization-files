@@ -1,0 +1,9 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nms_camilla_final"	"Use the radio!"
+	"nms_camilla_text1"	"This is the U.S. Departament of homeland security, we can't extract you just now"
+	"nms_camilla_text2"	"But we can send you supplies by the train. It will cross your town soon, be ready to pick up a crate."
+}

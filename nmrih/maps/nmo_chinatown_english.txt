@@ -9,4 +9,5 @@
 	"nmo_chinatown_sewer_way"	"Find your way through the sewers!"
 	"nmo_chinatown_welder"	"Use welder on the gate's lock to open it!"
 	"nmo_chinatown_docks_finale"	"Power up the radio and call for rescue!"
+	"nmo_chinatown_radio"	"Rescue is coming in 60 seconds. Hang tight!"
 }

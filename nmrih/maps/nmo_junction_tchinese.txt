@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_junction_Street_door"	"逃出庇護所"
+	"nmo_junction_Break_front"	"闖進市場"
+	"nmo_junction_Turn_off_alarm"	"關閉警報鈴"
+	"nmo_junction_Exploding_door"	"設法由巷子進入公寓"
+	"nmo_junction_Use_radio"	"設法呼叫救援"
+	"nmo_junction_Weld_door"	"找出一支焊槍通過倉庫"
+	"nmo_junction_Pawnshop_fense_door"	"打開當鋪的門"
+	"nmo_junction_pawnshop_door_code"	"輸入密碼"
+	"nmo_junction_Office_progress"	"找出大樓的其他出口"
+	"nmo_junction_Find_sewer_key"	"找到下水道鑰匙，頭也不回地逃出城市"
+	"nmo_junction_Finale_tnt"	"在隧道中安裝三組炸藥斷絕後路"
+}

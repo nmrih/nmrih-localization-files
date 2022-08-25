@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_toxteth_ObjF"	"破坏商场正门的木板并到里面去。"
+	"nmo_toxteth_ObjE"	"使用焊枪焊开商场侧面的入口。"
+	"nmo_toxteth_ObjD"	"寻找 TNT 炸药，并配合教堂后面的燃料罐炸穿墙壁。"
+	"nmo_toxteth_ObjC"	"在找到油桶后爆破后花园的墙壁。"
+	"nmo_toxteth_ObjB"	"在电话亭接听陌生来电。"
+	"nmo_toxteth_ObjA"	"到外面的哈丁顿路上去。"
+	"nmo_toxteth_ObjG_1"	"在售货员的尸体旁取得钥匙，然后进入商场后面的仓库办公室。"
+	"nmo_toxteth_ObjG_2"	"在售货员的尸体旁取得钥匙，然后进入商场后面的仓库办公室。"
+	"nmo_toxteth_ObjG_3"	"在售货员的尸体旁取得钥匙，然后进入商场后面的仓库办公室。"
+	"nmo_toxteth_ObjH"	"使用无线电呼叫救援。"
+	"nmo_toxteth_ObjI"	"在电话亭接听陌生来电。"
+	"nmo_toxteth_ObjJ"	"使用焊枪点燃墙上的 3 个插座来制造一场大火！"
+	"nmo_toxteth_ObjK"	"在下水道寻找阀门，并用其打开铁栅栏。"
+	"nmo_toxteth_ObjL"	"到地面的教堂上去。"
+	"nmo_toxteth_ObjM"	"使用焊枪焊开地上的井盖。"
+	"nmo_toxteth_ObjZ"	"原路返回，重新回到哈丁顿路上去。"
+}

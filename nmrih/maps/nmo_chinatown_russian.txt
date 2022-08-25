@@ -1,0 +1,13 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nmo_chinatown_subway_escape"	"Сбегите из метро!"
+	"nmo_chinatown_gate_fix"	"Найдите топливо для генератора, чтобы открыть ворота!"
+	"nmo_chinatown_ladder_dismount"	"Опустите лестницу на блокпосту!"
+	"nmo_chinatown_sewer_way"	"Найдите путь через канализацию!"
+	"nmo_chinatown_welder"		"Используйте сварочный аппарат на замке ворот, чтобы открыть их!"
+	"nmo_chinatown_docks_finale"	"Включите радио и вызовите спасателей!"
+	"nmo_chinatown_radio"		"Спасение прибудет через 60 секунд. Держитесь!"
+}

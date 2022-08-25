@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_junction_Street_door"	"离开安全屋到街道上去。"
+	"nmo_junction_Break_front"	"闯入街道旁的商店。"
+	"nmo_junction_Turn_off_alarm"	"关闭商店里的防盗警报。"
+	"nmo_junction_Exploding_door"	"使用丙烷罐炸开旁边胡同的公寓入口。"
+	"nmo_junction_Use_radio"	"寻找呼叫救援的办法。"
+	"nmo_junction_Weld_door"	"在找到焊枪后前往仓库，并焊开上锁的门。"
+	"nmo_junction_Pawnshop_fense_door"	"破坏Pawnshop当铺的门锁。"
+	"nmo_junction_pawnshop_door_code"	"输入解锁密码。"
+	"nmo_junction_Office_progress"	"在大楼内寻找后备撤离路线。"
+	"nmo_junction_Find_sewer_key"	"继续往下并寻找解锁钥匙，从下水道永远逃离这座城市。"
+	"nmo_junction_Finale_tnt"	"在隧道墙壁上放置三个爆炸物后乘坐卡车逃出生天。"
+}

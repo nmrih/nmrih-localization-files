@@ -27,4 +27,5 @@
 	"nmo_lakeside_use_crank"	"Find and use the crank to open metal door"
 	"nmo_lakeside_power_up"	"Reset the generator and switch"
 	"nmo_lakeside_weld_main_house"	"Weld the lock to the house"
+	"nmo_lakeside_end"		"Get to the boat house. Pick up in 30 seconds!"
 }

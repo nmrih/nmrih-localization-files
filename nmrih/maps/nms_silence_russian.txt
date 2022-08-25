@@ -1,0 +1,7 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nms_silence_truck"	"Грузовик сейчас прибудет! Приготовьтесь!"
+}

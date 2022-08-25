@@ -31,4 +31,11 @@
 	"nmo_broadway2_ObjR"	"Weld gate and get to the roof top for extraction"
 	"nmo_broadway2_ObJS"	"Go down the fire escape to extract via the train"
 	"nmo_broadway2_ObjT"	"Get back to the basketball court for extraction"
+	"nmo_broadway2_5min"	"5 minutes remaining until detonation."
+	"nmo_broadway2_4min"	"4 minutes remaining until detonation."
+	"nmo_broadway2_3min"	"3 minutes remaining until detonation."
+	"nmo_broadway2_2min"	"2 minutes remaining until detonation."
+	"nmo_broadway2_1min"	"1 minute remaining until detonation."
+	"nmo_broadway2_30sec"	"30 seconds remaining until detonation."
+	"nmo_broadway2_getout"	"Get out of there!"
 }

@@ -1,0 +1,20 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_quarantine_obj_gravesite"	"Encontre uma pá e procure combustível no cemitério improvisado"
+	"nmo_quarantine_obj_leavespawn"	"Fuja do beco"
+	"nmo_quarantine_obj_fillup_generator_turn_on"	"Abasteça o gerador e ligue-o"
+	"nmo_quarantine_obj_get_sewer_key"	"Encontre a chave para a sala de manutenção"
+	"nmo_quarantine_obj_get_sewer_crank"	"Encontre a valvula que está faltando e libere a sala de manutenção!"
+	"nmo_quarantine_obj_leave_sewer"	"Fuja dos esgotos"
+	"nmo_quarantine_obj_close_gate"	"Feche o portão de entrada da quarentena aberta para ter acesso à quarentena interna!"
+	"nmo_quarantine_obj_waitfordoor"	"Aguarde a abertura da porta de enrolar"
+	"nmo_quarantine_obj_enter_sewer"	"Entre nos esgotos"
+	"nmo_quarantine_obj_enter_inner_quarantine"	"Entre na quarentena interna antes que a proteção contra falhas seja ativada!"
+	"nmo_quarantine_obj_use_radio"	"Use o rádio!"
+	"nmo_quarantine_obj_get_walkie"	"Pegue o walkie-talkie"
+	"nmo_quarantine_obj_activate_siren"	"Ative a sirene quando estiver pronto"
+	"nmo_quarantine_obj_survive"	"Sobreviva por 2 minutos"
+}

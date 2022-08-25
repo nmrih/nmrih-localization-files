@@ -1,0 +1,20 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_shelter_Objective_1"	"Siga para o salão principal"
+	"nmo_shelter_Objective_2"	"Vá para cima"
+	"nmo_shelter_Objective_3"	"Encontre uma maneira de abrir a sala de controle"
+	"nmo_shelter_Objective_4"	"Use a chave de coração para abrir a porta que liga à sala do lobby (que fica no andar de cima)"
+	"nmo_shelter_Objective_5"	"Encontre uma alavanca e use-a para entrar nos túneis de manutenção"
+	"nmo_shelter_Objective_6"	"Abra a porta que está apontando para os esgotos"
+	"nmo_shelter_Objective_7"	"Procure por pistas"
+	"nmo_shelter_Objective_8"	"Encontre os interruptores"
+	"nmo_shelter_Objective_7_pre"	"Desligue o gás"
+	"nmo_shelter_Objective_5_pre"	"Ative o gerador pressionando o botão na sala de máquinas"
+	"nmo_shelter_Objective_6_pre"	"Desça as escadas para os túneis de manutenção"
+	"nmo_shelter_Objective_7_prepre"	"Destrua a tábua para ter acesso ao esgoto"
+	"nmo_shelter_Objective_pre9"	"Siga pelos túneis"
+	"nmo_shelter_Objective_9"	"Prepare sua rota de fuga!"
+}

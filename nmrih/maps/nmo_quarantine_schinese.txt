@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_quarantine_obj_gravesite"	"在找到铲子后，前往临时墓地挖掘发电机的燃料。"
+	"nmo_quarantine_obj_leavespawn"	"离开胡同，到街道上去。"
+	"nmo_quarantine_obj_fillup_generator_turn_on"	"在添加燃料后启动发电机。"
+	"nmo_quarantine_obj_get_sewer_key"	"在下水道寻找钥匙，并用其解锁泵机旁的维修间。"
+	"nmo_quarantine_obj_get_sewer_crank"	"寻找丢失的阀门，并想办法排光维修间内的积水。"
+	"nmo_quarantine_obj_leave_sewer"	"逃离下水道。"
+	"nmo_quarantine_obj_close_gate"	"先关闭外侧隔离区的入口大门，然后前往内侧隔离区！"
+	"nmo_quarantine_obj_waitfordoor"	"等待旁边的卷帘门开启。"
+	"nmo_quarantine_obj_enter_sewer"	"穿过仓库，前往下水道。"
+	"nmo_quarantine_obj_enter_inner_quarantine"	"在故障保护装置启动前，赶快进入内侧隔离区！"
+	"nmo_quarantine_obj_use_radio"	"使用无线电呼叫救援！"
+	"nmo_quarantine_obj_get_walkie"	"讲桌上的对讲机拿起来。"
+	"nmo_quarantine_obj_activate_siren"	"在一切都准备好后，启动警报。"
+	"nmo_quarantine_obj_survive"	"在 2 分钟内尽全力保持生还！"
+	"nmo_quarantine_50sec"	"在爆炸启动前，你有 50 秒的时间来进入内侧隔离区。"
+	"nmo_quarantine_10sec"	"仅剩最后 10 秒钟。"
+}

@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nmo_boardwalk_Objectives_Radio"	"Используйте радио для вызова помощи"
+	"nmo_boardwalk_Objectives_Door"		"Найдите ключ, чтобы открыть дверь"
+	"nmo_boardwalk_Objectives_Survive"	"Выжить"
+	"nmo_boardwalk_Objectives_Secure"	"Продержитесь до прибытия помощи"
+	"nmo_boardwalk_Objectives_Propane"	"Прорвите баррикаду"
+	"nmo_boardwalk_Objectives_Can"		"Сожгите препятствие"
+	"nmo_boardwalk_Objectives_Gauntlet"	"Доберитесь до убежища"
+	"nmo_boardwalk_Objectives_Signal"	"Зажгите сигнальный огонь"
+}

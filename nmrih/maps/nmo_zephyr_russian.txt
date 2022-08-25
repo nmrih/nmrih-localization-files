@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nmo_zephyr_objective1_leavebuilding"		"Найдите код и сбегите из офисного здания"
+	"nmo_zephyr_objective2_blowwarehouse"		"Найдите способ попасть на склад"
+	"nmo_zephyr_objective2a_sewertime"		"Найдите инструмент, чтобы открыть люк"
+	"nmo_zephyr_objective2b_blowtorchsewer"		"Расплавьте решётку с помощью сварочного аппарата"
+	"nmo_zephyr_objective3_warehouseelevator"	"Включите лифт и поднимитесь на верхний этаж"
+	"nmo_zephyr_objective4_pickupwalkie"		"Возьмите рацию"
+	"nmo_zephyr_objective5a_2710"			"Код к двери 2710"
+	"nmo_zephyr_objective5d_powerup"		"Найдите топливо для генератора"
+	"nmo_zephyr_Objective5b_2606"			"Код к двери 2606"
+	"nmo_zephyr_Objective5c_1901"			"Код к двери 1901"
+	"nmo_zephyr_objective6_activate"		"Переключите поворотный круг"
+	"nmo_zephyr_objective6a_unclog"			"Прочистите механизм поворотного круга"
+	"nmo_zephyr_objective7_switch1"			"Используйте переключатель позади локомотива"
+	"nmo_zephyr_objective8_switchdasequel"		"Используйте другой переключатель"
+	"nmo_zephyr_objective9_brakes"			"Отпустите ручной тормоз"
+	"nmo_zephyr_objective10_allaboard"		"Сообщите инженеру по радио о готовности"
+}

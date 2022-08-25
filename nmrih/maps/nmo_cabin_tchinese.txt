@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_cabin_objStart"	"離開閣樓"
+	"nmo_cabin_ObjA"	"找到鑰匙開門"
+	"nmo_cabin_ObjB"	"破壞木板繼續前進"
+	"nmo_cabin_ObjC"	"家庭就是答案，找到秘密書籍"
+	"nmo_cabin_ObjD"	"打開樓梯大門"
+	"nmo_cabin_ObjE"	"炸開小屋的牆壁"
+	"nmo_cabin_ObjF"	"將書本放上書架"
+	"nmo_cabin_ObjG"	"焊開廚房門"
+	"nmo_cabin_ObjH"	"重新連接電話線"
+	"nmo_cabin_ObjI"	"尋找汽車電瓶、啟動發電機並呼叫救援！"
+	"nmo_cabin_ObjG2"	"通過地下區域"
+}

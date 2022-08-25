@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"想办法穿过站台前方上锁的卷帘门。"
+	"nmo_anxiety_Obj2"	"前往下水道寻找灭火器，扑灭挡路的大火。"
+	"nmo_anxiety_Obj3"	"破坏铁路尽头的路障并进入下一个车站。"
+	"nmo_anxiety_Obj4"	"寻找钥匙并解锁入口方向的安全门。"
+	"nmo_anxiety_Obj5"	"离开地铁站，到地面上去。"
+	"nmo_anxiety_Obj6"	"沿着撤离标识继续前进，并用梯子翻越栅栏。"
+	"nmo_anxiety_Obj7"	"使用焊枪打开停车场的大门。"
+	"nmo_anxiety_Obj8"	"寻找能解锁医院正门的钥匙并到里面去。"
+	"nmo_anxiety_Obj9"	"在医院里找到车钥匙后，乘坐外面的休闲车逃出生天。"
+}

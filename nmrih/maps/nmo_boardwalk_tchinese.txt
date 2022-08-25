@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_boardwalk_Objectives_Radio"	"使用無線電呼叫救援"
+	"nmo_boardwalk_Objectives_Door"	"找到開門的鑰匙"
+	"nmo_boardwalk_Objectives_Survive"	"活下去"
+	"nmo_boardwalk_Objectives_Secure"	"守住位置等待救援抵達"
+	"nmo_boardwalk_Objectives_Propane"	"通過障礙物"
+	"nmo_boardwalk_Objectives_Can"	"燒開阻礙物"
+	"nmo_boardwalk_Objectives_Gauntlet"	"設法通往藏身處"
+	"nmo_boardwalk_Objectives_Signal"	"點燃信號火焰"
+}

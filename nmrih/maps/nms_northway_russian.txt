@@ -1,0 +1,12 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nms_northway_work"	"Двери снова работают! Закройте все шесть входов в это здание!"
+	"nms_northway_5"	"Осталось 5 дверей!"
+	"nms_northway_4"	"Осталось 4 двери!"
+	"nms_northway_3"	"Осталось 3 двери!"
+	"nms_northway_2"	"Осталось 2 двери!"
+	"nms_northway_1"	"Осталась 1 дверь!"
+}

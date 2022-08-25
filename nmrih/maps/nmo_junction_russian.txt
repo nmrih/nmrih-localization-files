@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nmo_junction_Street_door"		"Выберитесь из безопасного убежища"
+	"nmo_junction_Break_front"		"Проникните в магазин"
+	"nmo_junction_Turn_off_alarm"		"Выключите сигнализацию"
+	"nmo_junction_Exploding_door"		"Попадите в здание через переулок"
+	"nmo_junction_Use_radio"		"Найдите способ позвать на помощь"
+	"nmo_junction_Weld_door"		"Найдите сварочный аппарат, чтобы пройти через склад"
+	"nmo_junction_Pawnshop_fense_door"	"Откройте дверь в ломбард"
+	"nmo_junction_pawnshop_door_code"	"Введите код доступа"
+	"nmo_junction_Office_progress"		"Найдите другой выход из здания"
+	"nmo_junction_Find_sewer_key"		"Найдите ключ от канализации и покиньте город"
+	"nmo_junction_Finale_tnt"		"Установите три взрывчатки в туннеле, чтобы обезопасить свой побег"
+}

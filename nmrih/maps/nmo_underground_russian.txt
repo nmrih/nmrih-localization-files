@@ -1,0 +1,21 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nmo_underground_Open_The_Door"		"Найдите способ открыть дверь!"
+	"nmo_underground_Fence_Welder"		"Проварите путь через решётку!"
+	"nmo_underground_Find_Dinamite"		"Найдите динамит и взорвите стену!"
+	"nmo_underground_Elevator"		"Включите лифт!"
+	"nmo_underground_Last_Objective"	"Используйте все найденные предметы!"
+	"nmo_underground_HelicopterCome"	"Ждите вертолёта!"
+	"nmo_underground_PushTheCart"		"Толкайте тележку!"
+	"nmo_underground_LootSmokeGrenade"	"Найдите дымовую гранату!"
+	"nmo_underground_FindCodeLootPaint"	"Найдите код в офисном здании и найдите банку с краской!"
+	"nmo_underground_LootCarBattery"	"Найдите аккумулятор машины!"
+	"nmo_underground_LootPaint"		"Найдите банку с краской!"
+	"nmo_underground_plugs"			"Подсоедините штепсели!"
+	"nmo_underground_car"			"Толкайте машину!"
+	"nmo_underground_sos"			"Нарисуйте знак «S.O.S»!"
+	"nmo_underground_gen"			"Включите генератор!"
+}

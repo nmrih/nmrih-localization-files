@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nmo_quarantine_obj_gravesite"			"Найдите лопату и выкопайте топливо на временном кладбище"
+	"nmo_quarantine_obj_leavespawn"			"Покиньте переулок"
+	"nmo_quarantine_obj_fillup_generator_turn_on"	"Заправьте генератор топливом и включите его"
+	"nmo_quarantine_obj_get_sewer_key"		"Найдите ключ от машинного отделения"
+	"nmo_quarantine_obj_get_sewer_crank"		"Найдите недостающий рычаг и осушите машинное отделение!"
+	"nmo_quarantine_obj_leave_sewer"		"Выберитесь из канализации"
+	"nmo_quarantine_obj_close_gate"			"Закройте открытые входные ворота, чтобы пройти во внутреннюю карантинную зону!"
+	"nmo_quarantine_obj_waitfordoor"		"Подождите, пока откроется подъёмная дверь"
+	"nmo_quarantine_obj_enter_sewer"		"Проникните в канализацию"
+	"nmo_quarantine_obj_enter_inner_quarantine"	"Проникните во внутреннюю карантинную зону до того, как сработает система безопасности!"
+	"nmo_quarantine_obj_use_radio"			"Воспользуйтесь радио!"
+	"nmo_quarantine_obj_get_walkie"			"Возьмите рацию"
+	"nmo_quarantine_obj_activate_siren"		"Включите сирену, когда будете готовы"
+	"nmo_quarantine_obj_survive"			"Выжить в течение 2 минут"
+	"nmo_quarantine_50sec"				"У вас есть 50 секунд, чтобы попасть в карантинную зону до взрыва."
+	"nmo_quarantine_10sec"				"Осталось 10 секунд."
+}

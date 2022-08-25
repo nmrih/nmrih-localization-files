@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_boardwalk_Objectives_Radio"	"Use o rádio para pedir ajuda"
+	"nmo_boardwalk_Objectives_Door"	"Encontre uma chave para abrir a porta"
+	"nmo_boardwalk_Objectives_Survive"	"Sobreviva"
+	"nmo_boardwalk_Objectives_Secure"	"Espere até que a ajuda chegue"
+	"nmo_boardwalk_Objectives_Propane"	"Rompa a barricada"
+	"nmo_boardwalk_Objectives_Can"	"Queime a obstrução"
+	"nmo_boardwalk_Objectives_Gauntlet"	"Faça o seu caminho para a casa segura"
+	"nmo_boardwalk_Objectives_Signal"	"Acenda um sinal de fogo"
+}

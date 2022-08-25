@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nmo_toxtethdark_ObjF"		"Проникните в магазин"
+	"nmo_toxtethdark_ObjE"		"Проварите путь через боковой вход магазина"
+	"nmo_toxtethdark_ObjD"		"Используйте динамит, чтобы пройти в магазин"
+	"nmo_toxtethdark_ObjC"		"Найдите топливный бак, чтобы пробить стену"
+	"nmo_toxtethdark_ObjB"		"Ответьте на звонок"
+	"nmo_toxtethdark_ObjA"		"Выйдите на дорогу Хартингтон"
+	"nmo_toxtethdark_ObjG_1"	"Найдите тело мёртвого сотрудника, чтобы войти в офис склада"
+	"nmo_toxtethdark_ObjG_2"	"Найдите тело мёртвого сотрудника, чтобы войти в офис склада"
+	"nmo_toxtethdark_ObjG_3"	"Найдите тело мёртвого сотрудника, чтобы войти в офис склада"
+	"nmo_toxtethdark_ObjH"		"Вызовите помощь"
+	"nmo_toxtethdark_ObjI"		"Ответьте на звонок"
+	"nmo_toxtethdark_ObjJ"		"Используйте сварочный аппарат на 3 настенных розетках, чтобы вызвать пожар!"
+	"nmo_toxtethdark_ObjK"		"Найдите рычаг, чтобы открыть дверь"
+	"nmo_toxtethdark_ObjL"		"Пройдите к часовне"
+	"nmo_toxtethdark_ObjM"		"Используйте сварочный аппарат на крышке люка"
+	"nmo_toxtethdark_ObjZ"		"Вернитесь на дорогу Хартингтон"
+}

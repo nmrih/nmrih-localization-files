@@ -17,4 +17,6 @@
 	"nmo_quarantine_obj_get_walkie"	"Take the walkie talkie"
 	"nmo_quarantine_obj_activate_siren"	"Activate the siren when ready"
 	"nmo_quarantine_obj_survive"	"Survive for 2 minutes"
+	"nmo_quarantine_50sec"	"You have 50 seconds to get into the quarantine before the explosion."
+	"nmo_quarantine_10sec"	"10 seconds left."
 }

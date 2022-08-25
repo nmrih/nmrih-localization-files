@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"設法通過鐵捲門"
+	"nmo_anxiety_Obj2"	"撲滅火勢"
+	"nmo_anxiety_Obj3"	"破壞障礙物"
+	"nmo_anxiety_Obj4"	"升起大門"
+	"nmo_anxiety_Obj5"	"離開地鐵站"
+	"nmo_anxiety_Obj6"	"使用梯子爬過圍籬"
+	"nmo_anxiety_Obj7"	"用焊槍進入車庫"
+	"nmo_anxiety_Obj8"	"打開醫院的門鎖"
+	"nmo_anxiety_Obj9"	"找到露營車的鑰匙"
+}

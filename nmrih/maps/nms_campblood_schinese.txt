@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nms_campblood_45sec"	"渡船将在 45 秒后抵达..."
+	"nms_campblood_welcome"	"欢迎来到血腥营地"
+}

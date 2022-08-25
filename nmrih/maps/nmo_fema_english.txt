@@ -33,4 +33,10 @@
 	"nmo_fema_Objective35"	"Keep the diesel pumping"
 	"nmo_fema_Objective36"	"Use a welder to cut open the quarantine door"
 	"nmo_fema_Objective37"	"Use a ladder to sneak inside the quarantine"
+	"nmo_fema_msg1"		"Sterilisation countdown initiated."
+	"nmo_fema_30sec"	"30 seconds until sterilisation."
+	"nmo_fema_20sec"	"20 seconds until sterilisation."
+	"nmo_fema_10sec"	"10 seconds until sterilisation."
+	"nmo_fema_5sec"		"5 seconds until sterilisation."
+	"nmo_fema_kill"		"Initiating sterilisation..."
 }

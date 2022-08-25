@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_toxteth_ObjF"	"闖進商場"
+	"nmo_toxteth_ObjE"	"焊開商場的側門"
+	"nmo_toxteth_ObjD"	"使用炸藥通過，前往商場"
+	"nmo_toxteth_ObjC"	"找汽油桶來炸開花園的牆"
+	"nmo_toxteth_ObjB"	"接起電話"
+	"nmo_toxteth_ObjA"	"前往哈廷頓路"
+	"nmo_toxteth_ObjG_1"	"在死去的店員身上尋找進入倉庫辦公室的鑰匙"
+	"nmo_toxteth_ObjG_2"	"在死去的店員身上尋找進入倉庫辦公室的鑰匙"
+	"nmo_toxteth_ObjG_3"	"在死去的店員身上尋找進入倉庫辦公室的鑰匙"
+	"nmo_toxteth_ObjH"	"呼叫救援"
+	"nmo_toxteth_ObjI"	"接起電話"
+	"nmo_toxteth_ObjJ"	"對 3 個插座使用焊槍引發火災！"
+	"nmo_toxteth_ObjK"	"尋找閥門來開門"
+	"nmo_toxteth_ObjL"	"前往教堂"
+	"nmo_toxteth_ObjM"	"使用焊槍開啟人孔蓋"
+	"nmo_toxteth_ObjZ"	"回到哈廷頓路"
+}

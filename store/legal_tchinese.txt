@@ -1,0 +1,2 @@
+使用 FMOD 音效系統，版權所屬 © Firelight Technologies Pty, Ltd., 1994-2016.
+© 2013-2016 版權由 Lever Games 所屬，並保留所有權利。

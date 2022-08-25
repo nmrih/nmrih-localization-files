@@ -1,0 +1,13 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_chinatown_subway_escape"	"逃出地鐵站！"
+	"nmo_chinatown_gate_fix"	"尋找發電機燃料打開大門！"
+	"nmo_chinatown_ladder_dismount"	"放下路障的梯子！"
+	"nmo_chinatown_sewer_way"	"設法通過下水道！"
+	"nmo_chinatown_welder"	"使用焊槍破壞大門鎖頭並開門！"
+	"nmo_chinatown_docks_finale"	"啟動對講機電源並呼叫救援！"
+	"nmo_chinatown_radio"	"救援將於 60 秒內抵達，撐下去！"
+}

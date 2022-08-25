@@ -1,0 +1,7 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nms_silence_truck"	"The truck is coming! Get ready!"
+}

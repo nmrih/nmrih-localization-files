@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"Derreta o cadeado dos portões"
+	"nmo_anxiety_Obj2"	"Apague o fogo"
+	"nmo_anxiety_Obj3"	"Quebre a barricada"
+	"nmo_anxiety_Obj4"	"Levante o portão"
+	"nmo_anxiety_Obj5"	"Saia da estação de metrô"
+	"nmo_anxiety_Obj6"	"Suba a cerca com uma escada"
+	"nmo_anxiety_Obj7"	"Use o maçarico para entrar na garagem"
+	"nmo_anxiety_Obj8"	"Destranque as portas do hospital"
+	"nmo_anxiety_Obj9"	"Encontre as chaves do veículo recreativo"
+}

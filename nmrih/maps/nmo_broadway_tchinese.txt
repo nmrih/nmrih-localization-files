@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "Tchinese" 
+"Tokens" 
+{
+	"nmo_broadway_objA"	"破壞門鎖"
+	"nmo_broadway_objB1"	"找到適當的方法，通過汽車旅館的側門"
+	"nmo_broadway_objB_1"	"找到前往地下室的方法"
+	"nmo_broadway_objC"	"找出電影院後門的鑰匙"
+	"nmo_broadway_objD"	"找出電瓶，裝進貨車"
+	"nmo_broadway_objD_1"	"找出電瓶，裝進貨車"
+	"nmo_broadway_objE"	"找到鑰匙通過酒吧"
+	"nmo_broadway_objF"	"將灑水器打開"
+	"nmo_broadway_objG1"	"找到倉庫門的把手"
+	"nmo_broadway_objH"	"設法進入主管辦公室呼救"
+	"nmo_broadway_objI"	"焊開汽車旅館側門"
+}

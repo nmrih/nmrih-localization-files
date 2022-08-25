@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_junction_Street_door"	"Fuja do porto seguro"
+	"nmo_junction_Break_front"	"Invada o mercado"
+	"nmo_junction_Turn_off_alarm"	"Desligue o alarme de segurança"
+	"nmo_junction_Exploding_door"	"Ganhe acesso aos apartamentos pelo beco"
+	"nmo_junction_Use_radio"	"Encontre uma maneira de pedir ajuda"
+	"nmo_junction_Weld_door"	"Encontre um maçarico para passar pelo armazém"
+	"nmo_junction_Pawnshop_fense_door"	"Abra a porta da casa de penhores"
+	"nmo_junction_pawnshop_door_code"	"Digite o código de acesso"
+	"nmo_junction_Office_progress"	"Encontre uma saída alternativa do prédio"
+	"nmo_junction_Find_sewer_key"	"Encontre a chave do esgoto e fuja da cidade"
+	"nmo_junction_Finale_tnt"	"Coloque três explosivos no túnel para garantir sua fuga"
+}

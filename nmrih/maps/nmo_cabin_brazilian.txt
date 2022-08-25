@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_cabin_objStart"	"Saia do sótão"
+	"nmo_cabin_ObjA"	"Encontre as chaves para destrancar a porta"
+	"nmo_cabin_ObjB"	"Quebre as tábuas para prosseguir"
+	"nmo_cabin_ObjC"	"Família é a resposta, encontre o livro secreto"
+	"nmo_cabin_ObjD"	"Libere o portão da escada"
+	"nmo_cabin_ObjE"	"Exploda a parede da cabine"
+	"nmo_cabin_ObjF"	"Insira o livro na estante"
+	"nmo_cabin_ObjG"	"Use o maçarico na porta da cozinha"
+	"nmo_cabin_ObjH"	"Reconecte a linha telegráfica"
+	"nmo_cabin_ObjI"	"Encontre a bateria do carro, ligue o gerador e peça ajuda!"
+	"nmo_cabin_ObjG2"	"Siga pelo subterrâneo"
+}

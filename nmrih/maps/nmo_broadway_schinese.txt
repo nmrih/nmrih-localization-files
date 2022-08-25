@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_broadway_objA"	"破坏汽车旅馆楼下铁丝网的门锁。"
+	"nmo_broadway_objB1"	"闯入汽车旅馆的侧门，在里面找一些能派上用场的东西。"
+	"nmo_broadway_objB_1"	"寻找前往地下室的办法。"
+	"nmo_broadway_objC"	"到电影院里去，并寻找打开后门的钥匙。"
+	"nmo_broadway_objD"	"寻找汽车电池并发动仓库里的卡车。"
+	"nmo_broadway_objD_1"	"寻找汽车电池并发动仓库里的卡车。"
+	"nmo_broadway_objE"	"穿过地下室继续前进，并在路上找到解锁酒吧的钥匙。"
+	"nmo_broadway_objF"	"打开超市墙上的喷水灭火装置。"
+	"nmo_broadway_objG1"	"在附近寻找拉杆，并打开铁丝网后超市仓库的侧门。"
+	"nmo_broadway_objH"	"找到进入经理办公室的密码后，呼叫撤离救援。"
+	"nmo_broadway_objI"	"使用焊枪打开Motel汽车旅馆的侧门。"
+}

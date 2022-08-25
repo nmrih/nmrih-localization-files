@@ -1,0 +1,12 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nms_northway_work"	"大門控制系統運作了！關閉這棟建築全部 6 個入口！"
+	"nms_northway_5"	"還有 5 扇門！"
+	"nms_northway_4"	"還有 4 扇門！"
+	"nms_northway_3"	"還有 3 扇門！"
+	"nms_northway_2"	"還有 2 扇門！"
+	"nms_northway_1"	"還有 1 扇門！"
+}
