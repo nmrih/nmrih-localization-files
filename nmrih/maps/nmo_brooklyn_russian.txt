@@ -15,7 +15,7 @@
 	"nmo_brooklyn_Objective5"	"Используйте С.В.У., чтобы взорвать окно участка"
 	"nmo_brooklyn_Objective4"	"Найдите предохранитель и восстановите питание лифта"
 	"nmo_brooklyn_Objective3"	"Найдите пароль для ворот зоны ожидания"
-	"nmo_brooklyn_Objective2"	"Отключите блокировку сального порта"
+	"nmo_brooklyn_Objective2"	"Отключите блокировку ворот"
 	"nmo_brooklyn_Objective1"	"Используйте ключ, чтобы отпереть дверь камеры"
 	"nmo_brooklyn_objective18"	"Толкайте тележку"
 	"nmo_brooklyn_objective9"	"Прикрепите крюк, чтобы Микки мог опустить забор."
