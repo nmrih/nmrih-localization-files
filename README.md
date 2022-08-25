@@ -10,7 +10,7 @@ If you wish to translate the game to new language, please view the supported lan
 https://partner.steamgames.com/doc/store/localization#supported_languages
 
 ## List of contributors
-**Brazilian**: [@marcielcps](https://github.com/marcielcps) \
+**Portuguese**: [@marcielcps](https://github.com/marcielcps) \
 **Czech**: "I don't remember" \
 **Korean**: Mr.Halt, AngelHarp, 스팀유저, AlphaCeph, Ren, 제갈선생 \
 **Russian**: [@AtheistNMRiH](https://github.com/AtheistNMRiH), [@Blueberryy](https://github.com/Blueberryy) \
