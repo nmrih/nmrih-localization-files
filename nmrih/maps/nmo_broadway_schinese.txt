@@ -8,7 +8,7 @@
 	"nmo_broadway_objB_1"	"寻找前往地下室的办法。"
 	"nmo_broadway_objC"	"到电影院里去，并寻找打开后门的钥匙。"
 	"nmo_broadway_objD"	"寻找汽车电池并发动仓库里的卡车。"
-	"nmo_broadway_objD_1"	"寻找汽车电池并发动仓库里的卡车。"
+	"nmo_broadway_objD_1"	"将丙烷罐带到餐馆去。"
 	"nmo_broadway_objE"	"穿过地下室继续前进，并在路上找到解锁酒吧的钥匙。"
 	"nmo_broadway_objF"	"打开超市墙上的喷水灭火装置。"
 	"nmo_broadway_objG1"	"在附近寻找拉杆，并打开铁丝网后超市仓库的侧门。"
