@@ -306,10 +306,10 @@
 "ChallengeReject_Cheats"		"Были включены читы."
 "ChallengeReject_CvarChanged"		"Консольные переменные были изменены во время игры."
 "ChallengeReject_ModifiedRuleset"	"Модифицированы сложность / режим."
-"ChallengeReject_OutsideMapHack"	"Был загружен пользовательский MapHack скрипт."
-"ChallengeReject_OutsideVScript"	"Был запущен пользовательский VScript."
+"ChallengeReject_OutsideMapHack"	"Был загружен пользовательский скрипт MapHack."
+"ChallengeReject_OutsideVScript"	"Был запущен пользовательский скрипт VScript."
 "ChallengeReject_LateValidate"		"Проверка результатов была включена слишком поздно."
-"ChallengeReject_GameStateCommand"	"Были использованы команды сущности «nmrih_game_state»."
+"ChallengeReject_GameStateCommand"	"Были использованы команды энтити «nmrih_game_state»."
 
 "Hint_Generic_Compass" 			"Используйте компас для поиска подсказок! Нажмите клавишу %+compass%."
 "Hint_Generic_CheckAmmo" 		"Зажав клавишу %+reload%, вы сможете проверить количество патронов."
