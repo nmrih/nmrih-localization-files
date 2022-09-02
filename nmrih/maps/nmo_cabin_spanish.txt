@@ -1,0 +1,17 @@
+"lang" 
+{ 
+"Language" "Spanish" 
+"Tokens" 
+{
+	"nmo_cabin_objStart"	"Escapa del ático"
+	"nmo_cabin_ObjA"	"Encuentra una llave para abrir la puerta"
+	"nmo_cabin_ObjB"	"Rompe los tablones para abrir la puerta"
+	"nmo_cabin_ObjC"	"La familia es la clave, encuentra el libro secreto"
+	"nmo_cabin_ObjD"	"Abre la reja de las escaleras"
+	"nmo_cabin_ObjE"	"Busca un explosivo para destruir la pared"
+	"nmo_cabin_ObjF"	"Inserta el libro en la estantería"
+	"nmo_cabin_ObjG"	"Abre la puerta de la cocina con un soldador"
+	"nmo_cabin_ObjH"	"Reconecta la línea telefónica para pedir ayuda"
+	"nmo_cabin_ObjI"	"¡Busca una batería para encender el generador y pide ayuda por radio!"
+	"nmo_cabin_ObjG2"	"Avanza por la sección subterránea"
+}
