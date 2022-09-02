@@ -1,0 +1,13 @@
+"lang" 
+{ 
+"Language" "Spanish" 
+"Tokens" 
+{
+	"nmo_chinatown_subway_escape"	"Escapa de la estación de metro"
+	"nmo_chinatown_gate_fix"	"Busca combustible para encender el generador y abrir el portón"
+	"nmo_chinatown_ladder_dismount"	"Libera la escalera de la barricada"
+	"nmo_chinatown_sewer_way"	"Avanza por las alcantarillas"
+	"nmo_chinatown_welder"	"Usa un soldador para abrir la reja del muelle"
+	"nmo_chinatown_docks_finale"	"¡Reconecta la electricidad a la radio y pide un rescate!"
+	"nmo_chinatown_radio"	"El rescate llegará en 60 segundos. ¡Sobrevive!"
+}
