@@ -38,6 +38,8 @@
 
 "NMRiH_BarricadePointBlocked"		"O ponto da barricada está bloqueado!"
 
+"NMRiH_LevelChanging"				"Mudando mapa em %s1 segundo(s)..."
+
 "PracticeTimeRemaining"			"Partida começando em %s1"
 "RoundStarting"				"Partida Começando!"
 
@@ -299,6 +301,15 @@
 "ChallengeTimer_PersonalBest"	"MELHOR PESSOAL"
 "ChallengeTimer_NoTime"	"SEM TEMPO"
 "ChallengeTimer_NewRecord"	"NOVO RECORDE!"
+
+"ChallengeInvalid"	"Resultado do desafio invalidado!"
+"ChallengeReject_Cheats"	"Trapaças foram ativadas."
+"ChallengeReject_CvarChanged"	"Jogabilidade ConVar mudou no meio de uma partida."
+"ChallengeReject_ModifiedRuleset"	"Dificuldade / conjunto de regras modificado."
+"ChallengeReject_OutsideMapHack"	"Script MapHack personalizado carregado."
+"ChallengeReject_OutsideVScript"	"Um VScript personalizado foi executado."
+"ChallengeReject_LateValidate"	"A validação foi ativada com atraso."
+"ChallengeReject_GameStateCommand"	"O comando do console de estado do jogo foi usado."
 
 "Hint_Generic_Compass" "Verifique sua bússola para os objetivos! Pressione %+compass%."
 "Hint_Generic_CheckAmmo" "Você pode verificar sua munição segurando a tecla %+reload%."

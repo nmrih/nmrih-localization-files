@@ -1,0 +1,17 @@
+"lang" 
+	{ 
+	"Language" "Spanish" 
+	"Tokens" 
+	{
+		"nmo_broadway_objA"	"Rompe el candado de la reja"
+		"nmo_broadway_objB1"	"Encuentra algo útil para destruir la puerta lateral del motel"
+		"nmo_broadway_objB_1"	"Encuentra un camino hacia el sótano"
+		"nmo_broadway_objC"	"Encuentra la llave de la puerta trasera del cine"
+		"nmo_broadway_objD"	"Encuentra una batería para encender la camioneta"
+		"nmo_broadway_objD_1"	"Lleva el tanque de propano al café"
+		"nmo_broadway_objE"	"Avanza hacia el bar, encuentra la llave de la calle"
+		"nmo_broadway_objF"	"Enciende los aspersores"
+		"nmo_broadway_objG1"	"Encuentra la palanca de la puerta del depósito"
+		"nmo_broadway_objH"	"Logra entrar a la oficina del gerente para pedir ayuda"
+		"nmo_broadway_objI"	"Usa un soldador para abrir la puerta lateral del motel"
+	}
