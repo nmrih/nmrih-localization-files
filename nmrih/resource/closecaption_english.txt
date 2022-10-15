@@ -899,85 +899,85 @@
 		// Dialogue
 	
 		// Generic
-		"Heli.Approach_Alert_NoAccent"	"This is the National Guard, if there's any survivors, we'll be there in 30 seconds!"
-		"Heli.Approach_Alert_US"	"This is the National Guard, if there's any survivors, we'll be there in 30 seconds!"
-		"Heli.Arrival1min_NoAccent"	"This is the National Guard, we're here but we can't stay long. You got one minute."
-		"Heli.Arrival1min_US"	"This is the National Guard, we have landed but we are not staying for long. You got one minute."
-		"Heli.Departure_NoAccent"	"Alright, we got to get going we're almost out of fuel. If anyone is still alive out there, good luck."
-		"Heli.Departure_US"	"We're outta here you're on your own! I'm sorry!"
+		"Heli.Approach_Alert_NoAccent"	"<len:1.7>This is the National Guard, <delay:1.9><len:4>if there's any survivors, we'll be there in 30 seconds!"
+		"Heli.Approach_Alert_US"	"<len:1.5>This is the National Guard, <delay:1.6><len:3.6>if there's any survivors, we'll be there in 30 seconds!"
+		"Heli.Arrival1min_NoAccent"	"<len:3.3>This is the National Guard, we're here but we can't stay long. <delay:3.5><len:1.3>You got one minute."
+		"Heli.Arrival1min_US"	"<len:3.7>This is the National Guard, we have landed but we are not staying for long. <delay:3.8><len:1.5>You got one minute."
+		"Heli.Departure_NoAccent"	"<len:2.5>Alright, we got to get going we're almost out of fuel. <delay:3.1><len:1.9>If anyone is still alive out there, <delay:5.2><len:1.1>good luck."
+		"Heli.Departure_US"	"<len:2.2>We're outta here you're on your own! <delay:2.6><len:1.4>I'm sorry!"
 		"GenericVoice.YouFoundIt"	"Hell kick-ass, looks like you found it!"
 	
 		// Broadway2
-		"Broadway2Voice.Extraction"	"Attention, attention. If you can hear me, you need to get to the rooftop and await extraction ASAP. You have five minutes until the government drops a bomb. Please, get out of there."
+		"Broadway2Voice.Extraction"	"<len:2.1>Attention, attention. <delay:2.7><len:4.7>If you can hear me, you need to get to the rooftop and await extraction ASAP. <delay:8><len:2.9>You have five minutes until the government drops a bomb. <delay:11.8><len:2.7>Please, get out of there."
 		
 		// Brooklyn
 		"brooklyn_voice.01"	"Hey thanks for dropping in, you wanna give me a hand here?"
 		"brooklyn_voice.02"	"What the fuck?! The gates got no power, we need fix it so we can get outta this shithole!"
 		"brooklyn_voice.03"	"Good thinking! Get it tied up so we can pull it down."
-		"brooklyn_voice.04"	"Hey guys! Good to see I'm not the only meat out here that ain't rotten! I'm all for getting out of this shithole, but we need to pull down that fence outside so we can get through."
-		"brooklyn_voice.05"	"Yeah, thanks man! Look, I'll see if I can get this truck started, but if we're getting out of here, we're gonna need supplies. I saw an old handcart near the alley across the street, with that we can probably get all we need from what's left of the neighborhood."
-		"brooklyn_voice.06"	"Alright, you're still alive! Come on load up the van, we're drawing a crowd here."
-		"brooklyn_voice.07"	"Alright, we're almost out of this shithole! We need to find the override controls to the gate, it can't be too far from here."
+		"brooklyn_voice.04"	"<len:3.7>Hey guys! Good to see I'm not the only meat out here that ain't rotten! <delay:3.8><len:4.8>I'm all for getting out of this shithole, but we need to pull down that fence outside so we can get through."
+		"brooklyn_voice.05"	"<len:1.5>Yeah, thanks man! <delay:1.5><len:2.4>Look, I'll see if I can get this truck started, <delay:4><len:2.4>but if we're getting out of here, we're gonna need supplies. <delay:6.5><len:2.3>I saw an old handcart near the alley across the street, <delay:8.9><len:3.3>with that we can probably get all we need from what's left of the neighborhood."
+		"brooklyn_voice.06"	"<len:2>Alright, you're still alive! <delay:2><len:2.8>Come on load up the van, we're drawing a crowd here."
+		"brooklyn_voice.07"	"<len:2.2>Alright, we're almost out of this shithole! <delay:2.2><len:2.4>We need to find the override controls to the gate, <delay:4.6><len:1.8>it can't be too far from here."
 		"brooklyn_voice.08"	"<I>COME ON <clr:255,0,0>PIGGIES<clr:255,255,255> - don't make me leave without ya!"
 		"brooklyn_voice.09"	"Shit. Looks like someone doesn't know how to park."
 		"brooklyn_voice.10"	"Don't know about you guys, but my stomach is <I>growling."
 		
 		// Cabin
-		"CabinVoice.SpawnRadio"	"This is Hurricane 88 actual to all survivors in the area. We've reached the rendezvous, and are ready to proceed with the evacuations. Repeat, rescue has arrived. Be advised the time is up the essence, out."
+		"CabinVoice.SpawnRadio"	"<len:3.4>This is Hurricane 88 actual to all survivors in the area. <delay:3.5><len:3.5>We've reached the rendezvous, and are ready to proceed with the evacuations. <delay:7.1><len:2.5>Repeat, rescue has arrived. <delay:9.7><len:2.6>Be advised the time is up the essence, out."
 		
 		// Campblood
-		"CampbloodVoice.RalphComingForYa"	"Hey survivors! I'm coming for ya!"
+		"CampbloodVoice.RalphComingForYa"	"<len:1.5>Hey survivors! <delay:1.6><len:1.6>I'm coming for ya!"
 		"CampbloodVoice.RalphLastChance"	"This is your last chance!"
 		"CampbloodVoice.RalphLightsOff"	"Did anyone remember to turn the lights off?"
-		"CampbloodVoice.RalphWelcome"	"You're going to Camp Blood ain't cha? You'll never come back again, its got a <I>DEATH CURSE!"
+		"CampbloodVoice.RalphWelcome"	"<len:2.3>You're going to Camp Blood ain't cha? <delay:2.6><len:2.1>You'll never come back again, <delay:4.9><len:2.1>its got a <I>DEATH CURSE!"
 		"CampbloodVoice.RalphYourDoomed"	"You're <I>DOOMED! <clr:255,0,0><B>EHEHEHEHE!"
 
 		// Cleopas
-		"CleopasVoice.Radio"	"This is patrol 206 requesting immidiate assistance downtown, we have suffered heavy losses, these... things, just... won't stay down... they keep getting back up! If anybody can hear this, please send backup! I repeat, we need backup downtown ASAP, we're low on ammunition, we're running out of options here, please respond HQ-- [gunshots, transmission cuts short]"
+		"CleopasVoice.Radio"	"<len:1.8>[Radio static]<delay:1.8><len:6>This is patrol 206 requesting immidiate assistance downtown, we have suffered heavy losses, <delay:8><len:6>these... things, just... won't stay down... they keep getting back up! <delay:14.8><len:3.2>If anybody can hear this, please send backup! <delay:22.4><len:3.4>I repeat, we need backup downtown ASAP, <delay:26.4><len:5.6>we're low on ammunition, we're running out of options here, please respond HQ-- [gunshots, transmission cuts short]"
 
 		// FEMA
-		"FemaVoice.BillyComplex"	"Is this signal coming from the complex? The whole facility is gone! Whatever the eggheads did killed everyone before they could trigger the containment protocol. You need to finish the job, and stop whatever they did get out of there!"
-		"FemaVoice.BillyFuel"	"We can lift you out to safety, but we're low on fuel! We need to fill 'er up before we're going to make it out of here."
+		"FemaVoice.BillyComplex"	"<len:4.2>Is this signal coming from the complex? The whole facility is gone! <delay:4.6><len:3.9>Whatever the eggheads did killed everyone before they could trigger the containment protocol. <delay:9><len:3.7>You need to finish the job, and stop whatever they did get out of there!"
+		"FemaVoice.BillyFuel"	"<len:2.8>We can lift you out to safety, but we're low on fuel! <delay:2.9><len:2.6>We need to fill 'er up before we're going to make it out of here."
 		"FemaVoice.BillyGetIn"	"Come on and get in! We're flying into the promised land!"
-		"FemaVoice.BillyTopside"	"Hello? Hello! If you can still hear me, get topside so we can lift you out to safety. Check the cabinet in our trailer, I stashed some of the vaccine the eggheads were developing. We can't be too careful, grab it and get moving!"
+		"FemaVoice.BillyTopside"	"<len:1.8>Hello? Hello! <delay:2.1><len:3.3>If you can still hear me, get topside so we can lift you out to safety. <delay:5.7><len:4.1>Check the cabinet in our trailer, I stashed some of the vaccine the eggheads were developing. <delay:9.9><len:2.6>We can't be too careful, grab it and get moving!"
 		"FemaVoice.MengelerOkayBob"	"<I>Okay Bub. Now, flip the switch."
 		"FemaVoice.MengelerThatsIt"	"<I>That's it Bub! Then, you can have your reward."
 		"FemaVoice.MengelerSayHello"	"<I>Say hello to your aunt Alicia, Bub."
-		"FemaVoice.ColonelNatSec"	"This is Colonel Kazan, as a matter of national security we can extract you, but only if the experimental vaccine is recovered. We have your location and will await for your response topside."
-		"FemaVoice.ColonelStow"	"This is Colonel Kazan of the National Security Agency, we have your signal. Stow the vaccine and prepare to secure it for evac."
+		"FemaVoice.ColonelNatSec"	"<len:1.5>This is Colonel Kazan, <delay:1.7><len:5.5>as a matter of national security we can extract you, but only if the experimental vaccine is recovered. <delay:7.6><len:3>We have your location and will await for your response topside."
+		"FemaVoice.ColonelStow"	"<len:2.8>This is Colonel Kazan of the National Security Agency, <delay:2.8><len:1.1>we have your signal. <delay:3.9><len:2.5>Stow the vaccine and prepare to secure it for evac."
 		
 		// Midwest
 		"MidwestVoice.EngineerBarbara"	"They're coming to get us, Barbara!"
 		"MidwestVoice.EngineerEnd"	"Okay, I believe I have found the problem, now it's a matter of fixing it."
 		"MidwestVoice.EngineerEnd2"	"Okay, it's all up and running! Come on guys, get on!"
 		"MidwestVoice.EngineerFirst"	"Hold the fort guys, I'm gonna fix this problem ASAP!"
-		"MidwestVoice.EngineerStart"	"Guys, the train engine just went kaput... I have no idea what's going on. We're gonna have to stop here for a while, there won't be another town for several miles."
+		"MidwestVoice.EngineerStart"	"<len:2.6>Guys, the train engine just went kaput... <delay:2.9><len:4.7>I have no idea what's going on. <delay:4.8><len:6.4>We're gonna have to stop here for a while, <delay:6.6><len:2.1>there won't be another town for several miles."
 		
 		// Junction
-		"JunctionVoice.01"	"<I>The following message is transmitted at the request of the New Jersey Office of Emergency Management, Union City, New Jersey. If you are still alive, remain where you are and await rescue. Traveling the streets is extremely hazardous. The following counties have been put under quarantine: Union, Hudson, and Monmouth. If you have been injured or you have an emergency, please remain calm and stay where you are until further notice. Emergency vehicles may not be able to reach you at this time."
-		"JunctionVoice.02"	"It's good to hear someone's voice! So there is someone left in the city after all. Well, this is private Jones from the 42nd, and I don't know if you've heard but the Lincoln Tunnel is our only way out of the city. We were going to seal it off, but one of the bombs we had went off before it was supposed to. Demolition experts were killed, and I was wounded by the blast. I managed to climb into the driver seat of one of the trucks, I'll lay low until you get here."
-		"JunctionVoice.03"	"I can't believe you made it, I was about to take off! The three explosives you see are powerful enough to seal the tunnel for good, and secure our escape. Plant them all on the pillars, and then get in the truck!"
+		"JunctionVoice.01"	"<len:2.8><I>[Emergency broadcast tone]<delay:2.8><len:8.4><I>The following message is transmitted at the request of the New Jersey Office of Emergency Management, Union City, New Jersey. <delay:11.2><len:8><I>If you are still alive, remain where you are and await rescue. Traveling the streets is extremely hazardous. <delay:19.4><len:5.9><I>The following counties have been put under quarantine: Union, Hudson, and Monmouth. <delay:25.4><len:7><I>If you have been injured or you have an emergency, please remain calm and stay where you are until further notice. <delay:32.5><len:3.5><I>Emergency vehicles may not be able to reach you at this time. <delay:36><len:2.8><I>[Broadcast ends]"
+		"JunctionVoice.02"	"<len:4.7>It's good to hear someone's voice! So there is someone left in the city after all. <delay:4.9><len:6.3>Well, this is private Jones from the 42nd, and I don't know if you've heard but the Lincoln Tunnel is our only way out of the city. <delay:11.3><len:7.4>We were going to seal it off, but one of the bombs we had went off before it was supposed to. Demolition experts were killed, and I was wounded by the blast. <delay:19><len:4.2>I managed to climb into the driver seat of one of the trucks, I'll lay low until you get here."
+		"JunctionVoice.03"	"<len:3.4>I can't believe you made it, I was about to take off! <delay:3.7><len:4.8>The three explosives you see are powerful enough to seal the tunnel for good, and secure our escape. <delay:8.8><len:2.2>Plant them all on the pillars, and then get in the truck!"
 		"JunctionVoice.04"	"Okay, now get on quick! There isn't much time!"
 		"JunctionVoice.05"	"Let's get the hell out of here, I hope you're on board!"
 		
 		// Quarantine
-		"QuarantineVoice.RadioIntro"	"Hello? We're what's left of the quarantine... what's left... everyone except for us is... you know. Listen, there are helicopters on the other side of the quarantine from us, if it weren't from the fact we were surrounded by those... fucking things, we would be outta here by now! I mean, it's kinda great that you guys came along because... you can help kinda us out here, we can both help each other out."
-		"QuarantineVoice.RadioIntro2"	"So here's what you gotta do: You have to close the entrance gate to the quarantine, the automatic system will keep the inner quarantine gate shut. You need to be in the inner quarantine, but first you have to close the entrance gate."
-		"QuarantineVoice.RadioTalk"	"Once you close the entrance gate we'll open the inner quarantine gate. But, there's a failsafe in the automated system, the inner gate will close in about a minute, and... well... given how long the entrance gate has been open, it will trigger the secondary failsafe, let's just say - if you're not inside the inner quarantine when the gate closes, you're gonna die!"
-		"QuarantineVoice.RadioTalk2"	"Here's what we gotta do, there's a siren, <I>there is a siren<I>, in that area you're in. You need to activate the siren, what that is going to do, is that's going to get the zombies off of us. When we can, we're going to go for the helicopter, and then we're going to come back, we're gonna pick you up, and we're all going to get the fuck outta here. So I suggest boarding whatever up you can, just... get ready. When you're ready, trigger the siren, alright?"
+		"QuarantineVoice.RadioIntro"	"<len:11>Hello? We're what's left of the quarantine... what's left... everyone except for us is... you know. <delay:11.2><len:11.1>Listen, there are helicopters on the other side of the quarantine from us, if it weren't from the fact we were surrounded by those... fucking things, we would be outta here by now! <delay:11.5><len:18>I mean, it's kinda great that you guys came along because... you can help kinda us out here, we can both help each other out."
+		"QuarantineVoice.RadioIntro2"	"<len:8>So here's what you gotta do: You have to close the entrance gate to the quarantine, the automatic system will keep the inner quarantine gate shut. <delay:8.1><len:4.4>You need to be in the inner quarantine, but first you have to close the entrance gate."
+		"QuarantineVoice.RadioTalk"	"<len:4.3>Once you close the entrance gate we'll open the inner quarantine gate. <delay:4.7><len:6.7>But, there's a failsafe in the automated system, the inner gate will close in about a minute, and... <delay:11.8><len:5.6>well... given how long the entrance gate has been open, it will trigger the secondary failsafe, let's just say - <delay:17.5><len:7.1>if you're not inside the inner quarantine when the gate closes, you're gonna die!"
+		"QuarantineVoice.RadioTalk2"	"<len:6.3>Here's what we gotta do, there's a siren, <I>there is a siren<I>, in that area you're in. <delay:6.5><len:5>You need to activate the siren, what that is going to do, is that's going to get the zombies off of us. <delay:11.5><len:6.8>When we can, we're going to go for the helicopter, and then we're going to come back, we're gonna pick you up, and we're all going to get the fuck outta here. <delay:18.6><len:8.5>So I suggest boarding whatever up you can, just... get ready. When you're ready, trigger the siren, alright?"
 		"QuarantineVoice.RadioTalk3"	"First things first, there should be a walkie talkie somewhere in that room, just grab it."
 		
 		// Toxteth
-		"ToxtethVoice.PilotRadio"	"Yes, we can hear you. We're hovering over the local area now. Listen, get to Hartington Road, we'll be there in five minutes to pick you up, we can not afford much time so be quick!"
-		"ToxtethVoice.PilotRadio2"	"Yes, we can hear you. We're hovering over the local area. Get to Hartington Road, we'll be there in five minutes to pick you up, we can't afford much time so be quick!"
-		"ToxtethVoice.PilotRadio3"	"Yes, we can hear you. We're hovering over the local area now. Get to Hartington Road, we'll be there in five minutes to pick you up, we really can't afford much time so be quick!"
-		"ToxtethVoice.PilotRadio4"	"Yeah, we can hear you. We're hovering over the local area now. Get to Hartington Road, we'll be there in five minutes to pick you up, we can't afford much time so be quick!"
-		"ToxtethVoice.PilotDelay"	"Hey, there's been a delay. You need to hold out for another five minutes. We'll be there as soon as possible, hold on tight!"
-		"ToxtethVoice.PilotDelay2"	"Hey, there's been a delay. You need to hold out for another five minutes. We'll be there as soon as possible, hold on tight!"
-		"ToxtethVoice.SurvivorPhone"	"Hey? Hey! Oh thank god you guys picked up, I have been watching you. I hacked into the CCTV system. I'm in the store few hundred meters from you, and I got the ability to call for help... but I'm locked in here! There's zombies outside, I'm not sure how many exactly but... you need to get here quick! There's no time to waste, I suggest cutting through the graveyard."
-		"ToxtethVoice.SurvivorPhone2"	"Hey? Hey! Oh, thank god you guys picked up! I have been watching you. I hacked into the CCTV system. I'm in the store few hundred meters from you, and I got the ability to call for help... but I'm locked in! There's zombies outside, I'm not sure how many exactly but... you need to get here quick! There's no time to waste, I suggest cutting through the graveyard."
-		"ToxtethVoice.SurvivorPhone3"	"Hey? Hey! Oh, thank god you guys picked up! I have been watching you. I hacked into the CCTV system. I'm in the store few hundred meters from you, and I've got the ability to call for help, but I'm locked in here! There's zombies outside, I'm not sure exactly how many, but you need to get here quick! There's no time to waste, I suggest cutting through the graveyard."
-		"ToxtethVoice.SurvivorPhone4"	"Hey! I have been watching you guys for days now on the CCTV. You need to get to the store located just behind the graveyard, I'm stuck in here, and there's zombies everywhere outside! I have made a call to get us out of here, but you need to come and help me before we can leave. There's no time to waste!"
+		"ToxtethVoice.PilotRadio"	"<len:3.5>Yes, we can hear you. We're hovering over the local area now. <delay:4.2><len:4.4>Listen, get to Hartington Road, we'll be there in five minutes to pick you up, <delay:9><len:2.3>we can not afford much time so be quick!"
+		"ToxtethVoice.PilotRadio2"	"<len:2.9>Yes, we can hear you. We're hovering over the local area. <delay:3.2><len:3.6>Get to Hartington Road, we'll be there in five minutes to pick you up, <delay:7.3><len:2.1>we can't afford much time so be quick!"
+		"ToxtethVoice.PilotRadio3"	"<len:3.6>Yes, we can hear you. We're hovering over the local area now. <delay:3.8><len:4>Get to Hartington Road, we'll be there in five minutes to pick you up, <delay:8.4><len:2.2>we really can't afford much time so be quick!"
+		"ToxtethVoice.PilotRadio4"	"<len:3.3>Yeah, we can hear you. We're hovering over the local area now. <delay:3.7><len:4.3>Get to Hartington Road, we'll be there in five minutes to pick you up, <delay:8.9><len:2.2>we can't afford much time so be quick!"
+		"ToxtethVoice.PilotDelay"	"<len:3.9>Hey, there's been a delay. You need to hold out for another five minutes. <delay:4.2><len:2.8>We'll be there as soon as possible, hold on tight!"
+		"ToxtethVoice.PilotDelay2"	"<lenL4.2>Hey, there's been a delay. You need to hold out for another five minutes. <delay:4.7><len:2.8>We'll be there as soon as possible, hold on tight!"
+		"ToxtethVoice.SurvivorPhone"	"<len:6.9>Hey? Hey! Oh thank god you guys picked up, I have been watching you. I hacked into the CCTV system. <delay:7.3><len:5.7>I'm in the store few hundred meters from you, and I got the ability to call for help... but I'm locked in here! <delay:14.1><len:5.6>There's zombies outside, I'm not sure how many exactly but... you need to get here quick! <delay:20.7><len:3.6>There's no time to waste, I suggest cutting through the graveyard."
+		"ToxtethVoice.SurvivorPhone2"	"<len:7.8>Hey? Hey! Oh, thank god you guys picked up! I have been watching you. I hacked into the CCTV system. <delay:8.4><len:4.8>I'm in the store few hundred meters from you, and I got the ability to call for help... but I'm locked in! <delay:13.6><len:4.9>There's zombies outside, I'm not sure how many exactly but... you need to get here quick! <delay:19><len:3.6>There's no time to waste, I suggest cutting through the graveyard."
+		"ToxtethVoice.SurvivorPhone3"	"<len:7.6>Hey? Hey! Oh, thank god you guys picked up! I have been watching you. I hacked into the CCTV system. <delay:8><len:5.5>I'm in the store few hundred meters from you, and I've got the ability to call for help, but I'm locked in here! <delay:14><len:5>There's zombies outside, I'm not sure exactly how many, but you need to get here quick! <delay:19.6><len:3.7>There's no time to waste, I suggest cutting through the graveyard."
+		"ToxtethVoice.SurvivorPhone4"	"<len:3.4>Hey! I have been watching you guys for days now on the CCTV. <delay:3.7><len:5.6>You need to get to the store located just behind the graveyard, I'm stuck in here, and there's zombies everywhere outside! <delay:9.9><len:3.4>I have made a call to get us out of here, but you need to come and help me before we can leave. <delay:14.3><len:1.4>There's no time to waste!"
 		
 		// Zephyr
 		"ZephyrVoice.Engineer04"	"Sorry about that guys, loss of memory. Can you please flip the switch right behind me so I can get to the station, caboose and carriages?"
@@ -988,8 +988,8 @@
 		"ZephyrVoice.Engineer10"	"To anyone left out there, get on the train! NOW!"
 		"ZephyrVoice.AllAboard"		"<B>ALL ABOARD!"
 		"ZephyrVoice.OhCrud"		"<I>Oh crud..."
-		"ZephyrVoice.Speech1901"	"Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. Listen, currently I'm being hold up in the engine sheds by the turntable, if you guys can go out of your way, and lend me a hand, I greatly appreciate it. In fact, I might just return the favor, but first things first. The door to the platform requires an access code, the code is, let me see... : 1-9-0-1."
-		"ZephyrVoice.Speech2606"	"Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. Listen, currently I'm being hold up in the engine sheds by the turntable, if you guys can go out of your way, and lend me a hand, I greatly appreciate it. In fact, I might just return the favor, but first things first. The door to the platform requires an access code, the code is, let me see... : 2-6-0-6."
-		"ZephyrVoice.Speech2710"	"Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. Listen, currently I'm being hold up in the engine sheds by the turntable, if you guys can go out of your way, and lend me a hand, I greatly appreciate it. In fact, I might just return the favor, but first things first. The door to the platform requires an access code, the code is, let me see... : 2-7-1-0."
+		"ZephyrVoice.Speech1901"	"<len:6>Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. <delay:6.8><len:4.3>Listen, currently I'm being hold up in the engine sheds by the turntable, <delay:11.8><len:4.7>if you guys can go out of your way, and lend me a hand, I greatly appreciate it. <delay:16.8><len:4.1>In fact, I might just return the favor, but first things first. <delay:21.7><len:5.3>The door to the platform requires an access code, the code is, let me see... : <delay:28.5><len:4.3>1-9-0-1."
+		"ZephyrVoice.Speech2606"	"<len:6>Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. <delay:6.8><len:4.3>Listen, currently I'm being hold up in the engine sheds by the turntable, <delay:11.8><len:4.7>if you guys can go out of your way, and lend me a hand, I greatly appreciate it. <delay:16.8><len:4.1>In fact, I might just return the favor, but first things first. <delay:21.7><len:5.3>The door to the platform requires an access code, the code is, let me see... : <delay:28.5><len:4.1>2-6-0-6."
+		"ZephyrVoice.Speech2710"	"<len:6>Hello, hello? Oh, it's been so long since I've heard another human voice, it's refreshing. <delay:6.8><len:4.3>Listen, currently I'm being hold up in the engine sheds by the turntable, <delay:11.8><len:4.7>if you guys can go out of your way, and lend me a hand, I greatly appreciate it. <delay:16.8><len:4.1>In fact, I might just return the favor, but first things first. <delay:21.7><len:5.3>The door to the platform requires an access code, the code is, let me see... : <delay:28.5><len:4.1>2-7-1-0."
 	}
 }
