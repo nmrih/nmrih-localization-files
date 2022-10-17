@@ -99,7 +99,7 @@
 "NMRiH_VoiceCommand_ThankYou"	"感謝"
 "NMRiH_VoiceCommand_Incoming"	"敵人來襲"
 "NMRiH_VoiceCommand_Injured"	"受傷"
-"NMRiH_VoiceCommand_Taunt"	  	"嘲諷"
+"NMRiH_VoiceCommand_Taunt"	  	"挑釁"
 
 // Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
 // The control characters can be copied and pasted in notepad.
