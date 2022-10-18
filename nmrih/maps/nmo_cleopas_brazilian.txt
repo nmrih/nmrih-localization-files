@@ -18,3 +18,4 @@
 	"nmo_cleopas_ObjR"	"Encontre um alicate para cortar o cadeado, você tem 3 minutos para ser extraído!"
 	"nmo_cleopas_ObjL"	"Encontre o maçarico para abrir o portão do beco"
 }
+}

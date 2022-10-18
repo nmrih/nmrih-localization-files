@@ -25,3 +25,4 @@
 	"nmo_rockpit_entervan"	"Você tem 2 minutos para entrar na van antes de ficar sobrecarregado."
 	"nmo_rockpit_rescue"	"O resgate agora está procurando por você! Esteja pronto."
 }
+}

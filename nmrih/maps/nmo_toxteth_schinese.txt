@@ -20,3 +20,4 @@
 	"nmo_toxteth_ObjM"	"使用焊枪焊开地上的井盖。"
 	"nmo_toxteth_ObjZ"	"原路返回，重新回到哈丁顿路上去。"
 }
+}

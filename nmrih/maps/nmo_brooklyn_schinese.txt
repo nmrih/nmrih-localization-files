@@ -26,3 +26,4 @@
 	"nmo_brooklyn_objective25"	"从巷子里进入杂货店，并使用大门中控系统解除封锁。"
 	"nmo_brooklyn_objective27"	"将挡路的轿车挪开，好让Mickey驾车通过。"
 }
+}

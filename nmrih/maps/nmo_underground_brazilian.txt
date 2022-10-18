@@ -19,3 +19,4 @@
 	"nmo_underground_sos"		"Desenhe «S.O.S»!"
 	"nmo_underground_gen"		"Ative o gerador!"
 }
+}

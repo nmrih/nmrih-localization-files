@@ -20,3 +20,4 @@
 	"nmo_toxtethdark_ObjM"	"使用焊槍開啟人孔蓋"
 	"nmo_toxtethdark_ObjZ"	"回到哈廷頓路"
 }
+}

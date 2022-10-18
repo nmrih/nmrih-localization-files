@@ -29,3 +29,4 @@
 	"nmo_lakeside_weld_main_house"	"使用焊枪焊开湖边小屋的大门。"
 	"nmo_lakeside_end"		"救援将在 30 秒后抵达船屋，赶快撤离！"
 }
+}

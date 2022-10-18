@@ -22,3 +22,4 @@
 	"nmo_shelter_switch"		"Place all switches!"
 	"nmo_shelter_end"		"You give up to live another day..."
 }
+}

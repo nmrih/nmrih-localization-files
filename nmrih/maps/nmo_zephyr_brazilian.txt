@@ -20,3 +20,4 @@
 	"nmo_zephyr_objective9_brakes"	"Solte os freios de mão"
 	"nmo_zephyr_objective10_allaboard"	"Comunique pelo rádio com o engenheiro quando estiver pronto"
 }
+}

@@ -29,3 +29,4 @@
 	"nmo_suzhou_Objecitve22_burnbabehburn_ignite"	"使用焊枪点燃油桶来制造求救信号，以便救生船发现我们！"
 	"nmo_suzhou_Objective23_holdout"	"救生船已经在路上了，坚持住！"
 }
+}

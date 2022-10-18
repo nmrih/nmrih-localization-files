@@ -26,3 +26,4 @@
 	"nmo_brooklyn_objective25"	"Encontre o posto avançado e anule o bloqueio"
 	"nmo_brooklyn_objective27"	"Empurre o carro para fora do caminho, limpe o caminho"
 }
+}

@@ -20,3 +20,4 @@
 	"nmo_toxtethdark_ObjM"	"Use welder on manhole cover"
 	"nmo_toxtethdark_ObjZ"	"Proceed back to Hartington Road"
 }
+}

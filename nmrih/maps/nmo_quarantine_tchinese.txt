@@ -20,3 +20,4 @@
 	"nmo_quarantine_50sec"	"在爆炸前你還有 50 秒，盡快進入隔離區。"
 	"nmo_quarantine_10sec"	"剩餘 10 秒。"
 }
+}

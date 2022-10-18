@@ -19,3 +19,4 @@
 	"nmo_underground_sos"			"Нарисуйте знак «S.O.S»!"
 	"nmo_underground_gen"			"Включите генератор!"
 }
+}

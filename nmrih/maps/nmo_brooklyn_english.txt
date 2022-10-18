@@ -26,3 +26,4 @@
 	"nmo_brooklyn_objective25"	"Find the outpost and override the lockdown"
 	"nmo_brooklyn_objective27"	"Push the car out of the way, clear the path"
 }
+}

@@ -11,3 +11,4 @@
 	"nmo_chinatown_docks_finale"	"Ligue o rádio e chame o resgate!"
 	"nmo_chinatown_radio"			"O resgate está chegando em 60 segundos. Aguente firme!"
 }
+}

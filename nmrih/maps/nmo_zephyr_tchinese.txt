@@ -20,3 +20,4 @@
 	"nmo_zephyr_objective9_brakes"	"放開手煞車"
 	"nmo_zephyr_objective10_allaboard"	"準備好之後用無線電通知工程師"
 }
+}

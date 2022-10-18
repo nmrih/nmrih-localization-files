@@ -12,3 +12,4 @@
 	"nmo_boardwalk_Objectives_Gauntlet"	"Make your way to the safehouse"
 	"nmo_boardwalk_Objectives_Signal"	"Light a signal fire"
 }
+}

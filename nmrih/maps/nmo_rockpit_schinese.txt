@@ -25,3 +25,4 @@
 	"nmo_rockpit_entervan"	"在被尸潮淹没前，你只有 2 分钟的撤离时间！"
 	"nmo_rockpit_rescue"	"救援直升机正在搜寻你的方位，做好准备！"
 }
+}

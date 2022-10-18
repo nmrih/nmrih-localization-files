@@ -29,3 +29,4 @@
 	"nmo_suzhou_Objecitve22_burnbabehburn_ignite"	"Coloque fogo no centro de evacuação usando um maçarico para sinalizar o barco!"
 	"nmo_suzhou_Objective23_holdout"	"O resgate está chegando! Sobreviva!"
 }
+}
