@@ -19,3 +19,4 @@
 	"nmo_underground_sos"		"画出《S.O.S》信号！"
 	"nmo_underground_gen"		"启动发电机！"
 }
+}
