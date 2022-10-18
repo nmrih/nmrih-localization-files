@@ -40,3 +40,4 @@
 	"nmo_fema_5sec"		"5 後開始消毒。"
 	"nmo_fema_kill"		"進行消毒作業..."
 }
+}
