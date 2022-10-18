@@ -20,3 +20,4 @@
 	"nmo_zephyr_objective9_brakes"			"Отпустите ручной тормоз"
 	"nmo_zephyr_objective10_allaboard"		"Сообщите инженеру по радио о готовности"
 }
+}
