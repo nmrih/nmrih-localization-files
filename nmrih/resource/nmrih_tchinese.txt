@@ -10,7 +10,7 @@
 
 "NMRiH_FriendlyFire"    	  	"隊友傷害"
 "NMRiH_RealismMode"     	  	"寫實模式"
-"NMRiH_HardcoreSurvival"		"硬盒生存"
+"NMRiH_HardcoreSurvival"		"硬核生存"
 "NMRiH_ChallengeMode"			"挑戰模式"
 
 "NMRiH_Practice_Starting"		"玩家不足，開始準備模式。"
