@@ -39,3 +39,4 @@
 	"nmo_broadway2_30sec"	"距離爆炸剩餘 30 秒。"
 	"nmo_broadway2_getout"	"離開這裡！"
 }
+}
