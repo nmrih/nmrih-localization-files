@@ -20,3 +20,4 @@
 	"nmo_quarantine_50sec"	"Você tem 50 segundos para entrar na quarentena antes da explosão."
 	"nmo_quarantine_10sec"	"10 segundos restantes."
 }
+}
