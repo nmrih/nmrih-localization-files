@@ -25,3 +25,4 @@
 	"nmo_rockpit_entervan"	"在被屍潮完全淹沒前，你有 2 分鐘的時間進入廂型車。"
 	"nmo_rockpit_rescue"	"救援正在尋找你們！做好準備。"
 }
+}
