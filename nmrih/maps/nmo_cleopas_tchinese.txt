@@ -18,3 +18,4 @@
 	"nmo_cleopas_ObjR"	"找出鉗子破壞門鎖，你有 3 分鐘的時間疏散！"
 	"nmo_cleopas_ObjL"	"找出焊槍開啟後巷門"
 }
+}
