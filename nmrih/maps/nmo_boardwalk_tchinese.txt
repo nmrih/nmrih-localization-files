@@ -12,3 +12,4 @@
 	"nmo_boardwalk_Objectives_Gauntlet"	"設法通往藏身處"
 	"nmo_boardwalk_Objectives_Signal"	"點燃信號火焰"
 }
+}
