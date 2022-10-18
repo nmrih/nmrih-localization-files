@@ -28,3 +28,4 @@
 	"nmo_lakeside_power_up"	"Reinicie o gerador e o interruptor"
 	"nmo_lakeside_weld_main_house"	"Use o maçarico na fechadura da casa"
 }
+}
