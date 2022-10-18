@@ -29,3 +29,4 @@
 	"nmo_suzhou_Objecitve22_burnbabehburn_ignite"	"Set fire to the evac center using a welder to signal the boat!"
 	"nmo_suzhou_Objective23_holdout"	"Rescue is coming! Survive!"
 }
+}
