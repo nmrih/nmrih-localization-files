@@ -20,3 +20,4 @@
 	"nmo_zephyr_objective9_brakes"	"松开位于车厢内的两个手刹。"
 	"nmo_zephyr_objective10_allaboard"	"在准备好后使用无线电告知火车司机。"
 }
+}
