@@ -12,3 +12,4 @@
 	"nmo_boardwalk_Objectives_Gauntlet"	"Доберитесь до убежища"
 	"nmo_boardwalk_Objectives_Signal"	"Зажгите сигнальный огонь"
 }
+}
