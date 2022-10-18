@@ -19,3 +19,4 @@
 	"nmo_underground_sos"		"Draw «S.O.S»!"
 	"nmo_underground_gen"		"Activate the generator!"
 }
+}
