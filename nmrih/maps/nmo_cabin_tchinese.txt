@@ -15,3 +15,4 @@
 	"nmo_cabin_ObjI"	"尋找汽車電瓶、啟動發電機並呼叫救援！"
 	"nmo_cabin_ObjG2"	"通過地下區域"
 }
+}
