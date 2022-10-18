@@ -32,3 +32,4 @@
 	"nmo_broadway2_ObJS"	"Desça até a saída de emergência para escapar através do trem"
 	"nmo_broadway2_ObjT"	"Volte para a quadra de basquete para extração"
 }
+}
