@@ -15,3 +15,4 @@
 	"nmo_broadway_objH"	"設法進入主管辦公室呼救"
 	"nmo_broadway_objI"	"焊開汽車旅館側門"
 }
+}
