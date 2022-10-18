@@ -893,7 +893,7 @@
 		"Wave.Complete" "[抵擋成功]"
 		"NMRPlayer.TokenEarned" "[獲得復活點數]"	
 		"NMRPlayer.TokenDenied" "[未使用的復活點數已被移除]"
-		"NMRPlayer.TokenUsed" "[使用重生點數]"
+		"NMRPlayer.TokenUsed" "[使用復活點數]"
 		"Wave.LowZombies" "[準備好下一波攻勢]"
 		
 // Dialogue
