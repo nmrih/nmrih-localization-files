@@ -20,3 +20,4 @@
 	"nmo_quarantine_50sec"	"在爆炸启动前，你有 50 秒的时间来进入内侧隔离区。"
 	"nmo_quarantine_10sec"	"仅剩最后 10 秒钟。"
 }
+}
