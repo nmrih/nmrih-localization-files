@@ -4,7 +4,7 @@
 "Tokens" 
 {
 	"nmo_suzhou_Objective01_leavestation"	"設法離開車站"
-	"nmo_suzhou_Objective02_maintenancedetour"	"大門封死了，找其他出去的辦法"
+	"nmo_suzhou_Objective02_maintenancedetour"	"出口封死了，找其他出去的辦法"
 	"nmo_suzhou_Objective03_tolindun"	"設法前往臨頓路"
 	"nmo_suzhou_Objective04_headout"	"過橋"
 	"nmo_suzhou_Objective05_oldtown"	"設法進入古城區"
