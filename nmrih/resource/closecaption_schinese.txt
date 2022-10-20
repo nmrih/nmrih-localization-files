@@ -330,7 +330,7 @@
 		//reserve ammo check for magazines
 		// 'X magazines remaining'
 
-		//eng"Reload.Alt1.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt1.PlentyMag"	"我的弹匣还有很多。"
 		"Reload.Alt1.Mag15" "还剩十五个弹匣！"
 		"Reload.Alt1.Mag14" "还剩十四个弹匣！"
 		"Reload.Alt1.Mag13" "还剩十三个弹匣！"
@@ -348,7 +348,7 @@
 		"Reload.Alt1.Mag1" "只剩最后一个弹匣了！"
 		"Reload.Alt1.Mag0" "没有弹匣了！"
 
-		//eng"Reload.Alt2.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt2.PlentyMag"	"我的弹匣还有很多。"
 		"Reload.Alt2.Mag10" "还剩十个弹匣！"
 		"Reload.Alt2.Mag9" "还剩九个弹匣！"
 		"Reload.Alt2.Mag8" "还剩八个弹匣！"
@@ -361,7 +361,7 @@
 		"Reload.Alt2.Mag1" "只剩最后一个弹匣了！"
 		"Reload.Alt2.Mag0" "没有弹匣了！"
 
-		//eng"Reload.Alt3.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt3.PlentyMag"	"我的弹匣还有很多。"
 		"Reload.Alt3.Mag15" "还剩十五个弹匣！"
 		"Reload.Alt3.Mag14" "还剩十四个弹匣！"
 		"Reload.Alt3.Mag13" "还剩十三个弹匣！"
@@ -379,7 +379,7 @@
 		"Reload.Alt3.Mag1" "只剩最后一个弹匣了！"
 		"Reload.Alt3.Mag0" "没有弹匣了！"
 
-		//eng"Reload.Alt4.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt4.PlentyMag"	"我的弹匣还有很多。"
 		"Reload.Alt4.Mag15" "还剩十五个弹匣！"
 		"Reload.Alt4.Mag14" "还剩十四个弹匣！"
 		"Reload.Alt4.Mag13" "还剩十三个弹匣！"
@@ -397,7 +397,7 @@
 		"Reload.Alt4.Mag1" "只剩最后一个弹匣了！"
 		"Reload.Alt4.Mag0" "没有弹匣了！"
 
-		//eng"Reload.Alt5.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt5.PlentyMag"	"我的弹匣还有很多。"
 		"Reload.Alt5.Mag15" "还剩十五个弹匣！"
 		"Reload.Alt5.Mag14" "还剩十四个弹匣！"
 		"Reload.Alt5.Mag13" "还剩十三个弹匣！"
@@ -415,7 +415,7 @@
 		"Reload.Alt5.Mag1" "只剩最后一个弹匣了！"
 		"Reload.Alt5.Mag0" "没有弹匣了！"
 
-		//eng"Reload.Alt6.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt6.PlentyMag"	"我的弹匣还有很多。"
 		"Reload.Alt6.Mag15" "还剩十五个弹匣！"
 		"Reload.Alt6.Mag14" "还剩十四个弹匣！"
 		"Reload.Alt6.Mag13" "还剩十三个弹匣！"
@@ -433,7 +433,7 @@
 		"Reload.Alt6.Mag1" "只剩最后一个弹匣了！"
 		"Reload.Alt6.Mag0" "没有弹匣了！"
 
-		//eng"Reload.Alt7.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt7.PlentyMag"	"我的弹匣还有很多。"
 		"Reload.Alt7.Mag15" "还剩十五个弹匣！"
 		"Reload.Alt7.Mag14" "还剩十四个弹匣！"
 		"Reload.Alt7.Mag13" "还剩十三个弹匣！"
@@ -451,7 +451,7 @@
 		"Reload.Alt7.Mag1" "只剩最后一个弹匣了！"
 		"Reload.Alt7.Mag0" "没有弹匣了！"
 		
-		//eng"Reload.Alt8.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt8.PlentyMag"	"我的弹匣还有很多。"
 		"Reload.Alt8.Mag15" "还剩十五个弹匣！"
 		"Reload.Alt8.Mag14" "还剩十四个弹匣！"
 		"Reload.Alt8.Mag13" "还剩十三个弹匣！"
@@ -469,7 +469,7 @@
 		"Reload.Alt8.Mag1" "只剩最后一个弹匣了！"
 		"Reload.Alt8.Mag0" "没有弹匣了！"
 
-		//eng"Reload.Default.PlentyMag"	"I have plenty of magazines."
+		"Reload.Default.PlentyMag"	"我的弹匣还有很多。"
 		"Reload.Default.Mag10" "还剩十个弹匣！"
 		"Reload.Default.Mag9" "还剩九个弹匣！"
 		"Reload.Default.Mag8" "还剩八个弹匣！"
@@ -482,7 +482,7 @@
 		"Reload.Default.Mag1" "只剩最后一个弹匣了！"
 		"Reload.Default.Mag0" "没有弹匣了！"
 
-		//eng"Reload.FemaleDefault.PlentyMag"	"I have plenty of magazines."
+		"Reload.FemaleDefault.PlentyMag"	"我的弹匣还有很多。"
 		"Reload.FemaleDefault.Mag15" "还剩十五个弹匣！"
 		"Reload.FemaleDefault.Mag14" "还剩十四个弹匣！"
 		"Reload.FemaleDefault.Mag13" "还剩十三个弹匣！"
@@ -503,7 +503,7 @@
 		//reserve ammo check for shotgun and magnum
 		// 'X loads remaining'
 
-		//eng"Reload.Alt1.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt1.PlentyLoad"	"我的备弹还很充裕。"
 		"Reload.Alt1.Load15" "还剩十五个弹匣！"
 		"Reload.Alt1.Load14" "还剩十四个弹匣！"
 		"Reload.Alt1.Load13" "还剩十三个弹匣！"
@@ -521,7 +521,7 @@
 		"Reload.Alt1.Load1" "只剩最后一个弹匣了！"
 		"Reload.Alt1.Load0" "没有弹匣了！"
 
-		//eng"Reload.Alt2.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt2.PlentyLoad"	"我的备弹还很充裕。"
 		"Reload.Alt2.Load10" "还剩十个弹匣！"
 		"Reload.Alt2.Load9" "还剩九个弹匣！"
 		"Reload.Alt2.Load8" "还剩八个弹匣！"
@@ -534,7 +534,7 @@
 		"Reload.Alt2.Load1" "只剩最后一个弹匣了！"
 		"Reload.Alt2.Load0" "没有弹匣了！"
 
-		//eng"Reload.Alt3.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt3.PlentyLoad"	"我的备弹还很充裕。"
 		"Reload.Alt3.Load15" "还剩十五个弹匣！"
 		"Reload.Alt3.Load14" "还剩十四个弹匣！"
 		"Reload.Alt3.Load13" "还剩十三个弹匣！"
@@ -552,7 +552,7 @@
 		"Reload.Alt3.Load1" "只剩最后一个弹匣了！"
 		"Reload.Alt3.Load0" "没有弹匣了！"
 
-		//eng"Reload.Alt4.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt4.PlentyLoad"	"我的备弹还很充裕。"
 		"Reload.Alt4.Load15" "还剩十五个弹匣！"
 		"Reload.Alt4.Load14" "还剩十四个弹匣！"
 		"Reload.Alt4.Load13" "还剩十三个弹匣！"
@@ -570,7 +570,7 @@
 		"Reload.Alt4.Load1" "只剩最后一个弹匣了！"
 		"Reload.Alt4.Load0" "没有弹匣了！"
 
-		//eng"Reload.Alt5.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt5.PlentyLoad"	"我的备弹还很充裕。"
 		"Reload.Alt5.Load15" "还剩十五个弹匣！"
 		"Reload.Alt5.Load14" "还剩十四个弹匣！"
 		"Reload.Alt5.Load13" "还剩十三个弹匣！"
@@ -588,7 +588,7 @@
 		"Reload.Alt5.Load1" "只剩最后一个弹匣了！"
 		"Reload.Alt5.Load0" "没有弹匣了！"
 
-		//eng"Reload.Alt6.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt6.PlentyLoad"	"我的备弹还很充裕。"
 		"Reload.Alt6.Load15" "还剩十五个弹匣！"
 		"Reload.Alt6.Load14" "还剩十四个弹匣！"
 		"Reload.Alt6.Load13" "还剩十三个弹匣！"
@@ -606,7 +606,7 @@
 		"Reload.Alt6.Load1" "只剩最后一个弹匣了！"
 		"Reload.Alt6.Load0" "没有弹匣了！"
 
-		//eng"Reload.Alt7.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt7.PlentyLoad"	"我的备弹还很充裕。"
 		"Reload.Alt7.Load15" "还剩十五个弹匣！"
 		"Reload.Alt7.Load14" "还剩十四个弹匣！"
 		"Reload.Alt7.Load13" "还剩十三个弹匣！"
@@ -624,7 +624,7 @@
 		"Reload.Alt7.Load1" "只剩最后一个弹匣了！"
 		"Reload.Alt7.Load0" "没有弹匣了！"
 		
-		//eng"Reload.Alt8.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt8.PlentyLoad"	"我的备弹还很充裕。"
 		"Reload.Alt8.Load15" "还剩十五个弹匣！"
 		"Reload.Alt8.Load14" "还剩十四个弹匣！"
 		"Reload.Alt8.Load13" "还剩十三个弹匣！"
@@ -642,7 +642,7 @@
 		"Reload.Alt8.Load1" "只剩最后一个弹匣了！"
 		"Reload.Alt8.Load0" "没有弹匣了！"
 
-		//eng"Reload.Default.PlentyLoad"	"I have plenty of loads."
+		"Reload.Default.PlentyLoad"	"我的备弹还很充裕。"
 		"Reload.Default.Load10" "还剩十个弹匣！"
 		"Reload.Default.Load9" "还剩九个弹匣！"
 		"Reload.Default.Load8" "还剩八个弹匣！"
@@ -655,7 +655,7 @@
 		"Reload.Default.Load1" "只剩最后一个弹匣了！"
 		"Reload.Default.Load0" "没有弹匣了！"
 
-		//eng"Reload.FemaleDefault.PlentyLoad"	"I have plenty of loads."
+		"Reload.FemaleDefault.PlentyLoad"	"我的备弹还很充裕。"
 		"Reload.FemaleDefault.Load15" "还剩十五个弹匣！"
 		"Reload.FemaleDefault.Load14" "还剩十四个弹匣！"
 		"Reload.FemaleDefault.Load13" "还剩十三个弹匣！"

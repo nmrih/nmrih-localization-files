@@ -36,7 +36,7 @@
 "NMRiH_Options_Suicide"			"自杀"
 "NMRiH_Options_Shove"			"推开/近战"
 "NMRiH_Options_ShowObjective"		"显示当前任务"
-"NMRiH_Options_DropWeapon"		"丢弃武器"
+"NMRiH_Options_DropWeapon"		"丢弃武器(按住以投掷武器)"
 "NMRiH_Options_Sprint"			"冲刺"
 "NMRiH_Options_Reload"			"装填子弹(按住以显示弹药)"
 "NMRiH_Options_Holster"			"收起武器"
