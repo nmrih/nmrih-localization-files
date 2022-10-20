@@ -36,7 +36,7 @@
 "NMRiH_Options_Suicide"			"Suicidar"
 "NMRiH_Options_Shove"			"Empurrar/Bater"
 "NMRiH_Options_ShowObjective"		"Mostrar objetivo atual"
-"NMRiH_Options_DropWeapon"		"Largar arma"
+"NMRiH_Options_DropWeapon"		"Largar arma (segure para arremessar)"
 "NMRiH_Options_Sprint"			"Correr"
 "NMRiH_Options_Reload"			"Recarregar (segure para checar sua munição)"
 "NMRiH_Options_Holster"			"Coldre de arma"

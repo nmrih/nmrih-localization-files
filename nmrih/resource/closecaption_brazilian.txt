@@ -224,7 +224,7 @@
 		"VoiceCommand.Alt1.Yes" "Sim"
 		"VoiceCommand.Alt1.Stay" "Fique aqui!"
 		"VoiceCommand.Alt1.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt1.Estão vindo!"	"Estão vindo!"
+		"VoiceCommand.Alt1.Incoming"	"Estão vindo!"
 		"VoiceCommand.Alt1.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt1.FireInTheHole" "Jogando explosivo!"
 
@@ -235,7 +235,7 @@
 		"VoiceCommand.Alt2.Yes" "Sim"
 		"VoiceCommand.Alt2.Stay" "Fique aqui!"
 		"VoiceCommand.Alt2.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt2.Estão vindo!"	"Estão vindo!"
+		"VoiceCommand.Alt2.Incoming"	"Estão vindo!"
 		"VoiceCommand.Alt2.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt2.FireInTheHole" "Jogando explosivo!"
 
@@ -246,7 +246,7 @@
 		"VoiceCommand.Alt3.Yes" "Sim"
 		"VoiceCommand.Alt3.Stay" "Fique aqui!"
 		"VoiceCommand.Alt3.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt3.Estão vindo!"	"Estão vindo!"
+		"VoiceCommand.Alt3.Incoming"	"Estão vindo!"
 		"VoiceCommand.Alt3.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt3.FireInTheHole" "Jogando explosivo!"
 
@@ -257,7 +257,7 @@
 		"VoiceCommand.Alt4.Yes" "Sim"
 		"VoiceCommand.Alt4.Stay" "Fique aqui!"
 		"VoiceCommand.Alt4.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt4.Estão vindo!"	"Estão vindo!"
+		"VoiceCommand.Alt4.Incoming"	"Estão vindo!"
 		"VoiceCommand.Alt4.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt4.FireInTheHole" "Jogando explosivo!"
 
@@ -268,7 +268,7 @@
 		"VoiceCommand.Alt5.Yes" "Sim"
 		"VoiceCommand.Alt5.Stay" "Fique aqui!"
 		"VoiceCommand.Alt5.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt5.Estão vindo!"	"Estão vindo!"
+		"VoiceCommand.Alt5.Incoming"	"Estão vindo!"
 		"VoiceCommand.Alt5.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt5.FireInTheHole" "Jogando explosivo!"
 
@@ -279,7 +279,7 @@
 		"VoiceCommand.Alt6.Yes" "Sim"
 		"VoiceCommand.Alt6.Stay" "Fique aqui!"
 		"VoiceCommand.Alt6.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt6.Estão vindo!"	"Estão vindo!"
+		"VoiceCommand.Alt6.Incoming"	"Estão vindo!"
 		"VoiceCommand.Alt6.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt6.FireInTheHole" "Jogando explosivo!"
 
@@ -290,7 +290,7 @@
 		"VoiceCommand.Alt7.Yes" "Sim"
 		"VoiceCommand.Alt7.Stay" "Fique aqui!"
 		"VoiceCommand.Alt7.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt7.Estão vindo!"	"Estão vindo!"
+		"VoiceCommand.Alt7.Incoming"	"Estão vindo!"
 		"VoiceCommand.Alt7.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt7.FireInTheHole" "Jogando explosivo!"
 		
@@ -301,7 +301,7 @@
 		"VoiceCommand.Alt8.Yes" "Sim"
 		"VoiceCommand.Alt8.Stay" "Fique aqui!"
 		"VoiceCommand.Alt8.ThankYou" "Obrigado!"
-		"VoiceCommand.Alt8.Estão vindo!"	"Estão vindo!"
+		"VoiceCommand.Alt8.Incoming"	"Estão vindo!"
 		"VoiceCommand.Alt8.Injured"	"Estou machucado!"
 		"VoiceCommand.Alt8.FireInTheHole" "Jogando explosivo!"
 
@@ -312,7 +312,7 @@
 		"VoiceCommand.Default.Yes" "Sim"
 		"VoiceCommand.Default.Stay" "Fique aqui!"
 		"VoiceCommand.Default.ThankYou" "Obrigado!"
-		"VoiceCommand.Default.Estão vindo!"	"Estão vindo!"
+		"VoiceCommand.Default.Incoming"	"Estão vindo!"
 		"VoiceCommand.Default.Injured"	"Estou machucado!"
 		"VoiceCommand.Default.FireInTheHole" "Jogando explosivo!"
 
@@ -323,14 +323,14 @@
 		"VoiceCommand.FemaleDefault.Yes" "Sim"
 		"VoiceCommand.FemaleDefault.Stay" "Fique aqui!"
 		"VoiceCommand.FemaleDefault.ThankYou" "Obrigado!"
-		"VoiceCommand.FemaleDefault.Estão vindo!"	"Estão vindo!"
+		"VoiceCommand.FemaleDefault.Incoming"	"Estão vindo!"
 		"VoiceCommand.FemaleDefault.Injured"	"Estou machucado!"
 		"VoiceCommand.FemaleDefault.FireInTheHole" "Jogando explosivo!"
 		
 		//reserve ammo check for magazines
 		// 'X magazines remaining'
 
-		//eng"Reload.Alt1.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt1.PlentyMag"	"Eu tenho muitos carregadores."
 		"Reload.Alt1.Mag15" "Quinze carregadores sobrando!"
 		"Reload.Alt1.Mag14" "Quatorze carregadores sobrando!"
 		"Reload.Alt1.Mag13" "Treze carregadores sobrando!"
@@ -348,7 +348,7 @@
 		"Reload.Alt1.Mag1" "Um carregador restando!"
 		"Reload.Alt1.Mag0" "Zero carregadores restando!"
 
-		//eng"Reload.Alt2.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt2.PlentyMag"	"Eu tenho muitos carregadores."
 		"Reload.Alt2.Mag10" "Dez carregadores sobrando!"
 		"Reload.Alt2.Mag9" "Onze carregadores sobrando!"
 		"Reload.Alt2.Mag8" "Oito carregadores sobrando!"
@@ -361,7 +361,7 @@
 		"Reload.Alt2.Mag1" "Um carregador restando!"
 		"Reload.Alt2.Mag0" "Zero carregadores restando!"
 
-		//eng"Reload.Alt3.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt3.PlentyMag"	"Eu tenho muitos carregadores."
 		"Reload.Alt3.Mag15" "Quinze carregadores sobrando!"
 		"Reload.Alt3.Mag14" "Quatorze carregadores sobrando!"
 		"Reload.Alt3.Mag13" "Treze carregadores sobrando!"
@@ -379,7 +379,7 @@
 		"Reload.Alt3.Mag1" "Um carregador restando!"
 		"Reload.Alt3.Mag0" "Zero carregadores restando!"
 
-		//eng"Reload.Alt4.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt4.PlentyMag"	"Eu tenho muitos carregadores."
 		"Reload.Alt4.Mag15" "Quinze carregadores sobrando!"
 		"Reload.Alt4.Mag14" "Quatorze carregadores sobrando!"
 		"Reload.Alt4.Mag13" "Treze carregadores sobrando!"
@@ -397,7 +397,7 @@
 		"Reload.Alt4.Mag1" "Um carregador restando!"
 		"Reload.Alt4.Mag0" "Zero carregadores restando!"
 
-		//eng"Reload.Alt5.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt5.PlentyMag"	"Eu tenho muitos carregadores."
 		"Reload.Alt5.Mag15" "Quinze carregadores sobrando!"
 		"Reload.Alt5.Mag14" "Quatorze carregadores sobrando!"
 		"Reload.Alt5.Mag13" "Treze carregadores sobrando!"
@@ -415,7 +415,7 @@
 		"Reload.Alt5.Mag1" "Um carregador restando!"
 		"Reload.Alt5.Mag0" "Zero carregadores restando!"
 
-		//eng"Reload.Alt6.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt6.PlentyMag"	"Eu tenho muitos carregadores."
 		"Reload.Alt6.Mag15" "Quinze carregadores sobrando!"
 		"Reload.Alt6.Mag14" "Quatorze carregadores sobrando!"
 		"Reload.Alt6.Mag13" "Treze carregadores sobrando!"
@@ -433,7 +433,7 @@
 		"Reload.Alt6.Mag1" "Um carregador restando!"
 		"Reload.Alt6.Mag0" "Zero carregadores restando!"
 
-		//eng"Reload.Alt7.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt7.PlentyMag"	"Eu tenho muitos carregadores."
 		"Reload.Alt7.Mag15" "Quinze carregadores sobrando!"
 		"Reload.Alt7.Mag14" "Quatorze carregadores sobrando!"
 		"Reload.Alt7.Mag13" "Treze carregadores sobrando!"
@@ -451,7 +451,7 @@
 		"Reload.Alt7.Mag1" "Um carregador restando!"
 		"Reload.Alt7.Mag0" "Zero carregadores restando!"
 		
-		//eng"Reload.Alt8.PlentyMag"	"I have plenty of magazines."
+		"Reload.Alt8.PlentyMag"	"Eu tenho muitos carregadores."
 		"Reload.Alt8.Mag15" "Quinze carregadores sobrando!"
 		"Reload.Alt8.Mag14" "Quatorze carregadores sobrando!"
 		"Reload.Alt8.Mag13" "Treze carregadores sobrando!"
@@ -469,7 +469,7 @@
 		"Reload.Alt8.Mag1" "Um carregador restando!"
 		"Reload.Alt8.Mag0" "Zero carregadores restando!"
 
-		//eng"Reload.Default.PlentyMag"	"I have plenty of magazines."
+		"Reload.Default.PlentyMag"	"Eu tenho muitos carregadores."
 		"Reload.Default.Mag10" "Dez carregadores sobrando!"
 		"Reload.Default.Mag9" "Onze carregadores sobrando!"
 		"Reload.Default.Mag8" "Oito carregadores sobrando!"
@@ -482,7 +482,7 @@
 		"Reload.Default.Mag1" "Um carregador restando!"
 		"Reload.Default.Mag0" "Zero carregadores restando!"
 
-		//eng"Reload.FemaleDefault.PlentyMag"	"I have plenty of magazines."
+		"Reload.FemaleDefault.PlentyMag"	"Eu tenho muitos carregadores."
 		"Reload.FemaleDefault.Mag15" "Quinze carregadores sobrando!"
 		"Reload.FemaleDefault.Mag14" "Quatorze carregadores sobrando!"
 		"Reload.FemaleDefault.Mag13" "Treze carregadores sobrando!"
@@ -503,7 +503,7 @@
 		//reserve ammo check for shotgun and magnum
 		// 'X loads remaining'
 
-		//eng"Reload.Alt1.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt1.PlentyLoad"	"Eu tenho muita bala."
 		"Reload.Alt1.Load15" "Quinze disparos restando!"
 		"Reload.Alt1.Load14" "Quatorze disparos restando!"
 		"Reload.Alt1.Load13" "Treze disparos restando!"
@@ -521,7 +521,7 @@
 		"Reload.Alt1.Load1" "Um disparo sobrando!"
 		"Reload.Alt1.Load0" "Zero disparos restando!"
 
-		//eng"Reload.Alt2.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt2.PlentyLoad"	"Eu tenho muita bala."
 		"Reload.Alt2.Load10" "Dez disparos restando!"
 		"Reload.Alt2.Load9" "Nove disparos restando!"
 		"Reload.Alt2.Load8" "Oito disparos restando!"
@@ -534,7 +534,7 @@
 		"Reload.Alt2.Load1" "Um disparo sobrando!"
 		"Reload.Alt2.Load0" "Zero disparos restando!"
 
-		//eng"Reload.Alt3.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt3.PlentyLoad"	"Eu tenho muita bala."
 		"Reload.Alt3.Load15" "Quinze disparos restando!"
 		"Reload.Alt3.Load14" "Quatorze disparos restando!"
 		"Reload.Alt3.Load13" "Treze disparos restando!"
@@ -552,7 +552,7 @@
 		"Reload.Alt3.Load1" "Um disparo sobrando!"
 		"Reload.Alt3.Load0" "Zero disparos restando!"
 
-		//eng"Reload.Alt4.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt4.PlentyLoad"	"Eu tenho muita bala."
 		"Reload.Alt4.Load15" "Quinze disparos restando!"
 		"Reload.Alt4.Load14" "Quatorze disparos restando!"
 		"Reload.Alt4.Load13" "Treze disparos restando!"
@@ -570,7 +570,7 @@
 		"Reload.Alt4.Load1" "Um disparo sobrando!"
 		"Reload.Alt4.Load0" "Zero disparos restando!"
 
-		//eng"Reload.Alt5.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt5.PlentyLoad"	"Eu tenho muita bala."
 		"Reload.Alt5.Load15" "Quinze disparos restando!"
 		"Reload.Alt5.Load14" "Quatorze disparos restando!"
 		"Reload.Alt5.Load13" "Treze disparos restando!"
@@ -588,7 +588,7 @@
 		"Reload.Alt5.Load1" "Um disparo sobrando!"
 		"Reload.Alt5.Load0" "Zero disparos restando!"
 
-		//eng"Reload.Alt6.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt6.PlentyLoad"	"Eu tenho muita bala."
 		"Reload.Alt6.Load15" "Quinze disparos restando!"
 		"Reload.Alt6.Load14" "Quatorze disparos restando!"
 		"Reload.Alt6.Load13" "Treze disparos restando!"
@@ -606,7 +606,7 @@
 		"Reload.Alt6.Load1" "Um disparo sobrando!"
 		"Reload.Alt6.Load0" "Zero disparos restando!"
 
-		//eng"Reload.Alt7.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt7.PlentyLoad"	"Eu tenho muita bala."
 		"Reload.Alt7.Load15" "Quinze disparos restando!"
 		"Reload.Alt7.Load14" "Quatorze disparos restando!"
 		"Reload.Alt7.Load13" "Treze disparos restando!"
@@ -624,7 +624,7 @@
 		"Reload.Alt7.Load1" "Um disparo sobrando!"
 		"Reload.Alt7.Load0" "Zero disparos restando!"
 		
-		//eng"Reload.Alt8.PlentyLoad"	"I have plenty of loads."
+		"Reload.Alt8.PlentyLoad"	"Eu tenho muita bala."
 		"Reload.Alt8.Load15" "Quinze disparos restando!"
 		"Reload.Alt8.Load14" "Quatorze disparos restando!"
 		"Reload.Alt8.Load13" "Treze disparos restando!"
@@ -642,7 +642,7 @@
 		"Reload.Alt8.Load1" "Um disparo sobrando!"
 		"Reload.Alt8.Load0" "Zero disparos restando!"
 
-		//eng"Reload.Default.PlentyLoad"	"I have plenty of loads."
+		"Reload.Default.PlentyLoad"	"Eu tenho muita bala."
 		"Reload.Default.Load10" "Dez disparos restando!"
 		"Reload.Default.Load9" "Nove disparos restando!"
 		"Reload.Default.Load8" "Oito disparos restando!"
@@ -655,7 +655,7 @@
 		"Reload.Default.Load1" "Um disparo sobrando!"
 		"Reload.Default.Load0" "Zero disparos restando!"
 
-		//eng"Reload.FemaleDefault.PlentyLoad"	"I have plenty of loads."
+		"Reload.FemaleDefault.PlentyLoad"	"Eu tenho muita bala."
 		"Reload.FemaleDefault.Load15" "Quinze disparos restando!"
 		"Reload.FemaleDefault.Load14" "Quatorze disparos restando!"
 		"Reload.FemaleDefault.Load13" "Treze disparos restando!"
