@@ -292,6 +292,7 @@
 "Suicide_fall"				"#PLAYER# разбился."
 "Suicide_drowned"			"#PLAYER# утонул."
 "Suicide_nuke"				"#PLAYER# погибает от ядерного взрыва."
+"Suicide_disconnect"	"#PLAYER# покинул игру."
 
 "DeathNotice_NPC_ShamblerZombie"	"Зомби"
 "DeathNotice_NPC_RunnerZombie"		"Бегущий зомби"
