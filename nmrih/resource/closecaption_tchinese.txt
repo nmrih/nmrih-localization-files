@@ -692,7 +692,7 @@
 		"NMRPlayer.TokenUsed"	"[使用復活點數]"
 		"Wave.LowZombies"	"[準備好下一波攻勢]"
 		
-// Dialogue
+		// Dialogue
 	
 		// Generic
 		"Heli.Approach_Alert_NoAccent"	"<len:1.7>這是國民警衛隊，<delay:1.9><len:4>生還者請注意，我們會在三十秒內抵達那裡！"
