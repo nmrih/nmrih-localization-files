@@ -292,6 +292,7 @@
 "Suicide_fall"	"#PLAYER# 从高处摔落而亡。"
 "Suicide_drowned"	"#PLAYER# 溺水而亡。"
 "Suicide_nuke"	"#PLAYER# 被炸死了。"
+"Suicide_disconnect"	"#PLAYER# 离开了游戏。"
 
 "DeathNotice_NPC_ShamblerZombie"	"丧尸"
 "DeathNotice_NPC_RunnerZombie"	"跑尸"
