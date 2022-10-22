@@ -747,7 +747,7 @@
 		"MidwestVoice.EngineerEnd"	"Ok, acredito ter encontrado o problema, agora é uma questão de corrigi-lo."
 		"MidwestVoice.EngineerEnd2"	"Ok, está tudo instalado e funcionando! Vamos galera, vamos!"
 		"MidwestVoice.EngineerFirst"	"Esperem, pessoal, vou consertar esse problema o mais rápido possível!"
-		"MidwestVoice.EngineerStart"	"<len:2.6>Pessoal, a locomotiva do trem quebrou... <delay:2.9><len:4.7>Não tenho ideia do que está acontecendo. <delay:4.8><len:6.4>Teremos que parar aqui por um tempo, <delay:6.6><len:2.1>não haverá outra cidade por vários quilômetros."
+		"MidwestVoice.EngineerStart"	"<len:2.6>Pessoal, a locomotiva do trem quebrou... <delay:2.9><len:1.8>Não tenho ideia do que está acontecendo. <delay:4.8><len:6.4>Teremos que parar aqui por um tempo, <delay:6.6><len:2.1>não haverá outra cidade por vários quilômetros."
 		
 		// Junction
 		"JunctionVoice.01"	"<len:2.8><I>[Tom de transmissão de emergência] <delay:2.8><len:8.4><I>A mensagem a seguir é transmitida a pedido do Escritório de Gerenciamento de Emergências de Nova Jersey, Union City, Nova Jersey. <delay:11.2><len:8><I>Se você ainda está vivo, permaneça onde está e aguarde o resgate. Viajar pelas ruas é extremamente perigoso. <delay:19.4><len:5.9><I>Os seguintes condados foram colocados em quarentena: Union, Hudson e Monmouth. <delay:25.4><len:7><I>Se você se machucou ou tem uma emergência, mantenha a calma e fique onde está até novo aviso. <delay:32.5><len:3.5><I>Os veículos de emergência podem não conseguir chegar até você neste momento.<delay:36><len:2.8><I>[Fim da transmissão]"
