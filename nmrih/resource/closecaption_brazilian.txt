@@ -729,7 +729,7 @@
 		"CampbloodVoice.RalphYourDoomed"	"Você está <I>CONDENADO! <clr:255,0,0><B>EHEHEHEHE!"
 
 		// Cleopas
-		"CleopasVoice.Radio"	"<len:1.8>[Estática de rádio] <delay:1.8><len:6>É a patrulha 206 pedindo socorro no centro da cidade, <delay:8><len:6>nós sofremos pesadas perdas, essas... coisas, só... não param... ficam subindo! <delay:14.8><len:3.2>Se alguém puder ouvir isso, envie reforços! <delay:22.4><len:3.4>Repito, precisamos de reforços no centro da cidade o mais rápido possível, <delay:26.4><len:5.6>estamos com pouca munição, estamos ficando sem opções aqui, responda SEDE-- [tiros, transmissão cortada]"
+		"CleopasVoice.Radio"	"<len:1.8>[Estática de rádio] <delay:1.8><len:6>É a patrulha 206 pedindo socorro no centro da cidade, <delay:8><len:6>nós sofremos pesadas perdas, essas... coisas, só... não param... ficam subindo! <delay:14.8><len:3.2>Se alguém puder ouvir isso, envie reforços! <delay:22.4><len:3.4>Repito, precisamos de reforços no centro da cidade o mais rápido possível, <delay:26.4><len:4.6>estamos com pouca munição, estamos ficando sem opções aqui, responda SEDE-- <delay:30.6><len:2>[tiros, transmissão cortada]"
 
 		// FEMA
 		"FemaVoice.BillyComplex"	"<len:4.2>Este sinal está vindo do complexo? A instalação inteira se foi! <delay:4.6><len:3.9>O que quer que os cabeças de ovo tenham feito, matou todos antes que pudessem acionar o protocolo de contenção. <delay:9><len:3.7>Você precisa terminar o trabalho e parar tudo o que eles não tiraram de lá!"
