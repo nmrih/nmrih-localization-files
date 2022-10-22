@@ -677,20 +677,20 @@
 
 		"NGSurvivalExtraction"	"<I>救援隊已經準備接近你們的位置了，準備好離開！"
 		"NGSurvivalSupply"	"<I>通知，FEMA 物資空投隊已經接近你們的位置了，通話完畢。"
-		"NGSurvivalBegin"	"<I>注意，這裡是美國國民警衛隊。 在你們的位置上有幾個保護區，根據全國性傳染處理辦法及聯合國雷德克措施，你們得自己撐到區域安全才可以獲救。 請各司其職，通話完畢。"
+		"NGSurvivalBegin"	"<I>注意，這裡是美國國民警衛隊。 在你們的位置上有幾個保護區，依據全國性傳染處理辦法及聯合國雷德克措施，你們得自己撐到區域安全才得以獲救。 請各司其職，通話完畢。"
 		"NGSurvivalWaveStart"	"<I>殭屍接近中！準備好！"
-		"NGSurvivalZoneA"	"<clr: 255, 255, 0><I>A 區被攻擊了！守住它！"
-		"NGSurvivalZoneB"	"<clr: 255, 255, 0><I>B 區被攻擊了！守住它！"
-		"NGSurvivalZoneC"	"<clr: 255, 255, 0><I>C 區被攻擊了！守住它！"
-		"NGSurvivalZoneD"	"<clr: 255, 255, 0><I>D 區被攻擊了！守住它！"
-		"NGSurvivalZoneE"	"<clr: 255, 255, 0><I>E 區被攻擊了！守住它！"
-		"NGSurvivalZoneF"	"<clr: 255, 255, 0><I>F 區被攻擊了！守住它！"
+		"NGSurvivalZoneA"	"<clr: 255, 255, 0><I>A 區遭受侵襲！守住它！"
+		"NGSurvivalZoneB"	"<clr: 255, 255, 0><I>B 區遭受侵襲！守住它！"
+		"NGSurvivalZoneC"	"<clr: 255, 255, 0><I>C 區遭受侵襲！守住它！"
+		"NGSurvivalZoneD"	"<clr: 255, 255, 0><I>D 區遭受侵襲！守住它！"
+		"NGSurvivalZoneE"	"<clr: 255, 255, 0><I>E 區遭受侵襲！守住它！"
+		"NGSurvivalZoneF"	"<clr: 255, 255, 0><I>F 區遭受侵襲！守住它！"
 		"SafeZone.Killed"	"<clr: 255, 0, 0>[失去保護區，守住剩下的區域否則軍隊就會離開]"
 		"Wave.Complete"		"[抵擋成功]"
 		"NMRPlayer.TokenEarned"	"[獲得復活點數]"	
 		"NMRPlayer.TokenDenied"	"[未使用的復活點數已被移除]"
 		"NMRPlayer.TokenUsed"	"[使用復活點數]"
-		"Wave.LowZombies"	"[準備迎接下一波攻勢]"
+		"Wave.LowZombies"	"[準備迎接下一波侵襲]"
 		
 		// Dialogue
 	
