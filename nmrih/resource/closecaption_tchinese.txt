@@ -729,7 +729,7 @@
 		"CampbloodVoice.RalphYourDoomed"	"你<I>完蛋了！<clr:255,0,0><B>咿嘻嘻嘻嘻！"
 
 		// Cleopas
-		"CleopasVoice.Radio"	"<len:1.8>[收音機雜訊]<delay:1.8><len:6>這是巡邏隊兩洞陸在鬧區呼叫緊急協助，我們損失慘重，<delay:8><len:6>那些...怪物，它們...就是打不死...它們一直爬起來！<delay:14.8><len:3.2>如果有誰聽得見，拜託加派援軍！<delay:22.4><len:3.4>我重複，我們鬧區需要立即協助，<delay:26.4><len:5.6>我們彈藥所剩無幾，我們的選擇也所剩無幾，總部請回復-- [槍聲、通訊中斷]"
+		"CleopasVoice.Radio"	"<len:1.8>[收音機雜訊]<delay:1.8><len:6>這是巡邏隊兩洞陸在鬧區呼叫緊急協助，我們損失慘重，<delay:8><len:6>那些...怪物，它們...就是打不死...它們一直爬起來！<delay:14.8><len:3.2>如果有誰聽得見，拜託加派援軍！<delay:22.4><len:3.4>我重複，我們鬧區需要立即協助，<delay:26.4><len:4.6>我們彈藥所剩無幾，我們的選擇也所剩無幾，總部請回復-- <delay:30.6><len:2>[槍聲、通訊中斷]"
 
 		// FEMA
 		"FemaVoice.BillyComplex"	"<len:4.2>這段訊號是基地傳來的嗎？那整座設施鐵定沒救了！<delay:4.6><len:3.9>那些科學家的蠢主意在封鎖程序啟動前就害死所有人了。<delay:9><len:3.7>你得把事情完成，阻止他們幹的傻事擴散到外頭來！"
@@ -747,7 +747,7 @@
 		"MidwestVoice.EngineerEnd"	"好，我敢說我找到問題出在哪了，現在只差修好它了。"
 		"MidwestVoice.EngineerEnd2"	"OK，成功發動！快點啊各位，上車了！"
 		"MidwestVoice.EngineerFirst"	"保護好自己呀各位，我會盡快排除問題！"
-		"MidwestVoice.EngineerStart"	"<len:2.6>各位，剛剛列車引擎失靈了... <delay:2.9><len:4.7>起因還在調查，<delay:4.8><len:6.4>我們必須在這停滯一段時間，<delay:6.6><len:2.1>接下來好幾英里都是荒郊野外。"
+		"MidwestVoice.EngineerStart"	"<len:2.6>各位，剛剛列車引擎失靈了... <delay:2.9><len:1.8>起因還在調查，<delay:4.8><len:6.4>我們必須在這停滯一段時間，<delay:6.6><len:2.1>接下來好幾英里都是荒郊野外。"
 		
 		// Junction
 		"JunctionVoice.01"	"<len:2.8><I>[緊急廣播音]<delay:2.8><len:8.4><I>以下訊息由紐澤西州聯合市的紐澤西緊急管理處下達發布。<delay:11.2><len:8><I>若您依然安好，請就地等待救援。 在街上穿梭是萬分危險的。<delay:19.4><len:5.9><I>下述是實施出入封鎖的郡：聯合郡、哈德遜郡以及孟莫斯郡。<delay:25.4><len:7><I>若您有受傷或者其他緊急情況，請保持冷靜並在原處靜待進一步的消息。<delay:32.5><len:3.5><I>緊急服務車輛目前或許無法抵達您的位置。<delay:36><len:2.8><I>[廣播結束]"
