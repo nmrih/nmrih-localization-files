@@ -729,7 +729,7 @@
 		"CampbloodVoice.RalphYourDoomed"	"You're <I>DOOMED! <clr:255,0,0><B>EHEHEHEHE!"
 
 		// Cleopas
-		"CleopasVoice.Radio"	"<len:1.8>[Radio static] <delay:1.8><len:6>This is patrol 206 requesting immidiate assistance downtown, we have suffered heavy losses, <delay:8><len:6>these... things, just... won't stay down... they keep getting back up! <delay:14.8><len:3.2>If anybody can hear this, please send backup! <delay:22.4><len:3.4>I repeat, we need backup downtown ASAP, <delay:26.4><len:5.6>we're low on ammunition, we're running out of options here, please respond HQ-- [gunshots, transmission cuts short]"
+		"CleopasVoice.Radio"	"<len:1.8>[Radio static] <delay:1.8><len:6>This is patrol 206 requesting immidiate assistance downtown, we have suffered heavy losses, <delay:8><len:6>these... things, just... won't stay down... they keep getting back up! <delay:14.8><len:3.2>If anybody can hear this, please send backup! <delay:22.4><len:3.4>I repeat, we need backup downtown ASAP, <delay:26.4><len:4.6>we're low on ammunition, we're running out of options here, please respond HQ-- <delay:30.6><len:2>[gunshots, transmission cuts short]"
 
 		// FEMA
 		"FemaVoice.BillyComplex"	"<len:4.2>Is this signal coming from the complex? The whole facility is gone! <delay:4.6><len:3.9>Whatever the eggheads did killed everyone before they could trigger the containment protocol. <delay:9><len:3.7>You need to finish the job, and stop whatever they did get out of there!"
