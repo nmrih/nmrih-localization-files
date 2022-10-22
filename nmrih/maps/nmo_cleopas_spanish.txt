@@ -1,0 +1,20 @@
+"lang" 
+{ 
+"Language" "Spanish" 
+"Tokens" 
+{
+	"nmo_cleopas_ObjA"	"Busca algún explosivo para abrir la puerta del callejón"
+	"nmo_cleopas_ObjB"	"Busca algún explosivo para abrir la puerta del callejón"
+	"nmo_cleopas_ObjC"	"Busca algún explosivo para abrir la puerta del callejón"
+	"nmo_cleopas_ObjZ"	"Busca los objetos indicados en la pizarra y llévalos al supermercado"
+	"nmo_cleopas_ObjE"	"Busca 4 tablones para cruzar el charco electrificado"
+	"nmo_cleopas_ObjF"	"Encuentra la palanca faltante para apagar la electricidad"
+	"nmo_cleopas_ObjH"	"Usa la escalera para entrar a la tienda Samco"
+	"nmo_cleopas_ObjI"	"Usa un soldador para entrar al supermercado"
+	"nmo_cleopas_ObjJ"	"Busca una escalera para saltar la puerta del callejón"
+	"nmo_cleopas_ObjG"	"Busca algún explosivo para destruir la pared del callejón"
+	"nmo_cleopas_OBjD"	"Sal a la calle rompiendo los tablones de la puerta frontal de la casa"
+	"nmo_cleopas_ObjK"	"Avanza hacia el siguiente callejón"
+	"nmo_cleopas_ObjR"	"Busca unas pinzas para abrir la puerta. ¡El helicóptero se irá en 3 minutos!"
+	"nmo_cleopas_ObjL"	"Abre la puerta del callejón con un soldador"
+}
