@@ -155,7 +155,7 @@
 "Weapon_fa_1911"		"科爾特 1911"
 "Weapon_fa_cz858"		"CZ858"
 "Weapon_fa_fnfal"		"FN FAL"
-"Weapon_fa_glock17_short"	"格洛克 17"
+"Weapon_fa_glock17"		"格洛克 17"
 "Weapon_fa_jae700"		"JAE-700"
 "Weapon_fa_m16a4"		"M16A4 w/ACOG"
 "Weapon_fa_m16a4_carryhandle"	"M16A4 w/提把"
