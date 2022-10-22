@@ -747,7 +747,7 @@
 		"MidwestVoice.EngineerEnd"	"Okay, I believe I have found the problem, now it's a matter of fixing it."
 		"MidwestVoice.EngineerEnd2"	"Okay, it's all up and running! Come on guys, get on!"
 		"MidwestVoice.EngineerFirst"	"Hold the fort guys, I'm gonna fix this problem ASAP!"
-		"MidwestVoice.EngineerStart"	"<len:2.6>Guys, the train engine just went kaput... <delay:2.9><len:1.8>I have no idea what's going on. <delay:4.8><len:6.4>We're gonna have to stop here for a while, <delay:6.6><len:2.1>there won't be another town for several miles."
+		"MidwestVoice.EngineerStart"	"<len:2.6>Guys, the train engine just went kaput... <delay:2.9><len:1.8>I have no idea what's going on. <delay:4.8><len:1.6>We're gonna have to stop here for a while, <delay:6.6><len:2.1>there won't be another town for several miles."
 		
 		// Junction
 		"JunctionVoice.01"	"<len:2.8><I>[Emergency broadcast tone] <delay:2.8><len:8.4><I>The following message is transmitted at the request of the New Jersey Office of Emergency Management, Union City, New Jersey. <delay:11.2><len:8><I>If you are still alive, remain where you are and await rescue. Traveling the streets is extremely hazardous. <delay:19.4><len:5.9><I>The following counties have been put under quarantine: Union, Hudson, and Monmouth. <delay:25.4><len:7><I>If you have been injured or you have an emergency, please remain calm and stay where you are until further notice. <delay:32.5><len:3.5><I>Emergency vehicles may not be able to reach you at this time. <delay:36><len:2.8><I>[Broadcast ends]"
