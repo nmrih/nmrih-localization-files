@@ -747,7 +747,7 @@
 		"MidwestVoice.EngineerEnd"	"好的，我相信我已经找到了问题所在，现在唯一要做的就是让我把它修好。"
 		"MidwestVoice.EngineerEnd2"	"好了，已经修理完毕，并且引擎运转良好！伙计们，赶快到火车上来！"
 		"MidwestVoice.EngineerFirst"	"守住你们所待的建筑，我会尽快修理好火车引擎！"
-		"MidwestVoice.EngineerStart"	"<len:2.6>伙计们，火车引擎似乎出了问题。 <delay:2.9><len:4.9>而我也不清楚引擎到底是什么状况...<delay:4.8><len:3.8>距离最近的城镇在几英里开外，<delay:6.6><len:2.8>看来我们不得不在此地滞留一段时间了。"
+		"MidwestVoice.EngineerStart"	"<len:2.6>伙计们，火车引擎似乎出了问题。 <delay:2.9><len:1.8>而我也不清楚引擎到底是什么状况...<delay:4.8><len:3.8>距离最近的城镇在几英里开外，<delay:6.6><len:2.8>看来我们不得不在此地滞留一段时间了。"
 		
 		// Junction
 		"JunctionVoice.01"	"<len:2.8>[应急广播播报]<delay:2.8><len:4.1><I>以下讯息是新泽西州联合市，<delay:6.6><len:4.6><I>新泽西应急管理办公室所要求发送的。<delay:11.2><len:4><I>如果您依旧生还，请留在原地等待救援，<delay:14.7><len:4.6><I>在街道上穿行是十分危险的。<delay:19.4><len:5.9><I>以下郡县中的：联合县，哈德逊县和孟莫斯县目前已被隔离。<delay:25.4><len:3.5><I>如果您已受伤或遇到紧急情况，<delay:28.5><len:4><I>请保持冷静，并在原地等待我们的后续通知。<delay:32.5><len:3.5><I>应急救援车辆目前可能无法及时赶到。<delay:36><len:2.8>[播报完毕]"
