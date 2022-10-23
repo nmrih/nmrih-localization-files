@@ -1,6 +1,6 @@
 "lang" 
 { 
-"Language" "Spanish" 
+"Language" "English" 
 "Tokens" 
 {
 	"nmo_rockpit_obj_lever"	"Attach a spare lever to the elevator"
