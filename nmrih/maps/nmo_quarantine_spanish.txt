@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "Spanish" 
+"Tokens" 
+{
+	"nmo_quarantine_obj_gravesite"	"Encuentra una pala y cava las tumbas para buscar combustible"
+	"nmo_quarantine_obj_leavespawn"	"Escapa del callejón"
+	"nmo_quarantine_obj_fillup_generator_turn_on"	"Recarga el generador con combustible y enciéndelo"
+	"nmo_quarantine_obj_get_sewer_key"	"Encuentra la llave del cuarto de mantenimiento"
+	"nmo_quarantine_obj_get_sewer_crank"	"Busca la manivela faltante y drena el cuarto de mantenimiento"
+	"nmo_quarantine_obj_leave_sewer"	"Escapa de las alcantarillas"
+	"nmo_quarantine_obj_close_gate"	"Cierra la puerta externa para obtener acceso a la cuarentena interna"
+	"nmo_quarantine_obj_waitfordoor"	"Espera a que se abra el portón"
+	"nmo_quarantine_obj_enter_sewer"	"Entra a las alcantarillas"
+	"nmo_quarantine_obj_enter_inner_quarantine"	"¡Entra a la cuarentena interna antes de que se active el sistema de emergencia!"
+	"nmo_quarantine_obj_use_radio"	"Usa la radio"
+	"nmo_quarantine_obj_get_walkie"	"Llévate la radio portátil"
+	"nmo_quarantine_obj_activate_siren"	"Activa la sirena cuando estés listo"
+	"nmo_quarantine_obj_survive"	"Sobrevive por 2 minutos"
+	"nmo_quarantine_50sec"	"Tienes 50 segundos para entrar a la zona de cuarentena antes de la explosión."
+	"nmo_quarantine_10sec"	"10 segundos restantes."
+}
