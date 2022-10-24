@@ -20,5 +20,5 @@
 	"nmo_shelter_lever"		"¡Alguien está usando la palanca!"
 	"nmo_shelter_6mins"		"¡Tienes 6 minutos para escapar!"
 	"nmo_shelter_switch"		"¡Conecta todos los interruptores!"
-	"nmo_shelter_end"		"Has logrado sobrevivir para ver un nuevo día..."
+	"nmo_shelter_end"		"Has logrado sobrevivir para morir otro día..."
 }
