@@ -11,3 +11,4 @@
 	"nmo_chinatown_docks_finale"	"¡Reconecta la electricidad a la radio y pide un rescate!"
 	"nmo_chinatown_radio"	"El rescate llegará en 60 segundos. ¡Sobrevive!"
 }
+}

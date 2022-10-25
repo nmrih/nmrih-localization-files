@@ -15,3 +15,4 @@
 	"nmo_cabin_ObjI"	"¡Busca una batería para encender el generador y pide ayuda por radio!"
 	"nmo_cabin_ObjG2"	"Avanza por la sección subterránea"
 }
+}

@@ -18,3 +18,4 @@
 	"nmo_cleopas_ObjR"	"Busca unas pinzas para abrir la puerta. ¡El helicóptero se irá en 3 minutos!"
 	"nmo_cleopas_ObjL"	"Abre la puerta del callejón con un soldador"
 }
+}

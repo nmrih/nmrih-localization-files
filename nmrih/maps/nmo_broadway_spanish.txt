@@ -1,5 +1,5 @@
 "lang" 
-	{ 
+{ 
 	"Language" "Spanish" 
 	"Tokens" 
 	{

@@ -20,3 +20,4 @@
 	"nmo_quarantine_50sec"	"Tienes 50 segundos para entrar a la zona de cuarentena antes de la explosión."
 	"nmo_quarantine_10sec"	"10 segundos restantes."
 }
+}

@@ -26,3 +26,4 @@
 	"nmo_brooklyn_objective25"	"Encuentra el puesto y abre la puerta de la cuarentena"
 	"nmo_brooklyn_objective27"	"Empuja el auto fuera de la calle para abrir el camino"
 }
+}

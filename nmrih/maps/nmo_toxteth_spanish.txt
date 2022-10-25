@@ -20,3 +20,4 @@
 	"nmo_toxteth_ObjM"	"Usa un soldador para abrir la boca de alcantarilla"
 	"nmo_toxteth_ObjZ"	"Vuelve a la calle Hartington"
 }
+}

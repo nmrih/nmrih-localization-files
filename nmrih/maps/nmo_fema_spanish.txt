@@ -40,3 +40,4 @@
 	"nmo_fema_5sec"		"5 segundos para la esterilización."
 	"nmo_fema_kill"		"Iniciando esterilización..."
 }
+}
