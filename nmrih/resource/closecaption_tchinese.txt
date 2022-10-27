@@ -715,7 +715,7 @@
 		"brooklyn_voice.06"	"<len:2>太好了，人還活著呀！<delay:2><len:2.8>東西上車，我們在這引來太多群眾了。"
 		"brooklyn_voice.07"	"<len:2.2>好，我們就快逃出去了！<delay:2.2><len:2.4>我們得找到大門的控制台，<delay:4.6><len:1.8>應該不會離這太遠。"
 		"brooklyn_voice.08"	"<I>動作快啊<clr:255,0,0>小豬仔<clr:255,255,255> - 別逼我先走一步了！"
-		"brooklyn_voice.09"	"白癡，看樣子某人不知道怎麼停車。"
+		"brooklyn_voice.09"	"哭枵，看樣子有人不知道怎麼停車。"
 		"brooklyn_voice.10"	"不知道各位怎麼想，我的肚子開始叫了。"
 		
 		// Cabin
@@ -724,7 +724,7 @@
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"<len:1.5>生還者！<delay:1.6><len:1.6>我來找你了！"
 		"CampbloodVoice.RalphLastChance"	"這是最後的機會！"
-		"CampbloodVoice.RalphLightsOff"		"有人記得要關燈嗎？"
+		"CampbloodVoice.RalphLightsOff"		"有人記得關燈嗎？"
 		"CampbloodVoice.RalphWelcome"		"<len:2.3>你要參加喋血營是吧？<delay:2.6><len:2.1>你不會再度光臨，<delay:4.9><len:2.1>這有<I>死亡詛咒！"
 		"CampbloodVoice.RalphYourDoomed"	"你<I>完蛋了！<clr:255,0,0><B>咿嘻嘻嘻嘻！"
 
@@ -732,22 +732,22 @@
 		"CleopasVoice.Radio"	"<len:1.8>[收音機雜訊]<delay:1.8><len:6>這是巡邏隊兩洞陸在市區呼叫緊急協助，我們損失慘重，<delay:8><len:6>那些...怪物，它們...就是打不死...它們一直爬起來！<delay:14.8><len:3.2>如果有誰聽得見，拜託加派援軍！<delay:22.4><len:3.4>我重複，我們市區需要緊急支援，<delay:26.4><len:4.6>我們彈藥所剩無幾，我們的選擇也所剩無幾，總部請回復-- <delay:30.6><len:2>[槍聲、通訊中斷]"
 
 		// FEMA
-		"FemaVoice.BillyComplex"	"<len:4.2>這段訊號是基地傳來的嗎？那整座設施鐵定沒救了！<delay:4.6><len:3.9>那些科學家的蠢主意在封鎖程序啟動前就害死所有人了。<delay:9><len:3.7>你得把事情完成，阻止他們幹的傻事擴散到外頭來！"
-		"FemaVoice.BillyFuel"		"<len:2.8>我們可以帶你們起飛，但是我們的燃料不夠！<delay:2.9><len:2.6>我們得先裝滿油才能出發到安全的地方。"
-		"FemaVoice.BillyGetIn"		"走了，上來！我們向安身處出航！"
-		"FemaVoice.BillyTopside"	"<len:1.8>喂？喂！<delay:2.1><len:3.3>如果有人聽見我說的，到地面上來我們能起飛帶你去安全處。<delay:5.7><len:4.1>去搜我們拖車的櫃子，我存一些那些金頭腦在開發的疫苗。<delay:9.9><len:2.6>我們還是小心為妙，帶著疫苗就馬上過來！"
+		"FemaVoice.BillyComplex"	"<len:4.2>這段訊號是基地傳來的嗎？那整座設施都淪陷了！<delay:4.6><len:3.9>那些科學家的蠢主意在封鎖程序啟動前就害死所有人了。<delay:9><len:3.7>你得完成封鎖程序，阻止他們幹的傻事擴散到外頭來！"
+		"FemaVoice.BillyFuel"		"<len:2.8>我們可以帶你們起飛，但是我們的燃料不夠！<delay:2.9><len:2.6>我們得先灌滿油才能出發到安全的地方。"
+		"FemaVoice.BillyGetIn"		"走了，上來！航向我們的新家吧！"
+		"FemaVoice.BillyTopside"	"<len:1.8>喂？喂！<delay:2.1><len:3.3>如果有人聽見我說的，到地面上來我們能起飛帶你去安全處。<delay:5.7><len:4.1>去搜我們拖車裡的櫃子，我存一些那些金頭腦在開發的疫苗。<delay:9.9><len:2.6>我們還是小心為妙，帶著疫苗就馬上過來！"
 		"FemaVoice.MengelerOkayBob"	"<I>好，巴布，現在請拉下開關。"
 		"FemaVoice.MengelerThatsIt"	"<I>做得很好喔巴布！這樣你值得拿到獎賞。"
 		"FemaVoice.MengelerSayHello"	"<I>向艾莉西亞阿姨說聲喂，巴布。"
-		"FemaVoice.ColonelNatSec"	"<len:1.5>這是卡珊上校，<delay:1.7><len:5.5>基於國家安全我們可以幫助你們脫困，前提是你們得想辦法回收實驗中的疫苗。<delay:7.6><len:3>我們知道你的位置，我們會在地面上等待回應。"
-		"FemaVoice.ColonelStow"		"<len:2.8>這是國家安全局卡珊上校，<delay:2.8><len:1.1>我們得到你們的訊號。<delay:3.9><len:2.5>妥當收納疫苗，準備疏散。"
+		"FemaVoice.ColonelNatSec"	"<len:1.5>這是凱珊上校，<delay:1.7><len:5.5>基於國家安全我們可以幫助你們脫困，前提是你們必須回收實驗中的疫苗。<delay:7.6><len:3>我們知道你的位置，我們會在地面上等待回應。"
+		"FemaVoice.ColonelStow"		"<len:2.8>這是國家安全局凱珊上校，<delay:2.8><len:1.1>我們得到你們的訊號。<delay:3.9><len:2.5>妥當收納疫苗，準備疏散。"
 		
 		// Midwest
 		"MidwestVoice.EngineerBarbara"	"它們來抓我們囉，芭芭拉！"
 		"MidwestVoice.EngineerEnd"	"好，我敢說我找到問題出在哪了，現在只差修好它了。"
 		"MidwestVoice.EngineerEnd2"	"OK，成功發動！快點啊各位，上車了！"
 		"MidwestVoice.EngineerFirst"	"保護好自己呀各位，我會盡快排除問題！"
-		"MidwestVoice.EngineerStart"	"<len:2.6>各位，剛剛列車引擎失靈了... <delay:2.9><len:1.8>起因還在調查，<delay:4.8><len:1.6>我們必須在這停滯一段時間，<delay:6.6><len:2.1>接下來好幾英里都是荒郊野外。"
+		"MidwestVoice.EngineerStart"	"<len:2.6>各位，剛剛列車引擎失靈了... <delay:2.9><len:1.8>我還沒搞清楚怎麼了，<delay:4.8><len:1.6>我們必須在這停滯一段時間，<delay:6.6><len:2.1>接下來好幾英里都是荒郊野外。"
 		
 		// Junction
 		"JunctionVoice.01"	"<len:2.8><I>[緊急廣播音]<delay:2.8><len:8.4><I>以下訊息由紐澤西州聯合市的紐澤西緊急管理處下達發布。<delay:11.2><len:8><I>若您依然安好，請就地等待救援。 在街上穿梭是萬分危險的。<delay:19.4><len:5.9><I>下述是實施出入封鎖的郡：聯合郡、哈德遜郡以及孟莫斯郡。<delay:25.4><len:7><I>若您有受傷或者其他緊急情況，請保持冷靜並在原處靜待進一步的消息。<delay:32.5><len:3.5><I>緊急服務車輛目前或許無法抵達您的位置。<delay:36><len:2.8><I>[廣播結束]"
@@ -770,16 +770,16 @@
 		"ToxtethVoice.PilotRadio4"	"<len:3.3>有，我們聽得見，我們在鄰近的區域盤旋。<delay:3.7><len:4.3>前往哈廷頓路，我們會在五分鐘內抵達，接你們上來。<delay:8.9><len:2.2>我們時間有限，所以請盡快！"
 		"ToxtethVoice.PilotDelay"	"<len:3.9>嘿，我們耽誤了一下，需要再多個五分鐘。<delay:4.2><len:2.8>我們會盡速趕到，撐下去！"
 		"ToxtethVoice.PilotDelay2"	"<len:4.2>嘿，我們耽誤了一下，需要再多個五分鐘。<delay:4.7><len:2.8>我們會盡速趕到，撐下去！"
-		"ToxtethVoice.SurvivorPhone"	"<len:6.9>嘿？嘿！謝天謝地你們接電話了，我觀察你們一陣子了，我駭進了監視系統。<delay:7.3><len:5.7>我在距你們幾百公尺外的賣場裡，而且我這邊有辦法向外求援... 但是我被反鎖在裡頭了！<delay:14.1><len:5.6>外面都是殭屍，我不清楚到底有多少不過... 你們要趕緊過來這邊！<delay:20.7><len:3.6>沒什麼時間了，我建議你們穿過墓園來我這。"
-		"ToxtethVoice.SurvivorPhone2"	"<len:7.8>嘿？嘿！謝天謝地你們接電話了，我觀察你們一陣子了，我駭進了監視系統。<delay:8.4><len:4.8>我在距你們幾百公尺外的賣場裡，而且我這邊有辦法向外求援... 但是我被反鎖在裡頭了！<delay:13.6><len:4.9>外面都是殭屍，我不清楚到底有多少不過... 你們要趕緊過來這邊！<delay:19><len:3.6>沒什麼時間了，我建議你們穿過墓園來我這。"
-		"ToxtethVoice.SurvivorPhone3"	"<len:7.6>嘿？嘿！謝天謝地你們接電話了，我觀察你們一陣子了，我駭進了監視系統。<delay:8><len:5.5>我在距你們幾百公尺外的賣場裡，而且我這邊有辦法向外求援... 但是我被反鎖在裡頭了！<delay:14><len:5>外面都是殭屍，我不清楚到底有多少不過... 你們要趕緊過來這邊！<delay:19.6><len:3.7>沒什麼時間了，我建議你們穿過墓園來我這。"
+		"ToxtethVoice.SurvivorPhone"	"<len:6.9>嘿？嘿！好險你們接電話了，我觀察你們一陣子了，我駭進了監視系統。<delay:7.3><len:5.7>我在距你們幾百公尺外的賣場裡，而且我這邊有辦法向外求援... 但是我被反鎖在裡頭了！<delay:14.1><len:5.6>外面都是殭屍，我不清楚到底有多少不過... 你們要趕緊過來這邊！<delay:20.7><len:3.6>沒什麼時間了，我建議你們穿過墓園來我這。"
+		"ToxtethVoice.SurvivorPhone2"	"<len:7.8>嘿？嘿！好險你們接電話了，我觀察你們一陣子了，我駭進了監視系統。<delay:8.4><len:4.8>我在距你們幾百公尺外的賣場裡，而且我這邊有辦法向外求援... 但是我被反鎖在裡頭了！<delay:13.6><len:4.9>外面都是殭屍，我不清楚到底有多少不過... 你們要趕緊過來這邊！<delay:19><len:3.6>沒什麼時間了，我建議你們穿過墓園來我這。"
+		"ToxtethVoice.SurvivorPhone3"	"<len:7.6>嘿？嘿！好險你們接電話了，我觀察你們一陣子了，我駭進了監視系統。<delay:8><len:5.5>我在距你們幾百公尺外的賣場裡，而且我這邊有辦法向外求援... 但是我被反鎖在裡頭了！<delay:14><len:5>外面都是殭屍，我不清楚到底有多少不過... 你們要趕緊過來這邊！<delay:19.6><len:3.7>沒什麼時間了，我建議你們穿過墓園來我這。"
 		"ToxtethVoice.SurvivorPhone4"	"<len:3.4>嘿！過去幾天我用監視器看著你們。<delay:3.7><len:5.6>你們得前往墓園後面的那間賣場，我被困在這裡，外面全都是殭屍！<delay:9.9><len:3.4>我已經從外面求來了救援，但是你們得過來救我，我們才能離開。<delay:14.3><len:1.4>時間不多了。"
 		
 		// Zephyr
 		"ZephyrVoice.Engineer04"	"不好意思，給我忘記了，能不能拉下我後頭的控制桿，讓我到車站那邊連接其他節車廂？"
 		"ZephyrVoice.Engineer06"	"好，只要再一支把手。 我... 很抱歉啊各位我應該先說清楚的，那支把手有一點點遠... 哼。"
 		"ZephyrVoice.Engineer07"	"好了各位，最後一步。放開車廂的手剎車，我後面綠色的那一節。"
-		"ZephyrVoice.Engineer08"	"萬事準備就緒！跟我說一聲，我們馬上出發。"
+		"ZephyrVoice.Engineer08"	"一切就緒！跟我說一聲，我們馬上出發。"
 		"ZephyrVoice.Engineer09"	"走了！"
 		"ZephyrVoice.Engineer10"	"誰還沒上車的，加緊動作！快呀！"
 		"ZephyrVoice.AllAboard"		"<B>全員登車！"
