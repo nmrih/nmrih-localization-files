@@ -11,3 +11,4 @@
 	"nmo_chinatown_docks_finale"	"啟動對講機電源並呼叫救援！"
 	"nmo_chinatown_radio"	"救援將於 60 秒內抵達，撐下去！"
 }
+}

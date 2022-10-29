@@ -15,3 +15,4 @@
 	"nmo_cabin_ObjI"	"Encontre a bateria do carro, ligue o gerador e peça ajuda!"
 	"nmo_cabin_ObjG2"	"Siga pelo subterrâneo"
 }
+}

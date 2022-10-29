@@ -17,4 +17,9 @@
 	"nmo_shelter_Objective_7_prepre"	"Destrua a tábua para ter acesso ao esgoto"
 	"nmo_shelter_Objective_pre9"	"Siga pelos túneis"
 	"nmo_shelter_Objective_9"	"Prepare sua rota de fuga!"
+	"nmo_shelter_lever"		"Alguém está usando a alavanca!"
+	"nmo_shelter_6mins"		"Você tem 6 minutos para ser extraído!"
+	"nmo_shelter_switch"		"Coloque todos os interruptores!"
+	"nmo_shelter_end"		"Você desiste de viver outro dia..."
+}
 }

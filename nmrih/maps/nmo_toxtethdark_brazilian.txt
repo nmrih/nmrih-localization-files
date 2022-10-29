@@ -20,3 +20,4 @@
 	"nmo_toxteth_ObjM"	"Use o maçarico na tampa do bueiro"
 	"nmo_toxteth_ObjZ"	"Prossiga de volta para Hartington Road"
 }
+}

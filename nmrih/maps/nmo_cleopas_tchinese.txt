@@ -3,13 +3,13 @@
 "Language" "TChinese" 
 "Tokens" 
 {
-	"nmo_cleopas_ObjA"	"找 TNT 來通過巷子的門"
-	"nmo_cleopas_ObjB"	"找 TNT 來通過巷子的門"
-	"nmo_cleopas_ObjC"	"找 TNT 來通過巷子的門"
+	"nmo_cleopas_ObjA"	"找 TNT 炸穿巷子的門"
+	"nmo_cleopas_ObjB"	"找 TNT 炸穿巷子的門"
+	"nmo_cleopas_ObjC"	"找 TNT 炸穿巷子的門"
 	"nmo_cleopas_ObjZ"	"依循白板的指示"
 	"nmo_cleopas_ObjE"	"找到 4 片木板通過通電的積水"
 	"nmo_cleopas_ObjF"	"找出把手關閉電源"
-	"nmo_cleopas_ObjH"	"找梯子來闖入 Samco 商店"
+	"nmo_cleopas_ObjH"	"找梯子來闖入 Samco 賣場"
 	"nmo_cleopas_ObjI"	"使用焊槍闖進商店"
 	"nmo_cleopas_ObjJ"	"找梯子來翻越巷子的門"
 	"nmo_cleopas_ObjG"	"炸開巷子的牆壁"
@@ -17,4 +17,5 @@
 	"nmo_cleopas_ObjK"	"進入下一條巷子"
 	"nmo_cleopas_ObjR"	"找出鉗子破壞門鎖，你有 3 分鐘的時間疏散！"
 	"nmo_cleopas_ObjL"	"找出焊槍開啟後巷門"
+}
 }

@@ -11,3 +11,4 @@
 	"nmo_chinatown_docks_finale"	"想办法重新接通无线电的电源并呼叫救援！"
 	"nmo_chinatown_radio"	"救援直升机将在 60 秒后到达，坚持住！"
 }
+}

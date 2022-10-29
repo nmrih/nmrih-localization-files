@@ -22,3 +22,4 @@
 	"nmo_shelter_switch"		"在控制面板上安装所有的开关！"
 	"nmo_shelter_end"		"你成功到达了避难所，但之后又该如何生活呢..."
 }
+}

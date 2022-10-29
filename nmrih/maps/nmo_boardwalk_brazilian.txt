@@ -12,3 +12,4 @@
 	"nmo_boardwalk_Objectives_Gauntlet"	"Faça o seu caminho para a casa segura"
 	"nmo_boardwalk_Objectives_Signal"	"Acenda um sinal de fogo"
 }
+}

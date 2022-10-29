@@ -33,4 +33,11 @@
 	"nmo_fema_Objective35"	"Mantenha o bombeamento de diesel"
 	"nmo_fema_Objective36"	"Use um maçarico para abrir a porta da quarentena"
 	"nmo_fema_Objective37"	"Use uma escada para entrar na quarentena"
+	"nmo_fema_msg1"			"Contagem regressiva de esterilização iniciada."
+	"nmo_fema_30sec"		"30 segundos até a esterilização."
+	"nmo_fema_20sec"		"20 segundos até a esterilização."
+	"nmo_fema_10sec"		"10 segundos até a esterilização."
+	"nmo_fema_5sec"			"5 segundos até a esterilização."
+	"nmo_fema_kill"			"Iniciando a esterilização..."
+}
 }

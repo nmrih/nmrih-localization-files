@@ -29,3 +29,4 @@
 	"nmo_lakeside_weld_main_house"	"Usa un soldador en la puerta principal de la cabaña"
 	"nmo_lakeside_end"		"Ve hacia el muelle. ¡El rescate llegará en 30 segundos!"
 }
+}

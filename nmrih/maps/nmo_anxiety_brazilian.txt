@@ -13,3 +13,4 @@
 	"nmo_anxiety_Obj8"	"Destranque as portas do hospital"
 	"nmo_anxiety_Obj9"	"Encontre as chaves do veículo recreativo"
 }
+}

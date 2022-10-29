@@ -99,7 +99,7 @@
 "NMRiH_VoiceCommand_ThankYou"		"Спасибо"
 "NMRiH_VoiceCommand_Incoming"		"Наступают"
 "NMRiH_VoiceCommand_Injured"		"Ранен"
-"NMRiH_VoiceCommand_Taunt"		"Язвительное замечание"
+"NMRiH_VoiceCommand_Taunt"		"Оскорбление"
 
 // Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
 // The control characters can be copied and pasted in notepad.
@@ -292,6 +292,7 @@
 "Suicide_fall"				"#PLAYER# разбился."
 "Suicide_drowned"			"#PLAYER# утонул."
 "Suicide_nuke"				"#PLAYER# погибает от ядерного взрыва."
+"Suicide_disconnect"	"#PLAYER# покинул игру."
 
 "DeathNotice_NPC_ShamblerZombie"	"Зомби"
 "DeathNotice_NPC_RunnerZombie"		"Бегущий зомби"
@@ -306,10 +307,10 @@
 "ChallengeReject_Cheats"		"Были включены читы."
 "ChallengeReject_CvarChanged"		"Консольные переменные были изменены во время игры."
 "ChallengeReject_ModifiedRuleset"	"Модифицированы сложность / режим."
-"ChallengeReject_OutsideMapHack"	"Был загружен пользовательский MapHack скрипт."
-"ChallengeReject_OutsideVScript"	"Был запущен пользовательский VScript."
+"ChallengeReject_OutsideMapHack"	"Был загружен пользовательский скрипт MapHack."
+"ChallengeReject_OutsideVScript"	"Был запущен пользовательский скрипт VScript."
 "ChallengeReject_LateValidate"		"Проверка результатов была включена слишком поздно."
-"ChallengeReject_GameStateCommand"	"Были использованы команды сущности «nmrih_game_state»."
+"ChallengeReject_GameStateCommand"	"Были использованы команды энтити «nmrih_game_state»."
 
 "Hint_Generic_Compass" 			"Используйте компас для поиска подсказок! Нажмите клавишу %+compass%."
 "Hint_Generic_CheckAmmo" 		"Зажав клавишу %+reload%, вы сможете проверить количество патронов."

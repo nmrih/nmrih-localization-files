@@ -15,3 +15,4 @@
 	"nmo_broadway_objH"	"找到进入经理办公室的密码后，呼叫撤离救援。"
 	"nmo_broadway_objI"	"使用焊枪打开Motel汽车旅馆的侧门。"
 }
+}

@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nms_notld_title"	"Noite dos Mortos"
+}
+}

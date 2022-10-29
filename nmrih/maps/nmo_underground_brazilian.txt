@@ -14,4 +14,9 @@
 	"nmo_underground_FindCodeLootPaint"	"Procure um código no prédio de escritórios e pegue uma lata de tinta!"
 	"nmo_underground_LootCarBattery"	"Saqueie a bateria do carro!"
 	"nmo_underground_LootPaint"	"Saqueie uma lata de tinta!"
+	"nmo_underground_plugs"		"Conecte os plugues!"
+	"nmo_underground_car"		"Empurre o carro!"
+	"nmo_underground_sos"		"Desenhe «S.O.S»!"
+	"nmo_underground_gen"		"Ative o gerador!"
+}
 }

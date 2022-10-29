@@ -29,3 +29,4 @@
 	"nmo_lakeside_weld_main_house"	"焊開房屋的鎖"
 	"nmo_lakeside_end"		"前往船屋。救援 30 秒內抵達！"
 }
+}

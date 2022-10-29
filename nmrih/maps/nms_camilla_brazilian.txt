@@ -1,0 +1,10 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nms_camilla_final"	"Use o rádio!"
+	"nms_camilla_text1"	"Este é o Departamento de Segurança Interna dos EUA, não podemos extraí-lo agora"
+	"nms_camilla_text2"	"Mas podemos enviar-lhe suprimentos pelo trem. Ele cruzará sua cidade em breve, esteja pronto para pegar uma caixa."
+}
+}

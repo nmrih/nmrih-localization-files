@@ -39,3 +39,4 @@
 	"nmo_broadway2_30sec"	"距离空投炸弹仅剩 30 秒！"
 	"nmo_broadway2_getout"	"赶快隐蔽！"
 }
+}

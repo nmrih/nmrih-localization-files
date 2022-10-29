@@ -10,3 +10,4 @@
 	"nms_northway_2"	"还剩 2 扇大门！"
 	"nms_northway_1"	"仅剩最后 1 扇门了！"
 }
+}

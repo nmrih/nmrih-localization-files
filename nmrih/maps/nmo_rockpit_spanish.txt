@@ -25,3 +25,4 @@
 	"nmo_rockpit_entervan"	"Tienes 2 minutos para entrar a la camioneta antes de que esté repleto de zombis."
 	"nmo_rockpit_rescue"	"¡Los rescatistas están buscando tu posición! Prepárate."
 }
+}

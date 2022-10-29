@@ -16,6 +16,3 @@
 	"nmo_junction_Finale_tnt"	"Destruye las 3 vigas de soporte para asegurar tu escape"
 }
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation

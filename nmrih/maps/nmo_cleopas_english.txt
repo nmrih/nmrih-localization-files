@@ -18,3 +18,4 @@
 	"nmo_cleopas_ObjR"	"Find some pliers to cut the lock, you have 3 minutes to get extracted!"
 	"nmo_cleopas_ObjL"	"Find welder to get back alley gate open"
 }
+}

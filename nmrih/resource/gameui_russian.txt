@@ -36,7 +36,7 @@
 "NMRiH_Options_Suicide"		"Самоубийство"
 "NMRiH_Options_Shove"		"Оттолкнуть/ударить"
 "NMRiH_Options_ShowObjective"	"Показать текущую задачу"
-"NMRiH_Options_DropWeapon"	"Бросить оружие"
+"NMRiH_Options_DropWeapon"	"Сбросить оружие (удерж. для броска оружия)"
 "NMRiH_Options_Sprint"		"Бег"
 "NMRiH_Options_Reload"		"Перезарядка (удерж. для проверки патронов)"
 "NMRiH_Options_Holster"		"Убрать оружие"

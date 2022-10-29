@@ -3,5 +3,6 @@
 "Language" "TChinese" 
 "Tokens" 
 {
-	"nms_silence_truck"	"卡車到了！做好準備！"
+	"nms_silence_truck"	"卡車來了！做好準備！"
+}
 }

@@ -1,5 +1,5 @@
 "lang" 
-	{ 
+{ 
 	"Language" "Spanish" 
 	"Tokens" 
 	{
@@ -32,3 +32,4 @@
 		"nmo_broadway2_ObJS"	"Baja por las escaleras de incendio y escapa en el tren"
 		"nmo_broadway2_ObjT"	"Vuelve a la cancha de balancesto para ser rescatado"
 	}
+}

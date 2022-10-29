@@ -3,10 +3,12 @@
 "Language" "Brazilian" 
 "Tokens" 
 {
-	"nmo_chinatown_subway_escape"		"Fuja do metrô!"
+	"nmo_chinatown_subway_escape"	"Fuja do metrô!"
 	"nmo_chinatown_gate_fix"		"Encontre combustível para o gerador abrir o portão!"
 	"nmo_chinatown_ladder_dismount"	"Solte a escada no bloqueio!"
 	"nmo_chinatown_sewer_way"		"Encontre o seu caminho através dos esgotos!"
 	"nmo_chinatown_welder"			"Use o maçarico na tranca do portão para abri-lo!"
-	"nmo_chinatown_docks_finale"		"Ligue o rádio e chame o resgate!"
+	"nmo_chinatown_docks_finale"	"Ligue o rádio e chame o resgate!"
+	"nmo_chinatown_radio"			"O resgate está chegando em 60 segundos. Aguente firme!"
+}
 }

@@ -6,3 +6,4 @@
 	"nms_campblood_45sec"	"渡船 45 秒後抵達..."
 	"nms_campblood_welcome"	"歡迎來到喋血營"
 }
+}

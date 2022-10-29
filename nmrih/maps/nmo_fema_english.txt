@@ -40,3 +40,4 @@
 	"nmo_fema_5sec"		"5 seconds until sterilisation."
 	"nmo_fema_kill"		"Initiating sterilisation..."
 }
+}

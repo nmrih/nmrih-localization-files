@@ -22,3 +22,4 @@
 	"nmo_shelter_switch"		"放置所有開關！"
 	"nmo_shelter_end"		"你放棄繼續苟延殘喘..."
 }
+}

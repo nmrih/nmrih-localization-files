@@ -1,5 +1,5 @@
 "lang" 
-	{ 
+{ 
 	"Language" "Spanish" 
 	"Tokens" 
 	{
@@ -15,3 +15,4 @@
 		"nmo_broadway_objH"	"Logra entrar a la oficina del gerente para pedir ayuda"
 		"nmo_broadway_objI"	"Usa un soldador para abrir la puerta lateral del motel"
 	}
+}

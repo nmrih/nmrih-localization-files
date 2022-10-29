@@ -36,7 +36,7 @@
 "NMRiH_Options_Suicide"			"Suicide"
 "NMRiH_Options_Shove"			"Shove/Bash"
 "NMRiH_Options_ShowObjective"		"Show current objective"
-"NMRiH_Options_DropWeapon"		"Drop weapon"
+"NMRiH_Options_DropWeapon"		"Drop weapon (hold for Throw weapon)"
 "NMRiH_Options_Sprint"			"Sprint"
 "NMRiH_Options_Reload"			"Reload (hold for Ammo Check)"
 "NMRiH_Options_Holster"			"Holster weapon"

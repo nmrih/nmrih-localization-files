@@ -1,5 +1,5 @@
 "lang" 
-	{ 
+{ 
 	"Language" "Spanish" 
 	"Tokens" 
 	{
@@ -12,3 +12,4 @@
 		"nmo_boardwalk_Objectives_Gauntlet"	"Avanza hasta llegar a la zona segura"
 		"nmo_boardwalk_Objectives_Signal"	"Enciende una fogata para señalizar tu posición"
 	}
+}

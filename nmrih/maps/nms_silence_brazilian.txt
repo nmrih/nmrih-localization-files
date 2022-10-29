@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nms_silence_truck"	"O caminhão está chegando! Prepare-se!"
+}
+}

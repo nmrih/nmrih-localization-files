@@ -19,3 +19,4 @@
 	"nmo_underground_sos"		"畫上 S.O.S 記號！"
 	"nmo_underground_gen"		"啟動發電機！"
 }
+}

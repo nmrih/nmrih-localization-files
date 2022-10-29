@@ -22,4 +22,7 @@
 	"nmo_rockpit_obj_gen_underground"	"Restaure a energia do elevador"
 	"nmo_rockpit_obj_moving"	"Faça o seu caminho em direção ao portão"
 	"nmo_rockpit_obj_siren"	"Ative uma sirene para sinalizar sua posição"
+	"nmo_rockpit_entervan"	"Você tem 2 minutos para entrar na van antes de ficar sobrecarregado."
+	"nmo_rockpit_rescue"	"O resgate agora está procurando por você! Esteja pronto."
+}
 }

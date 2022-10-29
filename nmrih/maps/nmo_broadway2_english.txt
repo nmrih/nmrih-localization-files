@@ -39,3 +39,4 @@
 	"nmo_broadway2_30sec"	"30 seconds remaining until detonation."
 	"nmo_broadway2_getout"	"Get out of there!"
 }
+}

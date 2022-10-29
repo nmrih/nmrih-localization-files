@@ -13,3 +13,4 @@
 	"nmo_anxiety_Obj8"	"打開醫院的門鎖"
 	"nmo_anxiety_Obj9"	"找到露營車的鑰匙"
 }
+}

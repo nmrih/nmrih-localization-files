@@ -29,3 +29,4 @@
 	"nmo_suzhou_Objecitve22_burnbabehburn_ignite"	"¡Incendia el centro de evacuación con un soldador para llamar al bote!"
 	"nmo_suzhou_Objective23_holdout"	"¡El rescate se aproxima! ¡Sobrevive!"
 }
+}

@@ -12,3 +12,4 @@
 	"nmo_boardwalk_Objectives_Gauntlet"	"寻找能够通往安全屋的路。"
 	"nmo_boardwalk_Objectives_Signal"	"使用焊枪点燃信号弹以便军方发现。"
 }
+}
