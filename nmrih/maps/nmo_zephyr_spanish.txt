@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "Spanish" 
+"Tokens" 
+{
+	"nmo_zephyr_objective1_leavebuilding"	"Encuentra el código y escapa de la oficina"
+	"nmo_zephyr_objective2_blowwarehouse"	"Encuentra una forma de entrar al depósito"
+	"nmo_zephyr_objective2a_sewertime"	"Busca una herramienta para abrir la boca de alcantarilla"
+	"nmo_zephyr_objective2b_blowtorchsewer"	"Usa un soldador para abrir la rejilla"
+	"nmo_zephyr_objective3_warehouseelevator"	"Activa el elevador y sube al siguiente piso"
+	"nmo_zephyr_objective4_pickupwalkie"	"Toma la radio portátil"
+	"nmo_zephyr_objective5a_2710"	"El código de la puerta es 2710"
+	"nmo_zephyr_objective5d_powerup"	"Busca combustible para encender el generador"
+	"nmo_zephyr_Objective5b_2606"	"El código de la puerta es 2606"
+	"nmo_zephyr_Objective5c_1901"	"El código de la puerta es 1901"
+	"nmo_zephyr_objective6_activate"	"Activa la plataforma giratoria"
+	"nmo_zephyr_objective6a_unclog"	"Desatasca el mecanismo de la plataforma giratoria"
+	"nmo_zephyr_objective7_switch1"	"Activa la palanca interruptora detrás de la locomotora"
+	"nmo_zephyr_objective8_switchdasequel"	"Activa la otra palanca interruptora"
+	"nmo_zephyr_objective9_brakes"	"Desactiva los frenos manuales"
+	"nmo_zephyr_objective10_allaboard"	"Notifica al ingeniero cuando estés listo"
+}
+}

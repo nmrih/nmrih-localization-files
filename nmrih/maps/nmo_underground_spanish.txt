@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "Spanish" 
+"Tokens" 
+{
+	"nmo_underground_Open_The_Door"	"¡Encuentra una forma de abrir la puerta!"
+	"nmo_underground_Fence_Welder"	"¡Busca un soldador para abrir la reja!"
+	"nmo_underground_Find_Dinamite"	"¡Busca dinamita para destruir la pared!"
+	"nmo_underground_Elevator"	"¡Activa el elevador!"
+	"nmo_underground_Last_Objective"	"¡Utiliza todos los items que has encontrado!"
+	"nmo_underground_HelicopterCome"	"¡Espera al helicóptero!"
+	"nmo_underground_PushTheCart"	"¡Empuja el carro!"
+	"nmo_underground_LootSmokeGrenade"	"¡Toma la granada de humo!"
+	"nmo_underground_FindCodeLootPaint"	"¡Busca un código en la oficina y toma una lata de pintura!"
+	"nmo_underground_LootCarBattery"	"¡Toma la batería de auto!"
+	"nmo_underground_LootPaint"	"¡Toma la lata de pintura!"
+	"nmo_underground_plugs"		"¡Conecta los cables!"
+	"nmo_underground_car"		"¡Empuja el auto!"
+	"nmo_underground_sos"		"¡Dibuja un «S.O.S»!"
+	"nmo_underground_gen"		"¡Activa el generador!"
+}
+}

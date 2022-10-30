@@ -1,0 +1,13 @@
+"lang" 
+{ 
+"Language" "Spanish" 
+"Tokens" 
+{
+	"nms_northway_work"	"¡Se ha arreglado el mecanismo! ¡Cierra los 6 portones del centro comercial!"
+	"nms_northway_5"	"¡5 puertas restantes!"
+	"nms_northway_4"	"¡4 puertas restantes!"
+	"nms_northway_3"	"¡3 puertas restantes!"
+	"nms_northway_2"	"¡2 puertas restantes!"
+	"nms_northway_1"	"¡1 puerta restante!"
+}
+}
