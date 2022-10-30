@@ -183,13 +183,15 @@
 "GameUI_OptionNeedsRestart"	"(此選項需重新開始)"
 
 "NMRiH_CreateGame_NATWarning_Title"	"NAT 警告"
-"NMRiH_CreateGame_NATWarning1"		"您的連接裝置似乎使用了網路位址轉換 (Network address translation)。"
+"NMRiH_CreateGame_NATWarning1"		"您的連接裝置似乎使用了 NAT。(網路位址轉譯)"
 "NMRiH_CreateGame_NATWarning2"		"這可能導致其他玩家無法加入您的遊戲。"
 "NMRiH_CreateGame_NATWarning3"		"在開始之前，請確認您的路由器 UDP port 在 27015 之後。"
 "NMRiH_CreateGame_NATWarning_DontShowAgain"	"不再顯示"
-"NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"打開主持導覽..."
+"NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"開啟主持指南..."
 
 "NMRiH_ScoreBoard_PlayerCount"	"玩家數量： %s1"
+
+"NMRiH_Select_Mutators"	"選擇調整器"
 
 //============================
 //Add-on Manager
