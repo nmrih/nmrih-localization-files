@@ -292,6 +292,7 @@
 "Suicide_fall"	"#PLAYER# caiu e morreu."
 "Suicide_drowned"	"#PLAYER# se afogou."
 "Suicide_nuke"	"#PLAYER# foi bombardeado."
+"Suicide_disconnect"	"#PLAYER# saiu do jogo."
 
 "DeathNotice_NPC_ShamblerZombie"	"Zumbi"
 "DeathNotice_NPC_RunnerZombie"	"Zumbi Corredor"
