@@ -189,6 +189,10 @@
 "NMRiH_CreateGame_NATWarning_DontShowAgain"	"Не показывать снова"
 "NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"Открыть руководство по запуску серверов..."
 
+"NMRiH_ScoreBoard_PlayerCount"	"Игроки: %s1"
+
+"NMRiH_Select_Mutators"	"Выбрать модификатор"
+
 //============================
 //Add-on Manager
 //============================
