@@ -6,3 +6,4 @@
 	"nms_campblood_45sec"	"El rescate llegará en 45 segundos..."
 	"nms_campblood_welcome"	"Bienvenidos al Campamento Sangre"
 }
+}

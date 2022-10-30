@@ -10,3 +10,4 @@
 	"nms_northway_2"	"¡2 puertas restantes!"
 	"nms_northway_1"	"¡1 puerta restante!"
 }
+}

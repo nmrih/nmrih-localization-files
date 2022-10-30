@@ -7,3 +7,4 @@
 	"nms_camilla_text1"	"Les habla el Departamento de Seguridad Nacional de los EEUU, no podemos rescatarlos ahora mismo"
 	"nms_camilla_text2"	"Pero podemos enviarles suministros mediante un tren. Pasará cerca de su posición pronto, prepárense para recoger una caja."
 }
+}
