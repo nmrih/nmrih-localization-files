@@ -724,7 +724,7 @@
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"<len:1.5>生還者！<delay:1.6><len:1.6>我來找你了！"
 		"CampbloodVoice.RalphLastChance"	"這是最後的機會！"
-		"CampbloodVoice.RalphLightsOff"		"有人記得關燈嗎？"
+		"CampbloodVoice.RalphLightsOff"		"有人記得熄燈嗎？"
 		"CampbloodVoice.RalphWelcome"		"<len:2.3>你要參加喋血營是吧？<delay:2.6><len:2.1>你不會再度光臨，<delay:4.9><len:2.1>這有<I>死亡詛咒！"
 		"CampbloodVoice.RalphYourDoomed"	"你<I>完蛋了！<clr:255,0,0><B>咿嘻嘻嘻嘻！"
 
