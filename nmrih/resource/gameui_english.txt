@@ -191,6 +191,8 @@
 
 "NMRiH_ScoreBoard_PlayerCount"	"Players: %s1"
 
+"NMRiH_Select_Mutators"	"Select Mutators"
+
 //============================
 //Add-on Manager
 //============================
