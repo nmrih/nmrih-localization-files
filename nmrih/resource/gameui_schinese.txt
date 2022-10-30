@@ -191,6 +191,8 @@
 
 "NMRiH_ScoreBoard_PlayerCount"	"玩家数: %s1"
 
+"NMRiH_Select_Mutators"	"选择自定义脚本"
+
 //============================
 //Add-on Manager
 //============================
