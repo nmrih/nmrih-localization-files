@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_asylum_Objective_Lobby_1"		"Reach The Lobby"
+	"nmo_asylum_Objective_Lobby_NoWeld"	"Reach The Lobby"
+	"nmo_asylum_Objective_Drain"		"Descend to the basement and drain the showers"
+	"nmo_asylum_Objective_Wet_Key"		"Unlock the supply closet"
+	"nmo_asylum_Objective_Room_Key"		"Unlock the supply closet"
+	"nmo_asylum_Objective_Traverse"		"Traverse the basement and ascend to the ground floor"
+	"nmo_asylum_Objective_Welder"		"Weld open the vent"
+	"nmo_asylum_Objective_Bomb"		"Blow up the barricade"
+	"nmo_asylum_Objective_Power"		"Open the security shutters"
+	"nmo_asylum_Objective_Goto_Attic"	"Navigate the Upstairs Dormatories"
+	"nmo_asylum_Objective_Drop"		"Navigate the Upstairs Dormatories"
+	"nmo_asylum_Objective_Attic"		"Explore the attic"
+	"nmo_asylum_Objective_Court"		"Cross the courtyard"
+	"nmo_asylum_Objective_Summon_Alt"	"Finish the ritual"
+	"nmo_asylum_Objective_Summon_Alt2"	"Finish the ritual"
+	"nmo_asylum_Objective_Summon"		"Complete the ritual"
+	"nmo_asylum_Objective_Defend"		"Defend the ritual"
+	"nmo_asylum_Objective_Intro"		"Regret your life choices"
+	"nmo_asylum_Objective_StandBack"	"Stand Back"
+	"nmo_asylum_Objective_Evac"		"Run!"
+}
+}

@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "Russian" 
+"Tokens" 
+{
+	"nms_laundry_hinta"	"Не дайте зомби захватить эту безопасную зону!"
+	"nms_laundry_hintb"	"Мы потеряли связь, больше не будет сброса припасов!"
+	"nms_laundry_losea"	"Мы потеряли машину для отхода..."
+	"nms_laundry_pushcar"	"Толкайте машину!"
+	"nms_laundry_cutrope1"	"Перережьте верёвку!"
+	"nms_laundry_cutrope2"	"Перережьте верёвку!"
+	"nms_laundry_mine"	"Будьте осторожны с минами!"
+}
+}

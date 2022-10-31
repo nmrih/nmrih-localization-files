@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nms_laundry_hinta"	"Don't let zombies overrun this safezone!"
+	"nms_laundry_hintb"	"We've lost radio signal, no more supply drops!"
+	"nms_laundry_losea"	"We've lost an escape van..."
+	"nms_laundry_pushcar"	"Push the car!"
+	"nms_laundry_cutrope1"	"Cut the rope!"
+	"nms_laundry_cutrope2"	"Cut the rope!"
+	"nms_laundry_mine"	"Be careful with the mines!"
+}
+}

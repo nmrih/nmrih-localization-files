@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_asylum_Objective_Lobby_1"		"Доберитесь до вестибюля"
+	"nmo_asylum_Objective_Lobby_NoWeld"	"Доберитесь до вестибюля"
+	"nmo_asylum_Objective_Drain"		"Спуститесь в подвал и слейте воду из душа"
+	"nmo_asylum_Objective_Wet_Key"		"Открой кладовку с припасами"
+	"nmo_asylum_Objective_Room_Key"		"Открой кладовку с припасами"
+	"nmo_asylum_Objective_Traverse"		"Пройдите через подвал и поднимитесь на первый этаж"
+	"nmo_asylum_Objective_Welder"		"Используйте сварочный аппарат, чтобы открыть решётку"
+	"nmo_asylum_Objective_Bomb"		"Взорвите баррикады"
+	"nmo_asylum_Objective_Power"		"Откройте защитные ставни"
+	"nmo_asylum_Objective_Goto_Attic"	"Пройдите через спальные комнаты на верхнем этаже"
+	"nmo_asylum_Objective_Drop"		"Пройдите через спальные комнаты на верхнем этаже"
+	"nmo_asylum_Objective_Attic"		"Исследуйте чердак"
+	"nmo_asylum_Objective_Court"		"Пересеките двор"
+	"nmo_asylum_Objective_Summon_Alt"	"Закончите ритуал"
+	"nmo_asylum_Objective_Summon_Alt2"	"Закончите ритуал"
+	"nmo_asylum_Objective_Summon"		"Завершите ритуал"
+	"nmo_asylum_Objective_Defend"		"Защищайте обряд"
+	"nmo_asylum_Objective_Intro"		"Сожалейте о своем жизненном выборе"
+	"nmo_asylum_Objective_StandBack"	"Отойдите на безопасное расстояние"
+	"nmo_asylum_Objective_Evac"		"Бегите!"
+}
+}
