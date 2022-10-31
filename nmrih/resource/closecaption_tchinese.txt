@@ -703,6 +703,23 @@
 		"Heli.Departure_US"		"<len:2.2>我們要撤了，你們要自求多福！<delay:2.6><len:1.4>很對不起！"
 		"GenericVoice.YouFoundIt"	"哇塞，真給你找到了！"
 	
+		// Asylum
+		"AsylumVoice.Intro"	"<len:17.7>So, is this how you expected things to go? Starving to death in an isolation cell? Real smart decision, I can tell. But I can give you a new choice. You can stay here and perish, or you can help me, and I can give you a way out in return. Promise."
+		"AsylumVoice.Intro2"	"<len:30>Hello, Hello!? Is this thing on? Can, can you hear me? I can see you, do something if you can hear me... I'll take that as a yes. I don't mean to spoil whatever 'master plan' you had trapping yourself in the isolation ward, but no one's coming to rescue you. The asylum's overrun, the radio's gone silent, the military's dead or gone. It's just you and me now, so help me finish my life's work, and I'll get you out of here."
+		"AsylumVoice.Intro3"	"<len:7.4>As a show of good faith, I left you a gift, it's just outside. Let me open up those pesky doors for you."
+		"AsylumVoice.Intro4"	"<len:8.9>I also got you something that might help. I left it outside your cell. It's not much, but I hope it helps. Let me get those doors open."
+		"AsylumVoice.Intro5"	"<len:8>I moved one of the military crates down there. Not sure what's inside, but it might help. I'll open the cell doors now."
+		"AsylumVoice.CarBarks"	"<len:5>There we go! Now get a move on. I won't wait forever."
+		"AsylumVoice.CarBarks2"	"<len:6.6>Excellent, now would be a good time to start running. Time waits for no one, and neither do I!"
+		"AsylumVoice.FinishRitual"	"<len:15.5>Behold, my master plan. With this summoning circle, I can open a portal to Hell and get us out of here. I'm just missing a few key components. Fetch them for me, now!"
+		"AsylumVoice.ProtectRitual"	"<len:7>Yes, I can feel the power! It won't be long now, protect the ritual at all cost!"
+		"AsylumVoice.ProtectRitual2"	"<len:4.6>No, stop them! If they ruin the ritual, then our deal's off!"
+		"AsylumVoice.ProtectRitual3"	"<len:10>NOO! Idiots! YOU HAD ONE JOB. Now the ritual's ruined! Forget this, I'm outta here. You can rot here forever!"
+		"AsylumVoice.RitualComplete"	"<len:14.3>Yes! YES! Ye-wait, no. That's not right. Did... did I do something wrong? The portal should be open! Dang it. Oh, well. Plan B then. Stand back!"
+		"AsylumVoice.RitualComplete2"	"<len:10>Wait, something's wrong. Did... did you use a bucket for the head? Why would you- nevermind. Time for Plan B! Stand back!"
+		"AsylumVoice.SecurityShutters"	"<len:7.4>You'll need to reach the cafeteria. The way there is closed up tight, you'll need to go to security and open the shutters."
+		"AsylumVoice.SecurityShutters2"	"<len:7.6>Good, with the security shutters open, you can now reach the courtyard from the second floor. The. Second. Floor."
+		
 		// Broadway2
 		"Broadway2Voice.Extraction"	"<len:2.1>注意，注意。 <delay:2.7><len:4.7>如果有誰聽得見，你們得立刻馬上到屋頂上來等待救援。<delay:8><len:2.9>過五分鐘政府就要投炸彈了。<delay:11.8><len:2.7>拜託，快點逃。"
 		
