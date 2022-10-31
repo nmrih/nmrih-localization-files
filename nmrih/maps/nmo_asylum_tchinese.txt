@@ -5,9 +5,9 @@
 {
 	"nmo_asylum_Objective_Lobby_1"		"前往大廳"
 	"nmo_asylum_Objective_Lobby_NoWeld"	"前往大廳"
-	"nmo_asylum_Objective_Drain"		"下樓進入地下室並排調淋浴間的水"
-	"nmo_asylum_Objective_Wet_Key"		"打開物資櫃的鎖"
-	"nmo_asylum_Objective_Room_Key"		"打開物資櫃的鎖"
+	"nmo_asylum_Objective_Drain"		"下樓進入地下室並排乾淋浴間"
+	"nmo_asylum_Objective_Wet_Key"		"打開儲藏間的鎖"
+	"nmo_asylum_Objective_Room_Key"		"打開儲藏間的鎖"
 	"nmo_asylum_Objective_Traverse"		"通過地下室並上樓抵達一樓"
 	"nmo_asylum_Objective_Welder"		"焊開通風管"
 	"nmo_asylum_Objective_Bomb"		"炸開障礙物"
