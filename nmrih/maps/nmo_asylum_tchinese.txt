@@ -15,7 +15,7 @@
 	"nmo_asylum_Objective_Goto_Attic"	"通過樓上宿舍"
 	"nmo_asylum_Objective_Drop"		"通過樓上宿舍"
 	"nmo_asylum_Objective_Attic"		"探索閣樓"
-	"nmo_asylum_Objective_Court"		"穿越院子"
+	"nmo_asylum_Objective_Court"		"穿越庭院"
 	"nmo_asylum_Objective_Summon_Alt"	"結束儀式"
 	"nmo_asylum_Objective_Summon_Alt2"	"結束儀式"
 	"nmo_asylum_Objective_Summon"		"完成儀式準備"
