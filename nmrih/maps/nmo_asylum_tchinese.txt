@@ -19,7 +19,7 @@
 	"nmo_asylum_Objective_Summon_Alt"	"結束儀式"
 	"nmo_asylum_Objective_Summon_Alt2"	"結束儀式"
 	"nmo_asylum_Objective_Summon"		"完成儀式準備"
-	"nmo_asylum_Objective_Defend"		"防守儀式"
+	"nmo_asylum_Objective_Defend"		"守護儀式"
 	"nmo_asylum_Objective_Intro"		"後悔你的人生抉擇"
 	"nmo_asylum_Objective_StandBack"	"退後"
 	"nmo_asylum_Objective_Evac"		"快跑！"
