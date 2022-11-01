@@ -21,12 +21,12 @@ No More Room in Hell 更新發布，只要重新啟動就可以自動更新遊�
 [list]
 [*]新增控制台參數 cvar "sv_kill_player_on_disconnect"，在玩家離開伺服器時將他殺掉
 
-[*]新增在地與線上皆能使用的遊戲性調整器(Mutators)：
+[*]新增在地與線上皆能使用的遊戲性調整器 (Mutators)：
 
 [list]
 [*]新增控制台參數 cvar "sv_mutators"，列出生效的調整器，以 , 區隔
 [*]在創建遊戲視窗中新增調整器選擇器
-[*]若想要新增調整器，到 nmrih/rulesets/mutators 路徑新建腳本，內涵範例
+[*]若想要新增調整器，到 nmrih/rulesets/mutators 路徑新建腳本，內有範例
 [/list]
 
 [*]新增近戰劈砍延遲補償
@@ -44,7 +44,7 @@ No More Room in Hell 更新發布，只要重新啟動就可以自動更新遊�
 [*]疏散點鏡頭時強制停止時間確保沒人可以提早逃脫
 [*]當被殭屍抓住時被感染的玩家不再受到隊友傷害 (#1324)
 [*]被感染的玩家離開遊戲將保留轉化的殭屍 (#1063)
-[*]較長的對話字幕分段顯示(目前只有其中一些語言，含中文)
+[*]較長的對話字幕分段顯示 (目前只有特定一些語言，含中文)
 [*]當玩家遭到抓住時劈砍路徑不再造成隊友傷害
 [*]劈砍與推的聲音可被其他玩家聽見 (#1333)
 [*]死亡時，鏡頭會看著玩家布娃娃，而不會從中穿透
@@ -111,8 +111,8 @@ No More Room in Hell 更新發布，只要重新啟動就可以自動更新遊�
 [*]為遊戲性調整器新增「包含」的規則設定功能
 [*]為 func_zombie_spawn 新增地圖定義生成密集度控制，來修正回合重啟後遭到重設的問題
 [*]新增以鏡頭停止時間控制疏散點預覽時間支援 (#1323)
-[*]新增沒有強制通知的使用者訊息 "ObjectiveUpdate" 來更新目標文字
-[*]新增使用者訊息 "MovePointMessage" 在沒有更新其他內容的情況下移動現有的定點訊息，使用指數與向量座標
+[*]新增沒有強制通知的使用者訊息 ObjectiveUpdate 來更新目標文字
+[*]新增使用者訊息 MovePointMessage 在沒有更新其他內容的情況下移動現有的定點訊息，使用指數與向量座標
 [*]更改 defaultcubemap.vtf 材質圖
 [*]Entity "point_message_multiplayer" 文字現在會更上屬關係移動 (#1316)
 [*]修正 BecomeCrawler 輸入無法對跑屍正常發揮
@@ -125,7 +125,7 @@ No More Room in Hell 更新發布，只要重新啟動就可以自動更新遊�
 [list]
 
 [*]新增 CNMRiH_BaseZombie::IsKid()
-[*]修正  activator, caller 等數值舞法在 RunScriptCoder 與其他相關輸入下運作
+[*]修正  activator, caller 等數值無法在 RunScriptCoder 與其他相關輸入下運作
 [*]修正 CBaseEntity hook FireBullets() 還有 ModifyEmitSoundParams() 無法運作
 [*]修正 CBasePlayer 無法從 CInfectableCharacter 中導出
 [*]修正 ObjectiveManager.StartNextObjective() 在準備時間時被呼叫時導致的崩潰
