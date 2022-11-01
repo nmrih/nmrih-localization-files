@@ -8,7 +8,7 @@
 	"nmo_broadway_objB_1"	"找到前往地下室的方法"
 	"nmo_broadway_objC"	"找出電影院後門的鑰匙"
 	"nmo_broadway_objD"	"找出電瓶，裝進貨車"
-	"nmo_broadway_objD_1"	"找出電瓶，裝進貨車"
+	"nmo_broadway_objD_1"	"將瓦斯桶帶往咖啡廳"
 	"nmo_broadway_objE"	"找到鑰匙通過酒吧"
 	"nmo_broadway_objF"	"將灑水器打開"
 	"nmo_broadway_objG1"	"找到倉庫門的把手"

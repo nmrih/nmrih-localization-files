@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nms_laundry_hinta"	"別讓殭屍湧入安全區！"
+	"nms_laundry_hintb"	"我們失去了無線電訊號！不會再有空投了！"
+	"nms_laundry_losea"	"我們失去了一輛逃脫用貨車..."
+	"nms_laundry_pushcar"	"推動車輛！"
+	"nms_laundry_cutrope1"	"把線切斷！"
+	"nms_laundry_cutrope2"	"把線切斷！"
+	"nms_laundry_mine"	"小心注意地雷！"
+}
+}

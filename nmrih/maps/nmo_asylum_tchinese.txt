@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_asylum_Objective_Lobby_1"		"前往大廳"
+	"nmo_asylum_Objective_Lobby_NoWeld"	"前往大廳"
+	"nmo_asylum_Objective_Drain"		"下樓進入地下室並排乾淋浴間"
+	"nmo_asylum_Objective_Wet_Key"		"打開儲藏間的鎖"
+	"nmo_asylum_Objective_Room_Key"		"打開儲藏間的鎖"
+	"nmo_asylum_Objective_Traverse"		"通過地下室並上樓抵達一樓"
+	"nmo_asylum_Objective_Welder"		"焊開通風管"
+	"nmo_asylum_Objective_Bomb"		"炸開障礙物"
+	"nmo_asylum_Objective_Power"		"打開保全門"
+	"nmo_asylum_Objective_Goto_Attic"	"通過樓上宿舍"
+	"nmo_asylum_Objective_Drop"		"通過樓上宿舍"
+	"nmo_asylum_Objective_Attic"		"探索閣樓"
+	"nmo_asylum_Objective_Court"		"穿越中庭"
+	"nmo_asylum_Objective_Summon_Alt"	"結束儀式"
+	"nmo_asylum_Objective_Summon_Alt2"	"結束儀式"
+	"nmo_asylum_Objective_Summon"		"完成儀式準備"
+	"nmo_asylum_Objective_Defend"		"守護儀式"
+	"nmo_asylum_Objective_Intro"		"後悔你的人生抉擇"
+	"nmo_asylum_Objective_StandBack"	"退後"
+	"nmo_asylum_Objective_Evac"		"快跑！"
+}
+}
