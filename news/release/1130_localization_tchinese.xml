@@ -125,7 +125,7 @@ No More Room in Hell 更新發布，只要重新啟動就可以自動更新遊�
 [list]
 
 [*]新增 CNMRiH_BaseZombie::IsKid()
-[*]修正  activator, caller 等數值無法在 RunScriptCoder 與其他相關輸入下運作
+[*]修正 activator, caller 等數值無法在 RunScriptCoder 與其他相關輸入下運作
 [*]修正 CBaseEntity hook FireBullets() 還有 ModifyEmitSoundParams() 無法運作
 [*]修正 CBasePlayer 無法從 CInfectableCharacter 中導出
 [*]修正 ObjectiveManager.StartNextObjective() 在準備時間時被呼叫時導致的崩潰
