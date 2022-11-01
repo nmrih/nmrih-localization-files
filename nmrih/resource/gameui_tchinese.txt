@@ -187,7 +187,7 @@
 "NMRiH_CreateGame_NATWarning2"		"這可能導致其他玩家無法加入您的遊戲。"
 "NMRiH_CreateGame_NATWarning3"		"在開始之前，請確認您的路由器 UDP port 在 27015 之後。"
 "NMRiH_CreateGame_NATWarning_DontShowAgain"	"不再顯示"
-"NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"開啟主持指南..."
+"NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"主持指南..."
 
 "NMRiH_ScoreBoard_PlayerCount"	"玩家數量： %s1"
 
