@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">[img]{STEAM_CLAN_IMAGE}/4458555/2709c86b52ba089c3dad345fccba0133190b8373.png[/img]
+
+[previewyoutube=AxVKaCgfyWs;full][/previewyoutube]
+No More Room in Hell 更新發布，只要重新啟動就可以自動更新遊戲，更新的主要變更有：
+
+[h1]新地圖[/h1]
+[h3]精神療養院 [目標] nmo_asylum (By DrHammer)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/538e4ea189370be93f7ecb75b6c44232bcd8e22d.png[/img]
+
+[i]有怪物、有音樂、還有更多，慶祝佳節有什麼方法比在老舊的療養院裡遊蕩更好？拉著你的朋友在最新的目標地圖中狂慶吧。在這格林巫萬聖地獄狂歡派對中蘊藏著什麼樣驚悚的秘密呢？就來親眼見證吧。穿上你的裝扮、把糖果塞滿嘴、研究邪教儀式，因為我們要來好蒿爽爽！[/i]
+
+[h3]洗衣店 [生存] nms_laundry (by Atheist, 原版地圖 by Payne, Sotapoika)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/06001879bde56347d26f4b6892da69c42bba8552.png[/img]
+
+[i]你說怎麼啦？口水糖液滴到你的新裝扮了，而且你說那只能乾洗！？好吧，那你最好趕快走一趟洗衣店，讓它們煥然一新！24 小時全年無休呢！[/i]
+
+[h2]新增項目[/h2]
+[list]
+[*]新增控制台參數 cvar "sv_kill_player_on_disconnect"，在玩家離開伺服器時將他殺掉
+
+[*]新增在地與線上皆能使用的遊戲性調整器(Mutators)：
+
+[list]
+[*]新增控制台參數 cvar "sv_mutators"，列出生效的調整器，以 , 區隔
+[*]在創建遊戲視窗中新增調整器選擇器
+[*]若想要新增調整器，到 nmrih/rulesets/mutators 路徑新建腳本，內涵範例
+[/list]
+
+[*]新增近戰劈砍延遲補償
+[*]新增 nmo_asylum 和 nms_laundry 地圖破關成就
+[*]新增各種自行造成的死亡訊息圖示 (跌落、溺水、感染等。)
+[*]新增槍擊特效的低表現選項
+[*]新增利用 FMOD 音效系統支援 3D 環境音效
+[*]新增地圖專屬文字在地化
+[/list]
+[h2]更動[/h2]
+[list]
+[*]全體觀察者 (含死亡玩家) 的投票限制現在全都由 "sv_vote_allow_spectators" 參數掌控、並將 "sv_vote_allow_dead_call_vote" 移除
+[*]釘木板的聲音現在可被其他玩家聽見
+[*]預設讀取畫面不再保有鍵盤控制圖
+[*]疏散點鏡頭時強制停止時間確保沒人可以提早逃脫
+[*]當被殭屍抓住時被感染的玩家不再受到隊友傷害 (#1324)
+[*]被感染的玩家離開遊戲將保留轉化的殭屍 (#1063)
+[*]較長的對話字幕分段顯示(目前只有其中一些語言，含中文)
+[*]當玩家遭到抓住時劈砍路徑不再造成隊友傷害
+[*]劈砍與推的聲音可被其他玩家聽見 (#1333)
+[*]死亡時，鏡頭會看著玩家布娃娃，而不會從中穿透
+[*]玩家不會在疏散時定格
+[*]玩家將不再能接住空中的手榴彈，直到著陸或撞擊
+[*]防止彈藥圓盤選單在按下右鍵後維持在原點，以免不小心多丟出不同種類的彈藥
+
+[*]記分板微調：
+[list]
+
+[*]更改字體
+[*]顯示玩家數量
+[*]改用右鍵啟動滑鼠游標，而非左鍵
+[/list]
+
+[*]伺服器現在開始跳過 NPC 動畫格，提升效能
+
+[*]伺服器端工作坊更動：
+[list]
+
+[*]新增指令 "workshop_remove_all"，移除所有清單上的地圖
+[*]錯誤訊息現在會更明確表達
+[*]顯示下載進度
+[/list]
+
+[*]當隊友傷害關閉時，手榴彈會穿透玩家
+
+[*]更新在地化檔案：
+[list]
+
+[*]感謝社群翻譯者：Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta)
+[*]想要在地化你的語言嗎？[url=https://github.com/nmrih/nmrih-localization-files]造訪我們在 GitHub 上的在地化存儲庫。[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[list]
+[*]修正疏散後不會止血
+[*]修正挑戰無效理由沒有被在地化
+[*]修正當隨機目標啟動時挑戰結果顯示先前地圖中的名字
+[*]修正人物選擇「下一個 / 上一個 / 預覽」沒被在地化
+[*]修正爬行殭屍在寫實模式下不會受到致命頭部傷害 (#1317)
+[*]修正死亡時布娃娃沒有應用正確的初速
+[*]修正觀察第一人稱時重複發出第一人稱音效
+[*]修正丟擲手榴彈角度過度誇張的拋物線
+[*]修正「進度條觸發時難以撿起武器」(#1328)
+[*]修正「插件內容有相反文字時的 KeyValues 錯誤」(#1318)
+[*]修正「任務目標輪廓蓋過物品欄」(#1338)
+[*]修正「槍擊/電鋸殘骸造成的效能問題」(#1291)
+[*]修正「玩家可以竊走其他人的進度條」(#1326)
+[*]修正「較晚加入遊戲的玩家無法收到當前的目標」(#1329)
+[*]修正物資箱 UI 不會關閉的罕見錯誤
+[*]修正重生與回合開始倒數顯示剩下 "0 seconds"
+[*]修正 ruleset 規則設定犯規誤判
+[*]修正「SKS 刺刀擊中殭屍的範圍方塊 bounding box」(#913)
+[*]修正觀察者可以提出投票
+[*]修正轉化殭屍偶爾會遺失碰撞
+[*]修正殭屍 AI 在追丟敵人後開始找尋掩護
+[*]修正「在疏散鏡頭後殭屍定格過久」(#1325)
+[/list]
+[h2]為地圖設計與模組製作的更動[/h2]
+[list]
+[*]新增指令 "ruleset_include"，將新規則設定與生效中的結合，當可以時取代原數值
+[*]新增 Entity "ambient_fmod"，功能和 "ambient_generic" 相似，不過使用的是 FMOD 音效系統播放，可以使用更多檔案格式 (例如 .ogg)
+[*]為遊戲性調整器新增「包含」的規則設定功能
+[*]為 func_zombie_spawn 新增地圖定義生成密集度控制，來修正回合重啟後遭到重設的問題
+[*]新增以鏡頭停止時間控制疏散點預覽時間支援 (#1323)
+[*]新增沒有強制通知的使用者訊息 "ObjectiveUpdate" 來更新目標文字
+[*]新增使用者訊息 "MovePointMessage" 在沒有更新其他內容的情況下移動現有的定點訊息，使用指數與向量座標
+[*]更改 defaultcubemap.vtf 材質圖
+[*]Entity "point_message_multiplayer" 文字現在會更上屬關係移動 (#1316)
+[*]修正 BecomeCrawler 輸入無法對跑屍正常發揮
+[*]修正 BecomeCrawler 輸入讓孩童殭屍變成爬屍
+[*]修正 mouseclickimage 無法對舊版主選單按鈕生效
+[*]恢復並修復遺失的 hand_truck 模型造成自訂地圖相容問題
+[*]伺服器專屬 entities 現在可以更隨上屬
+
+[*]虛擬腳本 VScript：
+[list]
+
+[*]新增 CNMRiH_BaseZombie::IsKid()
+[*]修正  activator, caller 等數值舞法在 RunScriptCoder 與其他相關輸入下運作
+[*]修正 CBaseEntity hook FireBullets() 還有 ModifyEmitSoundParams() 無法運作
+[*]修正 CBasePlayer 無法從 CInfectableCharacter 中導出
+[*]修正 ObjectiveManager.StartNextObjective() 在準備時間時被呼叫時導致的崩潰
+[/list]
+[/list]
+[h1]地圖[/h1]
+
+[h3]全體地圖：[/h3]
+[list]
+[*]增加更多西瓜
+[*]壓縮 pakfiles 減少安裝大小
+[*]用引導提示取代遊戲中文字
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]停止使用焊槍時火花特效跟著停止
+[/list]
+[h3]nmo_brooklyn[/h3]
+[list]
+[*]新增街道上可撲滅的火焰的音效
+[*]更改西瓜的碰撞行為
+[*]可撲滅的火焰現在也會對殭屍造成傷害
+[*]修正在車庫中貨車的傷害觸發
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]修正地圖剪裁
+[/list]
+[h3]nmo_junction[/h3]
+[list]
+[*]增加瓦斯桶引爆延遲
+[*]停止使用焊槍時火花特效跟著停止
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]增加瓦斯桶引爆延遲
+[*]直升機不會再秒殺玩家了
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]修正損毀的街道音效
+[*]修正疏散直升機沒有聲音 (#1330)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]修正一些目標道具在出生點附近卡住的點
+[*]修正一輛消防車沒有陰影
+[*]修正許多會卡住目標道具的點
+[*]修正許多飄在半空中的物件與 brush
+[*]移除一些小物件的碰撞
+[*]移除無法使用的空投箱
+[*]重做貨車逃亡
+[*]微調一些剪裁 brush
+[*]新增 MapHack 腳本來應用新的 .bsp
+[*]許多細微微調
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]新增一些指導提示
+[*]在把手與最後目標之間新增一個目標
+[*]微調剪裁
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]修正櫃台後面和最後疏散區的門的無敵點
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]在汽車旅館新增一些光源
+[*]新增更多焊槍的生成點
+[*]更改地下區域的循環音效
+[*]火焰現在不會直接秒殺玩家 (除非走到太後面)
+[*]微調剪裁與導航
+[/list]
+[h3]nmo_zephyr[/h3]
+[list]
+[*]修正下水道土壤的不真實反射
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]為火車新增傷害觸發
+[/list]
+[h3]nms_campblood[/h3]
+[list]
+[*]重新加回疏散時的玩家重生
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]一些最佳化
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]更改疏散，現在直昇機會在疏散開始前抵達，從稍微不同的位置開始
+[/list]
+[h3]nms_flooded[/h3]
+[list]
+[*]增加疏散時間 10 秒
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]微調剪裁
+[/list]
+</string><string id="subtitle">內容包括兩張全新的地圖、加上大量的特色內容、改善，還有更多的修正。</string><string id="summary">有怪物、有音樂、還有更多，慶祝佳節有什麼方法比在老舊的療養院裡遊蕩更好？拉著你的朋友在最新的目標地圖中狂慶吧。 - NMRiH 一個全新的內容更新出爐啦！</string><string id="title">NMRiH Hell-o-ween Hellapalooza 萬聖地獄狂歡 (更新 1.13 釋出)</string></content>
