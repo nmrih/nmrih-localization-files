@@ -1,6 +1,6 @@
 "lang"
 {
-"Language"	"russian"
+"Language"	"Русский (Russian)"
 "Tokens"
 {
 "Valve_Listen_MapName"	"Карта"
