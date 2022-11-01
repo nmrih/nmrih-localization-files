@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nmo_asylum_Objective_Lobby_1"		"寻找通往一楼大厅的路"
+	"nmo_asylum_Objective_Lobby_NoWeld"	"寻找通往一楼大厅的路"
+	"nmo_asylum_Objective_Drain"		"前往另一侧的地下室并想办法排干淋浴间的水"
+	"nmo_asylum_Objective_Wet_Key"		"在找到钥匙后进入储物间"
+	"nmo_asylum_Objective_Room_Key"		"在找到钥匙后进入储物间"
+	"nmo_asylum_Objective_Traverse"		"顺利穿过地下室后前往楼上一层"
+	"nmo_asylum_Objective_Welder"		"借助焊枪打开通风管道"
+	"nmo_asylum_Objective_Bomb"		"炸开挡路的障碍物"
+	"nmo_asylum_Objective_Power"		"进入保安室后开启卷帘门"
+	"nmo_asylum_Objective_Goto_Attic"	"从大厅上到二楼并穿过宿舍区"
+	"nmo_asylum_Objective_Drop"		"前往二楼并穿过宿舍区"
+	"nmo_asylum_Objective_Attic"		"探索阁楼"
+	"nmo_asylum_Objective_Court"		"穿过庭院并进入自助餐厅"
+	"nmo_asylum_Objective_Summon_Alt"	"收集材料并完成仪式"
+	"nmo_asylum_Objective_Summon_Alt2"	"收集材料并完成仪式"
+	"nmo_asylum_Objective_Summon"		"收集材料并完成仪式"
+	"nmo_asylum_Objective_Defend"		"保护仪式免遭破坏"
+	"nmo_asylum_Objective_Intro"		"重拾希望并离开隔离室"
+	"nmo_asylum_Objective_StandBack"	"靠后站！"
+	"nmo_asylum_Objective_Evac"		"跟随路标逃出生天！"
+}
+}

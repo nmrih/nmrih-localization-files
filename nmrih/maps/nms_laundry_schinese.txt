@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nms_laundry_hinta"	"不要让丧尸们占据这个安全区！"
+	"nms_laundry_hintb"	"我们失去了无线电台，不会再有空投补给到来了！"
+	"nms_laundry_losea"	"我们已经失去了逃生货车..."
+	"nms_laundry_pushcar"	"推走挡路的轿车！"
+	"nms_laundry_cutrope1"	"将绳子切断！"
+	"nms_laundry_cutrope2"	"将绳子切断！"
+	"nms_laundry_mine"	"小心地雷！"
+}
+}
