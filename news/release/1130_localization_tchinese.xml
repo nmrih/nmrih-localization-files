@@ -75,7 +75,7 @@ No More Room in Hell 更新發布，只要重新啟動就可以自動更新遊�
 [*]更新在地化檔案：
 [list]
 
-[*]感謝社群翻譯者：Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta)
+[*]感謝社群翻譯者：Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta
 [*]想要在地化你的語言嗎？[url=https://github.com/nmrih/nmrih-localization-files]造訪我們在 GitHub 上的在地化存儲庫。[/url]
 [/list]
 [/list]
@@ -119,7 +119,7 @@ No More Room in Hell 更新發布，只要重新啟動就可以自動更新遊�
 [*]修正 BecomeCrawler 輸入讓孩童殭屍變成爬屍
 [*]修正 mouseclickimage 無法對舊版主選單按鈕生效
 [*]恢復並修復遺失的 hand_truck 模型造成自訂地圖相容問題
-[*]伺服器專屬 entities 現在可以更隨上屬
+[*]伺服器專屬 entities 現在可以跟隨上屬
 
 [*]虛擬腳本 VScript：
 [list]
