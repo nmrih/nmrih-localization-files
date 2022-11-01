@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">[img]{STEAM_CLAN_IMAGE}/4458555/2709c86b52ba089c3dad345fccba0133190b8373.png[/img]
+
+[previewyoutube=AxVKaCgfyWs;full][/previewyoutube]
+An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[h1]New Maps[/h1]
+[h3]Asylum [Objective] (by DrHammer)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/538e4ea189370be93f7ecb75b6c44232bcd8e22d.png[/img]
+
+[i]Monsters, Music and More. What better way to spend the holiday than traipsing about an old asylum? Grab your friends and party hard on the latest objective map Asylum. What horrors lay in store for you in the wreckage of Grimwood’s Hell-o-ween Hellapalooza festival? Only one way to find out. So don your costumes, stuff your face full of candy, and study up on your occult rituals, because it’s going to be one hell of a good time![/i]
+
+[h3]Laundry [Survival] (by Atheist, original map by Payne, Sotapoika)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/06001879bde56347d26f4b6892da69c42bba8552.png[/img]
+
+[i]What's that? All that candy melted and stained your new costume, and it's dry clean only!? Well, then you better swing by Laundry and get those threads cleaned spick-and-span! Now Open 24/7![/i]
+
+[h2]Additions[/h2]
+[list]
+[*]Added cvar "sv_kill_player_on_disconnect", kills a disconnecting player before they exit the server
+
+[*]Added gameplay modifiers for local and online play, called "mutators":
+
+[list]
+[*]Added cvar "sv_mutators", list of persistent mutators with ',' delimiter
+[*]Added mutator selector in create game dialog
+[*]To add new mutators, go to "nmrih/rulesets/mutators" directory and create new scripts, examples are included
+[/list]
+
+[*]Added lag compensation to melee swings
+[*]Added map completion achievements for nmo_asylum and nms_laundry
+[*]Added new death notice icons for various self-inflicted kills (fall, drown, infection etc.)
+[*]Added option for cheap impact effects
+[*]Added support for 3D ambient sounds using FMOD sound system
+[*]Added support for map-specific localization
+[/list]
+[h2]Changes[/h2]
+[list]
+[*]All spectator (incl. dead players) vote restrictions are now controlled by cvar "sv_vote_allow_spectators", "sv_vote_allow_dead_call_vote" has been removed as it is redundant
+[*]Barricade boarding is now audible to other players
+[*]Default loading screens no longer have keyboard textures
+[*]Force hold time on extraction cameras to prevent them exiting too early
+[*]Infected players no longer take friendly damage when grabbed (#1324)
+[*]Infected players who'll disconnect now leave behind a turned zombie (#1063)
+[*]Long subtitles in dialogue captions have been broken into segments (currently in limited set of languages)
+[*]Melee traces no longer cause friendly damage if hit player was grabbed during a swing
+[*]Melee swings and shoving are now audible to other players (#1333)
+[*]On death, camera now looks over ragdoll and not through it
+[*]Players are no longer frozen on extraction
+[*]Players can no longer pick up grenades mid-air until the projectile lands or bounces
+[*]Prevent ammo radial wheel hover selection after right clicking, to avoid unintentionally dropping another type of ammo
+
+[*]Scoreboard tweaks:
+[list]
+
+[*]Changed font
+[*]Now displays player count
+[*]Right click will now toggle cursor instead of left
+[/list]
+
+[*]Server now skips NPC animation frames in order to increase performance
+
+[*]Server-side Workshop changes:
+[list]
+
+[*]Added command "workshop_remove_all", removes all maps from the list
+[*]Error messages are now less vague
+[*]Now prints download progress
+[/list]
+
+[*]Thrown grenades now pass through players, when friendly fire is off
+
+[*]Updated the localization files:
+[list]
+
+[*]With thanks to community translators: Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta
+[*]Want to localize NMRiH to your own language? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed bleeding not stopping after extraction
+[*]Fixed challenge invalidation reasons not being localized
+[*]Fixed challenge results displaying a name from previous maps when random objectives are enabled
+[*]Fixed character select "Next / Previous / Preview" strings not being localizable
+[*]Fixed crawlers not taking fatal headshot damage in realism mode (#1317)
+[*]Fixed current velocity not being applied to player ragdoll on death
+[*]Fixed duplicate viewmodel sounds when observing in first person
+[*]Fixed extreme angular impulse on grenade throw
+[*]Fixed "Hard to pick up items on top of weapon progress triggers" (#1328)
+[*]Fixed "KeyValues error if addon description contains reserved characters" (#1318)
+[*]Fixed "Objective outline takes precedence over inventory outline" (#1338)
+[*]Fixed "Performance issues caused by gunshot/chainsaw debris" (#1291)
+[*]Fixed "Players can hijack ongoing progress triggers" (#1326)
+[*]Fixed "Players who join late won't receive current objective" (#1329)
+[*]Fixed rare bug with supply crate UI not closing
+[*]Fixed respawn and round starting timers displaying "0 seconds" left
+[*]Fixed ruleset validation false positives
+[*]Fixed "SKS bayonet hits zombies' bounding box" (#913)
+[*]Fixed spectators being able to cast votes
+[*]Fixed turned zombies occasionally losing collisions
+[*]Fixed zombie AI erroneously looking for cover when failing to chase an enemy
+[*]Fixed "Zombies remain frozen for too long after an extraction cam" (#1325)
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added command "ruleset_include", merges new ruleset with active one, replaces values when available
+[*]Added entity "ambient_fmod": This entity works like "ambient_generic", but uses FMOD sound system for playback, e.g. for playing several other file formats (such as .ogg)
+[*]Added functionality for "including" rulesets, designed for gameplay mutators
+[*]Added map-defined spawn density override for "func_zombie_spawn", to fix a bug with it being reset on round restart
+[*]Added opt-in support for overriding extraction preview time with camera's Hold Time (#1323)
+[*]Added usermessage "ObjectiveUpdate" for updating objective text without forcing a notification
+[*]Added usermessage "MovePointMessage", moves existing point message without updating other properties, takes index and vector coords
+[*]Changed "defaultcubemap.vtf" texture
+[*]Entity "point_message_multiplayer" text now follows movement parent (#1316)
+[*]Fixed "BecomeCrawler" input not working properly on runner zombies
+[*]Fixed "BecomeCrawler" input turning kid zombies into crawlers
+[*]Fixed "mouseclickimage" not working with legacy main menu buttons
+[*]Restored and repaired missing "hand_truck" model that broke compatibility in custom maps
+[*]Server-only entities can now have movement parents
+
+[*]VScript:
+[list]
+
+[*]Added CNMRiH_BaseZombie::IsKid()
+[*]Fixed activator, caller, etc. values not working within RunScriptCode and related inputs
+[*]Fixed CBaseEntity hooks FireBullets() and ModifyEmitSoundParams() not working
+[*]Fixed CBasePlayer not deriving from CInfectableCharacter
+[*]Fixed crash on ObjectiveManager.StartNextObjective() when called during warm-up
+[/list]
+[/list]
+[h1]Maps[/h1]
+
+[h3]All maps:[/h3]
+[list]
+[*]Added more watermelons
+[*]Compressed pakfiles to reduce installation size
+[*]Replaced game text with instructor hints
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]Sparks on the door now turn off when welder usage stops
+[/list]
+[h3]nmo_brooklyn[/h3]
+[list]
+[*]Added sound for extinguishable fire on the street
+[*]Changed collision behavior for watermelon
+[*]Extinguishable fire on the street now deals damage to zombies
+[*]Fixed van's enabled hurt trigger in garage
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Tweaked clips
+[/list]
+[h3]nmo_junction[/h3]
+[list]
+[*]Added delay for propane explosion
+[*]Sparks on the door now turn off when welder usage stops
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]Added delay for propane explosion
+[*]Helicopter no longer kills players instantly
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Fixed broken street soundscape
+[*]Fixed extract chopper not having sound (#1330)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Fixed a few objective item stuck spots near spawn
+[*]Fixed a fire truck not casting shadows
+[*]Fixed multiple places where objective items could get stuck
+[*]Fixed some floating props and brushes
+[*]Removed collisions from some small props
+[*]Removed unusable supply drop
+[*]Reworked the van escape
+[*]Tweaked clip brushes
+[*]Updated MapHack scripts to work with new .bsp
+[*]Various small tweaks
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Added few instructor hints
+[*]Added new objective between lever and final one
+[*]Tweaked clips
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Fixed god spots behind counter and evac doors in the final area
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Added more light in the motel
+[*]Added more spawn points for welder
+[*]Changed loop sound in underground area
+[*]Fire now doesn't instantly kill players (only if they try to proceed behind it)
+[*]Tweaked clips and navigation
+[/list]
+[h3]nmo_zephyr[/h3]
+[list]
+[*]Fixed unrealistic reflection for dirt in sewers
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Added hurt trigger for train
+[/list]
+[h3]nms_campblood[/h3]
+[list]
+[*]Added back player spawn during evacuation
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]Misc. optimization
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]Changed extraction, now helicopter arrives before extraction starts in slightly different place
+[/list]
+[h3]nms_flooded[/h3]
+[list]
+[*]Added 10 seconds to extraction time
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]Tweaked clips
+[/list]
+</string><string id="subtitle">Featuring two new maps, sprinkled with features, improvements, and even more fixes.</string><string id="summary">Monsters, Music and More. What better way to spend the holiday than traipsing about an old Asylum? Grab your friends and party hard - a new content update for NMRiH is here!</string><string id="title">NMRiH Hell-o-ween Hellapalooza (Update 1.13 Released)</string></content>
