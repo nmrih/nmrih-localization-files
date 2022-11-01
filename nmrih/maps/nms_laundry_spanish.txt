@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "Spanish" 
+"Tokens" 
+{
+	"nms_laundry_hinta"	"¡No permitas que los zombis tomen esta zona!"
+	"nms_laundry_hintb"	"Hemos perdido la señal de radio. ¡No habrá más suministros!"
+	"nms_laundry_losea"	"Hemos perdido la camioneta de escape..."
+	"nms_laundry_pushcar"	"¡Empuja el carro!"
+	"nms_laundry_cutrope1"	"¡Corta la cuerda!"
+	"nms_laundry_cutrope2"	"¡Corta la cuerda!"
+	"nms_laundry_mine"	"¡Ten cuidado con las minas!"
+}
+}
