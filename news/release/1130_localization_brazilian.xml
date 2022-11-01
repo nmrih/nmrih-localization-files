@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">[img]{STEAM_CLAN_IMAGE}/4458555/2709c86b52ba089c3dad345fccba0133190b8373.png[/img]
+
+[previewyoutube=AxVKaCgfyWs;full][/previewyoutube]
+Uma atualização para o No More Room in Hell está disponível. A atualização será aplicada automaticamente quando você reiniciar No More Room in Hell. As principais mudanças incluem:
+
+[h1]Novos Mapas[/h1]
+[h3]Asylum [Objetivo] (por DrHammer)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/538e4ea189370be93f7ecb75b6c44232bcd8e22d.png[/img]
+
+[i]Monstros, música e muito mais. Que melhor maneira de passar o feriado do que perambulando por um antigo asilo? Pegue seus amigos e divirta-se no último mapa objetivo Asylum. Que horrores estão reservados para você nos destroços do festival Hell-o-ween Hellapalooza de Grimwood? Só há uma maneira de descobrir. Então vista suas fantasias, encha o rosto de doces e estude seus rituais ocultos, porque vai ser muito bom![/i]
+
+[h3]Laundry [Survival] (por Atheist, mapa original por Payne, Sotapoika)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/06001879bde56347d26f4b6892da69c42bba8552.png[/img]
+
+[i]O que é isso? Todo aquele doce derreteu e manchou seu novo traje, e ele só pode ser lavado a seco!? Bem, então é melhor você passar na Lavanderia e limpá-los de uma vez! Agora Aberto 24/7![/i]
+
+[h2]Adições[/h2]
+[list]
+[*]Adicionado cvar "sv_kill_player_on_disconnect", mata um jogador desconectando antes de sair do servidor
+
+[*]Adicionados modificadores de jogabilidade para jogos locais e online, chamados "mutadores":
+
+[list]
+[*]Adicionado cvar "sv_mutators", lista de mutadores persistentes com delimitador ','
+[*]Adicionado seletor de mutador na caixa de diálogo de criação de jogo
+[*]Para adicionar novos mutadores, vá para o diretório "nmrih/rulesets/mutators" e crie novos scripts, exemplos estão incluídos
+[/list]
+
+[*]Adicionado compensação de lag aos golpes corpo a corpo
+[*]Adicionado conquistas de conclusão de mapa para nmo_asylum e nms_laundry
+[*]Adicionado novos ícones de aviso de morte para várias mortes autoinfligidas (queda, afogamento, infecção etc.)
+[*]Adicionado opção para efeitos de impacto de maior desempenho (cheap)
+[*]Adicionado suporte para sons ambientes 3D usando o sistema de som FMOD
+[*]Adicionado suporte para o sistema de localização específica para cada mapa
+[/list]
+[h2]Mudanças[/h2]
+[list]
+[*]Todas as restrições de voto de espectadores (incluindo jogadores mortos) agora são controladas por cvar "sv_vote_allow_spectators", "sv_vote_allow_dead_call_vote" foi removido por ser redundante
+[*]A ação de barricar agora é audível para outros jogadores
+[*]As telas de carregamento padrão não têm mais texturas de teclado
+[*]Forçado o tempo de espera nas câmeras de extração para evitar que saiam muito cedo
+[*]Jogadores infectados não recebem mais dano amigável quando agarrados (#1324)
+[*]Jogadores infectados que se desconectam agora deixam para trás um zumbi transformado (#1063)
+[*]Legendas longas em legendas de diálogo foram divididas em segmentos (atualmente em um conjunto limitado de idiomas)
+[*]Traços corpo a corpo não causam mais dano amigável se o jogador atingido for agarrado durante um golpe
+[*]O movimento e empurrões corpo a corpo agora são audíveis para outros jogadores (#1333)
+[*]Na morte, a câmera agora olha por cima do ragdoll e não através dele
+[*]Os jogadores não são mais congelados na extração
+[*]Os jogadores não podem mais pegar granadas no ar até que o projétil caia ou salte
+[*]Impedir a seleção de foco do menu de munição após clicar com o botão direito, para evitar a queda involuntária de outro tipo de munição
+
+[*]Ajustes no placar:
+[list]
+
+[*]Fonte alterada
+[*]Agora exibe a contagem de jogadores
+[*]Clique com o botão direito agora alternará o cursor em vez do esquerdo
+[/list]
+
+[*]O servidor agora pula quadros de animação NPC para aumentar o desempenho
+
+[*]Alterações no Workshop do lado do servidor:
+[list]
+
+[*]Adicionado comando "workshop_remove_all", remove todos os mapas da lista
+[*]As mensagens de erro agora são menos vagas
+[*]Agora exibe o progresso do download
+[/list]
+
+[*]Granadas lançadas agora passam pelos jogadores, quando o fogo amigo está desligado
+
+[*]Atualizados os arquivos de localização:
+[list]
+
+[*]Com agradecimentos aos tradutores da comunidade: Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta
+[*]Deseja localizar NMRiH para seu próprio idioma? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Correções[/h2]
+[list]
+[*]Corrigido sangramento não parando após a extração
+[*]Corrigido os motivos de invalidação do desafio não sendo localizados
+[*]Corrigido resultados do desafio exibindo um nome de mapas anteriores quando objetivos aleatórios estão ativados
+[*]Corrigido as strings "Próximo / Anterior / Prévia" da seleção de personagens não sendo localizáveis
+[*]Corrigido zumbis rastejantes não sofrendo dano fatal de tiro na cabeça no modo de realismo (#1317)
+[*]Corrigido velocidade atual não sendo aplicada ao ragdoll do jogador na morte
+[*]Corrigido sons do viewmodel duplicados ao observar em primeira pessoa
+[*]Corrigido impulso angular extremo no lançamento de granada
+[*]Corrigido "Difícil de pegar itens em cima dos triggers de progresso da arma" (#1328)
+[*]Corrigido "Erro de KeyValues se a descrição do addon contiver caracteres reservados" (#1318)
+[*]Corrigido "O contorno do objetivo tem precedência sobre o contorno do inventário" (#1338)
+[*]Corrigido "Problemas de desempenho causados por detritos de tiro/motosserra" (#1291)
+[*]Corrigido "Os jogadores podem quebrar triggers de progresso em andamento" (#1326)
+[*]Corrigido "Os jogadores que entrarem tarde não receberão o objetivo atual" (#1329)
+[*]Corrigido bug raro com a interface do usuário da caixa de suprimentos não fechando
+[*]Corrigido temporizadores de renascimento e rodada inicial exibindo "0 segundos" à esquerda
+[*]Corrigido falsos positivos de validação do conjunto de regras
+[*]Corrigido "Baioneta SKS atinge a caixa delimitadora dos zumbis" (#913)
+[*]Corrigido espectadores podendo votar
+[*]Corrigido zumbis transformados ocasionalmente perdendo colisões
+[*]Corrigido IA zumbi procurando erroneamente por cobertura ao não perseguir um inimigo
+[*]Corrigido "Zumbis permanecem congelados por muito tempo após uma câmera de extração" (#1325)
+[/list]
+[h2]Mudanças para Mappers e Modders[/h2]
+[list]
+[*]Adicionado o comando "ruleset_include", mescla o novo conjunto de regras com o ativo, substitui os valores quando disponíveis
+[*]Adicionado entidade "ambient_fmod": Esta entidade funciona como "ambient_generic", mas usa o sistema de som FMOD para reprodução, por exemplo para reproduzir vários outros formatos de arquivo (como .ogg)
+[*]Adicionado funcionalidade para conjuntos de regras "incluídos", projetados para modificadores de jogabilidade
+[*]Adicionado sobreposição de densidade de spawn definida pelo mapa para "func_zombie_spawn", para corrigir um bug com ele sendo redefinido na reinicialização da rodada
+[*]Adicionado suporte opcional para substituir o tempo de visualização da extração com o tempo de espera da câmera (#1323)
+[*]Adicionada a mensagem de usuário "ObjectiveUpdate" para atualizar o texto objetivo sem forçar uma notificação
+[*]Adicionado usermessage "MovePointMessage", move a mensagem de ponto existente sem atualizar outras propriedades, obtém índices e coordenadas vetoriais
+[*]Alterada a textura "defaultcubemap.vtf"
+[*]O texto da entidade "point_message_multiplayer" agora segue o movimento do parente (#1316)
+[*]Corrigido a entrada "BecomeCrawler" não está funcionando corretamente em zumbis corredores
+[*]Corrigido a entrada "BecomeCrawler" transformando crianças zumbis em rastejantes
+[*]Corrigido "mouseclickimage" não funciona com botões legacy do menu principal
+[*]Restaurado e reparado o modelo "hand_truck" ausente que quebrou a compatibilidade em mapas personalizados
+[*]Entidades somente de servidor agora podem ter parentes de movimento
+
+[*]VScript:
+[list]
+
+[*]Adicionado CNMRiH_BaseZombie::IsKid()
+[*]Corrigido activator, caller, etc. valores que não funcionam em RunScriptCode e entradas relacionadas
+[*]Corrigido CBaseEntity hooks FireBullets() e ModifyEmitSoundParams() não funcionando
+[*]Corrigido CBasePlayer não decorrente de CInfectableCharacter
+[*]Corrigido falha em ObjectiveManager.StartNextObjective() quando chamado durante o aquecimento
+[/list]
+[/list]
+[h1]Mapas[/h1]
+
+[h3]Todos mapas:[/h3]
+[list]
+[*]Adicionado mais melancias
+[*]Pakfiles compactados para reduzir o tamanho da instalação
+[*]Texto do jogo substituído por dicas do instrutor
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]As faíscas na porta agora desligam quando o uso do maçarico para
+[/list]
+[h3]nmo_brooklyn[/h3]
+[list]
+[*]Adicionado som para o fogo na rua, que pode ser apagado pelo extintor
+[*]Comportamento de colisão alterado para a melancia
+[*]Fogo, que pode ser apagado pelo extintor, agora causam danos a zumbis
+[*]Corrigido trigger de dano habilitado na van da garagem
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Clips ajustados
+[/list]
+[h3]nmo_junction[/h3]
+[list]
+[*]Adicionado um atraso para explosão do propano
+[*]As faíscas na porta agora desligam quando o uso do maçarico para
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]Adicionado um atraso para explosão do propano
+[*]Helicóptero não mata mais jogadores instantaneamente
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Corrigido soundscape quebrado da rua
+[*]Corrigido helicóptero de extração sem som (#1330)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Corrigido alguns pontos de itens de objetivos presos perto do spawn
+[*]Corrigido um caminhão de bombeiros não exibindo sombras
+[*]Corrigido vários lugares onde os itens de objetivos podem ficar presos
+[*]Corrigido alguns props e brushes flutuantes
+[*]Removidas as colisões de algumas pequenas props
+[*]Removido queda de suprimentos inutilizável
+[*]Reformulada a van de fuga
+[*]Ajustados os clip brushes
+[*]Scripts MapHack atualizados para funcionar com o novo .bsp
+[*]Vários pequenos ajustes
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Adicionadas algumas dicas do instrutor
+[*]Adicionado novo objetivo entre a alavanca e o final
+[*]Clips ajustados
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Corrigido local atrás do balcão e portas de evacuação na área final
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Adicionado mais luz no motel
+[*]Adicionados mais pontos de spawn para o maçarico
+[*]Som de loop alterado na área subterrânea
+[*]O fogo agora não mata jogadores instantaneamente (somente se eles tentarem prosseguir atrás dele)
+[*]Clips e navegação ajustadas
+[/list]
+[h3]nmo_zephyr[/h3]
+[list]
+[*]Corrigido reflexão irrealista para sujeira em esgotos
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Adicionado trigger de dano para o trem
+[/list]
+[h3]nms_campblood[/h3]
+[list]
+[*]Adicionado spawn de retorno do jogador durante a evacuação
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]Diversos otimização
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]Extração alterada, agora o helicóptero chega antes da extração começar em um local ligeiramente diferente
+[/list]
+[h3]nms_flooded[/h3]
+[list]
+[*]Adicionado 10 segundos ao tempo de extração
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]Clips ajustados
+[/list]
+</string><string id="subtitle">Apresentando dois novos mapas, recheados com recursos, melhorias e ainda mais correções.</string><string id="summary">Monstros, música e muito mais. Que melhor maneira de passar o feriado do que perambulando por um antigo asilo? Pegue seus amigos e festeje - uma nova atualização de conteúdo para NMRiH está aqui!</string><string id="title">NMRiH Hell-o-ween Hellapalooza (Atualização 1.13 Disponível)</string></content>
