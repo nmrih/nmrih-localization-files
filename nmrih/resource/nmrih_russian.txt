@@ -359,4 +359,4 @@
 }  
 
 // Swooping Bears http://steamcommunity.com/groups/swooping_bears
-// berry https://steamcommunity.com/id/ingmodsince2008
+// credit of translation contribute to berry https://steamcommunity.com/profiles/76561198158864042

@@ -50,7 +50,7 @@
 "NMRiH_Advanced_cl_richpresence"		"Включить расширенные статусы (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"		"Покачивание камеры"
 "NMRiH_Advanced_cl_stickyironsight"		"Переключение прицела"
-"NMRiH_Advanced_cl_voicesubtitles"		"Субтитиры голосовых команд в чате"
+"NMRiH_Advanced_cl_voicesubtitles"		"Субтитры голосовых команд в чате"
 "NMRiH_Advanced_cl_ejectbrass"			"Выпадение гильз\патронов от дробовика после выстрела"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Динамическое освещение для вспышек из дула"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Отключить HTML сообщения дня"
@@ -74,18 +74,18 @@
 
 "NMRiH_Difficulty"		"Сложность"
 
-"NMRiH_Difficulty_Classic"	"Classic"
-"NMRiH_Difficulty_Casual"	"Casual"
-"NMRiH_Difficulty_Nightmare"	"Nightmare"
-"NMRiH_Difficulty_PVP"		"PvP"
+"NMRiH_Difficulty_Classic"	"Классика"
+"NMRiH_Difficulty_Casual"	"Свободный"
+"NMRiH_Difficulty_Nightmare"	"Кошмар"
+"NMRiH_Difficulty_PVP"		"Игрок против игрока"
 
 "NMRiH_GameType_Objective"		"Прохождение"
 "NMRiH_GameType_Survival"		"Выживание"
-"NMRiH_GameType_PVP"			"Pvp"
+"NMRiH_GameType_PVP"			"Игрок против игрока"
 
 "NMRiH_LAN"				"Только лок. сеть"
 
-"NMRiH_Difficulty_Tooltip"		"Выбрать уровень сложности.\nClassic: Стандартные настройки, есть точки возрождения.\nCasual Постоянное возрождение, оружие выдаётся при возрождении.\nNightmare: Здоровье зомби, их количество и шанс заражения увеличены.\nPvP: Очки набираются путём убийства других игроков. Показываются иконки убийств, нет зомби и заданий."
+"NMRiH_Difficulty_Tooltip"		"Выбрать уровень сложности.\nКлассика: Стандартные настройки, есть точки возрождения.\nСвободный: Постоянное возрождение, оружие выдаётся при возрождении.\nКошмар: Здоровье зомби, их количество и шанс заражения увеличены.\nИгрок против игрока: Очки набираются путём убийства других игроков. Показываются иконки убийств, нет зомби и заданий."
 "NMRiH_Map_Time_Tooltip"		"Количество времени на одну карту."
 "NMRiH_LAN_Tooltip"			"Обеспечивает подключение по локальной сети, сервер недоступен публично."
 "NMRiH_FriendlyFire_Tooltip"		"Огонь по своим, заражённые игроки всегда получают урон."
@@ -387,8 +387,8 @@
 "Workshop_Publisher_Error_NoTitle"			"Дополнению нужно название."
 "Workshop_Publisher_Error_NoContentPath"		"Не указан путь к файлам."
 "Workshop_Publisher_Error_NoPreviewPath"		"Не указан путь к изображению."
-"Workshop_Publisher_Error_NoContentPathExisting"	"Не указан путь к файлам. (Выберите \"Оставить текущий путь\", чтобы оставить текущие файлы.)"
-"Workshop_Publisher_Error_NoPreviewPathExisting"	"Не указан путь к превью картинке. (Выберите \"Оставить текущий путь\", чтобы оставить текущее изображение.)"
+"Workshop_Publisher_Error_NoContentPathExisting"	"Не указан путь к файлам. (Выберите «Оставить текущий путь», чтобы оставить текущие файлы.)"
+"Workshop_Publisher_Error_NoPreviewPathExisting"	"Не указан путь к изображению. (Выберите «Оставить текущий путь», чтобы оставить текущее изображение.)"
 "Workshop_Publisher_Error_TooBigPreview"		"Изображение слишком большое, размер файла не должен превышать 1 МБ."
 "Workshop_Publisher_Error_PublisherError"		"Ошибка публикации"
 "Workshop_Publisher_Error_UploadFailed"			"Произошла ошибка, ваше дополнение не был опубликован. (Код ошибки: %s1)"
@@ -416,4 +416,4 @@
 }
 
 // Swooping Bears http://steamcommunity.com/groups/swooping_bears
-// berry https://steamcommunity.com/id/ingmodsince2008
+// credit of translation contribute to berry https://steamcommunity.com/profiles/76561198158864042

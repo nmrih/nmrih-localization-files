@@ -1,6 +1,6 @@
 "lang" 
 { 
-"Language" "Russian" 
+"Language" "Русский (Russian)" 
 "Tokens" 
 {
 	"nms_laundry_hinta"	"Не дайте зомби захватить эту безопасную зону!"
