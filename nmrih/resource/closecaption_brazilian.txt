@@ -703,6 +703,23 @@
 		"Heli.Departure_US"	"<len:2.2>Estamos saindo daqui, você está sozinho! <delay:2.6><len:1.4>Eu sinto Muito!"
 		"GenericVoice.YouFoundIt"	"Porra, parece que você encontrou!"
 		
+		// Asylum
+		"AsylumVoice.Intro"	"<len:5.3>Então, é assim que você esperava que as coisas fossem? Morrer de fome em uma cela de isolamento? <delay:5.5><len:4.7>Decisão realmente inteligente, posso dizer. Mas eu posso te dar uma nova escolha. <delay:10.3><len:5.6>Você pode ficar aqui e morrer, ou você pode me ajudar, e eu posso te dar uma saída em troca. <delay:16.2><len:1>Prometo."
+		"AsylumVoice.Intro2"	"<len:4.6>Olá Olá!? Ista coisa está ligada? <delay:4.9><len:1.5>você pode, você pode me ouvir? <delay:6.7><len:2.6>Eu posso te ver, faça alguma coisa se você puder me ouvir... <delay:9.8><len:2.2>Vou levar isso como um sim. <delay:12.5><len:5.1>Eu não quero estragar qualquer 'plano mestre' que você teve, prendendo-se na ala de isolamento, <delay:17.7><len:2.5>mas ninguém está vindo para resgatá-lo. <delay:20.3><len:5.6>O asilo está invadido, o rádio está mudo, os militares estão mortos ou desaparecidos. <delay:26.6><len:2.3>É só você e eu agora, <delay:28.7><len:3.7>então me ajude a terminar o trabalho da minha vida, e eu vou te tirar daqui."
+		"AsylumVoice.Intro3"	"<len:3.4>Como demonstração de boa fé, deixei-lhe um presente, <delay:3.5><len:1.2>está lá fora. <delay:4.8><len:2.3>Deixe-me abrir essas portas para você."
+		"AsylumVoice.Intro4"	"<len:3.8>Eu também tenho algo que pode ajudar. Eu deixei fora de sua cela. <delay:3.9><len:2.7>Não é muito, mas espero que ajude. <delay:6.7><len:1.8>Deixe-me abrir essas portas."
+		"AsylumVoice.Intro5"	"<len:2.8>Mudei uma das caixas militares para lá. <delay:2.9><len:2.6>Não tenho certeza do que está dentro, mas pode ajudar. <delay:5.9><len:1.7>Eu vou abrir as portas das celas agora."
+		"AsylumVoice.CarBarks"	"<len:5>Aqui vamos nós! Agora vá em frente. eu não vou esperar para sempre."
+		"AsylumVoice.CarBarks2"	"<len:3.3>Excelente, agora seria um bom momento para começar a correr. <delay:3.5><len:2.8>O tempo não espera por ninguém, nem eu!"
+		"AsylumVoice.FinishRitual"	"<len:2.45>Eis meu plano mestre. <delay:2.54><len:4.7>Com este círculo de invocação, posso abrir um portal para o Inferno e nos tirar daqui. <delay:7.5><len:2.8>Me falta apenas alguns componentes-chave. <delay:10.4><len:1.7>Traga-os para mim, agora!"
+		"AsylumVoice.ProtectRitual"	"<len:2.6>Sim, eu posso sentir o poder! <delay:2.64><len:4>Não vai demorar muito agora, proteja o ritual a todo custo!"
+		"AsylumVoice.ProtectRitual2"	"<len:1.6>Não, pare-os! <delay:1.7><len:2.7>Se eles estragarem o ritual, então nosso acordo está cancelado!"
+		"AsylumVoice.ProtectRitual3"	"<len:3.5>NÃO! Idiotas! VOCÊ SÓ TINHA UM TRABALHO. <delay:3.6><len:1.8>Agora o ritual está arruinado! <delay:5.5><len:2.1>Esqueça isso, estou fora daqui. <delay:7.7><len:1.7>Você pode apodrecer aqui para sempre!"
+		"AsylumVoice.RitualComplete"	"<len:5.1>Sim! SIM! E-espere, não. Isso não está certo. <delay:5.5><len:1.5>Será que... fiz algo errado? <delay:7.2><len:1.8>O portal deveria estar aberto! <delay:9.2><len:4.9>Que droga. Ah bem. Plano B então. Afaste-se!"
+		"AsylumVoice.RitualComplete2"	"<len:1.85>Espere, algo está errado. <delay:1.9><len:2.3>Você... você usou um balde para a cabeça? <delay:4.3><len:5.3>Por que você... deixa pra lá. Hora do plano B! Afaste-se!"
+		"AsylumVoice.SecurityShutters"	"<len:3.9>Você precisará chegar ao refeitório. O caminho ali é bem fechado, <delay:4.1><len:3>você precisará ir à segurança e abrir as portas de rolagem."
+		"AsylumVoice.SecurityShutters2"	"<len:5.1>Bom, com as portas da segurança abertas, agora você pode chegar ao pátio a partir do segundo andar. <delay:5.3><len:1.8>O. Segundo. Andar."
+		
 		// Broadway2
 		"Broadway2Voice.Extraction"	"<len:2.1>Atenção, atenção. <delay:2.7><len:4.7>Se você pode me ouvir, você precisa ir ao telhado e aguardar a extração o mais rápido possível. <delay:8><len:2.9>Você tem cinco minutos até que o governo lance uma bomba. Por favor saia daí."
 

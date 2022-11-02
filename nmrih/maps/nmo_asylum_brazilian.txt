@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_asylum_Objective_Lobby_1"		"Alcance o salão"
+	"nmo_asylum_Objective_Lobby_NoWeld"	"Alcance o salão"
+	"nmo_asylum_Objective_Drain"		"Desça ao porão e drene os chuveiros"
+	"nmo_asylum_Objective_Wet_Key"		"Desbloqueie o armário de suprimentos"
+	"nmo_asylum_Objective_Room_Key"		"Desbloqueie o armário de suprimentos"
+	"nmo_asylum_Objective_Traverse"		"Atravesse o porão e suba até o térreo"
+	"nmo_asylum_Objective_Welder"		"Abra a grade de ventilação com a solda"
+	"nmo_asylum_Objective_Bomb"		"Exploda a barricada"
+	"nmo_asylum_Objective_Power"		"Abra as portas de rolagem de segurança"
+	"nmo_asylum_Objective_Goto_Attic"	"Navegue pelos dormitórios do andar de cima"
+	"nmo_asylum_Objective_Drop"		"Navegue pelos dormitórios do andar de cima"
+	"nmo_asylum_Objective_Attic"		"Explore o sótão"
+	"nmo_asylum_Objective_Court"		"Atravesse o pátio"
+	"nmo_asylum_Objective_Summon_Alt"	"Termine o ritual"
+	"nmo_asylum_Objective_Summon_Alt2"	"Termine o ritual"
+	"nmo_asylum_Objective_Summon"		"Complete o ritual"
+	"nmo_asylum_Objective_Defend"		"Defenda o ritual"
+	"nmo_asylum_Objective_Intro"		"Arrependa-se das suas escolhas de vida"
+	"nmo_asylum_Objective_StandBack"	"Afaste-se"
+	"nmo_asylum_Objective_Evac"		"Corra!"
+}
+}

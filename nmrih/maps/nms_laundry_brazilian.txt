@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nms_laundry_hinta"	"Não deixe os zumbis invadirem esta zona segura!"
+	"nms_laundry_hintb"	"Perdemos o sinal de rádio, não há mais entregas de suprimentos!"
+	"nms_laundry_losea"	"Perdemos uma van de fuga..."
+	"nms_laundry_pushcar"	"Empurre o carro!"
+	"nms_laundry_cutrope1"	"Corte a corda!"
+	"nms_laundry_cutrope2"	"Corte a corda!"
+	"nms_laundry_mine"	"Cuidado com as minas!"
+}
+}
