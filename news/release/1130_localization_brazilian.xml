@@ -57,12 +57,12 @@ Uma atualização para o No More Room in Hell está disponível. A atualização
 
 [*]Fonte alterada
 [*]Agora exibe a contagem de jogadores
-[*]Clique com o botão direito agora alternará o cursor em vez do esquerdo
+[*]Clicar com o botão direito agora alternará o cursor em vez do esquerdo
 [/list]
 
 [*]O servidor agora pula quadros de animação NPC para aumentar o desempenho
 
-[*]Alterações no Workshop do lado do servidor:
+[*]Alterações no Workshop do lado servidor:
 [list]
 
 [*]Adicionado comando "workshop_remove_all", remove todos os mapas da lista
@@ -89,7 +89,7 @@ Uma atualização para o No More Room in Hell está disponível. A atualização
 [*]Corrigido velocidade atual não sendo aplicada ao ragdoll do jogador na morte
 [*]Corrigido sons do viewmodel duplicados ao observar em primeira pessoa
 [*]Corrigido impulso angular extremo no lançamento de granada
-[*]Corrigido "Difícil de pegar itens em cima dos triggers de progresso da arma" (#1328)
+[*]Corrigido "Difícil de pegar itens em cima dos triggers de progresso de arma" (#1328)
 [*]Corrigido "Erro de KeyValues se a descrição do addon contiver caracteres reservados" (#1318)
 [*]Corrigido "O contorno do objetivo tem precedência sobre o contorno do inventário" (#1338)
 [*]Corrigido "Problemas de desempenho causados por detritos de tiro/motosserra" (#1291)
@@ -228,4 +228,4 @@ Uma atualização para o No More Room in Hell está disponível. A atualização
 [list]
 [*]Clips ajustados
 [/list]
-</string><string id="subtitle">Apresentando dois novos mapas, recheados com recursos, melhorias e ainda mais correções.</string><string id="summary">Monstros, música e muito mais. Que melhor maneira de passar o feriado do que perambulando por um antigo asilo? Pegue seus amigos e festeje - uma nova atualização de conteúdo para NMRiH está aqui!</string><string id="title">NMRiH Hell-o-ween Hellapalooza (Atualização 1.13 Disponível)</string></content>
+</string><string id="subtitle">Apresentando dois novos mapas, recheados com recursos, melhorias e ainda mais correções.</string><string id="summary">Monstros, música e muito mais. Que melhor maneira de passar o feriado do que perambulando por um antigo asilo? - Uma nova atualização de conteúdo para NMRiH está aqui!</string><string id="title">NMRiH Hell-o-ween Hellapalooza (Atualização 1.13 Disponível)</string></content>
