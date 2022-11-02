@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "Spanish" 
+"Tokens" 
+{
+	"nmo_asylum_Objective_Lobby_1"		"Ve hacia la recepción"
+	"nmo_asylum_Objective_Lobby_NoWeld"	"Ve hacia la recepción"
+	"nmo_asylum_Objective_Drain"		"Baja al sótano y drena el agua de las duchas"
+	"nmo_asylum_Objective_Wet_Key"		"Abre el cuarto de suministros"
+	"nmo_asylum_Objective_Room_Key"		"Abre el cuarto de suministros"
+	"nmo_asylum_Objective_Traverse"		"Avanza por el sótano y sube a la planta baja"
+	"nmo_asylum_Objective_Welder"		"Abre el ducto con un soldador"
+	"nmo_asylum_Objective_Bomb"		"Destruye la barricada con un explosivo"
+	"nmo_asylum_Objective_Power"		"Abre los portones de seguridad"
+	"nmo_asylum_Objective_Goto_Attic"	"Avanza por los domitorios del segundo piso"
+	"nmo_asylum_Objective_Drop"		"Avanza por los domitorios del segundo piso"
+	"nmo_asylum_Objective_Attic"		"Explora el ático"
+	"nmo_asylum_Objective_Court"		"Cruza el patio"
+	"nmo_asylum_Objective_Summon_Alt"	"Completa el ritual"
+	"nmo_asylum_Objective_Summon_Alt2"	"Completa el ritual"
+	"nmo_asylum_Objective_Summon"		"Completa el ritual"
+	"nmo_asylum_Objective_Defend"		"Defiende el ritual"
+	"nmo_asylum_Objective_Intro"		"Arrepiéntete de tus decisiones"
+	"nmo_asylum_Objective_StandBack"	"¡Aléjate!"
+	"nmo_asylum_Objective_Evac"		"¡Corre!"
+}
+}

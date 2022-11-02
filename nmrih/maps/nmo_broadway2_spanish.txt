@@ -28,8 +28,15 @@
 		"nmo_broadway2_ObjO"	"Avanza por las alcantarillas"
 		"nmo_broadway2_ObjQ"	"Ve a la cancha de baloncesto"
 		"nmo_broadway2_ObjP"	"Usa el tanque para destruir el muro de la tienda"
-		"nmo_broadway2_ObjR"	" Usa un soldador para abrir la puerta y sube a la azotea para escapar"
+		"nmo_broadway2_ObjR"	"Usa un soldador para abrir la puerta y sube a la azotea para escapar"
 		"nmo_broadway2_ObJS"	"Baja por las escaleras de incendio y escapa en el tren"
-		"nmo_broadway2_ObjT"	"Vuelve a la cancha de balancesto para ser rescatado"
+		"nmo_broadway2_ObjT"	"Vuelve a la cancha de baloncesto para ser rescatado"
+		"nmo_broadway2_5min"	"5 minutos restantes para la explosión."
+		"nmo_broadway2_4min"	"4 minutos restantes para la explosión."
+		"nmo_broadway2_3min"	"3 minutos restantes para la explosión."
+		"nmo_broadway2_2min"	"2 minutos restantes para la explosión."
+		"nmo_broadway2_1min"	"1 minuto restante para la explosión."
+		"nmo_broadway2_30sec"	"30 segundos restantes para la explosión."
+		"nmo_broadway2_getout"	"¡Escapa ahora mismo!"
 	}
 }
