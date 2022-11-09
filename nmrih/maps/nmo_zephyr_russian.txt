@@ -17,7 +17,7 @@
 	"nmo_zephyr_objective6a_unclog"			"Прочистите механизм поворотного круга"
 	"nmo_zephyr_objective7_switch1"			"Используйте переключатель позади локомотива"
 	"nmo_zephyr_objective8_switchdasequel"		"Используйте другой переключатель"
-	"nmo_zephyr_objective9_brakes"			"Отпустите ручной тормоз"
+	"nmo_zephyr_objective9_brakes"			"Поверните штурвал ручного тормоза"
 	"nmo_zephyr_objective10_allaboard"		"Сообщите инженеру по радио о готовности"
 }
 }
