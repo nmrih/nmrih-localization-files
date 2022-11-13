@@ -10,7 +10,7 @@
 	"nmo_asylum_Objective_Room_Key"		"在找到钥匙后进入储物间"
 	"nmo_asylum_Objective_Traverse"		"顺利穿过地下室后前往楼上一层"
 	"nmo_asylum_Objective_Welder"		"借助焊枪打开通风管道"
-	"nmo_asylum_Objective_Bomb"		"炸开挡路的障碍物"
+	"nmo_asylum_Objective_Bomb"		"回到大厅炸开障碍物"
 	"nmo_asylum_Objective_Power"		"进入保安室后开启卷帘门"
 	"nmo_asylum_Objective_Goto_Attic"	"从大厅上到二楼并穿过宿舍区"
 	"nmo_asylum_Objective_Drop"		"前往二楼并穿过宿舍区"
