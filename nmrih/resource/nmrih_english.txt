@@ -39,6 +39,7 @@
 "NMRiH_BarricadePointBlocked"		"Barricade point is blocked!"
 
 "NMRiH_LevelChanging"				"Level changing in %s1 seconds..."
+"NMRiH_LevelTransition_WaitingForPlayers"	"Map end reached!\nTime left: %s1 (%s2/%s3 players)"
 
 "PracticeTimeRemaining"			"Round Starting in %s1"
 "RoundStarting"				"Round Starting!"
