@@ -25,18 +25,18 @@
 
 "NMRiH_Players_Win"		"生還者已全數疏散！"
 "NMRiH_Players_Win_Wave"	"生還者抵抗成功！"
-"NMRiH_Zombies_Win"		"生還者遭到殲滅！"
+"NMRiH_Zombies_Win"		"生還者慘遭剿滅！"
 
 "NMRiH_Chat_All_Extracted"	"(已疏散) %s1 ：  %s2"
 
 "NMRiH_Waiting_For_Spawn"	"等待重生地點..."
 
-"NMRiH_Health_Supply_Blocked"	"醫療區空間遭阻擋"
+"NMRiH_Health_Supply_Blocked"	"醫療站遭阻擋"
 
 "NMRiH_InventoryBox_CantCarry"	"道具空間不足！"
 "NMRiH_InventoryBox_OwnsItem"	"已持有一項此類物品！"
 
-"NMRiH_BarricadePointBlocked"	"設置位置遭到阻擋！"
+"NMRiH_BarricadePointBlocked"	"設置處遭阻擋！"
 
 "NMRiH_LevelChanging"	"關卡將在 %s1 秒後變更..."
 "NMRiH_LevelTransition_WaitingForPlayers"	"抵達地圖終點！\n剩餘時間：%s1 (%s2/%s3 玩家)"
@@ -46,11 +46,11 @@
 
 "HudNextObjective"	"下一個目標"
 
-"HudSurvivalWave"	"波"
+"HudSurvivalWave"	"屍潮"
 "HudSurvivalRemaining"	"剩餘"
 "HudSurvivalZone"	"區域"
 "HudSurvivalResupply"	"發放補給空投"
-"HudSurvivalWaveBegin"	"攻擊開始"
+"HudSurvivalWaveBegin"	"屍潮即將湧入"
 "HudSurvivalWaveEnd"	"完成此波侵襲"
 
 "NMRiH_Votekick_List"		"遭到投票踢除的玩家 ID 如下：\n%s1"
