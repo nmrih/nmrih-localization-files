@@ -40,6 +40,8 @@
 
 "NMRiH_LevelChanging"	"關卡將在 %s1 秒後變更..."
 
+"NMRiH_LevelTransition_WaitingForPlayers"	"抵達地圖終點！\n剩餘時間：%s1 (%s2/%s3 玩家)"
+
 "PracticeTimeRemaining"	"回合開始倒數 %s1"
 "RoundStarting"		"回合開始！"
 
