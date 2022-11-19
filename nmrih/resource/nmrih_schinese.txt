@@ -39,6 +39,7 @@
 "NMRiH_BarricadePointBlocked"		"障碍放置点被阻挡！"
 
 "NMRiH_LevelChanging"				"将在 %s1 秒后更换地图..."
+"NMRiH_LevelTransition_WaitingForPlayers"	"地图即将结束！\n剩余时间: %s1 (%s2/%s3玩家)"
 
 "PracticeTimeRemaining"			"游戏将在 %s1 秒内开始"
 "RoundStarting"				"游戏即将开始！"
