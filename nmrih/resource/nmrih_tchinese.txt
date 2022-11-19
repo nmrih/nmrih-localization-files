@@ -51,7 +51,7 @@
 "HudSurvivalZone"	"區域"
 "HudSurvivalResupply"	"發放補給空投"
 "HudSurvivalWaveBegin"	"屍潮即將湧入"
-"HudSurvivalWaveEnd"	"完成此波侵襲"
+"HudSurvivalWaveEnd"	"此波侵襲結束"
 
 "NMRiH_Votekick_List"		"遭到投票踢除的玩家 ID 如下：\n%s1"
 "NMRiH_Votekick_InProgress"	"投票已正在進行！"
