@@ -675,10 +675,10 @@
 
 		//Survival mode
 
-		"NGSurvivalExtraction"	"<I>救援隊已經準備接近你們的位置了，準備好離開！"
-		"NGSurvivalSupply"	"<I>通知，FEMA 物資空投隊已經接近你們的位置了，通話完畢。"
-		"NGSurvivalBegin"	"<I>注意，這裡是美國國民警衛隊。 在你們的位置上有幾個保護區，依據全國性傳染處理辦法及聯合國雷德克措施，你們得自己撐到區域安全才得以獲救。 請各司其職，通話完畢。"
-		"NGSurvivalWaveStart"	"<I>殭屍接近中！準備好！"
+		"NGSurvivalExtraction"	"<I>救援隊已經準備接近你們的位置了，請動身前往！"
+		"NGSurvivalSupply"	"<I>通知，FEMA 物資空投隊已接近你們的位置，以上。"
+		"NGSurvivalBegin"	"<I>注意，這是美國國民警衛隊。 在你們的位置上有幾處保護區，依據全國性傳染處理辦法及聯合國雷德克措施，請就地撐到區域清除。 屆時即可獲救並送至安全處。 請各司其職，以上。"
+		"NGSurvivalWaveStart"	"<I>屍潮正向你們所在地點接近中！做好準備！"
 		"NGSurvivalZoneA"	"<clr: 255, 255, 0><I>A 區遭受侵襲！守住它！"
 		"NGSurvivalZoneB"	"<clr: 255, 255, 0><I>B 區遭受侵襲！守住它！"
 		"NGSurvivalZoneC"	"<clr: 255, 255, 0><I>C 區遭受侵襲！守住它！"
@@ -686,7 +686,7 @@
 		"NGSurvivalZoneE"	"<clr: 255, 255, 0><I>E 區遭受侵襲！守住它！"
 		"NGSurvivalZoneF"	"<clr: 255, 255, 0><I>F 區遭受侵襲！守住它！"
 		"SafeZone.Killed"	"<clr: 255, 0, 0>[失去保護區，守住剩下的區域否則軍隊就會離開]"
-		"Wave.Complete"		"[抵擋成功]"
+		"Wave.Complete"		"[屍潮消滅完成]"
 		"NMRPlayer.TokenEarned"	"[獲得復活點數]"	
 		"NMRPlayer.TokenDenied"	"[未使用的復活點數已被移除]"
 		"NMRPlayer.TokenUsed"	"[使用復活點數]"
@@ -736,7 +736,7 @@
 		"brooklyn_voice.10"	"不知道各位怎麼想，我的肚子開始叫了。"
 		
 		// Cabin
-		"CabinVoice.SpawnRadio"	"<len:3.4>這是颶風 88 向區域內的生還者通報。<delay:3.5><len:3.5>我們已經抵達疏散位置，準備就緒進行人員疏散。<delay:7.1><len:2.5>重複，救援抵達了。<delay:9.7><len:2.6>注意時間緊迫動作要快，報告結束。"
+		"CabinVoice.SpawnRadio"	"<len:3.4>這是颶風 88 向區域內的生還者通報。<delay:3.5><len:3.5>我們已經抵達疏散位置，準備就緒進行人員疏散。<delay:7.1><len:2.5>重複，救援抵達了。<delay:9.7><len:2.6>注意時間緊迫動作要快，以上。"
 		
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"<len:1.5>生還者！<delay:1.6><len:1.6>我來找你了！"
