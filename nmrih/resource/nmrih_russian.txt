@@ -39,6 +39,7 @@
 "NMRiH_BarricadePointBlocked"		"Место для баррикады заблокировано!"
 
 "NMRiH_LevelChanging"			"Карта сменится через %s1..."
+"NMRiH_LevelTransition_WaitingForPlayers"	"Достигнут конец карты!\nОсталось: %s1 (игроков: %s2/%s3)"
 
 "PracticeTimeRemaining"			"Раунд начнётся через %s1"
 "RoundStarting"				"Раунд начинается!"
@@ -138,7 +139,7 @@
 
 "PlayerAlive"				"Состояние"
 "PlayerAlive_Alive"			"В живых"
-"PlayerAlive_Dead"			"Мёртв"
+"PlayerAlive_Dead"			"Усопший"
 "PlayerAlive_Extracted"			"Спасён"
 "PlayerRespawns"			"Возрождения"
 
