@@ -139,7 +139,7 @@
 
 "PlayerAlive"				"Состояние"
 "PlayerAlive_Alive"			"В живых"
-"PlayerAlive_Dead"			"Усопший"
+"PlayerAlive_Dead"			"Мёртв"
 "PlayerAlive_Extracted"			"Спасён"
 "PlayerRespawns"			"Возрождения"
 
