@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[h2]Changes[/h2]
+[list]
+[*]Improved overall melee hit detection, entities close up can now be hit more reliably
+[*]Melee impacts no longer draw decals or spawn debris
+[*]Melee swings can now hit multiple entities at once
+[*]Mutator list is now sorted by title
+[*]Reduced SKS w/ bayonet extra shove delay (1.5s -&gt; 0.5s)
+[*]Reverted scoreboard "DEAD" label back to "DECEASED"
+[*]Server-side Workshop error messages are now more descriptive
+
+[*]Updated the localization files:
+[list]
+
+[*]With thanks to community translators: Blueberryy, Holy Crap, Klowby, marcielcps, Plazehorta
+[*]Want to localize NMRiH to your own language? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed common Linux crash when earning an achievement
+[*]Fixed death sound playing on disconnect kill
+[*]Fixed disconnect kills affecting "We Got This!" achievement progress
+[*]Fixed entity "ambient_fmod" playing all active sounds on client sign-in
+[*]Fixed entity "point_message_multiplayer" not always updating position when following entities
+[*]Fixed event "zombie_shoved" being fired when shoving players
+[*]Fixed FMOD sound system crash when changing level (#1363)
+[*]Fixed inconsistent volume factor on music and FMOD ambient sounds
+[*]Fixed instructor hints displaying globally on dormant entity targets
+[*]Fixed map localization not falling back to English when strings were missing for current language
+[*]Fixed mutators not being applied on listen server restart (#1361)
+[*]Fixed mutators not being reloaded on level change
+[*]Fixed overlapping elements in options dialog
+[*]Fixed rare crash when player who's using a supply crate leaves the game
+[*]Fixed scoreboard text being truncated on lower resolutions
+[*]Fixed server name being truncated on the scoreboard
+[*]Fixed several issues with "ambient_fmod" entity
+[*]Fixed SKS bayonet stab sound playing when hitting something else than a zombie or player
+[*]Fixed supply crate getting stuck open when using player dies or leaves the game
+[*]Fixed supply crate UI not closing during demo playback
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added entity "env_timer", a simple HUD timer with input controls similar to a stopwatch
+[*]Added filter entity "filter_activator_player_infection", passes when player is infected, or optionally when activator is not a player
+[*]Added filter support for entity "env_explosion"
+[*]Added input "ToggleSound" to entity "ambient_fmod"
+[*]Added "SetCauser" input to entities, sets who gets credit for an inflicting kill (e.g. from hurt trigger)
+[*]Entity "trigger_keypad" now sets "OnTrigger" activator as player who input the code
+[*]Fixed "ambient_fmod" inputs "IncreaseVolume" and "DecreaseVolume" not working
+[/list]
+[h1]Maps[/h1]
+
+[h3]nmo_asylum[/h3]
+[list]
+[*]Added additional audio
+[*]Added alternate key spawn to better balance objective paths
+[*]Added alternate paths to bypass most of the chokepoints that would result in "Zombie Clogs"
+[*]Added clipping to smooth out certain staircases, remove god-spots in the finale and prevent objective items from getting stuck places
+[*]Added more signs
+[*]Added more spooky stuff!
+[*]Cheeky Foot Door now unlocks if you get special Foot Spawn. No more staring longingly at feet you can't reach
+[*]Exorcised Ghost Bomb
+[*]First half of the map has been streamlined based on objective path to be easier to navigate, and to have less dead ends
+[*]Fixed collision on many, many objects
+[*]Fixed hard to hear audio in finale
+[*]Improved Performance in Courtyard
+[*]Improvements to zombie spawning in finale section and reduced number of runners in courtyard by roughly 20%, but I'm afraid ya'll are still going to be at the mercy of the random spawning logic here, so you might not notice a difference if you're unlucky
+[*]Readjusted meat health and finale duration to be more challenging
+[*]Replaced a significant number of "Fake Real Doors" with real, fake doors to improve navigation
+[*]Revamped Dormitory lighting to be less boring, general lighting improvements across the board
+[*]Revamped spawning logic in finale to have significantly fewer runners
+[*]Stuck spots on Keys, gravestones and front desk reception area have been fixed; ant-sized props removed, sorry ants
+[*]Updated Navigation mesh to make zombies less dumb
+[*]Various detailing improvements and misc. bug fixes
+[*]You can now save the melon, a sincere apology to melon rescue teams for this oversight
+[/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]Replaced ambient music from soundscape to "room" ambient
+[*]Slightly changed "Pump it" challenge objective route
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Fixed wrong ending wave
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]Extended extraction time
+[*]Fixed zombies being stuck in a narrow alley spawn (extended playable area, even if they're stuck, players can kill them with melee)
+[*]Landmine kills are now credited to a player who picked up the mine
+[*]Landmines no longer damage players (except when infected)
+[*]Reduced siren duration from 4 mins to 1 min
+[*]Replaced "alert" hint icons for "cut the rope" objective with "use key" icon
+[*]Van now honks its horn before it starts moving
+[*]Van now won't instantly kill players
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.1 Released</string></content>
