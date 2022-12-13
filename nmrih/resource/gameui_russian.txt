@@ -46,6 +46,7 @@
 "NMRiH_Options_ShowMOTD"	"Показать сообщение дня"
 "NMRiH_Options_RecordDemo"	"Записать демо"
 
+"NMRiH_Advanced_fov_desired"			"Поле зрения (75-110)"
 "NMRiH_Advanced_cl_textfilter"			"Включить фильтрацию чата (Steam)"
 "NMRiH_Advanced_cl_richpresence"		"Включить расширенные статусы (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"		"Покачивание камеры"
