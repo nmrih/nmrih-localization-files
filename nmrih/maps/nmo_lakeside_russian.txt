@@ -21,7 +21,7 @@
 	"nmo_lakeside_find_back_door"	"Найдите ключ от задней двери"
 	"nmo_lakeside_enter_back_short"	"Используйте сварочный аппарат на запертых воротах"
 	"nmo_lakeside_reset_trips_fuel_way"	"Перезагрузите сетевой выключатель"
-	"nmo_lakeside_work_out_code"	"Ищите код для входа в компьютерный зал"
+	"nmo_lakeside_work_out_code"	"Отыщите код для входа в компьютерный зал"
 	"nmo_lakeside_turn_dish"	"Нет сигнала! Поверните спутниковую антенну!"
 	"nmo_lakeside_find_way_through_tunnel"	"Пройдите по туннелю"
 	"nmo_lakeside_use_crank"	"Найдите и используйте рычаг, чтобы открыть металлическую дверь"
