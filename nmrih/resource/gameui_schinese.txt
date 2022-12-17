@@ -46,6 +46,7 @@
 "NMRiH_Options_ShowMOTD"		"显示服务器消息"
 "NMRiH_Options_RecordDemo"		"录制demo"
 
+"NMRiH_Advanced_fov_desired"			"视野FOV(75-110)"
 "NMRiH_Advanced_cl_textfilter"			"启用聊天栏过滤器(通过Steam)"
 "NMRiH_Advanced_cl_richpresence"		"启用游戏状态显示(Discord/Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"启用视角晃动"
