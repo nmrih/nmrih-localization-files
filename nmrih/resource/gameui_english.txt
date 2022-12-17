@@ -46,6 +46,7 @@
 "NMRiH_Options_ShowMOTD"		"Show message of the day"
 "NMRiH_Options_RecordDemo"		"Record demo"
 
+"NMRiH_Advanced_fov_desired"			"Field of view (75-110)"
 "NMRiH_Advanced_cl_textfilter"			"Enable chat text filter (powered by Steam)"
 "NMRiH_Advanced_cl_richpresence"		"Enable rich presence (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"Enable viewmodel headbobbing"
