@@ -39,6 +39,7 @@
 "NMRiH_BarricadePointBlocked"		"O ponto da barricada está bloqueado!"
 
 "NMRiH_LevelChanging"				"Mudando mapa em %s1 segundo(s)..."
+"NMRiH_LevelTransition_WaitingForPlayers"	"Fim do mapa alcançado!\nTempo restante: %s1 (%s2/%s3 jogadores)"
 
 "PracticeTimeRemaining"			"Partida começando em %s1"
 "RoundStarting"				"Partida Começando!"
