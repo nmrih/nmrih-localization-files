@@ -62,7 +62,7 @@
 "NMRiH_Advanced_nmrih_grain_intensity"		"雜訊點密集程度"
 "NMRiH_Advanced_nmrih_lensflare"		"啟用鏡頭光暈"
 "NMRiH_Advanced_nmrih_dof"			"啟用景深"
-"NMRiH_Advanced_nmrih_ssao"			"啟用水平環境光遮蔽 (HBAO)"
+"NMRiH_Advanced_nmrih_ssao"			"啟用環境光遮蔽 (HBAO)"
 "NMRiH_Advanced_mp_decals"			"貼花限制 (最高 4096)"
 "NMRiH_Advanced_cl_mainmenu_background"		"選單背景圖偏好"
 "NMRiH_Advanced_cl_mainmenu_background_Random"	"隨機"
