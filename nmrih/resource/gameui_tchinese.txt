@@ -46,6 +46,7 @@
 "NMRiH_Options_ShowMOTD"	"顯示本日訊息"
 "NMRiH_Options_RecordDemo"	"錄製"
 
+"NMRiH_Advanced_fov_desired"			"視角 (75-110)"
 "NMRiH_Advanced_cl_textfilter"		"啟動聊天文字過濾器 (技術由 Steam 提供)"
 "NMRiH_Advanced_cl_richpresence"	"啟動 Rich Presence (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"啟用第一人稱晃動"
