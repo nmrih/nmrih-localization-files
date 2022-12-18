@@ -46,6 +46,7 @@
 "NMRiH_Options_ShowMOTD"	"顯示本日訊息"
 "NMRiH_Options_RecordDemo"	"錄製"
 
+"NMRiH_Advanced_fov_desired"			"視角 (75-110)"
 "NMRiH_Advanced_cl_textfilter"		"啟動聊天文字過濾器 (技術由 Steam 提供)"
 "NMRiH_Advanced_cl_richpresence"	"啟動 Rich Presence (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"啟用第一人稱晃動"
@@ -61,7 +62,7 @@
 "NMRiH_Advanced_nmrih_grain_intensity"		"雜訊點密集程度"
 "NMRiH_Advanced_nmrih_lensflare"		"啟用鏡頭光暈"
 "NMRiH_Advanced_nmrih_dof"			"啟用景深"
-"NMRiH_Advanced_nmrih_ssao"			"啟用環境光遮蔽 (HBAO)"
+"NMRiH_Advanced_nmrih_ssao"			"啟用水平環境光遮蔽 (HBAO)"
 "NMRiH_Advanced_mp_decals"			"貼花限制 (最高 4096)"
 "NMRiH_Advanced_cl_mainmenu_background"		"選單背景圖偏好"
 "NMRiH_Advanced_cl_mainmenu_background_Random"	"隨機"
