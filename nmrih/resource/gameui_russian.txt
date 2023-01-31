@@ -193,6 +193,7 @@
 "NMRiH_ScoreBoard_PlayerCount"	"Игроки: %s1"
 
 "NMRiH_Select_Mutators"	"Выбрать модификатор"
+"NMRiH_Find_Mutators"	"Найти ещё..."
 
 //============================
 //Add-on Manager
