@@ -193,6 +193,7 @@
 "NMRiH_ScoreBoard_PlayerCount"	"玩家数: %s1"
 
 "NMRiH_Select_Mutators"	"选择修改器"
+"NMRiH_Find_Mutators"	"寻找更多..."
 
 //============================
 //Add-on Manager

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[h2]Additions[/h2]
+[list]
+[*]Added proportional HUD scaling support for high resolutions, this is more noticeable on 4K, ultrawide displays, etc.
+[*]Added search box and "Find more..." button (that links to Workshop) in the mutator selection dialog
+[/list]
+[h2]Changes[/h2]
+[list]
+[*]Improved server performance on Linux
+[*]In mutator selection dialog, clicking the list item now toggles the checkbox
+[*]Increased max. FOV to 110
+[*]Melee impact particles are now displayed across the arc
+[*]Optimized zombie AI obstruction checks, improves performance on crowded maps
+[*]Restored player freeze on extraction
+[*]Server command "workshop_validate" now has a "-restore" option, recovers map entries from cache in case of accidental removals or data loss
+[*]Supply crate no longer freezes players, checks for distance instead
+
+[*]Updated the localization files:
+[list]
+
+[*]With thanks to community translators: Blueberryy, Klowby, marcielcps, Plazehorta
+[*]Want to localize NMRiH to your own language? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed an issue with inaccurate melee headshots
+[*]Fixed an issue with melee backing traces taking prominence over the initial swing arc (#1369)
+[*]Fixed an issue with stamina being drained only on the first melee hit (#1386)
+[*]Fixed background transparency issues on UI panel list items
+[*]Fixed birds blocking player spawns (#1389)
+[*]Fixed chainsaws rate limiting impact effects on characters
+[*]Fixed entity "point_message_multiplayer" not updating for players who reconnect to the server (#1390)
+[*]Fixed game state extraction commands working on dead players
+[*]Fixed loading screen not scaling properly after resolution change
+[*]Fixed mutator scripts being loaded twice on server init
+[*]Fixed national guard announcement cooldown not resetting after map change
+[*]Fixed national guard dialogue overlapping in survival mode
+[*]Fixed players blocking usable objects with their bodies (#1327)
+[*]Fixed players getting stuck after using a supply crate
+[*]Fixed several HUD scaling issues across resolutions, incl. "Next Objective" separator clipping through text, tiny labels in ammo display, etc.
+[*]Fixed supply crate HUD not always closing
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added beta version of level transition for developers, it's disabled by default, and server admins may toggle it with cvar "sv_level_transition" (#1278)
+[*]Added command "RespawnDeadPlayers" to the game state functions (I/O, console, VScript)
+[*]Added cvar "sv_killpenalty_score", sets score for kill penalty
+[*]Added cvar "sv_resetscore", resets all player scores on round restart
+[*]Added new category "Mutators" in the Workshop Publisher
+[*]Added support for melee impact effect particles
+[*]Added support for overriding viewmodel hands
+[*]Added surface prop "no_friction"
+[*]All MapHack debug spew is now behind cvar "sv_maphack_debug"
+[*]Console commands "extractplayer" and "respawnplayer" now accept player name as input
+[*]Entity "trigger_changelevel" is now functional on servers with level transition enabled
+[*]MapHack: Fixed issues during pre-entity stage, which caused scripts to fail
+[*]VScript: Added CenterPrint functions
+[*]VScript: Added CNMRiH_GameRules bindings
+[*]VScript: Added CNMRiH_Player functions SetHandModelOverride() and ClearHandModelOverride()
+[*]VScript: Added CNMRiH_WeaponBase bindings and WeaponID enum
+[*]VScript: Fixed event listeners writing bogus data on Linux
+[/list]
+[h1]Maps[/h1]
+
+[h3]All maps[/h3]
+[list]
+[*]Added "debris" flag to all explosive gascans
+[/list]
+[h3]nmo_asylum[/h3]
+[list]
+[*]Corrected areaportal issue on a door located in the basement (#1376)
+[*]Fixed office softlock (#1375)
+[*]Fixed ritual meat not scaling health on player count
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]Misc. fixes
+[/list]
+[h3]nmo_broadway2[/h3]
+[list]
+[*]Added ability to get welder if players don't have one during "navigate through sewers" objective route
+[*]Added clipping to some railing
+[*]Fixed multiple places where items could be lost
+[/list]
+[h3]nmo_brooklyn[/h3]
+[list]
+[*]Added glow for the extraction van
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]Added rope for extraction helicopter to make it more clear where to go
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Fixed softlock (#1394)
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Clipped multiple areas where objective items could be lost
+[*]Misc. tweaks
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Misc. fixes
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Added few details to motel
+[*]Fixed stuck spot near welder grate
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]Tweaked clips
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]Adjusted shambler and runner spawning during the different stages of the map
+[*]Fixed a doorway in zone A where zombies could get stuck
+[*]Fixed a spawner where zombies could get stuck
+[*]Fixed misc. issues/adjustments (#1250)
+[*]Fixed prop_door having a wrong hinge axis (#1408)
+[*]Fixed several z-fighting glitches in the mall
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]Fixed wrong zone letter order
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]Extended extraction zone and extraction time
+[*]Sparks on pawn shop door now start and stop properly when welding
+[/list]
+[h3]nms_silence[/h3]
+[list]
+[*]Removed ground fog particles that were accidentally included
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.2 Released</string></content>

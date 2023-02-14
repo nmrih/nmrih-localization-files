@@ -46,6 +46,7 @@
 "NMRiH_Options_ShowMOTD"		"Mostrar mensagem do dia"
 "NMRiH_Options_RecordDemo"		"Gravar demo"
 
+"NMRiH_Advanced_fov_desired"			"Campo de visão (75-110)"
 "NMRiH_Advanced_cl_textfilter"			"Habilitar filtro de texto do chat (distribuído pela Steam)"
 "NMRiH_Advanced_cl_richpresence"		"Habilitar Status de Atividade (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"Habilitar movimento da cabeça do personagem"
@@ -192,6 +193,7 @@
 "NMRiH_ScoreBoard_PlayerCount"	"Jogadores: %s1"
 
 "NMRiH_Select_Mutators"	"Selecionar Mutador"
+"NMRiH_Find_Mutators"	"Encontrar mais..."
 
 //============================
 //Add-on Manager
