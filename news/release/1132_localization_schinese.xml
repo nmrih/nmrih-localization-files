@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">地狱已满的又一小版本更新现已发布，本次更新将会在您重新启动游戏时自动应用，新版本的主要变化包含以下内容:
+
+[h2]新增内容[/h2]
+[list]
+[*]新增了为高分辨率提供的按比例可调 HUD 缩放支持，表现效果在 4K，超宽屏显示器等等上更为明显。
+[*]在修改器选择对话框中新增了搜索框和 "寻找更多..." 按钮（将会跳转到创意工坊页面）
+[/list]
+[h2]改动内容[/h2]
+[list]
+[*]优化了服务端在 Linux 平台上的性能
+[*]在修改器选择对话框中，目前单击列表项即可启用/禁用其对应的复选框
+[*]视野 FOV 的最高上限已提升至 110
+[*]近战冲击粒子特效现在会显示在整个挥动弧线上
+[*]优化了丧尸 AI 对障碍物的检测，改善了其在拥挤地图中的表现效果
+[*]恢复了玩家在撤离到来时身体的冻结效果
+[*]服务端指令 "workshop_validate" 现新增了 "-restore" 选项，将会在意外删除或数据丢失的情况下从缓存中恢复地图条目
+[*]补给箱目前将不再冻结玩家，而是针对距离进行检测
+
+[*]语言本地化文件更新:
+[list]
+
+[*]感谢以下社区翻译者做出的贡献: Blueberryy，Klowby，marcielcps，Plazehorta
+[*]想要为地狱已满提供您的本地化语言支持吗？ [url=https://github.com/nmrih/nmrih-localization-files] 欢迎访问我们在 Github 上的文件仓库。[/url]
+[/list]
+[/list]
+[h2]已修复内容[/h2]
+[list]
+[*]修复了一个和近战时不会准确爆头相关的问题
+[*]修复了一个和近战时后备/校验挥动轨迹优先于初始挥动弧线相关的问题 (#1369)
+[*]修复了近战武器在多次命中时体力只会在首次命中被消耗的问题 (#1386)
+[*]修复了 UI 面板列表项的背景透明度问题
+[*]修复了鸟类实体会阻挡玩家生成的问题 (#1389)
+[*]修复了电锯的速率限制会对人物角色产生影响的问题
+[*]修复了实体 "point_message_multiplayer" 不生效于重新连接到服务器的玩家的问题 (#1390)
+[*]修复了游戏状态和撤离相关的控制台指令会对已死亡玩家生效的问题
+[*]修复了分辨率更改后加载屏幕不会正确缩放的问题
+[*]修复了在服务器初始化时修改器脚本会被加载两次的问题
+[*]修复了在地图更改后国民警卫队播报的冷却时间不会重置的问题
+[*]修复了在生存模式里国民警卫队的对话会重叠的问题
+[*]修复了玩家能够用他们的身体阻挡可交互物体的问题 (#1327)
+[*]修复了玩家在使用补给箱后卡住的问题
+[*]修复了多个由跨分辨率引起的 HUD 缩放问题，包括: "下一个任务" 的分隔符会裁剪文本，弹药显示的标签过小，等等。
+[*]修复了补给箱 HUD 不会关闭的问题
+[/list]
+[h2]地图设计及模组制作相关改动[/h2]
+[list]
+[*]为开发者新增了测试版本的地图过渡 (Level Transition) 功能，默认处于禁用状态，但服务器管理员可以通过参数 "sv_level_transition" 进行切换 (#1278)
+[*]为游戏状态函数新增了 "RespawnDeadPlayers" 指令 (I/O, console, VScript)
+[*]新增了参数 "sv_killpenalty_score"，可以为击杀惩罚设置分数
+[*]新增了参数 "sv_resetscore"，将在回合重开时重置所有玩家的分数
+[*]在创意工坊发布器中新增了修改器类别 (Mutators) 
+[*]加入了对近战冲击粒子特效的支持 (melee impact effect particles)
+[*]加入了对覆盖手模的支持 (overriding viewmodel hands)
+[*]新增了 surface prop "no_friction"
+[*]所有 MapHack 脚本的调试信息现由参数 "sv_maphack_debug" 控制
+[*]控制台指令 "extractplayer" 和 "respawnplayer" 目前接受将玩家名作为输入
+[*]实体 "trigger_changelevel" 目前可以在启用了地图过渡的服务器上使用
+[*]MapHack: 修复了在 pre-entity 阶段时会导致脚本失效的问题
+[*]VScript: 加入了 CenterPrint 相关函数
+[*]VScript: 加入了对 CNMRiH_GameRules 类的绑定
+[*]VScript: 加入了 CNMRiH_Player 类下的 SetHandModelOverride() 和 ClearHandModelOverride() 两个函数
+[*]VScript: 加入了对 CNMRiH_WeaponBase 类的绑定和武器 ID 的枚举 (WeaponID)
+[*]VScript: 修复了活动监听器 (event listeners) 会在 Linux 平台上写入虚假数据的问题
+[/list]
+[h1]地图改动[/h1]
+
+[h3]全部地图[/h3]
+[list]
+[*]对所有爆炸性汽油桶加入了 "debris" 标志
+[/list]
+[h3]nmo_asylum[/h3]
+[list]
+[*]修复了地下室中一扇门上的贴图问题 (#1376)
+[*]修复了办公室区域出现的软死锁问题 (#1375)
+[*]修复了仪式中肉的血量不会根据玩家数进行缩放的问题
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]诸多杂项修复
+[/list]
+[h3]nmo_broadway2[/h3]
+[list]
+[*]为避免玩家在下水道任务路线时缺失焊枪的情况，加入了获取焊枪的途径
+[*]裁剪了部分栏杆模型
+[*]修复了多个可能会弄丢道具的地点
+[/list]
+[h3]nmo_brooklyn[/h3]
+[list]
+[*]为撤离货车加入发光效果
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]为撤离直升机加入了绳索，以便于更清晰的辨识方向
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]修复了出现软死锁，任务流程无法继续的问题 (#1394)
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]裁剪了多个可能会弄丢任务道具的区域
+[*]诸多杂项调整
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]诸多杂项修复
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]为汽车旅馆加入部分细节
+[*]修复了需要使用焊枪焊开的铁丝网附近会被卡住的地点
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]部分模型调整
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]调整了行尸和跑尸在地图不同阶段时的生成过程
+[*]修复了在区域 A 中一个可能导致丧尸卡住的门口
+[*]修复了一个可能导致丧尸卡住的生成点
+[*]诸多杂项问题修复/调整 (#1250)
+[*]修复了 prop_door 合页门轴设定错误的问题 (#1408)
+[*]修复了诸多在商场中丧尸相互攻击的问题
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]修复了区域标识字母顺序出错的问题
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]扩大并延长了撤离区域和撤离时间
+[*]用焊枪开启当铺大门时的火花效果目前会适时地出现和停止
+[/list]
+[h3]nms_silence[/h3]
+[list]
+[*]移除了被意外加入的地面烟雾粒子特效
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">版本更新 1.13.2 已发布</string></content>
