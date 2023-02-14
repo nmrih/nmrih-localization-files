@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell 更新發布，只要重新啟動即可自動更新遊戲，更新的主要變更有：
+
+[h2]新增[/h2]
+[list]
+[*]新增支援高解析度狀況下等比例 HUD 縮放，在 4K、超寬顯示模式等情況下更為明顯
+[*]在調整器選擇視窗中新增搜尋格與「尋找更多...」按鈕 (連結至工作坊)
+[/list]
+[h2]更動[/h2]
+[list]
+[*]改善 Linux 伺服器效能
+[*]在調整器選擇視窗中，點擊列表項目將會勾選或取消
+[*]最大視角增加至 110
+[*]近身武器碰撞粒子特效會在整個弧形中顯示
+[*]最佳化殭屍 AI 障礙確認，藉此改善屍群眾多的地圖效能
+[*]恢復疏散視角玩家凍結
+[*]伺服器指令 "workshop_validate" 現在有 "-restore" 選項，用以在意外移除或資料遺失時，由快取中恢復地圖列表
+[*]補給箱不會凍結玩家了，改以距離確認
+
+[*]更新在地化檔案：
+[list]
+
+[*]感謝社群翻譯者：Blueberryy, Klowby, marcielcps, Plazehorta
+[*]想要為 NMRiH 在地化你的語言嗎？ [url=https://github.com/nmrih/nmrih-localization-files]造訪我們在 GitHub 上的在地化存儲庫。[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[list]
+[*]修正近身武器爆頭判定不準確的問題
+[*]修正近身劈斬回收追蹤時，中程的蓋過初始劈斬弧線的問題 (#1369)
+[*]修正劈斬過程中只有在擊中第一下的時候消耗體力的問題 (#1386)
+[*]修正 UI 面板列物件背景透明度問題
+[*]修正小鳥阻礙玩家重生 (#1389)
+[*]修正電鋸在人物身上的撞擊特效限制
+[*]修正 entity "point_message_multiplayer" 不會對重新連至伺服器的玩家做更新 (#1390)
+[*]修正遊戲狀態疏散指令對死亡的玩家有效
+[*]修正讀取畫面在更改解析度後沒有正確縮放
+[*]修正修改器腳本在伺服器初始化過程中重複讀取兩次
+[*]修正國民警衛隊廣播冷卻在地圖更換後沒有重設
+[*]修正生存模式中國民警衛隊話語的重疊情況
+[*]修正玩家身體阻擋可使用的物件 (#1327)
+[*]修正玩家在使用補給箱後卡住的問題
+[*]修正許多不同解析度下 HUD 縮放問題，包括「下一個目標」分離器裁切到文字、彈藥顯示標籤苗小等
+[*]修正補給箱 HUD 不見得會正常關閉
+[/list]
+[h2]為地圖模組製作進行的更動[/h2]
+[list]
+[*]為開發者新增 beta 測試版的地圖轉換點，預設為停用，伺服器管理員可以利用 "sv_level_transition" 參數開啟或關閉之 (#1278)
+[*]在遊戲狀態功能中新增指令 "RespawnDeadPlayers" (I/O、指令台、VScript)
+[*]新增參數 "sv_killpenalty_score"，設定殺人分數懲罰
+[*]新增參數 "sv_resetscore"，在回合重啟時重設所有玩家的分數
+[*]新增「調整器」類別至工作坊發佈工具
+[*]新增近身武器撞擊粒子特效支援
+[*]新增覆蓋第一人稱手臂的支援
+[*]新增表現內容 "no_friction"
+[*]所有 MapHack debug spew 皆在 "sv_maphack_debug" 參數之後
+[*]指令台命令 "extractplayer" 與 "respawnplayer" 現在可接受玩家名稱為輸入
+[*]Entity "trigger_changelevel" 可在啟用關卡轉換的伺服器中作用
+[*]MapHack：修正 pre-entity 階段導致腳本錯誤的問題
+[*]VScrip：新增 CenterPrint 功能
+[*]VScript：新增 CNMRiH_GameRules 綁定
+[*]VScript：新增 CNMRiH_Player 功能 SetHandModelOverride() 及 ClearHandModelOverride()
+[*]VScript：新增 CNMRiH_WeaponBase 綁定與 WeaponID enum
+[*]VScript：修正事件讀取器在 Linux 記錄下虛假資料的問題
+[/list]
+[h1]地圖[/h1]
+
+[h3]所有地圖[/h3]
+[list]
+[*]在所有爆破瓦斯罐新增 "debris" flag
+[/list]
+[h3]nmo_asylum[/h3]
+[list]
+[*]修正地下室中的一扇門的 Areaportal (面窗口)問題 (#1376)
+[*]修正辦公室關禁閉問題 (#1375)
+[*]修正儀式肉塊沒依據玩家數量浮動調整生命值
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]一些修正
+[/list]
+[h3]nmo_broadway2[/h3]
+[list]
+[*]新增在「通過下水道」任務路線上可取得的焊槍
+[*]在一些扶手上新增一些地圖剪裁 (clipping)
+[*]修正許多可能造成物品遺失的地方
+[/list]
+[h3]nmo_brooklyn[/h3]
+[list]
+[*]在疏散貨車上增加螢光效果
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]在疏散直升機增加繩子，讓逃亡的方向更明確
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]修正關禁閉 (#1394)
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]剪裁許多可能遺失目標道具的區域
+[*]一些微調
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]一些修正
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]在汽車旅館增加一些細節
+[*]修正焊槍門附近的卡點
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]微調裁切
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]調整地圖不同階段中蹣屍與跑屍的生成
+[*]修正 A 區的門卡住殭屍的問題
+[*]修正一個會卡住殭屍的生成點
+[*]修正一些問題/一些調整 (#1250)
+[*]修正 prop_door 的門軸錯誤 (#1408)
+[*]在商場修正許多 z-fighting (材質貼圖重疊閃爍)錯誤
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]修正錯誤 zone letter 指令
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]擴大疏散區域與擴充疏散時間
+[*]當鋪門的閃爍效果現在會正確隨著焊槍開始以及結束
+[/list]
+[h3]nms_silence[/h3]
+[list]
+[*]移除不小心放入的地面霧氣粒子效果
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">更新 1.13.2 釋出</string></content>
