@@ -304,7 +304,7 @@
 "Addon_Manager_InfoPanel_Installed"		"Установлен"
 "Addon_Manager_InfoPanel_LastModified"		"Последнее изменение"
 "Addon_Manager_InfoPanel_FileSize"		"Размер файла"
-"Addon_Manager_InfoPanel_WorkshopID"		"Workshop ID"
+"Addon_Manager_InfoPanel_WorkshopID"		"Идентификатор в Мастерской"
 "Addon_Manager_InfoPanel_UserRating"		"Рейтинг"
 "Addon_Manager_InfoPanel_None"			"[нет]"
 
