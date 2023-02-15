@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_boardwalk_Objectives_Radio"	"Usa la radio per chiedere aiuto"
+	"nmo_boardwalk_Objectives_Door"	"Trova una chiave per aprire la porta"
+	"nmo_boardwalk_Objectives_Survive"	"Sopravvivi"
+	"nmo_boardwalk_Objectives_Secure"	"Resisti fino all'arrivo dei soccorsi"
+	"nmo_boardwalk_Objectives_Propane"	"Sfonda la barricata"
+	"nmo_boardwalk_Objectives_Can"	"Brucia l'ostacolo"
+	"nmo_boardwalk_Objectives_Gauntlet"	"Dirigiti verso il rifugio"
+	"nmo_boardwalk_Objectives_Signal"	"Accendi un fuoco di segnalazione"
+}
+}
