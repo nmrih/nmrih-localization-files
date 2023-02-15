@@ -1,0 +1,16 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"Taglia e attraversa la saracinesca"
+	"nmo_anxiety_Obj2"	"Spegni il fuoco"
+	"nmo_anxiety_Obj3"	"Abbatti la barricata"
+	"nmo_anxiety_Obj4"	"Alza il cancello"
+	"nmo_anxiety_Obj5"	"Esci dalla metropolitana"
+	"nmo_anxiety_Obj6"	"Scavalca la recinzione con una scala"
+	"nmo_anxiety_Obj7"	"Usa un saldatore per aprire la porta del garage"
+	"nmo_anxiety_Obj8"	"Sblocca le porte dell'ospedale"
+	"nmo_anxiety_Obj9"	"Trova le chiavi del veicolo ricreativo"
+}
+}
