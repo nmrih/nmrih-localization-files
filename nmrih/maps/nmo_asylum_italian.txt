@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_asylum_Objective_Lobby_1"		"Raggiungi la Lobby"
+	"nmo_asylum_Objective_Lobby_NoWeld"	"Raggiungi la Lobby"
+	"nmo_asylum_Objective_Drain"		"Scendi nel seminterrato e svuota le docce."
+	"nmo_asylum_Objective_Wet_Key"		"Sblocca l'armadietto dei rifornimenti"
+	"nmo_asylum_Objective_Room_Key"		"Sblocca l'armadietto dei rifornimenti"
+	"nmo_asylum_Objective_Traverse"		"Attraversa il seminterrato e sali al piano terra."
+	"nmo_asylum_Objective_Welder"		"Apri la presa d'aria con il saldatore"
+	"nmo_asylum_Objective_Bomb"		"Fai esplodere la barricata"
+	"nmo_asylum_Objective_Power"		"Apri le serrande di sicurezza"
+	"nmo_asylum_Objective_Goto_Attic"	"Attraversa i dormitori del piano superiore"
+	"nmo_asylum_Objective_Drop"		"Attraversa i dormitori del piano superiore"
+	"nmo_asylum_Objective_Attic"		"Esplora l'attico"
+	"nmo_asylum_Objective_Court"		"Attraversa il cortile"
+	"nmo_asylum_Objective_Summon_Alt"	"Concludi il rituale"
+	"nmo_asylum_Objective_Summon_Alt2"	"Concludi il rituale"
+	"nmo_asylum_Objective_Summon"		"Completa il rituale"
+	"nmo_asylum_Objective_Defend"		"Difendi il rituale"
+	"nmo_asylum_Objective_Intro"		"Rimpiangi le tue scelte di vita"
+	"nmo_asylum_Objective_StandBack"	"Resta indietro"
+	"nmo_asylum_Objective_Evac"		"Corri!"
+}
+}
