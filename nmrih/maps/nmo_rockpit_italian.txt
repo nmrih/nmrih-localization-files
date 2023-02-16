@@ -1,0 +1,28 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_rockpit_obj_lever"	"Collega una leva di riserva all'ascensore"
+	"nmo_rockpit_obj_fubar"	"Apri le porte dell'ascensore"
+	"nmo_rockpit_obj_shed"	"Trova una chiave per entrare nel capannone"
+	"nmo_rockpit_obj_van"	"Entra nel furgone della FastEx e scappa!"
+	"nmo_rockpit_obj_survive"	"Sopravvivi!"
+	"nmo_rockpit_obj_heli"	"Fatti estrarre dall'elicottero!"
+	"nmo_rockpit_obj_start"	"Apri il cancello con il saldatore"
+	"nmo_rockpit_obj_panel"	"Usa il pannello nella sala di controllo, apri il cancello B"
+	"nmo_rockpit_obj_esc"	"Scappa in superficie!"
+	"nmo_rockpit_obj_gen_normal"	"Ripristina l'elettricità per l'ascensore"
+	"nmo_rockpit_obj_radio"	"Chiama i soccorsi, usa la radio al piano di sopra"
+	"nmo_rockpit_obj_carbattery"	"Usa la batteria per aprire il cancello d'entrata, preparati a scappare"
+	"nmo_rockpit_obj_fire"	"Trova un estintore e spegni l'incendio"
+	"nmo_rockpit_obj_elec"	"Trova 3 assi per superare la pozza elettrificata"
+	"nmo_rockpit_obj_barrier"	"Usa una tanica di gas per distruggere la barricata"
+	"nmo_rockpit_obj_tunnel"	"Trova una strada alternativa per i tunnel di manutenzione"
+	"nmo_rockpit_obj_gen_underground"	"Ripristina l'elettricità dell'ascensore"
+	"nmo_rockpit_obj_moving"	"Procedi verso il cancello"
+	"nmo_rockpit_obj_siren"	"Attiva la sirena per segnalare la tua posizione"
+	"nmo_rockpit_entervan"	"Hai 2 minuti per entrare nel furgone prima di venire travolto dall'orda."
+	"nmo_rockpit_rescue"	"I soccorsi ti stanno cercando! Preparati."
+}
+}
