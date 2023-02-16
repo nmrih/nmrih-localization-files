@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_chinatown_subway_escape"	"Fuggi dalla metropolitana!"
+	"nmo_chinatown_gate_fix"	"Trova il carburante per alimentare il generatore e aprire la porta!"
+	"nmo_chinatown_ladder_dismount"	"Rilascia la scala sul blocco stradale!"
+	"nmo_chinatown_sewer_way"	"Trova la strada attraverso le fogne!"
+	"nmo_chinatown_welder"	"Usa il saldatore sulla serratura del cancello per aprirla!"
+	"nmo_chinatown_docks_finale"	"Accendi la radio e chiama i soccorsi!"
+	"nmo_chinatown_radio"	"I soccorsi arriveranno tra 60 secondi. Tieni duro!"
+}
+}
