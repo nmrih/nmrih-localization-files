@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_underground_Open_The_Door"	"Trova un modo di aprire la porta!"
+	"nmo_underground_Fence_Welder"	"Usa il saldatore sulla grata!"
+	"nmo_underground_Find_Dinamite"	"Trova della dinamite e fai saltare il muro!"
+	"nmo_underground_Elevator"	"Attiva l'ascensore!"
+	"nmo_underground_Last_Objective"	"Usa tutti gli oggetti raccolti!"
+	"nmo_underground_HelicopterCome"	"Aspetta l'elicottero!"
+	"nmo_underground_PushTheCart"	"Spingete il carrello!"
+	"nmo_underground_LootSmokeGrenade"	"Prendi una granata fumogena!"
+	"nmo_underground_FindCodeLootPaint"	"Cerca un codice negli uffici e prendi un barattolo di vernice!"
+	"nmo_underground_LootCarBattery"	"Prendi una batteria per auto!"
+	"nmo_underground_LootPaint"	"Prendi un barattolo di vernice!"
+	"nmo_underground_plugs"		"Collegare i connettori!"
+	"nmo_underground_car"		"Spingi la macchina!"
+	"nmo_underground_sos"		"Disegna un «S.O.S»!"
+	"nmo_underground_gen"		"Attiva il generatore!"
+}
+}
