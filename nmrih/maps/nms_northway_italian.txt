@@ -1,0 +1,13 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nms_northway_work"	"Il sistema delle porte funziona! Chiudete tutti e sei gli accessi a questo edificio!"
+	"nms_northway_5"	"5 porte rimaste!"
+	"nms_northway_4"	"4 porte rimaste!"
+	"nms_northway_3"	"3 porte rimaste!"
+	"nms_northway_2"	"2 porte rimaste!"
+	"nms_northway_1"	"1 porta rimasta!"
+}
+}

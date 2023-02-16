@@ -1,0 +1,21 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_cleopas_ObjA"	"Trova della TNT per superare il cancello del vicolo"
+	"nmo_cleopas_ObjB"	"Trova della TNT per superare il cancello del vicolo"
+	"nmo_cleopas_ObjC"	"Trova della TNT per superare il cancello del vicolo"
+	"nmo_cleopas_ObjZ"	"Segui l'obiettivo sulla lavagna"
+	"nmo_cleopas_ObjE"	"Trova 4 assi per superare l'acqua elettrificata"
+	"nmo_cleopas_ObjF"	"Trova una leva per spegnere la corrente"
+	"nmo_cleopas_ObjH"	"Usa la scala per entrare nel Samco"
+	"nmo_cleopas_ObjI"	"Usa il saldatore per entrare nel negozio"
+	"nmo_cleopas_ObjJ"	"Trova una scala per scavalcare il cancello del vicolo"
+	"nmo_cleopas_ObjG"	"Fai esplodere il muro del vicolo"
+	"nmo_cleopas_OBjD"	"Passa dalla casa e sfonda la facciata"
+	"nmo_cleopas_ObjK"	"Raggiungi il vicolo successivo"
+	"nmo_cleopas_ObjR"	"Trova delle pinze per tagliare il lucchetto, hai 3 minuti per essere estratto!"
+	"nmo_cleopas_ObjL"	"Trova un saldatore per aprire il cancello del vicolo sul retro"
+}
+}

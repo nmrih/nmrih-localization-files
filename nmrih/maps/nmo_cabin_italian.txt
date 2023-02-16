@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_cabin_objStart"	"Esci dall'attico"
+	"nmo_cabin_ObjA"	"Trova le chiavi per sbloccare la porta"
+	"nmo_cabin_ObjB"	"Rompi le assi per procedere"
+	"nmo_cabin_ObjC"	"La famiglia è la risposta, trova il libro segreto"
+	"nmo_cabin_ObjD"	"Sblocca il cancello delle scale"
+	"nmo_cabin_ObjE"	"Fai esplodere la parete della cabina"
+	"nmo_cabin_ObjF"	"Inserisci il libro nello scaffale"
+	"nmo_cabin_ObjG"	"Usa il saldatore per sbloccare la porta della cucina"
+	"nmo_cabin_ObjH"	"Ricollega la linea telegrafica"
+	"nmo_cabin_ObjI"	"Trova la batteria dell'auto, accendi il generatore e chiama i soccorsi!"
+	"nmo_cabin_ObjG2"	"Procedi attraverso il sotterraneo"
+}
+}

@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nms_notld_title"	"Night of the Dead"
+}
+}

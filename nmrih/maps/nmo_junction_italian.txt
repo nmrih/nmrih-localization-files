@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_junction_Street_door"	"Scappa dal rifugio sicuro"
+	"nmo_junction_Break_front"	"Entra nel mercato"
+	"nmo_junction_Turn_off_alarm"	"Spegni l'allarme di sicurezza"
+	"nmo_junction_Exploding_door"	"Entra negli appartementi dal vicolo"
+	"nmo_junction_Use_radio"	"Trova un modo di chiamare aiuto"
+	"nmo_junction_Weld_door"	"Trova un saldatore per entrare nel magazzino"
+	"nmo_junction_Pawnshop_fense_door"	"Apri la porta del banco dei pegni"
+	"nmo_junction_pawnshop_door_code"	"Inserisci il codice d'accesso"
+	"nmo_junction_Office_progress"	"Trova un via d'uscita alternativa dall'edificio"
+	"nmo_junction_Find_sewer_key"	"Trova la chiave delle fogne e fuggi da questa città una volta per tutte"
+	"nmo_junction_Finale_tnt"	"Colloca tre esplosivi nel tunnel per assicurare la fuga."
+}
+}

@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_zephyr_objective1_leavebuilding"	"Trova il codice e scappa dall'edificio"
+	"nmo_zephyr_objective2_blowwarehouse"	"Trova il modo di accedere al magazzino"
+	"nmo_zephyr_objective2a_sewertime"	"Trova un attrezzo per aprire il tombino"
+	"nmo_zephyr_objective2b_blowtorchsewer"	"Sciogli la grata con un saldatore"
+	"nmo_zephyr_objective3_warehouseelevator"	"Attiva l'ascensore e vai al piano superiore"
+	"nmo_zephyr_objective4_pickupwalkie"	"Raccogli il walkie talkie"
+	"nmo_zephyr_objective5a_2710"	"Il codice della porta è 2710"
+	"nmo_zephyr_objective5d_powerup"	"Trova del carburante per alimentare il generatore"
+	"nmo_zephyr_Objective5b_2606"	"Il codice della porta è 2606"
+	"nmo_zephyr_Objective5c_1901"	"Il codice della porta è 1901"
+	"nmo_zephyr_objective6_activate"	"Attiva la piattaforma girevole"
+	"nmo_zephyr_objective6a_unclog"	"Sblocca il meccanismo della piattaforma girevole"
+	"nmo_zephyr_objective7_switch1"	"Getta l'interruttore dietro la locomotiva"
+	"nmo_zephyr_objective8_switchdasequel"	"Getta l'altra leva"
+	"nmo_zephyr_objective9_brakes"	"Rilascia il freno a mano"
+	"nmo_zephyr_objective10_allaboard"	"Contatta l'ingegnere quando sei pronto"
+}
+}

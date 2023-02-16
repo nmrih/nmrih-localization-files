@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nms_silence_truck"	"Il camion sta arrivando! Preparatevi!"
+}
+}

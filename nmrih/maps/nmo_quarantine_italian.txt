@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_quarantine_obj_gravesite"	"Trovate una vanga e scava per trovare carburante nel cimitero improvvisato."
+	"nmo_quarantine_obj_leavespawn"	"Scappa dal vicolo"
+	"nmo_quarantine_obj_fillup_generator_turn_on"	"Alimenta il generatore e accendilo"
+	"nmo_quarantine_obj_get_sewer_key"	"Trova la chiave per la stanza della manutenzione"
+	"nmo_quarantine_obj_get_sewer_crank"	"Trova la manovella mancante e svuota la stanza della manutenzione!"
+	"nmo_quarantine_obj_leave_sewer"	"Fuggi dalle fogne"
+	"nmo_quarantine_obj_close_gate"	"Chiudi il cancello d'ingresso della zona di quarantena aperto per accedere alla zona di quarantena interna!"
+	"nmo_quarantine_obj_waitfordoor"	"Attendi l'apertura della porta avvolgibile"
+	"nmo_quarantine_obj_enter_sewer"	"Entra nelle fogne"
+	"nmo_quarantine_obj_enter_inner_quarantine"	"Entra nella zona di quarantena interna prima che il failsafe si attivi!"
+	"nmo_quarantine_obj_use_radio"	"Usa la radio!"
+	"nmo_quarantine_obj_get_walkie"	"Prendi il walkie talkie"
+	"nmo_quarantine_obj_activate_siren"	"Attiva la sirena quando sei pronto"
+	"nmo_quarantine_obj_survive"	"Sopravvivi per 2 minuti"
+	"nmo_quarantine_50sec"	"Hai 50 secondi per entrare nella zona di quarantena prima che la bomba esploda."
+	"nmo_quarantine_10sec"	"Rimangono 10 secondi."
+}
+}
