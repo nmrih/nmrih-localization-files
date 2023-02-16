@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_broadway_objA"	"Rompi il lucchetto del cancello"
+	"nmo_broadway_objB1"	"Sfonda la porta laterale del motel, trov qualcosa di adatto a farlo"
+	"nmo_broadway_objB_1"	"Trova una porta per il seminterrato"
+	"nmo_broadway_objC"	"Trova la chiave della porta sul retro del cinema"
+	"nmo_broadway_objD"	"Trova la batteria, alimenta il camion"
+	"nmo_broadway_objD_1"	"Porta il propano al bar"
+	"nmo_broadway_objE"	"Andate al bar, trovate la chiave"
+	"nmo_broadway_objF"	"Attiva gli irrigatori"
+	"nmo_broadway_objG1"	"Trova la leva per la porta del magazzino"
+	"nmo_broadway_objH"	"Ottieni l'accesso all'ufficio del direttore e chiama l'estrazione"
+	"nmo_broadway_objI"	"Apri l'ingresso laterale del motel con il saldatore"
+}
+}
