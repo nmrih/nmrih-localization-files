@@ -1,0 +1,10 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nms_camilla_final"	"Usa la radio!"
+	"nms_camilla_text1"	"Qui è il Dipartimento della Sicurezza Nazionale degli Stati Uniti, non possiamo estrarvi in questo momento."
+	"nms_camilla_text2"	"Ma possiamo inviarvi dei rifornimenti con il treno. Attraverserà presto la vostra città, tenetevi pronti a prendere una cassa."
+}
+}
