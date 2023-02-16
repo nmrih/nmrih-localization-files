@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_toxteth_ObjF"	"Entra nel negozio"
+	"nmo_toxteth_ObjE"	"Usa il saldatore sull'ingresso laterale del negozio"
+	"nmo_toxteth_ObjD"	"Usa la TNT per superare il negozio"
+	"nmo_toxteth_ObjC"	"Trova una tanica di carburante per sfondare il muro del giardino"
+	"nmo_toxteth_ObjB"	"Rispondi al telefono"
+	"nmo_toxteth_ObjA"	"Vai a Hartington Road"
+	"nmo_toxteth_ObjG_1"	"Trova un membro del personale morto per entrare nell'ufficio del magazzino"
+	"nmo_toxteth_ObjG_2"	"Trova un membro del personale morto per entrare nell'ufficio del magazzino"
+	"nmo_toxteth_ObjG_3"	"Trova un membro del personale morto per entrare nell'ufficio del magazzino"
+	"nmo_toxteth_ObjH"	"Chiama aiuto"
+	"nmo_toxteth_ObjI"	"Rispondi al telefono"
+	"nmo_toxteth_ObjJ"	"Utilizza il saldatore su 3 prese a muro per provocare un incendio!"
+	"nmo_toxteth_ObjK"	"Trova la manovella per aprire la porta"
+	"nmo_toxteth_ObjL"	"Procedi verso la cappella"
+	"nmo_toxteth_ObjM"	"Utilizza il saldatore sul tombino"
+	"nmo_toxteth_ObjZ"	"Torna a Hartington Road"
+}
+}
