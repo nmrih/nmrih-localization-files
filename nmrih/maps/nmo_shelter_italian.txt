@@ -1,0 +1,25 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_shelter_Objective_1"	"Raggiungi la sala principale"
+	"nmo_shelter_Objective_2"	"Vai al piano di sopra"
+	"nmo_shelter_Objective_3"	"Trova un modo di aprire la sala di controllo"
+	"nmo_shelter_Objective_4"	"Usa la chiave cuore per aprire la porta che conduce alla sala d'ingresso. (che si trova di sopra)"
+	"nmo_shelter_Objective_5"	"Trova una leva e usala per entrare nel tunnel di manutenzione"
+	"nmo_shelter_Objective_6"	"Apri la porta verso le fogne"
+	"nmo_shelter_Objective_7"	"Cerca degli indizi"
+	"nmo_shelter_Objective_8"	"Trova le leve"
+	"nmo_shelter_Objective_7_pre"	"Spegni il gas"
+	"nmo_shelter_Objective_5_pre"	"Attiva il generatore premendo il pulsante nella sala macchine."
+	"nmo_shelter_Objective_6_pre"	"Scendi nei tunnel di manutenzione"
+	"nmo_shelter_Objective_7_prepre""Distruggi il tabellone per accedere alla fognatura"
+	"nmo_shelter_Objective_pre9"	"Procedi nei tunnel"
+	"nmo_shelter_Objective_9"	"Prepara la tua via di fuga!"
+	"nmo_shelter_lever"		"Qualcuno sta usando la leva!"
+	"nmo_shelter_6mins"		"Hai 6 minuti per essere estratto!"
+	"nmo_shelter_switch"		"Piazza tutte le leve!"
+	"nmo_shelter_end"		"Ti sei arreso per vivere un altro giorno..."
+}
+}
