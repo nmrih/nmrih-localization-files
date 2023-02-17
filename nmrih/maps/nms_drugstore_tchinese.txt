@@ -1,0 +1,9 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nms_drugstore_mes1"	"找到 2 片在紅色螢光棒附近的木板來封死這扇窗戶。"
+	"nms_drugstore_mes2"	"現在你可以在損壞的窗戶上使用釘板榔頭。"
+}
+}
