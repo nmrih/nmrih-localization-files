@@ -1,0 +1,9 @@
+"lang" 
+{ 
+"Language" "schinese" 
+"Tokens" 
+{
+	"nms_drugstore_mes1"	"在红色荧光棒附近找到 2 块夹板来修复这扇窗户"
+	"nms_drugstore_mes2"	"现在您能够在破损的窗户上使用钉锤了"
+}
+}
