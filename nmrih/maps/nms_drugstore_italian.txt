@@ -1,0 +1,9 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nms_drugstore_mes1"	"Trova 2 fogli di compensato vicino a dei bastoncini luminosi rossi per barricare questa finestra."
+	"nms_drugstore_mes2"	"Ora è possibile utilizzare il martello da barricata sulla finestra in rovina."
+}
+}

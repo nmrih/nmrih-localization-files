@@ -76,7 +76,7 @@
 "NMRiH_Difficulty"	"Difficoltà"
 
 "NMRiH_Difficulty_Classic"	"Classica"
-"NMRiH_Difficulty_Casual"	"Casuale"
+"NMRiH_Difficulty_Casual"	"Casual"
 "NMRiH_Difficulty_Nightmare"	"Incubo"
 "NMRiH_Difficulty_PVP"			"PvP"
 
@@ -86,7 +86,7 @@
 
 "NMRiH_LAN"				"Solo LAN"
 
-"NMRiH_Difficulty_Tooltip"	"Scegli un livello di difficoltà.\nClassica: Opzioni predefinite, punti di respawn attivi.\nCasuale: Respawn sempre attivo, armi fornite dopo essere spawnato.\nIncubo: Salute, densità e probabilità di infezione degli Zombi aumentata.\nPvP: Abilita il punteggio e gli avvisi di morte del PvP, disabilita zombi e obiettivi."
+"NMRiH_Difficulty_Tooltip"	"Scegli un livello di difficoltà.\nClassica: Opzioni predefinite, punti di respawn attivi.\nCasual: Respawn sempre attivo, armi fornite dopo essere spawnato.\nIncubo: Salute, densità e probabilità di infezione degli Zombi aumentata.\nPvP: Abilita il punteggio e gli avvisi di morte del PvP, disabilita zombi e obiettivi."
 "NMRiH_Map_Time_Tooltip"	"Tempo limite mappa."
 "NMRiH_LAN_Tooltip"	"Esegue le connessioni LAN, non annuncia al pubblico."
 "NMRiH_FriendlyFire_Tooltip"	"Abilita il fuoco amico, i giocatori infetti subiranno sempre danni."
