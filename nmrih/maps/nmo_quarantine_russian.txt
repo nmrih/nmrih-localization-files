@@ -7,7 +7,7 @@
 	"nmo_quarantine_obj_leavespawn"			"Покиньте переулок"
 	"nmo_quarantine_obj_fillup_generator_turn_on"	"Заправьте генератор топливом и включите его"
 	"nmo_quarantine_obj_get_sewer_key"		"Найдите ключ от машинного отделения"
-	"nmo_quarantine_obj_get_sewer_crank"		"Найдите недостающий рычаг и осушите машинное отделение!"
+	"nmo_quarantine_obj_get_sewer_crank"		"Найдите недостающий вентиль и осушите машинное отделение!"
 	"nmo_quarantine_obj_leave_sewer"		"Выберитесь из канализации"
 	"nmo_quarantine_obj_close_gate"			"Закройте открытые входные ворота, чтобы пройти во внутреннюю карантинную зону!"
 	"nmo_quarantine_obj_waitfordoor"		"Подождите, пока откроется подъёмная дверь"
