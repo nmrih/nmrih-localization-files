@@ -1,6 +1,6 @@
 "lang" 
 { 
-"Language" "Italiano" 
+"Language" "Italian" 
 "Tokens" 
 { 
 
@@ -166,11 +166,11 @@
 "NMRiH_Vote_ChangeChallenge"	"Cambiare sfida in %s1?"
 "NMRiH_Vote_ChangeDifficulty"	"Passare alla difficoltà %s1?"
 
-"NMRiH_Scoreboard_MutePlayer"	"Muta giocatore"
+"NMRiH_Scoreboard_MutePlayer"	"Silenzia giocatore"
 "NMRiH_Scoreboard_ViewSteamProfile"	"Visualizza profilo Steam"
 
-"NMRiH_MutedPlayer"	"Mutata la voce di %s1"
-"NMRiH_UnmutedPlayer"	"Ripristinata la voce di %s1"
+"NMRiH_MutedPlayer"	"La voce di %s1 è stata silenziata"
+"NMRiH_UnmutedPlayer"	"La voce di %s1 è stata ripristinata"
 
 "NMRiH_Challenge_Select"	"Scegli una sfida:"
 "NMRiH_Challenge_Random"	"Obiettivi casuali"

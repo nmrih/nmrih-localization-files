@@ -15,8 +15,8 @@
 	"nmo_zephyr_Objective5c_1901"	"Il codice della porta è 1901"
 	"nmo_zephyr_objective6_activate"	"Attiva la piattaforma girevole"
 	"nmo_zephyr_objective6a_unclog"	"Sblocca il meccanismo della piattaforma girevole"
-	"nmo_zephyr_objective7_switch1"	"Getta l'interruttore dietro la locomotiva"
-	"nmo_zephyr_objective8_switchdasequel"	"Getta l'altra leva"
+	"nmo_zephyr_objective7_switch1"	"Premi l'interruttore dietro la locomotiva"
+	"nmo_zephyr_objective8_switchdasequel"	"Premi l'altro interruttore"
 	"nmo_zephyr_objective9_brakes"	"Rilascia il freno a mano"
 	"nmo_zephyr_objective10_allaboard"	"Contatta l'ingegnere quando sei pronto"
 }
