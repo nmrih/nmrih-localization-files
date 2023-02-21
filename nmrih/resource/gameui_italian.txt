@@ -1,6 +1,6 @@
 "lang" 
 { 
-"Language" "Italiano" 
+"Language" "Italian" 
 "Tokens" 
 { 
 
