@@ -10,7 +10,7 @@
 	"nmo_quarantine_obj_get_sewer_crank"	"Trova la manovella mancante e svuota la stanza della manutenzione!"
 	"nmo_quarantine_obj_leave_sewer"	"Fuggi dalle fogne"
 	"nmo_quarantine_obj_close_gate"	"Chiudi il cancello d'ingresso della zona di quarantena aperto per accedere alla zona di quarantena interna!"
-	"nmo_quarantine_obj_waitfordoor"	"Attendi l'apertura della porta avvolgibile"
+	"nmo_quarantine_obj_waitfordoor"	"Attendi l'apertura della saracinesca"
 	"nmo_quarantine_obj_enter_sewer"	"Entra nelle fogne"
 	"nmo_quarantine_obj_enter_inner_quarantine"	"Entra nella zona di quarantena interna prima che il failsafe si attivi!"
 	"nmo_quarantine_obj_use_radio"	"Usa la radio!"
