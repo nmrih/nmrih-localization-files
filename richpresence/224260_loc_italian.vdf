@@ -4,9 +4,9 @@
 	"Tokens"
 	{
 		"#Status_JoiningServer"	"Unione a un server..."
-		"#Status_MainMenu"	"Menu Principale"
-		"#Status_PlayingObjective"	"Gioca a Obiettivo - %map%"
-		"#Status_PlayingSurvival"	"Gioca a Sopravvivenza - %map%"
-		"#Status_PlayingCustom"	"Partita Personalizzata - %map%"
+		"#Status_MainMenu"	"Menù Principale"
+		"#Status_PlayingObjective"	"Modalità Obiettivo - %map%"
+		"#Status_PlayingSurvival"	"Modalità Sopravvivenza - %map%"
+		"#Status_PlayingCustom"	"Modalità Personalizzata - %map%"
 	}
 }
