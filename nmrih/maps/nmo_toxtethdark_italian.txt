@@ -5,7 +5,7 @@
 {
 	"nmo_toxtethdark_ObjF"	"Entra nel negozio"
 	"nmo_toxtethdark_ObjE"	"Usa il saldatore sull'ingresso laterale del negozio"
-	"nmo_toxtethdark_ObjD"	"Usa la TNT per superare il negozio"
+	"nmo_toxtethdark_ObjD"	"Usa la TNT per poter raggiungere il negozio"
 	"nmo_toxtethdark_ObjC"	"Trova una tanica di carburante per sfondare il muro del giardino"
 	"nmo_toxtethdark_ObjB"	"Rispondi al telefono"
 	"nmo_toxtethdark_ObjA"	"Vai a Hartington Road"
