@@ -23,7 +23,7 @@
 	"nmo_brooklyn_objective23"	"Trova l'estintore e spegni l'incendio in strada"
 	"nmo_brooklyn_objective26"	"Ricollega il cavo di alimentazione della porta di quarantena."
 	"nmo_brooklyn_objective24"	"Carica il van"
-	"nmo_brooklyn_objective25"	"Trova l'avamposto e annullate l'isolamento."
+	"nmo_brooklyn_objective25"	"Trova l'avamposto e annulla l'isolamento."
 	"nmo_brooklyn_objective27"	"Spingi l'auto fuori dalla strada, libera il percorso"
 }
 }
