@@ -189,7 +189,7 @@
 "Weapon_me_hatchet"			"手斧"
 "Weapon_me_kitknife"		"小菜刀"
 "Weapon_me_machete"			"砍刀"
-"Weapon_me_pickaxe"			"十字稿"
+"Weapon_me_pickaxe"			"十字镐"
 "Weapon_me_pipe_lead"		"水管"
 "Weapon_me_shovel"			"铁锹"
 "Weapon_me_sledge"			"长柄大锤"
