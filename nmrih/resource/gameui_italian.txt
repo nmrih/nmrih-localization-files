@@ -13,7 +13,7 @@
 "MainMenu_FindServers"			"TROVA SERVER"
 "MainMenu_CreateServer"			"CREA SERVER"
 "MainMenu_CharacterSelect"		"SELEZIONE PERSONAGGIO"
-//"MainMenu_Addons"				"ADD-ON"
+"MainMenu_Addons"				"ADD-ON"
 "MainMenu_Options"				"OPZIONI"
 "MainMenu_Quit"					"ESCI"
 
