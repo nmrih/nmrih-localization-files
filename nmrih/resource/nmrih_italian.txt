@@ -282,6 +282,7 @@ l'espulsione."
 "ammobox_molotov_short"			"Molotov"
 "ammobox_tnt_short"				"TNT"
 "ammobox_fuel_short"			"Carburante"
+"ammobox_arrow_short"			"Freccia"
 "ammobox_board_short"			"Assi di legno"
 "ammobox_flare_short"			"Razzi"
 
