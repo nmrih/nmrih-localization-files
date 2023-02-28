@@ -8,7 +8,7 @@
 "NMRiH_Extract_Min"			"Estrazione Min"
 "NMRiH_Extract_Max"			"Estrazione Max"
 
-"NMRiH_FriendlyFire"			"Fuoco Amico"
+"NMRiH_FriendlyFire"			"Fuoco amico"
 "NMRiH_RealismMode"				"Modalità realistica"
 "NMRiH_HardcoreSurvival"		"Sopravvivenza estrema"
 "NMRiH_ChallengeMode"			"Modalità sfida"
@@ -21,7 +21,7 @@
 "NMRiH_Extraction_Start"		""
 "NMRiH_Post_Extraction"			"Sconfitta!"
 
-"NMRiH_Player_Extracted"		"Sei stato estratto!"
+"NMRiH_Player_Extracted"		"Sei stato evacuato!"
 
 "NMRiH_Players_Win"			"Tutti i sopravvissuti sono stati evacuati!"
 "NMRiH_Players_Win_Wave"		"I sopravvissuti hanno contrastato l'orda!"
@@ -141,7 +141,7 @@ l'espulsione."
 "PlayerAlive"				"Stato"
 "PlayerAlive_Alive"			"VIVO"
 "PlayerAlive_Dead"			"MORTO"
-"PlayerAlive_Extracted"		"ESTRATTO"
+"PlayerAlive_Extracted"		"EVACUATO"
 "PlayerRespawns"			"Rientri"
 
 "Radial_ammo"				"Munizioni"
