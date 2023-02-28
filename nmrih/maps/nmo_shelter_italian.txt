@@ -14,7 +14,7 @@
 	"nmo_shelter_Objective_7_pre"	"Spegni il gas"
 	"nmo_shelter_Objective_5_pre"	"Attiva il generatore premendo il pulsante nella sala macchine."
 	"nmo_shelter_Objective_6_pre"	"Scendi nei tunnel di manutenzione"
-	"nmo_shelter_Objective_7_prepre""Distruggi il tabellone per accedere alla fognatura"
+	"nmo_shelter_Objective_7_prepre""Distruggi il tavola di legno per accedere alla fognatura"
 	"nmo_shelter_Objective_pre9"	"Procedi nei tunnel"
 	"nmo_shelter_Objective_9"	"Prepara la tua via di fuga!"
 	"nmo_shelter_lever"		"Qualcuno sta usando la leva!"
