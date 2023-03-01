@@ -11,6 +11,6 @@
 	"nmo_anxiety_Obj6"	"Scavalca la recinzione con una scala"
 	"nmo_anxiety_Obj7"	"Usa un saldatore per aprire la porta del garage"
 	"nmo_anxiety_Obj8"	"Sblocca le porte dell'ospedale"
-	"nmo_anxiety_Obj9"	"Trova le chiavi del veicolo ricreativo"
+	"nmo_anxiety_Obj9"	"Trova le chiavi del Camper"
 }
 }
