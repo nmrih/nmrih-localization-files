@@ -207,7 +207,7 @@
 "Addon_Manager_Sort"				"Ordina:"
 "Addon_Manager_SwapWith"			"Cambia con:"
 "Addon_Manager_Refresh"				"Aggiorna"
-"Addon_Manager_OpenInWorkshop"		"Apri nello Steam Workshop..."
+"Addon_Manager_OpenInWorkshop"		"Apri nel Workshop di Steam..."
 "Addon_Manager_BrowseAddons"		"Sfoglia add-on..."
 "Addon_Manager_ApplyChanges"		"Applica cambiamenti"
 "Addon_Manager_InvalidAddon"		"Questo add-on è incompatibile."
@@ -385,7 +385,7 @@
 "Workshop_Publisher_VPK_Save"				"VPK salvato..."
 "Workshop_Publisher_VPK_Overwrite"			"%s1 esiste già, vuoi sovrascriverlo?"
 
-"Workshop_Publisher_Error_NoSteam"			"Lo Steam Workshop non è disponibile. Controlla la connessione di rete o riprova."
+"Workshop_Publisher_Error_NoSteam"			"Il Workshop di Steam non è disponibile. Controlla la connessione di rete o riprova."
 "Workshop_Publisher_Error_NoTitle"			"L'add-on ha bisogno di un titolo."
 "Workshop_Publisher_Error_NoContentPath"	"Percorso del contenuto specificato vuoto."
 "Workshop_Publisher_Error_NoPreviewPath"	"Percorso dell'immagine di anteprima specificato vuoto."
