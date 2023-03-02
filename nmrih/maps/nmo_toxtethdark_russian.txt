@@ -16,7 +16,7 @@
 	"nmo_toxtethdark_ObjI"		"Ответьте на звонок"
 	"nmo_toxtethdark_ObjJ"		"Используйте сварочный аппарат на 3 настенных розетках, чтобы вызвать пожар!"
 	"nmo_toxtethdark_ObjK"		"Найдите вентиль, чтобы открыть дверь"
-	"nmo_toxtethdark_ObjL"		"Пройдите к часовне"
+	"nmo_toxtethdark_ObjL"		"Пройдите в часовню"
 	"nmo_toxtethdark_ObjM"		"Используйте сварочный аппарат на крышке люка"
 	"nmo_toxtethdark_ObjZ"		"Вернитесь на дорогу Хартингтон"
 }
