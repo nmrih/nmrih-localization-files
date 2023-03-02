@@ -207,7 +207,7 @@
 "Addon_Manager_Sort"				"Ordina:"
 "Addon_Manager_SwapWith"			"Cambia con:"
 "Addon_Manager_Refresh"				"Aggiorna"
-"Addon_Manager_OpenInWorkshop"		"Apri nello Steam Workshop..."
+"Addon_Manager_OpenInWorkshop"		"Apri nel Workshop di Steam..."
 "Addon_Manager_BrowseAddons"		"Sfoglia add-on..."
 "Addon_Manager_ApplyChanges"		"Applica cambiamenti"
 "Addon_Manager_InvalidAddon"		"Questo add-on è incompatibile."
@@ -220,7 +220,7 @@
 "Addon_Manager_DropMenu_Uninstall"	"Disinstalla"
 "Addon_Manager_DropMenu_Unsubscribe"	"Annulla sottoscrizione"
 "Addon_Manager_DropMenu_PackToVPK"	"Inserendo in VPK..."
-"Addon_Manager_DropMenu_PublisherUpdate"	"Aggiorna in Publisher"
+"Addon_Manager_DropMenu_PublisherUpdate"	"Aggiorna nel Pubblicatore"
 "Addon_Manager_DropMenu_Validate"	"Convalida"
 "Addon_Manager_DropMenu_CheckForConflicts"	"Verifica la presenza di conflitti..."
 "Addon_Manager_DropMenu_OpenDataFolder"	"Apri la cartella data..."
@@ -311,7 +311,7 @@
 //============================
 //Workshop Publisher
 //============================
-"Workshop_Publisher"				"Workshop Publisher"
+"Workshop_Publisher"				"Pubblica sul Workshop"
 "Workshop_Publisher_AddonForm"		"Formato Add-on"
 "Workshop_Publisher_UpdateExisting"	"Aggiorna add-on esistente"
 "Workshop_Publisher_UploadProgress"	"Upload dell'add-on nel Workshop..."		
@@ -320,8 +320,8 @@
 "Workshop_Publisher_TaskSelection_UploadNew"	"Carica nuovo add-on"
 "Workshop_Publisher_TaskSelection_UpdateExisting"	"Aggiorna add-on esistente"
 
-"Workshop_Publisher_NoConnection"	"Nessuna connessione a Steam, Workshop Publisher non è disponibile."
-"Workshop_Publisher_NoAddons"		"Add-ons disabilitati, Workshop Publisher non è disponibile."
+"Workshop_Publisher_NoConnection"	"Nessuna connessione a Steam, non è possibile pubblicare sul Workshop."
+"Workshop_Publisher_NoAddons"		"Add-ons disabilitati, non è possibile pubblicare sul Workshop."
 
 "Workshop_Publisher_AddonForm_Title"				"Titolo: *"
 "Workshop_Publisher_AddonForm_Desc"					"Descrizione:"
@@ -333,7 +333,7 @@
 "Workshop_Publisher_AddonForm_Tags"					"Tag (separati con ','):"
 "Workshop_Publisher_AddonForm_ItemVisibility"		"Visibilità oggetto:"
 "Workshop_Publisher_AddonForm_Browse"				"Sfoglia..."
-"Workshop_Publisher_AddonForm_PackToVPK"			"Forma VPK"
+"Workshop_Publisher_AddonForm_PackToVPK"			"Inserisci in VPK"
 "Workshop_Publisher_AddonForm_Publish"				"Pubblica"
 "Workshop_Publisher_AddonForm_KeepExisting"			"Mantieni esistente"
 "Workshop_Publisher_AddonForm_LegalAccept"			"Accetto i termini dell'accordo del Sottoscrittore di Steam"
@@ -365,7 +365,7 @@
 
 "Workshop_Publisher_Category_None"			"Nessuno"
 
-"Workshop_Publisher_UpdatingExisting"		"(Aggiornando la mod esistente %s1)"
+"Workshop_Publisher_UpdatingExisting"		"(Aggiornando l'add-on esistente %s1)"
 
 "Workshop_Publisher_OpenInWorkshop"			"Apri nel Workshop..."
 
@@ -385,14 +385,14 @@
 "Workshop_Publisher_VPK_Save"				"VPK salvato..."
 "Workshop_Publisher_VPK_Overwrite"			"%s1 esiste già, vuoi sovrascriverlo?"
 
-"Workshop_Publisher_Error_NoSteam"			"Lo Steam Workshop non è disponibile. Controlla la connessione di rete o riprova."
+"Workshop_Publisher_Error_NoSteam"			"Il Workshop di Steam non è disponibile. Controlla la connessione di rete o riprova."
 "Workshop_Publisher_Error_NoTitle"			"L'add-on ha bisogno di un titolo."
 "Workshop_Publisher_Error_NoContentPath"	"Percorso del contenuto specificato vuoto."
 "Workshop_Publisher_Error_NoPreviewPath"	"Percorso dell'immagine di anteprima specificato vuoto."
 "Workshop_Publisher_Error_NoContentPathExisting"	"Percorso del contenuto specificato vuoto. (Select \"Mantieni esistente\" per usare i contenuti già esistenti.)"
 "Workshop_Publisher_Error_NoPreviewPathExisting"	"Percorso dell'immagine di anteprima specificato vuoto. (Select \"Mantieni esistente\" per usare i contenuti già esistenti.)"
 "Workshop_Publisher_Error_TooBigPreview"	"Fila d'anteprima troppo grosso, limite di 1 MB."
-"Workshop_Publisher_Error_PublisherError"	"Errore del Publisher"
+"Workshop_Publisher_Error_PublisherError"	"Errore di Pubblicazione"
 "Workshop_Publisher_Error_UploadFailed"		"Si è verificato un errore, l'add-on non è stato pubblicato. (Codice errore: %s1)"
 "Workshop_Publisher_Error_InvalidBSP"		"BSP non valido! Il file potrebbe essere incompatibile o rotto."
 
