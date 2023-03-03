@@ -15,7 +15,7 @@
 	"nmo_cleopas_ObjG"	"Fai esplodere il muro del vicolo"
 	"nmo_cleopas_OBjD"	"Passa dalla casa e sfonda la facciata"
 	"nmo_cleopas_ObjK"	"Raggiungi il vicolo successivo"
-	"nmo_cleopas_ObjR"	"Trova delle pinze per tagliare il lucchetto, hai 3 minuti per essere estratto!"
+	"nmo_cleopas_ObjR"	"Trova delle pinze per tagliare il lucchetto, hai 3 minuti per essere evacuato!"
 	"nmo_cleopas_ObjL"	"Trova un saldatore per aprire il cancello del vicolo sul retro"
 }
 }
