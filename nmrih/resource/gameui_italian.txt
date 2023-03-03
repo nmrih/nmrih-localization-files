@@ -160,7 +160,7 @@
 "NMRiH_Vote_Kick_Player"			"Espellere giocatore: %s1?"
 "NMRiH_Vote_Passed_Kick_Player"	"Buttando fuori il giocatore: %s1..."
 
-"NMRiH_Vote_ChangeLevel"	"Cambiare livello a %s1?"
+"NMRiH_Vote_ChangeLevel"	"Cambiare livello in %s1?"
 "NMRiH_Vote_NextLevel"		"Impostare %s1 come prossimo livello?"
 "NMRiH_Vote_RestartRound"	"Riavviare il round?"
 "NMRiH_Vote_ChangeChallenge"	"Cambiare sfida in %s1?"
