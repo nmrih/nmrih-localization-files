@@ -225,7 +225,7 @@
 "Weapon_fa_1022_25mag_short"			"鲁格 10/22 扩容"
 "Weapon_fa_1911_short"				"M1911"
 "Weapon_fa_cz858_short"				"CZ858"
-"Weapon_fa_fnfal_short"				"FAL"
+"Weapon_fa_fnfal_short"				"FN FAL"
 "Weapon_fa_glock17_short"			"G17"
 "Weapon_fa_jae700_short"			"JAE-700"
 "Weapon_fa_m16a4_short"				"M16A4 瞄镜"
