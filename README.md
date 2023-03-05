@@ -15,7 +15,7 @@ https://partner.steamgames.com/doc/store/localization/languages#supported_langua
 **Italian**: [@MakinDay](https://github.com/MakinDay) \
 **Korean**: Mr.Halt, AngelHarp, 스팀유저, AlphaCeph, Ren, 제갈선생 \
 **Russian**: [@AtheistNMRiH](https://github.com/AtheistNMRiH), [@Blueberryy](https://github.com/Blueberryy) \
-**Simplified Chinese**: [@Klowby](https://github.com/Klowby), [@IBRS-4Ever](https://github.com/IBRS-4Ever) \
+**Simplified Chinese**: [@Klowby](https://github.com/Klowby), [@IBRS-4Ever](https://github.com/IBRS-4Ever), [@MsLGXC](https://github.com/MsLGXC) \
 **Spanish**: [@Holycrapjimhox](https://github.com/Holycrapjimhox) \
 **Traditional Chinese**: [@Plazehorta](https://github.com/Plazehorta) \
 **Turkish**: Dragostai
