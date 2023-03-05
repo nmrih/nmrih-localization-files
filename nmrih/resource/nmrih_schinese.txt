@@ -141,7 +141,7 @@
 "PlayerAlive_Alive"			"存活"
 "PlayerAlive_Dead"			"已死亡"
 "PlayerAlive_Extracted"		"已撤离"
-"PlayerRespawns"			"重生点数"
+"PlayerRespawns"			"重生"
 
 "Radial_ammo"				"弹药"
 
