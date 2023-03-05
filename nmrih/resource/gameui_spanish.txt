@@ -25,6 +25,9 @@
 "NMRiH_Dev_NextObjective"		"Próximo Objetivo: %s1"
 
 "NMRiH_CharSelect_Random"		"Aleatorio"
+"NMRiH_CharSelect_Next"			"Siguiente"
+"NMRiH_CharSelect_Previous"		"Anterior"
+"NMRiH_CharSelect_VoicePreview"	"Vista Previa"
 
 "NMRiH_Options_Compass"			"Brújula"
 "NMRiH_Options_InventoryWeapons"	"Inventario de armas"
@@ -43,6 +46,7 @@
 "NMRiH_Options_ShowMOTD"		"Mostrar mensaje del dia"
 "NMRiH_Options_RecordDemo"		"Grabar demo"
 
+"NMRiH_Advanced_fov_desired"			"Campo de visión (75-110)"
 "NMRiH_Advanced_cl_textfilter"			"Activar filtro de texto en chat (provisto por Steam)"
 "NMRiH_Advanced_cl_richpresence"		"Activar detalles públicos de partida (Discord Rich Presence)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"Activar movimiento de cámara en primera persona"
@@ -65,6 +69,9 @@
 "NMRiH_Advanced_cl_mainmenu_background_0"		"Anniversary (v1.12)"
 "NMRiH_Advanced_cl_mainmenu_background_1"		"Greenlit (v1.07)"
 "NMRiH_Advanced_cl_mainmenu_background_2"		"Rebirth (v1.10)"
+"NMRiH_Advanced_cl_new_impact_effects_cheap"	"Calidad de efectos de impacto"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Alta, con escombros"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Baja, sin escombros"
 
 "NMRiH_Difficulty"	"Dificultad"
 
@@ -182,6 +189,11 @@
 "NMRiH_CreateGame_NATWarning3"		"Antes de comenzar, revisa que tu router esté redirigiendo el puerto UDP 27015 (port forwarding)."
 "NMRiH_CreateGame_NATWarning_DontShowAgain"		"No mostrar nuevamente"
 "NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"Abrir guía de hosteo..."
+
+"NMRiH_ScoreBoard_PlayerCount"	"Jugadores: %s1"
+
+"NMRiH_Select_Mutators"	"Seleccionar Mutadores"
+"NMRiH_Find_Mutators"	"Buscar más..."
 
 //============================
 //Add-on Manager
