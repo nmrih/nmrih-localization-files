@@ -38,6 +38,9 @@
 
 "NMRiH_BarricadePointBlocked"		"¡Punto de barricada bloqueado!"
 
+"NMRiH_LevelChanging"				"Cambiando nivel en %s1 segundos..."
+"NMRiH_LevelTransition_WaitingForPlayers"	"¡Alcanzado el final del mapa!\nTiempo restante: %s1 (%s2/%s3 jugadores)"
+
 "PracticeTimeRemaining"			"La ronda iniciará en %s1 segundos"
 "RoundStarting"				"¡Iniciando ronda!"
 
@@ -290,6 +293,7 @@
 "Suicide_fall"	"#PLAYER# se ha caído a su muerte."
 "Suicide_drowned"	"#PLAYER# se ha ahogado."
 "Suicide_nuke"        "#PLAYER# ha sido vaporizado."
+"Suicide_disconnect"	"#PLAYER# ha abandonado la partida."
 
 "DeathNotice_NPC_ShamblerZombie"	"Zombi"
 "DeathNotice_NPC_RunnerZombie"	"Zombi Corredor"
@@ -299,6 +303,15 @@
 "ChallengeTimer_PersonalBest"	"MEJOR TIEMPO"
 "ChallengeTimer_NoTime"	"NO HAY RECORD"
 "ChallengeTimer_NewRecord"	"¡NUEVO RECORD!"
+
+"ChallengeInvalid"	"¡Resultado de desafío invalidado!"
+"ChallengeReject_Cheats"	"Los trucos han sido activados (cheats)."
+"ChallengeReject_CvarChanged"	"Ha cambiado un comando de jugabilidad en el medio de la partida."
+"ChallengeReject_ModifiedRuleset"	"Modificada la dificultad / conjunto de reglas."
+"ChallengeReject_OutsideMapHack"	"Se ha cargado un script de MapHack personalizado."
+"ChallengeReject_OutsideVScript"	"Se ha iniciado un VScript personalizado."
+"ChallengeReject_LateValidate"	"La validación fue iniciada tarde."
+"ChallengeReject_GameStateCommand"	"Fue usado un comando de consola de estado de juego."
 
 "Hint_Generic_Compass" "¡Revisa tu brújula para ver tus objetivos! Presiona %+compass%."
 "Hint_Generic_CheckAmmo" "Puedes ver tu munición al mantener pulsada la tecla %+reload%."
