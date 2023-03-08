@@ -8,7 +8,7 @@
 	"nmo_fema_objective7"	"Usa il codice di Menglers per aprire il congelatore ad alta sicurezza"
 	"nmo_fema_objective8"	"Riattiva il relè radio"
 	"nmo_fema_objective9"	"Usa la radio per mandare un SOS"
-	"nmo_fema_objective10"	"Riproduci la voce del maestro Bub per aprire il congelatore ad alta sicurezza"
+	"nmo_fema_objective10"	"Fai sentire a Bub la voce del suo maestro per fargli aprire il congelatore"
 	"nmo_fema_objective11"	"Recupera il vaccino retrovirale"
 	"nmo_fema_objective12"	"Innesca le bombole di napalm"
 	"nmo_fema_objective13"	"Fuggi dal complesso prima della sterilizzazione"
