@@ -754,7 +754,7 @@
 		"FemaVoice.BillyGetIn"	"Forza, salite! Stiamo volando verso la terra promessa!"
 		"FemaVoice.BillyTopside"	"<len:1.8>Ciao? Pronto! <delay:2.1><len:3.3>Se riuscite ancora a sentirmi, salite a bordo così possiamo portarvi in salvo. <delay:5.7><len:4.1>Controllate l'armadietto nella nostra roulotte, ho nascosto un po' del vaccino che i nerd stavano sviluppando. <delay:9.9><len:2.6>Non possiamo essere troppo prudenti, prendetelo e muovetevi!"
 		"FemaVoice.MengelerOkayBob"	"<I>Ok Bub. Ora, premi l'interruttore."
-		"FemaVoice.MengelerThatsIt"	"<I>Ecco fatto Bub! Allora, puoi avere la tua ricompensa."
+		"FemaVoice.MengelerThatsIt"	"<I>Ecco fatto Bub! Ora puoi avere la tua ricompensa."
 		"FemaVoice.MengelerSayHello"	"<I>Saluta tua zia Alicia, Bub."
 		"FemaVoice.ColonelNatSec"	"<len:1.5>Qui è il colonnello Kazan, <delay:1.7><len:5.5>per una questione di sicurezza nazionale possiamo estrarvi, ma solo se il vaccino sperimentale viene recuperato. <delay:7.6><len:3>Abbiamo la vostra posizione e attendiamo la vostra risposta di sopra."
 		"FemaVoice.ColonelStow"	"<len:2.8>Qui è il colonnello Kazan dell'Agenzia di Sicurezza Nazionale, <delay:2.8><len:1.1>abbiamo il vostro segnale. <delay:3.9><len:2.5>Stoccate il vaccino e preparatevi a metterlo in sicurezza per l'evacuazione."
