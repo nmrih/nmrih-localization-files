@@ -24,8 +24,8 @@
 	"nmo_broadway2_ObjI_1"	"Porta una tanica di benzina all'ingresso posteriore del negozio"
 	"nmo_broadway2_ObjM_1"	"Trova una radio per chiedere aiuto"
 	"nmo_broadway2_ObjM_2"	"Torna in strada"
-	"nmo_broadway2_ObjE_1"	"Scendi nel buco per le fogne"
-	"nmo_broadway2_ObjO"	"Attraversa le fogne"
+	"nmo_broadway2_ObjE_1"	"Scendi dal buco e raggiungi le fogne"
+	"nmo_broadway2_ObjO"	"Passa per le fogne"
 	"nmo_broadway2_ObjQ"	"Vai al campo da basket"
 	"nmo_broadway2_ObjP"	"Usa il carro armato per entrare nel negozio"
 	"nmo_broadway2_ObjR"	"Salda il cancello e raggiungi il tetto per l'estrazione."
@@ -37,6 +37,6 @@
 	"nmo_broadway2_2min"	"2 minuti rimanenti alla detonazione."
 	"nmo_broadway2_1min"	"1 minuto rimanente alla detonazione."
 	"nmo_broadway2_30sec"	"30 secondi rimanenti alla detonazione."
-	"nmo_broadway2_getout"	"Vai via da qui!"
+	"nmo_broadway2_getout"	"Vattene da qui!"
 }
 }
