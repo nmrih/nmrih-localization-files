@@ -3,7 +3,7 @@
 "Language" "Italian" 
 "Tokens" 
 {
-	"nmo_quarantine_obj_gravesite"	"Trova una vanga e scava per trovare carburante nel cimitero improvvisato."
+	"nmo_quarantine_obj_gravesite"	"Trova una vanga e scava per trovare del carburante nel cimitero improvvisato."
 	"nmo_quarantine_obj_leavespawn"	"Scappa dal vicolo"
 	"nmo_quarantine_obj_fillup_generator_turn_on"	"Alimenta il generatore e accendilo"
 	"nmo_quarantine_obj_get_sewer_key"	"Trova la chiave per la stanza della manutenzione"
