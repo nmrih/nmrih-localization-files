@@ -700,7 +700,7 @@
 		"Heli.Arrival1min_NoAccent"	"<len:3.3>Qui è la Guardia Nazionale, siamo qui ma non potremo stare a lungo. <delay:3.5><len:1.3>Avete un minuto."
 		"Heli.Arrival1min_US"	"<len:3.7>Qui è la Guardia Nazionale, siamo atterrati ma non rimarremo a lungo. <delay:3.8><len:1.5>Avete un minuto."
 		"Heli.Departure_NoAccent"	"<len:2.5>D'accordo, dobbiamo andare, abbiamo quasi finito il carburante. <delay:3.1><len:1.9>Se è rimasto qualcuno in vita, <delay:5.2><len:1.1>buona fortuna."
-		"Heli.Departure_US"	"<len:2.2>Non dobbiamo andre, sei da solo! <delay:2.6><len:1.4>Mi dispiace!"
+		"Heli.Departure_US"	"<len:2.2>Noi dobbiamo andare, sei da solo! <delay:2.6><len:1.4>Mi dispiace!"
 		"GenericVoice.YouFoundIt"	"Che io sia maledetto, sembra che tu lo abbia trovato!"
 	
 		// Asylum
@@ -755,8 +755,8 @@
 		"FemaVoice.BillyTopside"	"<len:1.8>Ciao? Pronto! <delay:2.1><len:3.3>Se riuscite ancora a sentirmi, salite a bordo così possiamo portarvi in salvo. <delay:5.7><len:4.1>Controllate l'armadietto nella nostra roulotte, ho nascosto un po' del vaccino che i nerd stavano sviluppando. <delay:9.9><len:2.6>Non possiamo essere troppo prudenti, prendetelo e muovetevi!"
 		"FemaVoice.MengelerOkayBob"	"<I>Ok Bub. Ora, premi l'interruttore."
 		"FemaVoice.MengelerThatsIt"	"<I>Ecco fatto Bub! Ora puoi avere la tua ricompensa."
-		"FemaVoice.MengelerSayHello"	"<I>Saluta tua zia Alicia, Bub."
-		"FemaVoice.ColonelNatSec"	"<len:1.5>Qui è il colonnello Kazan, <delay:1.7><len:5.5>per una questione di sicurezza nazionale possiamo estrarvi, ma solo se il vaccino sperimentale viene recuperato. <delay:7.6><len:3>Abbiamo la vostra posizione e attendiamo la vostra risposta di sopra."
+		"FemaVoice.MengelerSayHello"	"<I>Saluta la zia Alicia, Bub."
+		"FemaVoice.ColonelNatSec"	"<len:1.5>Qui è il colonnello Kazan, <delay:1.7><len:5.5>possiamo estrarvi per questioni di sicurezza nazionale, ma solo se il vaccino sperimentale potrà essere recuperato. <delay:7.6><len:3>Abbiamo la vostra posizione e attendiamo la vostra risposta di sopra."
 		"FemaVoice.ColonelStow"	"<len:2.8>Qui è il colonnello Kazan dell'Agenzia di Sicurezza Nazionale, <delay:2.8><len:1.1>abbiamo il vostro segnale. <delay:3.9><len:2.5>Stoccate il vaccino e preparatevi a metterlo in sicurezza per l'evacuazione."
 		
 		// Midwest
@@ -768,8 +768,8 @@
 		
 		// Junction
 		"JunctionVoice.01"	"<len:2.8><I>[Tono di trasmissione d'emergenza] <delay:2.8><len:8.4><I>Il seguente messaggio viene trasmesso su richiesta del New Jersey Office of Emergency Management, Union City, New Jersey. <delay:11.2><len:8><I>Se siete ancora vivi, rimanete dove siete e aspettate i soccorsi. Viaggiare per le strade è estremamente pericoloso. <delay:19.4><len:5.9><I>Le seguenti contee sono state messe in quarantena: Union, Hudson e Monmouth. <delay:25.4><len:7><I>Se siete stati feriti o avete un'emergenza, mantenete la calma e restate dove siete fino a nuovo ordine. <delay:32.5><len:3.5><I>I veicoli di emergenza potrebbero non essere in grado di raggiungervi in questo momento. <delay:36><len:2.8><I>[Fine della trasmissione]"
-		"JunctionVoice.02"	"<len:4.7>È bello sentire la voce di qualcuno! Quindi, dopo tutto, c'è ancora qualcuno in città. <delay:4.9><len:6.3>Sono il soldato Jones del 42° e non so se lo sapete, ma il Lincoln Tunnel è la nostra unica via d'uscita dalla città. <delay:11.3><len:7.4>Stavamo per sigillarlo, ma una delle bombe che avevamo è esplosa prima del previsto. Gli esperti di demolizione rimasero uccisi e io fui ferito dall'esplosione. <delay:19><len:4.2>Sono riuscito a salire sul sedile del guidatore di uno dei camion, starò nascosto fino al vostro arrivo."
-		"JunctionVoice.03"	"<len:3.4>Non posso credere che ce l'abbiate fatta, stavo per partire! <delay:3.7><len:4.8>I tre esplosivi che vedete sono abbastanza potenti da sigillare definitivamente il tunnel e garantire la nostra fuga. <delay:8.8><len:2.2>Piantateli tutti sui pilastri e poi salite sul camion!"
+		"JunctionVoice.02"	"<len:4.7>È bello sentire la voce di qualcuno! Quindi, dopo tutto, c'è ancora qualcuno in città. <delay:4.9><len:6.3>Sono il soldato Jones del 42° e non so se lo sapete, ma il Lincoln Tunnel è la nostra unica via d'uscita dalla città. <delay:11.3><len:7.4>Stavamo per sigillarlo, ma una delle bombe che avevamo è esplosa prima del previsto. Gli esperti di demolizioni sono rimasti uccisi e io sono stato ferito dall'esplosione. <delay:19><len:4.2>Sono riuscito a salire sul sedile del guidatore di uno dei camion, starò nascosto fino al vostro arrivo."
+		"JunctionVoice.03"	"<len:3.4>Non posso credere che ce l'abbiate fatta, stavo per partire! <delay:3.7><len:4.8>I tre esplosivi che vedete sono abbastanza potenti da sigillare definitivamente il tunnel e garantire la nostra fuga. <delay:8.8><len:2.2>Piazzateli tutti sui pilastri e poi salite sul camion!"
 		"JunctionVoice.04"	"Ok, ora sbrigatevi! Non c'è molto tempo!"
 		"JunctionVoice.05"	"Andiamocene da qui, spero che siate a bordo!"
 		
@@ -793,7 +793,7 @@
 		"ToxtethVoice.SurvivorPhone4"	"<len:3.4>Ehi! Sono giorni che vi osservo con le telecamere a circuito chiuso. <delay:3.7><len:5.6>Dovete raggiungere il negozio che si trova dietro il cimitero, io sono bloccato qui e fuori ci sono zombie ovunque! <delay:9.9><len:3.4>Ho fatto una telefonata per portarci via da qui, ma dovete venire ad aiutarmi prima di poter partire. <delay:14.3><len:1.4>Non c'è tempo da perdere!"
 		
 		// Zephyr
-		"ZephyrVoice.Engineer04"	"Scusate ragazzi, ho perso la memoria. Potete per favore girare l'interruttore dietro di me in modo che io possa raggiungere la stazione, la carrozza e i vagoni?"
+		"ZephyrVoice.Engineer04"	"Scusate ragazzi, mi sono scordato. Potete per favore girare l'interruttore dietro di me in modo che io possa raggiungere la stazione, la carrozza e i vagoni?"
 		"ZephyrVoice.Engineer06"	"Va bene, c'è ancora un cambio da fare. Sc... Scusate ragazzi, avrei dovuto dirvelo prima, è un po' lontano... eheh."
 		"ZephyrVoice.Engineer07"	"Bene ragazzi, c'è un'ultima cosa da fare. Rilasciate i freni a mano sul cabotaggio, che a proposito è la carrozza verde dietro di me."
 		"ZephyrVoice.Engineer08"	"Sono pronto! Datemi il via e partiamo.."
