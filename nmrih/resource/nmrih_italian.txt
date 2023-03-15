@@ -147,7 +147,7 @@ l'espulsione."
 "Radial_ammo"				"Munizioni"
 
 "Weapon_bow_deerhunter"			"PSE Deer Hunter"
-"Weapon_exp_grenade"			"M67 Granata"
+"Weapon_exp_grenade"			"Granata M67"
 "Weapon_exp_molotov"			"Molotov"
 "Weapon_exp_tnt"			"TNT"
 "Weapon_fa_500a"			"Mossberg 500a"
