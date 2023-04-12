@@ -314,7 +314,7 @@
 "Workshop_Publisher"				"Публикация в Мастерской"
 "Workshop_Publisher_AddonForm"			"Бланк дополнения"
 "Workshop_Publisher_UpdateExisting"		"Обновление существующего дополнения"
-"Workshop_Publisher_UploadProgress"		"Загрузить дополнение в Мастерскую..."
+"Workshop_Publisher_UploadProgress"		"Загрузка дополнения в Мастерскую..."
 
 "Workshop_Publisher_TaskSelection"			"Выбрать действие:"
 "Workshop_Publisher_TaskSelection_UploadNew"		"Загрузить новое дополнение"
