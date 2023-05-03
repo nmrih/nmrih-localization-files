@@ -208,8 +208,8 @@
 "ammobox_556"			"5.56毫米步枪弹"
 "ammobox_762mm"			"7.62x39步枪弹"
 "ammobox_grenades"		"手榴弹"
-"ammobox_molotov"		"燃烧瓶"
-"ammobox_tnt"			"TNT"
+"ammobox_molotov"		"莫洛托夫燃烧瓶"
+"ammobox_tnt"			"TNT炸药"
 "ammobox_arrow"			"箭矢"
 "ammobox_fuel"			"燃料"
 "ammobox_board"			"木板"
@@ -283,7 +283,7 @@
 "ammobox_fuel_short"			"燃料"
 "ammobox_arrow_short"			"箭"
 "ammobox_board_short"			"木板"
-"ammobox_flare_short"			"燃烧弹"
+"ammobox_flare_short"			"信号弹"
 
 
 "Suicide_worldspawn"	"#PLAYER# 死了。"
