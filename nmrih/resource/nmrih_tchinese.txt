@@ -29,7 +29,7 @@
 
 "NMRiH_Chat_All_Extracted"	"(已疏散) %s1 ：  %s2"
 
-"NMRiH_Waiting_For_Spawn"	"等待重生地點..."
+"NMRiH_Waiting_For_Spawn"	"等待重生地點…"
 
 "NMRiH_Health_Supply_Blocked"	"醫療站遭阻擋"
 
@@ -38,7 +38,7 @@
 
 "NMRiH_BarricadePointBlocked"	"設置處遭阻擋！"
 
-"NMRiH_LevelChanging"	"關卡將在 %s1 秒後變更..."
+"NMRiH_LevelChanging"	"關卡將在 %s1 秒後變更…"
 "NMRiH_LevelTransition_WaitingForPlayers"	"抵達地圖終點！\n剩餘時間：%s1 (%s2/%s3 玩家)"
 
 "PracticeTimeRemaining"	"回合開始倒數 %s1"
@@ -133,7 +133,7 @@
 
 "Respawn_Minutes"	"%s1 分鐘後復活"
 "Respawn_Seconds"	"%s1 秒後復活"
-"Respawn_Now"		"重生中..."
+"Respawn_Now"		"重生中…"
 
 "Survival_Round_Lost"	"你沒能倖存"
 
