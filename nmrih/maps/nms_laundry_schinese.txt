@@ -10,5 +10,6 @@
 	"nms_laundry_cutrope1"	"将绳子切断！"
 	"nms_laundry_cutrope2"	"将绳子切断！"
 	"nms_laundry_mine"	"小心地雷！"
+	"nms_laundry_et"	"为陷阱寻找燃料！"
 }
 }
