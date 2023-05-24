@@ -10,5 +10,6 @@
 	"nms_laundry_cutrope1"	"Cut the rope!"
 	"nms_laundry_cutrope2"	"Cut the rope!"
 	"nms_laundry_mine"	"Be careful with the mines!"
+	"nms_laundry_et"	"Find fuel for the trap!"
 }
 }

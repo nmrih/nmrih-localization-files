@@ -10,5 +10,6 @@
 	"nms_laundry_cutrope1"	"Перережьте верёвку!"
 	"nms_laundry_cutrope2"	"Перережьте верёвку!"
 	"nms_laundry_mine"	"Будьте осторожны с минами!"
+	"nms_laundry_et"	"Найдите топливо для ловушки!"
 }
 }
