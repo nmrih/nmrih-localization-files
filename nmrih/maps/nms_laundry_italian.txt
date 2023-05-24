@@ -3,12 +3,13 @@
 "Language" "Italian" 
 "Tokens" 
 {
-	"nms_laundry_hinta"	"Non lasciare che gli zombi invadano l'area sicura!"
-	"nms_laundry_hintb"	"Abbiamo perso il segnale radio, non ricevermo più rifornimenti!"
+	"nms_laundry_hinta"	"Impedisci che gli zombi invadano quest'area sicura!"
+	"nms_laundry_hintb"	"Abbiamo perso il segnale radio, non arriveranno più rifornimenti!"
 	"nms_laundry_losea"	"Abbiamo perso un van per la fuga..."
 	"nms_laundry_pushcar"	"Spingi la macchina!"
 	"nms_laundry_cutrope1"	"Taglia la fune!"
 	"nms_laundry_cutrope2"	"Taglia la fune!"
 	"nms_laundry_mine"	"Attenzione alle mine!"
+	"nms_laundry_et"	"Trova del carburante per la trappola!"
 }
 }
