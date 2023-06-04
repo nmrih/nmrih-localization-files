@@ -752,7 +752,7 @@
 		"FemaVoice.BillyComplex"	"<len:4.2>Este sinal está vindo do complexo? A instalação inteira se foi! <delay:4.6><len:3.9>O que quer que os cabeças de ovo tenham feito, matou todos antes que pudessem acionar o protocolo de contenção. <delay:9><len:3.7>Você precisa terminar o trabalho e parar tudo o que eles não tiraram de lá!"
 		"FemaVoice.BillyFuel"	"<len:2.8>Podemos colocá-lo em segurança, mas estamos com pouco combustível! <delay:2.9><len:2.6>Precisamos encher antes de sairmos daqui."
 		"FemaVoice.BillyGetIn"	"Venha e entre! Estamos voando para a terra prometida!"
-		"FemaVoice.BillyTopside"	"Olá? Olá! Se você ainda pode me ouvir, suba para que possamos colocá-lo em segurança. Verifique o armário em nosso trailer, escondi um pouco da vacina que os cabeças de ovo estavam desenvolvendo. Não podemos ter muito cuidado, agarre-o e comece a andar!"
+		"FemaVoice.BillyTopside"	"Olá? Olá! Se você ainda pode me ouvir, suba para que possamos colocá-lo em segurança. Verifique o armário em nosso trailer, escondi um pouco da vacina que os cabeças de ovo estavam desenvolvendo. Não podemos ter muito cuidado, pegue-o e comece a andar!"
 		"FemaVoice.MengelerOkayBob"	"<I>Ok Bub. Agora, vire o interruptor."
 		"FemaVoice.MengelerThatsIt"	"<I>É isso, Bub! Então, você pode ter sua recompensa."
 		"FemaVoice.MengelerSayHello"	"<I>Diga olá para sua tia Alicia, Bub."
