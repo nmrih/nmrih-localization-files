@@ -10,5 +10,6 @@
 	"nms_laundry_cutrope1"	"Corte a corda!"
 	"nms_laundry_cutrope2"	"Corte a corda!"
 	"nms_laundry_mine"	"Cuidado com as minas!"
+	"nms_laundry_et"	"Encontre combustível para a armadilha!"
 }
 }
