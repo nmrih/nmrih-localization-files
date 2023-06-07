@@ -1,0 +1,9 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nms_drugstore_mes1"	"Encontre 2 tábuas compensadas perto de sinalizadores vermelhos para fazer uma barricada nesta janela."
+	"nms_drugstore_mes2"	"Agora você pode usar o martelo de barricada na janela destruída."
+}
+}
