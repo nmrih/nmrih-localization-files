@@ -263,13 +263,13 @@
 "ammobox_flare_short"			"Světlice"
 
 
-"Suicide_worldspawn"	"#PLAYER# zemřel."
-"Suicide_player"	"#PLAYER# spáchal sebevraždu."
-"Suicide_infection"	"#PLAYER# zemřel na infekci."
-"Suicide_bleed"	"#PLAYER# vykrvácel."
-"Suicide_fall"	"#PLAYER# spadl z velké výšky."
-"Suicide_drowned"	"#PLAYER# se utopil."
-"Suicide_nuke"	"#PLAYER# nepřežil bombardování atomovou bombou."
+"Suicide_worldspawn"	"%s1 zemřel."
+"Suicide_player"	"%s1 spáchal sebevraždu."
+"Suicide_infection"	"%s1 zemřel na infekci."
+"Suicide_bleed"	"%s1 vykrvácel."
+"Suicide_fall"	"%s1 spadl z velké výšky."
+"Suicide_drowned"	"%s1 se utopil."
+"Suicide_nuke"	"%s1 nepřežil bombardování atomovou bombou."
 
 "DeathNotice_NPC_ShamblerZombie"	"Zombie"
 "DeathNotice_NPC_RunnerZombie"	"Zombie Běžec"

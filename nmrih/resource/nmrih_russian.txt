@@ -286,14 +286,14 @@
 "ammobox_flare_short"			"Ракеты"
 
 
-"Suicide_worldspawn"			"#PLAYER# погиб."
-"Suicide_player"			"#PLAYER# совершает самоубийство."
-"Suicide_infection"			"#PLAYER# умирает от заражения."
-"Suicide_bleed"				"#PLAYER# умирает от кровотечения."
-"Suicide_fall"				"#PLAYER# разбился."
-"Suicide_drowned"			"#PLAYER# утонул."
-"Suicide_nuke"				"#PLAYER# погибает от ядерного взрыва."
-"Suicide_disconnect"	"#PLAYER# покинул игру."
+"Suicide_worldspawn"			"%s1 погиб."
+"Suicide_player"			"%s1 совершает самоубийство."
+"Suicide_infection"			"%s1 умирает от заражения."
+"Suicide_bleed"				"%s1 умирает от кровотечения."
+"Suicide_fall"				"%s1 разбился."
+"Suicide_drowned"			"%s1 утонул."
+"Suicide_nuke"				"%s1 погибает от ядерного взрыва."
+"Suicide_disconnect"	"%s1 покинул игру."
 
 "DeathNotice_NPC_ShamblerZombie"	"Зомби"
 "DeathNotice_NPC_RunnerZombie"		"Бегущий зомби"

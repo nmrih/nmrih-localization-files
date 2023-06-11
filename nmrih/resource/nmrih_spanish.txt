@@ -286,14 +286,14 @@
 "ammobox_flare_short"			"Bengalas"
 
 
-"Suicide_worldspawn"	"#PLAYER# ha muerto."
-"Suicide_player"	"#PLAYER# se ha suicidado."
-"Suicide_infection"	"#PLAYER# ha muerto por la infección."
-"Suicide_bleed"	"#PLAYER# se ha desangrado."
-"Suicide_fall"	"#PLAYER# se ha caído a su muerte."
-"Suicide_drowned"	"#PLAYER# se ha ahogado."
-"Suicide_nuke"        "#PLAYER# ha sido vaporizado."
-"Suicide_disconnect"	"#PLAYER# ha abandonado la partida."
+"Suicide_worldspawn"	"%s1 ha muerto."
+"Suicide_player"	"%s1 se ha suicidado."
+"Suicide_infection"	"%s1 ha muerto por la infección."
+"Suicide_bleed"	"%s1 se ha desangrado."
+"Suicide_fall"	"%s1 se ha caído a su muerte."
+"Suicide_drowned"	"%s1 se ha ahogado."
+"Suicide_nuke"        "%s1 ha sido vaporizado."
+"Suicide_disconnect"	"%s1 ha abandonado la partida."
 
 "DeathNotice_NPC_ShamblerZombie"	"Zombi"
 "DeathNotice_NPC_RunnerZombie"	"Zombi Corredor"

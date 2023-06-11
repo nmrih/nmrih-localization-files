@@ -286,14 +286,14 @@
 "ammobox_flare_short"			"Flares"
 
 
-"Suicide_worldspawn"	"#PLAYER# morreu."
-"Suicide_player"	"#PLAYER# cometeu suicídio."
-"Suicide_infection"	"#PLAYER# morreu de infecção."
-"Suicide_bleed"	"#PLAYER# sangrou até a morte."
-"Suicide_fall"	"#PLAYER# caiu e morreu."
-"Suicide_drowned"	"#PLAYER# se afogou."
-"Suicide_nuke"	"#PLAYER# foi bombardeado."
-"Suicide_disconnect"	"#PLAYER# saiu do jogo."
+"Suicide_worldspawn"	"%s1 morreu."
+"Suicide_player"	"%s1 cometeu suicídio."
+"Suicide_infection"	"%s1 morreu de infecção."
+"Suicide_bleed"	"%s1 sangrou até a morte."
+"Suicide_fall"	"%s1 caiu e morreu."
+"Suicide_drowned"	"%s1 se afogou."
+"Suicide_nuke"	"%s1 foi bombardeado."
+"Suicide_disconnect"	"%s1 saiu do jogo."
 
 "DeathNotice_NPC_ShamblerZombie"	"Zumbi"
 "DeathNotice_NPC_RunnerZombie"	"Zumbi Corredor"
