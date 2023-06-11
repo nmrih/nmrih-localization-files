@@ -195,6 +195,11 @@
 "NMRiH_Select_Mutators"	"Select Mutators"
 "NMRiH_Find_Mutators"	"Find more..."
 
+"NMRiH_DeckCompatibility_Title"	"Steam Deck Compatibility"
+"NMRiH_DeckCompatibility_Message1"	"It appears you're playing on Steam Deck."
+"NMRiH_DeckCompatibility_Message2"	"Linux native runtime is untested and may be unstable."
+"NMRiH_DeckCompatibility_Message3"	"It's recommended to use Steam Play (Proton) for maximum compatibility."
+
 //============================
 //Add-on Manager
 //============================
