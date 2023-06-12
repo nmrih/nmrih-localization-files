@@ -147,11 +147,11 @@
 "NMRIH_vote_no_maps"	"無可用地圖。"
 
 "Vote_kick"		"踢除玩家"
-"Vote_changelevel"	"更改關卡"
+"Vote_changelevel"	"更換關卡"
 "Vote_nextlevel"	"下一道關卡"
 "Vote_restart"		"回合重啟"
-"Vote_changechallenge"	"更改挑戰"
-"Vote_changedifficulty"	"更改難易度"
+"Vote_changechallenge"	"更換挑戰"
+"Vote_changedifficulty"	"更換難易度"
 
 "NMRiH_Vote_Kick_Player_Other"		"踢除玩家 %s1？\n(無提出理由)"
 "NMRiH_Vote_Kick_Player_Cheating"	"踢除玩家 %s1？\n(遭控作弊)"
@@ -160,11 +160,11 @@
 "NMRiH_Vote_Kick_Player"		"踢除玩家 %s1？"
 "NMRiH_Vote_Passed_Kick_Player"		"正在踢除玩家： %s1…"
 
-"NMRiH_Vote_ChangeLevel"	"更改關卡至 %s1？"
+"NMRiH_Vote_ChangeLevel"	"更換關卡至 %s1？"
 "NMRiH_Vote_NextLevel"		"設定下一道關卡為 %s1？"
 "NMRiH_Vote_RestartRound"	"回合重啟？"
-"NMRiH_Vote_ChangeChallenge"	"更改挑戰至 %s1？"
-"NMRiH_Vote_ChangeDifficulty"	"更改難易度至 %s1?"
+"NMRiH_Vote_ChangeChallenge"	"更換挑戰至 %s1？"
+"NMRiH_Vote_ChangeDifficulty"	"更換難易度至 %s1?"
 
 "NMRiH_Scoreboard_MutePlayer"		"靜音玩家"
 "NMRiH_Scoreboard_ViewSteamProfile"	"檢視 Steam 個人資料"
@@ -195,6 +195,11 @@
 "NMRiH_Select_Mutators"	"選擇調整器"
 "NMRiH_Find_Mutators"	"尋找更多…"
 
+"NMRiH_DeckCompatibility_Title"	"Steam Deck 相容性"
+"NMRiH_DeckCompatibility_Message1"	"您似乎正在於 Steam Deck 進行遊戲。"
+"NMRiH_DeckCompatibility_Message2"	"Linux native runtime 未經測試可能不穩定。"
+"NMRiH_DeckCompatibility_Message3"	"建議使用 Steam Play (Proton) 以獲得最大相容性。"
+
 //============================
 //Add-on Manager
 //============================
@@ -209,14 +214,14 @@
 "Addon_Manager_Refresh"		"重新整理"
 "Addon_Manager_OpenInWorkshop"	"於 Steam 工作坊開啟…"
 "Addon_Manager_BrowseAddons"	"瀏覽插件…"
-"Addon_Manager_ApplyChanges"	"應用更改"
+"Addon_Manager_ApplyChanges"	"套用變更"
 "Addon_Manager_InvalidAddon"	"此插件不相容。"
 "Addon_Manager_MultiSelect"	"[%s1 已選擇]"
 
 "Addon_Manager_DropMenu_Disable"		"停用"
 "Addon_Manager_DropMenu_ShowInfo"		"顯示資訊"
 "Addon_Manager_DropMenu_OpenInWorkshop"		"於工作坊開啟…"
-"Addon_Manager_DropMenu_ViewChangeNotes"	"檢視更改註記…"
+"Addon_Manager_DropMenu_ViewChangeNotes"	"檢視變更註記…"
 "Addon_Manager_DropMenu_Uninstall"		"解除安裝"
 "Addon_Manager_DropMenu_Unsubscribe"		"停止訂閱"
 "Addon_Manager_DropMenu_PackToVPK"		"包裝成 VPK…"
@@ -227,7 +232,7 @@
 "Addon_Manager_DropMenu_PrintAddonInfo"		"於控制台顯示插件資訊"
 
 "Addon_Manager_DropMenu_MultiSelectEnable"	"啟用選取"
-"Addon_Manager_DropMenu_MultiSelectDisable"	"提用選取"
+"Addon_Manager_DropMenu_MultiSelectDisable"	"停用選取"
 "Addon_Manager_DropMenu_MultiSelectUninstall"	"解除安裝選取"
 
 "Addon_Manager_Category_All"		"所有"
@@ -269,7 +274,7 @@
 "Addon_Manager_MultiSelectUninstall_Message"	"%s1 件選擇的插件將被解除安裝/停止訂閱，是否確定？"
 
 "Addon_Manager_SubscribedAddon"		"插件管理偵測到您訂閱了新的插件。"
-"Addon_Manager_ApplyChangesDialog"	"您是否要應用更改？遊戲將會重新啟動。"
+"Addon_Manager_ApplyChangesDialog"	"您是否要套用變更？遊戲將會重新啟動。"
 
 "Addon_Manager_AdvancedPanel"		"進階"
 "Addon_Manager_Advanced_ImportCfg"		"匯入插件配置…"
@@ -280,7 +285,7 @@
 "Addon_Manager_ImportCfg"	"匯入插件配置"
 "Addon_Manager_ExportCfg"	"匯出插件配置"
 "Addon_Manager_CfgFileType"	"插件配置 (.txt)"
-"Addon_Manager_ImportCfgSuccess"	"插件配置匯入成功，重新啟動遊戲來應用更改。"
+"Addon_Manager_ImportCfgSuccess"	"插件配置匯入成功，重新啟動遊戲來套用變更。"
 "Addon_Manager_ExportCfgSuccess"	"插件配置匯出成功。"
 "Addon_Manager_FailedToImportCfg"	"插件配置匯入失敗。此檔案無法使用。"
 
@@ -290,7 +295,7 @@
 "Addon_Manager_ConfigReset_Confirm"	"所有設定將遺失，是否確定要繼續？"
 
 "Addon_Manager_ConfigReset_Title"	"設定重設"
-"Addon_Manager_ConfigReset_Message"	"插件設定已被重設。重新開始遊戲以應用更改。"
+"Addon_Manager_ConfigReset_Message"	"插件設定已被重設。重新開始遊戲以套用變更。"
 
 "Addon_Manager_MapDownloadFailed"	"於工作坊下載地圖失敗！(錯誤代碼：%s1)"
 
@@ -326,7 +331,7 @@
 "Workshop_Publisher_AddonForm_Title"		"標題：*"
 "Workshop_Publisher_AddonForm_Desc"		"描述："
 "Workshop_Publisher_AddonForm_Summary"		"簡述："
-"Workshop_Publisher_AddonForm_ChangeNotes"	"更改註記："
+"Workshop_Publisher_AddonForm_ChangeNotes"	"變更註記："
 "Workshop_Publisher_AddonForm_ContentPath"	"內容路徑：*"
 "Workshop_Publisher_AddonForm_PreviewImage"	"預覽影像：*"
 "Workshop_Publisher_AddonForm_Category"		"類別："
@@ -369,8 +374,8 @@
 
 "Workshop_Publisher_OpenInWorkshop"	"於工作坊開啟…"
 
-"Workshop_Publisher_ConfirmClose"	"有未發布的更動，是否要關閉？"
-"Workshop_Publisher_ConfirmClear"	"有未發布的更動，是否要清除格式？"
+"Workshop_Publisher_ConfirmClose"	"有未發布的變更，是否要關閉？"
+"Workshop_Publisher_ConfirmClear"	"有未發布的變更，是否要清除格式？"
 
 "Workshop_Publisher_Status_StartingUp"			"啟動中…"
 "Workshop_Publisher_Status_PreparingConfig"		"準備配置中…"
@@ -378,7 +383,7 @@
 "Workshop_Publisher_Status_StartingContentUpload"	"內容上傳開始中…"
 "Workshop_Publisher_Status_UploadingContent"		"上傳內容中… (%s1/%s2)"
 "Workshop_Publisher_Status_UploadingPreviewFile"	"上傳預覽檔案中…"
-"Workshop_Publisher_Status_CommittingChanges"		"進行更改中…"
+"Workshop_Publisher_Status_CommittingChanges"		"進行變更中…"
 "Workshop_Publisher_Status_Finished"			"上傳完畢。"
 
 "Workshop_Publisher_VPK_PackDir"	"將路徑包裝成 VPK"
