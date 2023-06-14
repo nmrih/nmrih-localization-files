@@ -195,6 +195,11 @@
 "NMRiH_Select_Mutators"	"Выбрать модификатор"
 "NMRiH_Find_Mutators"	"Найти ещё..."
 
+"NMRiH_DeckCompatibility_Title"	"Совместимость со Steam Deck"
+"NMRiH_DeckCompatibility_Message1"	"Похоже, вы играете на Steam Deck."
+"NMRiH_DeckCompatibility_Message2"	"Родная среда выполнения Linux не проверена и может быть нестабильной."
+"NMRiH_DeckCompatibility_Message3"	"Для максимальной совместимости рекомендуется использовать Steam Play (Proton)."
+
 //============================
 //Add-on Manager
 //============================
