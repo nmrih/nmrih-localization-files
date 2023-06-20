@@ -286,14 +286,14 @@
 "ammobox_flare_short"		"信號彈"
 
 
-"Suicide_worldspawn"	"#PLAYER# 死亡。"
-"Suicide_player"	"#PLAYER# 自盡而亡。"
-"Suicide_infection"	"#PLAYER# 死於感染。"
-"Suicide_bleed"		"#PLAYER# 失血致死。"
-"Suicide_fall"		"#PLAYER# 死於墜落。"
-"Suicide_drowned"	"#PLAYER# 遭到溺斃。"
-"Suicide_nuke"		"#PLAYER# 死於核爆。"
-"Suicide_disconnect"	"#PLAYER# 離開遊戲。"
+"Suicide_worldspawn"	"%s1 死亡。"
+"Suicide_player"	"%s1 自盡而亡。"
+"Suicide_infection"	"%s1 死於感染。"
+"Suicide_bleed"		"%s1 失血致死。"
+"Suicide_fall"		"%s1 死於墜落。"
+"Suicide_drowned"	"%s1 遭到溺斃。"
+"Suicide_nuke"		"%s1 死於核爆。"
+"Suicide_disconnect"	"%s1 離開遊戲。"
 
 "DeathNotice_NPC_ShamblerZombie"	"殭屍"
 "DeathNotice_NPC_RunnerZombie"		"奔跑殭屍"
