@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">[img]{STEAM_CLAN_IMAGE}/4458555/2709c86b52ba089c3dad345fccba0133190b8373.png[/img]
+
+[previewyoutube=AxVKaCgfyWs;full][/previewyoutube]
+Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automatiquement appliquée lorsque vous redémarrerez No More Room in Hell. Les changements majeurs incluent :
+
+[h1]Nouvelles Cartes[/h1]
+[h3]Asylum [Objectif] (par DrHammer)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/538e4ea189370be93f7ecb75b6c44232bcd8e22d.png[/img]
+
+[i]Monstres, Musique et Plus encore. Quelle meilleure manière de paser Halloween qu'en errant à travers un ancien asile ? Ammenez vos amis et faites la fête sur la toute dernière carte à objectif Asylum. Quelles horreures vous sont donc réservées dans cet épave du festival d'Hell-o-ween Hellapalooza de Grimwood ? Il n'y a qu'une seule manière de le savoir. Alors enfilez vos déguisements, bourrez-vous l'estomac de bonbons, et étudiez bien vos rituels occultes, parce que vous partez pour un bon moment d'enfer ![/i]
+
+[h3]Laundry [Survie] (par Atheist, carte originale par Payne, Sotapoika)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/06001879bde56347d26f4b6892da69c42bba8552.png[/img]
+
+[i]C'est quoi ça ? Tous ces bonbons ont fondu et taché votre nouveau déguisement, et il ne se nettoie qu'à sec !? Eh bien, dans ce cas, vous feriez mieux de passer par la Blanchisserie et de nettoyer ces jolies fibres nickel-chrome ! Ouverte désormais 24h/24 et 7j/7 ![/i]
+
+[h2]Ajours[/h2]
+[list]
+[*]Ajour de la cvar "sv_kill_player_on_disconnect", qui tue un joueur qui se déconnecte avant qu'ils ne quitte le serveur
+
+[*]Ajout de modificateur de jeux pour le jeu local et en ligne, appelés "mutateurs":
+
+[list]
+[*]Ajouté la cvar "sv_mutators", liste des mutateurs persistants avec ',' comme délimitateur
+[*]Ajout d'un sélecteur de mutateur dans le menu de création de partie
+[*]Pour ajouter de nouveaux mutateurs, allez dans le dossier "nmrih/rulesets/mutators" et créez de nouveaux scripts, des exemples sont inclus
+[/list]
+
+[*]Ajout d'une compensation du lag pour les coups en mêlée
+[*]Ajout de succès de complétion de carte pour nmo_asylum ([i]Asile[/i]) et nms_laundry ([i]La Blanchisserie[/i])
+[*]Ajout de nouveaux icônes de message de mort pour de multiples morts auto-infligées (chute, noyade, infection, etc.)
+[*]Ajout d'une option pour des effets d'impact peu coûteux
+[*]Ajout d'un support pour les effets d'ambiance 3D utilisant le système de son FMOD
+[*]Ajout d'un support pour les localisations spécifiques à chaque carte
+[/list]
+[h2]Changements[/h2]
+[list]
+[*]Les restrictions de vote pour tous les spectateurs (y compris les joueurs morts) sont désormais controlées par la cvar "sv_vote_allow_spectators", "sv_vote_allow_dead_call_vote" a donc été retirée puisque redondante
+[*]L'abordage de barricade est désormais audible par les autres joueurs
+[*]Les écrans de chargement par défaut n'int désormais plus de texture de clavier
+[*]Forçage du temps de maintient pour les caméras d'extraction pour éviter qu'elles ne partent trop tôt
+[*]Les joueurs infectés ne prennent plus de dommages alliés lorsqu'ils sont attrappés (#1324)
+[*]Les joueurs infectés qui se déconnecteront laisseront désormais un zombie transformé (#1063)
+[*]Les sous-titres des longs dialogues ont été découpés en segments (pour le moment dans un ensemble limités de langues)
+[*]Les tracés de mêlée ne causent désormais plus de dommages alliés si le joueur frappé a été attrappé durant le coup
+[*]Les coups en mêlée et les poussages sont désormais audibles par les autres joueurs (#1333)
+[*]Lors de la mort, la canéra regarde désormais au-dessus de la ragdoll et non plus à travers elle
+[*]Les joueurs ne sont plus immobilisés lors de l'extraction
+[*]Les joueurs ne peuvent plus ramasser de grenades en plein air jusqu'à ce que le projectile n'atterrisse on ne rebondisse
+[*]Correction pour que la roue de selection des armes ne permette plus la selection après un clic droit, pour éviter de relâcher un autre type de munition par erreur
+
+[*]Modifications du tableau de score:
+[list]
+
+[*]Changement de police
+[*]Affiche désormais le nombre de joueurs
+[*]Désormais, c'est le clic droit et non plus le gauche qui permettra d'afficher le curseur
+[/list]
+
+[*]Le serveur passe désormais parfois des images d'animation des PNJ pour améliorer les performances
+
+[*]Changements du Workshop côté serveur:
+[list]
+
+[*]Ajout des commandes "workshop_remove_all", qui retire toutes les cartes de la liste
+[*]Les messages d'erreur sont maintenant moins vagues
+[*]Affiche désormais le progrès des téléchargements
+[/list]
+
+[*]Les grenades lancées passent désormais à travers les joeurs quand le tir allié est désactivé
+
+[*]Mise à jour des fichiers de localisation:
+[list]
+
+[*]Merci aux traducteurs de la communauté : Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta
+[*]Vous souhaitez localiser NMRiH dans votre propre langue ? [url=https://github.com/nmrih/nmrih-localization-files]Visitez notre dépôt de localisation sur GitHub.[/url]
+[/list]
+[/list]
+[h2]Corrections[/h2]
+[list]
+[*]Correction du saignement qui ne s'arrêtait pas après l'extraction
+[*]Correction des défis, qui étaient invalidés s'ils n'étaient pas localisés
+[*]Correction des résultats de défis, qui affichaient un nom des cartes précédentes quand les objectifs aléatoires étaient activés
+[*]Correction des chaînes de caractères "Suivant / Précédent / Aperçu" pour la sélection de personnages, qui n'étaient pas localisables
+[*]Correction des rampants qui ne prenaient pas de tir fatal à la tête en mode réalisme (#1317)
+[*]Correction de la vélocité actuelle qui n'était pas appliquée aux ragdoll des joueurs lors de leurs morts
+[*]Correction d'une duplication des sons de viewmodel lorsqu'en observation à la première personne
+[*]Correction d'une impulsion d'angle extrême lors du lancer de grenades
+[*]Correction des "Objets difficiles à récupérer sur les déclencheurs de progrès d'armes" (#1328)
+[*]Correction d'une "Erreur de KeyValues si la description d'un addon contient des caractères reservés" (#1318)
+[*]Correction d'une erreur faisant que "Le résumé d'objectif prends la priorité sur le résumé d'inventaire" (#1338)
+[*]Correction de "Problèmes de performances causés par les débris de tir/troncçonneuse" (#1291)
+[*]Correction d'un bug faisant que "Des joueurs peuvent pirater un processur de déclencheurs en cours" (#1326)
+[*]Correction d'un bug faisant que "Des joueurs qui rejoignent la partie tard ne reçoivent pas l'objectif en cours" (#1329)
+[*]Correction d'un bug rare faisant que l'UI des caisses de ravitaillement ne se referme pas
+[*]Correction de la réapparition et du minuteur de départ de round, qui affichaient éronément "0 secondes" restantes
+[*]Correction de faux positifs dans la validation des ensembles de règles
+[*]Correction d'un bug faisant que "La bayonette du SKS touche boîte de collision des zombie" (#913)
+[*]Correction du fait que les spectateurs ne pouvaient pas créer de votes
+[*]Correction des zombies transformés, qui perdaient parfois leurs boîtes de collisions
+[*]Correction de l'IA des zombies, qui cherchaient parfois éronnément une couverture après avoir échoué à chasser un ennemi
+[*]Correction des "Zombies restant immobilisés pendant trop longtemps après une caméra d'extraction" (#1325)
+[/list]
+[h2]Changements pour les mappeurs et les modeurs[/h2]
+[list]
+[*]Ajout de la commande "ruleset_include", fusionannt un nouvel ensemble de règle avec celui actif, remplace les valeurs quand c'est possible
+[*]Ajout de l'entité "ambient_fmod" : Cette entité fonctionne comme "ambient_generic", mais utilise le système de son FMOD pour se jouer, par exemple pour utiliser plusieurs autres formats de son (comme les .ogg)
+[*]Ajout d'une fonctionnalité pour "inclure" des ensembles de règles, créée pour les mutateurs de gameplay
+[*]Ajout d'une surcharge de densité d'apparition définie par carte pour "func_zombie_spawn", pour corriger un bug la réinitialisant au départ d'un round
+[*]Ajout d'un support opt-in pour la surcharge du temps d'aperçu d'extraction avec le temps de maintien de caméra (#1323)
+[*]Ajout d'un usermessage "ObjectiveUpdate" pour mettre à jour le texte d'un objectif sans forcer une notification
+[*]Ajout d'un usermessage "MovePointMessage", qui déplace un point_message sans mettre à jour d'autre propriété, prends un index et un vecteur de coordonnées en entrée
+[*]Modification de la texture "defaultcubemap.vtf"
+[*]L'entité "point_message_multiplayer" suis désormais un mouvement de parent (#1316)
+[*]Correction de l'entrée de "BecomeCrawler" qui ne fonctionnait pas correctement sur les zombies coureurs
+[*]Correction de l'entrée de "BecomeCrawler" qui transformait les enfants zombies en rampants
+[*]Correction de "mouseclickimage" qui ne fontionnait pas avec les anciens boutons du menu principal
+[*]Restauré et réparé le modèle manquant "hand_truck" qui brisait la compatibilité avec certaines cartes personalisées
+[*]Les entités serveur-only peuvent désormais avoir des mouvements parents
+
+[*]VScript:
+[list]
+
+[*]Ajout de CNMRiH_BaseZombie::IsKid()
+[*]Correction des valeurs de "activator", "caller", etc. qui ne fonctionnaient pas avec RunScriptCode et les entrées liées
+[*]Correction des crochets FireBullets() et ModifyEmitSoundParams() de CBaseEntity, qui ne fonctionnaient pas
+[*]Correction du fait que CBasePlayer ne dérivait pas de CInfectableCharacter
+[*]Correction d'un crash qui survenait si ObjectiveManager.StartNextObjective() était appelé pendant l'échauffement
+[/list]
+[/list]
+[h1]Cartes[/h1]
+
+[h3]Toutes les cartes:[/h3]
+[list]
+[*]Ajout de plus de pastèques
+[*]Compression des fichiers pak pour réduire la taille d'installation
+[*]Remplacement des textes de jeu par des "indices instructeurs"
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]Les étincelles sur la porte s'éteignent désormais quand l'utilisation du fer à souder s'arrête
+[/list]
+[h3]nmo_brooklyn[/h3]
+[list]
+[*]Ajout de sons pour le feu extinguible sur la rue
+[*]Changement du comportement des collisions pour la pastèque
+[*]Le feu extinguible sur la rue occasionne désormais des dégâts aux zombies
+[*]Correction du hurt_trigger du van déjà activé dans le garage
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Amélioration des collisions
+[/list]
+[h3]nmo_junction[/h3]
+[list]
+[*]Ajout d'un délai pour l'explosion du propane
+[*]Les étincelles sur la porte s'éteignent désormais quand l'utilisation du fer à souder s'arrête
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]Ajout d'un délai pour l'explosion du propane
+[*]L'hélicoptère ne tue plus instantanément les joueurs
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Correction du paysage sonore de la rue
+[*]Correction de l'hélicoptère d'extraction, qui n'avait pas de son (#1330)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Correction de quelques objets d'objectifs qui pouvaient se bloquer dans certains endroits près du point d'apparition
+[*]Correction d'un camion de pompiers qui ne produisait pas d'ombre
+[*]Correction de plusieurs endroits où les objets d'objectif pouvaient se retrouver bloquer
+[*]Correction de quelques pincequx et accessoires volants
+[*]Retrait des collisions de certains petits accessoires
+[*]Retraitr d'un colis de réapprovisionnement inutilisable
+[*]Retravail de l'échappée en van
+[*]Modification des clip brushes
+[*]Mise à jour des scripts MapHack pour qu'ils fonctionnent avec les nouveaux .bsp
+[*]Multiples petites modifications
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Ajout de quelques "indices instructeurs"
+[*]Ajout de nouveaux objectifs entre le lever et le tout dernier
+[*]Amélioration des collisions
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Correction de points d'invincibilité derrière le coumptoir et les portes d'évacuation de la dernière zone
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Ajout de plus de lumières dans le motel
+[*]Ajout de plus de points d'apparition pour le fer à souder
+[*]Modification de la boucle sonore la zone souterraine
+[*]Le feu ne tue désormais plus instantanément les joueurs (seulement s'ils essaient de continuer à travers lui)
+[*]Modifications des collisions et de la navigation
+[/list]
+[h3]nmo_zephyr[/h3]
+[list]
+[*]Correction de reflets irréalistes pour la saleté dans les égoûts
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Ajourt d'un hurt_trigger pour le train
+[/list]
+[h3]nms_campblood[/h3]
+[list]
+[*]Ré-ajout de l'apparition des joueurs pendant l'évacuation
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]Diverses optimisations
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]Modification de l'extraction, l'hélicoptère arrive désormais avant que l'extraction ne commence, et à un endroit légèrement différent
+[/list]
+[h3]nms_flooded[/h3]
+[list]
+[*]Ajout de 10 secondes au temps d'extraction
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]Modifications des collisions
+[/list]
+</string><string id="subtitle">Avec deux nouvelles cartes, saupoudré de fonctionnalités, d'améliorations, et d'encore plus de corrections.</string><string id="summary">Monstres, Musique et Plus encore. Quelle meilleure manière de paser Halloween qu'en errant à travers un ancien asile ? Ammenez vos amis et faites la fête comme des fous - une nouvelle mise à jour de contenu pour NMRiH est arrivée !</string><string id="title">NMRiH Hell-o-ween Hellapalooza (Mise à jour 1.13 Sortie)</string></content>
