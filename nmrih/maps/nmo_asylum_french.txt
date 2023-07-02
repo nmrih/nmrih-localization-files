@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_asylum_Objective_Lobby_1"		"Atteindre le hall"
+	"nmo_asylum_Objective_Lobby_NoWeld"	"Atteindre le hall"
+	"nmo_asylum_Objective_Drain"		"Descendre au sous-sol et drainer les douches"
+	"nmo_asylum_Objective_Wet_Key"		"Déverrouiller le placard à fournitures"
+	"nmo_asylum_Objective_Room_Key"		"Déverrouiller le placard à fournitures"
+	"nmo_asylum_Objective_Traverse"		"Traverser le sous-sol et monter au rez-de-chaussée"
+	"nmo_asylum_Objective_Welder"		"Ouvrir le conduit de ventilation au chalumeau"
+	"nmo_asylum_Objective_Bomb"		"Faire exploser la barricade"
+	"nmo_asylum_Objective_Power"		"Ouvrir les accès de sécurité"
+	"nmo_asylum_Objective_Goto_Attic"	"Passer à travers des dortoirs à l'étage"
+	"nmo_asylum_Objective_Drop"		"Passer à travers des dortoirs à l'étage"
+	"nmo_asylum_Objective_Attic"		"Explorer le grenier"
+	"nmo_asylum_Objective_Court"		"traverser la cour"
+	"nmo_asylum_Objective_Summon_Alt"	"Terminer le rituel"
+	"nmo_asylum_Objective_Summon_Alt2"	"Terminer le rituel"
+	"nmo_asylum_Objective_Summon"		"Compléter le rituel"
+	"nmo_asylum_Objective_Defend"		"Défendre le rituel"
+	"nmo_asylum_Objective_Intro"		"Regrettez vos choix de vie"
+	"nmo_asylum_Objective_StandBack"	"Reculez"
+	"nmo_asylum_Objective_Evac"		"COURREZ !"
+}
+}
