@@ -1,0 +1,16 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"Découper le volet métallique"
+	"nmo_anxiety_Obj2"	"Éteindre les flammes"
+	"nmo_anxiety_Obj3"	"Briser la barricade"
+	"nmo_anxiety_Obj4"	"Relever la grille"
+	"nmo_anxiety_Obj5"	"Quitter la station de Métro"
+	"nmo_anxiety_Obj6"	"Escalader la barrière avec une échelle"
+	"nmo_anxiety_Obj7"	"Se frayer un chemin au chalumeau dans le parking"
+	"nmo_anxiety_Obj8"	"Débloquer les portes de l'hôpital"
+	"nmo_anxiety_Obj9"	"Trouver les clefs du camping-car"
+}
+}
