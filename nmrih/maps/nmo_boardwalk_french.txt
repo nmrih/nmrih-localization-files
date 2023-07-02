@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_boardwalk_Objectives_Radio"	"Utilisez la radio pour appeler de l'aide"
+	"nmo_boardwalk_Objectives_Door"	"Trouvez une clef pour ouvrir la porte"
+	"nmo_boardwalk_Objectives_Survive"	"Survivez"
+	"nmo_boardwalk_Objectives_Secure"	"Tenez bon jusqu'à ce que l'aide arrive"
+	"nmo_boardwalk_Objectives_Propane"	"Percez une brèche dans la barricade"
+	"nmo_boardwalk_Objectives_Can"	"Brûler les obstacles"
+	"nmo_boardwalk_Objectives_Gauntlet"	"Entrez dans le refuge"
+	"nmo_boardwalk_Objectives_Signal"	"Faites un feu pour signaler votre position"
+}
+}
