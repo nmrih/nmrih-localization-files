@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_chinatown_subway_escape"	"Échappez-vous du Métro !"
+	"nmo_chinatown_gate_fix"	"Trouvez du carburant pour le générateur afin d'ouvrir la porte !"
+	"nmo_chinatown_ladder_dismount"	"Lâchez l'echelle du barrage routier ! "
+	"nmo_chinatown_sewer_way"	"Trouvez un chemin à travers les égoûts !"
+	"nmo_chinatown_welder"	"Utilisez un chalumeau sur le cadenas du portail pour l'ouvrir !"
+	"nmo_chinatown_docks_finale"	"Allumez la radio et appelez à l'aide !"
+	"nmo_chinatown_radio"	"Les secours arrivent d'ici 60 secondes. Tenez bon !"
+}
+}
