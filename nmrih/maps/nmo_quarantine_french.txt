@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_quarantine_obj_gravesite"	"Trouvez une pelle et creusez au cimetière improvisé pour trouver du carburant"
+	"nmo_quarantine_obj_leavespawn"	"Échappez-vous de l'allée"
+	"nmo_quarantine_obj_fillup_generator_turn_on"	"Alimentez le générateur en carburant et allumez-le"
+	"nmo_quarantine_obj_get_sewer_key"	"Trouvez la clef du local de maintenance"
+	"nmo_quarantine_obj_get_sewer_crank"	"Trouvez la manivelle manquante et écopez le local de maintenance !"
+	"nmo_quarantine_obj_leave_sewer"	"Échappez-vous des égouts"
+	"nmo_quarantine_obj_close_gate"	"Fermez la porte de quarantaine pour entrer dans la zone de quarantaine interne !"
+	"nmo_quarantine_obj_waitfordoor"	"Attendez que le rideau métallique s'ouvre"
+	"nmo_quarantine_obj_enter_sewer"	"Entrez dans les égouts"
+	"nmo_quarantine_obj_enter_inner_quarantine"	"Entrez dans la zone de quarantaine interne avant que les mesures de sécurité de secours ne s'activent !"
+	"nmo_quarantine_obj_use_radio"	"Utilisez la radio !"
+	"nmo_quarantine_obj_get_walkie"	"Prenez le talkie-walkie"
+	"nmo_quarantine_obj_activate_siren"	"Activez la sirène lorsque vous serez prêt."
+	"nmo_quarantine_obj_survive"	"Survivez pendant 2 minutes"
+	"nmo_quarantine_50sec"	"Vous avez 50 secondes pour rentrer dans la zone de quarantaine avant l'explosion."
+	"nmo_quarantine_10sec"	"10 secondes restantes."
+}
+}
