@@ -6,7 +6,7 @@
 //ammocheck sounds
 
 "AmmoCheck.Alt8.Full" "Mon chargeur est plein."
-"AmmoCheck.Alt8.AlmostFull" "Mon chargeur est quasiment remplie."
+"AmmoCheck.Alt8.AlmostFull" "Mon chargeur est quasiment rempli."
 "AmmoCheck.Alt8.OverHalf" "Chargeur rempli à plus de la moitié."
 "AmmoCheck.Alt8.Half" "Chargeur à moitié rempli."
 "AmmoCheck.Alt8.15" "Il me reste quinze balles."
@@ -23,11 +23,11 @@
 "AmmoCheck.Alt8.4" "Il me reste quatre balles !"
 "AmmoCheck.Alt8.3" "Il me reste trois balles !"
 "AmmoCheck.Alt8.2" "Il me reste deux balles !"
-"AmmoCheck.Alt8.1" "Il ne me reste qu'une balle !"
-"AmmoCheck.Alt8.0" "Je n'ai plus de munition !"
+"AmmoCheck.Alt8.1" "Il ne me reste plus qu'une balle !"
+"AmmoCheck.Alt8.0" "Je suis à sec !"
 
 "AmmoCheck.Alt7.Full" "Mon chargeur est plein."
-"AmmoCheck.Alt7.AlmostFull" "Mon chargeur est quasiment remplie."
+"AmmoCheck.Alt7.AlmostFull" "Mon chargeur est quasiment rempli."
 "AmmoCheck.Alt7.OverHalf" "Chargeur rempli à plus de la moitié."
 "AmmoCheck.Alt7.Half" "Chargeur à moitié rempli."
 "AmmoCheck.Alt7.15" "Il me reste quinze balles."
@@ -44,11 +44,11 @@
 "AmmoCheck.Alt7.4" "Il me reste quatre balles !"
 "AmmoCheck.Alt7.3" "Il me reste trois balles !"
 "AmmoCheck.Alt7.2" "Il me reste deux balles !"
-"AmmoCheck.Alt7.1" "Il ne me reste qu'une balle !"
-"AmmoCheck.Alt7.0" "Je n'ai plus de munition !"
+"AmmoCheck.Alt7.1" "Il ne me reste plus qu'une balle !"
+"AmmoCheck.Alt7.0" "Je suis à sec !"
 
 "AmmoCheck.FemaleDefault.Full" "Mon chargeur est plein."
-"AmmoCheck.FemaleDefault.AlmostFull" "Mon chargeur est quasiment remplie."
+"AmmoCheck.FemaleDefault.AlmostFull" "Mon chargeur est quasiment rempli."
 "AmmoCheck.FemaleDefault.OverHalf" "Chargeur rempli à plus de la moitié."
 "AmmoCheck.FemaleDefault.Half" "Chargeur à moitié rempli."
 "AmmoCheck.FemaleDefault.15" "Il me reste quinze balles."
@@ -65,11 +65,11 @@
 "AmmoCheck.FemaleDefault.4" "Il me reste quatre balles !"
 "AmmoCheck.FemaleDefault.3" "Il me reste trois balles !"
 "AmmoCheck.FemaleDefault.2" "Il me reste deux balles !"
-"AmmoCheck.FemaleDefault.1" "Il ne me reste qu'une balle !"
-"AmmoCheck.FemaleDefault.0" "Je n'ai plus de munition !"
+"AmmoCheck.FemaleDefault.1" "Il ne me reste plus qu'une balle !"
+"AmmoCheck.FemaleDefault.0" "Je suis à sec !"
 
 "AmmoCheck.Alt6.Full" "Mon chargeur est plein."
-"AmmoCheck.Alt6.AlmostFull" "Mon chargeur est quasiment remplie."
+"AmmoCheck.Alt6.AlmostFull" "Mon chargeur est quasiment rempli."
 "AmmoCheck.Alt6.OverHalf" "Chargeur rempli à plus de la moitié."
 "AmmoCheck.Alt6.Half" "Chargeur à moitié rempli."
 "AmmoCheck.Alt6.15" "Il me reste quinze balles."
@@ -86,11 +86,11 @@
 "AmmoCheck.Alt6.4" "Il me reste quatre balles !"
 "AmmoCheck.Alt6.3" "Il me reste trois balles !"
 "AmmoCheck.Alt6.2" "Il me reste deux balles !"
-"AmmoCheck.Alt6.1" "Il ne me reste qu'une balle !"
-"AmmoCheck.Alt6.0" "Je n'ai plus de munition !"
+"AmmoCheck.Alt6.1" "Il ne me reste plus qu'une balle !"
+"AmmoCheck.Alt6.0" "Je suis à sec !"
 
 "AmmoCheck.Alt5.Full" "Mon chargeur est plein."
-"AmmoCheck.Alt5.AlmostFull" "Mon chargeur est quasiment remplie."
+"AmmoCheck.Alt5.AlmostFull" "Mon chargeur est quasiment rempli."
 "AmmoCheck.Alt5.OverHalf" "Chargeur rempli à plus de la moitié."
 "AmmoCheck.Alt5.Half" "Chargeur à moitié rempli."
 "AmmoCheck.Alt5.15" "Il me reste quinze balles."
@@ -107,11 +107,11 @@
 "AmmoCheck.Alt5.4" "Il me reste quatre balles !"
 "AmmoCheck.Alt5.3" "Il me reste trois balles !"
 "AmmoCheck.Alt5.2" "Il me reste deux balles !"
-"AmmoCheck.Alt5.1" "Il ne me reste qu'une balle !"
-"AmmoCheck.Alt5.0" "Je n'ai plus de munition !"
+"AmmoCheck.Alt5.1" "Il ne me reste plus qu'une balle !"
+"AmmoCheck.Alt5.0" "Je suis à sec !"
 
 "AmmoCheck.Alt4.Full" "Mon chargeur est plein."
-"AmmoCheck.Alt4.AlmostFull" "Mon chargeur est quasiment remplie."
+"AmmoCheck.Alt4.AlmostFull" "Mon chargeur est quasiment rempli."
 "AmmoCheck.Alt4.OverHalf" "Chargeur rempli à plus de la moitié."
 "AmmoCheck.Alt4.Half" "Chargeur à moitié rempli."
 "AmmoCheck.Alt4.15" "Il me reste quinze balles."
@@ -128,11 +128,11 @@
 "AmmoCheck.Alt4.4" "Il me reste quatre balles !"
 "AmmoCheck.Alt4.3" "Il me reste trois balles !"
 "AmmoCheck.Alt4.2" "Il me reste deux balles !"
-"AmmoCheck.Alt4.1" "Il ne me reste qu'une balle !"
-"AmmoCheck.Alt4.0" "Je n'ai plus de munition !"
+"AmmoCheck.Alt4.1" "Il ne me reste plus qu'une balle !"
+"AmmoCheck.Alt4.0" "Je suis à sec !"
 
 "AmmoCheck.Alt3.Full" "Mon chargeur est plein."
-"AmmoCheck.Alt3.AlmostFull" "Mon chargeur est quasiment remplie."
+"AmmoCheck.Alt3.AlmostFull" "Mon chargeur est quasiment rempli."
 "AmmoCheck.Alt3.OverHalf" "Chargeur rempli à plus de la moitié."
 "AmmoCheck.Alt3.Half" "Chargeur à moitié rempli."
 "AmmoCheck.Alt3.15" "Il me reste quinze balles."
@@ -149,11 +149,11 @@
 "AmmoCheck.Alt3.4" "Il me reste quatre balles !"
 "AmmoCheck.Alt3.3" "Il me reste trois balles !"
 "AmmoCheck.Alt3.2" "Il me reste deux balles !"
-"AmmoCheck.Alt3.1" "Il ne me reste qu'une balle !"
-"AmmoCheck.Alt3.0" "Je n'ai plus de munition !"
+"AmmoCheck.Alt3.1" "Il ne me reste plus qu'une balle !"
+"AmmoCheck.Alt3.0" "Je suis à sec !"
 
 "AmmoCheck.Alt2.Full" "Mon chargeur est plein."
-"AmmoCheck.Alt2.AlmostFull" "Mon chargeur est quasiment remplie."
+"AmmoCheck.Alt2.AlmostFull" "Mon chargeur est quasiment rempli."
 "AmmoCheck.Alt2.OverHalf" "Chargeur rempli à plus de la moitié."
 "AmmoCheck.Alt2.Half" "Chargeur à moitié rempli."
 "AmmoCheck.Alt2.15" "Il me reste quinze balles."
@@ -170,11 +170,11 @@
 "AmmoCheck.Alt2.4" "Il me reste quatre balles !"
 "AmmoCheck.Alt2.3" "Il me reste trois balles !"
 "AmmoCheck.Alt2.2" "Il me reste deux balles !"
-"AmmoCheck.Alt2.1" "Il ne me reste qu'une balle !"
-"AmmoCheck.Alt2.0" "Je n'ai plus de munition !"
+"AmmoCheck.Alt2.1" "Il ne me reste plus qu'une balle !"
+"AmmoCheck.Alt2.0" "Je suis à sec !"
 
 "AmmoCheck.Alt1.Full" "Mon chargeur est plein."
-"AmmoCheck.Alt1.AlmostFull" "Mon chargeur est quasiment remplie."
+"AmmoCheck.Alt1.AlmostFull" "Mon chargeur est quasiment rempli."
 "AmmoCheck.Alt1.OverHalf" "Chargeur rempli à plus de la moitié."
 "AmmoCheck.Alt1.Half" "Chargeur à moitié rempli."
 "AmmoCheck.Alt1.15" "Il me reste quinze balles."
@@ -191,11 +191,11 @@
 "AmmoCheck.Alt1.4" "Il me reste quatre balles !"
 "AmmoCheck.Alt1.3" "Il me reste trois balles !"
 "AmmoCheck.Alt1.2" "Il me reste deux balles !"
-"AmmoCheck.Alt1.1" "Il ne me reste qu'une balle !"
-"AmmoCheck.Alt1.0" "Je n'ai plus de munition !"
+"AmmoCheck.Alt1.1" "Il ne me reste plus qu'une balle !"
+"AmmoCheck.Alt1.0" "Je suis à sec !"
 
 "AmmoCheck.Default.Full" "Mon chargeur est plein."
-"AmmoCheck.Default.AlmostFull" "Mon chargeur est quasiment remplie."
+"AmmoCheck.Default.AlmostFull" "Mon chargeur est quasiment rempli."
 "AmmoCheck.Default.OverHalf" "Chargeur rempli à plus de la moitié."
 "AmmoCheck.Default.Half" "Chargeur à moitié rempli."
 "AmmoCheck.Default.15" "Il me reste quinze balles."
@@ -212,8 +212,8 @@
 "AmmoCheck.Default.4" "Il me reste quatre balles !"
 "AmmoCheck.Default.3" "Il me reste trois balles !"
 "AmmoCheck.Default.2" "Il me reste deux balles !"
-"AmmoCheck.Default.1" "Il ne me reste qu'une balle !"
-"AmmoCheck.Default.0" "Je n'ai plus de munition !"
+"AmmoCheck.Default.1" "Il ne me reste plus qu'une balle !"
+"AmmoCheck.Default.0" "Je suis à sec !"
 
 //voice commands
 
@@ -346,7 +346,7 @@
 "Reload.Alt1.Mag3" "Trois chargeurs restants !"
 "Reload.Alt1.Mag2" "Deux chargeurs restants !"
 "Reload.Alt1.Mag1" "Un chargeur restant !"
-"Reload.Alt1.Mag0" "Zéro chargeur restant !"
+"Reload.Alt1.Mag0" "Il ne me reste aucun chargeur !"
 
 //eng"Reload.Alt2.PlentyMag"	"I have plenty of magazines."
 "Reload.Alt2.Mag10" "Dix chargeurs restants !"
@@ -359,7 +359,7 @@
 "Reload.Alt2.Mag3" "Trois chargeurs restants !"
 "Reload.Alt2.Mag2" "Deux chargeurs restants !"
 "Reload.Alt2.Mag1" "Un chargeur restant !"
-"Reload.Alt2.Mag0" "Zéro chargeur restant !"
+"Reload.Alt2.Mag0" "Il ne me reste aucun chargeur !"
 
 //eng"Reload.Alt3.PlentyMag"	"I have plenty of magazines."
 "Reload.Alt3.Mag15" "Quinze chargeurs restants !"
@@ -377,7 +377,7 @@
 "Reload.Alt3.Mag3" "Trois chargeurs restants !"
 "Reload.Alt3.Mag2" "Deux chargeurs restants !"
 "Reload.Alt3.Mag1" "Un chargeur restant !"
-"Reload.Alt3.Mag0" "Zéro chargeur restant !"
+"Reload.Alt3.Mag0" "Il ne me reste aucun chargeur !"
 
 //eng"Reload.Alt4.PlentyMag"	"I have plenty of magazines."
 "Reload.Alt4.Mag15" "Quinze chargeurs restants !"
@@ -395,7 +395,7 @@
 "Reload.Alt4.Mag3" "Trois chargeurs restants !"
 "Reload.Alt4.Mag2" "Deux chargeurs restants !"
 "Reload.Alt4.Mag1" "Un chargeur restant !"
-"Reload.Alt4.Mag0" "Zéro chargeur restant !"
+"Reload.Alt4.Mag0" "Il ne me reste aucun chargeur !"
 
 //eng"Reload.Alt5.PlentyMag"	"I have plenty of magazines."
 "Reload.Alt5.Mag15" "Quinze chargeurs restants !"
@@ -413,7 +413,7 @@
 "Reload.Alt5.Mag3" "Trois chargeurs restants !"
 "Reload.Alt5.Mag2" "Deux chargeurs restants !"
 "Reload.Alt5.Mag1" "Un chargeur restant !"
-"Reload.Alt5.Mag0" "Zéro chargeur restant !"
+"Reload.Alt5.Mag0" "Il ne me reste aucun chargeur !"
 
 //eng"Reload.Alt6.PlentyMag"	"I have plenty of magazines."
 "Reload.Alt6.Mag15" "Quinze chargeurs restants !"
@@ -431,7 +431,7 @@
 "Reload.Alt6.Mag3" "Trois chargeurs restants !"
 "Reload.Alt6.Mag2" "Deux chargeurs restants !"
 "Reload.Alt6.Mag1" "Un chargeur restant !"
-"Reload.Alt6.Mag0" "Zéro chargeur restant !"
+"Reload.Alt6.Mag0" "Il ne me reste aucun chargeur !"
 
 //eng"Reload.Alt7.PlentyMag"	"I have plenty of magazines."
 "Reload.Alt7.Mag15" "Quinze chargeurs restants !"
@@ -449,7 +449,7 @@
 "Reload.Alt7.Mag3" "Trois chargeurs restants !"
 "Reload.Alt7.Mag2" "Deux chargeurs restants !"
 "Reload.Alt7.Mag1" "Un chargeur restant !"
-"Reload.Alt7.Mag0" "Zéro chargeur restant !"
+"Reload.Alt7.Mag0" "Il ne me reste aucun chargeur !"
 
 //eng"Reload.Alt8.PlentyMag"	"I have plenty of magazines."
 "Reload.Alt8.Mag15" "Quinze chargeurs restants !"
@@ -467,7 +467,7 @@
 "Reload.Alt8.Mag3" "Trois chargeurs restants !"
 "Reload.Alt8.Mag2" "Deux chargeurs restants !"
 "Reload.Alt8.Mag1" "Un chargeur restant !"
-"Reload.Alt8.Mag0" "Zéro chargeur restant !"
+"Reload.Alt8.Mag0" "Il ne me reste aucun chargeur !"
 
 //eng"Reload.FemaleDefault.PlentyMag"	"I have plenty of magazines."
 "Reload.FemaleDefault.Mag15" "Quinze chargeurs restants !"
@@ -485,7 +485,7 @@
 "Reload.FemaleDefault.Mag3" "Trois chargeurs restants !"
 "Reload.FemaleDefault.Mag2" "Deux chargeurs restants !"
 "Reload.FemaleDefault.Mag1" "Un chargeur restant !"
-"Reload.FemaleDefault.Mag0" "Zéro chargeur restant !"
+"Reload.FemaleDefault.Mag0" "Il ne me reste aucun chargeur !"
 
 //eng"Reload.Default.PlentyMag"	"I have plenty of magazines."
 "Reload.Default.Mag10" "Dix chargeurs restants !"
@@ -498,7 +498,7 @@
 "Reload.Default.Mag3" "Trois chargeurs restants !"
 "Reload.Default.Mag2" "Deux chargeurs restants !"
 "Reload.Default.Mag1" "Un chargeur restant !"
-"Reload.Default.Mag0" "Zéro chargeur restant !"
+"Reload.Default.Mag0" "Il ne me reste aucun chargeur !"
 
 //reserve ammo check for shotgun and magnum
 // 'X loads remaining'
@@ -519,7 +519,7 @@
 "Reload.Alt1.Load3" "Trois balles restantes !"
 "Reload.Alt1.Load2" "Deux balles restantes !"
 "Reload.Alt1.Load1" "Une balle restante !"
-"Reload.Alt1.Load0" "Zéro balle restante !"
+"Reload.Alt1.Load0" "Il ne me reste plus de balle !"
 
 //eng"Reload.Alt2.PlentyLoad"	"I have plenty of loads."
 "Reload.Alt2.Load10" "Dix balles restantes !"
@@ -532,7 +532,7 @@
 "Reload.Alt2.Load3" "Trois balles restantes !"
 "Reload.Alt2.Load2" "Deux balles restantes !"
 "Reload.Alt2.Load1" "Une balle restante !"
-"Reload.Alt2.Load0" "Zéro balle restante !"
+"Reload.Alt2.Load0" "Il ne me reste plus de balle !"
 
 //eng"Reload.Alt3.PlentyLoad"	"I have plenty of loads."
 "Reload.Alt3.Load15" "Quinze balles restantes !"
@@ -550,7 +550,7 @@
 "Reload.Alt3.Load3" "Trois balles restantes !"
 "Reload.Alt3.Load2" "Deux balles restantes !"
 "Reload.Alt3.Load1" "Une balle restante !"
-"Reload.Alt3.Load0" "Zéro balle restante !"
+"Reload.Alt3.Load0" "Il ne me reste plus de balle !"
 
 //eng"Reload.Alt4.PlentyLoad"	"I have plenty of loads."
 "Reload.Alt4.Load15" "Quinze balles restantes !"
@@ -568,7 +568,7 @@
 "Reload.Alt4.Load3" "Trois balles restantes !"
 "Reload.Alt4.Load2" "Deux balles restantes !"
 "Reload.Alt4.Load1" "Une balle restante !"
-"Reload.Alt4.Load0" "Zéro balle restante !"
+"Reload.Alt4.Load0" "Il ne me reste plus de balle !"
 
 //eng"Reload.Alt5.PlentyLoad"	"I have plenty of loads."
 "Reload.Alt5.Load15" "Quinze balles restantes !"
@@ -586,7 +586,7 @@
 "Reload.Alt5.Load3" "Trois balles restantes !"
 "Reload.Alt5.Load2" "Deux balles restantes !"
 "Reload.Alt5.Load1" "Une balle restante !"
-"Reload.Alt5.Load0" "Zéro balle restante !"
+"Reload.Alt5.Load0" "Il ne me reste plus de balle !"
 
 //eng"Reload.Alt6.PlentyLoad"	"I have plenty of loads."
 "Reload.Alt6.Load15" "Quinze balles restantes !"
@@ -604,7 +604,7 @@
 "Reload.Alt6.Load3" "Trois balles restantes !"
 "Reload.Alt6.Load2" "Deux balles restantes !"
 "Reload.Alt6.Load1" "Une balle restante !"
-"Reload.Alt6.Load0" "Zéro balle restante !"
+"Reload.Alt6.Load0" "Il ne me reste plus de balle !"
 
 //eng"Reload.Alt7.PlentyLoad"	"I have plenty of loads."
 "Reload.Alt7.Load15" "Quinze balles restantes !"
@@ -622,7 +622,7 @@
 "Reload.Alt7.Load3" "Trois balles restantes !"
 "Reload.Alt7.Load2" "Deux balles restantes !"
 "Reload.Alt7.Load1" "Une balle restante !"
-"Reload.Alt7.Load0" "Zéro balle restante !"
+"Reload.Alt7.Load0" "Il ne me reste plus de balle !"
 
 //"Reload.Alt8.PlentyLoad"	"I have plenty of loads."
 "Reload.Alt8.Load15" "Quinze balles restantes !"
@@ -640,7 +640,7 @@
 "Reload.Alt8.Load3" "Trois balles restantes !"
 "Reload.Alt8.Load2" "Deux balles restantes !"
 "Reload.Alt8.Load1" "Une balle restante !"
-"Reload.Alt8.Load0" "Zéro balle restante !"
+"Reload.Alt8.Load0" "Il ne me reste plus de balle !"
 
 //eng"Reload.FemaleDefault.PlentyLoad"	"I have plenty of loads."
 "Reload.FemaleDefault.Load15" "Quinze balles restantes !"
@@ -658,7 +658,7 @@
 "Reload.FemaleDefault.Load3" "Trois balles restantes !"
 "Reload.FemaleDefault.Load2" "Deux balles restantes !"
 "Reload.FemaleDefault.Load1" "Une balle restante !"
-"Reload.FemaleDefault.Load0" "Zéro balle restante !"
+"Reload.FemaleDefault.Load0" "Il ne me reste plus de balle !"
 
 //eng"Reload.Default.PlentyLoad"	"I have plenty of loads."
 "Reload.Default.Load10" "Dix balles restantes !"
@@ -671,7 +671,7 @@
 "Reload.Default.Load3" "Trois balles restantes !"
 "Reload.Default.Load2" "Deux balles restantes !"
 "Reload.Default.Load1" "Une balle restante !"
-"Reload.Default.Load0" "Zéro balle restante !"
+"Reload.Default.Load0" "Il ne me reste plus de balle !"
 
 //Survival mode
 
