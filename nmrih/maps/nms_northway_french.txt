@@ -1,0 +1,13 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nms_northway_work"	"Le système de portes fonctionne ! Fermez les six accès de ce bâtiment !"
+	"nms_northway_5"	"5 portes restantes !"
+	"nms_northway_4"	"4 portes restantes !"
+	"nms_northway_3"	"3 portes restantes !"
+	"nms_northway_2"	"2 portes restantes !"
+	"nms_northway_1"	"1 porte restante !"
+}
+}
