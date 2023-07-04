@@ -685,8 +685,8 @@
 "NGSurvivalZoneD" "<clr: 255, 255, 0><I>La Zone D est attaquée ! Protégez-la !"
 "NGSurvivalZoneE" "<clr: 255, 255, 0><I>La Zone E est attaquée ! Protégez-la !"
 "NGSurvivalZoneF" "<clr: 255, 255, 0><I>La Zone F est attaquée ! Protégez-la !"
-"SafeZone.Killed" "<clr: 255, 0, 0>[ZONE SÛRE PERDUE, PROTEGEZ LES ZONES RESTANTES OU LES MILITAIRES PARTIRONT]"
-"Wave.Complete" "[VAGUE TERMINEE]"
+"SafeZone.Killed" "<clr: 255, 0, 0>[ZONE SÛRE PERDUE, PROTÉGEZ LES ZONES RESTANTES OU LES MILITAIRES PARTIRONT]"
+"Wave.Complete" "[VAGUE TERMINÉE]"
 "NMRPlayer.TokenEarned" "[TICKET DE RÉAPPARITION GAGNÉ]"
 "NMRPlayer.TokenDenied" "[TICKETS DE RÉAPPARITION INUTILISÉS RETIRÉS]"
 "NMRPlayer.TokenUsed" "[TICKET DE RÉAPPARITION UTILISÉ]"
@@ -705,7 +705,7 @@
 
 // Asylum
 "AsylumVoice.Intro"	"<len:5.3>Eh bien, est-ce de cette manière que vous pensiez que les choses se dérouleraient ? Mourir de faim dans une cellule d'isolement ? <delay:5.5><len:4.7>Un plan très intelligent, je l'admet. Mais, je suis en mesure de vous offrir un nouveau choix. <delay:10.3><len:5.6>Vous pouvez rester croupir ici et périr, ou bien vous pourriez m'aider, auquel cas je vous offirais en retour une porte de sortie. <delay:16.2><len:1>Je vous le promets."
-"AsylumVoice.Intro2"	"<len:4.6>Allo, allo ? Est-ce que ce truc fonctionne ? <delay:4.9><len:1.5>Vous- vous pouvez m'entendre ? <delay:6.7><len:2.6>Je peux vous voir, faites quelque chose si vous m'entendez... <delay:9.8><len:2.2>Bon je vais prendre ça pour un oui. <delay:12.5><len:5.1>Je n'ai pas vraiment envie de gâcher votre "super plan" dont la première étape était visiblement de vous enfermer dans l'unité d'isolement, <delay:17.7><len:2.5>mais personne ne va venir vous sauver. <delay:20.3><len:5.6>L'asyle est complètement envahie, la radio complètement silencieuse, et l'armée complètement décimée ou en déroute. <delay:26.6><len:2.3>Il n'y a plus que vous et moi maintenant, <delay:28.7><len:3.7>donc aidez-moi à terminer l'oeuvre de ma vie, et je vous tirerai de là."
+"AsylumVoice.Intro2"	"<len:4.6>Allo, allo ? Est-ce que ce truc fonctionne ? <delay:4.9><len:1.5>Vous- vous pouvez m'entendre ? <delay:6.7><len:2.6>Je peux vous voir, faites quelque chose si vous m'entendez... <delay:9.8><len:2.2>Bon je vais prendre ça pour un oui. <delay:12.5><len:5.1>Je n'ai pas vraiment envie de gâcher votre "super plan" dont la première étape était manifestement de vous enfermer dans l'unité d'isolement, <delay:17.7><len:2.5>mais personne ne va venir vous sauver. <delay:20.3><len:5.6>L'asyle est complètement envahie, la radio complètement silencieuse, et l'armée complètement décimée ou en déroute. <delay:26.6><len:2.3>Il n'y a plus que vous et moi maintenant, <delay:28.7><len:3.7>donc aidez-moi à terminer l'oeuvre de ma vie, et je vous tirerai de là."
 "AsylumVoice.Intro3"	"<len:3.4>Pour vous montrer ma bonne foi, je vous ai laissé un humble présent, <delay:3.5><len:1.2>il est à l'extérieur. <delay:4.8><len:2.3>Laissez moi ouvrir ces saletés de portes pour vous."
 "AsylumVoice.Intro4"	"<len:3.8>Je vous ai aussi déniché quelque chose qui pourrait vous être utile. Je l'ai laissé à l'extérieur de votre cellule. <delay:3.9><len:2.7>Ce n'est pas grand chose, mais j'espère que ça aidera. <delay:6.7><len:1.8>Laissez moi ouvrir ces portes."
 "AsylumVoice.Intro5"	"<len:2.8>J'ai déplacé une de ces caisses de l'armée là-dessous. <delay:2.9><len:2.6>Je ne sais pas exactement ce qu'il y a dedans, mais ça pourrait s'avérer utile. <delay:5.9><len:1.7>Je vais ouvrir les portes de la cellule, maintenant."
