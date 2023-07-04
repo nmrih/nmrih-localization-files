@@ -141,7 +141,7 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [/list]
 [h3]nmo_broadway[/h3]
 [list]
-[*]Les étincelles sur la porte s'éteignent désormais quand l'utilisation du fer à souder s'arrête
+[*]Les étincelles sur la porte s'éteignent désormais quand l'utilisation du chalumeau s'arrête
 [/list]
 [h3]nmo_brooklyn[/h3]
 [list]
@@ -157,7 +157,7 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [h3]nmo_junction[/h3]
 [list]
 [*]Ajout d'un délai pour l'explosion du propane
-[*]Les étincelles sur la porte s'éteignent désormais quand l'utilisation du fer à souder s'arrête
+[*]Les étincelles sur la porte s'éteignent désormais quand l'utilisation du chalumeau s'arrête
 [/list]
 [h3]nmo_lakeside[/h3]
 [list]
@@ -195,7 +195,7 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [h3]nmo_underground[/h3]
 [list]
 [*]Ajout de plus de lumières dans le motel
-[*]Ajout de plus de points d'apparition pour le fer à souder
+[*]Ajout de plus de points d'apparition pour le chalumeau
 [*]Modification de la boucle sonore la zone souterraine
 [*]Le feu ne tue désormais plus instantanément les joueurs (seulement s'ils essaient de continuer à travers lui)
 [*]Modifications des collisions et de la navigation

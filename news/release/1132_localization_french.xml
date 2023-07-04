@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<content><string id="body">Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automatiquement appliquée lorsque vous redémarrerz No More Room in Hell. Les changements majeurs incluent :
+<content><string id="body">Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automatiquement appliquée lorsque vous redémarrez No More Room in Hell. Les changements majeurs incluent :
 
 [h2]Ajouts[/h2]
 [list]
-[*]Ajout d'un support de mise à l'échelle proportionelle du HUD pour les hautes résolutions, encore plus visibles sur les affichages 4K, ultralarge, etc.
+[*]Ajout d'un support de mise à l'échelle proportionnelle du HUD pour les hautes résolutions, encore plus visibles sur les affichages 4K, ultralarge, etc.
 [*]Ajout d'une boîte de recherche et d'un bouton "Trouver plus..." (qui renvoient au Workshop) dans le menu de sélection de mutateurs
 [/list]
 [h2]Modifications[/h2]
 [list]
 [*]Amélioration des performances du serveur sur Linux
-[*]Dans le menu de sélection des mutateurs, cliquer la liste fait désormais basculer la cas à cocher
+[*]Dans le menu de sélection des mutateurs, cliquer la liste fait désormais basculer la case à cocher
 [*]Augmentation du champ de vision max. à 110
 [*]Les particules d'impact de mêlée sont maintenant affichées sur l'arc
-[*]Optimization de la vérification d'obstruction par l'IA des zombies, amélioration des performances sur les cartes très peuplées
-[*]Restauration de l'immobilisation des joeurs pendant l'extraction
+[*]Optimisation de la vérification d'obstruction par l'IA des zombies, amélioration des performances sur les cartes très peuplées
+[*]Restauration de l'immobilisation des joueurs pendant l'extraction
 [*]La commande de serveur "workshop_validate" possède maintenant l'option "-restore", qui récupère les cartes depuis le cache dans le cas d'effacement accidentel ou de pertes de données
-[*]Les caisses de ravitaillement n'immobilisent plus les joeurs, et vérifient leur distance à la place
+[*]Les caisses de ravitaillement n'immobilisent plus les joueurs, et vérifient leur distance à la place
 
 [*]Mise à jour des fichiers de localisation :
 [list]
@@ -28,20 +28,20 @@
 [h2]Corrections[/h2]
 [list]
 [*]Correction d'un problème de coups à la tête imprécis en mêlée
-[*]Correction d'un problème où les mouvement post-coup d'un coup en mêlée prenaient la priorité sur l'arc de coup initial (#1369)
+[*]Correction d'un problème où les mouvement post-coup d'un coup de mêlée prenaient la priorité sur l'arc de coup initial (#1369)
 [*]Correction d'un problème où l'endurance était uniquement drainée lors du premier coup de mêlée (#1386)
 [*]Correction d'un problème de transparence d'arrière-plan sur les objets listés par panneau d'UI
 [*]Correction d'un bug où des oiseaux bloquaient l'apparition des joueurs (#1389)
-[*]Correction de la tronçonneuse, qui limitait éronnément les effets d'impacts sur les personnages
+[*]Correction de la tronçonneuse, qui limitait erronément les effets d'impacts sur les personnages
 [*]Correction de l'entité "point_message_multiplayer" qui ne se mettait pas à jour pour les joueurs qui se reconnectaient au serveur (#1390)
 [*]Correction de la commande d'état de jeu d'extraction, qui fonctionnait sur les joueurs morts
 [*]Correction des écrans de chargement, qui n'étaient pas bien mis à l'échelle après un changement de résolution
-[*]Correction des scripts des mutateurss, qui étaient chargés deux fois pendant l'initialisation du serveur
+[*]Correction des scripts des mutateurs, qui étaient chargés deux fois pendant l'initialisation du serveur
 [*]Correction du délai de l'annonce de la Garde Nationale, qui ne se réinitialisait pas après un changement de carte
 [*]Correction de dialogues de la Garde Nationale, qui se superposaient en mode survie
 [*]Correction des joueurs, qui bloquaient des objets utilisables avec leurs corps (#1327)
 [*]Correction des joueurs qui étaient bloqués après avoir utilisé une caisse de ravitaillement
-[*]Correction de plusieurs problèmes de mise à l'échalle du HUD entre différentes résolutions, y compris le séparateur "Objectif Suivant" qui se collait au texte, des petits identifiants sur les affichages des munitions, etc.
+[*]Correction de plusieurs problèmes de mise à l'échelle du HUD entre différentes résolutions, y compris le séparateur "Objectif Suivant" qui se collait au texte, des petits identifiants sur les affichages des munitions, etc.
 [*]Correction du HUD des caisses de ravitaillement, qui ne se fermait pas toujours
 [/list]
 [h2]Changements pour les mappeurs et les modeurs[/h2]
@@ -49,7 +49,7 @@
 [*]Ajout de la version beta des transitions de niveaux pour les développeurs ; elles sont désactivées par défaut, et les administrateurs de serveur peuvent les activer avec la cvar "sv_level_transition" (#1278)
 [*]Ajout des commandes "RespawnDeadPlayers" aux fonctions d'état de jeu (I/O, console, VScript)
 [*]Ajout de la cvar "sv_killpenalty_score", qui détermine la montant de la pénalité de meurtre
-[*]Ajout de la cvar "sv_resetscore", qui réinitialise le score de tous les joueurs au prochain redémarrage de round
+[*]Ajout de la cvar "sv_resetscore", qui réinitialise le score de tous les joueurs au prochain redémarrage de manche
 [*]Ajout d'une nouvelle catégorie "Mutateurs" dans le publicateur du Workshop
 [*]Ajout d'un support pour les particules d'effets d'impact en mêlée
 [*]Ajout d'un support pour surcharger les mains du viewmodel
@@ -74,7 +74,7 @@
 [list]
 [*]Correction d'un problème "aéroportal" sur une porte située dans le sous-sol (#1376)
 [*]Correction d'un softlock dans le bureau (#1375)
-[*]Correction de la viande rituelle, dont la vie n'était pas mise à l'échelle en fonction du nombre de joueurs
+[*]Correction de la viande du rituel, dont la santé n'était pas mise à l'échelle en fonction du nombre de joueurs
 [/list]
 [h3]nmo_broadway[/h3]
 [list]
@@ -82,7 +82,7 @@
 [/list]
 [h3]nmo_broadway2[/h3]
 [list]
-[*]Ajout de la capacité d'obtenir le fer à souder si les joueurs n'en ont pas pendant la route d'objectif "naviguer à travers les égouts"
+[*]Ajout de la capacité d'obtenir un chalumeau si les joueurs n'en ont pas pendant l'objectif "naviguer à travers les égouts"
 [*]Ajout de collisions à certains rails
 [*]Correction de plusieurs endroits où les objets pouvaient être perdus
 [/list]
@@ -100,7 +100,7 @@
 [/list]
 [h3]nmo_suzhou[/h3]
 [list]
-[*]Corrigé les collisions de plusieurs zones où les objets d'objectifs pouvaient être perdus
+[*]Correction des collisions de plusieurs zones où les objets d'objectifs pouvaient être perdus
 [*]Multiples corrections
 [/list]
 [h3]nmo_toxteth / nmo_toxtethdark[/h3]
@@ -110,7 +110,7 @@
 [h3]nmo_underground[/h3]
 [list]
 [*]Ajout de quelques détails au motel
-[*]Correction d'un point de blocage près de la grille du fer à souder
+[*]Correction d'un point de blocage près de la grille du chalumeau
 [/list]
 [h3]nms_camilla[/h3]
 [list]
@@ -120,7 +120,7 @@
 [list]
 [*]Ajustement de l'apparition des marcheurs et coureurs durant les différentes étapes de la carte
 [*]Correction d'une porte dans la zone A où les zombies pouvaient être bloqués
-[*]Correction d'un point d'apparition où les zombies pouvaient 6etre bloqués
+[*]Correction d'un point d'apparition où les zombies pouvaient être bloqués
 [*]Multiples corrections de problèmes et ajustements (#1250)
 [*]Correction de prop_door, qui avait un mauvais axe de charnière (#1408)
 [*]Correction de plusieurs glitches de combat-zombie dans le centre commercial
@@ -132,7 +132,7 @@
 [h3]nms_ransack[/h3]
 [list]
 [*]Extension de la zone d'extraction et du temps d'extraction
-[*]Les étincelles sur la porte du mont-de-piété apparaissent et s'éteignent désormais correctement pendant l'utilisation du fer à souder
+[*]Les étincelles sur la porte du mont-de-piété apparaissent et s'éteignent désormais correctement pendant l'utilisation du chalumeau
 [/list]
 [h3]nms_silence[/h3]
 [list]
