@@ -9,7 +9,7 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 
 [img]{STEAM_CLAN_IMAGE}/4458555/538e4ea189370be93f7ecb75b6c44232bcd8e22d.png[/img]
 
-[i]Monstres, Musique et Plus encore. Quelle meilleure manière de paser Halloween qu'en errant à travers un ancien asile ? Ammenez vos amis et faites la fête sur la toute dernière carte à objectif Asylum. Quelles horreures vous sont donc réservées dans cet épave du festival d'Hell-o-ween Hellapalooza de Grimwood ? Il n'y a qu'une seule manière de le savoir. Alors enfilez vos déguisements, bourrez-vous l'estomac de bonbons, et étudiez bien vos rituels occultes, parce que vous partez pour un bon moment d'enfer ![/i]
+[i]Monstres, Musique et Plus encore. Quelle meilleure manière de passer Halloween qu'en errant à travers un ancien asile ? Amenez vos amis et faites la fête sur la toute dernière carte à objectif Asylum. Quelles horreurs vous sont donc réservées dans cet épave du festival d'Hell-o-ween Hellapalooza de Grimwood ? Il n'y a qu'une seule manière de le savoir. Alors enfilez vos déguisements, bourrez-vous l'estomac de bonbons, et étudiez bien vos rituels occultes, parce que vous partez pour un bon moment d'enfer ![/i]
 
 [h3]Laundry [Survie] (par Atheist, carte originale par Payne, Sotapoika)[/h3]
 
@@ -38,19 +38,19 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [/list]
 [h2]Changements[/h2]
 [list]
-[*]Les restrictions de vote pour tous les spectateurs (y compris les joueurs morts) sont désormais controlées par la cvar "sv_vote_allow_spectators", "sv_vote_allow_dead_call_vote" a donc été retirée puisque redondante
+[*]Les restrictions de vote pour tous les spectateurs (y compris les joueurs morts) sont désormais contrôlées par la cvar "sv_vote_allow_spectators", "sv_vote_allow_dead_call_vote" a donc été retirée puisque redondante
 [*]L'abordage de barricade est désormais audible par les autres joueurs
 [*]Les écrans de chargement par défaut n'int désormais plus de texture de clavier
 [*]Forçage du temps de maintient pour les caméras d'extraction pour éviter qu'elles ne partent trop tôt
-[*]Les joueurs infectés ne prennent plus de dommages alliés lorsqu'ils sont attrappés (#1324)
+[*]Les joueurs infectés ne prennent plus de dommages alliés lorsqu'ils sont attrapés (#1324)
 [*]Les joueurs infectés qui se déconnecteront laisseront désormais un zombie transformé (#1063)
 [*]Les sous-titres des longs dialogues ont été découpés en segments (pour le moment dans un ensemble limités de langues)
-[*]Les tracés de mêlée ne causent désormais plus de dommages alliés si le joueur frappé a été attrappé durant le coup
+[*]Les tracés de mêlée ne causent désormais plus de dommages alliés si le joueur frappé a été attrapé durant le coup
 [*]Les coups en mêlée et les poussages sont désormais audibles par les autres joueurs (#1333)
-[*]Lors de la mort, la canéra regarde désormais au-dessus de la ragdoll et non plus à travers elle
+[*]Lors de la mort, la caméra regarde désormais au-dessus de la ragdoll et non plus à travers elle
 [*]Les joueurs ne sont plus immobilisés lors de l'extraction
 [*]Les joueurs ne peuvent plus ramasser de grenades en plein air jusqu'à ce que le projectile n'atterrisse on ne rebondisse
-[*]Correction pour que la roue de selection des armes ne permette plus la selection après un clic droit, pour éviter de relâcher un autre type de munition par erreur
+[*]Correction pour que la roue de selection des armes ne permette plus la sélection après un clic droit, pour éviter de lâcher un autre type de munition par erreur
 
 [*]Modifications du tableau de score:
 [list]
@@ -60,7 +60,7 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [*]Désormais, c'est le clic droit et non plus le gauche qui permettra d'afficher le curseur
 [/list]
 
-[*]Le serveur passe désormais parfois des images d'animation des PNJ pour améliorer les performances
+[*]Le serveur saute désormais parfois des images d'animation des PNJs, pour améliorer les performances
 
 [*]Changements du Workshop côté serveur:
 [list]
@@ -70,7 +70,7 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [*]Affiche désormais le progrès des téléchargements
 [/list]
 
-[*]Les grenades lancées passent désormais à travers les joeurs quand le tir allié est désactivé
+[*]Les grenades lancées passent désormais à travers les joueurs quand le tir allié est désactivé
 
 [*]Mise à jour des fichiers de localisation:
 [list]
@@ -89,24 +89,24 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [*]Correction de la vélocité actuelle qui n'était pas appliquée aux ragdoll des joueurs lors de leurs morts
 [*]Correction d'une duplication des sons de viewmodel lorsqu'en observation à la première personne
 [*]Correction d'une impulsion d'angle extrême lors du lancer de grenades
-[*]Correction des "Objets difficiles à récupérer sur les déclencheurs de progrès d'armes" (#1328)
+[*]Correction des "Objets difficiles à récupérer sur les triggers de progrès d'armes" (#1328)
 [*]Correction d'une "Erreur de KeyValues si la description d'un addon contient des caractères reservés" (#1318)
 [*]Correction d'une erreur faisant que "Le résumé d'objectif prends la priorité sur le résumé d'inventaire" (#1338)
-[*]Correction de "Problèmes de performances causés par les débris de tir/troncçonneuse" (#1291)
-[*]Correction d'un bug faisant que "Des joueurs peuvent pirater un processur de déclencheurs en cours" (#1326)
+[*]Correction de "Problèmes de performances causés par les débris de tir/tronçonneuse" (#1291)
+[*]Correction d'un bug faisant que "Des joueurs peuvent pirater un processus de triggers en cours" (#1326)
 [*]Correction d'un bug faisant que "Des joueurs qui rejoignent la partie tard ne reçoivent pas l'objectif en cours" (#1329)
 [*]Correction d'un bug rare faisant que l'UI des caisses de ravitaillement ne se referme pas
-[*]Correction de la réapparition et du minuteur de départ de round, qui affichaient éronément "0 secondes" restantes
+[*]Correction de la réapparition et du minuteur de départ de round, qui affichaient erronément "0 secondes" restantes
 [*]Correction de faux positifs dans la validation des ensembles de règles
-[*]Correction d'un bug faisant que "La bayonette du SKS touche boîte de collision des zombie" (#913)
+[*]Correction d'un bug faisant que "La baïonnette du SKS touche boîte de collision des zombie" (#913)
 [*]Correction du fait que les spectateurs ne pouvaient pas créer de votes
 [*]Correction des zombies transformés, qui perdaient parfois leurs boîtes de collisions
-[*]Correction de l'IA des zombies, qui cherchaient parfois éronnément une couverture après avoir échoué à chasser un ennemi
+[*]Correction de l'IA des zombies, qui cherchaient parfois erronément une couverture après avoir échoué à chasser un ennemi
 [*]Correction des "Zombies restant immobilisés pendant trop longtemps après une caméra d'extraction" (#1325)
 [/list]
 [h2]Changements pour les mappeurs et les modeurs[/h2]
 [list]
-[*]Ajout de la commande "ruleset_include", fusionannt un nouvel ensemble de règle avec celui actif, remplace les valeurs quand c'est possible
+[*]Ajout de la commande "ruleset_include", fusionnant un nouvel ensemble de règle avec celui actif, remplace les valeurs quand c'est possible
 [*]Ajout de l'entité "ambient_fmod" : Cette entité fonctionne comme "ambient_generic", mais utilise le système de son FMOD pour se jouer, par exemple pour utiliser plusieurs autres formats de son (comme les .ogg)
 [*]Ajout d'une fonctionnalité pour "inclure" des ensembles de règles, créée pour les mutateurs de gameplay
 [*]Ajout d'une surcharge de densité d'apparition définie par carte pour "func_zombie_spawn", pour corriger un bug la réinitialisant au départ d'un round
@@ -117,8 +117,8 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [*]L'entité "point_message_multiplayer" suis désormais un mouvement de parent (#1316)
 [*]Correction de l'entrée de "BecomeCrawler" qui ne fonctionnait pas correctement sur les zombies coureurs
 [*]Correction de l'entrée de "BecomeCrawler" qui transformait les enfants zombies en rampants
-[*]Correction de "mouseclickimage" qui ne fontionnait pas avec les anciens boutons du menu principal
-[*]Restauré et réparé le modèle manquant "hand_truck" qui brisait la compatibilité avec certaines cartes personalisées
+[*]Correction de "mouseclickimage" qui ne fonctionnait pas avec les anciens boutons du menu principal
+[*]Restauré et réparé le modèle manquant "hand_truck" qui brisait la compatibilité avec certaines cartes personnalisées
 [*]Les entités serveur-only peuvent désormais avoir des mouvements parents
 
 [*]VScript:
@@ -174,9 +174,9 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [*]Correction de quelques objets d'objectifs qui pouvaient se bloquer dans certains endroits près du point d'apparition
 [*]Correction d'un camion de pompiers qui ne produisait pas d'ombre
 [*]Correction de plusieurs endroits où les objets d'objectif pouvaient se retrouver bloquer
-[*]Correction de quelques pincequx et accessoires volants
+[*]Correction de quelques brush et accessoires volants
 [*]Retrait des collisions de certains petits accessoires
-[*]Retraitr d'un colis de réapprovisionnement inutilisable
+[*]Retrait d'un colis de réapprovisionnement inutilisable
 [*]Retravail de l'échappée en van
 [*]Modification des clip brushes
 [*]Mise à jour des scripts MapHack pour qu'ils fonctionnent avec les nouveaux .bsp
@@ -190,7 +190,7 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [/list]
 [h3]nmo_suzhou[/h3]
 [list]
-[*]Correction de points d'invincibilité derrière le coumptoir et les portes d'évacuation de la dernière zone
+[*]Correction de points d'invincibilité derrière le comptoir et les portes d'évacuation de la dernière zone
 [/list]
 [h3]nmo_underground[/h3]
 [list]
@@ -202,11 +202,11 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [/list]
 [h3]nmo_zephyr[/h3]
 [list]
-[*]Correction de reflets irréalistes pour la saleté dans les égoûts
+[*]Correction de reflets irréalistes pour la saleté dans les égouts
 [/list]
 [h3]nms_arpley[/h3]
 [list]
-[*]Ajourt d'un hurt_trigger pour le train
+[*]Ajout d'un hurt_trigger pour le train
 [/list]
 [h3]nms_campblood[/h3]
 [list]
@@ -228,4 +228,4 @@ Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automa
 [list]
 [*]Modifications des collisions
 [/list]
-</string><string id="subtitle">Avec deux nouvelles cartes, saupoudré de fonctionnalités, d'améliorations, et d'encore plus de corrections.</string><string id="summary">Monstres, Musique et Plus encore. Quelle meilleure manière de paser Halloween qu'en errant à travers un ancien asile ? Ammenez vos amis et faites la fête comme des fous - une nouvelle mise à jour de contenu pour NMRiH est arrivée !</string><string id="title">NMRiH Hell-o-ween Hellapalooza (Mise à jour 1.13 Sortie)</string></content>
+</string><string id="subtitle">Avec deux nouvelles cartes, saupoudré de fonctionnalités, d'améliorations, et d'encore plus de corrections.</string><string id="summary">Monstres, Musique et Plus encore. Quelle meilleure manière de passer Halloween qu'en errant à travers un ancien asile ? Amenez vos amis et faites la fête comme des fous - une nouvelle mise à jour de contenu pour NMRiH est arrivée !</string><string id="title">NMRiH Hell-o-ween Hellapalooza (Mise à jour 1.13 Sortie)</string></content>
