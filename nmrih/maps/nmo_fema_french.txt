@@ -15,7 +15,7 @@
 	"nmo_fema_objective14"	"Trouvez un explosif pour ouvrir la porte de quarantaine"
 	"nmo_fema_objective15"	"Utilisez la radio pour appeler les secours"
 	"nmo_fema_objective16"	"Coupez le courant de la flaque électrifiée"
-	"nmo_fema_objective17"	"Utilisez la manivelle pour ouvrir la porte vers les specimen"
+	"nmo_fema_objective17"	"Utilisez la manivelle pour ouvrir la porte vers les spécimens"
 	"nmo_fema_objective18"	"Utilisez les détonateurs pour faire exploser la roche"
 	"nmo_fema_objective19"	"Utilisez les détonateurs pour dégager l'éboulement"
 	"nmo_fema_objective20"	"Dé-soudez le verrou de l'échelle"
@@ -38,6 +38,6 @@
 	"nmo_fema_20sec"	"20 secondes avant décontamination."
 	"nmo_fema_10sec"	"10 secondes avant décontamination."
 	"nmo_fema_5sec"		"5 secondes avant décontamination."
-	"nmo_fema_kill"		"Démarrage de la décontamination..."
+	"nmo_fema_kill"		"Début du processus de décontamination..."
 }
 }

@@ -6,7 +6,7 @@
 	"nmo_junction_Street_door"	"Échappez-vous du refuge"
 	"nmo_junction_Break_front"	"Entrez dans le supermarché"
 	"nmo_junction_Turn_off_alarm"	"Éteignez l'alarme anti-effraction"
-	"nmo_junction_Exploding_door"	"Trouvez un moyen d'entrer dans les appartements depuis l'allée
+	"nmo_junction_Exploding_door"	"Trouvez un moyen d'entrer dans les appartements depuis l'allée"
 	"nmo_junction_Use_radio"	"Trouvez un moyen d'appeler à l'aide"
 	"nmo_junction_Weld_door"	"Trouvez un chalumeau pour entrer dans l'entrepôt"
 	"nmo_junction_Pawnshop_fense_door"	"Ouvrez la porte du mont-de-piété"

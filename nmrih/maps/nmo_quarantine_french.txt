@@ -10,7 +10,7 @@
 	"nmo_quarantine_obj_get_sewer_crank"	"Trouvez la manivelle manquante et écopez le local de maintenance !"
 	"nmo_quarantine_obj_leave_sewer"	"Échappez-vous des égouts"
 	"nmo_quarantine_obj_close_gate"	"Fermez la porte de quarantaine pour entrer dans la zone de quarantaine interne !"
-	"nmo_quarantine_obj_waitfordoor"	"Attendez que le rideau métallique s'ouvre"
+	"nmo_quarantine_obj_waitfordoor"	"Attendez que le rideau métallique ne s'ouvre"
 	"nmo_quarantine_obj_enter_sewer"	"Entrez dans les égouts"
 	"nmo_quarantine_obj_enter_inner_quarantine"	"Entrez dans la zone de quarantaine interne avant que les mesures de sécurité de secours ne s'activent !"
 	"nmo_quarantine_obj_use_radio"	"Utilisez la radio !"

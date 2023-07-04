@@ -17,7 +17,7 @@
 	"nmo_shelter_Objective_7_prepre""Détruisez l'obstacle pour accéder aux égouts"
 	"nmo_shelter_Objective_pre9"	"Avancez dans les tunnels"
 	"nmo_shelter_Objective_9"	"Préparez votre voie d'évasion !"
-	"nmo_shelter_lever"		"Quelqu'un utilise le levie !"
+	"nmo_shelter_lever"		"Quelqu'un utilise le levier !"
 	"nmo_shelter_6mins"		"Vous avez 6 minutes pour vous faire extraire !"
 	"nmo_shelter_switch"		"Placez tous les interrupteurs !"
 	"nmo_shelter_end"		"Vous abandonnez l'idée de vivre un autre jour..."

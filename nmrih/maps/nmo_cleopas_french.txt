@@ -6,7 +6,7 @@
 	"nmo_cleopas_ObjA"	"Trouvez de la TNT pour traverser le portail de l'allée"
 	"nmo_cleopas_ObjB"	"Trouvez de la TNT pour traverser le portail de l'allée"
 	"nmo_cleopas_ObjC"	"Trouvez de la TNT pour traverser le portail de l'allée"
-	"nmo_cleopas_ObjZ"	"Suivez l'objectif marqué sur le tableau blanc"
+	"nmo_cleopas_ObjZ"	"Suivez l'objectif écrit sur le tableau blanc"
 	"nmo_cleopas_ObjE"	"Trouvez 4 planches pour traverser l'eau électrifiée"
 	"nmo_cleopas_ObjF"	"Trouver le levier pour fermer l'électricité"
 	"nmo_cleopas_ObjH"	"Utilisez l'échelle pour entrer dans le magasin Samco"
@@ -15,7 +15,7 @@
 	"nmo_cleopas_ObjG"	"Faites exploser le mur de l'allée"
 	"nmo_cleopas_OBjD"	"Passez à travers la maison et ressortez par l'avant"
 	"nmo_cleopas_ObjK"	"Allez à la prochaine allée"
-	"nmo_cleopas_ObjR"	"Trouvez  une pince coupante pour couper le cadenas, vous avez 3 minutes avant votre extraction !"
+	"nmo_cleopas_ObjR"	"Trouvez une pince coupante pour couper le cadenas, vous avez 3 minutes avant votre extraction !"
 	"nmo_cleopas_ObjL"	"Trouvez un chalumeau pour pour ouvrir l'accès à l'allée de derrière"
 }
 }

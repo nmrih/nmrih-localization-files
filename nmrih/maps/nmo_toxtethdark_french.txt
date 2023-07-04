@@ -4,7 +4,7 @@
 "Tokens" 
 {
 	"nmo_toxteth_ObjF"	"Entrez dans le magasin"
-	"nmo_toxteth_ObjE"	"Prenez l'entrée sur le côté du magasin à l'aide d'un chalumeau"
+	"nmo_toxteth_ObjE"	"Empruntez l'entrée sur le côté du magasin à l'aide d'un chalumeau"
 	"nmo_toxteth_ObjD"	"Utilisez de la TNT pour traverser vers le magasin"
 	"nmo_toxteth_ObjC"	"Trouvez un réservoir de carburant pour exploser le mur du jardin"
 	"nmo_toxteth_ObjB"	"Répondez au téléphone"
