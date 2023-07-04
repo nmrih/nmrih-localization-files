@@ -677,7 +677,7 @@
 
 "NGSurvivalExtraction" "Rejoignez le point d'extraction, vite !"
 "NGSurvivalSupply" "Attention, la FEMA vous envoie de l'approvisionnement sur votre position, terminé."
-"NGSurvivalBegin" "Break break, ici la Garde National des États-Unis. Des zones sécurisées se situent dans votre région. Conformément à la Loi Nationale sur les cas de pandémie et à l'initiative Redeker de l'ONU, tenez bon jusqu'à ce que la zone soit nettoyée. Vous serez extraits et emmenés en lieu sûr. Faites votre devoir, terminé."
+"NGSurvivalBegin" "Urgent, ici la Garde National des États-Unis. Des zones sécurisées se situent dans votre région. Conformément à la Loi Nationale sur les cas de pandémie et à l'initiative Redeker de l'ONU, tenez bon jusqu'à ce que la zone soit nettoyée. Vous serez extraits et emmenés en lieu sûr. Faites votre devoir, terminé."
 "NGSurvivalWaveStart" "Une horde de zombies s'approche de votre position ! Préparez-vous !"
 "NGSurvivalZoneA" "La Zone A est attaquée ! Protégez-la !"
 "NGSurvivalZoneB" "La Zone B est attaquée ! Protégez-la !"
