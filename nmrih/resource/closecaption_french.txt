@@ -675,22 +675,22 @@
 
 //Survival mode
 
-"NGSurvivalExtraction" "Rejoignez le point d'extracion, vite !"
-"NGSurvivalSupply" "Attention, la FEMA vous envoie de l'approvisionnement sur votre position, out."
-"NGSurvivalBegin" "Break break, ici la Garde National des Etats-Unis. Des zones sécurisées se situent dans votre région. Conformément à la Loi Nationale sur les cas de pandémie et à l'initiative Redeker de l'ONU, tenez bon jusqu'à ce que la zone soit dégagée. Vous serez extraits et emmenez en lieu sûr. Faîtes de votre mieux, out."
-"NGSurvivalWaveStart" "Une horde de zombies s'approche de votre position ! Soyez prêts !"
-"NGSurvivalZoneA" "Zone A est attaquée ! Protégez-la !"
-"NGSurvivalZoneB" "Zone B est attaquée ! Protégez-la !"
-"NGSurvivalZoneC" "Zone C est attaquée ! Protégez-la !"
-"NGSurvivalZoneD" "Zone D est attaquée ! Protégez-la !"
-"NGSurvivalZoneE" "Zone E est attaquée ! Protégez-la !"
-"NGSurvivalZoneF" "Zone F est attaquée ! Protégez-la !"
-"SafeZone.Killed" "[ZONE DE SECURITE PERDUE, PROTEGEZ LES ZONES RESTANTES OU LES MILITAIRES PARTIRONT]"
+"NGSurvivalExtraction" "Rejoignez le point d'extraction, vite !"
+"NGSurvivalSupply" "Attention, la FEMA vous envoie de l'approvisionnement sur votre position, terminé."
+"NGSurvivalBegin" "Break break, ici la Garde National des États-Unis. Des zones sécurisées se situent dans votre région. Conformément à la Loi Nationale sur les cas de pandémie et à l'initiative Redeker de l'ONU, tenez bon jusqu'à ce que la zone soit nettoyée. Vous serez extraits et emmenés en lieu sûr. Faites votre devoir, terminé."
+"NGSurvivalWaveStart" "Une horde de zombies s'approche de votre position ! Préparez-vous !"
+"NGSurvivalZoneA" "La Zone A est attaquée ! Protégez-la !"
+"NGSurvivalZoneB" "La Zone B est attaquée ! Protégez-la !"
+"NGSurvivalZoneC" "La Zone C est attaquée ! Protégez-la !"
+"NGSurvivalZoneD" "La Zone D est attaquée ! Protégez-la !"
+"NGSurvivalZoneE" "La Zone E est attaquée ! Protégez-la !"
+"NGSurvivalZoneF" "La Zone F est attaquée ! Protégez-la !"
+"SafeZone.Killed" "[ZONE SÛRE PERDUE, PROTEGEZ LES ZONES RESTANTES OU LES MILITAIRES PARTIRONT]"
 "Wave.Complete" "[VAGUE TERMINEE]"
-"NMRPlayer.TokenEarned" "[TICKET DE RESPAWN GAGNE]"
-"NMRPlayer.TokenDenied" "[TICKETS DE RESPAWN INUTILISES RETIRES]"
-"NMRPlayer.TokenUsed" "[TICKET DE RESPAWN UTILISE]"
-"Wave.LowZombies" "[PREPAREZ-VOUS POUR PROCHAINE VAGUE]"
+"NMRPlayer.TokenEarned" "[TICKET DE RÉAPPARITION GAGNÉ]"
+"NMRPlayer.TokenDenied" "[TICKETS DE RÉAPPARITION INUTILISÉS RETIRÉS]"
+"NMRPlayer.TokenUsed" "[TICKET DE RÉAPPARITION UTILISÉ]"
+"Wave.LowZombies" "[PRÉPAREZ-VOUS POUR PROCHAINE VAGUE]"
 
 }
 }
