@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<content><string id="body">Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automatiquement appliquée lorsque vous redémarrerz No More Room in Hell. Les changements majeurs incluent :
+<content><string id="body">Une mise à jour de No More Room in Hell est sortie. La mise à jour sera automatiquement appliquée lorsque vous redémarrez No More Room in Hell. Les changements majeurs incluent :
 
 [h2]Changements[/h2]
 [list]
-[*]Amélioration gloable de la détection des coups en mêlée, les entités proches peuvent maintenant êtres frappées avec plus de fiabilité
+[*]Amélioration globale de la détection des coups en mêlée, les entités proches peuvent maintenant êtres frappées avec plus de fiabilité
 [*]Les impacts de mêlée ne font plus apparaître de graffiti ni de débris
 [*]Les coups en mêlée peuvent maintenant atteindre plusieurs entités à la fois
 [*]La liste des mutateurs est désormais triée par titre
-[*]Réduction du délai supplémentaire entre les poussages du SKS à bayonette (1.5s -&gt; 0.5s)
+[*]Réduction du délai supplémentaire entre les poussages du SKS à baïonnette (1.5s -&gt; 0.5s)
 [*]Annulation du précédent changement : le label "MORT" du tableau de score redevient "DÉCÉDÉ"
 [*]Les erreurs de messages côté serveur du Workshop sont maintenant plus descriptifs
 
@@ -22,29 +22,29 @@
 [list]
 [*]Correction d'un crash commun sur Linux lorsqu'un succès est gagné
 [*]Correction du son de mort se jouant lors d'une mort par déconnexion
-[*]Correction des morts par déconnexion affectant le progès du succès "On l'a Fait !"
+[*]Correction des morts par déconnexion affectant le progrès du succès "On l'a Fait !"
 [*]Correction de l'entité "ambient_fmod", qui jouait tous les sons actifs lors de la connexion du client
 [*]Correction de l'entité "point_message_multiplayer" qui ne mettait pas toujours à jour sa position en suivant des entités
 [*]Correction de l'événement "zombie_shoved" qui se déclenchait en poussant des joueurs
 [*]Correction d'un crash du système de son FMOD en changeant de niveau (#1363)
-[*]Correction de l'inconsistence du facteur de volume entre la musique et les sons d'ambiance FMOD
+[*]Correction de l'inconsistance du facteur de volume entre la musique et les sons d'ambiance FMOD
 [*]Correction des indices d'instructeur qui s'affichaient globalement sur des entités-cibles dormantes
-[*]Correction de la localisation des cartes qui ne se tournait pas vers l'anglais par défaut quand les chaaînes de caractères manquaient pour le langage choisi
-[*]Correction des mutateus qui n'étaient pas appliqués au redémarrage d'un serveur en écoute (#1361)
+[*]Correction de la localisation des cartes qui ne se tournait pas vers l'anglais par défaut quand les chaînes de caractères manquaient pour le langage choisi
+[*]Correction des mutateurs qui n'étaient pas appliqués au redémarrage d'un serveur en écoute (#1361)
 [*]Correction des mutateurs qui n'étaient pas rechargés lors d'un changement de niveau
 [*]Correction d'éléments qui se superposaient dans les dialogues d'options
 [*]Correction d'un rare crash qui survenait lorsqu'un joueur qui utilisait une caisse de ravitaillement quittait la partie
 [*]Correction du texte du tableau de score qui était tronqué sur les écrans de faibles résolutions
 [*]Correction des noms de serveurs qui étaient tronqués sur le tableau de score
 [*]Correction de plusieurs problèmes avec l'entité "ambient_fmod"
-[*]Correction du son de poignardement du SKS à bayonette qui se jouait en frappant autre chose qu'un zombie ou un joueur
+[*]Correction du son de poignardement du SKS à baïonnette qui se jouait en frappant autre chose qu'un zombie ou un joueur
 [*]Correction des caisses de ravitaillement qui se retrouvaient bloquées en position d'ouverture quand le joueur qui l'utilisait mourrait ou se déconnectait
-[*]Correction de l'UI des caisses de ravitaillement qui ne se fermait pas au lancement d'une démo
+[*]Correction de l'UI des caisses de ravitaillement qui ne se fermaient pas au lancement d'une démo
 [/list]
 [h2]Changement pour les mappeurs et les modeurs[/h2]
 [list]
-[*]Ajout de l'entité "env_timer", a timer sur le HUD avec des contrôles similaires à un chronomètre
-[*]Ajout de l'entité filtre "filter_activator_player_infection", qui valide quand un joueur est infecté, ou optionellement quand l'activateur n'est pas un joueur
+[*]Ajout de l'entité "env_timer", un minuteur sur le HUD avec des contrôles similaires à un chronomètre
+[*]Ajout de l'entité filtre "filter_activator_player_infection", qui valide quand un joueur est infecté, ou optionnellement quand l'activateur n'est pas un joueur
 [*]Ajout de la prise en charge des filtres pour l'entité "env_explosion"
 [*]Ajout de l'entrée "ToggleSound" à l'entité "ambient_fmod"
 [*]Ajout de l'entrée "SetCauser" aux entités, définit qui prends crédit pour une mort infligée (par exemple depuis "trigger_hurt")
@@ -55,42 +55,42 @@
 
 [h3]nmo_asylum[/h3]
 [list]
-[*]Ajouts d'audio additionnel
-[*]Ajout d'un point de réapparition alternatif pour un meilleur équilibrage des chemins d'objectif
+[*]Ajouts d'audios additionnels
+[*]Ajout d'un point de réapparition alternatif pour un meilleur équilibrage des routes d'objectif
 [*]Ajout de chemins alternatifs pour passer outre la plupart des goulets d'étranglements qui résulteraient en des "Bouchons Zombies"
 [*]Ajout de clipping pour lisser certains escaliers, correction de points d'invincibilité dans la dernière partie de la carte et retrait de la possibilité pour les objets d'objectif de se retrouver bloqués à certains endroits
 [*]Ajout de plus de panneaux
 [*]Ajout de plus de trucs flippants !
-[*]La Cheeky Foot Door se débloque désormais si vous obtenez l'apparition spéciale Foot. Plus besoin de regarder inlassablement les piedsa que vous ne pouvez atteindre.
+[*]La "Cheeky Foot Door" se débloque désormais si vous obtenez l'apparition spéciale "Foot". Plus besoin de regarder inlassablement les pieds que vous ne pouvez atteindre.
 [*]Exorcisme de la Bombe Fantôme
 [*]La première moitié de la carte a été simplifiée en se basant sur le chemin d'objectif pour être plus facilement navigable, et avoir moins de cul-de-sacs
 [*]Correction des collisions sur beaucoup, beaucoup d'objets
 [*]Correction d'un audio difficilement audible dans la dernière partie de la carte
 [*]Amélioration des performances dans la Cour
-[*]Amélioration de l'apparition des zomvies dans la dernière partie de la carte et réduction du nombre de coureurs dans la cour d'environ 20%, mais j'ai bien peurs que vous soyez toujours à la merci de la logique d'apparition aléatoire ici, donc vous ne verrez peut-être pas de différence si vous n'avez pas de bol
+[*]Amélioration de l'apparition des zombies dans la dernière partie de la carte et réduction du nombre de coureurs dans la cour d'environ 20%, mais j'ai bien peur que vous ne soyez toujours à la merci de la logique d'apparition aléatoire ici, donc vous ne verrez peut-être pas de différence si vous n'avez pas de bol
 [*]Réajustement de la santé de la viande et de la durée de la dernière partie de la carte pour un plus grand défi
 [*]Remplacement d'un nombre significatif de "Fausses Portes" par de vraies fausses portes, pour améliorer la navigation
-[*]Retravail de la lumière du dortoire pour qu'elle soit moins ennuyante, amélioration générale de la lumière sur la carte
+[*]Retravail de la lumière du dortoir pour qu'elle soit moins ennuyante, amélioration générale de la lumière sur la carte
 [*]Retravail de la logique d'apparition lors de la dernière partie de la carte pour avoir beaucoup moins de coureurs
-[*]Les points de blocage sur les clefs, les pierres tombales et la zone du bureau de la réception. Accessoires de la taille de fourmis retirés, désolé petites fourmis
+[*]Retrait des points de blocage sur les clefs, les pierres tombales et la zone du bureau de la réception. Accessoires de la taille de fourmis retirés, désolé petites fourmis
 [*]Mise à jour de la grille de navigation pour rendre les zombies moins idiots
 [*]Multiples améliorations de détails et diverses corrections de bugs
-[*]Vous pouvez désormais sauver le melon, sincères excuses aux équipes de sauvetage de melons pour cette erreur d'inattention
+[*]Vous pouvez désormais sauver le melon, sincères excuses aux équipes de sauvetage de melons pour cette oubli
 [/list]
 [h3]nmo_fema[/h3]
 [list]
-[*]Remplacement de la musique d'ambience d'extérieur pour une ambiende de "pièce"
+[*]Remplacement de la musique d'ambiance d'extérieur pour une ambiance de "pièce"
 [*]Légère modification de la route d'objectif "Pump it"
 [/list]
 [h3]nms_arpley[/h3]
 [list]
-[*]Correction de la vague de fin, qui était la mauvaise
+[*]Correction de la vague de fin, qui était mauvaise
 [/list]
 [h3]nms_laundry[/h3]
 [list]
 [*]Extension du temps d'extraction
 [*]Correction des zombies, qui restaient parfois bloqués dans une ruelle d'apparition étroite (extension de la zone jouable, même s'ils sont bloqués, les joueurs peuvent les tuer avec des armes de mêlée)
-[*]Les meurtres par mines sont désormais créditées au joueur ayant rammassé la mine concernée
+[*]Les meurtres par mines sont désormais créditées au joueur ayant ramassé la mine concernée
 [*]Les mines ne font désormais plus de dégâts aux joueurs (sauf s'ils sont infectés)
 [*]Réduction de la durée de la sirène de 4 minutes à 1 minute
 [*]Remplacement des icônes "alerte" pour l'objectif "couper la corde" par l'icône "utiliser clef"
