@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nms_notld_title"	"La Nuit des Morts-Vivants"
+}
+}

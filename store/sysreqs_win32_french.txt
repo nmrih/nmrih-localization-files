@@ -1,0 +1,10 @@
+[b]Minimum :[/b]
+[list][*][b]Système d'Exploitation :[/b] Windows® Vista ou mieux
+    [*][b]Processor:[/b] Processeur Dual core 2.4 GHz ou mieux
+    [*][b]Mémoire :[/b] 2 Go de RAM
+    [*][b]Graphismes :[/b] Radeon HD 5000 Series ou nVidia GeForce 200 series ou mieux
+    [*][b]DirectX® :[/b] 9.0c
+    [*][b]Disque Dur :[/b] 10 Go d'espace disque
+    [*][b]Sons :[/b] Son compatible DirectX 9.0c
+    [*][b]Autres Besoins :[/b] Souris, Clavier, Connexion Internet haut débit avec au moins 5Mb/s montant/descendant
+[/list]
