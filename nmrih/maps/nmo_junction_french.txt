@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_junction_Street_door"	"Échappez-vous du refuge"
+	"nmo_junction_Break_front"	"Entrez dans le supermarché"
+	"nmo_junction_Turn_off_alarm"	"Éteignez l'alarme anti-effraction"
+	"nmo_junction_Exploding_door"	"Trouvez un moyen d'entrer dans les appartements depuis l'allée"
+	"nmo_junction_Use_radio"	"Trouvez un moyen d'appeler à l'aide"
+	"nmo_junction_Weld_door"	"Trouvez un chalumeau pour entrer dans l'entrepôt"
+	"nmo_junction_Pawnshop_fense_door"	"Ouvrez la porte du mont-de-piété"
+	"nmo_junction_pawnshop_door_code"	"Entrez les codes d'accès"
+	"nmo_junction_Office_progress"	"Trouvez une autre sortie au bâtiment"
+	"nmo_junction_Find_sewer_key"	"Trouvez la clef des égouts et échappez-vous de la ville pour de bon"
+	"nmo_junction_Finale_tnt"	"Placez trois explosifs dans le tunnel pour assurer votre fuite"
+}
+}

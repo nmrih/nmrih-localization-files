@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_zephyr_objective1_leavebuilding"	"Trouvez le code et échappez-vous du bâtiment"
+	"nmo_zephyr_objective2_blowwarehouse"	"Trouvez un moyen d'accéder à l'entrepôt"
+	"nmo_zephyr_objective2a_sewertime"	"Trouvez un outil pour forcer l'ouverture de la trappe"
+	"nmo_zephyr_objective2b_blowtorchsewer"	"Faites fondre la grille à l'aide d'un chalumeau"
+	"nmo_zephyr_objective3_warehouseelevator"	"Activez l'ascenseur et montez à l'étage"
+	"nmo_zephyr_objective4_pickupwalkie"	"Ramassez le talkie-walkie"
+	"nmo_zephyr_objective5a_2710"	"Le code de la porte est 2710"
+	"nmo_zephyr_objective5d_powerup"	"Trouvez du carburant pour le générateur"
+	"nmo_zephyr_Objective5b_2606"	"Le code de la porte est 2606"
+	"nmo_zephyr_Objective5c_1901"	"Le code de la porte est 1901"
+	"nmo_zephyr_objective6_activate"	"Activez la plaque tournante"
+	"nmo_zephyr_objective6a_unclog"	"Décoincez le mécanisme de la plaque tournante"
+	"nmo_zephyr_objective7_switch1"	"Actionnez le commutateur derrière la locomotive"
+	"nmo_zephyr_objective8_switchdasequel"	"Actionnez l'autre commutateur"
+	"nmo_zephyr_objective9_brakes"	"Lâchez les freins"
+	"nmo_zephyr_objective10_allaboard"	"Appelez l'ingénieur avec la radio quand vous serez prêt"
+}
+}

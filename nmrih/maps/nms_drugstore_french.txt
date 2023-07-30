@@ -1,0 +1,9 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nms_drugstore_mes1"	"Trouvez 2 feuilles de contreplaqué près des bâtons lumineux rouges pour barricader cette fenêtre."
+	"nms_drugstore_mes2"	"Vous pouvez désormais utiliser le marteau à barricades sur la fenêtre cassée."
+}
+}

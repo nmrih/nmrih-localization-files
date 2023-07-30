@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_underground_Open_The_Door"	"Trouvez un moyen d'ouvrir la porte !"
+	"nmo_underground_Fence_Welder"	"Utilisez le chalumeau sur la grille !"
+	"nmo_underground_Find_Dinamite"	"Trouvez de la dynamite et faites exploser le mur !"
+	"nmo_underground_Elevator"	"Activez l'ascenseur !"
+	"nmo_underground_Last_Objective"	"Utilisez tous les objets que vous avez trouvé !"
+	"nmo_underground_HelicopterCome"	"Attendez l'hélicoptère !"
+	"nmo_underground_PushTheCart"	"Poussez le chariot !"
+	"nmo_underground_LootSmokeGrenade"	"Récupérez une grenade fumigène !"
+	"nmo_underground_FindCodeLootPaint"	"Cherchez un code dans le bâtiment de bureaux et récupérez une boîte de peinture !"
+	"nmo_underground_LootCarBattery"	"Récupérez une batterie de voiture !"
+	"nmo_underground_LootPaint"	"Récupérez une boîte de peinture !"
+	"nmo_underground_plugs"		"Connectez les prises !"
+	"nmo_underground_car"		"Poussez la voiture !"
+	"nmo_underground_sos"		"Dessinez un \"SOS\" !"
+	"nmo_underground_gen"		"Activez le générateur !"
+}
+}

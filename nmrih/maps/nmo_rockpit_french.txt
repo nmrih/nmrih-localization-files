@@ -1,0 +1,28 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_rockpit_obj_lever"	"Attachez un levier de rechange à l'ascenseur"
+	"nmo_rockpit_obj_fubar"	"Forcez l'ouverture des portes de l'ascenseur"
+	"nmo_rockpit_obj_shed"	"Trouvez une clef pour entrer dans l'atelier"
+	"nmo_rockpit_obj_van"	"Entrez dans le van FastEx et échappez-vous !"
+	"nmo_rockpit_obj_survive"	"Survivez !"
+	"nmo_rockpit_obj_heli"	"Faites-vous extraire par l'hélicoptère !"
+	"nmo_rockpit_obj_start"	"Ouvrez le portail avec un chalumeau"
+	"nmo_rockpit_obj_panel"	"Utilisez les commandes de la salle de contrôle, ouvrez l'accès B"
+	"nmo_rockpit_obj_esc"	"Échappez-vous vers la surface !"
+	"nmo_rockpit_obj_gen_normal"	"Rebranchez le courant de l'ascenseur"
+	"nmo_rockpit_obj_radio"	"Appelez à l'aide, utilisez la radio à l'étage"
+	"nmo_rockpit_obj_carbattery"	"Utilisez la batterie pour ouvrir la porte d'entrée, préparez-vous à la fuite"
+	"nmo_rockpit_obj_fire"	"Trouvez un extincteur et éteignez le feu"
+	"nmo_rockpit_obj_elec"	"Trouvez 3 planches pour traverser la flaque d'eau électrifiée"
+	"nmo_rockpit_obj_barrier"	"Utilisez un jerrycan pour détruire la barricade"
+	"nmo_rockpit_obj_tunnel"	"Trouvez un autre chemin à travers les tunnels de maintenance"
+	"nmo_rockpit_obj_gen_underground"	"Rebranchez le courant de l'ascenseur"
+	"nmo_rockpit_obj_moving"	"Frayez-vous un chemin vers le portail"
+	"nmo_rockpit_obj_siren"	"Activez une sirène pour signalez votre position"
+	"nmo_rockpit_entervan"	"Vous avez 2 minutes pour entrer dans le van avant de vous faire déborder."
+	"nmo_rockpit_rescue"	"Les secours sont désormais à votre recherche ! Préparez-vous."
+}
+}
