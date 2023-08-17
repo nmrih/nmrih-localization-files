@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell 更新發布，只要重新啟動即可自動更新遊戲，更新的主要變更有：
+
+[h2]新增[/h2]
+[list]
+[*]新增在玩家物品欄裝不下的情況下拿起彈藥的能力
+[*]新增控制台參數 "cl_melee_impact_effects" 以啟用 / 停用近戰武器撞擊粒子效果
+[/list]
+[h2]更動[/h2]
+[list]
+[*]減少電鋸在人物身上的撞擊特效 (#1414)
+[*]壓縮雜項材質貼圖減少遊戲安裝占用容量
+[*]移除「危害物質專隊」成就的好友需求，新的目標是「與 6 名以上的玩家一同殺死 500 個殭屍」
+[*]在 Steam Deck 以 Linux runtime 執行時顯示相容性警告
+[*]下載使用者頭像時顯示讀取轉圈
+
+[*]更新在地化檔案：
+[list]
+
+[*]感謝社群翻譯者：[b]Blueberryy, BloodyMoonlight, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]想要為 NMRiH 在地化你的語言嗎？ [url=https://github.com/nmrih/nmrih-localization-files]造訪我們在 GitHub 上的在地化存儲庫。[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[list]
+[*]修正中央輸出文字換行的對齊
+[*]修正 ambient_fmod 的 "Play everywhere" flag 使用實體的聲音源頭 (#1426)
+[*]修正武裝殭屍生成規則對 "npc_nmrih_runnerzombie" 沒有影響 (#1432)
+[*]修正車輛模型造成客戶端崩潰 (#1436)
+[*]修正聊天字型陰影沒有完全顯示透明
+[*]修正主要霧氣控制被移除時會使加入遊戲的玩家崩潰
+[*]修正一些物件上過度嚴重的撞擊特效 (#1421)
+[*]修正工作坊發布工具錯誤的「無效 BSP」錯誤 (#1416)
+[*]修正玩家在過場鏡頭中出生會變無敵的問題 (#1411)
+[*]修正近身武器軌跡忽略物件與牆壁 (#1415)
+[*]修正渲染時的些許效能問題
+[*]修正修改器視窗若被開啟後關閉了「創建遊戲」視窗顯示空列表
+[*]修正觀察者目標視角沒有未用使用者設定
+[*]修正指向訊息文字沒有置中對齊
+[*]修正指向訊息經常更新後顯示垃圾輸出
+[*]修正 "game_ui" 實體可能造成的崩潰
+[*]修正多個著色器（Shader）向未定義基本材質請求數值
+[*]修正「技術射擊」材質貼圖沒有預先快取
+[/list]
+[h2]為地圖模組製作進行的更動[/h2]
+[list]
+[*]新增控制台參數 "sv_ignore_win_loss_state"，避免回合在勝利或失敗時結束，可用於自訂遊戲模式
+[*]新增數個 Hammer 遊戲資料的實體，包含有模型 / 外觀選擇器的 "generic_actor" 還有預設橋段（Scripted sequences）
+[*]新增表面屬性 "bouncyball"
+[*]清除 Hammer 遊戲資料中未使用的實體
+[*]實體 "point_message_multiplayer" 現在可以 Keyvalue 改變屬性
+[*]下列實體將不再需要 edicts：env_instructor_hint, env_timer, game_text, logic_progress, logic_script, player_speedmod, point_message_multiplayer, scripted_sequence
+[*]以可調整範圍擴大實體 "prop_sphere"
+[*]改良實體 "point_message_multiplayer"，文字現在能夠不顫抖地跟隨父（Parent）移動，且高度偏移量可以更改
+[*]MapHack：修正 $remove 伺服器端崩潰 (#1425)
+[*]MapHack：在可能造成危險的功能中限制不安全的實體
+[*]更新 "trigger_hurt" 傷害類型使其與 Hammer 中的 NMRiH 控制吻合
+[*]更新 VPhysics clip 編輯器貼圖
+[*]VScript：新增 CNavMesh 介面以及 CScriptNavArea 類別（Class）
+[*]VScript：新增 CNMRiH_BaseZombie::GetShoved()
+[*]VScript：新增 CNMRiH_WeaponBase 功能 SetViewModelOverride() 與 ClearViewModelOverride()
+[/list]
+[h2]為伺服器管理者進行的更動[/h2]
+[list]
+[*]新增控制台參數 "sv_vote_initial_delay"，以秒為單位設定地圖開始後可以開始發起投票的時間 (#1431)
+[*]新增 Network 控制台參數控制，新增項目為 "sv_net_maxcleartime_override" 和 "sv_net_splitrate_override"
+[/list]
+[h1]地圖[/h1]
+
+[h3]所有地圖[/h3]
+[list]
+[*]修正指導提示跟隨與物件互動過的玩家
+[/list]
+[h3]nmo_boardwalk[/h3]
+[list]
+[*]微調裁切
+[*]修正蹣步殭屍在「活下去」目標中卡在窗戶的問題
+[/list]
+[h3]nmo_broadway2[/h3]
+[list]
+[*]微調 VPhysics 裁切
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]修正西瓜不屬於碎片（debris）
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]增加一些 VPhysics 裁切
+[*]為快速通關轉動二樓玩家出生點
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]對藤蔓的貼圖做細微的調整
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]在內隔離區餐廳新增應當被看見的屋頂及其細節
+[*]在停在墓園的 FastEx 貨車附近增加幾個箱子，以利玩家攀爬至高處翻越可能阻塞通道的殭屍
+[*]在下水道可能使目標道具遺失的幾處區域增加 VPhysics 裁切（限制物理碰撞空間）
+[*]增加幾顆西瓜
+[*]卡住一扇門，拜託別打開
+[*]修正拿起對講機時的一個錯誤，玩家能夠無限制觸發士兵的對話，震碎所有人的耳膜
+[*]修正下水道入口處的一個小小的渲染問題
+[*]修正許多 Displacement（凹凸表面）的背面春光乍洩的問題
+[*]修正出生點可破壞的木板上的紅色 X 無法正確顯示
+[*]修正公園裡可被看見的 nodraw（無運算材質）
+[*]在整張地圖進行一段最佳化作業
+[*]降低 Skybox 裡一棟煞我風景的大樓，它從某些角度可以看出騰空破綻
+[*]玩家現在能跳上自助洗衣店巷子裡的垃圾箱
+[*]移除一個阻礙正常設計路線的 Clip brush
+[*]自助洗衣店巷子裡的垃圾箱起火燃燒了
+[*]內隔離區的火焰現在進入了人耳聽力範圍
+[*]微調 Nav mesh（導航網格）降低殭屍卡在某些位置的機率
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]在許多佈景物件上增加淡出距離
+[*]修正地面火焰粒子偶爾會看不見
+[*]修正一些無效的 Brush
+[*]改善地面房屋內殭屍的路徑
+[*]其他些許的最佳化與修正
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]微調裁切
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]增加一些佈景物件
+[*]微調 VPhysics 裁切
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]降低火車對玩家造成的傷害避免人被秒殺
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]增加螢光棒讓玩家的疏散點更加明顯
+[*]將無法使用的梯子佈景改為折疊梯避免誤導玩家
+[/list]
+[h3]nms_isolated[/h3]
+[list]
+[*]一些調整
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]在 A 區新增電力陷阱
+[*]增加一些細節
+[*]在 B 區新增提燈
+[*]將一些隨機生成點的 ammo_min（彈藥最小量）範圍參數從 0 更改為 10 以避免產出空的彈藥盒
+[*]一些調整
+[*]將火焰噴射器由 A 區移往 B 區
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]在火車上增加傷害觸發避免火車被卡死害其他玩家無法逃脫
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">更新 1.13.3 釋出</string></content>
