@@ -55,7 +55,7 @@
 [*]MapHack：修正 $remove 伺服器端崩潰 (#1425)
 [*]MapHack：在可能造成危險的功能中限制不安全的實體
 [*]更新 "trigger_hurt" 傷害類型使其與 Hammer 中的 NMRiH 控制吻合
-[*]更新 VPhysics clip 編輯器貼圖
+[*]更新 VPhysics 裁切在編輯器中的貼圖
 [*]VScript：新增 CNavMesh 介面以及 CScriptNavArea 類別（Class）
 [*]VScript：新增 CNMRiH_BaseZombie::GetShoved()
 [*]VScript：新增 CNMRiH_WeaponBase 功能 SetViewModelOverride() 與 ClearViewModelOverride()
@@ -104,11 +104,11 @@
 [*]修正下水道入口處的一個小小的渲染問題
 [*]修正許多 Displacement（凹凸表面）的背面春光乍洩的問題
 [*]修正出生點可破壞的木板上的紅色 X 無法正確顯示
-[*]修正公園裡可被看見的 nodraw（無運算材質）
+[*]修正公園裡可被看見的 Nodraw（無運算材質）
 [*]在整張地圖進行一段最佳化作業
 [*]降低 Skybox 裡一棟煞我風景的大樓，它從某些角度可以看出騰空破綻
 [*]玩家現在能跳上自助洗衣店巷子裡的垃圾箱
-[*]移除一個阻礙正常設計路線的 Clip brush
+[*]移除一個阻礙正常設計路線的裁切 Brush
 [*]自助洗衣店巷子裡的垃圾箱起火燃燒了
 [*]內隔離區的火焰現在進入了人耳聽力範圍
 [*]微調 Nav mesh（導航網格）降低殭屍卡在某些位置的機率
