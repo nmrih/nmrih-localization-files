@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[h2]Additions[/h2]
+[list]
+[*]Added ability to lift ammo when it doesn't fit in player's inventory
+[*]Added cvar "cl_melee_impact_effects" to enable / disable melee impact particles
+[/list]
+[h2]Changes[/h2]
+[list]
+[*]Reduced chainsaw impact effects on characters (#1414)
+[*]Reduced game installation size by compressing misc. textures
+[*]Removed friends requirement from the achievement "HAZMAT Team", new goal is "Kill 500 zombies with 6 or more players"
+[*]Show compatibility warning when playing with Linux runtime on Steam Deck
+[*]Show loading spinner while downloading user avatar
+
+[*]Updated the localization files:
+[list]
+
+[*]With thanks to community translators: [b]Blueberryy, BloodyMoonlight, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]Want to localize NMRiH to your own language? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed alignment when using line breaks on center print text
+[*]Fixed ambient_fmod's "Play everywhere" flag using entity's sound origin (#1426)
+[*]Fixed armored zombie spawn rule having no effect on "npc_nmrih_runnerzombie" (#1432)
+[*]Fixed car model crashing clients (#1436)
+[*]Fixed chat font drop shadow not being fully opaque
+[*]Fixed crash on player join when the main fog controller gets removed
+[*]Fixed excessive impact effects on some props (#1421)
+[*]Fixed false "Invalid BSP" error in Workshop Publisher (#1416)
+[*]Fixed god mode if player spawns mid-cinematic (#1411)
+[*]Fixed melee traces ignoring objects and walls (#1415)
+[*]Fixed minor performance issues during rendering
+[*]Fixed mutator dialog displaying an empty list when leaving it open and closing the "create game" panel
+[*]Fixed observer target FOV not using user settings
+[*]Fixed point message text not aligning to center
+[*]Fixed point messages displaying garbage output when updated often
+[*]Fixed potential crash with "game_ui" entity
+[*]Fixed several shaders requesting values for undefined base textures
+[*]Fixed skillshot material not being precached
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added cvar "sv_ignore_win_loss_state", prevents round from ending on win / loss, useful for custom game modes
+[*]Added several entities to Hammer game data, including "generic_actor" with model / skin selector, and scripted sequences
+[*]Added surface prop "bouncyball"
+[*]Cleaned up unused entities in Hammer game data
+[*]Entity "point_message_multiplayer" now allows properties to be changed by keyvalues
+[*]Following entities no longer require edicts: env_instructor_hint, env_timer, game_text, logic_progress, logic_script, player_speedmod, point_message_multiplayer, scripted_sequence
+[*]Extended entity "prop_sphere" with customizable radius
+[*]Improved entity "point_message_multiplayer", text now follows movement parent smoothly without jitter, and height offset can be changed
+[*]MapHack: Fixed $remove server crash (#1425)
+[*]MapHack: Restricted unsafe entities in potentially dangerous functions
+[*]Updated "trigger_hurt" damage types to match NMRiH overrides in Hammer
+[*]Updated VPhysics clip editor texture
+[*]VScript: Added CNavMesh interface and CScriptNavArea class
+[*]VScript: Added CNMRiH_BaseZombie::GetShoved()
+[*]VScript: Added CNMRiH_WeaponBase functions SetViewModelOverride() and ClearViewModelOverride()
+[/list]
+[h2]Changes for server admins[/h2]
+[list]
+[*]Added cvar "sv_vote_initial_delay", sets time in seconds before first vote can be called after map start (#1431)
+[*]Added network cvar overrides, new additions are "sv_net_maxcleartime_override" and "sv_net_splitrate_override"
+[/list]
+[h1]Maps[/h1]
+
+[h3]All maps[/h3]
+[list]
+[*]Fixed hint instructors following players who interracted with objectives
+[/list]
+[h3]nmo_boardwalk[/h3]
+[list]
+[*]Tweaked clips
+[*]Fixed zombie shamblers getting stuck in windows during "Survive" objective
+[/list]
+[h3]nmo_broadway2[/h3]
+[list]
+[*]Tweaked VPhysics clips
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]Fixed watermelon not being "debris"
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Added few VPhysics clips
+[*]Rotated player spawn on the second floor for speedrunners
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]Little tweak for the ivy texture
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Added a roof to the diner inside the inner quarantine since it was visible, as well as some additional detail
+[*]Added boxes near the graveyard FastEx truck that players can use to boost on top of zombies potentially blocking the chokepoint
+[*]Added VPhysics clipping to areas in the sewers where objective items could be lost
+[*]Added watermelons
+[*]Braced a door, please do not open it
+[*]Fixed a bug where upon grabbing the walkie talkie, players could infinitely trigger the soldier's dialogue and destroy everyone's eardrums
+[*]Fixed a minor rendering hiccup at the beginning of the sewers
+[*]Fixed multiple instances where backside of displacements were visible
+[*]Fixed the red X not properly rendering atop the breakable plywood at spawn
+[*]Fixed visible nodraw in the Park
+[*]Large optimization pass throughout the entire map
+[*]Lowered a building in the skybox that was ruining my immersion, visibly floating in the air at certain angles
+[*]Players can now get on top of the dumpster in the laundromat alley
+[*]Removed a clip brush impeding intentional design
+[*]The dumpster in the laundromat alley is on fire
+[*]The fire in the inner quarantine is now within the audible spectrum
+[*]Tweaked the nav mesh to reduce the chances of zombies getting stuck in certain locations
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Added fade out distances to a lot of props
+[*]Fixed the surface fire particles sometimes appearing invisible
+[*]Fixed invalid brushes
+[*]Improved zombie navigation in the surface building
+[*]Other minor optimizations and fixes
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Tweaked clips
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Added few props
+[*]Tweaked VPhysics clips
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Reduced train damage to players to prevent an instant kill
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]Added glowsticks to make it more clear where players need to extract
+[*]Replaced unusable ladder prop with a step ladder to prevent any confusion
+[/list]
+[h3]nms_isolated[/h3]
+[list]
+[*]Misc. tweaks
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]Added electric trap for zone A
+[*]Added few details
+[*]Added kerosine lamp to zone B
+[*]Changed ammo_min "0" parameter value to "10" on random spawners to prevent the spawning of "empty" ammoboxes
+[*]Misc. tweaks
+[*]Moved flamethrower from zone A to zone B
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]Added hurt trigger to train to prevent it being blocked and not letting other players to extract
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.3 Released</string></content>
