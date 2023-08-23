@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nms_silence_truck"	"Le camion arrive ! Préparez-vous !"
+}
+}

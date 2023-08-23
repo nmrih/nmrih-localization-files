@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_cabin_objStart"	"Évadez-vous du grenier"
+	"nmo_cabin_ObjA"	"Trouvez les clefs pour déverrouiller la porte"
+	"nmo_cabin_ObjB"	"Brisez les planches pour avancer"
+	"nmo_cabin_ObjC"	"La famille est la clef. Trouvez le livre secret"
+	"nmo_cabin_ObjD"	"Ouvrez le portail d'escalier"
+	"nmo_cabin_ObjE"	"Faites exploser le mur de la cabane"
+	"nmo_cabin_ObjF"	"Mettez le livre dans un étagère"
+	"nmo_cabin_ObjG"	"Passez au chalumeau à travers la porte de la cuisine"
+	"nmo_cabin_ObjH"	"Reconnectez le câble du télégraphe"
+	"nmo_cabin_ObjI"	"Trouvez la batterie de voiture, branchez le générateur et appelez à l'aide !"
+	"nmo_cabin_ObjG2"	"Avancez vers le sous-sol"
+}
+}

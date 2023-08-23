@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_broadway_objA"	"Brisez le verrou du portail"
+	"nmo_broadway_objB1"	"Passez à travers la porte du côté du motel, trouvez quelque chose d'utile pour ça"
+	"nmo_broadway_objB_1"	"Frayez-vous un chemin vers le sous-sol"
+	"nmo_broadway_objC"	"Trouvez la clef de la porte arrière du cinéma"
+	"nmo_broadway_objD"	"Trouvez une batterie, branchez-y el camion"
+	"nmo_broadway_objD_1"	"Emmenez du propane au café"
+	"nmo_broadway_objE"	"Avancez jusqu'au bar, trouvez la clef"
+	"nmo_broadway_objF"	"Allumez les sprinkleurs"
+	"nmo_broadway_objG1"	"Trouver le levier d'activation de l'entrée de l'entrepôt"
+	"nmo_broadway_objH"	"Entrez dans le bureau des gérants et appelez l'extraction"
+	"nmo_broadway_objI"	"Découpez l'entrée du côté du motel au chalumeau"
+}
+}

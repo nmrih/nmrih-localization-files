@@ -1,0 +1,25 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_shelter_Objective_1"	"Dirigez-vous vers le hall principal"
+	"nmo_shelter_Objective_2"	"Allez à l'étage"
+	"nmo_shelter_Objective_3"	"Trouvez un moyen d'ouvrir la salle de contrôle"
+	"nmo_shelter_Objective_4"	"Utilisez la clef de Coeur pour ouvrir la porte vers le lobby (qui est à l'étage)"
+	"nmo_shelter_Objective_5"	"Trouvez un levier et utilisez-le pour accéder aux tunnels de maintenance"
+	"nmo_shelter_Objective_6"	"Ouvrez la porte qui donne sur les égouts"
+	"nmo_shelter_Objective_7"	"Cherchez des indices"
+	"nmo_shelter_Objective_8"	"Trouvez les interrupteurs"
+	"nmo_shelter_Objective_7_pre"	"Fermez le flux de carburant"
+	"nmo_shelter_Objective_5_pre"	"Activez le générateur en appuyant sur le bouton du local électrique"
+	"nmo_shelter_Objective_6_pre"	"Descendez dans les tunnels de maintenance"
+	"nmo_shelter_Objective_7_prepre""Détruisez l'obstacle pour accéder aux égouts"
+	"nmo_shelter_Objective_pre9"	"Avancez dans les tunnels"
+	"nmo_shelter_Objective_9"	"Préparez votre voie d'évasion !"
+	"nmo_shelter_lever"		"Quelqu'un utilise le levier !"
+	"nmo_shelter_6mins"		"Vous avez 6 minutes pour vous faire extraire !"
+	"nmo_shelter_switch"		"Placez tous les interrupteurs !"
+	"nmo_shelter_end"		"Vous abandonnez l'idée de vivre un autre jour..."
+}
+}

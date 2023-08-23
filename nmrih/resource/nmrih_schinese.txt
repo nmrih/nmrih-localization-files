@@ -286,14 +286,14 @@
 "ammobox_flare_short"			"信号弹"
 
 
-"Suicide_worldspawn"	"#PLAYER# 死了。"
-"Suicide_player"	"#PLAYER# 自杀了。"
-"Suicide_infection"	"#PLAYER# 因感染而亡。"
-"Suicide_bleed"	"#PLAYER# 的血流光了。"
-"Suicide_fall"	"#PLAYER# 从高处摔落而亡。"
-"Suicide_drowned"	"#PLAYER# 溺水而亡。"
-"Suicide_nuke"	"#PLAYER# 被炸死了。"
-"Suicide_disconnect"	"#PLAYER# 离开了游戏。"
+"Suicide_worldspawn"	"%s1 死了。"
+"Suicide_player"	"%s1 自杀了。"
+"Suicide_infection"	"%s1 因感染而亡。"
+"Suicide_bleed"	"%s1 的血流光了。"
+"Suicide_fall"	"%s1 从高处摔落而亡。"
+"Suicide_drowned"	"%s1 溺水而亡。"
+"Suicide_nuke"	"%s1 被炸死了。"
+"Suicide_disconnect"	"%s1 离开了游戏。"
 
 "DeathNotice_NPC_ShamblerZombie"	"丧尸"
 "DeathNotice_NPC_RunnerZombie"	"跑尸"

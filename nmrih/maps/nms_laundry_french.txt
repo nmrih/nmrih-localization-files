@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nms_laundry_hinta"	"Ne laissez pas les zombies déborder cette zone sûre !"
+	"nms_laundry_hintb"	"On a perdu le signal radio, on n'aura plus de ravitaillement !"
+	"nms_laundry_losea"	"On a perdu le van d'extraction..."
+	"nms_laundry_pushcar"	"Poussez la voiture !"
+	"nms_laundry_cutrope1"	"Coupez la corde !"
+	"nms_laundry_cutrope2"	"Coupez la corde !"
+	"nms_laundry_mine"	"Faites gaffe aux mines !"
+	"nms_laundry_et"	"Trouvez du carburant pour le piège !"
+}
+}

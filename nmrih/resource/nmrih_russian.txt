@@ -10,7 +10,7 @@
 
 "NMRiH_FriendlyFire"			"Огонь по своим"
 "NMRiH_RealismMode"			"Реализм"
-"NMRiH_HardcoreSurvival"		"Выживание - Хардкор"
+"NMRiH_HardcoreSurvival"		"Выживание - «Хардкор»"
 "NMRiH_ChallengeMode"			"Испытание"
 
 "NMRiH_Practice_Starting"		"Недостаточно игроков для начала игры. Начинается режим тренировки."
@@ -128,8 +128,8 @@
 "Chat_Connected"			"%s1 присоединяется к игре"
 "Chat_Disconnected"			"%s1 покидает игру (%s2)"
 "Chat_Team"				"%s1 выбирает команду: %s2"
-"Chat_Name"				"%s1 сменил имя на %s2"
-"Chat_Command"				"Переменная сервера \"%s1\" была изменена на %s2\n"
+"Chat_Name"				"%s1 меняет имя на %s2"
+"Chat_Command"				"Переменная сервера «%s1» была изменена на %s2\n"
 
 "Respawn_Minutes"			"Возрождение через %s1 мин."
 "Respawn_Seconds"			"Возрождение через %s1 сек."
@@ -286,14 +286,14 @@
 "ammobox_flare_short"			"Ракеты"
 
 
-"Suicide_worldspawn"			"#PLAYER# погиб."
-"Suicide_player"			"#PLAYER# совершает самоубийство."
-"Suicide_infection"			"#PLAYER# умирает от заражения."
-"Suicide_bleed"				"#PLAYER# умирает от кровотечения."
-"Suicide_fall"				"#PLAYER# разбился."
-"Suicide_drowned"			"#PLAYER# утонул."
-"Suicide_nuke"				"#PLAYER# погибает от ядерного взрыва."
-"Suicide_disconnect"	"#PLAYER# покинул игру."
+"Suicide_worldspawn"			"%s1 погибает."
+"Suicide_player"			"%s1 совершает самоубийство."
+"Suicide_infection"			"%s1 умирает от заражения."
+"Suicide_bleed"				"%s1 умирает от кровотечения."
+"Suicide_fall"				"%s1 разбивается."
+"Suicide_drowned"			"%s1 утонул."
+"Suicide_nuke"				"%s1 погибает от ядерного взрыва."
+"Suicide_disconnect"	"%s1 покидает игру."
 
 "DeathNotice_NPC_ShamblerZombie"	"Зомби"
 "DeathNotice_NPC_RunnerZombie"		"Бегущий зомби"

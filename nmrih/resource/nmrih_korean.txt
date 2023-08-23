@@ -262,12 +262,12 @@
 "ammobox_flare_short"			"플레어"
 
 
-"Suicide_worldspawn"	"#PLAYER#님이 사망하셨습니다."
-"Suicide_player"	"#PLAYER#님이 자살하셨습니다."
-"Suicide_infection"	"#PLAYER#님이 감염으로 사망하셨습니다."
-"Suicide_bleed"	"#PLAYER#님이 출혈로 사망하셨습니다."
-"Suicide_fall"	"#PLAYER#님이 추락사로 사망하셨습니다."
-"Suicide_drowned"	"#PLAYER#님이 빠져 죽었습니다."
+"Suicide_worldspawn"	"%s1님이 사망하셨습니다."
+"Suicide_player"	"%s1님이 자살하셨습니다."
+"Suicide_infection"	"%s1님이 감염으로 사망하셨습니다."
+"Suicide_bleed"	"%s1님이 출혈로 사망하셨습니다."
+"Suicide_fall"	"%s1님이 추락사로 사망하셨습니다."
+"Suicide_drowned"	"%s1님이 빠져 죽었습니다."
 
 "DeathNotice_NPC_ShamblerZombie"	"좀비"
 "DeathNotice_NPC_RunnerZombie"	"러너 좀비"

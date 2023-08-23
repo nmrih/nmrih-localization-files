@@ -1,0 +1,10 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nms_camilla_final"	"Utilisez la radio !"
+	"nms_camilla_text1"	"Ici le Département de la sécurité intérieure des États-Unis, on ne peut pas encore vous extraire"
+	"nms_camilla_text2"	"Mais on peut vous envoyer du ravitaillement par le train. Il traversera votre ville bientôt, soyez prêt à récupérer une caisse."
+}
+}

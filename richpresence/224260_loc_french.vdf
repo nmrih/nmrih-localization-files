@@ -1,0 +1,12 @@
+"lang"
+{
+	"Language"	"French"
+	"Tokens"
+	{
+		"#Status_JoiningServer"	"Connexion à un serveur..."
+		"#Status_MainMenu"	"Menu Principal"
+		"#Status_PlayingObjective"	"Partie à Objectif - %map%"
+		"#Status_PlayingSurvival"	"Partie de Survie - %map%"
+		"#Status_PlayingCustom"	"En personnalisé - %map%"
+	}
+}

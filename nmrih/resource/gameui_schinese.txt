@@ -195,6 +195,11 @@
 "NMRiH_Select_Mutators"	"选择修改器"
 "NMRiH_Find_Mutators"	"寻找更多..."
 
+"NMRiH_DeckCompatibility_Title"	"Steam Deck 兼容性"
+"NMRiH_DeckCompatibility_Message1"	"您似乎正在 Steam Deck 上游玩此游戏。"
+"NMRiH_DeckCompatibility_Message2"	"Linux 本地运行环境未经测试并可能无法稳定运行。"
+"NMRiH_DeckCompatibility_Message3"	"建议您使用 Steam Play (Proton) 以获得最大兼容性。"
+
 //============================
 //Add-on Manager
 //============================

@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "French" 
+"Tokens" 
+{
+	"nmo_toxteth_ObjF"	"Entrez dans le magasin"
+	"nmo_toxteth_ObjE"	"Empruntez l'entrée sur le côté du magasin à l'aide d'un chalumeau"
+	"nmo_toxteth_ObjD"	"Utilisez de la TNT pour traverser vers le magasin"
+	"nmo_toxteth_ObjC"	"Trouvez un réservoir de carburant pour exploser le mur du jardin"
+	"nmo_toxteth_ObjB"	"Répondez au téléphone"
+	"nmo_toxteth_ObjA"	"Continuez vers Hartington Road"
+	"nmo_toxteth_ObjG_1"	"Trouvez un cadavre d'employé du magasin pour entrer dans l'entrepôt"
+	"nmo_toxteth_ObjG_2"	"Trouvez un cadavre d'employé du magasin pour entrer dans l'entrepôt"
+	"nmo_toxteth_ObjG_3"	"Trouvez un cadavre d'employé du magasin pour entrer dans l'entrepôt"
+	"nmo_toxteth_ObjH"	"Appelez à l'aide"
+	"nmo_toxteth_ObjI"	"Répondez au téléphone"
+	"nmo_toxteth_ObjJ"	"Utilisez un chalumeau sur les 3 prises électriques pour allumer un feu !"
+	"nmo_toxteth_ObjK"	"Trouvez une manivelle pour ouvrir l'accès"
+	"nmo_toxteth_ObjL"	"Continuez vers la chapelle"
+	"nmo_toxteth_ObjM"	"Utilisez un chalumeau sur la trappe"
+	"nmo_toxteth_ObjZ"	"Retournez à Hartington Road"
+}
+}
