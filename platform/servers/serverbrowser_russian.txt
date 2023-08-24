@@ -421,7 +421,7 @@
 "[english]ServerBrowser_FilterDescSubscribedOnly"	"subscribed"
 "ServerBrowser_FilterDescFeaturedOnly"	"популярное"
 "[english]ServerBrowser_FilterDescFeaturedOnly"	"featured"
-"ServerBrowser_WorkshopFilterWorkshopOnly"	"Карты из Мастерской"
+"ServerBrowser_WorkshopFilterWorkshopOnly"	"Карты из мастерской"
 "[english]ServerBrowser_WorkshopFilterWorkshopOnly"	"Workshop maps"
 "ServerBrowser_WorkshopFilterSubscribed"	"В подписках"
 "[english]ServerBrowser_WorkshopFilterSubscribed"	"Subscribed"
