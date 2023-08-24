@@ -177,8 +177,8 @@
 "NMRiH_Challenge_Random_Desc"		"Пройдите набор заданий как можно скорее!"
 "NMRiH_Challenge_NoDesc"		"Нет описания."
 
-"Downloading_Workshop_Map"		"Загрузка карты из Мастерской..."
-"Downloading_Workshop_Map_Progress"	"Загрузка карты из Мастерской... (%s1/%s2)"
+"Downloading_Workshop_Map"		"Скачивание карты из мастерской..."
+"Downloading_Workshop_Map_Progress"	"Скачивание карты из мастерской... (%s1/%s2)"
 
 "GameUI_Multiplayer" 			"Игра"
 "GameUI_OptionNeedsRestart"		"(Требуется перезапуск игры)"
@@ -212,7 +212,7 @@
 "Addon_Manager_Sort"			"Сортировка:"
 "Addon_Manager_SwapWith"		"Поменять c:"
 "Addon_Manager_Refresh"			"Обновить"
-"Addon_Manager_OpenInWorkshop"		"Открыть в Мастерской Steam..."
+"Addon_Manager_OpenInWorkshop"		"Открыть в мастерской Steam..."
 "Addon_Manager_BrowseAddons"		"Найти дополнения..."
 "Addon_Manager_ApplyChanges"		"Применить изменения"
 "Addon_Manager_InvalidAddon"		"Этот дополнение несовместимо."
@@ -220,7 +220,7 @@
 
 "Addon_Manager_DropMenu_Disable"		"Отключить"
 "Addon_Manager_DropMenu_ShowInfo"		"Показать информацию"
-"Addon_Manager_DropMenu_OpenInWorkshop"		"Открыть в Мастерской..."
+"Addon_Manager_DropMenu_OpenInWorkshop"		"Открыть в мастерской..."
 "Addon_Manager_DropMenu_ViewChangeNotes"	"Показать список изменений..."
 "Addon_Manager_DropMenu_Uninstall"		"Удалить"
 "Addon_Manager_DropMenu_Unsubscribe"		"Отписаться"
@@ -248,19 +248,19 @@
 "Addon_Manager_Sort_LastUpdated"		"Недавно обновлённые"
 
 "Addon_Manager_EmptyList"			"Здесь ничего нет!"
-"Addon_Manager_EmptyList_Tip"			"Посетите Мастерскую для поиска дополнений."
+"Addon_Manager_EmptyList_Tip"			"Посетите мастерскую для поиска дополнений."
 "Addon_Manager_EmptyList_TipFilter"		"Проверьте фильтры."
 
 "Addon_Manager_Search_NotFound"			"Ничего не найдено!"
 "Addon_Manager_Search_NotFound_Tip"		"Проверьте условия поиска."
 
 "Addon_Manager_NotAvailable"			"Дополнения недоступны."
-"Addon_Manager_NotAvailable_CmdLine"		"Установлен параметр запуска \"-noaddons\"."
+"Addon_Manager_NotAvailable_CmdLine"		"Установлен параметр запуска «-noaddons»."
 "Addon_Manager_NotAvailable_Disabled"		"Вы можете включить дополнения в настройках."
 "Addon_Manager_NotAvailable_NoSteam"		"Нет связи со Steam."
 
-"Addon_Manager_DisabledNotice"			"В данный момент дополнения отключены, однако вы всё ещё можете использовать менеджер дополнений. Вы можете включить дополнения в настройках.\n(Не относится к картам из Мастерской.)"
-"Addon_Manager_NoConnection"			"Нет связи со Steam, невозможно управлять дополнениями в Мастерской. Ваши установленные дополнения могут работать вне сети."
+"Addon_Manager_DisabledNotice"			"В данный момент дополнения отключены, однако вы всё ещё можете использовать менеджер дополнений. Вы можете включить дополнения в настройках.\n(Не относится к картам из мастерской.)"
+"Addon_Manager_NoConnection"			"Нет связи со Steam, невозможно управлять дополнениями в мастерской. Ваши установленные дополнения могут работать вне сети."
 
 "Addon_Manager_UnsubscribeAddon_Title"		"Отписаться от дополнения"
 "Addon_Manager_UnsubscribeAddon_Message"	"Вы будете отписаны от %s1, вы уверены?"
@@ -297,7 +297,7 @@
 "Addon_Manager_ConfigReset_Title"		"Сброс настроек"
 "Addon_Manager_ConfigReset_Message"		"Настройки дополнения были сброшены. Перезапустите игру, чтобы изменения вступили в силу."
 
-"Addon_Manager_MapDownloadFailed"		"Не удалось загрузить карту из Мастерской! (Код ошибки: %s1)"
+"Addon_Manager_MapDownloadFailed"		"Не удалось скачать карту из мастерской! (Код ошибки: %s1)"
 
 "Addon_Manager_InfoPanel"			"Информация дополнения"
 "Addon_Manager_InfoPanel_Title"			"Название"
@@ -309,24 +309,24 @@
 "Addon_Manager_InfoPanel_Installed"		"Установлен"
 "Addon_Manager_InfoPanel_LastModified"		"Последнее изменение"
 "Addon_Manager_InfoPanel_FileSize"		"Размер файла"
-"Addon_Manager_InfoPanel_WorkshopID"		"Идентификатор в Мастерской"
+"Addon_Manager_InfoPanel_WorkshopID"		"Идентификатор в мастерской"
 "Addon_Manager_InfoPanel_UserRating"		"Рейтинг"
 "Addon_Manager_InfoPanel_None"			"[нет]"
 
 //============================
 //Workshop Publisher
 //============================
-"Workshop_Publisher"				"Публикация в Мастерской"
+"Workshop_Publisher"				"Публикация в мастерской"
 "Workshop_Publisher_AddonForm"			"Бланк дополнения"
 "Workshop_Publisher_UpdateExisting"		"Обновление существующего дополнения"
-"Workshop_Publisher_UploadProgress"		"Загрузка дополнения в Мастерскую..."
+"Workshop_Publisher_UploadProgress"		"Загрузка дополнения в мастерскую..."
 
 "Workshop_Publisher_TaskSelection"			"Выбрать действие:"
 "Workshop_Publisher_TaskSelection_UploadNew"		"Загрузить новое дополнение"
 "Workshop_Publisher_TaskSelection_UpdateExisting"	"Обновить существующее дополнение"		
 
-"Workshop_Publisher_NoConnection"		"Нет связи со Steam, публикация в Мастерской недоступна."
-"Workshop_Publisher_NoAddons"			"Дополнения отключены, публикация в Мастерской недоступна."
+"Workshop_Publisher_NoConnection"		"Нет связи со Steam, публикация в мастерской недоступна."
+"Workshop_Publisher_NoAddons"			"Дополнения отключены, публикация в мастерской недоступна."
 
 "Workshop_Publisher_AddonForm_Title"				"Название: *"
 "Workshop_Publisher_AddonForm_Desc"					"Описание:"
@@ -335,7 +335,7 @@
 "Workshop_Publisher_AddonForm_ContentPath"			"Путь к файлам: *"
 "Workshop_Publisher_AddonForm_PreviewImage"			"Изображение: *"
 "Workshop_Publisher_AddonForm_Category"				"Категория:"
-"Workshop_Publisher_AddonForm_Tags"					"Метки (разделять символом ','):"
+"Workshop_Publisher_AddonForm_Tags"					"Метки (разделять символом «,»):"
 "Workshop_Publisher_AddonForm_ItemVisibility"		"Права доступа:"
 "Workshop_Publisher_AddonForm_Browse"				"Обзор..."
 "Workshop_Publisher_AddonForm_PackToVPK"			"Упаковать в VPK"
@@ -345,11 +345,11 @@
 "Workshop_Publisher_AddonForm_ViewLegal"			"Открыть соглашение..."
 "Workshop_Publisher_AddonForm_ClearForm"			"Очист. бланк"
 "Workshop_Publisher_AddonForm_TooltipSummary"		"Краткое описание дополнения, которое показывается в списке дополнений."
-"Workshop_Publisher_AddonForm_TooltipChangeNotes"	"Список изменений будет появляться в Мастерской для каждого обновления."
+"Workshop_Publisher_AddonForm_TooltipChangeNotes"	"Список изменений будет появляться в мастерской для каждого обновления."
 "Workshop_Publisher_AddonForm_RequiredField"		"* = обязат. поле"
 "Workshop_Publisher_AddonForm_IncludeMaphack"		"Добавить MapHack файл"
 "Workshop_Publisher_AddonForm_RepairItem"			"Исправить файлы"
-"Workshop_Publisher_AddonForm_TooltipMaphack"		"Добавляет MapHack файл {mapname}.txt, если такой есть."
+"Workshop_Publisher_AddonForm_TooltipMaphack"		"Добавляет MapHack файл {назв.карты}.txt, если такой есть."
 "Workshop_Publisher_AddonForm_TooltipRepair"		"Выберите этот пункт, чтобы удалить ненужные файлы или неправильные метаданные, не заменяя файлы."
 
 "Workshop_Publisher_BrowseContent"		"Выбор файлов"
@@ -372,7 +372,7 @@
 
 "Workshop_Publisher_UpdatingExisting"		"(Обновление текущего дополнения %s1)"
 
-"Workshop_Publisher_OpenInWorkshop"		"Открыть в Мастерской..."
+"Workshop_Publisher_OpenInWorkshop"		"Открыть в мастерской..."
 
 "Workshop_Publisher_ConfirmClose"		"Остались неопубликованные изменения, вы действительно хотите выйти?"
 "Workshop_Publisher_ConfirmClear"		"Остались неопубликованные изменения, вы действительно хотите очистить бланк?"
@@ -407,10 +407,10 @@
 
 "VPKTools_Error"					"Ошибка VPK"
 "VPKTools_Error_Name"					"Ошибка: %s1"
-"VPKTools_Error_BadFileExtension"			"Ошибка: Найдено запрещённое расширение файла \"%s1\" !"
+"VPKTools_Error_BadFileExtension"			"Ошибка: Найдено запрещённое расширение файла «%s1» !"
 "VPKTools_Error_FailedToPack"				"Ошибка при упаковке дополнения в VPK!"
 "VPKTools_Error_FailedToPackDir"			"Ошибка при упаковке каталога в VPK!"
-"VPKTools_Error_NotValid"				"Ваш VPK недействителен и не может быть загружен в Мастерскую!"
+"VPKTools_Error_NotValid"				"Ваш VPK недействителен и не может быть загружен в мастерскую!"
 
 "VPKTools_Error_FileNotFound"				"Файл недопустим, или он не существует."
 "VPKTools_Error_FileEmpty"				"Файл пуст."
@@ -418,7 +418,7 @@
 "VPKTools_Error_BadSignature"				"Не тот тип файла."
 "VPKTools_Error_BadVersion"				"Версия VPK не поддерживается."
 "VPKTools_Error_BannedFileExtension"			"Найдено запрещённое расширение файла."
-"VPKTools_Error_CfgFilesNotAllowed"			"Конфигурация (cfg) файла недопустима к упаковке, пожалуйста удалите папку \"cfg\" из VPK."
+"VPKTools_Error_CfgFilesNotAllowed"			"Конфигурация (cfg) файла недопустима к упаковке, пожалуйста удалите папку «cfg» из VPK."
 } 
 }
 
