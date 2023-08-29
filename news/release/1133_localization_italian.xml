@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">È stato rilasciato un aggiornamento per No More Room in Hell. L'aggiornamento verrà applicato automaticamente al riavvio di No More Room in Hell. Le principali modifiche includono:
+
+[h2]Aggiunte[/h2]
+[list]
+[*]Aggiunta la possibilità di sollevare le munizioni quando non stanno nell'inventario del giocatore.
+[*]Aggiunta la cvar "cl_melee_impact_effects" per abilitare/disabilitare le particelle d'impatto in mischia
+[/list]
+[h2]Cambiamenti[/h2]
+[list]
+[*]Riduzione degli effetti di impatto della motosega sui personaggi (#1414)
+[*]Riduzione delle dimensioni dell'installazione del gioco grazie alla compressione di alcune texture.
+[*]Rimosso il requisito degli amici dall'achievement "Squadra HAZMAT", il nuovo obiettivo è "Uccidi 500 zombi con 6 o più giocatori".
+[*]Mostra l'avviso di compatibilità quando si gioca con il runtime Linux su Steam Deck
+[*]Mostra lo spinner di caricamento durante il download dell'avatar dell'utente
+
+[*]Aggiornati i file di localizzazione:
+[list]
+
+[*]Un ringraziamento ai traduttori: [b]Blueberryy, BloodyMoonlight, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]Vuoi tradurre NMRiH nella tua lingua? [url=https://github.com/nmrih/nmrih-localization-files]Visita il nostro Repository su GitHub.[/url]
+[/list]
+[/list]
+[h2]Correzioni[/h2]
+[list]
+[*]Corretto l'allineamento quando si utilizzano interruzioni di riga su testo stampato al centro
+[*]Corretto il flag "Play everywhere" di ambient_fmod utilizzando l'origine sonora dell'entità (#1426)
+[*]Corretta la regola di spawn degli zombi corazzati che non ha effetto su "npc_nmrih_runnerzombie" (#1432)
+[*]Corretto il modello di auto che manda in crash i client (#1436)
+[*]Corretta l'ombra del carattere della chat che non era completamente opaca
+[*]Corretto l'arresto anomalo durante l'unione dei giocatori quando il controllore principale della nebbia viene rimosso
+[*]Corretti gli effetti di impatto eccessivo su alcuni oggetti (#1421)
+[*]Corretto il falso errore "BSP non valido" in Pubblica sul Workshop (#1416)
+[*]Corretta la god mode se il giocatore spawna durante il filmato (#1411)
+[*]Correzione delle tracce in mischia che ignorano gli oggetti e i muri (#1415)
+[*]Risolti piccoli problemi di prestazioni durante il rendering
+[*]Corretto il dialogo del mutatore che visualizza un elenco vuoto quando lo si lascia aperto e si chiude il pannello "crea partita"
+[*]Corretto il FOV da osservatore che non utilizza le impostazioni dell'utente
+[*]Corretti i messaggi a punto fisso che non si allineano al centro
+[*]Corretti i messaggi a punto fisso che fanno visualizzare spazzatura quando vengono aggiornati spesso
+[*]Corretto un potenziale crash con l'entità "game_ui"
+[*]Corretti diversi shader che richiedono valori per texture di base non definiti
+[*]Corretto il materiale dello skillshot che non veniva precodificato
+[/list]
+[h2]Cambiamenti per mapper e modder[/h2]
+[list]
+[*]Aggiunto il cvar "sv_ignore_win_loss_state", impedisce che il round finisca in caso di vittoria/perdita, utile per le modalità di gioco personalizzate
+[*]Aggiunte diverse entità ai dati di gioco di Hammer, tra cui "generic_actor" con selettore di modello/pelle e sequenze scriptate.
+[*]Aggiunto il surface prop "bouncyball"
+[*]Ripulite le entità inutilizzate nei dati di gioco di Hammer
+[*]L'entità "point_message_multiplayer" ora consente di modificare le proprietà tramite valori chiave
+[*]Le seguenti entità non necessitano più di editti: env_instructor_hint, env_timer, game_text, logic_progress, logic_script, player_speedmod, point_message_multiplayer, scripted_sequence
+[*]Entità "prop_sphere" estesa con raggio personalizzabile
+[*]Migliorata l'entità "point_message_multiplayer", il testo ora segue il movimento del parent in modo fluido senza jitter e l'offset dell'altezza può essere modificato
+[*]MapHack: Corretto l'arresto anomalo del server $remove (#1425)
+[*]MapHack: Limitazione delle entità non sicure nelle funzioni potenzialmente pericolose
+[*]Aggiornati i tipi di danno "trigger_hurt" per corrispondere alle sovrascritture di NMRiH in Hammer
+[*]Texture dell'editor di clip VPhysics aggiornata
+[*]VScript: Aggiunta dell'interfaccia CNavMesh e della classe CScriptNavArea
+[*]VScript: Aggiunto CNMRiH_BaseZombie::GetShoved()
+[*]VScript: Aggiunte funzioni CNMRiH_WeaponBase SetViewModelOverride() e ClearViewModelOverride()
+[/list]
+[h2]Cambiamenti per gli admin dei server[/h2]
+[list]
+[*]Aggiunto il cvar "sv_vote_initial_delay", imposta il tempo in secondi prima che la prima votazione possa essere avviata dopo l'avvio della mappa (#1431)
+[*]Sono state aggiunte le cvar di rete, le nuove aggiunte sono "sv_net_maxcleartime_override" e "sv_net_splitrate_override"
+[/list]
+[h1]Mappe[/h1]
+
+[h3]Tutte le mappe[/h3]
+[list]
+[*]Corretti gli istruttori di suggerimenti che seguono i giocatori che hanno interagito con gli obiettivi
+[/list]
+[h3]nmo_boardwalk[/h3]
+[list]
+[*]Migliorati i clip
+[*]Corretti gli zombi camminatori che si bloccano nelle finestre durante l'obiettivo "Sopravvivi"
+[/list]
+[h3]nmo_broadway2[/h3]
+[list]
+[*]Migliorati i clip di VPhysics
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]Corretto il fatto che il cocomero non venisse considerato "debris"
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Aggiunti nuovi clip VPhysics
+[*]Spawn dei giocatori ruotati al secondo piano per gli speedrunner
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]Piccola modifica per la texture dell'edera
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Aggiunta di un tetto alla tavola calda all'interno della quarantena interna, poiché era visibile, e di alcuni dettagli aggiuntivi
+[*]Aggiunte casse vicino al camion FastEx del cimitero che i giocatori possono usare per salire sopra gli zombi che potenzialmente bloccano il punto di strozzatura
+[*]Aggiunti clip di VPhysics alle aree delle fogne in cui gli oggetti obiettivo potevano essere persi
+[*]Aggiunti cocomeri
+[*]Bloccata una porta, non apritela
+[*]Corretto un bug per cui, afferrando il walkie talkie, i giocatori potevano attivare all'infinito il dialogo del soldato e distruggere i timpani di tutti
+[*]Corretto un piccolo problema di rendering all'inizio delle fogne
+[*]Corretti diversi casi in cui il lato posteriore degli spostamenti era visibile
+[*]Corretto il mancato rendering della X rossa in cima al compensato frangibile allo spawn
+[*]Corretto il nodraw visibile nel Parco
+[*]Grosso pass di ottimizzazione per tutta la mappa
+[*]Abbassato un edificio nello skybox che rovinava l'immersione, fluttuando visibilmente in aria a certe angolazioni
+[*]I giocatori possono ora salire sopra il cassonetto nel vicolo della lavanderia a gettoni
+[*]Rimosso un clip brush che ostacolava il design intenzionale
+[*]Il cassonetto nel vicolo della lavanderia a gettoni va a fuoco
+[*]L'incendio nella quarantena interna è ora all'interno dello spettro udibile
+[*]Modificata la nav mesh per ridurre le possibilità che gli zombi rimangano bloccati in determinate posizioni
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Aggiunta una distanza di dissolvenza a molti oggetti
+[*]Corretto il problema delle particelle di fuoco in superficie che a volte appaiono invisibili
+[*]Corretti brush non validi
+[*]Miglioramento della navigazione degli zombi nell'edificio in superficie
+[*]Altre ottimizzazioni e correzioni minori
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Migliorati i clip
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Aggiunti alcuni oggetti
+[*]Tweaked VPhysics clips
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Riduzione del danno dal treno ai giocatori per evitare l'uccisione istantanea
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]Aggiunti bengala per rendere più chiaro il punto in cui i giocatori vengono evacuati
+[*]Sostituita la scala inutilizzabile con una scala a gradini per evitare qualsiasi confusione
+[/list]
+[h3]nms_isolated[/h3]
+[list]
+[*]Miglioramenti vari
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]Aggiunta una trappola elettrica per la zona A
+[*]Aggiunti alcuni dettagli
+[*]Aggiunta lampada al cherosene nella zona B
+[*]Cambiato il parametro ammo_min "0" in "10" sugli spawn casuali per impedire la generazione di scatole di munizioni "vuote"
+[*]Miglioramenti vari
+[*]Spostato il lanciafiamme dalla zona A alla zona B
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]Aggiunto il trigger di ferita al treno per evitare che venga bloccato e non permetta agli altri giocatori di venire evacuati
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Aggiornamento 1.13.3 Rilasciato</string></content>
