@@ -51,7 +51,7 @@
 [*]VScript：新增 COverlord_Zombie_Helper 綁定
 [*]VScript：新增 nav mesh 屬性常數
 [*]VScript：新增 NavMesh functions NavAreaBuildPath() 和 GetNavAreasFromBuildPath()
-[*]VScript：新增 team 常數 (TEAM_ANY, TEAM_UNASSIGNED, etc.)
+[*]VScript：新增 team 常數 (TEAM_ANY、TEAM_UNASSIGNED 等)
 [*]VScript：修正一個使用 NavMesh methods 時的崩潰
 [*]VScript：修正一個 "logic_script" 呼叫不屬於自己的 Function 的問題
 [*]VScript：修正 "filter_script" 互相搶奪彼此的 PassesDamageFilter hook (#1434)
