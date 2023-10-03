@@ -2,10 +2,12 @@
 <content><string id="body">No More Room in Hell 更新發布，只要重新啟動即可自動更新遊戲，更新的主要變更有：
 
 [h2]新增[/h2]
-在重播檔增加倒轉相容性，修正先前的重播檔無法播放
+[list]
+[*]在重播檔增加倒轉相容性，修正先前的重播檔無法播放
 [*]字幕新增支援比例字型 (也就是說當解析度高於 1080p 時字幕文字將不再難以閱讀地細小
-
-[h2]Changes[/h2]
+[/list]
+[h2]更動[/h2]
+[list]
 [*]最佳化玩家靠近時殭屍的檢查能力，以此改善大量殭屍攻擊的地圖效能
 [*]微調伺服器連線設定以降低擁擠的地圖的延遲
 
@@ -17,6 +19,7 @@
 [/list]
 [/list]
 [h2]修正[/h2]
+[list]
 [*]修正近戰武器揮舞將人物視為阻礙物，使得命中判定不一致造成無法正確判定整條軌跡
 [*]修正近戰武器揮舞無法對正前方的物體造成傷害 (如可破壞的木板)
 [*]修正第一人稱模型上遺失的染血 (#1444)
@@ -28,8 +31,9 @@
 [*]修正補給箱即使在使用距離內依然立即關閉的問題
 [*]修正當連結在其他移動屬性時補給箱不檢查使用距離
 [*]修正工作坊插件在取消訂閱後沒有正確由插件管理清單中移除
-
-[h2]Changes for mappers and modders[/h2]
+[/list]
+[h2]為地圖模組製作進行的更動[/h2]
+[list]
 [*]新增 "script_execute" 在命令列中自動完成
 [*]新增「未公開」至工作坊發布工具的能見度選項 (#1351)
 [*]修正 "ambient_fmod" 音效不跟隨父屬性或來源 Entity
@@ -53,37 +57,46 @@
 [*]VScript：修正 "filter_script" 互相搶奪彼此的 PassesDamageFilter hook (#1434)
 [*]VScript：修正在專屬伺服器中使用除錯 overlay 時可能造成的崩潰
 [*]VScript：修正伺服器 Entity 不正確使用 Root scope 尋找腳本
-
+[/list]
 [h2]為伺服器管理者進行的更動[/h2]
+[list]
 [*]新增伺服器參數 cvar "sv_item_give"，開關醫療用品分享能力
 [*]修正 "-tickrate" 指令 line parameter 無法作用在 Linux 專屬伺服器
-
+[/list]
 [h1]地圖[/h1]
 
 [h3]nmo_broadway2 / nmo_brooklyn / nmo_cleopas[/h3]
+[list]
 [*]修正裁切
-
+[/list]
 [h3]nmo_fema[/h3]
+[list]
 [*]修正錯誤的樹木角度
 [*]調整裁切與 Cubemaps
-
+[/list]
 [h3]nmo_shelter[/h3]
+[list]
 [*]提高下水道區域的地面，以此拿掉逃離受感染的水體的「蹲跳」需求
-
+[/list]
 [h3]nmo_suzhou[/h3]
+[list]
 [*]修正輪胎堡壘附近漂浮的帶刺鐵絲網
 [*]調整裁切
-
+[/list]
 [h3]nmo_zephyr[/h3]
+[list]
 [*]小幅調整
-
+[/list]
 [h3]nms_arpley[/h3]
+[list]
 [*]修正 Cubemaps
-
+[/list]
 [h3]nms_camilla[/h3]
+[list]
 [*]修正指示提示跟隨觸發按鈕的玩家的錯誤
-
+[/list]
 [h3]nms_laundry[/h3]
+[list]
 [*]B 區附近的巷子納入可遊玩範圍
 [*]重做加油站附近的殭屍生成區以避免殭屍卡在門框
 [/list]
