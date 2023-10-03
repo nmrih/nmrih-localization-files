@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">地狱已满的版本更新现已发布，更新将会在您重新启动游戏时自动应用，新版本的主要变化包含以下内容：
+
+[h2]新增内容[/h2]
+[list]
+[*]为 demo 录像文件增加了向下兼容性，修复了无法播放于老版本中录制的 demo 的问题
+[*]为 CC 字幕增加了字体按比例显示支持 (字幕文本在分辨率高于 1080p 时将不会再出现显示过小的问题了)
+[/list]
+[h2]改动内容[/h2]
+[list]
+[*]优化了丧尸在靠近玩家时的检查能力，这将提高在有大量进攻型丧尸地图上的性能表现
+[*]调整了服务器的网络设置，用于降低在拥挤地图上的延迟
+
+[*]语言本地化文件更新：
+[list]
+
+[*]感谢社区翻译者的贡献：[b]Blueberryy，Klowby，MakinDay，marcielcps，Plazehorta[/b]
+[*]想要为地狱已满提供您的本地化语言支持吗？ [url=https://github.com/nmrih/nmrih-localization-files] 欢迎访问我们在 Github 上的文件仓库。[/url]
+[/list]
+[/list]
+[h2]已修复内容[/h2]
+[list]
+[*]修复了近战武器挥动会将人物当作障碍物，导致的命中不一致以及没有注册弧线上所有轨迹的问题
+[*]修复了近战武器挥动不会对你正面面对的实体造成伤害的问题 (例如可破坏的木板)
+[*]修复了第一人称视图模型上血液效果缺失的问题 (#1444)
+[*]修复了在生存模式中击杀转变后的丧尸队友不会被奖励点数的问题
+[*]修复了在内存中对旧实体的引用会导致服务器崩溃的潜在性问题
+[*]修复了罕见的延迟补偿会导致崩溃的问题
+[*]修复了与丧尸和生成器相关的会影响服务器性能的问题
+[*]修复了设置中阴影细节的选项会回退为 "中" 的问题
+[*]修复了补给箱即使已经在玩家的使用范围内仍会立刻关闭的问题
+[*]修复了在补给箱和父移动对象绑定后不会再检查使用距离的问题
+[*]修复了创意工坊物品在取消订阅后没有被从插件管理器列表中正确移除的问题
+[/list]
+[h2]地图设计及模组制作相关改动[/h2]
+[list]
+[*]为控制台指令 "script_execute" 增加了自动补齐功能
+[*]为创意工坊发布器的物品可见性设置中增加了 "不公开" 选项 (#1351)
+[*]修复了 "ambient_fmod" 音效不会跟随父移动对象或源实体的问题
+[*]修复了当存在 bone follower 实体时生成寻路导航会导致崩溃的问题
+[*]修复了对于改变了类名的修改版丧尸，不会产生死亡提示的问题
+[*]修复了控制台指令 "nav_generate" 在生成寻路导航后不会返回至同一张地图的问题
+[*]以下实体将不再需要 edicts: env_soundscape, func_zombie_spawn
+[*]MapHack: 修复了 $remove_all 对服务器实体不起作用的问题 (#1447)
+[*]MapHack: 修复了在 pre-entity 区域执行 $edit_all 会导致脚本卡住的问题
+[*]VScript: 新增了 CBaseEntity 函数 GetGroundEntity() 和 SetGroundEntity()
+[*]VScript: 新增了对 CFuncZombieSpawn 类的绑定
+[*]VScript: 新增了对 CFunc_SafeZone 类的绑定
+[*]VScript: 新增了对 CNMRiH_BarricadePoint 类的绑定
+[*]VScript: 新增了对 CNMRiH_HealthStationLocation 类的绑定
+[*]VScript: 新增了对 COverlord_Zombie_Helper 类的绑定
+[*]VScript: 新增了 nav mesh 属性常量
+[*]VScript: 新增了 NavMesh 函数 NavAreaBuildPath() 和 GetNavAreasFromBuildPath()
+[*]VScript: 新增了队伍 team 常量 (TEAM_ANY, TEAM_UNASSIGNED 等)
+[*]VScript: 修复了一个在使用 NavMesh 方法时会导致崩溃的问题
+[*]VScript: 修复了一个和 "logic_script" 在调用不属于它的函数时相关的问题
+[*]VScript: 修复了 "filter_script" 会劫持彼此的 PassesDamageFilter 函数的问题 (#1434)
+[*]VScript: 修复了当在 dedicated server 中使用 debug overlay 时会导致的潜在性崩溃问题
+[*]VScript: 修复了服务器实体错误地为脚本使用了根范围的问题
+[/list]
+[h2]服务器管理员相关改动[/h2]
+[list]
+[*]新增了服务器参数 "sv_item_give" 用于开/关医疗物品分享
+[*]修复了命令行参数 "-tickrate" 在 Linux 专用服务器上不起作用的问题
+[/list]
+[h1]地图改动[/h1]
+
+[h3]nmo_broadway2 / nmo_brooklyn / nmo_cleopas[/h3]
+[list]
+[*]部分模型调整
+[/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]修复了树木道具角度错误的问题
+[*]部分模型和立方体贴图调整
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]提升了下水道区域的地面高度，以移除在污染的水道附近需要 "跳蹲" 的要求
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]修复了轮胎路障附近铁丝网会悬浮的问题
+[*]部分模型调整
+[/list]
+[h3]nmo_zephyr[/h3]
+[list]
+[*]部分微调
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]修复了立方体贴图
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]修复了一个引导提示会跟随激活按钮的玩家的问题
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]安全区 B 附近的巷子现在成为可游玩区域了
+[*]重新制作了加油站附近的丧尸重生点，以避免丧尸会在门框处卡住
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">版本更新 1.13.4 已发布</string></content>
