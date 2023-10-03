@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell 更新發布，只要重新啟動即可自動更新遊戲，更新的主要變更有：
+
+[h2]新增[/h2]
+在重播檔增加倒轉相容性，修正先前的重播檔無法播放
+[*]字幕新增支援比例字型 (也就是說當解析度高於 1080p 時字幕文字將不再難以閱讀地細小
+
+[h2]Changes[/h2]
+[*]最佳化玩家靠近時殭屍的檢查能力，以此改善大量殭屍攻擊的地圖效能
+[*]微調伺服器連線設定以降低擁擠的地圖的延遲
+
+[*]更新在地化檔案：
+[list]
+
+[*]感謝社群翻譯者：Blueberryy、Klowby、MakinDay、marcielcps、Plazehorta
+[*]想要為 NMRiH 在地化你的語言嗎？ [url=https://github.com/nmrih/nmrih-localization-files]造訪我們在 GitHub 上的在地化存儲庫。[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[*]修正近戰武器揮舞將人物視為阻礙物，使得命中判定不一致造成無法正確判定整條軌跡
+[*]修正近戰武器揮舞無法對正前方的物體造成傷害 (如可破壞的木板)
+[*]修正第一人稱模型上遺失的染血 (#1444)
+[*]修正在生存模式下殺死轉化殭屍不得分的問題
+[*]修正記憶體中存放過舊的 Entity reference 可能造成的伺服器崩潰
+[*]修正罕見的延遲補償崩潰
+[*]修正殭屍與殭屍生成器相關的伺服器效能問題
+[*]修正陰影選項回朔至「中等」
+[*]修正補給箱即使在使用距離內依然立即關閉的問題
+[*]修正當連結在其他移動屬性時補給箱不檢查使用距離
+[*]修正工作坊插件在取消訂閱後沒有正確由插件管理清單中移除
+
+[h2]Changes for mappers and modders[/h2]
+[*]新增 "script_execute" 在命令列中自動完成
+[*]新增「未公開」至工作坊發布工具的能見度選項 (#1351)
+[*]修正 "ambient_fmod" 音效不跟隨父屬性或來源 Entity
+[*]修正當 bone follower 存在時導引創建 (Nav generation) 的崩潰
+[*]修正死亡訊息無視更改 Classname 的模組修改殭屍
+[*]修正 "nav_generate" 在建立後不會回到原來的地圖
+[*]跟隨的 Entity 不再需要以下命令：env_soundscape、func_zombie_spawn
+[*]MapHack：修正 $remove_all 無法對伺服器 Entity 作用 (#1447)
+[*]MapHack：修正 hang on pre-entity $edit_all
+[*]VScript：新增 CBaseEntity functions GetGroundEntity() 和 SetGroundEntity()
+[*]VScript：新增 CFuncZombieSpawn 綁定
+[*]VScript：新增 CFunc_SafeZone 綁定
+[*]VScript：新增 CNMRiH_BarricadePoint 綁定
+[*]VScript：新增 CNMRiH_HealthStationLocation 綁定
+[*]VScript：新增 COverlord_Zombie_Helper 綁定
+[*]VScript：新增 nav mesh 屬性常數
+[*]VScript：新增 NavMesh functions NavAreaBuildPath() 和 GetNavAreasFromBuildPath()
+[*]VScript：新增隊伍常數 (TEAM_ANY, TEAM_UNASSIGNED, etc.)
+[*]VScript：修正一個使用 NavMesh methods 時的崩潰
+[*]VScript：修正一個 "logic_script" 呼叫不屬於自己的 Function 的問題
+[*]VScript：修正 "filter_script" 互相搶奪彼此的 PassesDamageFilter hook (#1434)
+[*]VScript：修正在專屬伺服器中使用除錯 overlay 時可能造成的崩潰
+[*]VScript：修正伺服器 Entity 不正確使用 Root scope 尋找腳本
+
+[h2]為伺服器管理者進行的更動[/h2]
+[*]新增伺服器參數 cvar "sv_item_give"，開關醫療用品分享能力
+[*]修正 "-tickrate" 指令 line parameter 無法作用在 Linux 專屬伺服器
+
+[h1]地圖[/h1]
+
+[h3]nmo_broadway2 / nmo_brooklyn / nmo_cleopas[/h3]
+[*]修正裁切
+
+[h3]nmo_fema[/h3]
+[*]修正錯誤的樹木角度
+[*]調整裁切與 Cubemaps
+
+[h3]nmo_shelter[/h3]
+[*]提高下水道區域的地面，以此拿掉逃離受感染的水體的「蹲跳」需求
+
+[h3]nmo_suzhou[/h3]
+[*]修正輪胎堡壘附近漂浮的帶刺鐵絲網
+[*]調整裁切
+
+[h3]nmo_zephyr[/h3]
+[*]小幅調整
+
+[h3]nms_arpley[/h3]
+[*]修正 Cubemaps
+
+[h3]nms_camilla[/h3]
+[*]修正指示提示跟隨觸發按鈕的玩家的錯誤
+
+[h3]nms_laundry[/h3]
+[*]B 區附近的巷子納入可遊玩範圍
+[*]重做加油站附近的殭屍生成區以避免殭屍卡在門框
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">更新 1.13.4 釋出</string></content>
