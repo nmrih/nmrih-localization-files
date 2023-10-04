@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">È stato rilasciato un aggiornamento per No More Room in Hell. L'aggiornamento verrà applicato automaticamente al riavvio di No More Room in Hell. Le principali modifiche includono:
+
+[h2]Aggiunte[/h2]
+[list]
+[*]Aggiunta la retrocompatibilità ai file demo, per risolvere il problema della mancata riproduzione di demo precedentemente registrate.
+[*]Aggiunto il supporto per i caratteri proporzionali nelle didascalie chiuse (il testo delle didascalie non è più piccolo a risoluzioni superiori a 1080p).
+[/list]
+[h2]Modifiche[/h2]
+[list]
+[*]Ottimizzati i controlli delle abilità degli zombi quando sono vicini ai giocatori, questo migliora le prestazioni nelle mappe con molti zombi che attaccano.
+[*]Modificate le impostazioni di rete del server per ridurre la latenza nelle mappe affollate.
+
+[*]Aggiornati i file di localizzazione:
+[list]
+
+[*]Grazie ai traduttori della comunità: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta[/b]
+[*]Vuoi localizzare NMRiH nella tua lingua? [url=https://github.com/nmrih/nmrih-localization-files]Visita il nostro repository di localizzazione su GitHub.[/url]
+[/list]
+[/list]
+[h2]Correzioni[/h2]
+[list]
+[*]Corretto il problema dei colpi in mischia che contavano i personaggi come ostacoli, causando colpi incoerenti e non registrando tutte le tracce dell'arco.
+[*]Corretto che i colpi in mischia non infliggono danni alle entità che si affrontano direttamente (come le tavole frangibili).
+[*]Corretto il sangue mancante sui view models (#1444)
+[*]Corretto il fatto che i punti non vengono assegnati quando si uccidono gli zombi trasformati in sopravvivenza.
+[*]Corretti i potenziali crash del server causati da riferimenti di entità stantie in memoria
+[*]Corretto un raro crash di compensazione del lag
+[*]Risolti i problemi di prestazioni del server con gli spawner di zombi e overlord
+[*]Corretta l'opzione dell'ombra che torna a "Media".
+[*]Corretto il problema delle scatole dei rifornimenti che si chiudono immediatamente anche quando l'utente ce l'ha a portata di mano
+[*]Corretto il problema delle scatole di rifornimento che non controllano la distanza di utilizzo quando sono attaccate al movement parent.
+[*]Corretto il fatto che i componenti aggiuntivi del workshop non vengono rimossi correttamente dall'elenco del gestore degli addon dopo la disiscrizione.
+[/list]
+[h2]Modifiche per mappatori e modder[/h2]
+[list]
+[*]Aggiunto il completamento automatico al comando della console "script_execute".
+[*]Aggiunta l'opzione di visibilità "Non in elenco" all'editor del Workshop (#1351)
+[*]Corretto il suono "ambient_fmod" che non segue il movimento dei parent o delle entità di origine.
+[*]Corretto l'arresto anomalo della generazione della nav quando sono presenti i bone followers
+[*]Corretto l'avviso di morte che non tiene conto degli zombi moddati che cambiano nome di classe.
+[*]Corretto che "nav_generate" non ritorna alla stessa mappa dopo la generazione.
+[*]Le seguenti entità non richiedono più editti: env_soundscape, func_zombie_spawn
+[*]MapHack: Corretto $remove_all che non funziona con le entità solo del server (#1447)
+[*]MapHack: Corretto l'hang su $edit_all pre-entità.
+[*]VScript: Aggiunte le funzioni di CBaseEntity GetGroundEntity() e SetGroundEntity()
+[*]VScript: Aggiunti i binding CFuncZombieSpawn
+[*]VScript: Aggiunti i binding CFunc_SafeZone
+[*]VScript: Aggiunti i binding CNMRiH_BarricadePoint
+[*]VScript: Aggiunti i vincoli CNMRiH_HealthStationLocation
+[*]VScript: Aggiunti i vincoli COverlord_Zombie_Helper
+[*]VScript: Aggiunte le costanti dell'attributo nav mesh
+[*]VScript: Aggiunte funzioni NavMesh NavAreaBuildPath() e GetNavAreasFromBuildPath()
+[*]VScript: Aggiunte le costanti di squadra (TEAM_ANY, TEAM_UNASSIGNED, ecc.)
+[*]VScript: Corretto un arresto anomalo quando si utilizzano i metodi NavMesh
+[*]VScript: Corretto un problema con "logic_script" che chiamava funzioni che non possedeva.
+[*]VScript: Corretto il problema di "filter_script" che dirottano l'hook di PassesDamageFilter (#1434).
+[*]VScript: Corretto un potenziale crash quando si usa l'overlay di debug su un server dedicato.
+[*]VScript: Corretto il problema delle entità solo server che utilizzano erroneamente l'ambito root per gli script.
+[/list]
+[h2]Modifiche per gli amministratori di server[/h2]
+[list]
+[*]Aggiunta la cvar "sv_item_give", che attiva la condivisione degli oggetti medici.
+[*]Corretto il parametro della riga di comando "-tickrate" che non funziona sui server dedicati Linux.
+[/list]
+[h1]Mappe[/h1]
+
+[h3]nmo_broadway2 / nmo_brooklyn / nmo_cleopas[/h3]
+[list]
+[*]Clip modificate
+[/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]Corretta l'angolazione errata del puntello dell'albero
+[*]Modificato il clipping e le cubemaps
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Rialzato il terreno nella sezione delle fogne per rimuovere il requisito del "salto accovacciato" sull'acqua infetta.
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Sistemato il filo spinato galleggiante vicino al forte di pneumatici.
+[*]Modificato il clipping
+[/list]
+[h3]nmo_zephyr[/h3]
+[list]
+[*]Modifiche minori
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Sistemate le cubemaps
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]Corretto un bug per cui il suggerimento dell'istruttore seguiva un giocatore che aveva attivato il pulsante.
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]I vicoli intorno alla zona B sono ora aree giocabili.
+[*]Rielaborata l'area di spawn degli zombi vicino alla stazione di servizio per evitare che gli zombi rimangano incastrati nel telaio di una porta
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Rilascio dell'Aggiornamento 1.13.4</string></content>
