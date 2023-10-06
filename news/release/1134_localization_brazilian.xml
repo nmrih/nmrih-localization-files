@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">Uma atualização para No More Room in Hell foi lançada. A atualização será aplicada automaticamente quando você reiniciar No More Room in Hell. As principais mudanças incluem:
+
+[b]Correção de 6 de outubro:[/b] 
+Lançamos uma atualização de servidor dedicada que corrige spawners aleatórios que criam o mesmo loot e travamentos ocasionais com ataques de zumbis.
+Esta atualização é opcional, mas todos os administradores da comunidade são incentivados a aplicá-la.
+
+[h2]Adições[/h2]
+[list]
+[*]Adicionada compatibilidade com versões anteriores aos arquivos de demonstração, corrige demos gravadas anteriormente que não são reproduzidas
+[*]Adicionado suporte para fontes proporcionais em legendas (ou seja, o texto da legenda não é mais pequeno em resoluções superiores a 1080p)
+[/list]
+[h2]Alterações[/h2]
+[list]
+[*]Otimização das habilidades de verificações de zumbis quando perto de jogadores, melhorando o desempenho em mapas com muitos zumbis atacando
+[*]Configurações de rede do servidor ajustadas para reduzir a latência em mapas lotados
+
+[*]Atualizados os arquivos de localização:
+[list]
+
+[*]Com agradecimentos aos tradutores da comunidade: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta[/b]
+[*]Deseja traduzir o NMRiH para o seu próprio idioma? [url=https://github.com/nmrih/nmrih-localization-files]Visite nosso repositório de localização no GitHub.[/url]
+[/list]
+[/list]
+[h2]Correções[/h2]
+[list]
+[*]Corrigidos golpes corpo a corpo contando personagens como obstruções, causando acertos inconsistentes e não registrando todos os traços do arco
+[*]Corrigidos golpes corpo a corpo que não causavam dano às entidades que você está olhando diretamente (como tábuas quebráveis).
+[*]Corrigida a falta de sangue nos modelos de visualização (#1444)
+[*]Corrigidos pontos que não eram concedidos ao matar zumbis transformados no modo sobrevivência
+[*]Corrigidas possíveis falhas de servidor causadas por referências de entidades obsoletas na memória
+[*]Corrigida falha rara de compensação de atraso
+[*]Corrigidos problemas de desempenho do servidor com spawners zumbis e overlord
+[*]Corrigida opção de sombra revertendo para "Médio"
+[*]Corrigidas caixas de suprimentos fechando imediatamente mesmo quando o usuário está ao alcance
+[*]Corrigidas caixas de suprimentos que não verificavam a distância de uso quando anexadas aos pais de movimento
+[*]Corrigido complementos da oficina não eram removidos corretamente da lista de gerenciadores de complementos após o cancelamento da inscrição.
+[/list]
+[h2]Mudanças para mappers e modders[/h2]
+[list]
+[*]Adicionado preenchimento automático ao comando do console "script_execute"
+[*]Adicionada opção de visibilidade "Não listado" ao Workshop Publisher (#1351)
+[*]Corrigidos sons de "ambient_fmod" que não seguiam os pais do movimento ou entidades de origem
+[*]Corrigida falha na geração de navegação quando seguidores de ossos estão presentes
+[*]Corrigidos avisos de morte que não levavam em conta zumbis modificados que mudam de nome de classe
+[*]Corrigido "nav_generate" que não retornava ao mesmo mapa após geração
+[*]Seguintes entidades não exigem mais editais: env_soundscape, func_zombie_spawn
+[*]MapHack: Corrigido $remove_all que não funcionava com entidades somente de servidor (#1447)
+[*]MapHack: Corrigido travamento na pré-entidade $edit_all
+[*]VScript: Adicionadas funções CBaseEntity GetGroundEntity() e SetGroundEntity()
+[*]VScript: Adicionadas ligações CFuncZombieSpawn
+[*]VScript: Adicionadas ligações CFunc_SafeZone
+[*]VScript: Adicionadas ligações CNMRiH_BarricadePoint
+[*]VScript: Adicionadas ligações CNMRiH_HealthStationLocation
+[*]VScript: Adicionadas ligações COverlord_Zombie_Helper
+[*]VScript: Adicionadas constantes de atributos da malha de navegação
+[*]VScript: Adicionadas funções NavMesh NavAreaBuildPath() e GetNavAreasFromBuildPath()
+[*]VScript: Adicionadas constantes de equipe (TEAM_ANY, TEAM_UNASSIGNED, etc.)
+[*]VScript: Corrigida uma falha ao usar métodos NavMesh
+[*]VScript: Corrigido um problema com "logic_script" chamando funções que não possui
+[*]VScript: Corrigido "filter_script" sequestrando o gancho PassesDamageFilter um do outro (#1434)
+[*]VScript: Corrigida falha potencial ao usar sobreposição de depuração em servidor dedicado
+[*]VScript: Correção de entidades somente de servidor usando incorretamente o escopo raiz para scripts
+[/list]
+[h2]Alterações para Administradores de Servidores[/h2]
+[list]
+[*]Adicionado cvar "sv_item_give", alterna o compartilhamento de itens médicos
+[*]Corrigido o parâmetro de linha de comando “-tickrate” que não funcionava em servidores dedicados Linux
+[/list]
+[h1]Mapas[/h1]
+
+[h3]nmo_broadway2 / nmo_brooklyn / nmo_cleopas[/h3]
+[list]
+[*]Clips ajustados
+[/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]Corrigido ângulo errado de sustentação da árvore
+[*]Ajustado clips e cubemaps
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Foi elevado o solo na seção de esgoto para remover a exigência de "salto agachado" sobre a água infectada
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Ajustado arame farpado flutuante perto do forte de pneus
+[*]Clips ajustados
+[/list]
+[h3]nmo_zephyr[/h3]
+[list]
+[*]Pequenos ajustes
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Ajustado cubemaps
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]Corrigido um bug onde a dica do instrutor seguia um jogador que ativou o botão
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]Os becos ao redor da zona B agora são áreas de jogo
+[*]Área de aparecimento de zumbis reformulada perto do posto de gasolina para evitar que zumbis fiquem presos no batente da porta
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Atualização 1.13.4 Disponível</string></content>
