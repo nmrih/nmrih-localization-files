@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
 
+[b]October 6th Hotfix:[/b] We've released a dedicated server update that fixes random spawners creating the same loot and occasional crashes with zombie attacks.
+This update is optional, but all community admins are encouraged to apply it.
+
 [h2]Additions[/h2]
 [list]
 [*]Added backward compatibility to demo files, fixes previously recorded demos not playing
