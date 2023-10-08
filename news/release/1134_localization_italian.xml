@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">È stato rilasciato un aggiornamento per No More Room in Hell. L'aggiornamento verrà applicato automaticamente al riavvio di No More Room in Hell. Le principali modifiche includono:
 
+[b]Hotfix del 6 Ottobre:[/b] Abbiamo rilasciato un aggiornamento per i server dedicati che corregge gli spawn casuali che creano lo stesso bottino e i crash occasionali con gli attacchi degli zombi.
+Questo aggiornamento è facoltativo, ma tutti gli amministratori della comunità sono invitati ad applicarlo.
+
 [h2]Aggiunte[/h2]
 [list]
 [*]Aggiunta la retrocompatibilità ai file demo, per risolvere il problema della mancata riproduzione di demo precedentemente registrate.
