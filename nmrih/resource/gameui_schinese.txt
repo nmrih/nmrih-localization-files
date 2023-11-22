@@ -367,6 +367,7 @@
 "Workshop_Publisher_Visibility_Public"		"公开"
 "Workshop_Publisher_Visibility_FriendsOnly"	"仅限好友"
 "Workshop_Publisher_Visibility_Private"		"仅限自己"
+"Workshop_Publisher_Visibility_Unlisted"	"不公开"
 
 "Workshop_Publisher_Category_None"			"无"
 

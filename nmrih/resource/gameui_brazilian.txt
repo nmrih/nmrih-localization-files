@@ -167,7 +167,7 @@
 "NMRiH_Vote_ChangeDifficulty"	"Mudar dificuldade para %s1?"
 
 "NMRiH_Scoreboard_MutePlayer"	"Silenciar Jogador(a)"
-"NMRiH_Scoreboard_ViewSteamProfile"	"Ver perfil steam"
+"NMRiH_Scoreboard_ViewSteamProfile"	"Ver perfil Steam"
 
 "NMRiH_MutedPlayer"	"Silenciou a voz do(a) jogador(a) %s1"
 "NMRiH_UnmutedPlayer"	"Voltou a escutar a voz do(a) jogador(a) %s1"
@@ -194,6 +194,11 @@
 
 "NMRiH_Select_Mutators"	"Selecionar Mutador"
 "NMRiH_Find_Mutators"	"Encontrar mais..."
+
+"NMRiH_DeckCompatibility_Title"	"Compatibilidade do Steam Deck"
+"NMRiH_DeckCompatibility_Message1"	"Parece que você está jogando via Steam Deck."
+"NMRiH_DeckCompatibility_Message2"	"O tempo de execução nativo do Linux não foi testado e pode ser instável."
+"NMRiH_DeckCompatibility_Message3"	"É recomendado usar Steam Play (Proton) para máxima compatibilidade."
 
 //============================
 //Add-on Manager
@@ -362,6 +367,7 @@
 "Workshop_Publisher_Visibility_Public"		"Público"
 "Workshop_Publisher_Visibility_FriendsOnly"	"Apenas Amigos"
 "Workshop_Publisher_Visibility_Private"		"Privado"
+"Workshop_Publisher_Visibility_Unlisted"	"Não Listado"
 
 "Workshop_Publisher_Category_None"			"Nenhum"
 

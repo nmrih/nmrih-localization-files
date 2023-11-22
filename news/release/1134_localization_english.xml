@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[b]October 6th Hotfix:[/b] We've released a dedicated server update that fixes random spawners creating the same loot and occasional crashes with zombie attacks.
+This update is optional, but all community admins are encouraged to apply it.
+
+[h2]Additions[/h2]
+[list]
+[*]Added backward compatibility to demo files, fixes previously recorded demos not playing
+[*]Added support for proportional fonts in closed captions (i.e. caption text isn't small anymore on resolutions higher than 1080p)
+[/list]
+[h2]Changes[/h2]
+[list]
+[*]Optimized zombie ability checks when near players, this improves performance on maps with a lot of attacking zombies
+[*]Tweaked server networking settings to reduce latency on crowded maps
+
+[*]Updated the localization files:
+[list]
+
+[*]With thanks to community translators: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta[/b]
+[*]Want to localize NMRiH to your own language? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed melee swings counting characters as obstructions, causing inconsistent hits and not registering all traces from the arc
+[*]Fixed melee swings not dealing damage to entities you're directly facing (such as breakable boards)
+[*]Fixed missing blood on view models (#1444)
+[*]Fixed points not being awarded when killing turned zombies in survival
+[*]Fixed potential server crashes caused by stale entity references in memory
+[*]Fixed rare lag compensation crash
+[*]Fixed server performance issues with zombies and overlord spawners
+[*]Fixed shadow option reverting to "Medium"
+[*]Fixed supply boxes closing immediately even when user is within reach
+[*]Fixed supply boxes not checking use distance when attached to movement parents
+[*]Fixed workshop add-ons not being properly removed from the add-on manager list after unsubscribing
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added auto-complete to console command "script_execute"
+[*]Added "Unlisted" visibility option to Workshop Publisher (#1351)
+[*]Fixed "ambient_fmod" sounds not following movement parents or source entities
+[*]Fixed crash on nav generation when bone followers are present
+[*]Fixed death notices not accounting for modded zombies who change classnames
+[*]Fixed "nav_generate" not returning to same map after generation
+[*]Following entities no longer require edicts: env_soundscape, func_zombie_spawn
+[*]MapHack: Fixed $remove_all not working with server-only entities (#1447)
+[*]MapHack: Fixed hang on pre-entity $edit_all
+[*]VScript: Added CBaseEntity functions GetGroundEntity() and SetGroundEntity()
+[*]VScript: Added CFuncZombieSpawn bindings
+[*]VScript: Added CFunc_SafeZone bindings
+[*]VScript: Added CNMRiH_BarricadePoint bindings
+[*]VScript: Added CNMRiH_HealthStationLocation bindings
+[*]VScript: Added COverlord_Zombie_Helper bindings
+[*]VScript: Added nav mesh attribute constants
+[*]VScript: Added NavMesh functions NavAreaBuildPath() and GetNavAreasFromBuildPath()
+[*]VScript: Added team constants (TEAM_ANY, TEAM_UNASSIGNED, etc.)
+[*]VScript: Fixed a crash when using NavMesh methods
+[*]VScript: Fixed an issue with "logic_script" calling functions it doesn't own
+[*]VScript: Fixed "filter_script" hijacking one another's PassesDamageFilter hook (#1434)
+[*]VScript: Fixed potential crash when using debug overlay on dedicated server
+[*]VScript: Fixed server-only entities incorrectly using the root scope for scripts
+[/list]
+[h2]Changes for server admins[/h2]
+[list]
+[*]Added cvar "sv_item_give", toggles medical item sharing
+[*]Fixed "-tickrate" command line parameter not working on Linux dedicated servers
+[/list]
+[h1]Maps[/h1]
+
+[h3]nmo_broadway2 / nmo_brooklyn / nmo_cleopas[/h3]
+[list]
+[*]Tweaked clips
+[/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]Fixed wrong tree prop angle
+[*]Tweaked clips and cubemaps
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Raised the ground in the sewer section to remove "crouch jump" requirement over infected water
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Fixed floating barbered wire near tire fort
+[*]Tweaked clips
+[/list]
+[h3]nmo_zephyr[/h3]
+[list]
+[*]Minor tweaks
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Fixed cubemaps
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]Fixed a bug where instructor hint was following a player who activated the button
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]Alleys around zone B are now playable areas
+[*]Reworked zombie spawn area near gas station to prevent zombies getting stuck in a door frame
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.4 Released</string></content>
