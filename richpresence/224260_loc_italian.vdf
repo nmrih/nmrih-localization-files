@@ -8,5 +8,7 @@
 		"#Status_PlayingObjective"	"Modalità Obiettivo - %map%"
 		"#Status_PlayingSurvival"	"Modalità Sopravvivenza - %map%"
 		"#Status_PlayingCustom"	"Modalità Personalizzata - %map%"
+		"#Status_PlayingPvP" "Modalità PvP - %map%"
+		"#Status_PlayingMinigame" "Modalità Minigioco - %map%"
 	}
 }

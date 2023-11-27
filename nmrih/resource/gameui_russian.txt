@@ -82,7 +82,9 @@
 
 "NMRiH_GameType_Objective"		"Прохождение"
 "NMRiH_GameType_Survival"		"Выживание"
+"NMRiH_GameType_Custom"			"Пользовательский"
 "NMRiH_GameType_PVP"			"Игрок против игрока"
+"NMRiH_GameType_Minigame"		"Мини-игры"
 
 "NMRiH_LAN"				"Только лок. сеть"
 
