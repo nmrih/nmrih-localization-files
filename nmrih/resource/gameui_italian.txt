@@ -82,7 +82,9 @@
 
 "NMRiH_GameType_Objective"		"Obiettivo"
 "NMRiH_GameType_Survival"		"Sopravvivenza"
+"NMRiH_GameType_Custom" "Personalizzata"
 "NMRiH_GameType_PVP"			"PvP"
+"NMRiH_GameType_Minigame" "Minigioco"
 
 "NMRiH_LAN"				"Solo LAN"
 

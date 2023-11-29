@@ -8,5 +8,7 @@
 		"#Status_PlayingObjective"	"Playing Objective - %map%"
 		"#Status_PlayingSurvival"	"Playing Survival - %map%"
 		"#Status_PlayingCustom"	"Playing Custom - %map%"
+		"#Status_PlayingPvP"	"Playing PvP - %map%"
+		"#Status_PlayingMinigame"	"Playing Minigame - %map%"
 	}
 }
