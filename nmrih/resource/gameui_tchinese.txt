@@ -82,7 +82,9 @@
 
 "NMRiH_GameType_Objective"	"目標"
 "NMRiH_GameType_Survival"	"生存"
+"NMRiH_GameType_Custom"			"自訂"
 "NMRiH_GameType_PVP"		"對戰"
+"NMRiH_GameType_Minigame"		"小遊戲"
 
 "NMRiH_LAN"	"僅限區域網路"
 
