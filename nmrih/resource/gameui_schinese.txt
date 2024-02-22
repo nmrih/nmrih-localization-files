@@ -196,6 +196,11 @@
 
 "NMRiH_Select_Mutators"	"选择修改器"
 "NMRiH_Find_Mutators"	"寻找更多..."
+"NMRiH_Mutator_ImportConfig"	"导入修改器配置"
+"NMRiH_Mutator_ExportConfig"	"导出修改器配置"
+"NMRiH_Mutator_ConfigFileType"	"修改器配置文件 (.txt)"
+"NMRiH_Mutator_ExportCfgSuccess"	"修改器配置文件导出成功。"
+"NMRiH_Mutator_FailedToImportConfig"	"导入修改器配置失败，使用了无效的文件。"
 
 "NMRiH_DeckCompatibility_Title"	"Steam Deck 兼容性"
 "NMRiH_DeckCompatibility_Message1"	"您似乎正在 Steam Deck 上游玩此游戏。"

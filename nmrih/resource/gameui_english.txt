@@ -196,6 +196,11 @@
 
 "NMRiH_Select_Mutators"	"Select Mutators"
 "NMRiH_Find_Mutators"	"Find more..."
+"NMRiH_Mutator_ImportConfig"	"Import Mutator config"
+"NMRiH_Mutator_ExportConfig"	"Export Mutator config"
+"NMRiH_Mutator_ConfigFileType"	"Mutator config (.txt)"
+"NMRiH_Mutator_ExportCfgSuccess"	"Mutator config exported successfully."
+"NMRiH_Mutator_FailedToImportConfig"	"Failed to import mutator config. The file is invalid."
 
 "NMRiH_DeckCompatibility_Title"	"Steam Deck Compatibility"
 "NMRiH_DeckCompatibility_Message1"	"It appears you're playing on Steam Deck."
