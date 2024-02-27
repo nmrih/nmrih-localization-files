@@ -157,7 +157,7 @@
 "Weapon_fa_cz858"			"CZ858 突击步枪"
 "Weapon_fa_fnfal"			"FN FAL 半自动步枪"
 "Weapon_fa_glock17"			"格洛克 17 手枪"
-"Weapon_fa_jae700"			"雷明登 JAE-700 狙击步枪"
+"Weapon_fa_jae700"			"雷明顿 JAE-700 狙击步枪"
 "Weapon_fa_m16a4"			"M16A4 自动步枪(光学瞄镜)"
 "Weapon_fa_m16a4_carryhandle"		"M16A4 自动步枪(机械瞄具)"
 "Weapon_fa_m92fs"			"贝雷塔 M92FS 手枪"

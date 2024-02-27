@@ -196,6 +196,11 @@
 
 "NMRiH_Select_Mutators"	"Выбрать модификатор"
 "NMRiH_Find_Mutators"	"Найти ещё..."
+"NMRiH_Mutator_ImportConfig"	"Импорт конфигурации мутатора"
+"NMRiH_Mutator_ExportConfig"	"Экспорт конфигурации мутатора"
+"NMRiH_Mutator_ConfigFileType"	"Конфигурация мутатора (.txt)"
+"NMRiH_Mutator_ExportCfgSuccess"	"Конфигурация мутатора экспортирована успешно."
+"NMRiH_Mutator_FailedToImportConfig"	"Не удалось импортировать конфигурацию мутатора. Файл недействителен."
 
 "NMRiH_DeckCompatibility_Title"	"Совместимость со Steam Deck"
 "NMRiH_DeckCompatibility_Message1"	"Похоже, вы играете на Steam Deck."
