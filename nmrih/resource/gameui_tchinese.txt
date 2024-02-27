@@ -196,6 +196,11 @@
 
 "NMRiH_Select_Mutators"	"選擇調整器"
 "NMRiH_Find_Mutators"	"尋找更多…"
+"NMRiH_Mutator_ImportConfig"	"匯入調整器設定檔"
+"NMRiH_Mutator_ExportConfig"	"匯出調整器設定檔"
+"NMRiH_Mutator_ConfigFileType"	"調整器設定檔 (.txt)"
+"NMRiH_Mutator_ExportCfgSuccess"	"調整器已成功匯出。"
+"NMRiH_Mutator_FailedToImportConfig"	"匯入調整器失敗。此檔案無效。"
 
 "NMRiH_DeckCompatibility_Title"	"Steam Deck 相容性"
 "NMRiH_DeckCompatibility_Message1"	"您似乎正在於 Steam Deck 進行遊戲。"
