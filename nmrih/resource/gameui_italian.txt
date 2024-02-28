@@ -199,7 +199,7 @@
 "NMRiH_Mutator_ImportConfig"	"Importa config Mutatore"
 "NMRiH_Mutator_ExportConfig"	"Esporta config Mutatore"
 "NMRiH_Mutator_ConfigFileType"	"Config Mutatore (.txt)"
-"NMRiH_Mutator_ExportCfgSuccess"	"Config del Mutatore esportato con successo."
+"NMRiH_Mutator_ExportCfgSuccess"	"Config del Mutatore esportata con successo."
 "NMRiH_Mutator_FailedToImportConfig"	"Impossibile importare il config del mutatore. Il file non è valido."
 
 "NMRiH_DeckCompatibility_Title"	"Compatibilità con Steam Deck"
