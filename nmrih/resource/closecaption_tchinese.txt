@@ -675,16 +675,16 @@
 
 		//Survival mode
 
-		"NGSurvivalExtraction"	"<I>救援隊已經準備接近你們的位置了，請動身前往！"
-		"NGSurvivalSupply"	"<I>通知，FEMA 物資空投隊已接近你們的位置。以上。"
-		"NGSurvivalBegin"	"<I>注意，這是美國國民警衛隊。 在你們的位置上有幾處保護區，依據全國性傳染處理辦法及聯合國雷德克措施，請就地撐到區域清除。 屆時即可獲救並送至安全處。 請各司其職。 以上。"
-		"NGSurvivalWaveStart"	"<I>屍潮正向你們所在地點接近中！做好準備！"
-		"NGSurvivalZoneA"	"<clr: 255, 255, 0><I>A 區遭受侵襲！守住它！"
-		"NGSurvivalZoneB"	"<clr: 255, 255, 0><I>B 區遭受侵襲！守住它！"
-		"NGSurvivalZoneC"	"<clr: 255, 255, 0><I>C 區遭受侵襲！守住它！"
-		"NGSurvivalZoneD"	"<clr: 255, 255, 0><I>D 區遭受侵襲！守住它！"
-		"NGSurvivalZoneE"	"<clr: 255, 255, 0><I>E 區遭受侵襲！守住它！"
-		"NGSurvivalZoneF"	"<clr: 255, 255, 0><I>F 區遭受侵襲！守住它！"
+		"NGSurvivalExtraction"	"<len:10.0><I>救援隊已經準備接近你們的位置了，請動身前往！"
+		"NGSurvivalSupply"	"<len:10.0><I>通知，FEMA 物資空投隊已接近你們的位置。以上。"
+		"NGSurvivalBegin"	"<len:15.0><I>注意，這是美國國民警衛隊。 在你們的位置上有幾處保護區，依據全國性傳染處理辦法及聯合國雷德克措施，請就地撐到區域清除。 屆時即可獲救並送至安全處。 請各司其職。 以上。"
+		"NGSurvivalWaveStart"	"<len:5.0><I>屍潮正向你們所在地點接近中！做好準備！"
+		"NGSurvivalZoneA"	"<len:5.0><clr: 255, 255, 0><I>A 區遭受侵襲！守住它！"
+		"NGSurvivalZoneB"	"<len:5.0><clr: 255, 255, 0><I>B 區遭受侵襲！守住它！"
+		"NGSurvivalZoneC"	"<len:5.0><clr: 255, 255, 0><I>C 區遭受侵襲！守住它！"
+		"NGSurvivalZoneD"	"<len:5.0><clr: 255, 255, 0><I>D 區遭受侵襲！守住它！"
+		"NGSurvivalZoneE"	"<len:5.0><clr: 255, 255, 0><I>E 區遭受侵襲！守住它！"
+		"NGSurvivalZoneF"	"<len:5.0><clr: 255, 255, 0><I>F 區遭受侵襲！守住它！"
 		"SafeZone.Killed"	"<clr: 255, 0, 0>[失去保護區，守住剩下的區域否則軍隊就會離開]"
 		"Wave.Complete"		"[屍潮消滅完成]"
 		"NMRPlayer.TokenEarned"	"[獲得復活點數]"	
@@ -701,7 +701,7 @@
 		"Heli.Arrival1min_US"		"<len:3.7>這是國民警衛隊。我們已著陸但我們不能耽擱太久。<delay:3.8><len:1.5>你們還有一分鐘。"
 		"Heli.Departure_NoAccent"	"<len:2.5>好，我們得徹了。油要見底了，<delay:3.1><len:1.9>如果還有人沒趕上，<delay:5.2><len:1.1>願你們平安。"
 		"Heli.Departure_US"		"<len:2.2>我們要撤了，你們要自求多福！<delay:2.6><len:1.4>很對不起！"
-		"GenericVoice.YouFoundIt"	"哇塞，真給你找到了！"
+		"GenericVoice.YouFoundIt"	"<len:2.6>哇塞，真給你找到了！"
 	
 		// Asylum
 		"AsylumVoice.Intro"	"<len:5.3>所以，你料想的發展結果是這樣嗎？在隔離房裡面活活餓死？ <delay:5.5><len:4.7>我說呀，真是機智的決定，但我可以給你一個新選擇。 <delay:10.3><len:5.6>你可以待在這等死，或者你可以幫我，我可以給你一個逃脫機會來報答你。 <delay:16.2><len:1>我掛保證。"
@@ -724,26 +724,26 @@
 		"Broadway2Voice.Extraction"	"<len:2.1>注意，注意。 <delay:2.7><len:4.7>如果有誰聽得見，你們得立刻馬上到屋頂上來等待救援。<delay:8><len:2.9>過五分鐘政府就要投炸彈了。<delay:11.8><len:2.7>拜託，快點逃。"
 		
 		// Brooklyn
-		"brooklyn_voice.01"	"嘿還好你路過了，能幫點忙嗎？"
-		"brooklyn_voice.02"	"搞屁？！大門沒有通電，把它修好我們才能逃出這鬼地方！"
-		"brooklyn_voice.03"	"好耶！把它繫上去，我們就來扳倒它。"
+		"brooklyn_voice.01"	"<len:2.4>嘿還好你路過了，能幫點忙嗎？"
+		"brooklyn_voice.02"	"<len:4.9>搞屁？！大門沒有通電，把它修好我們才能逃出這鬼地方！"
+		"brooklyn_voice.03"	"<len:3.1>好耶！把它繫上去，我們就來扳倒它。"
 		"brooklyn_voice.04"	"<len:3.7>嘿老兄！還好沒發臭的人肉不是只有我一個！<delay:3.8><len:4.8>我打算逃出這鬼地方，但是我們得扳倒外頭的圍籬才能出去。"
 		"brooklyn_voice.05"	"<len:1.5>欸呀，多謝了！<delay:1.5><len:2.4>聽我說，我看看我能不能發動這輛貨卡，<delay:4><len:2.4>但是如果我們想逃出去的話，我們要有足夠的物資。<delay:6.5><len:2.3>我看到對街附近的巷子裡有一個手推車，<delay:8.9><len:3.3>我們可能可以用它來裝附近社區有用的東西。"
 		"brooklyn_voice.06"	"<len:2>太好了，人還活著呀！<delay:2><len:2.8>東西上車，我們在這引來太多群眾了。"
 		"brooklyn_voice.07"	"<len:2.2>好，我們就快逃出去了！<delay:2.2><len:2.4>我們得找到大門的控制台，<delay:4.6><len:1.8>應該不會離這太遠。"
-		"brooklyn_voice.08"	"<I>動作快啊<clr:255,0,0>小豬仔──<clr:255,255,255>別逼我先走一步了！"
-		"brooklyn_voice.09"	"哭枵，看起來有人不知道怎麼停車。"
-		"brooklyn_voice.10"	"不知道各位怎麼想，我的肚子開始叫了。"
+		"brooklyn_voice.08"	"<len:3.8><I>動作快啊<clr:255,0,0>小豬仔──<clr:255,255,255>別逼我先走一步了！"
+		"brooklyn_voice.09"	"<len:3.3>哭枵，看起來有人不知道怎麼停車。"
+		"brooklyn_voice.10"	"<len:3.3>不知道各位怎麼想，我的肚子開始叫了。"
 		
 		// Cabin
 		"CabinVoice.SpawnRadio"	"<len:3.4>這是颶風 88 向區域內的生還者通報。<delay:3.5><len:3.5>我們已經抵達疏散位置，準備就緒進行人員疏散。<delay:7.1><len:2.5>重複，救援抵達了。<delay:9.7><len:2.6>注意時間緊迫動作要快。以上。"
 		
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"<len:1.5>生還者！<delay:1.6><len:1.6>我來找你了！"
-		"CampbloodVoice.RalphLastChance"	"這是最後的機會！"
-		"CampbloodVoice.RalphLightsOff"		"有人記得熄燈嗎？"
+		"CampbloodVoice.RalphLastChance"	"<len:2.2>這是最後的機會！"
+		"CampbloodVoice.RalphLightsOff"		"<len:2.8>有人記得熄燈嗎？"
 		"CampbloodVoice.RalphWelcome"		"<len:2.3>你要參加喋血營是吧？<delay:2.6><len:2.1>你不會再度光臨，<delay:4.9><len:2.1>這有<I>死亡詛咒！"
-		"CampbloodVoice.RalphYourDoomed"	"你<I>完蛋了！<clr:255,0,0><B>咿嘻嘻嘻嘻！"
+		"CampbloodVoice.RalphYourDoomed"	"<len:3.8>你<I>完蛋了！<clr:255,0,0><B>咿嘻嘻嘻嘻！"
 
 		// Cleopas
 		"CleopasVoice.Radio"	"<len:1.8>[收音機雜訊]<delay:1.8><len:6>這是巡邏隊兩洞陸在市區呼叫緊急協助，我們損失慘重，<delay:8><len:6>那些……怪物，它們……就是打不死……它們一直爬起來！<delay:14.8><len:3.2>如果有誰聽得見，拜託加派援軍！<delay:22.4><len:3.4>我重複，我們市區需要緊急支援，<delay:26.4><len:4.6>我們彈藥所剩無幾，我們的選擇也所剩無幾，總部請回覆…… <delay:30.6><len:2>[槍聲、通訊中斷]"
@@ -751,34 +751,34 @@
 		// FEMA
 		"FemaVoice.BillyComplex"	"<len:4.2>這段訊號是基地傳來的嗎？那整座設施都淪陷了！<delay:4.6><len:3.9>那些科學家的蠢主意在封鎖程序啟動前就害死所有人了。<delay:9><len:3.7>你得完成封鎖程序，阻止他們幹的傻事擴散到外頭來！"
 		"FemaVoice.BillyFuel"		"<len:2.8>我們可以帶你們起飛，但是我們的燃料不夠！<delay:2.9><len:2.6>我們得先灌滿油才能出發到安全的地方。"
-		"FemaVoice.BillyGetIn"		"走了，上來！航向我們的新家吧！"
+		"FemaVoice.BillyGetIn"		"<len:2.5>走了，上來！航向我們的新家吧！"
 		"FemaVoice.BillyTopside"	"<len:1.8>喂？喂！<delay:2.1><len:3.3>如果有人聽見我說的，到地面上來我們能起飛帶你去安全處。<delay:5.7><len:4.1>去搜我們拖車裡的櫃子，我存一些那些金頭腦在開發的疫苗。<delay:9.9><len:2.6>我們還是小心為妙，帶著疫苗就馬上過來！"
-		"FemaVoice.MengelerOkayBob"	"<I>好，巴布，現在請拉下開關。"
-		"FemaVoice.MengelerThatsIt"	"<I>做得很好喔巴布！這樣你值得拿到獎賞。"
-		"FemaVoice.MengelerSayHello"	"<I>向艾莉西亞阿姨說聲喂，巴布。"
+		"FemaVoice.MengelerOkayBob"	"<len:2.4><I>好，巴布，現在請拉下開關。"
+		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>做得很好喔巴布！這樣你值得拿到獎賞。"
+		"FemaVoice.MengelerSayHello"	"<len:2.5><I>向艾莉西亞阿姨說聲喂，巴布。"
 		"FemaVoice.ColonelNatSec"	"<len:1.5>這是凱珊上校。<delay:1.7><len:5.5>基於國家安全我們可以幫助你們脫困，前提是你們必須回收實驗中的疫苗。<delay:7.6><len:3>我們知道你的位置，我們會在地面上等待回應。"
 		"FemaVoice.ColonelStow"		"<len:2.8>這是國家安全局凱珊上校。<delay:2.8><len:1.1>我們得到你們的訊號。<delay:3.9><len:2.5>妥當收納疫苗，準備疏散。"
 		
 		// Midwest
-		"MidwestVoice.EngineerBarbara"	"它們來抓我們囉，芭芭拉！"
-		"MidwestVoice.EngineerEnd"	"好，我敢說我找到問題出在哪了，現在只差修好它了。"
-		"MidwestVoice.EngineerEnd2"	"OK，成功發動！快點啊各位，上車了！"
-		"MidwestVoice.EngineerFirst"	"保護好自己呀各位，我會盡快排除問題！"
+		"MidwestVoice.EngineerBarbara"	"<len:2.9>它們來抓我們囉，芭芭拉！"
+		"MidwestVoice.EngineerEnd"	"<len:4.9>好，我敢說我找到問題出在哪了，現在只差修好它了。"
+		"MidwestVoice.EngineerEnd2"	"<len:3.1>OK，成功發動！快點啊各位，上車了！"
+		"MidwestVoice.EngineerFirst"	"<len:3.6>保護好自己呀各位，我會盡快排除問題！"
 		"MidwestVoice.EngineerStart"	"<len:2.6>各位，剛剛列車引擎失靈了…… <delay:2.9><len:1.8>我還沒搞清楚怎麼了，<delay:4.8><len:1.6>我們必須在這停滯一段時間，<delay:6.6><len:2.1>接下來好幾英里都是荒郊野外。"
 		
 		// Junction
 		"JunctionVoice.01"	"<len:2.8><I>[緊急廣播音]<delay:2.8><len:8.4><I>以下訊息由紐澤西州聯合市的紐澤西緊急管理處下達發布。<delay:11.2><len:8><I>若您依然安好，請就地等待救援。 在街上穿梭是萬分危險的。<delay:19.4><len:5.9><I>下述是實施出入封鎖的郡：聯合郡、哈德遜郡以及孟莫斯郡。<delay:25.4><len:7><I>若您有受傷或者其他緊急情況，請保持冷靜並在原處靜待進一步的消息。<delay:32.5><len:3.5><I>緊急服務車輛目前或許無法抵達您的位置。<delay:36><len:2.8><I>[廣播結束]"
 		"JunctionVoice.02"	"<len:4.7>聽到人的聲音真好！看樣子還是有人被困在城市裡。<delay:4.9><len:6.3>嗯，我是四二師二兵瓊斯，不知道你們有沒有聽說，林肯隧道是整座城對外唯一的出路。<delay:11.3><len:7.4>我們本來正要將它封鎖起來，結果有炸彈誤爆，我們爆破專家全數殉職，連我都被炸傷了。<delay:19><len:4.2>目前我人爬進了其中一輛卡車的駕駛座。我會在這邊等你們過來。"
 		"JunctionVoice.03"	"<len:3.4>沒想到你們真的成功了，我正打算自己逃走！<delay:3.7><len:4.8>這邊三組炸藥威力保證足以封死這整條隧道，斷絕我們的追兵。<delay:8.8><len:2.2>把它們裝到梁柱上然後趕緊上車！"
-		"JunctionVoice.04"	"好了，趕快上車！時間不多了！"
-		"JunctionVoice.05"	"我們出發吧，希望人都到齊了！"
+		"JunctionVoice.04"	"<len:3.0>好了，趕快上車！時間不多了！"
+		"JunctionVoice.05"	"<len:3.2>我們出發吧，希望人都到齊了！"
 		
 		// Quarantine
 		"QuarantineVoice.RadioIntro"	"<len:6.9>喂？我們是隔離區僅存的人了……僅存的了…… <delay:7><len:4>除了我們其他人都……不用說了吧。<delay:11.2><len:5.1>聽好了，在隔離區的另外一端有直升機。<delay:16.5><len:4.2>要不是直升機都被那些媽的噁心東西給……佔據了，<delay:20.8><len:1.6>我們老早就逃出去了！<delay:22.6><len:3.1>我是說你們剛好能出現真是太好了……<delay:26><len:3.5>你們可以幫我們逃走，我們可以互助。"
 		"QuarantineVoice.RadioIntro2"	"<len:1.6>你們得做一件事：<delay:1.7><len:2.8>你們得關閉隔離區大門，<delay:4.6><len:3.4>自動系統會維持封鎖內部隔離門。<delay:8.1><len:2>你們需要進入內部隔離區，<delay:10.3><len:2.2>但在那之前你們得把大門關上。"
 		"QuarantineVoice.RadioTalk"	"<len:4.3>一旦你們關閉了大門我們就會打開內部隔離門。<delay:4.7><len:6.7>但是自動系統裡有一道保險機制，內部隔離門會在大概一分鐘後關上，而且…… <delay:11.8><len:5.6>呃……再加上大門已經開了這麼久，鐵定會觸發第二道保險機制，我就說── <delay:17.5><len:7.1>如果門關上時你們來不及進來內部隔離區，你們必死無疑！"
 		"QuarantineVoice.RadioTalk2"	"<len:6.3>我們的計劃是這樣的，有個警報器，你們在的那區<I>有一個警報器<I>。 <delay:6.5><len:5>你們得啟動警報，這樣一來，就能把殭屍引開我們這邊。 <delay:11.5><len:3.1>時機一到，我們就去啟動直升機，<delay:14.62><len:3.8>接著我們會轉回來，我們會接你們上來，然後大家平平安安閃人。<delay:18.6><len:4.88>所以我建議一逮到機會就馬上登機，就是……要做好準備。 <delay:23.5><len:3.8>準備好就觸動警報，好嗎？"
-		"QuarantineVoice.RadioTalk3"	"在此之前，那個房間裡應該有一個對講機，帶好它。"
+		"QuarantineVoice.RadioTalk3"	"<len:5.4>在此之前，那個房間裡應該有一個對講機，帶好它。"
 		
 		// Toxteth
 		"ToxtethVoice.PilotRadio"	"<len:3.5>有，我們聽得見，我們在鄰近的區域盤旋。<delay:4.2><len:4.4>聽著，前往哈廷頓路，我們會在五分鐘內抵達，接你們上來。<delay:9><len:2.3>我們時間有限，所以請盡快！"
@@ -793,14 +793,14 @@
 		"ToxtethVoice.SurvivorPhone4"	"<len:3.4>嘿！過去幾天我用監視器看著你們。<delay:3.7><len:5.6>你們得前往墓園後面的那間賣場，我被困在這裡，外面全都是殭屍！<delay:9.9><len:3.4>我已經從外面求來了救援，但是你們得過來救我，我們才能離開。<delay:14.3><len:1.4>時間不多了。"
 		
 		// Zephyr
-		"ZephyrVoice.Engineer04"	"不好意思，給我忘記了，能不能拉下我後頭的控制桿，讓我到車站那邊連接其他節車廂？"
-		"ZephyrVoice.Engineer06"	"好，只要再一支把手。 我……很抱歉啊各位我應該先說清楚的，那支把手有一點點遠……哼。"
-		"ZephyrVoice.Engineer07"	"好了各位，最後一步。放開車廂的手剎車，我後面綠色的那一節。"
-		"ZephyrVoice.Engineer08"	"一切就緒！跟我說一聲，我們馬上出發。"
-		"ZephyrVoice.Engineer09"	"走了！"
-		"ZephyrVoice.Engineer10"	"誰還沒上車的，加緊動作！快呀！"
-		"ZephyrVoice.AllAboard"		"<B>全員登車！"
-		"ZephyrVoice.OhCrud"		"<I>媽呀……"
+		"ZephyrVoice.Engineer04"	"<len:7.6>不好意思，給我忘記了，能不能拉下我後頭的控制桿，讓我到車站那邊連接其他節車廂？"
+		"ZephyrVoice.Engineer06"	"<len:8.5>好，只要再一支把手。 我……很抱歉啊各位我應該先說清楚的，那支把手有一點點遠……哼。"
+		"ZephyrVoice.Engineer07"	"<len:8.5>好了各位，最後一步。放開車廂的手剎車，我後面綠色的那一節。"
+		"ZephyrVoice.Engineer08"	"<len:4.1>一切就緒！跟我說一聲，我們馬上出發。"
+		"ZephyrVoice.Engineer09"	"<len:2.6>走了！"
+		"ZephyrVoice.Engineer10"	"<len:4.7>誰還沒上車的，加緊動作！快呀！"
+		"ZephyrVoice.AllAboard"		"<len:2.6><B>全員登車！"
+		"ZephyrVoice.OhCrud"		"<len:2.7><I>媽呀……"
 		"ZephyrVoice.Speech1901"	"<len:6>喂喂？ 喔，好久沒聽到活人的聲音了，真叫人放心。<delay:6.8><len:4.3>聽好了，目前我人關在軌道轉盤旁邊的機廠裡頭，<delay:11.8><len:4.7>如果你們可以出來幫我一把，我會很感激的，<delay:16.8><len:4.1>況且，我也有辦法回報你們，不過首先，<delay:21.7><len:5.3>月台門需要通行密碼，密碼是……我看看……：<delay:28.5><len:4.3>1、9、0、1。"
 		"ZephyrVoice.Speech2606"	"<len:6>喂喂？ 喔，好久沒聽到活人的聲音了，真叫人放心。<delay:6.8><len:4.3>聽好了，目前我人關在軌道轉盤旁邊的機廠裡頭，<delay:11.8><len:4.7>如果你們可以出來幫我一把，我會很感激的，<delay:16.8><len:4.1>況且，我也有辦法回報你們，不過首先，<delay:21.7><len:5.3>月台門需要通行密碼，密碼是……我看看……：<delay:28.5><len:4.1>2、6、0、6。"
 		"ZephyrVoice.Speech2710"	"<len:6>喂喂？ 喔，好久沒聽到活人的聲音了，真叫人放心。<delay:6.8><len:4.3>聽好了，目前我人關在軌道轉盤旁邊的機廠裡頭，<delay:11.8><len:4.7>如果你們可以出來幫我一把，我會很感激的，<delay:16.8><len:4.1>況且，我也有辦法回報你們，不過首先，<delay:21.7><len:5.3>月台門需要通行密碼，密碼是……我看看……：<delay:28.5><len:4.1>2、7、1、0。"
