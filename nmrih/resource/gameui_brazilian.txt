@@ -196,6 +196,11 @@
 
 "NMRiH_Select_Mutators"	"Selecionar Mutador"
 "NMRiH_Find_Mutators"	"Encontrar mais..."
+"NMRiH_Mutator_ImportConfig"	"Importar Config. Mutador"
+"NMRiH_Mutator_ExportConfig"	"Exportar Config. Mutador"
+"NMRiH_Mutator_ConfigFileType"	"Config. Mutador (.txt)"
+"NMRiH_Mutator_ExportCfgSuccess"	"Config. Mutador exportado com sucesso."
+"NMRiH_Mutator_FailedToImportConfig"	"Falha ao importar config. mutador. O arquivo é inválido."
 
 "NMRiH_DeckCompatibility_Title"	"Compatibilidade do Steam Deck"
 "NMRiH_DeckCompatibility_Message1"	"Parece que você está jogando via Steam Deck."
@@ -423,4 +428,4 @@
 "VPKTools_Error_BannedFileExtension"	"Foi encontrada uma extensão de arquivo banida."
 "VPKTools_Error_CfgFilesNotAllowed"		"Arquivos de configuração (cfg) não são permitidos, remova o \"cfg\" da pasta do VPK."
 } 
-}  
+}
