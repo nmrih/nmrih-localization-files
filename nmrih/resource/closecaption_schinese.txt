@@ -675,16 +675,16 @@
 
 		//Survival mode
 
-		"NGSurvivalExtraction" "<I>救援即将抵达，做好逃脱准备！"
-		"NGSurvivalSupply" "<I>注意：联邦应急管理署的空投物资即将抵达，完毕。"
-		"NGSurvivalBegin" "<I>插播重要指令，这里是国民警卫队。你们所在的位置设立有安全区，根据国家流行病法案和联合国救助者倡议，请保护安全区直到尸群被消灭，然后我们才会派出救援。请尽你们应尽的责任，完毕。"
-		"NGSurvivalWaveStart" "<I>尸群正在向你们靠近，做好准备！"
-		"NGSurvivalZoneA" "<clr: 255, 255, 0><I>安全区 A 正遭受攻击，赶快保卫安全区！"
-		"NGSurvivalZoneB" "<clr: 255, 255, 0><I>安全区 B 正遭受攻击，赶快保卫安全区！"
-		"NGSurvivalZoneC" "<clr: 255, 255, 0><I>安全区 C 正遭受攻击，赶快保卫安全区！"
-		"NGSurvivalZoneD" "<clr: 255, 255, 0><I>安全区 D 正遭受攻击，赶快保卫安全区！"
-		"NGSurvivalZoneE" "<clr: 255, 255, 0><I>安全区 E 正遭受攻击，赶快保卫安全区！"
-		"NGSurvivalZoneF" "<clr: 255, 255, 0><I>安全区 F 正遭受攻击，赶快保卫安全区！"
+		"NGSurvivalExtraction" "<len:10.0><I>救援即将抵达，做好逃脱准备！"
+		"NGSurvivalSupply" "<len:10.0><I>注意：联邦应急管理署的空投物资即将抵达，完毕。"
+		"NGSurvivalBegin" "<len:15.0><I>插播重要指令，这里是国民警卫队。你们所在的位置设立有安全区，根据国家流行病法案和联合国救助者倡议，请保护安全区直到尸群被消灭，然后我们才会派出救援。请尽你们应尽的责任，完毕。"
+		"NGSurvivalWaveStart" "<len:5.0><I>尸群正在向你们靠近，做好准备！"
+		"NGSurvivalZoneA" "<len:5.0><clr: 255, 255, 0><I>安全区 A 正遭受攻击，赶快保卫安全区！"
+		"NGSurvivalZoneB" "<len:5.0><clr: 255, 255, 0><I>安全区 B 正遭受攻击，赶快保卫安全区！"
+		"NGSurvivalZoneC" "<len:5.0><clr: 255, 255, 0><I>安全区 C 正遭受攻击，赶快保卫安全区！"
+		"NGSurvivalZoneD" "<len:5.0><clr: 255, 255, 0><I>安全区 D 正遭受攻击，赶快保卫安全区！"
+		"NGSurvivalZoneE" "<len:5.0><clr: 255, 255, 0><I>安全区 E 正遭受攻击，赶快保卫安全区！"
+		"NGSurvivalZoneF" "<len:5.0><clr: 255, 255, 0><I>安全区 F 正遭受攻击，赶快保卫安全区！"
 		"SafeZone.Killed" "<clr: 255, 0, 0>[安全区已失守，全部安全区失守后国民警卫队将放弃对你们的营救！]"
 		"Wave.Complete" "[回合已完成]"
 		"NMRPlayer.TokenEarned" "[获得重生点数]"	
@@ -701,7 +701,7 @@
 		"Heli.Arrival1min_US"	"<len:3.7>这里是国民警卫队，我们已经到达，但无法等你太长时间。<delay:3.8><len:1.7>时间紧迫，你只有一分钟的时间。"
 		"Heli.Departure_NoAccent"	"<len:2.5>由于燃料不足，我们得先离开了。<delay:3.1><len:1.9>如果还有任何幸存的生还者，<delay:5.2><len:1.3>祝你好运。"
 		"Heli.Departure_US"	"<len:2.2>我们得先走一步了，你们自求多福吧！<delay:2.6><len:1.4>很抱歉！"
-		"GenericVoice.YouFoundIt"	"这简直太棒了，看起来你们找到它了！"
+		"GenericVoice.YouFoundIt"	"<len:2.6>这简直太棒了，看起来你们找到它了！"
 
 		// Asylum
 		"AsylumVoice.Intro"	"<len:3.4>所以这就是你所期望的结局吗，<delay:2.8><len:3.3>关在隔离室里自寻死路？<delay:5.5><len:2>要我说，真是个明智的决定。<delay:7.6><len:2.7>不过我可以给你一次重新选择的机会。<delay:10.3><len:2>你可以在这留下来等死，<delay:12.3><len:3.6>或选择帮我一个忙，作为回报我会带你逃出这里。<delay:16.2><len:1.7>我向你保证。"
@@ -724,26 +724,26 @@
 		"Broadway2Voice.Extraction"	"<len:2.1>请注意，请注意！<delay:2.7><len:4.7>如果有人能听到，你需要尽最快速度前往屋顶等待救援。<delay:8><len:2.9>在开始轰炸之前，你只有五分钟的时间，<delay:11.8><len:2.7>拜托了... 请赶快撤离！"
 		
 		// Brooklyn
-		"brooklyn_voice.01"	"嘿！感谢你的到来，想要在这帮我一个忙吗？"
-		"brooklyn_voice.02"	"可恶？！大门没有电了，我们需要修好它才能离开这个鬼地方！"
-		"brooklyn_voice.03"	"好主意！把它钩在铁栅栏上，这样我们就能把栅栏拉下来。"
+		"brooklyn_voice.01"	"<len:2.4>嘿！感谢你的到来，想要在这帮我一个忙吗？"
+		"brooklyn_voice.02"	"<len:4.9>可恶？！大门没有电了，我们需要修好它才能离开这个鬼地方！"
+		"brooklyn_voice.03"	"<len:3.1>好主意！把它钩在铁栅栏上，这样我们就能把栅栏拉下来。"
 		"brooklyn_voice.04"	"<len:3.7>你们好啊，很高兴看到你们！看来我还不是唯一的幸存者！<delay:3.8><len:4.8>我要离开这个该死的鬼地方，但是我们得先把外面的铁栅栏拆下来才能继续前进。"
 		"brooklyn_voice.05"	"<len:1.5>太棒了，谢谢你！<delay:1.5><len:2.4>现在我来看看能不能启动这辆卡车，<delay:4><len:2.4>但如果想要离开这里，我们还需要补给品。<delay:6.4><len:2.5>我在街对面的小巷看到了一辆旧手推车，<delay:8.8><len:3.6>用它说不定我们可以在街道剩下的物资中，找到我们需要的东西。"
 		"brooklyn_voice.06"	"<len:2>真高兴你还活着！<delay:2><len:2.9>现在快把补给品搬上货车，我们在这可是吸引了一大群丧尸。"
 		"brooklyn_voice.07"	"<len:2.2>好了，我们快离开这个鬼地方了！<delay:2.2><len:2.5>但我们得找到大门的中控系统来打开大门，<delay:4.6><len:2>它应该就在离这不远的地方。"
-		"brooklyn_voice.08"	"<I>好了 <clr:255,0,0>贪心鬼们<clr:255,255,255> - 快上车，别让我把你们丢下离开！"
-		"brooklyn_voice.09"	"该死，看来有些人不知道该怎么停车啊，快把前面的车挪开！"
-		"brooklyn_voice.10"	"不知道你们感觉怎么样，但我的胃可是<I>饿坏了。"
+		"brooklyn_voice.08"	"<len:3.8><I>好了 <clr:255,0,0>贪心鬼们<clr:255,255,255> - 快上车，别让我把你们丢下离开！"
+		"brooklyn_voice.09"	"<len:3.3>该死，看来有些人不知道该怎么停车啊，快把前面的车挪开！"
+		"brooklyn_voice.10"	"<len:3.3>不知道你们感觉怎么样，但我的胃可是<I>饿坏了。"
 		
 		// Cabin
 		"CabinVoice.SpawnRadio"	"<len:3.4>这里是龙卷风88号正在为所有存活的生还者广播。<delay:3.5><len:3.5>我们已经到达集合点，并准备开始撤离。<delay:7.1><len:2.5>重复，救援已经到达，<delay:9.6><len:2.7>请务必抓紧时间，完毕。"
 		
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"<len:1.5>嘿，幸存者们！<delay:1.6><len:2>准备好迎接死亡的到来了吗！<cr>（我要来抓你们咯！）"
-		"CampbloodVoice.RalphLastChance"	"这将是你们最后一次投降的机会！"
-		"CampbloodVoice.RalphLightsOff"	"有人记得要把灯关上吗...？"
+		"CampbloodVoice.RalphLastChance"	"<len:2.2>这将是你们最后一次投降的机会！"
+		"CampbloodVoice.RalphLightsOff"	"<len:2.8>有人记得要把灯关上吗...？"
 		"CampbloodVoice.RalphWelcome"	"<len:2.3>你们是要前往血腥营地，对吗？<delay:2.6><len:2.1>恐怕你将再也不会活着回来...<delay:4.8><len:2.2>这里有着 <clr:255,0,0><B>死亡诅咒<B><clr:255,255,255>！"
-		"CampbloodVoice.RalphYourDoomed"	"你们 <I>死定了！ <clr:255,0,0><B>啊哈哈哈哈！"
+		"CampbloodVoice.RalphYourDoomed"	"<len:3.8>你们 <I>死定了！ <clr:255,0,0><B>啊哈哈哈哈！"
 
 		// Cleopas
 		"CleopasVoice.Radio"	"<len:1.8>[无线电噪声]<delay:1.8><len:6>这里是206巡逻队正在市区请求紧急救援，我们遭受了猛烈袭击，<delay:8><len:6>这些...怪物，不会停下来...它们变得越来越多了！<delay:14.8><len:3.2>如果有任何人可以听到，请派出救援！<delay:22.4><len:3.4>重复，市区内需要紧急救援，<delay:26.4><len:5.6>弹药已经不多了，留给我们的选择所剩无几，请告知总部...<delay:30.6><len:2>[枪声响起，传输中断]"
@@ -751,34 +751,34 @@
 		// FEMA
 		"FemaVoice.BillyComplex"	"<len:4.2>这是来自地下的通讯信号吗？整个设施目前都已经沦陷了！<delay:4.6><len:3.9>这帮该死的书呆子不知道研究出了什么杀死了所有人，以至于根本来不及启动收容协议。<delay:9><len:3.9>现在你需要完成这个任务，并且阻止科学家研究出的东西离开那里！"
 		"FemaVoice.BillyFuel"	"<len:2.8>我们可以把你带到安全的地方，但现在燃料不足了！<delay:2.8><len:2.8>在想要离开这里之前，我们需要将油箱加满。"
-		"FemaVoice.BillyGetIn"	"赶快到飞机上来！现在我们要飞往安全区了！"
+		"FemaVoice.BillyGetIn"	"<len:2.5>赶快到飞机上来！现在我们要飞往安全区了！"
 		"FemaVoice.BillyTopside"	"<len:1.8>喂？喂！<delay:2.1><len:3.3>如果还有人能收到消息，就到地面上来，我们将会带你前往安全区。<delay:5.7><len:4.1>记得检查一下你所在拖车里的储藏柜，我保存了些科学家们正在开发的疫苗。<delay:9.9><len:2.6>现在行动起来并拿到疫苗，请务必小心行事！"
-		"FemaVoice.MengelerOkayBob"	"<I>好的，布布。现在，扳动开关。[电影台词]"
-		"FemaVoice.MengelerThatsIt"	"<I>就是这样，布布！然后，你就可以得到你的奖励了。[电影台词]"
-		"FemaVoice.MengelerSayHello"	"<I>向你的阿姨艾丽西亚问好，布布。[电影台词]"
+		"FemaVoice.MengelerOkayBob"	"<len:2.4><I>好的，布布。现在，扳动开关。[电影台词]"
+		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>就是这样，布布！然后，你就可以得到你的奖励了。[电影台词]"
+		"FemaVoice.MengelerSayHello"	"<len:2.5><I>向你的阿姨艾丽西亚问好，布布。[电影台词]"
 		"FemaVoice.ColonelNatSec"	"<len:1.5>这里是卡赞上校，<delay:1.7><len:5.5>为了国家机密的安全，我们保证会将你救援至安全区，但前提是我们回收到实验疫苗。<delay:7.6><len:3>我们已经确认了你的位置，并且会等待你做出的行动。"
 		"FemaVoice.ColonelStow"	"<len:2.8>这里是国家安全局的卡赞上校，<delay:2.8><len:1.1>我们已经收到了你的信号。<delay:3.9><len:3.2>现在保证好疫苗的安全，将疫苗上缴放好后准备进行撤离。"
 		
 		// Midwest
-		"MidwestVoice.EngineerBarbara"	"它们要来抓我们了，芭芭拉！[电影台词]"
-		"MidwestVoice.EngineerEnd"	"好的，我相信我已经找到了问题所在，现在唯一要做的就是让我把它修好。"
-		"MidwestVoice.EngineerEnd2"	"好了，已经修理完毕，并且引擎运转良好！伙计们，赶快到火车上来！"
-		"MidwestVoice.EngineerFirst"	"守住你们所待的建筑，我会尽快修理好火车引擎！"
+		"MidwestVoice.EngineerBarbara"	"<len:2.9>它们要来抓我们了，芭芭拉！[电影台词]"
+		"MidwestVoice.EngineerEnd"	"<len:4.9>好的，我相信我已经找到了问题所在，现在唯一要做的就是让我把它修好。"
+		"MidwestVoice.EngineerEnd2"	"<len:3.1>好了，已经修理完毕，并且引擎运转良好！伙计们，赶快到火车上来！"
+		"MidwestVoice.EngineerFirst"	"<len:3.6>守住你们所待的建筑，我会尽快修理好火车引擎！"
 		"MidwestVoice.EngineerStart"	"<len:2.6>伙计们，火车引擎似乎出了问题。 <delay:2.9><len:4.9>而我也不清楚引擎到底是什么状况...<delay:4.8><len:3.8>距离最近的城镇在几英里开外，<delay:6.6><len:2.8>看来我们不得不在此地滞留一段时间了。"
 		
 		// Junction
 		"JunctionVoice.01"	"<len:2.8>[应急广播播报]<delay:2.8><len:4.1><I>以下讯息是新泽西州联合市，<delay:6.6><len:4.6><I>新泽西应急管理办公室所要求发送的。<delay:11.2><len:4><I>如果您依旧生还，请留在原地等待救援，<delay:14.7><len:4.6><I>在街道上穿行是十分危险的。<delay:19.4><len:5.9><I>以下郡县中的：联合县，哈德逊县和孟莫斯县目前已被隔离。<delay:25.4><len:3.5><I>如果您已受伤或遇到紧急情况，<delay:28.5><len:4><I>请保持冷静，并在原地等待我们的后续通知。<delay:32.5><len:3.5><I>应急救援车辆目前可能无法及时赶到。<delay:36><len:2.8>[播报完毕]"
 		"JunctionVoice.02"	"<len:4.7>很高兴还能听到其他人的声音！看起来城市里还有滞留的生还者。<delay:4.9><len:2.8>嗯，这里是第四十二师的二兵琼斯，<delay:7.1><len:4.4>我不知道你是否听说过，不过目前林肯隧道是离开这座城市的唯一途径。<delay:11.3><len:5.3>我们本来是打算用炸弹将隧道封闭的。<delay:12.5><len:5.5>但其中一颗炸弹因意外被引爆了，爆破专家悉数阵亡，而我也被炸弹炸伤。<delay:19><len:4.6>我顺利爬进了其中一辆卡车的驾驶座，如果你想要撤离，我会在你到来前一直潜伏在这。"
 		"JunctionVoice.03"	"<len:3.4>真不敢相信你成功过来了，我正打算开车离开呢！<delay:3.7><len:4.8>如你所见，这里有三个威力强大的炸药，足够我们炸塌隧道并安全逃生了。<delay:8.8><len:2.8>现在把炸药放置在墙墩上，然后立刻到卡车上来！"
-		"JunctionVoice.04"	"好的，赶快到卡车上来！我们没有太多时间了！"
-		"JunctionVoice.05"	"现在让我们离开这个鬼地方，我希望你们都已经上车了！"
+		"JunctionVoice.04"	"<len:3.0>好的，赶快到卡车上来！我们没有太多时间了！"
+		"JunctionVoice.05"	"<len:3.2>现在让我们离开这个鬼地方，我希望你们都已经上车了！"
 		
 		// Quarantine
 		"QuarantineVoice.RadioIntro"	"<len:6.2>该死！喂？我们是隔离区内幸存的...<delay:5.2><len:4.5>还活着的生还者...<delay:7><len:4>除了我们之外的每个人都变成了...你知道的。<delay:11.2><len:5.5>听着，我知道在隔离区的另一侧有救援直升机，<delay:16><len:3.8>要不是我们被那些...<delay:18.3><len:4>该死的东西包围，我们现在本该离开这里了！<delay:22.4><len:6.6>嗯...我的意思是，你们能来真是太好了，因为...你们可以在这里帮助我们，我们可以互帮互助。"
 		"QuarantineVoice.RadioIntro2"	"<len:5.9>所以要做的就是：你们必须关闭外侧隔离区的入口大门，<delay:4.5><len:4>而自动门禁系统会保持内侧隔离区的大门锁定。<delay:8.2><len:4.2>在这之后你们需要到内侧隔离区里面来，<delay:10.6><len:4>总之...首先你们需要关闭外侧隔离区的入口大门。"
 		"QuarantineVoice.RadioTalk"	"<len:4.3>一旦你们关闭了入口大门，我们就会解除内侧隔离区的门禁锁定。<delay:4.7><len:3.8>但是自动门禁系统有着故障保护装置，<delay:7.7><len:4>内侧隔离区的大门会在开启后的大约一分钟内自动关闭，并且...<delay:11.8><len:5.6>嗯...取决于外侧入口大门被打开的时间，它还会触发二级故障保护装置。这么说吧，<delay:17.2><len:7.3>如果在内侧大门自动关闭之前你们没有进入内侧隔离区，那么你们就完蛋了！"
 		"QuarantineVoice.RadioTalk2"	"<len:4>现在你们要做的是，那里应该有一个警报器，<delay:2.8><len:4.2><B>有一个警报器装置<B>，就在内侧隔离区的某个位置。<delay:6.5><len:5>你们需要激活警报，而这样就能够，就能够让这些丧尸不再包围我们。<delay:11.5><len:3.8>之后我们就会前往启动救援直升机，<delay:14.7><len:3.9>然后再回来接上你们，这样我们就都能离开这个鬼地方了。<delay:18.6><len:8.5>我希望你们都能够登机，所以...请务必做好准备。当你们准备好后，就激活警报，好吗？"
-		"QuarantineVoice.RadioTalk3"	"不过首先，在你们所在房子里的某处应该有一个对讲机，把它带上，以便我们之后继续联络。"
+		"QuarantineVoice.RadioTalk3"	"<len:5.4>不过首先，在你们所在房子里的某处应该有一个对讲机，把它带上，以便我们之后继续联络。"
 		
 		// Toxteth
 		"ToxtethVoice.PilotRadio"	"<len:3.5>是的，我们可以听到你的声音。我们现在就在当地上空盘旋。<delay:4.2><len:4.4>听着，现在回到哈丁顿路上去，我们五分钟后到那儿接你，<delay:9><len:2.3>我们没有多余的时间了，所以赶快行动！"
@@ -793,14 +793,14 @@
 		"ToxtethVoice.SurvivorPhone4"	"<len:3.4>嘿！我通过附近的监控系统已经观察你们好几天了。<delay:3.7><len:5.6>我需要你们到墓地后面的商店来，我被困在这里了，而且到处都是丧尸！<delay:9.9><len:3.4>我已经用无线电发出了带我们离开这里的救援信号，但在我们离开之前，我需要你们到商店来接我。<delay:14.3><len:1.4>我撑不了太长时间了！"
 		
 		// Zephyr
-		"ZephyrVoice.Engineer04"	"伙计们，对不起，差点忘记了。你们能帮我扳动一下火车后面的开关吗，这样我就能到站台那边去，再拉上那些车厢了。"
-		"ZephyrVoice.Engineer06"	"好的，不过我们还差一个开关，真抱歉本应该早点告诉你们的。因为这个开关可能会有点儿远...哈哈。"
-		"ZephyrVoice.Engineer07"	"干得漂亮，伙计们，还有最后一件事要做了。现在你们需要释放控制车厢的手刹。顺便一提，它就在我身后的绿色车厢里。"
-		"ZephyrVoice.Engineer08"	"一切完毕！在你们准备好要出发时，就立刻告诉我！"
-		"ZephyrVoice.Engineer09"	"我们出发了！"
-		"ZephyrVoice.Engineer10"	"任何还落在后面的生还者，赶快上火车，立刻马上！"
-		"ZephyrVoice.AllAboard"		"<B>赶-快-上-车！"
-		"ZephyrVoice.OhCrud"		"<I>哦，该死..."
+		"ZephyrVoice.Engineer04"	"<len:7.6>伙计们，对不起，差点忘记了。你们能帮我扳动一下火车后面的开关吗，这样我就能到站台那边去，再拉上那些车厢了。"
+		"ZephyrVoice.Engineer06"	"<len:8.5>好的，不过我们还差一个开关，真抱歉本应该早点告诉你们的。因为这个开关可能会有点儿远...哈哈。"
+		"ZephyrVoice.Engineer07"	"<len:8.5>干得漂亮，伙计们，还有最后一件事要做了。现在你们需要释放控制车厢的手刹。顺便一提，它就在我身后的绿色车厢里。"
+		"ZephyrVoice.Engineer08"	"<len:4.1>一切完毕！在你们准备好要出发时，就立刻告诉我！"
+		"ZephyrVoice.Engineer09"	"<len:2.6>我们出发了！"
+		"ZephyrVoice.Engineer10"	"<len:4.7>任何还落在后面的生还者，赶快上火车，立刻马上！"
+		"ZephyrVoice.AllAboard"		"<len:2.6><B>赶-快-上-车！"
+		"ZephyrVoice.OhCrud"		"<len:2.7><I>哦，该死..."
 		"ZephyrVoice.Speech1901"	"<len:6>喂，喂？哦，我已经很久没有听见过人声了，很高兴知道你们还活着。<delay:6.8><len:4.6>听着，我目前被困在火车转盘后面的引擎室里，<delay:11.6><len:6.1>如果你们能过去帮我一把，我会非常感激。<delay:17><len:6>事实上，作为回报，我可以带你们离开这里。<delay:19.8><len:6>但首先，通往站台的路上需要密码，<delay:24.8><len:3.4>让我看看...<delay:28.5><len:4.3>密码是：1-9-0-1。"
 		"ZephyrVoice.Speech2606"	"<len:6>喂，喂？哦，我已经很久没有听见过人声了，很高兴知道你们还活着。<delay:6.8><len:4.6>听着，我目前被困在火车转盘后面的引擎室里，<delay:11.6><len:6.1>如果你们能过去帮我一把，我会非常感激。<delay:17><len:6>事实上，作为回报，我可以带你们离开这里。<delay:19.8><len:6>但首先，通往站台的路上需要密码，<delay:24.8><len:3.4>让我看看...<delay:28.5><len:4.3>密码是：2-6-0-6。"
 		"ZephyrVoice.Speech2710"	"<len:6>喂，喂？哦，我已经很久没有听见过人声了，很高兴知道你们还活着。<delay:6.8><len:4.6>听着，我目前被困在火车转盘后面的引擎室里，<delay:11.6><len:6.1>如果你们能过去帮我一把，我会非常感激。<delay:17><len:6>事实上，作为回报，我可以带你们离开这里。<delay:19.8><len:6>但首先，通往站台的路上需要密码，<delay:24.8><len:3.4>让我看看...<delay:28.5><len:4.3>密码是：2-7-1-0。"

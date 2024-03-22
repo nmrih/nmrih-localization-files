@@ -8,5 +8,7 @@
 		"#Status_PlayingObjective"	"Режим заданий - %map%"
 		"#Status_PlayingSurvival"	"Режим выживания - %map%"
 		"#Status_PlayingCustom"	"Пользовательская - %map%"
+		"#Status_PlayingPvP"	"Игрок против игрока - %map%"
+		"#Status_PlayingMinigame"	"Мини-игры - %map%"
 	}
 }

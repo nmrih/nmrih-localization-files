@@ -675,9 +675,9 @@
 
 //Survival mode
 
-"NGSurvivalExtraction" "<I>L'extraction est en route vers votre position, rejoignez-là !"
-"NGSurvivalSupply" "<I>Attention, la FEMA vous envoie de l'approvisionnement sur votre position, terminé."
-"NGSurvivalBegin" "<I>Urgent, ici la Garde National des États-Unis. Des zones sécurisées se situent dans votre région. Conformément à la Loi Nationale sur les cas de pandémie et à l'initiative Redeker de l'ONU, tenez bon jusqu'à ce que la zone soit nettoyée. Vous serez extraits et emmenés en lieu sûr. Faites votre devoir, terminé."
+"NGSurvivalExtraction" "<len:10.0><I>L'extraction est en route vers votre position, rejoignez-là !"
+"NGSurvivalSupply" "<len:10.0><I>Attention, la FEMA vous envoie de l'approvisionnement sur votre position, terminé."
+"NGSurvivalBegin" "<len:15.0><I>Urgent, ici la Garde National des États-Unis. Des zones sécurisées se situent dans votre région. Conformément à la Loi Nationale sur les cas de pandémie et à l'initiative Redeker de l'ONU, tenez bon jusqu'à ce que la zone soit nettoyée. Vous serez extraits et emmenés en lieu sûr. Faites votre devoir, terminé."
 "NGSurvivalWaveStart" "<I>Une horde de zombies s'approche de votre position ! Préparez-vous !"
 "NGSurvivalZoneA" "<clr: 255, 255, 0><I>La Zone A est attaquée ! Protégez-la !"
 "NGSurvivalZoneB" "<clr: 255, 255, 0><I>La Zone B est attaquée ! Protégez-la !"
@@ -701,7 +701,7 @@
 "Heli.Arrival1min_US"	"<len:3.7>Ici la Garde Nationale, nous avons atterri mais nous ne resterons pas longtemps. <delay:3.8><len:1.5>Vous avez une minute."
 "Heli.Departure_NoAccent"	"<len:2.5>Bon, on doit partir, il nous reste presque plus d'essence. <delay:3.1><len:1.9>Si il reste qui que ce soit d'encore vivant par ici, <delay:5.2><len:1.1>bonne chance."
 "Heli.Departure_US"	"<len:2.2>On se taille d'ici, vous allez devoir vous débrouiller ! <delay:2.6><len:1.4>Je suis désolé !"
-"GenericVoice.YouFoundIt"	"Eh bien, on dirait que vous l'avez trouvé !"
+"GenericVoice.YouFoundIt"	"<len:2.6>Eh bien, on dirait que vous l'avez trouvé !"
 
 // Asylum
 "AsylumVoice.Intro"	"<len:5.3>Eh bien, est-ce de cette manière que vous pensiez que les choses se dérouleraient ? Mourir de faim dans une cellule d'isolement ? <delay:5.5><len:4.7>Un plan très intelligent, je l'admet. Mais, je suis en mesure de vous offrir un nouveau choix. <delay:10.3><len:5.6>Vous pouvez rester croupir ici et périr, ou bien vous pourriez m'aider, auquel cas je vous offirais en retour une porte de sortie. <delay:16.2><len:1>Je vous le promets."
@@ -724,26 +724,26 @@
 "Broadway2Voice.Extraction"	"<len:2.1>Attention, attention. <delay:2.7><len:4.7>Si vous m'entendez, vous devez vous déplacer sur le toit et attendre une extraction aussi rapidement que possible. <delay:8><len:2.9>Vous avez cinq minutes avant que le gouvernement ne bombarde la zone. <delay:11.8><len:2.7>S'il vous plaît, dégagez de là."
 
 // Brooklyn
-"brooklyn_voice.01"	"Hey, merci d'être venu, tu veux bien me filez un coup de main ?"
-"brooklyn_voice.02"	"C'est quoi ce bordel ?! Les portails ont plus de jus, va faloir les réparer si on veut se casser de ce trou !"
-"brooklyn_voice.03"	"Bonne idée ! Attache-le pour qu'on puisse tirer dessus."
+"brooklyn_voice.01"	"<len:2.4>Hey, merci d'être venu, tu veux bien me filez un coup de main ?"
+"brooklyn_voice.02"	"<len:4.9>C'est quoi ce bordel ?! Les portails ont plus de jus, va faloir les réparer si on veut se casser de ce trou !"
+"brooklyn_voice.03"	"<len:3.1>Bonne idée ! Attache-le pour qu'on puisse tirer dessus."
 "brooklyn_voice.04"	"<len:3.7>Salut les gars! Heureux de voir que je suis pas le seul morceau de barbaque qu'est pas pourri dans ce coin ! <delay:3.8><len:4.8>J'suis carrément pour se barrer de ce trou, mais va d'abord falloir descendre cette barrière dehors pour qu'on puisse passer."
 "brooklyn_voice.05"	"<len:1.5>Ouais ! Merci mec ! <delay:1.5><len:2.4>Écoute, je vais essayer de démarer ce camion, <delay:4><len:2.4>mais si on se casse d'ici, on aura besoin de vivres. <delay:6.5><len:2.3>J'ai vu un vieux chariot près d'une allée à l'autre bout de la rue, <delay:8.9><len:3.3>Avec ça on pourra sûrement récupérer ce dont on a besoin dans ce qu'il reste du coin."
 "brooklyn_voice.06"	"<len:2>Alright, you're still alive! <delay:2><len:2.8>Allez charge le van, on attire une sacrée foule par ici."
 "brooklyn_voice.07"	"<len:2.2>Alright, we're almost out of this shithole! <delay:2.2><len:2.4>Il faut qu'on surcharge les contrôles du portail, <delay:4.6><len:1.8>ça peut pas être très loin d'ici."
-"brooklyn_voice.08"	"<I>GROUILLEZ <clr:255,0,0>COUILLONS<clr:255,255,255> - me faites pas partir sans vous!"
-"brooklyn_voice.09"	"Merde. On dirait que quelqu'un sait pas se garer."
-"brooklyn_voice.10"	"J'sais pas vous les gars, mais moi mon estomac <I>gargouille."
+"brooklyn_voice.08"	"<len:3.8><I>GROUILLEZ <clr:255,0,0>COUILLONS<clr:255,255,255> - me faites pas partir sans vous!"
+"brooklyn_voice.09"	"<len:3.3>Merde. On dirait que quelqu'un sait pas se garer."
+"brooklyn_voice.10"	"<len:3.3>J'sais pas vous les gars, mais moi mon estomac <I>gargouille."
 
 // Cabin
 "CabinVoice.SpawnRadio"	"<len:3.4>Ici le commandant de l'unité Hurricane 88, à tous les survivants de la zone. <delay:3.5><len:3.5>Nous avons atteint le point de rendez-vous, et sommes prêts à procéder aux évacuations. <delay:7.1><len:2.5>Je répère, les secours sont arrivés. <delay:9.7><len:2.6>Sachez que nous ne resterons pas bien longtemps, terminé."
 
 // Campblood
 "CampbloodVoice.RalphComingForYa"	"<len:1.5>Salut les survivants ! <delay:1.6><len:1.6>J'arrive vers vous !"
-"CampbloodVoice.RalphLastChance"	"C'est votre dernière chance !"
-"CampbloodVoice.RalphLightsOff"	"Quelqu'un a pensé à etteindre la lumière ?"
+"CampbloodVoice.RalphLastChance"	"<len:2.2>C'est votre dernière chance !"
+"CampbloodVoice.RalphLightsOff"	"<len:2.8>Quelqu'un a pensé à etteindre la lumière ?"
 "CampbloodVoice.RalphWelcome"	"<len:2.3>Vous allez à Camp Blood hein ? <delay:2.6><len:2.1>Vous ne reviendrez plus jamais, <delay:4.9><len:2.1>parce qu'il est <I>MAUDIT !"
-"CampbloodVoice.RalphYourDoomed"	"Vous êtes <I>FOUTUS ! <clr:255,0,0><B>EHEHEHEHE!"
+"CampbloodVoice.RalphYourDoomed"	"<len:3.8>Vous êtes <I>FOUTUS ! <clr:255,0,0><B>EHEHEHEHE!"
 
 // Cleopas
 "CleopasVoice.Radio"	"<len:1.8>[Parasites Radio] <delay:1.8><len:6>Ici la patrouille 206, demande assistance immédiate en ville, nous avons subi de lourdes pertes, <delay:8><len:6>ces... trucs, refusent refusent... tout simplement de mourir... ils sont de plus en plus nombreux ! <delay:14.8><len:3.2>Si quelqu'un nous entends, je vous en supplie envoyez-nous du refort ! <delay:22.4><len:3.4>Je répète, on a besoin de renfort en ville aussi vite que possible, <delay:26.4><len:4.6>On est presque à sec, et il ne nous reste presque plus d'échappatoire ici, répondez QG-- <delay:30.6><len:2>[tirs d'armes à feu, la transmission s'interrompt d'un coup]"
@@ -751,34 +751,34 @@
 // FEMA
 "FemaVoice.BillyComplex"	"<len:4.2>Est-ce que le signal vient du complexe ? Tout le personnel est mort ! <delay:4.6><len:3.9>le truc qu'ont fait les crânes d'oeuf a tué tout le monde avant qu'ils n'aient pu enclencher le protocole de confinement. <delay:9><len:3.7>Il faut que tu finisse le job, pour éviter que leur connerie ne sorte d'ici !"
 "FemaVoice.BillyFuel"	"<len:2.8>On peut vous emmener en lieu sûr, mais on a plus vraiment d'essence ! <delay:2.9><len:2.6>Vous allez devoir le remplir si vous voulez qu'on s'en sorte."
-"FemaVoice.BillyGetIn"	"Ammenez-vous à bord ! On s'envole vers la Terre Promise !"
+"FemaVoice.BillyGetIn"	"<len:2.5>Ammenez-vous à bord ! On s'envole vers la Terre Promise !"
 "FemaVoice.BillyTopside"	"<len:1.8>Allo ? Allo ! <delay:2.1><len:3.3>Si vous m'entendez encore, venez à la surface pour qu'on puisse vous emmener en lieu sûr. <delay:5.7><len:4.1>Vérifiez le placard de notre caravane, j'ai rangé un échantillon du vaccin que les crânes d'oeufs préparaient. <delay:9.9><len:2.6>On n'est jamais trop prudent, prenez le et mettez-vous en mouvement !"
-"FemaVoice.MengelerOkayBob"	"<I>Super Bub. Maintenant, bascule le levier."
-"FemaVoice.MengelerThatsIt"	"<I>C'est ça Bub ! Après ça, tu auras droit à ta récompense."
-"FemaVoice.MengelerSayHello"	"<I>Dis bonjour à tante Alice, Bub."
+"FemaVoice.MengelerOkayBob"	"<len:2.4><I>Super Bub. Maintenant, bascule le levier."
+"FemaVoice.MengelerThatsIt"	"<len:2.6><I>C'est ça Bub ! Après ça, tu auras droit à ta récompense."
+"FemaVoice.MengelerSayHello"	"<len:2.5><I>Dis bonjour à tante Alice, Bub."
 "FemaVoice.ColonelNatSec"	"<len:1.5>Ici le colonel Kazan, <delay:1.7><len:5.5>pour la sécurité nationale, nous pouvons vous extraire, mais seulement si le vaccin expérimental est avec vous. <delay:7.6><len:3>Nous connaissons votre position et nous attendront votre réponse là-haut."
 "FemaVoice.ColonelStow"	"<len:2.8>Ici le colonel Kazan de l'Agence de Sécurité Nationale, <delay:2.8><len:1.1>on a votre signal. <delay:3.9><len:2.5>Rangez le vaccin et préparez vous à le sécuriser pour évacuation."
 
 // Midwest
-"MidwestVoice.EngineerBarbara"	"Ils peuvent venir nous chercher, Barbara!"
-"MidwestVoice.EngineerEnd"	"OK, je crois que j'ai trouvé le problème, mais maintenant, il va falloir le réparer."
-"MidwestVoice.EngineerEnd2"	"OK, ça fonctionne ! Allez les gars, ammenez-vous !"
-"MidwestVoice.EngineerFirst"	"Tenez bon les gars, je vais régler le problème aussi vite que possible !"
+"MidwestVoice.EngineerBarbara"	"<len:2.9>Ils peuvent venir nous chercher, Barbara!"
+"MidwestVoice.EngineerEnd"	"<len:4.9>OK, je crois que j'ai trouvé le problème, mais maintenant, il va falloir le réparer."
+"MidwestVoice.EngineerEnd2"	"<len:3.1>OK, ça fonctionne ! Allez les gars, ammenez-vous !"
+"MidwestVoice.EngineerFirst"	"<len:3.6>Tenez bon les gars, je vais régler le problème aussi vite que possible !"
 "MidwestVoice.EngineerStart"	"<len:2.6>Les gars, le moteur du train est complètement kaput... <delay:2.9><len:1.8>J'ai aucune idée de ce qu'il se passe. <delay:4.8><len:1.6>On va devoir s'arrêter ici un moment, <delay:6.6><len:2.1>il n'y a aucune autre ville avant pas mal de kilomètres."
 
 // Junction
 "JunctionVoice.01"	"<len:2.8><I>[Jingle de diffusion d'urgence] <delay:2.8><len:8.4><I>Le message suivant est transmis à la demande du Bureau de Gestion d'Urgences du New Jersey, Union City, New Jersey. <delay:11.2><len:8><I>Si vous êtes encore en vie, restez là ou vous êtes et attendez les secours. Traverser la rue est extrêmement dangereux. <delay:19.4><len:5.9><I>Les comptés suivants ont étés mis sous quarantaine : Union, Hudson, et Monmouth. <delay:25.4><len:7><I>Si vous avez été blessés ou que votre situation est urgente, gardez votre calme et rrestez où vous êtes jusqu'à nouvel ordre. <delay:32.5><len:3.5><I>Aucun véhicule d'urgence ne peut vous atteindre pour le moment. <delay:36><len:2.8><I>[La diffusion s'arrête]"
 "JunctionVoice.02"	"<len:4.7>Ça fait du bien d'entendre une voix humaine ! Il y a donc bien encore quelqu'un dans cette satanée ville. <delay:4.9><len:6.3>Bon, moi c'est le soldat Jones, du 42ème, et je sais pas si vous savez, mais le tunnel Lincoln est votre seule porte de sortie. <delay:11.3><len:7.4>On allait le sceller, mais une des bombes qu'on avait a explosé sans prévnir. Les experts en démolitions sont morts dans l'explosion, et elle m'a blessé. <delay:19><len:4.2>Je me suis débrouiller pour grimper dans le siège du pilote d'un des camions, je vais faire profil bas jusqu'à votre arrivée."
 "JunctionVoice.03"	"<len:3.4>J'arrive pas à croire que vous ayez réussi, J'étais sur le point de partir ! <delay:3.7><len:4.8>Les trois explosifs que vous voyez là sont assez puissants pour sceller le tunnel pour de bon, et sécuriser notre fuite. <delay:8.8><len:2.2>Mettez-les au niveau des piliers, et entrez dans le camion !"
-"JunctionVoice.04"	"OK, maintenant montez vite ! Il ne nous reste pas beaucoup de temps !"
-"JunctionVoice.05"	"Allez on se barre de là, j'espère que vous êtes à bord !"
+"JunctionVoice.04"	"<len:3.0>OK, maintenant montez vite ! Il ne nous reste pas beaucoup de temps !"
+"JunctionVoice.05"	"<len:3.2>Allez on se barre de là, j'espère que vous êtes à bord !"
 
 // Quarantine
 "QuarantineVoice.RadioIntro"	"<len:6.9>Allo ? On est ce qu'il reste de l'équipe de quarantaine? On est ce qu'il reste de l'équipe de quarantaine... ce qu'il reste... <delay:7><len:4>tous les autres sont... vous savez bien. <delay:11.2><len:5.1>Écoutez, il y a des hélicoptères de l'autre côté de la zone de quarantaine par rappport à nous, <delay:16.5><len:4.2>si on n'était pas encerclés par ces... putain de monstres, <delay:20.8><len:1.6>on se serait déjà barrés d'ici ! <delay:22.6><len:3.1>J'veux dire, c'est franchement une bonne chose que vous vous soyez pointés parce que... <delay:26><len:3.5>vous pouvez peut-être nous aider à sortir d'ici, on peut s'entraider pour sortir."
 "QuarantineVoice.RadioIntro2"	"<len:1.6>Bon, voilà ce que vous devez faire : <delay:1.7><len:2.8>Vous devez fermez la porte d'entrée de la zone de quarantaine, <delay:4.6><len:3.4>le système automatique gardera la zone de quarantaine interne fermée. <delay:8.1><len:2>Vous devez aller à la zone de quarantaine interne, <delay:10.3><len:2.2>mais vous devez d'abord fermer l'entrée."
 "QuarantineVoice.RadioTalk"	"<len:4.3>Dès que vous aurez fermé l'entrée, on ouvrira celle de la zone de quarantaine interne. <delay:4.7><len:6.7>Mais il y a un systèmes de mesures d'urgences automatique, l'entrée vers la zone de quarantaine interne se fermera en environ une minute et... <delay:11.8><len:5.6>et... si l'entrée de la zone principale est restée trop longtemps ouverte, le système déclenchera une autre procédure d'urgence, et pour le dire simplement- <delay:17.5><len:7.1>si vous n'êtes pas dans la zone interne quand sa porte se fermera, vous allez mourir !"
 "QuarantineVoice.RadioTalk2"	"<len:6.3>Voilà ce qu'on doit faire : il y a une sirène, <I>il y a une sirène<I>, dans votre zone. <delay:6.5><len:5>Vous devez activer cette sirène, ce qui va, bien évidemment, attirer les zombies vers vous et les dégager de nous. <delay:11.5><len:3.1>Dès qu'on pourra, on foncera vers l'hélicoptère, <delay:14.62><len:3.8>et on viendra ensuite vous chercher, vous faire monter, et on va tous s'enfuir de cet enfer. <delay:18.6><len:4.88>je suggère donc de vous accrocher à tout ce que vous pourrez, Enfin... en tout cas préparez-vous. <delay:23.5><len:3.8>Quand vous serez prêt, enclenchez la sirène, d'accord ?"
-"QuarantineVoice.RadioTalk3"	"Pour commencer, il devrait y avoir un talkie-walkie quelque part dans cette pièce, choppez-le."
+"QuarantineVoice.RadioTalk3"	"<len:5.4>Pour commencer, il devrait y avoir un talkie-walkie quelque part dans cette pièce, choppez-le."
 
 // Toxteth
 "ToxtethVoice.PilotRadio"	"<len:3.5>Oui, on vous entend. Nous sommes actuellement en train de survoler la zone. <delay:4.2><len:4.4>Écoutez, rendez-vous sur Hartington Road, on sera là pour vous prendre dans cinq minutes, <delay:9><len:2.3>On ne peut pas se permettre de perdre beaucoup de temps, alors dépechez-vous !"
@@ -793,14 +793,14 @@
 "ToxtethVoice.SurvivorPhone4"	"<len:3.4>Hé ! Je vous observe depuis des jours avec les caméras de surveillance. <delay:3.7><len:5.6>Vous devez atteindre le magasin situé juste derrière le cimetière, je suis bloqué ici, et il y a des zombies partout à l'extérieur ! <delay:9.9><len:3.4>J'ai appelé des gens pour qu'ils nous sortent d'ici, mais vous devez venir m'aider avant qu'on puisse s'échapper. <delay:14.3><len:1.4>Il n'y a pas une seconde à perdre !"
 
 // Zephyr
-"ZephyrVoice.Engineer04"	"Désolé pour ça les gars, trous de mémoire. Vous pouviez faire basculer le levier derrière moi pour que je puisse accéder à la station, aux fourgons-frein et aux wagons ?"
-"ZephyrVoice.Engineer06"	"OK, un dernier levier et c'est bon. Je... désolé les gars, j'aurais dû vous le dire plus tôt, il est un peu loin... Heh."
-"ZephyrVoice.Engineer07"	"Super les gars, une dernière chose à faire : Relâchez les freins à mains du fourgon-frein, c'est le wagon vert derrière moi."
-"ZephyrVoice.Engineer08"	"C'est bon pour moi ! Faites-moi signe, et on décolle."
-"ZephyrVoice.Engineer09"	"C'est parti !"
-"ZephyrVoice.Engineer10"	"À tous ceux qui sont restés là, sautez dans le train ! TOUT DE SUITE !"
-"ZephyrVoice.AllAboard"		"<B>EEEN VOITUUUURE!"
-"ZephyrVoice.OhCrud"		"<I>Oh merd..."
+"ZephyrVoice.Engineer04"	"<len:7.6>Désolé pour ça les gars, trous de mémoire. Vous pouviez faire basculer le levier derrière moi pour que je puisse accéder à la station, aux fourgons-frein et aux wagons ?"
+"ZephyrVoice.Engineer06"	"<len:8.5>OK, un dernier levier et c'est bon. Je... désolé les gars, j'aurais dû vous le dire plus tôt, il est un peu loin... Heh."
+"ZephyrVoice.Engineer07"	"<len:8.5>Super les gars, une dernière chose à faire : Relâchez les freins à mains du fourgon-frein, c'est le wagon vert derrière moi."
+"ZephyrVoice.Engineer08"	"<len:4.1>C'est bon pour moi ! Faites-moi signe, et on décolle."
+"ZephyrVoice.Engineer09"	"<len:2.6>C'est parti !"
+"ZephyrVoice.Engineer10"	"<len:4.7>À tous ceux qui sont restés là, sautez dans le train ! TOUT DE SUITE !"
+"ZephyrVoice.AllAboard"		"<len:2.6><B>EEEN VOITUUUURE!"
+"ZephyrVoice.OhCrud"		"<len:2.7><I>Oh merd..."
 "ZephyrVoice.Speech1901"	"<len:6>Allo, allo ? Oh, ça faisait si longtemps que je n'avais pas entendu une voix humaine, c'est rafraîchissant <delay:6.8><len:4.3>Écoutez, pour le moment, je suis bloqué dans le cagibi près de la plaque tournante <delay:11.8><len:4.7>Si vous pouviez vous approcher un peu et me filer un coup de main par ici, j'apprécierais fortement. <delay:16.8><len:4.1>En fait, je pourrais même vous rendre la pareille, mais commencons par le commencement. <delay:21.7><len:5.3>La porte de la plateforme requiert un code d'accès, et ce code est, laissez-moi vérifier... : <delay:28.5><len:4.3>1-9-0-1."
 "ZephyrVoice.Speech2606"	"<len:6>Allo, allo ? Oh, ça faisait si longtemps que je n'avais pas entendu une voix humaine, c'est rafraîchissant <delay:6.8><len:4.3>Écoutez, pour le moment, je suis bloqué dans le cagibi près de la plaque tournante <delay:11.8><len:4.7>Si vous pouviez vous approcher un peu et me filer un coup de main par ici, j'apprécierais fortement. <delay:16.8><len:4.1>En fait, je pourrais même vous rendre la pareille, mais commencons par le commencement. <delay:21.7><len:5.3>La porte de la plateforme requiert un code d'accès, et ce code est, laissez-moi vérifier... : <delay:28.5><len:4.1>2-6-0-6."
 "ZephyrVoice.Speech2710"	"<len:6>Allo, allo ? Oh, ça faisait si longtemps que je n'avais pas entendu une voix humaine, c'est rafraîchissant <delay:6.8><len:4.3>Écoutez, pour le moment, je suis bloqué dans le cagibi près de la plaque tournante <delay:11.8><len:4.7>Si vous pouviez vous approcher un peu et me filer un coup de main par ici, j'apprécierais fortement. <delay:16.8><len:4.1>En fait, je pourrais même vous rendre la pareille, mais commencons par le commencement. <delay:21.7><len:5.3>La porte de la plateforme requiert un code d'accès, et ce code est, laissez-moi vérifier... : <delay:28.5><len:4.1>2-7-1-0."

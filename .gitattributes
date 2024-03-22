@@ -17,4 +17,4 @@ workshop/*.txt              text diff working-tree-encoding=UTF-8
 *.sh text eol=lf
 
 # News posts are exported as XML
-*.xml text
+*.xml text diff working-tree-encoding=UTF-8

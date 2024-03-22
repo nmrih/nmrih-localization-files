@@ -82,7 +82,9 @@
 
 "NMRiH_GameType_Objective"		"Obiettivo"
 "NMRiH_GameType_Survival"		"Sopravvivenza"
+"NMRiH_GameType_Custom" "Personalizzata"
 "NMRiH_GameType_PVP"			"PvP"
+"NMRiH_GameType_Minigame" "Minigioco"
 
 "NMRiH_LAN"				"Solo LAN"
 
@@ -193,7 +195,17 @@
 "NMRiH_ScoreBoard_PlayerCount"	"Giocatori: %s1"
 
 "NMRiH_Select_Mutators"	"Seleziona mutatori"
-"NMRiH_Find_Mutators"	"Trova altri..."
+"NMRiH_Find_Mutators"	"Trovane altri..."
+"NMRiH_Mutator_ImportConfig"	"Importa config Mutatore"
+"NMRiH_Mutator_ExportConfig"	"Esporta config Mutatore"
+"NMRiH_Mutator_ConfigFileType"	"Config Mutatore (.txt)"
+"NMRiH_Mutator_ExportCfgSuccess"	"Config del Mutatore esportata con successo."
+"NMRiH_Mutator_FailedToImportConfig"	"Impossibile importare il config del mutatore. Il file non è valido."
+
+"NMRiH_DeckCompatibility_Title"	"Compatibilità con Steam Deck"
+"NMRiH_DeckCompatibility_Message1"	"Sembra che tu stia giocando con uno Steam Deck."
+"NMRiH_DeckCompatibility_Message2"	"Il runtime nativo di Linux non è stato testato e potrebbe essere instabile."
+"NMRiH_DeckCompatibility_Message3"	"Si consiglia di utilizzare Steam Play (Proton) per la migliore compatibilità."
 
 //============================
 //Add-on Manager
@@ -277,12 +289,12 @@
 "Addon_Manager_Advanced_ClearPreviewCache"		"Pulisci cache anteprima"
 "Addon_Manager_Advanced_ConfigReset"		"Ripristina tutte le impostazioni degli add-on..."
 
-"Addon_Manager_ImportCfg"			"Importa config. add-on"
-"Addon_Manager_ExportCfg"			"Esporta config. add-on"
-"Addon_Manager_CfgFileType"		"Config. Add-on (.txt)"
-"Addon_Manager_ImportCfgSuccess"		"Config. Add-on importata con successo, riavvia il gioco per applicare i cambiamenti."
-"Addon_Manager_ExportCfgSuccess"		"Config. Add-on esportata con successo."
-"Addon_Manager_FailedToImportCfg"		"Impossibile importare config. add-on. Il file non è valido."
+"Addon_Manager_ImportCfg"			"Importa config add-on"
+"Addon_Manager_ExportCfg"			"Esporta config add-on"
+"Addon_Manager_CfgFileType"		"Config Add-on (.txt)"
+"Addon_Manager_ImportCfgSuccess"		"Config dell'Add-on importata con successo, riavvia il gioco per applicare i cambiamenti."
+"Addon_Manager_ExportCfgSuccess"		"Config dell'Add-on esportata con successo."
+"Addon_Manager_FailedToImportCfg"		"Impossibile importare il config dell'add-on. Il file non è valido."
 
 "Addon_Manager_PreviewCacheCleared_Title"	"Cache pulita"
 "Addon_Manager_PreviewCacheCleared_Message"	"Cache dell'immagine di copertina ripulita."
