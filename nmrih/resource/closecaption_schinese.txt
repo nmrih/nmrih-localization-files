@@ -711,7 +711,7 @@
 		"AsylumVoice.Intro5"	"<len:2.8>我把军队的其中一个军火箱放到你那边了。<delay:2.9><len:2.6>我不清楚里面装了什么，但也许会派上用场。<delay:5.9><len:2.5>现在我要把隔离室重新打开了。"
 		"AsylumVoice.CarBarks"	"<len:1.8>好极了！<delay:1.5><len:3.5>现在赶快到车上来，我不可能一直等你！"
 		"AsylumVoice.CarBarks2"	"<len:3.3>真棒啊，要跑起来的美妙时光现在开始！<delay:3.5><len:2.8>时间不等人，我也不会一直等你！"
-		"AsylumVoice.FinishRitual"	"<len:2.45>看啊，我的毕生心血！<delay:2.54><len:1.7>有了这个召唤阵，<delay:4.24><len:3>我就能开启一扇通往地狱的传送门带我们逃离这里。<delay:7.5><len:2.8>不过我还缺少几个关键“零件”，<delay:10.4><len:2.5>你要帮我找齐它们，立刻马上！"
+		"AsylumVoice.FinishRitual"	"<len:2.45>看啊，我的毕生心血！<delay:2.54><len:1.7>有了这个召唤阵，<delay:4.24><len:3>我就能开启一扇通往<I><clr:255,0,0>地狱<clr:255,255,255><I>的传送门带我们逃离这里。<delay:7.5><len:2.8>不过我还缺少几个关键“零件”，<delay:10.4><len:2.5>你要帮我找齐它们，立刻马上！"
 		"AsylumVoice.ProtectRitual"	"<len:1.8>没错！<delay:1><len:1.6>我能感受到这股力量！<delay:2.5><len:4.1>留给我们的时间不多了，不惜一切代价也要保护召唤阵！"
 		"AsylumVoice.ProtectRitual2"	"<len:1.6>不，快阻止它们！<delay:1.7><len:2.7>如果丧尸们破坏了仪式，那我们之间的约定就免谈！"
 		"AsylumVoice.ProtectRitual3"	"<len:2.8>不，你这个白痴！<delay:2><len:1.5>这点小事都做不到吗！<delay:3.6><len:1.8>现在整个仪式彻底毁了！<delay:5.5><len:2.1>忘了这一切吧，我走了。<delay:7.7><len:2.5>至于你，就永远烂在这儿好了！"
@@ -724,23 +724,23 @@
 		"Broadway2Voice.Extraction"	"<len:2.1>请注意，请注意！<delay:2.7><len:4.7>如果有人能听到，你需要尽最快速度前往屋顶等待救援。<delay:8><len:2.9>在开始轰炸之前，你只有五分钟的时间，<delay:11.8><len:2.7>拜托了... 请赶快撤离！"
 		
 		// Brooklyn
-		"brooklyn_voice.01"	"<len:2.4>嘿！感谢你的到来，想要在这帮我一个忙吗？"
-		"brooklyn_voice.02"	"<len:4.9>可恶？！大门没有电了，我们需要修好它才能离开这个鬼地方！"
-		"brooklyn_voice.03"	"<len:3.1>好主意！把它钩在铁栅栏上，这样我们就能把栅栏拉下来。"
+		"brooklyn_voice.01"	"<len:2.6>嘿！感谢你的到来，想要在这帮我一个忙吗？"
+		"brooklyn_voice.02"	"<len:5.1>可恶？！大门没有电了，我们需要修好它才能离开这个鬼地方！"
+		"brooklyn_voice.03"	"<len:3.3>好主意！把它钩在铁栅栏上，这样我们就能把栅栏拉下来。"
 		"brooklyn_voice.04"	"<len:3.7>你们好啊，很高兴看到你们！看来我还不是唯一的幸存者！<delay:3.8><len:4.8>我要离开这个该死的鬼地方，但是我们得先把外面的铁栅栏拆下来才能继续前进。"
 		"brooklyn_voice.05"	"<len:1.5>太棒了，谢谢你！<delay:1.5><len:2.4>现在我来看看能不能启动这辆卡车，<delay:4><len:2.4>但如果想要离开这里，我们还需要补给品。<delay:6.4><len:2.5>我在街对面的小巷看到了一辆旧手推车，<delay:8.8><len:3.6>用它说不定我们可以在街道剩下的物资中，找到我们需要的东西。"
 		"brooklyn_voice.06"	"<len:2>真高兴你还活着！<delay:2><len:2.9>现在快把补给品搬上货车，我们在这可是吸引了一大群丧尸。"
 		"brooklyn_voice.07"	"<len:2.2>好了，我们快离开这个鬼地方了！<delay:2.2><len:2.5>但我们得找到大门的中控系统来打开大门，<delay:4.6><len:2>它应该就在离这不远的地方。"
-		"brooklyn_voice.08"	"<len:3.8><I>好了 <clr:255,0,0>贪心鬼们<clr:255,255,255> - 快上车，别让我把你们丢下离开！"
-		"brooklyn_voice.09"	"<len:3.3>该死，看来有些人不知道该怎么停车啊，快把前面的车挪开！"
-		"brooklyn_voice.10"	"<len:3.3>不知道你们感觉怎么样，但我的胃可是<I>饿坏了。"
+		"brooklyn_voice.08"	"<len:1.8><I>好了 <clr:255,0,0>贪心鬼们<clr:255,255,255> - <delay:1.9><len:2.1>快上车，别让我把你们丢下离开！"
+		"brooklyn_voice.09"	"<len:3.8>该死，看来有些人不知道该怎么停车啊，快把前面的车挪开！"
+		"brooklyn_voice.10"	"<len:3.5>不知道你们感觉怎么样，但我的胃可是<I>饿坏了。"
 		
 		// Cabin
 		"CabinVoice.SpawnRadio"	"<len:3.4>这里是龙卷风88号正在为所有存活的生还者广播。<delay:3.5><len:3.5>我们已经到达集合点，并准备开始撤离。<delay:7.1><len:2.5>重复，救援已经到达，<delay:9.6><len:2.7>请务必抓紧时间，完毕。"
 		
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"<len:1.5>嘿，幸存者们！<delay:1.6><len:2>准备好迎接死亡的到来了吗！<cr>（我要来抓你们咯！）"
-		"CampbloodVoice.RalphLastChance"	"<len:2.2>这将是你们最后一次投降的机会！"
+		"CampbloodVoice.RalphLastChance"	"<len:2.4>这将是你们最后一次投降的机会！"
 		"CampbloodVoice.RalphLightsOff"	"<len:2.8>有人记得要把灯关上吗...？"
 		"CampbloodVoice.RalphWelcome"	"<len:2.3>你们是要前往血腥营地，对吗？<delay:2.6><len:2.1>恐怕你将再也不会活着回来...<delay:4.8><len:2.2>这里有着 <clr:255,0,0><B>死亡诅咒<B><clr:255,255,255>！"
 		"CampbloodVoice.RalphYourDoomed"	"<len:3.8>你们 <I>死定了！ <clr:255,0,0><B>啊哈哈哈哈！"
@@ -751,11 +751,11 @@
 		// FEMA
 		"FemaVoice.BillyComplex"	"<len:4.2>这是来自地下的通讯信号吗？整个设施目前都已经沦陷了！<delay:4.6><len:3.9>这帮该死的书呆子不知道研究出了什么杀死了所有人，以至于根本来不及启动收容协议。<delay:9><len:3.9>现在你需要完成这个任务，并且阻止科学家研究出的东西离开那里！"
 		"FemaVoice.BillyFuel"	"<len:2.8>我们可以把你带到安全的地方，但现在燃料不足了！<delay:2.8><len:2.8>在想要离开这里之前，我们需要将油箱加满。"
-		"FemaVoice.BillyGetIn"	"<len:2.5>赶快到飞机上来！现在我们要飞往安全区了！"
+		"FemaVoice.BillyGetIn"	"<len:3.0>赶快到飞机上来！现在我们要飞往安全区了！"
 		"FemaVoice.BillyTopside"	"<len:1.8>喂？喂！<delay:2.1><len:3.3>如果还有人能收到消息，就到地面上来，我们将会带你前往安全区。<delay:5.7><len:4.1>记得检查一下你所在拖车里的储藏柜，我保存了些科学家们正在开发的疫苗。<delay:9.9><len:2.6>现在行动起来并拿到疫苗，请务必小心行事！"
 		"FemaVoice.MengelerOkayBob"	"<len:2.4><I>好的，布布。现在，扳动开关。[电影台词]"
-		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>就是这样，布布！然后，你就可以得到你的奖励了。[电影台词]"
-		"FemaVoice.MengelerSayHello"	"<len:2.5><I>向你的阿姨艾丽西亚问好，布布。[电影台词]"
+		"FemaVoice.MengelerThatsIt"	"<len:2.8><I>就是这样，布布！然后，你就可以得到你的奖励了。[电影台词]"
+		"FemaVoice.MengelerSayHello"	"<len:2.7><I>向你的阿姨艾丽西亚问好，布布。[电影台词]"
 		"FemaVoice.ColonelNatSec"	"<len:1.5>这里是卡赞上校，<delay:1.7><len:5.5>为了国家机密的安全，我们保证会将你救援至安全区，但前提是我们回收到实验疫苗。<delay:7.6><len:3>我们已经确认了你的位置，并且会等待你做出的行动。"
 		"FemaVoice.ColonelStow"	"<len:2.8>这里是国家安全局的卡赞上校，<delay:2.8><len:1.1>我们已经收到了你的信号。<delay:3.9><len:3.2>现在保证好疫苗的安全，将疫苗上缴放好后准备进行撤离。"
 		
@@ -778,7 +778,7 @@
 		"QuarantineVoice.RadioIntro2"	"<len:5.9>所以要做的就是：你们必须关闭外侧隔离区的入口大门，<delay:4.5><len:4>而自动门禁系统会保持内侧隔离区的大门锁定。<delay:8.2><len:4.2>在这之后你们需要到内侧隔离区里面来，<delay:10.6><len:4>总之...首先你们需要关闭外侧隔离区的入口大门。"
 		"QuarantineVoice.RadioTalk"	"<len:4.3>一旦你们关闭了入口大门，我们就会解除内侧隔离区的门禁锁定。<delay:4.7><len:3.8>但是自动门禁系统有着故障保护装置，<delay:7.7><len:4>内侧隔离区的大门会在开启后的大约一分钟内自动关闭，并且...<delay:11.8><len:5.6>嗯...取决于外侧入口大门被打开的时间，它还会触发二级故障保护装置。这么说吧，<delay:17.2><len:7.3>如果在内侧大门自动关闭之前你们没有进入内侧隔离区，那么你们就完蛋了！"
 		"QuarantineVoice.RadioTalk2"	"<len:4>现在你们要做的是，那里应该有一个警报器，<delay:2.8><len:4.2><B>有一个警报器装置<B>，就在内侧隔离区的某个位置。<delay:6.5><len:5>你们需要激活警报，而这样就能够，就能够让这些丧尸不再包围我们。<delay:11.5><len:3.8>之后我们就会前往启动救援直升机，<delay:14.7><len:3.9>然后再回来接上你们，这样我们就都能离开这个鬼地方了。<delay:18.6><len:8.5>我希望你们都能够登机，所以...请务必做好准备。当你们准备好后，就激活警报，好吗？"
-		"QuarantineVoice.RadioTalk3"	"<len:5.4>不过首先，在你们所在房子里的某处应该有一个对讲机，把它带上，以便我们之后继续联络。"
+		"QuarantineVoice.RadioTalk3"	"<len:4.0>不过首先，在你们所在房子里的某处应该有一个对讲机，<delay:4.1><len:2.2>把它带上，以便我们之后联络。"
 		
 		// Toxteth
 		"ToxtethVoice.PilotRadio"	"<len:3.5>是的，我们可以听到你的声音。我们现在就在当地上空盘旋。<delay:4.2><len:4.4>听着，现在回到哈丁顿路上去，我们五分钟后到那儿接你，<delay:9><len:2.3>我们没有多余的时间了，所以赶快行动！"
@@ -793,9 +793,9 @@
 		"ToxtethVoice.SurvivorPhone4"	"<len:3.4>嘿！我通过附近的监控系统已经观察你们好几天了。<delay:3.7><len:5.6>我需要你们到墓地后面的商店来，我被困在这里了，而且到处都是丧尸！<delay:9.9><len:3.4>我已经用无线电发出了带我们离开这里的救援信号，但在我们离开之前，我需要你们到商店来接我。<delay:14.3><len:1.4>我撑不了太长时间了！"
 		
 		// Zephyr
-		"ZephyrVoice.Engineer04"	"<len:7.6>伙计们，对不起，差点忘记了。你们能帮我扳动一下火车后面的开关吗，这样我就能到站台那边去，再拉上那些车厢了。"
-		"ZephyrVoice.Engineer06"	"<len:8.5>好的，不过我们还差一个开关，真抱歉本应该早点告诉你们的。因为这个开关可能会有点儿远...哈哈。"
-		"ZephyrVoice.Engineer07"	"<len:8.5>干得漂亮，伙计们，还有最后一件事要做了。现在你们需要释放控制车厢的手刹。顺便一提，它就在我身后的绿色车厢里。"
+		"ZephyrVoice.Engineer04"	"<len:2.3>伙计们，对不起，差点忘记了。<delay:2.4><len:5.5>你们能帮我扳动一下火车后面的开关吗，这样我就能到站台那边去，再拉上那些车厢了。"
+		"ZephyrVoice.Engineer06"	"<len:5.9>好的，不过我们还差一个开关，真抱歉本应该早点告诉你们的。<delay:6.0><len:2.5>因为这个开关可能会有点儿远...哈哈。"
+		"ZephyrVoice.Engineer07"	"<len:2.3>干得漂亮，伙计们，还有最后一件事要做了。<delay:2.4><len:6.1>现在你们需要释放控制车厢的手刹。顺便一提，它就在我身后的绿色车厢里。"
 		"ZephyrVoice.Engineer08"	"<len:4.1>一切完毕！在你们准备好要出发时，就立刻告诉我！"
 		"ZephyrVoice.Engineer09"	"<len:2.6>我们出发了！"
 		"ZephyrVoice.Engineer10"	"<len:4.7>任何还落在后面的生还者，赶快上火车，立刻马上！"
