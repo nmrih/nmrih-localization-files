@@ -39,7 +39,7 @@
 "[english]Valve_Mouse_Look_Modifier"	"Mouse look modifier"
 "Valve_Keyboard_Look_Modifier"	"Изменение обзора клавиатурой"
 "[english]Valve_Keyboard_Look_Modifier"	"Keyboard look modifier"
-"Valve_Use_Items"	"Использовать (рычаг и т. д.)"
+"Valve_Use_Items"	"Использовать (рычаг и т.д.)"
 "[english]Valve_Use_Items"	"Use item (buttons, machines, ...)"
 "Valve_Pickup_Use_Objects"	"Взять/использовать предмет"
 "[english]Valve_Pickup_Use_Objects"	"Pickup/Use objects"
@@ -127,9 +127,9 @@
 "[english]Valve_Multiplayer_Decal_Limit"	"Multiplayer decal limit"
 "Valve_Valid_Teams"	"Допущенные команды — не заполнять, если любые"
 "[english]Valve_Valid_Teams"	"Valid teams, leave blank for all"
-"Valve_Frag_Limit"	"Ограничение по убитым врагам"
+"Valve_Frag_Limit"	"Огранич. по убитым врагам"
 "[english]Valve_Frag_Limit"	"Frag Limit"
-"Valve_Time_Limit"	"Ограничение по времени (мин.)"
+"Valve_Time_Limit"	"Огранич. по времени (мин.)"
 "[english]Valve_Time_Limit"	"Time Limit (Min.)"
 "Valve_Falling_Damage"	"Ущерб от падения"
 "[english]Valve_Falling_Damage"	"Falling Damage"
@@ -161,7 +161,7 @@
 "[english]Valve_Console_Toggle"	"Toggle developer console"
 "Spec_Slow_Motion"	"Замедленное движение"
 "[english]Spec_Slow_Motion"	"Slow Motion"
-"Spec_No_PIP"	"При игре в режиме от первого лица просмотр «картинки в картинке» недоступен."
+"Spec_No_PIP"	"При игре в режиме от первого лица просмотр \"картинки в картинке\" недоступен."
 "[english]Spec_No_PIP"	"
 Picture-In-picture is not available
 in first-person mode while playing.
@@ -182,15 +182,15 @@ in first-person mode while playing.
 "[english]Spec_PlayerItem"	"%s1"
 "Spec_PlayerItem_Team"	"%s1 (%s2)"
 "[english]Spec_PlayerItem_Team"	"%s1 (%s2)"
-"Spec_Duck"	"ПРИСЕСТЬ — вход в меню наблюдения"
+"Spec_Duck"	"ПРИСЕСТЬ - вход в меню наблюдения"
 "[english]Spec_Duck"	"Press DUCK for Spectator Menu"
 "Spec_Help_Title"	"Режим наблюдателя"
 "[english]Spec_Help_Title"	"Spectator Mode"
-"Spec_Help_Text"	"Используйте следующие клавиши для смены режимов просмотра:
+"Spec_Help_Text"	"Используйте следующие клавиши для переключения видов обзора:
 
  ОГОНЬ1 - следовать за следующим игроком
  ОГОНЬ2 - следовать за предыдущим игроком
- ПРЫЖОК - изменение режимов просмотра
+ ПРЫЖОК - изменение режимов обзора
  ИСПОЛЬЗОВАТЬ - изменение режима картинки-вставки
 
  ПРИСЕСТЬ - запустить меню наблюдения
@@ -199,7 +199,7 @@ in first-person mode while playing.
 
  ВЛЕВО - движение влево
  ВПРАВО - движение вправо
- ВПЕРЕД - крупное изображение
+ ВПЕРЁД - крупное изображение
  НАЗАД - мелкое изображение
  МЫШЬ - вращение вокруг карты или цели"
 "[english]Spec_Help_Text"	"
@@ -222,7 +222,7 @@ In Overview Map Mode move around with:
 "
 "Spec_Modes"	"Настройки камеры"
 "[english]Spec_Modes"	"Camera Options"
-"Spec_Mode0"	"Камера выключена"
+"Spec_Mode0"	"Камера отключена"
 "[english]Spec_Mode0"	"Camera Disabled"
 "Spec_Mode1"	"Камера после гибели"
 "[english]Spec_Mode1"	"Death Camera"
@@ -264,7 +264,7 @@ In Overview Map Mode move around with:
 "[english]PlayerScore"	"Score"
 "PlayerDeath"	"Смерти"
 "[english]PlayerDeath"	"Deaths"
-"PlayerPing"	"Задержка"
+"PlayerPing"	"Пинг"
 "[english]PlayerPing"	"Latency"
 "PlayerVoice"	"Голос"
 "[english]PlayerVoice"	"Voice"
@@ -498,7 +498,7 @@ In Overview Map Mode move around with:
 "[english]Valve_Hud_FLASHLIGHT"	"FLASHLIGHT"
 "Valve_Hud_SPRINT"	"БЕГ"
 "[english]Valve_Hud_SPRINT"	"SPRINT"
-"Valve_Hud_BONUS_PROGRESS"	"БОНУС"
+"Valve_Hud_BONUS_PROGRESS"	"ДОП. КАРТА"
 "[english]Valve_Hud_BONUS_PROGRESS"	"BONUS"
 "Valve_Hud_SQUAD_FOLLOWING"	"ОТРЯД ДВИГАЕТСЯ"
 "[english]Valve_Hud_SQUAD_FOLLOWING"	"SQUAD FOLLOWING"
