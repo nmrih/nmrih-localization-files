@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[h2]Additions[/h2]
+[list]
+[*]Added mutator configuration, users can now save/load their selections (#1459)
+[*]Added new game type "Minigame", supported by mg_ map prefix
+[*]Current map name and game type are now displayed on the scoreboard
+[*]Experimental: Added item pickup prediction, toggled with cvar "cl_predictpickup" (when enabled, picked up items will move smoothly with lag)
+[/list]
+[h2]Changes[/h2]
+[list]
+[*]Bayonet can now hit the character hull for more accurate shove detection
+[*]Deprecated SSAO and depth of field effects due to instability, these settings are no longer saved / visible in options, while cvars "nmrih_ssao" and "nmrih_dof" can still be used
+[*]Fallen arrow projectiles now expire over time
+[*]In maps utilizing level transition, player inventories and status effects are no longer restored on round restart by default
+[*]Reduced installation size by compressing navigation meshes, streamed audio, and voice lines (by ~685mb)
+[*]Weapons with no audible ammo check will always display information on the HUD (barricade hammer, bow, chainsaw)
+
+[*]Updated the localization files:
+[list]
+
+[*]With thanks to community translators: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]Want to localize NMRiH to your own language? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed attached arrows causing the "physical mayhem" bug (#1455)
+[*]Fixed bullet penetration not working properly in realism mode (#1439)
+[*]Fixed compass visual bug after resolution change (#1396)
+[*]Fixed controls locking up in ironsight mode after holstering flashlight (#684)
+[*]Fixed crash when joining a server with cvar "sv_allow_custom_balance" set to 1
+[*]Fixed current objective not showing after resolution change (#1396)
+[*]Fixed dead players respawning with 1HP after level transition
+[*]Fixed dropping a currently equipped item also dropping a currently held physics prop (#1433)
+[*]Fixed exhausted supply bag station prop continually fading in and out if you keep pressing the use key (#1423)
+[*]Fixed existing glow on items disappearing when a player gets close and then moves away (#1456)
+[*]Fixed flashlight remaining visibly equipped even though it's not present in player's inventory (#1424)
+[*]Fixed ghost flashlights appearing occasionally when other players go out of view
+[*]Fixed grenades falsely appearing during an ammo check (#1460)
+[*]Fixed inaccurate chainsaw sound (#1231)
+[*]Fixed incorrect closed caption when attacking with fists (#938)
+[*]Fixed instantly spawned zombies not expiring in previous zones, causing the overlord to hit a zombie limit and not being able to spawn more
+[*]Fixed instructor hints displaying as "No Caption Specified" for players other than activator (#1410)
+[*]Fixed insufficient amount of zombies being spawned by overlord in high density zones (e.g. Boardwalk's survive section)
+[*]Fixed issues with closed caption fade-out order
+[*]Fixed level transition not working with server plugins that deal with level changes
+[*]Fixed missing sprint animation when holding down fire button with an empty gun (#59)
+[*]Fixed players and their weapons being networked for no reason when out of sight
+[*]Fixed prediction error on firing while using a progress trigger
+[*]Fixed rich presence crash when Steam is unavailable
+[*]Fixed search path overflow preventing caption files from loading (i.e. fixes an issue with captions disappearing after having a lot of Workshop add-ons)
+[*]Fixed server name field on the scoreboard being blank after resolution change (#1396)
+[*]Fixed shadow buffer overflow when rendering flashlight depth textures for other players (#1336)
+[*]Fixed starting chainsaw canceling its idle sound when shoving (#1252)
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added ammobox_ entities for each ammo type
+[*]Added compatibility layer for bugged maps killing the !activator instead of !self (applies to "trigger_progress_use", "trigger_progress_weapon", and "trigger_keypad")
+[*]Added distant zombie horde models, contributed by Demo
+[*]Added entity "env_screenoverlay_multiplayer"
+[*]Added entity "point_viewcontrol_multiplayer"
+[*]Added entity "trigger_speed", applies overall speed modifier to players who enter the trigger
+[*]Added input "BecomeShambler" to zombies
+[*]Added input "SetSound" to "ambient_fmod"
+[*]Added inventory property overrides for weapons (icon, label, weight)
+[*]Added keyfield for changing background texture on "item_inventory_box" (#1296)
+[*]Added navigation mesh compression to reduce file size, existing meshes can be resaved with "nav_compress", or switch "-compress" can be used on existing nav_ commands (e.g. "nav_generate -compress")
+[*]Added output "OnItemSpawn" for "random_spawner"
+[*]Added output "OnPlayerDrop" for weapons
+[*]Added particle precipitation, incl. rain, rainstorm, snowfall, and ash (ported from Mapbase)
+[*]Added support for custom inventory items with "item_custom" entity (#1297)
+[*]Added support for loading custom soundscripts
+[*]Added support for precaching custom particles (#1465)
+[*]Added support for safe zones outside Survival mode
+[*]Added support for uncategorized "item_inventory_box" (#1296)
+[*]Added WAV -&gt; MP3 fallback compatibility for "ambient_generic" (with looping support) and soundscapes
+[*]Added zombie sound overrides
+[*]Command "report_entities" now tags server-only entities
+[*]Disallowed "Kill" input from deleting players and the world
+[*]Don't clear gag flag on zombies (#1437)
+[*]Entity "ambient_generic" now supports multiple sound systems, FMOD is used as a fallback for looping MP3 sounds when it's required
+[*]Fixed "filter_script" missing "Entity scripts" keyfield in Hammer
+[*]Fixed boards with "Disable item motion" flag unchecked still not having motion (#1422)
+[*]Fixed crash when using "dumpgamestringtable" command
+[*]Fixed custom glow colors not working on weapons, tools, and medical items (#1457)
+[*]Fixed outputs on entities "trigger_keypad", "trigger_progress_use", and "trigger_progress_weapon" not setting player as !activator (#1454)
+[*]Fixed uncontrollable "func_tracktrain" stealing player use input (#1445)
+[*]Fixed Workshop locking up when attempting to download maps when an upload is in progress
+[*]FMOD: Overhauled ambient sound support
+[*]Free "spotlight_end" entity on efficient spotlights
+[*]Included entity "npc_maker" in Hammer game config
+[*]Input "SetCauser" now accepts all entities, it no longer has to be a player
+[*]NMRObjective: Display warning when boundary isn't a member of a visgroup, or no boundaries exist (#1302)
+[*]NMRObjective: Fixed memory leak while dragging lines
+[*]NMRObjective: Made "Objectives" and "anti" visgroup names case insensitive
+[*]NMRObjective: Now using local help document instead of a wiki link
+[*]NMRObjective: Now using modern folder selector
+[*]Overhauled entity "logic_script_proxy", sanitized input by doing raw calls
+[*]VScript: Added CAI_BaseNPC functions Freeze(), and Unfreeze()
+[*]VScript: Added CAmbientFMOD bindings
+[*]VScript: Added CEnvScreenOverlayMultiplayer bindings
+[*]VScript: Added CEnvTimer bindings
+[*]VScript: Added CFuncZombieSpawn functions GetSpawnMax(), GetSpawnedCount(), GetSpawnedDead(), GetInterimMax(), GetSpawnDensity(), GetRegenTarget(), and GetZombiesNeeded()
+[*]VScript: Added CItem_AmmoBox function GetAmmoType()
+[*]VScript: Added CItem_InventoryBox functions IsDroppedByChopper(), IsUncategorized(), and SetBackgroundTexture()
+[*]VScript: Added CLogicProgress bindings
+[*]VScript: Added CNavMesh functions GetAllAreas() and GetNavAreasInRadius()
+[*]VScript: Added CNMRiH_ItemCustom bindings
+[*]VScript: Added CNMRiH_Player functions GetCarriedItems(), Get/SetStamina(), Get/SetSpeedModifier(), Get/SetSpeedOverride(), IsDucking(), IsJumping(), and IsSprinting()
+[*]VScript: Added CNMRiH_WeaponBase functions GetWorldModelOverride(), SetWorldModelOverride(), ClearWorldModelOverride(), SetShootSoundOverride(), and ClearShootSoundOverride()
+[*]VScript: Added CObjective bindings, used in conjunction with CObjectiveManager
+[*]VScript: Added CObjectiveManager functions GetObjectiveById(), GetObjectiveByName(), GetObjectiveByIndex(), and GetObjectiveChain()
+[*]VScript: Added CPointMessageMultiplayer bindings
+[*]VScript: Added CPointViewControlMultiplayer bindings
+[*]VScript: Added CRandomSpawnController bindings
+[*]VScript: Added CRandom_Spawner bindings
+[*]VScript: Added CScriptNavArea functions GetHidingSpots(), IsCompletelyVisible(), and IsPotentiallyVisible()
+[*]VScript: Added datamap support for CNetPropManager, contributed by samisalreadytaken
+[*]VScript: Added Glowable functions to CBaseAnimating
+[*]VScript: Added KeyValue methods without underscores (e.g. prefer KeyValueFromString instead __KeyValueFromString, compatibility is kept)
+[*]VScript: Fixed CNetPropManager being nonfunctional, contributed by samisalreadytaken (#1427)
+[*]VScript: Fixed crash with CScriptNavArea methods IsCompletelyVisibleToTeam() and IsPotentiallyVisibleToTeam()
+[*]VScript: Fixed entity hooks not being called on Linux (#1428)
+[*]VScript: Fixed infinite loop with CNMRiH_Player function ThrowAllAmmo()
+[*]VScript: Fixed memory leaks on function calls
+[*]VScript: Fixed OnDeath() NPC hook causing errors (#1313)
+[*]VScript: Ported various enhancements from Mapbase
+[*]VScript: Removed CLocalize instance since it doesn't work on dedicated servers
+[*]VScript: Script named "mapspawn_&lt;mapname&gt;.nut" now runs on map init when available
+[*]VScript: When the server crashes due to inconsistent VM stack, the call stack is now displayed in the error message
+[/list]
+[h2]Changes for server admins[/h2]
+[list]
+[*]Added cvar "hide_server", doesn't announce to Steam, i.e. hides from the server list
+[*]Added cvar "sv_bullet_bypass_player", makes bullets bypass players, it has no effect when friendly fire is on, or if target is infected (#1466)
+[*]Added cvar "sv_remove_unreasonable_physics", removes entities that fell out of the world in physics
+[*]Changed ruleset load order, mutators are now loaded before server config
+[*]Support for level transition is now enabled by default, admins no longer have to toggle it
+[*]Workshop: Optimized updates by reducing file system calls
+[*]Workshop: Previous map entry is now removed from the listing if it gets renamed during an update
+[/list]
+[h1]Maps[/h1]
+
+[h3]All maps[/h3]
+[list]
+[*]Added few unused tracks to music list (also track "Sorrow" has two different parts, so it has been split and added to ambient and tension section)
+[*]Fixed weird reflection on mud texture
+[/list]
+[h3]nmo_anxiety[/h3]
+[list]
+[*]Added clips to stairs
+[*]Added few missing overlays
+[*]Attempted to fix players getting stuck and turning when escape van turns left
+[*]Cleaned up nav meshes in unplayable areas
+[*]Fixed one of the player spawns in the tunnels not working
+[/list]
+[h3]nmo_asylum[/h3]
+[list]
+[*]Added loading screen (#1429)
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]Fixed missing closed caption during evac laptop dialogue
+[*]Misc. tweaks
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]Fixed a bug when with a certain objective chain it was almost impossible to carry watermelon to the extraction point
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Fixed missing closed caption during radio chatter
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Added filters to VPhysics clips (no more bouncing explosives in arena objective)
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Added few VPhysics clips
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Removed nodraw texture in breakable brick wall near church
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Fixed objective softlock (#1452)
+[*]Tweaked clips
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Attempted to fix train getting stuck randomly due to ammo/weapons
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]Added few details
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]Added more zombies in the end of the map
+[*]Added unused music track at the map spawn
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.5 Released</string></content>
