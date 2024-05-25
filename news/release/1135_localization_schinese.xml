@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">地狱已满的版本更新现已发布，更新将会在您重新启动游戏时自动应用，新版本的主要变化包含以下内容：
+
+[h2]新增内容[/h2]
+[list]
+[*]添加 修改器配置, 玩家现在可以保存或加载他们的选择 (#1459)
+[*]添加 新的游戏类型 "Minigame" （小游戏）, 支持以 mg_ 为前缀的地图
+[*]当前地图名称和游戏类型现在显示在计分板上
+[*]实验性功能：添加了物品拾取预测，通过 cvar（控制台） "cl_predictpickup" 来切换（启用后，拾取的物品将平滑移动并延迟）。
+[/list]
+[h2]改动内容[/h2]
+[list]
+[*]刺刀现在可以击中角色边缘，以实现更准确的推击检测
+[*]由于不稳定，已弃用 SSAO（屏幕空间环境光遮蔽）和景深效果。这些设置不再保存在选项中或可见，但 cvars（控制台中）"nmrih_ssao"和"nmrih_dof"仍然可以使用。
+[*]掉落的箭矢现在会随时间消失
+[*]在利用关卡转换的地图中，玩家的物品栏和状态效果在回合重启时将不再默认恢复
+[*]通过压缩导航网格、流式音频和语音行，减少了游戏安装大小（约685mb）
+[*]没有弹药检查声音的武器将始终在HUD上显示信息（钉板锤、弓、电锯）
+
+[*]语言本地化文件更新：
+[list]
+
+[*]感谢社区翻译者的贡献: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]想要为地狱已满提供您的本地化语言支持吗？ [url=https://github.com/nmrih/nmrih-localization-files] 欢迎访问我们在 Github 上的文件仓库。[/url]
+[/list]
+[/list]
+[h2]已修复内容[/h2]
+[list]
+[*]修复 附着箭头导致的 "physical mayhem"（物理混乱）错误问题 (#1455)
+[*]修复 写实模式下子弹不穿透的问题 (#1439)
+[*]修复 分辨率改变后指南针的视觉错误问题 (#1396)
+[*]修复 收起手电筒后，在瞄准模式下控制锁定的问题 (#684)
+[*]修复 服务器变量 "sv_allow_custom_balance" 设置为 1 时加入服务器时的崩溃问题
+[*]修复 分辨率改变后当前任务目标不显示的问题 (#1396)
+[*]修复 玩家在关卡转换后复活时只有1点血量的问题
+[*]修复 丢弃当前装备物时也会丢弃当前持有的物理道具的问题 (#1433)
+[*]修复 如果不断按使用键，耗尽的补给站会逐渐消失 (#1423)
+[*]修复 玩家靠近后离开，物品上现有的发光效果会消失的问题 (#1456)
+[*]修复 手电筒在玩家库存中不存在时仍可见的问题 (#1424)
+[*]修复 当其他玩家离开视线时，偶尔会出现幽灵手电筒的问题
+[*]修复 在检查弹药时手雷错误出现的问题 (#1460)
+[*]修复 电锯声音不准确的问题 (#1231)
+[*]修复 拳头攻击时字幕不正确的问题 (#938)
+[*]修复 立即生成的丧尸不会在前一个区域消失，导致 overlord 达到丧尸数量限制而无法生成更多的问题
+[*]修复 除激活者外的玩家看到的提示显示为 "No Caption Specified" 的问题 (#1410)
+[*]修复 在高密度区域（如 Boardwalk 的生存部分） overlord 生成僵尸数量不足的问题
+[*]修复 字幕淡出顺序的问题
+[*]修复 与处理关卡变化的服务器插件一起使用时，关卡转换不工作的问题
+[*]修复 空枪射击时缺少冲刺动画的问题 (#59)
+[*]修复 玩家和他们的武器在视线之外时仍被网络同步的问题
+[*]修复 使用任务触发器时开火的预测错误
+[*]修复 Steam 不可用时出现的 rich presence 崩溃问题
+[*]修复 阻止加载字幕文件的搜索路径溢出问题（即安装大量创意工坊插件后字幕消失的问题）
+[*]修复 分辨率更改后，计分板上服务器名称变为空白的问题 (#1396)
+[*]修复 为其他玩家渲染手电筒深度纹理时的阴影缓冲区溢出问题 (#1336)
+[*]修复 消除在推时启动电锯的空转声 (#1252)
+[/list]
+[h2]地图设计及模组制作相关改动[/h2]
+[list]
+[*]为每种弹药类型添加 ammobox_ 实体 
+[*]为存在问题的地图添加一个兼容性层，修复触发器在杀死目标时错误地杀死 !activator 而不是 !self 的问题。（适用于 "trigger_progress_use"、"trigger_progress_weapon" 和 "trigger_keypad"）
+[*]添加 远距离丧尸群模型, 由 Demo 贡献
+[*]添加 实体 "env_screenoverlay_multiplayer"
+[*]添加 实体 "point_viewcontrol_multiplayer"
+[*]添加 实体 "trigger_speed" ，对进入触发器的玩家应用移动速度修改器
+[*]添加 输入 "BecomeShambler" 至丧尸
+[*]添加 输入 "SetSound" 至 "ambient_fmod"
+[*]添加 武器库存属性覆盖 (图标, 标签, 重量)
+[*]添加 一个关键字段至 "item_inventory_box" 以更改背景纹理 (#1296)
+[*]添加 导航网格压缩以减少文件大小。现有的导航网格可以使用 "nav_compress" 命令重新保存，或者在现有的 nav_commands（如"nav_generate -compress"）中切换"-compress"开关
+[*]添加 输出 "OnItemSpawn" 至 "random_spawner"
+[*]添加 输出 "OnPlayerDrop" 至武器
+[*]添加 粒子降水效果，包括雨、暴雨、降雪和灰烬。（从 Mapbase 中移植）
+[*]添加 支持具有 "item_custom" 实体的自定义库存项目 (#1297)
+[*]添加 支持加载自定义声音脚本
+[*]添加 支持预加载自定义粒子 (#1465)
+[*]添加 支持生存模式外的安全区
+[*]添加 支持未分类的 "item_inventory_box" (#1296)
+[*]添加 WAV -&gt; MP3 的回退兼容性至"ambient_generic" (并支持循环)和声音环境
+[*]添加 丧尸声音覆盖
+[*]命令 "report_entities" 现在标记仅服务器端的实体
+[*]禁用 "Kill" 输入来删除玩家和世界
+[*]不再清除丧尸的 gag 标志 (#1437)
+[*]实体 "ambient_generic" 现在支持多个声音系统，当需要时 FMOD 作为循环 MP3 声音的备选
+[*]修复 Hammer 中 "filter_script" 缺少 "Entity scripts" 键字段的问题
+[*]修复 未勾选 "Disable item motion" 标志时仍无法移动固定板的问题 (#1422)
+[*]修复 使用 "dumpgamestringtable" 命令时崩溃的问题
+[*]修复 自定义发光颜色在武器、工具和医疗物品上不起作用的问题 (#1457)
+[*]修复 实体 "trigger_keypad"、"trigger_progress_use" 和 "trigger_progress_weapon" 的输出不将玩家设置为 !activator 的问题 (#1454)
+[*]修复 不可控的 "func_tracktrain" 窃取玩家使用输入的问题 (#1445)
+[*]修复 创意工坊在尝试下载地图时，如果有一个上传正在进行中，会导致锁定的问题
+[*]FMOD: 重构了环境声音支持
+[*]高效聚光灯上的免费 "spotlight_end" 实体
+[*]在 Hammer 游戏配置中包含了实体 "npc_maker"
+[*]输入 "SetCauser" 现在接受所有实体，不再必须是一个玩家
+[*]NMRObjective: 当边界不是 visgroup 的成员或不存在边界时，显示警告 (#1302)
+[*]NMRObjective: 修复 在拖动线条时出现的内存泄漏
+[*]NMRObjective: 使 "Objectives" 和 "anti" visgroup 名称不区分大小写
+[*]NMRObjective: 现在使用本地帮助文档而不是 wiki 链接
+[*]NMRObjective: 现在使用更现代的文件夹选择器
+[*]重构 实体 "logic_script_proxy"，通过进行原始调用来净化输入
+[*]VScript: 添加 reeze() 和 Unfreeze() 函数至 CAI_BaseNPC 
+[*]VScript: 添加 CAmbientFMOD 绑定 
+[*]VScript: 添加 CEnvScreenOverlayMultiplayer 绑定
+[*]VScript: 添加 CEnvTimer 绑定
+[*]VScript: 添加 GetSpawnMax(), GetSpawnedCount(), GetSpawnedDead(), GetInterimMax(), GetSpawnDensity(), GetRegenTarget(), 和 GetZombiesNeeded() 函数至 CFuncZombieSpawn 
+[*]VScript: 添加 GetAmmoType() 函数至 CItem_AmmoBox 
+[*]VScript: 添加 IsDroppedByChopper(), IsUncategorized(), 和 SetBackgroundTexture() 函数至 CItem_InventoryBox 
+[*]VScript: 添加 CLogicProgress 绑定
+[*]VScript: 添加 GetAllAreas() 和 GetNavAreasInRadius() 函数至 CNavMesh 
+[*]VScript: 添加 CNMRiH_ItemCustom 绑定
+[*]VScript: 添加 GetCarriedItems(), Get/SetStamina(), Get/SetSpeedModifier(), Get/SetSpeedOverride(), IsDucking(), IsJumping(), 和 IsSprinting() 函数至 CNMRiH_Player 
+[*]VScript: 添加 GetWorldModelOverride(), SetWorldModelOverride(), ClearWorldModelOverride(), SetShootSoundOverride(), 和 ClearShootSoundOverride() 函数至 CNMRiH_WeaponBase 
+[*]VScript: 添加 CObjective 绑定, 与 CObjectiveManager 一起使用
+[*]VScript: 添加 GetObjectiveById(), GetObjectiveByName(), GetObjectiveByIndex(), 和 GetObjectiveChain() 函数至 CObjectiveManager 
+[*]VScript: 添加 CPointMessageMultiplayer 绑定
+[*]VScript: 添加 CPointViewControlMultiplayer 绑定
+[*]VScript: 添加 CRandomSpawnController 绑定
+[*]VScript: 添加 CRandom_Spawner 绑定
+[*]VScript: 添加 GetHidingSpots(), IsCompletelyVisible(), 和 IsPotentiallyVisible() 函数至 CScriptNavArea 
+[*]VScript: 添加 数据映射支持至 CNetPropManager , 由 samisalreadytaken 贡献
+[*]VScript: 添加 Glowable 函数至 CBaseAnimating
+[*]VScript: 添加 无下划线的 KeyValue 方法 (例如：推荐使用 KeyValueFromString 而不是 __KeyValueFromString ，新旧写法仍保持兼容)
+[*]VScript: 修复 CNetPropManager 不起作用的问题, 由 samisalreadytaken 贡献 (#1427)
+[*]VScript: 修复 CScriptNavArea 方法中与 IsCompletelyVisibleToTeam() 和 IsPotentiallyVisibleToTeam() 相关的崩溃问题
+[*]VScript: 修复 实体钩子 在 Linux 上未被调用的问题 (#1428)
+[*]VScript: 修复 CNMRiH_Player 中的 ThrowAllAmmo() 函数导致的无限循环问题
+[*]VScript: 修复 函数调用时的内存泄漏问题
+[*]VScript: 修复 OnDeath() NPC 钩子导致的错误 (#1313)
+[*]VScript: 从 Mapbase 移植了各种增强功能
+[*]VScript: 移除 CLocalize 实例，因为它在专用服务器上不起作用
+[*]VScript: 名为 "mapspawn_&lt;mapname&gt;.nut" 的脚本现在将在地图初始化时（如果可用）运行
+[*]VScript: 当服务器由于不一致的虚拟机（VM）堆栈而崩溃时，现在会在错误消息中显示调用堆栈
+[/list]
+[h2]服务器管理员相关改动[/h2]
+[list]
+[*]新增参数 "hide_server", 该变量不会在Steam上宣布服务器，即服务器不会显示在服务器列表中
+[*]新增参数 "sv_bullet_bypass_player", 使子弹穿过玩家，当开启友军伤害或目标被感染时，此功能无效 (#1466)
+[*]新增参数 "sv_remove_unreasonable_physics", 移除因物理效果而掉出世界的实体
+[*]更改了规则集的加载顺序，现在修改器（mutators）在服务器配置之前加载
+[*]默认启用关卡切换支持，管理员无需再手动切换
+[*]创意工坊: 通过减少文件系统调用优化更新
+[*]创意工坊: 如果在更新过程中地图被重命名，之前的地图条目将从列表中移除
+[/list]
+[h1]地图改动[/h1]
+
+[h3]所有地图[/h3]
+[list]
+[*]添加一些未使用的曲目（同时，由于 "Sorrow" 曲目有两个不同部分，现已拆分并分别添加到环境和紧张氛围音）
+[*]修复泥地上的奇怪反射效果
+[/list]
+[h3]nmo_anxiety[/h3]
+[list]
+[*]为楼梯添加模型
+[*]新增一些缺失的叠加层
+[*]尝试修复玩家在逃生车辆左转时卡住和旋转的问题
+[*]清理了不可玩区域的导航网格
+[*]修复了隧道中一处玩家出生点无法正常工作的问题
+[/list]
+[h3]nmo_asylum[/h3]
+[list]
+[*]新增了加载画面 (#1429)
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]修复了撤离期间的笔记本电脑对话中缺失的字幕
+[*]其他微调
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]修复了进行某个特定任务路线时西瓜几乎不可能被运送到撤离点的错误
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]修复了无线电对话中缺失的字幕
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]为 VPhysics 模型添加过滤器 (在竞技场任务目标中不再出现弹跳爆炸物)
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]新增一些 VPhysics 模型
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]移除教堂附近易碎砖墙上的 nodraw 纹理
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]修复任务目标被软死锁（卡任务) (#1452)
+[*]贴图/模型调整
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]尝试修复由于随机弹药/武器导致火车被卡住的问题
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]添加一些细节
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]在地图末尾添加了更多丧尸
+[*]在地图起始添加了先前未使用的音乐曲目
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">版本更新 1.13.5 已发布</string></content>
