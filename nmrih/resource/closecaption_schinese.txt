@@ -702,6 +702,8 @@
 		"Heli.Departure_NoAccent"	"<len:2.5>由于燃料不足，我们得先离开了。<delay:3.1><len:1.9>如果还有任何幸存的生还者，<delay:5.2><len:1.3>祝你好运。"
 		"Heli.Departure_US"	"<len:2.2>我们得先走一步了，你们自求多福吧！<delay:2.6><len:1.4>很抱歉！"
 		"GenericVoice.YouFoundIt"	"<len:2.6>这简直太棒了，看起来你们找到它了！"
+		"GenericVoice.AnybodyOutThere"	"<len:2.5>嘿，有人在那里吗？"
+		"GenericVoice.ExitByBoat"	"<len:4.4>嘿，你想要逃出这里吗？有条船正要经过船屋附近。"
 
 		// Asylum
 		"AsylumVoice.Intro"	"<len:3.4>所以这就是你所期望的结局吗，<delay:2.8><len:3.3>关在隔离室里自寻死路？<delay:5.5><len:2>要我说，真是个明智的决定。<delay:7.6><len:2.7>不过我可以给你一次重新选择的机会。<delay:10.3><len:2>你可以在这留下来等死，<delay:12.3><len:3.6>或选择帮我一个忙，作为回报我会带你逃出这里。<delay:16.2><len:1.7>我向你保证。"
