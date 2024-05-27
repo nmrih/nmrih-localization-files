@@ -702,6 +702,8 @@
 		"Heli.Departure_NoAccent"	"<len:2.5>好，我們得徹了。油要見底了，<delay:3.1><len:1.9>如果還有人沒趕上，<delay:5.2><len:1.1>願你們平安。"
 		"Heli.Departure_US"		"<len:2.2>我們要撤了，你們要自求多福！<delay:2.6><len:1.4>很對不起！"
 		"GenericVoice.YouFoundIt"	"<len:2.6>哇塞！真給你找到了！"
+		"GenericVoice.AnybodyOutThere"	"<len:2.5>嘿，那裡有人嗎？"
+		"GenericVoice.ExitByBoat"	"<len:4.4>嘿，你想逃出去嗎？有條船要過去泊船處了。"
 	
 		// Asylum
 		"AsylumVoice.Intro"	"<len:5.3>所以，你料想的發展結果是這樣嗎？在隔離房裡面活活餓死？ <delay:5.5><len:4.7>我說呀，真是機智的決定，但我可以給你一個新選擇。 <delay:10.3><len:5.6>你可以待在這等死，或者你可以幫我，我可以給你一個逃脫機會來報答你。 <delay:16.2><len:1>我掛保證。"
