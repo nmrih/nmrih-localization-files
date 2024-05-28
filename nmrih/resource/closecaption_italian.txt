@@ -702,6 +702,8 @@
 		"Heli.Departure_NoAccent"	"<len:2.5>D'accordo, dobbiamo andare, abbiamo quasi finito il carburante. <delay:3.1><len:1.9>Se è rimasto qualcuno in vita, <delay:5.2><len:1.1>buona fortuna."
 		"Heli.Departure_US"	"<len:2.2>Noi dobbiamo andare, siete da soli! <delay:2.6><len:1.4>Mi dispiace!"
 		"GenericVoice.YouFoundIt"	"<len:2.6>Beh, caspita! Sembra che lo abbiate trovato!"
+		"GenericVoice.AnybodyOutThere"	"<len:2.5>Ehi, c'è qualcuno là fuori?"
+		"GenericVoice.ExitByBoat"	"<len:4.4>Ehi, vuoi andartene da qui? Ci sarà una barca vicino al traghetto dalla battigia."
 	
 		// Asylum
 		"AsylumVoice.Intro"	"<len:5.3>Allora, è così che vi aspettavate andassero le cose? Morti di fame in una cella d'isolamento? <delay:5.5><len:4.7>Una decisione davvero intelligente, direi. Ma posso darvi una nuova scelta. <delay:10.3><len:5.6>Potete restare qui e morire, oppure potete aiutarmi e io in cambio vi fornirò una via d'uscita. <delay:16.2><len:1>Promesso."
