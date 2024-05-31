@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell 更新發布，只要重新啟動即可自動更新遊戲，更新的主要變更有：
+
+[h2]新增[/h2]
+[list]
+[*]新增修改器設定，使用者現在可以儲存/讀取他們的選項 (#1459)
+[*]新增遊戲形式「小遊戲」，可使用 mg_ map prefix
+[*]當前的地圖名稱與遊戲類別會顯示在計分板上
+[*]實驗性：新增物件拾取預判，利用控制台參數 cvar "cl_predictpickup" 啟動或停用 (當啟動時，在高延遲的情況下物件能順暢移動)
+[/list]
+[h2]更動[/h2]
+[list]
+[*]刺刀現在能擊中人物形體 (Hull) 以利更準確的命中判定
+[*]淘汰不穩定的螢幕空間環境光遮蔽 (SSAO) 與景深效果，這些設定將從選項中隱藏，但依舊可以使用控制台參數 cvars "nmrih_ssao" 與 "nmrih_dof" 啟動
+[*]掉落的弓箭投射物將隨時間消失
+[*]在使用關卡轉換的地圖中，在預設設定下玩家的道具藍與狀態效果將不會在回合重啟時恢復
+[*]壓縮導航網格 (Navigation meshes)、串流音效以及語音台詞降低安裝容量 (約 ~685mb)
+[*]沒有語音彈藥確認的武器會在任何設定下把資訊顯示在 HUD 上 (釘板榔頭、弓、電鋸)
+
+[*]更新在地化檔案：
+[list]
+
+[*]感謝社群翻譯者：Blueberryy、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta
+[*]想要為 NMRiH 在地化你的語言嗎？ [url=https://github.com/nmrih/nmrih-localization-files]造訪我們在 GitHub 上的在地化存儲庫。[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[list]
+[*]修正插著的弓箭會造成「物理亂撞」的問題 (#1455)
+[*]修正子彈穿透在寫實模式中沒有正常運作 (#1439)
+[*]修正更改解析度後指針的畫面問題 (#1396)
+[*]修正收起手電筒後控制鎖在瞄準 (#684)
+[*]修正加入控制台參數 "sv_allow_custom_balance" 設為 1 的伺服器時的崩潰
+[*]修正更改解析度後目前目標不顯示 (#1396)
+[*]修正死掉的玩家在關卡轉換後以 1 點生命值重生
+[*]修正丟棄當前裝備的道具也會丟棄正在拿著的物理道具 (#1433)
+[*]修正若連續按使用鍵，用盡的物資包供應處會不停淡入淡出 (#1423)
+[*]修正物件輪廓的螢光在一個玩家接近後離開時就會消失 (#1456)
+[*]修正即使已經丟棄，手電筒看似還裝備著 (#1424)
+[*]修正假的手電筒光偶爾會在其他玩家離開視野時出現
+[*]修正檢查彈藥時手榴彈錯誤顯示 (#1460)
+[*]修正不準確的電鋸聲 (#1231)
+[*]修正拳頭攻擊時不正確的音效字幕 (#938)
+[*]修正在先前的區域中立即產生的殭屍不會被移除，導致 Overlord 達到殭屍限制量而無法生成更多
+[*]修正指導提示對觸發事件的玩家以外的玩家顯示「No Caption Specified」 (#1410)
+[*]修正 Overlord 在高擁擠度的區域中沒生成足夠的殭屍 (如：Boardwalk 生存的環節)
+[*]修正字幕淡出的次序問題
+[*]修正關卡轉換無法與控制關卡更換的伺服器插件運作
+[*]修正拿著空膛的槍按住射擊鍵會讓衝刺動畫遺失 (#59)
+[*]修正不在視野範圍內的玩家和武器佔據不必要的資料
+[*]修正使用進度觸發時的預判錯誤
+[*]修正 rich presence 崩潰在 Steam 無法使用時
+[*]修正搜尋路徑溢位使字幕檔無法被讀取 (換句話說，修正同時擁有大量工作坊插件導致字幕消失)
+[*]修正更改解析度後記分板上伺服器名稱區塊空白 (#1396)
+[*]修正當繪製其他玩家的手電筒光線深度材質時陰影緩衝溢位 (#1336)
+[*]修正前推後電鋸引擎聲消失的問題 (#1252)
+[/list]
+[h2]為地圖模組製作進行的更動[/h2]
+[list]
+[*]對每一種彈藥新增 ammobox_ entity
+[*]對有會消除 !activator 而沒消除 !self 的問題地圖新增相容性層 (影響 "trigger_progress_use"、"trigger_progress_weapon"、"trigger_keypad")
+[*]新增遙遠的殭屍群模型、由 Demo 提供
+[*]新增 entity "env_screenoverlay_multiplayer"
+[*]新增 entity "point_viewcontrol_multiplayer"
+[*]新增 entity "trigger_speed", 套用在所有進入觸發區域的玩家的速度調整器
+[*]新增 input "BecomeShambler" 給殭屍
+[*]新增 input "SetSound" 給 "ambient_fmod"
+[*]新增道具藍屬性覆蓋給武器 (圖案、標籤、重量)
+[*]新增 keyfield 來更改 "item_inventory_box" 的背景圖片材質 (#1296)
+[*]新增導航網格 (Navigation mesh)壓縮來減少檔案大小，已存在的網格可以用 "nav_compress" 重新存檔，或者開關 "-compress" 可以用在固有的 nav_ commands (如 "nav_generate -compress")
+[*]新增輸出值 "OnItemSpawn" 給 "random_spawner"
+[*]新增輸出值 "OnPlayerDrop" 給武器
+[*]新增降下的粒子特效，包含落雨、暴雨、降雪及塵埃 (由 Mapbase 導入)
+[*]新增 "item_custom" entity來支援自訂物品蘭道具 (#1297)
+[*]新增支援讀取自訂 soundscripts
+[*]新增支援預先載入自訂粒子特效 (#1465)
+[*]新增生存模式之外支援安全區
+[*]新增支援未歸類的 "item_inventory_box" (#1296)
+[*]新增 WAV -&gt; MP3 向下相容給 "ambient_generic" (支援循環) 與 soundscapes
+[*]新增覆蓋殭屍音效
+[*]指令 "report_entities" 現在歸為 server-only entity
+[*]不使 "Kill" input 將玩家與世界移除
+[*]不清除殭屍的 gag flag (#1437)
+[*]entity "ambient_generic" 現在能支援多個音效系統，FMOD 需要時用於備用循環的 MP3 音效
+[*]修正 "filter_script" 在 Hammer 中遺失 "Entity scripts" keyfield
+[*]修正沒勾選 "Disable item motion" flag 的木板依舊沒有動態 (#1422)
+[*]修正使用 "dumpgamestringtable" 指令時的崩潰
+[*]修正自訂螢光顏色無法作用於武器、工具、和醫療用品 (#1457)
+[*]修正 entity "trigger_keypad"、"trigger_progress_use" 和 "trigger_progress_weapon" 的輸出值沒把玩家設為 !activator (#1454)
+[*]修正無法控制的 "func_tracktrain" 搶走了玩家的使用輸入 (#1445)
+[*]修正在上傳檔案時下載地圖使工作坊卡住
+[*]FMOD：翻新環境音效支援
+[*]拿掉省資源的探照燈光的 "spotlight_end" entity
+[*]在 Hammer 遊戲配置中增加 entity "npc_maker"
+[*]input "SetCauser" 接受所有 entity，不再只接受玩家
+[*]NMRObjective: 當範圍不是 visgroup 的成員或沒有範圍時顯示警告 (#1302)
+[*]NMRObjective: 修正 dragging lines 時記憶體流失
+[*]NMRObjective: 把 "Objectives" 和 "anti" visgroup 名稱不區分大小寫
+[*]NMRObjective: 使用一個本機幫助文獻取代維基連結
+[*]NMRObjective: 現在使用現代的資料夾選取器
+[*]翻新 entity "logic_script_proxy"，使用 raw calls 清理 input
+[*]VScript: 新增 CAI_BaseNPC functions Freeze(), 和 Unfreeze()
+[*]VScript: 新增 CAmbientFMOD 綁定
+[*]VScript: 新增 CEnvScreenOverlayMultiplayer 綁定
+[*]VScript: 新增 CEnvTimer 綁定
+[*]VScript: 新增 CFuncZombieSpawn functions GetSpawnMax(), GetSpawnedCount(), GetSpawnedDead(), GetInterimMax(), GetSpawnDensity(), GetRegenTarget() 和 GetZombiesNeeded()
+[*]VScript: 新增 CItem_AmmoBox function GetAmmoType()
+[*]VScript: 新增 CItem_InventoryBox functions IsDroppedByChopper(), IsUncategorized() 和 SetBackgroundTexture()
+[*]VScript: 新增 CLogicProgress 綁定
+[*]VScript: 新增 CNavMesh functions GetAllAreas() 和 GetNavAreasInRadius()
+[*]VScript: 新增 CNMRiH_ItemCustom 綁定
+[*]VScript: 新增 CNMRiH_Player functions GetCarriedItems(), Get/SetStamina(), Get/SetSpeedModifier(), Get/SetSpeedOverride(), IsDucking(), IsJumping() 和 IsSprinting()
+[*]VScript: 新增 CNMRiH_WeaponBase functions GetWorldModelOverride(), SetWorldModelOverride(), ClearWorldModelOverride(), SetShootSoundOverride() 和 ClearShootSoundOverride()
+[*]VScript: 新增 CObjective 綁定，用以連接 CObjectiveManager
+[*]VScript: 新增 CObjectiveManager functions GetObjectiveById(), GetObjectiveByName(), GetObjectiveByIndex() 和 GetObjectiveChain()
+[*]VScript: 新增 CPointMessageMultiplayer 綁定
+[*]VScript: 新增 CPointViewControlMultiplayer 綁定
+[*]VScript: 新增 CRandomSpawnController 綁定
+[*]VScript: 新增 CRandom_Spawner 綁定
+[*]VScript: 新增 CScriptNavArea functions GetHidingSpots(), IsCompletelyVisible(), 和 IsPotentiallyVisible()
+[*]VScript: 新增 datamap 支援給 CNetPropManager, 由 samisalreadytaken 提供
+[*]VScript: 新增可發亮的 functions 給 CBaseAnimating
+[*]VScript: 新增 KeyValue 不用底線的方式 (例如最好使用 KeyValueFromString 取代 __KeyValueFromString，但保留其相容性)
+[*]VScript: 修正 CNetPropManager 無法運作，由 samisalreadytaken 提供 (#1427)
+[*]VScript: 修正 CScriptNavArea methods IsCompletelyVisibleToTeam() 和 IsPotentiallyVisibleToTeam() 崩潰
+[*]VScript: 修正 entity hook 無法在 Linux 被呼叫 (#1428)
+[*]VScript: 修正 CNMRiH_Player function ThrowAllAmmo() 無限循環
+[*]VScript: 修正 function calls 記憶題流失
+[*]VScript: 修正 OnDeath() NPC hook 引發錯誤 (#1313)
+[*]VScript: 由 Mapbase 引入許多增強功能
+[*]VScript: 移除 CLocalize instance 由於它無法在專屬伺服器中使用
+[*]VScript: "mapspawn_&lt;mapname&gt;.nut" 腳本將在可用時於 map init 運作
+[*]VScript: 當不連續的 VM stack 導致伺服器崩潰時，call stack 將顯示在錯誤訊息中
+[/list]
+[h2]為伺服器管理者進行的更動[/h2]
+[list]
+[*]新增控制台參數 cvar "hide_server"，不會在 Steam 上公開，換句話說在伺服器選單中隱藏
+[*]新增控制台參數 cvar "sv_bullet_bypass_player"，讓子彈穿透玩家，在開啟隊友傷害或該玩家被感染時不會有效果 (#1466)
+[*]新增控制台參數 cvar "sv_remove_unreasonable_physics"，移除掉到世界以外的物理物件
+[*]更改 ruleset 讀取次序，修改器 (mutators) 現在會在伺服器配置 (server config) 之前讀取
+[*]關卡轉換的支援現在預設為開啟，管理員不用在手動啟動了
+[*]工作坊：減少檔案系統呼叫最佳化更新
+[*]工作坊：若在更新時變更名稱，先前的地圖項目會從列表中移除
+[/list]
+[h1]地圖[/h1]
+
+[h3]所有地圖[/h3]
+[list]
+[*]新增幾個未使用的音樂至音樂清單 (另外 "Sorrow" 有兩個不同的段落，所以它被拆開來分別加入環境與張力區塊)
+[*]修正泥土材質詭異的反射
+[/list]
+[h3]nmo_anxiety[/h3]
+[list]
+[*]在樓梯上增加 clips
+[*]新增一些遺失的貼圖
+[*]試圖修復玩家在逃脫車輛左轉時卡住死掉
+[*]清理無法進入的區域的導航網格
+[*]修正隧道中其中一個玩家重生點沒作用
+[/list]
+[h3]nmo_asylum[/h3]
+[list]
+[*]新增讀取畫面 (#1429)
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]修正疏散筆電語音遺失的字幕
+[*]一些修正
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]修正其中一個任務線幾乎不可能帶著西瓜抵達疏散點的錯誤
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]修正遺失的無線電語音字幕
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]新增過濾器給 VPhysics clips (競技場目標區中不再有彈來彈去的爆裂物了)
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]新增一些 VPhysics clips
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]移除教堂旁邊可炸垮的磚牆上的 nodraw 材質
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]修正目標卡死 (#1452)
+[*]調整 clips
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]試圖修正火車偶爾被子彈和武器卡住
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]增加一些細節
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]在地圖尾聲加入更多殭屍
+[*]在地圖開始時加入未使用的音樂
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">更新 1.13.5 釋出</string></content>

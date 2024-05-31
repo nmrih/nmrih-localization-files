@@ -701,7 +701,9 @@
 		"Heli.Arrival1min_US"		"<len:3.7>這是國民警衛隊。我們已著陸但我們不能耽擱太久。<delay:3.8><len:1.5>你們還有一分鐘。"
 		"Heli.Departure_NoAccent"	"<len:2.5>好，我們得徹了。油要見底了，<delay:3.1><len:1.9>如果還有人沒趕上，<delay:5.2><len:1.1>願你們平安。"
 		"Heli.Departure_US"		"<len:2.2>我們要撤了，你們要自求多福！<delay:2.6><len:1.4>很對不起！"
-		"GenericVoice.YouFoundIt"	"<len:2.6>哇塞，真給你找到了！"
+		"GenericVoice.YouFoundIt"	"<len:2.6>哇塞！真給你找到了！"
+		"GenericVoice.AnybodyOutThere"	"<len:2.5>嘿，那裡有人嗎？"
+		"GenericVoice.ExitByBoat"	"<len:4.4>嘿，你想逃出去嗎？有條船要過去泊船處了。"
 	
 		// Asylum
 		"AsylumVoice.Intro"	"<len:5.3>所以，你料想的發展結果是這樣嗎？在隔離房裡面活活餓死？ <delay:5.5><len:4.7>我說呀，真是機智的決定，但我可以給你一個新選擇。 <delay:10.3><len:5.6>你可以待在這等死，或者你可以幫我，我可以給你一個逃脫機會來報答你。 <delay:16.2><len:1>我掛保證。"
@@ -728,9 +730,9 @@
 		"brooklyn_voice.02"	"<len:4.9>搞屁？！大門沒有通電，把它修好我們才能逃出這鬼地方！"
 		"brooklyn_voice.03"	"<len:3.1>好耶！把它繫上去，我們就來扳倒它。"
 		"brooklyn_voice.04"	"<len:3.7>嘿老兄！還好沒發臭的人肉不是只有我一個！<delay:3.8><len:4.8>我打算逃出這鬼地方，但是我們得扳倒外頭的圍籬才能出去。"
-		"brooklyn_voice.05"	"<len:1.5>欸呀，多謝了！<delay:1.5><len:2.4>聽我說，我看看我能不能發動這輛貨卡，<delay:4><len:2.4>但是如果我們想逃出去的話，我們要有足夠的物資。<delay:6.5><len:2.3>我看到對街附近的巷子裡有一個手推車，<delay:8.9><len:3.3>我們可能可以用它來裝附近社區有用的東西。"
+		"brooklyn_voice.05"	"<len:1.5>欸呀，多謝了！<delay:1.5><len:2.4>聽我說，我看看我能不能發動這輛貨卡。<delay:4><len:2.4>但是如果我們想逃出去的話，我們要有足夠的物資。<delay:6.5><len:2.3>我看到對街附近的巷子裡有一個手推車，<delay:8.9><len:3.3>我們可能可以用它來裝附近社區有用的東西。"
 		"brooklyn_voice.06"	"<len:2>太好了，人還活著呀！<delay:2><len:2.8>東西上車，我們在這引來太多群眾了。"
-		"brooklyn_voice.07"	"<len:2.2>好，我們就快逃出去了！<delay:2.2><len:2.4>我們得找到大門的控制台，<delay:4.6><len:1.8>應該不會離這太遠。"
+		"brooklyn_voice.07"	"<len:2.2>好，我們就快逃出去了！<delay:2.2><len:2.4>我們得找到大門的控制台。<delay:4.6><len:1.8>應該不會離這太遠。"
 		"brooklyn_voice.08"	"<len:3.8><I>動作快啊<clr:255,0,0>小豬仔──<clr:255,255,255>別逼我先走一步了！"
 		"brooklyn_voice.09"	"<len:3.3>哭枵，看起來有人不知道怎麼停車。"
 		"brooklyn_voice.10"	"<len:3.3>不知道各位怎麼想，我的肚子開始叫了。"
@@ -742,11 +744,11 @@
 		"CampbloodVoice.RalphComingForYa"	"<len:1.5>生還者！<delay:1.6><len:1.6>我來找你了！"
 		"CampbloodVoice.RalphLastChance"	"<len:2.2>這是最後的機會！"
 		"CampbloodVoice.RalphLightsOff"		"<len:2.8>有人記得熄燈嗎？"
-		"CampbloodVoice.RalphWelcome"		"<len:2.3>你要參加喋血營是吧？<delay:2.6><len:2.1>你不會再度光臨，<delay:4.9><len:2.1>這有<I>死亡詛咒！"
+		"CampbloodVoice.RalphWelcome"		"<len:2.3>想要參加喋血營是吧？<delay:2.6><len:2.1>你不會再度光臨！<delay:4.9><len:2.1>這有<I>死亡詛咒！"
 		"CampbloodVoice.RalphYourDoomed"	"<len:3.8>你<I>完蛋了！<clr:255,0,0><B>咿嘻嘻嘻嘻！"
 
 		// Cleopas
-		"CleopasVoice.Radio"	"<len:1.8>[收音機雜訊]<delay:1.8><len:6>這是巡邏隊兩洞陸在市區呼叫緊急協助，我們損失慘重，<delay:8><len:6>那些……怪物，它們……就是打不死……它們一直爬起來！<delay:14.8><len:3.2>如果有誰聽得見，拜託加派援軍！<delay:22.4><len:3.4>我重複，我們市區需要緊急支援，<delay:26.4><len:4.6>我們彈藥所剩無幾，我們的選擇也所剩無幾，總部請回覆…… <delay:30.6><len:2>[槍聲、通訊中斷]"
+		"CleopasVoice.Radio"	"<len:1.8>[收音機雜訊]<delay:1.8><len:6>這是巡邏隊兩洞陸在市區請求緊急支援；我們死傷慘重。<delay:8><len:6>那些……怪物，它們……就是打不死……它們一直爬起來！<delay:14.8><len:3.2>如果有誰聽得見，拜託加派援軍！<delay:22.4><len:3.4>我重複，我們市區立刻需要支援。<delay:26.4><len:4.6>我們彈藥所剩無幾，我們的選擇也所剩無幾，總部請回覆…… <delay:30.6><len:2>[槍聲、通訊中斷]"
 
 		// FEMA
 		"FemaVoice.BillyComplex"	"<len:4.2>這段訊號是基地傳來的嗎？那整座設施都淪陷了！<delay:4.6><len:3.9>那些科學家的蠢主意在封鎖程序啟動前就害死所有人了。<delay:9><len:3.7>你得完成封鎖程序，阻止他們幹的傻事擴散到外頭來！"
@@ -790,7 +792,7 @@
 		"ToxtethVoice.SurvivorPhone"	"<len:6.9>嘿？嘿！好險你們接起來了，我觀察你們一陣子了，我駭進了監視系統。<delay:7.3><len:5.7>我在距你們幾百公尺外的賣場裡，而且我這邊有辦法向外求援……但是我被反鎖在裡頭了！<delay:14.1><len:5.6>外面都是殭屍，我不清楚到底有多少不過……你們要趕緊過來這邊！<delay:20.7><len:3.6>沒什麼時間了，我建議你們穿過墓園來我這。"
 		"ToxtethVoice.SurvivorPhone2"	"<len:7.8>嘿？嘿！好險你們接起來了，我觀察你們一陣子了，我駭進了監視系統。<delay:8.4><len:4.8>我在距你們幾百公尺外的賣場裡，而且我這邊有辦法向外求援……但是我被反鎖在裡頭了！<delay:13.6><len:4.9>外面都是殭屍，我不清楚到底有多少不過……你們要趕緊過來這邊！<delay:19><len:3.6>沒什麼時間了，我建議你們穿過墓園來我這。"
 		"ToxtethVoice.SurvivorPhone3"	"<len:7.6>嘿？嘿！好險你們接起來了，我觀察你們一陣子了，我駭進了監視系統。<delay:8><len:5.5>我在距你們幾百公尺外的賣場裡，而且我這邊有辦法向外求援……但是我被反鎖在裡頭了！<delay:14><len:5>外面都是殭屍，我不清楚到底有多少不過……你們要趕緊過來這邊！<delay:19.6><len:3.7>沒什麼時間了，我建議你們穿過墓園來我這。"
-		"ToxtethVoice.SurvivorPhone4"	"<len:3.4>嘿！過去幾天我用監視器看著你們。<delay:3.7><len:5.6>你們得前往墓園後面的那間賣場，我被困在這裡，外面全都是殭屍！<delay:9.9><len:3.4>我已經從外面求來了救援，但是你們得過來救我，我們才能離開。<delay:14.3><len:1.4>時間不多了。"
+		"ToxtethVoice.SurvivorPhone4"	"<len:3.4>嘿！過去幾天我在用監視器看著你們。<delay:3.7><len:5.6>你們得前往墓園後面的那間賣場，我被困在這裡，外面全都是殭屍！<delay:9.9><len:3.4>我已經從外面求來了救援，但是你們得過來救我，我們才能離開。<delay:14.3><len:1.4>時間不多了。"
 		
 		// Zephyr
 		"ZephyrVoice.Engineer04"	"<len:7.6>不好意思，給我忘記了，能不能拉下我後頭的控制桿，讓我到車站那邊連接其他節車廂？"
