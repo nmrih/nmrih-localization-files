@@ -699,7 +699,7 @@
 		"Heli.Approach_Alert_US"	"<len:1.5>這是國民警衛隊。<delay:1.6><len:3.6>生還者請注意，我們會在三十秒內抵達那裡！"
 		"Heli.Arrival1min_NoAccent"	"<len:3.3>這是國民警衛隊。我們已抵達現場但我們不能耽擱太久。<delay:3.5><len:1.3>給你們一分鐘的時間。"
 		"Heli.Arrival1min_US"		"<len:3.7>這是國民警衛隊。我們已著陸但我們不能耽擱太久。<delay:3.8><len:1.5>你們還有一分鐘。"
-		"Heli.Departure_NoAccent"	"<len:2.5>好，我們得徹了。油要見底了，<delay:3.1><len:1.9>如果還有人沒趕上，<delay:5.2><len:1.1>願你們平安。"
+		"Heli.Departure_NoAccent"	"<len:2.5>好，我們得徹了。油要見底了。<delay:3.1><len:1.9>如果還有人沒趕上，<delay:5.2><len:1.1>願你們平安。"
 		"Heli.Departure_US"		"<len:2.2>我們要撤了，你們要自求多福！<delay:2.6><len:1.4>很對不起！"
 		"GenericVoice.YouFoundIt"	"<len:2.6>哇塞！真給你找到了！"
 		"GenericVoice.AnybodyOutThere"	"<len:2.5>嘿，那裡有人嗎？"
@@ -753,10 +753,10 @@
 		// FEMA
 		"FemaVoice.BillyComplex"	"<len:4.2>這段訊號是基地傳來的嗎？那整座設施都淪陷了！<delay:4.6><len:3.9>那些科學家的蠢主意在封鎖程序啟動前就害死所有人了。<delay:9><len:3.7>你得完成封鎖程序，阻止他們幹的傻事擴散到外頭來！"
 		"FemaVoice.BillyFuel"		"<len:2.8>我們可以帶你們起飛，但是我們的燃料不夠！<delay:2.9><len:2.6>我們得先灌滿油才能出發到安全的地方。"
-		"FemaVoice.BillyGetIn"		"<len:2.5>走了，上來！航向我們的新家吧！"
+		"FemaVoice.BillyGetIn"		"<len:2.5>快上來！我們要遠走高飛了！"
 		"FemaVoice.BillyTopside"	"<len:1.8>喂？喂！<delay:2.1><len:3.3>如果有人聽見我說的，到地面上來我們能起飛帶你去安全處。<delay:5.7><len:4.1>去搜我們拖車裡的櫃子，我存一些那些金頭腦在開發的疫苗。<delay:9.9><len:2.6>我們還是小心為妙，帶著疫苗就馬上過來！"
 		"FemaVoice.MengelerOkayBob"	"<len:2.4><I>好，巴布，現在請拉下開關。"
-		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>做得很好喔巴布！這樣你值得拿到獎賞。"
+		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>做得很好喔巴布！你這樣值得讚賞。"
 		"FemaVoice.MengelerSayHello"	"<len:2.5><I>向艾莉西亞阿姨說聲喂，巴布。"
 		"FemaVoice.ColonelNatSec"	"<len:1.5>這是凱珊上校。<delay:1.7><len:5.5>基於國家安全我們可以幫助你們脫困，前提是你們必須回收實驗中的疫苗。<delay:7.6><len:3>我們知道你的位置，我們會在地面上等待回應。"
 		"FemaVoice.ColonelStow"		"<len:2.8>這是國家安全局凱珊上校。<delay:2.8><len:1.1>我們得到你們的訊號。<delay:3.9><len:2.5>妥當收納疫苗，準備疏散。"
@@ -770,7 +770,7 @@
 		
 		// Junction
 		"JunctionVoice.01"	"<len:2.8><I>[緊急廣播音]<delay:2.8><len:8.4><I>以下訊息由紐澤西州聯合市的紐澤西緊急管理處下達發布。<delay:11.2><len:8><I>若您依然安好，請就地等待救援。 在街上穿梭是萬分危險的。<delay:19.4><len:5.9><I>下述是實施出入封鎖的郡：聯合郡、哈德遜郡以及孟莫斯郡。<delay:25.4><len:7><I>若您有受傷或者其他緊急情況，請保持冷靜並在原處靜待進一步的消息。<delay:32.5><len:3.5><I>緊急服務車輛目前或許無法抵達您的位置。<delay:36><len:2.8><I>[廣播結束]"
-		"JunctionVoice.02"	"<len:4.7>聽到人的聲音真好！看樣子還是有人被困在城市裡。<delay:4.9><len:6.3>嗯，我是四二師二兵瓊斯，不知道你們有沒有聽說，林肯隧道是整座城對外唯一的出路。<delay:11.3><len:7.4>我們本來正要將它封鎖起來，結果有炸彈誤爆，我們爆破專家全數殉職，連我都被炸傷了。<delay:19><len:4.2>目前我人爬進了其中一輛卡車的駕駛座。我會在這邊等你們過來。"
+		"JunctionVoice.02"	"<len:4.7>聽到人的聲音真好！結果還是有人被困在城市裡。<delay:4.9><len:6.3>嗯，我是四二師二兵瓊斯，不知道你們有沒有聽說，林肯隧道是整座城對外唯一的出路。<delay:11.3><len:7.4>我們本來正要將它封鎖起來，結果有炸彈誤爆，我們爆破專家全數殉職，連我都被炸傷了。<delay:19><len:4.2>目前我人爬進了其中一輛卡車的駕駛座。我會在這邊等你們過來。"
 		"JunctionVoice.03"	"<len:3.4>沒想到你們真的成功了，我正打算自己逃走！<delay:3.7><len:4.8>這邊三組炸藥威力保證足以封死這整條隧道，斷絕我們的追兵。<delay:8.8><len:2.2>把它們裝到梁柱上然後趕緊上車！"
 		"JunctionVoice.04"	"<len:3.0>好了，趕快上車！時間不多了！"
 		"JunctionVoice.05"	"<len:3.2>我們出發吧，希望人都到齊了！"
