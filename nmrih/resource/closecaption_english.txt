@@ -782,6 +782,9 @@
 		"QuarantineVoice.RadioTalk2"	"<len:6.3>Here's what we gotta do, there's a siren, <I>there is a siren<I>, in that area you're in. <delay:6.5><len:5>You need to activate the siren, what that is going to do, is that's going to get the zombies off of us. <delay:11.5><len:3.1>When we can, we're going to go for the helicopter. <delay:14.62><len:3.8>And then we're going to come back, we're gonna pick you up, and we're all going to get the fuck outta here. <delay:18.6><len:4.88>So I suggest boarding whatever up you can, just... get ready. <delay:23.5><len:3.8>When you're ready, trigger the siren, alright?"
 		"QuarantineVoice.RadioTalk3"	"<len:5.4>First things first, there should be a walkie talkie somewhere in that room, just grab it."
 		
+		// Suzhou
+		"SuzhouVoice.BoatMan"	"<len:6.6><I>Hello? Hello? I'm on a boat, if you can tell me your location, I will come pick you up ASAP!<I>"
+		
 		// Toxteth
 		"ToxtethVoice.PilotRadio"	"<len:3.5>Yes, we can hear you. We're hovering over the local area now. <delay:4.2><len:4.4>Listen, get to Hartington Road, we'll be there in five minutes to pick you up, <delay:9><len:2.3>we can not afford much time so be quick!"
 		"ToxtethVoice.PilotRadio2"	"<len:2.9>Yes, we can hear you. We're hovering over the local area. <delay:3.2><len:3.6>Get to Hartington Road, we'll be there in five minutes to pick you up, <delay:7.3><len:2.1>we can't afford much time so be quick!"
