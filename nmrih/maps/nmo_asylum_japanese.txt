@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_asylum_Objective_Lobby_1"		"ロビーに辿り着く"
+	"nmo_asylum_Objective_Lobby_NoWeld"	"ロビーに辿り着く"
+	"nmo_asylum_Objective_Drain"		"地下室に降りてシャワーの排水を行う"
+	"nmo_asylum_Objective_Wet_Key"		"サプライクローゼットの鍵を開ける"
+	"nmo_asylum_Objective_Room_Key"		"サプライクローゼットの鍵を開ける"
+	"nmo_asylum_Objective_Traverse"		"地下を通り抜け、地上階へ上がる"
+	"nmo_asylum_Objective_Welder"		"溶接機で通気口を開ける"
+	"nmo_asylum_Objective_Bomb"		"バリケードを爆破する"
+	"nmo_asylum_Objective_Power"		"セキュリティシャッターを開ける"
+	"nmo_asylum_Objective_Goto_Attic"	"上階の宿舎へ行く"
+	"nmo_asylum_Objective_Drop"		"上階の宿舎へ行く"
+	"nmo_asylum_Objective_Attic"		"屋根裏部屋を探索する"
+	"nmo_asylum_Objective_Court"		"中庭を横切る"
+	"nmo_asylum_Objective_Summon_Alt"	"儀式を終わらせる"
+	"nmo_asylum_Objective_Summon_Alt2"	"儀式を終わらせる"
+	"nmo_asylum_Objective_Summon"		"儀式を完了させる"
+	"nmo_asylum_Objective_Defend"		"儀式を防衛する"
+	"nmo_asylum_Objective_Intro"		"人生の選択を悔いる"
+	"nmo_asylum_Objective_StandBack"	"後ろに下がる"
+	"nmo_asylum_Objective_Evac"		"逃げろ！"
+}
+}

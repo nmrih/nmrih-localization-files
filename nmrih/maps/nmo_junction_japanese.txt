@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_junction_Street_door"	"安全な避難所から脱出する"
+	"nmo_junction_Break_front"	"マーケットへ侵入する"
+	"nmo_junction_Turn_off_alarm"	"警備アラームを切る"
+	"nmo_junction_Exploding_door"	"路地を通ってアパートに入る"
+	"nmo_junction_Use_radio"	"助けを呼ぶ方法を見つける"
+	"nmo_junction_Weld_door"	"溶接機を探して倉庫を通り抜ける"
+	"nmo_junction_Pawnshop_fense_door"	"質屋のドアを開ける"
+	"nmo_junction_pawnshop_door_code"	"アクセスコードを入力する"
+	"nmo_junction_Office_progress"	"別の出口を探す"
+	"nmo_junction_Find_sewer_key"	"下水道の鍵を見つけ、永久に街から脱出する"
+	"nmo_junction_Finale_tnt"	"トンネル内に爆発物を3つ設置し、逃げ道を確保する"
+}
+}

@@ -1,0 +1,9 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nms_drugstore_mes1"	"赤いグロースティックのそばにあるベニヤ板を2枚見つけ、窓をふさぐ"
+	"nms_drugstore_mes2"	"廃墟の窓に金づちを使うことができるようになった"
+}
+}

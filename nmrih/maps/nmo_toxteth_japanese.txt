@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_toxteth_ObjF"	"店内に侵入する"
+	"nmo_toxteth_ObjE"	"溶接機で店舗の通用口から入る"
+	"nmo_toxteth_ObjD"	"TNTを使用して店舗へ移動する"
+	"nmo_toxteth_ObjC"	"庭の壁を爆破するための燃料タンクを探す"
+	"nmo_toxteth_ObjB"	"電話に応える"
+	"nmo_toxteth_ObjA"	"ハーティントン・ロードを進む"
+	"nmo_toxteth_ObjG_1"	"倉庫事務所に入るために死んだスタッフを探す"
+	"nmo_toxteth_ObjG_2"	"倉庫事務所に入るために死んだスタッフを探す"
+	"nmo_toxteth_ObjG_3"	"倉庫事務所に入るために死んだスタッフを探す"
+	"nmo_toxteth_ObjH"	"救助を呼ぶ"
+	"nmo_toxteth_ObjI"	"電話に応える"
+	"nmo_toxteth_ObjJ"	"壁コンセント3個に溶接機を使い、火災を起こせ！"
+	"nmo_toxteth_ObjK"	"クランクを探しドアを開ける"
+	"nmo_toxteth_ObjL"	"教会へ進む"
+	"nmo_toxteth_ObjM"	"マンホールの蓋に溶接機を使用"
+	"nmo_toxteth_ObjZ"	"ハーティントン・ロードに戻る"
+}
+}

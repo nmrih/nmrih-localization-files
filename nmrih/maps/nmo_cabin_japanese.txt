@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_cabin_objStart"	"屋根裏部屋から脱出する"
+	"nmo_cabin_ObjA"	"鍵を探しドアを開錠する"
+	"nmo_cabin_ObjB"	"板を壊して進む"
+	"nmo_cabin_ObjC"	"家族こそ答え、秘密の本を見つけよう"
+	"nmo_cabin_ObjD"	"階段のゲートを開ける"
+	"nmo_cabin_ObjE"	"キャビンの壁を爆破する"
+	"nmo_cabin_ObjF"	"本棚に本を入れる"
+	"nmo_cabin_ObjG"	"溶接機でキッチンドアを開ける"
+	"nmo_cabin_ObjH"	"電信線を再接続する"
+	"nmo_cabin_ObjI"	"車のバッテリーを見つけて発電機の電源を入れ、助けを呼べ！"
+	"nmo_cabin_ObjG2"	"地下を進む"
+}
+}
