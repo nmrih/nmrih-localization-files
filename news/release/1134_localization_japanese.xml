@@ -18,7 +18,7 @@
 [*]翻訳を更新：
 [list]
 
-[*]コミュニティの翻訳者に感謝を述べます： [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta[/b]
+[*]コミュニティの翻訳者に感謝を述べます： [b]Blueberryy、Klowby、MakinDay、marcielcps、Plazehorta[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -44,7 +44,7 @@
 [*]ボーンフォロワーが存在する場合、ナビ生成時にクラッシュすることがあった問題を修正
 [*]クラス名を変更した改造ゾンビの死亡通知が正しく表示されなかった問題を修正
 [*]"nav_generate"が生成後に同じマップに戻らなかった問題を修正
-[*]以下のエンティティのエディションが不要になりました： env_soundscape, func_zombie_spawn
+[*]以下のエンティティのエディションが不要になりました： env_soundscape、func_zombie_spawn
 [*]MapHack： サーバーのみのエンティティで$remove_allが動作しない問題を修正 (#1447)
 [*]MapHack： エンティティになる前の$edit_allでハングする問題を修正
 [*]VScript： CBaseEntity 関数の GetGroundEntity() と SetGroundEntity() を追加
@@ -55,7 +55,7 @@
 [*]VScript： COverlord_Zombie_Helper バインディングを追加
 [*]VScript： ナビメッシュの属性定数を追加
 [*]VScript： NavMesh 関数の NavAreaBuildPath() と GetNavAreasFromBuildPath() を追加
-[*]VScript： チーム定数を追加 (TEAM_ANY, TEAM_UNASSIGNED, など)
+[*]VScript： チーム定数を追加 (TEAM_ANY、TEAM_UNASSIGNED、など)
 [*]VScript： NavMeshメソッドを使用するとクラッシュすることがあった問題を修正
 [*]VScript： "logic_script"が所有していない関数を呼び出していた問題を修正
 [*]VScript： フックの"filter_script"同士がPassesDamageFilterをハイジャックしていたのを修正 (#1434)
