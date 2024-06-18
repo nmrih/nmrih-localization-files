@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_quarantine_obj_gravesite"	"シャベルを見つけ、仮設墓地で燃料を掘る"
+	"nmo_quarantine_obj_leavespawn"	"路地から逃げる"
+	"nmo_quarantine_obj_fillup_generator_turn_on"	"発電機に燃料を入れ、スイッチを入れる"
+	"nmo_quarantine_obj_get_sewer_key"	"メンテナンスルームの鍵を探す"
+	"nmo_quarantine_obj_get_sewer_crank"	"消えたクランクを見つけ、メンテナンスルームの浸水を解除しろ！"
+	"nmo_quarantine_obj_leave_sewer"	"下水道から逃げる"
+	"nmo_quarantine_obj_close_gate"	"開いている検疫所の入口ゲートを閉じ、検疫所内に入れ！"
+	"nmo_quarantine_obj_waitfordoor"	"シャッターが開くのを待つ"
+	"nmo_quarantine_obj_enter_sewer"	"下水道に入る"
+	"nmo_quarantine_obj_enter_inner_quarantine"	"浄化装置が作動する前に、内部の隔離施設に入れ！"
+	"nmo_quarantine_obj_use_radio"	"ラジオを使え！"
+	"nmo_quarantine_obj_get_walkie"	"トランシーバーを取る"
+	"nmo_quarantine_obj_activate_siren"	"準備ができたらサイレンを鳴らす"
+	"nmo_quarantine_obj_survive"	"2分間生き残る"
+	"nmo_quarantine_50sec"	"残り50秒だ、爆発の前に隔離施設に入れ"
+	"nmo_quarantine_10sec"	"残り10秒"
+}
+}

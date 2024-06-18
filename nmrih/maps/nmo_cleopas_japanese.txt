@@ -1,0 +1,21 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_cleopas_ObjA"	"路地のゲートを通過するためにTNTを見つける"
+	"nmo_cleopas_ObjB"	"路地のゲートを通過するためにTNTを見つける"
+	"nmo_cleopas_ObjC"	"路地のゲートを通過するためにTNTを見つける"
+	"nmo_cleopas_ObjZ"	"ホワイトボードの目標に従う"
+	"nmo_cleopas_ObjE"	"通電した水面を渡るために4枚の板を見つける"
+	"nmo_cleopas_ObjF"	"レバーを探し電源を切る"
+	"nmo_cleopas_ObjH"	"ハシゴを使ってSamcoの店に入る"
+	"nmo_cleopas_ObjI"	"溶接機を使い店に入る"
+	"nmo_cleopas_ObjJ"	"ハシゴを使い路地のゲートを越える"
+	"nmo_cleopas_ObjG"	"路地の壁を爆破する"
+	"nmo_cleopas_OBjD"	"家を通り抜け、正面突破する"
+	"nmo_cleopas_ObjK"	"次の路地に行く"
+	"nmo_cleopas_ObjR"	"プライヤーでロックを切り、3分以内に脱出しろ！"
+	"nmo_cleopas_ObjL"	"溶接機を探し裏路地のゲートを開ける"
+}
+}

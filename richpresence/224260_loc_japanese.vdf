@@ -1,0 +1,14 @@
+"lang"
+{
+	"Language"	"japanese"
+	"Tokens"
+	{
+		"#Status_JoiningServer"	"サーバーに参加中..."
+		"#Status_MainMenu"	"メインメニュー"
+		"#Status_PlayingObjective"	"オブジェクティブをプレイ中 - %map%"
+		"#Status_PlayingSurvival"	"サバイバルをプレイ中 - %map%"
+		"#Status_PlayingCustom"	"カスタムをプレイ中 - %map%"
+		"#Status_PlayingPvP"	"対戦をプレイ中 - %map%"
+		"#Status_PlayingMinigame"	"ミニゲームをプレイ中 - %map%"
+	}
+}

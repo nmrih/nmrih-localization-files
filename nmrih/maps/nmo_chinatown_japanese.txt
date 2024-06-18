@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_chinatown_subway_escape"	"地下鉄から逃げろ！"
+	"nmo_chinatown_gate_fix"	"ゲートを開けるために発電機の燃料を探せ！"
+	"nmo_chinatown_ladder_dismount"	"通行止めのハシゴを下ろせ！"
+	"nmo_chinatown_sewer_way"	"下水道を通り抜けて進め！"
+	"nmo_chinatown_welder"	"溶接機でゲートの錠を開けろ！"
+	"nmo_chinatown_docks_finale"	"ラジオの電源を入れ、救助を要請しろ！"
+	"nmo_chinatown_radio"	"救出まで60秒。 あと少しだ！"
+}
+}

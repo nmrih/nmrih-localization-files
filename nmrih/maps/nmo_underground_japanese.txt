@@ -1,0 +1,22 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_underground_Open_The_Door"	"ドアを開ける方法を見つけろ！"
+	"nmo_underground_Fence_Welder"	"溶接機で格子を通り抜けろ！"
+	"nmo_underground_Find_Dinamite"	"ダイナマイトを見つけて壁を爆破しろ！"
+	"nmo_underground_Elevator"	"エレベーターを起動しろ！"
+	"nmo_underground_Last_Objective"	"すべての回収品を使用しろ！"
+	"nmo_underground_HelicopterCome"	"ヘリコプターを待て！"
+	"nmo_underground_PushTheCart"	"カートを押せ！"
+	"nmo_underground_LootSmokeGrenade"	"スモークグレネードを回収しろ！"
+	"nmo_underground_FindCodeLootPaint"	"オフィスビルで暗号を探し、ペンキの缶を回収しろ！"
+	"nmo_underground_LootCarBattery"	"カーバッテリーを回収しろ！"
+	"nmo_underground_LootPaint"	"ペンキ缶を回収しろ！"
+	"nmo_underground_plugs"		"プラグを接続しろ！"
+	"nmo_underground_car"		"車を押せ！"
+	"nmo_underground_sos"		"SOSを描け！"
+	"nmo_underground_gen"		"発電機を起動しろ！"
+}
+}
