@@ -19,7 +19,7 @@
 [*]翻訳を更新：
 [list]
 
-[*]コミュニティの翻訳者に感謝を述べます： [b]Blueberryy, BloodyMoonlight, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]コミュニティの翻訳者に感謝を述べます： [b]Blueberryy、BloodyMoonlight、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -51,7 +51,7 @@
 [*]サーフェスプロップの"bouncyball"を追加
 [*]ハンマーゲームデータの未使用エンティティをクリーンアップ
 [*]エンティティ"point_message_multiplayer"のプロパティをキー値で変更できるようになりました
-[*]以下のエンティティは命令を必要としなくなった： env_instructor_hint, env_timer, game_text, logic_progress, logic_script, player_speedmod, point_message_multiplayer, scripted_sequence
+[*]以下のエンティティは命令を必要としなくなった： env_instructor_hint、env_timer、game_text、logic_progress、logic_script、player_speedmod、point_message_multiplayer、scripted_sequence
 [*]"prop_sphere"エンティティのカスタマイズ可能な半径を拡張
 [*]エンティティの"point_message_multiplayer"が改善され、テキストがジッターなしにスムーズに親の動きに追従するようになった
 [*]MapHack： $removeサーバーのクラッシュを修正 (#1425)

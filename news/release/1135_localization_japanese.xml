@@ -22,7 +22,7 @@
 [*]翻訳を更新：
 [list]
 
-[*]コミュニティの翻訳者に感謝を述べます： [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]コミュニティの翻訳者に感謝を述べます： [b]Blueberryy、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -60,19 +60,19 @@
 [h2]マップとMOD制作者向けの変更点[/h2]
 [list]
 [*]弾薬の種類ごとに ammobox_ エンティティを追加
-[*]!activatorが!selfの代わりに殺されるバグがあるマップの互換性レイヤーを追加 ("trigger_progress_use", "trigger_progress_weapon", と "trigger_keypad" に適応)
+[*]!activatorが!selfの代わりに殺されるバグがあるマップの互換性レイヤーを追加 ("trigger_progress_use" "trigger_progress_weapon" と "trigger_keypad" に適応)
 [*]遠くのゾンビの大群のモデルを追加
 [*]エンティティの"env_screenoverlay_multiplayer"を追加
 [*]エンティティの"point_viewcontrol_multiplayer"を追加
 [*]エンティティの"trigger_speed"を追加。 トリガーに入ったプレイヤーに全体的なスピード補正を適用する
 [*]ゾンビに"BecomeShambler"入力を追加
 [*]"ambient_fmod"に"SetSound"入力を追加
-[*]武器のインベントリプロパティのオーバーライドを追加 (アイコン, ラベル, 重量)
+[*]武器のインベントリプロパティのオーバーライドを追加 (アイコン、ラベル、重量)
 [*]"item_inventory_box"の背景テクスチャを変更するためのキーフィールドを追加 (#1296)
 [*]ファイルサイズを削減するためにナビゲーションメッシュの圧縮を追加しました。 既存のメッシュは"nav_compress"で再保存できます。 または、スイッチ"-compress"を既存の nav_ コマンドで使用できます (例： "nav_generate -compress")
 [*]"random_spawner"に"OnItemSpawn"出力を追加
 [*]武器の"OnPlayerDrop"出力を追加
-[*]雨, 吹雪, 降雪, 灰を含むパーティクル降水を追加 (Mapbaseから移植)
+[*]雨、吹雪、降雪、灰を含むパーティクル降水を追加 (Mapbaseから移植)
 [*]"item_custom"エンティティによるカスタムインベントリアイテムのサポートを追加 (#1297)
 [*]カスタムサウンドスクリプトの読み込みに対応
 [*]カスタムパーティクルのプリキャッシュのサポートを追加 (#1465)
@@ -87,8 +87,8 @@
 [*]Hammerの"Entity scripts"キーフィールドに"filter_script"が欠けていたのを修正
 [*]"Disable item motion"フラグがチェックされていないボードにモーションがない問題を修正 (#1422)
 [*]"dumpgamestringtable"コマンド使用時のクラッシュを修正
-[*]カスタムグローカラーが武器, ツール, 治療アイテムで機能していなかった問題を修正 (#1457)
-[*]"trigger_keypad", "trigger_progress_use", と "trigger_progress_weapon" のエンティティの出力が、プレイヤーを!activatorとして設定しないよう修正 (#1454)
+[*]カスタムグローカラーが武器、ツール、治療アイテムで機能していなかった問題を修正 (#1457)
+[*]"trigger_keypad" "trigger_progress_use" と "trigger_progress_weapon" のエンティティの出力が、プレイヤーを!activatorとして設定しないよう修正 (#1454)
 [*]コントロール不能な"func_tracktrain"がプレイヤーの使用入力を盗んでいた問題を修正 (#1445)
 [*]アップロード中にマップをダウンロードしようとすると、ワークショップがロックされることがあった問題を修正
 [*]FMOD： 環境音サポートのオーバーホール
@@ -105,21 +105,21 @@
 [*]VScript： CAmbientFMOD バインディングを追加
 [*]VScript： CEnvScreenOverlayMultiplayer バインディングを追加
 [*]VScript： CEnvTimer バインディングを追加
-[*]VScript： CFuncZombieSpawn 関数の GetSpawnMax(), GetSpawnedCount(), GetSpawnedDead(), GetInterimMax(), GetSpawnDensity(), GetRegenTarget(), と GetZombiesNeeded() を追加
+[*]VScript： CFuncZombieSpawn 関数の GetSpawnMax()、GetSpawnedCount()、GetSpawnedDead()、GetInterimMax()、GetSpawnDensity()、GetRegenTarget() と GetZombiesNeeded() を追加
 [*]VScript： CItem_AmmoBox 関数の GetAmmoType() を追加
-[*]VScript： CItem_InventoryBox 関数の IsDroppedByChopper(), IsUncategorized(), と SetBackgroundTexture() を追加
+[*]VScript： CItem_InventoryBox 関数の IsDroppedByChopper()、IsUncategorized() と SetBackgroundTexture() を追加
 [*]VScript： CLogicProgress バインディングの追加
 [*]VScript： CNavMesh 関数の GetAllAreas() と GetNavAreasInRadius() を追加
 [*]VScript： CNMRiH_ItemCustom バインディングの追加
-[*]VScript： CNMRiH_Player 関数の GetCarriedItems(), Get/SetStamina(), Get/SetSpeedModifier(), Get/SetSpeedOverride(), IsDucking(), IsJumping(), と IsSprinting() を追加
-[*]VScript： CNMRiH_WeaponBase 関数の GetWorldModelOverride(), SetWorldModelOverride(), ClearWorldModelOverride(), SetShootSoundOverride(), と ClearShootSoundOverride() を追加
+[*]VScript： CNMRiH_Player 関数の GetCarriedItems()、Get/SetStamina()、Get/SetSpeedModifier()、Get/SetSpeedOverride()、IsDucking()、IsJumping() と IsSprinting() を追加
+[*]VScript： CNMRiH_WeaponBase 関数の GetWorldModelOverride()、SetWorldModelOverride()、ClearWorldModelOverride()、SetShootSoundOverride() と ClearShootSoundOverride() を追加
 [*]VScript： CObjectiveManager 組み合わせて使用する CObjective バインディングを追加
-[*]VScript： CObjectiveManager 関数の GetObjectiveById(), GetObjectiveByName(), GetObjectiveByIndex(), と GetObjectiveChain() を追加
+[*]VScript： CObjectiveManager 関数の GetObjectiveById()、GetObjectiveByName()、GetObjectiveByIndex() と GetObjectiveChain() を追加
 [*]VScript： CPointMessageMultiplayer バインディングを追加
 [*]VScript： CPointViewControlMultiplayer バインディングを追加
 [*]VScript： CRandomSpawnController バインディングを追加
 [*]VScript： CRandom_Spawner バインディングを追加
-[*]VScript： CScriptNavArea 関数の GetHidingSpots(), IsCompletelyVisible(), と IsPotentiallyVisible() を追加
+[*]VScript： CScriptNavArea 関数の GetHidingSpots()、IsCompletelyVisible() と IsPotentiallyVisible() を追加
 [*]VScript： CNETPropManager のデータマップのサポートを追加しました
 [*]VScript： CBaseAnimating に Glowable 関数を追加
 [*]VScript： アンダースコアのないKeyValueメソッドを追加 (例： _KeyValueFromString の代わりに KeyValueFromString を優先する。 互換性は維持されます）

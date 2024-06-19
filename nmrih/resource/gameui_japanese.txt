@@ -69,9 +69,9 @@
 "NMRiH_Advanced_cl_mainmenu_background_0"		"Anniversary (v1.12)"
 "NMRiH_Advanced_cl_mainmenu_background_1"		"Greenlit (v1.07)"
 "NMRiH_Advanced_cl_mainmenu_background_2"		"Rebirth (v1.10)"
-"NMRiH_Advanced_cl_new_impact_effects_cheap"	"インパクトエフェクトの品質"
-"NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高,破片有り"
-"NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低,破片無し"
+"NMRiH_Advanced_cl_new_impact_effects_cheap"	"衝撃エフェクトの品質"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高、破片有り"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低、破片無し"
 
 "NMRiH_Difficulty"	"難易度"
 
@@ -88,13 +88,13 @@
 
 "NMRiH_LAN"				"LANのみ"
 
-"NMRiH_Difficulty_Tooltip"	"難易度を選ぶ\nクラシック： デフォルト設定, リスポン地点有効\nカジュアル： 常にリスポン可, 武器をもってスポーン\nナイトメア： ゾンビの体力、密度、感染確率が増加\n対戦： PvPのスコアリングとデス通知を有効にし、ゾンビと目標を無効にする"
+"NMRiH_Difficulty_Tooltip"	"難易度を選ぶ\nクラシック： デフォルト設定、リスポン地点有効\nカジュアル： 常にリスポン可、武器をもってスポーン\nナイトメア： ゾンビの体力、密度、感染確率が増加\n対戦： PvPのスコアリングとデス通知を有効にし、ゾンビと目標を無効にする"
 "NMRiH_Map_Time_Tooltip"	"マップ変更までの時間"
-"NMRiH_LAN_Tooltip"	"LAN接続を強制, パブリックサーバーには公開されない"
-"NMRiH_FriendlyFire_Tooltip"	"フレンドリーファイア有効, プレイヤーは感染せずとも常にダメージを受ける"
-"NMRiH_RealismMode_Tooltip"	"リアリズムモード, リスポン無効, ゾンビにはヘッドショットのみ有効, 弾薬の種類に関係なく、ヘッドショットはすべて1ヒットキル"
+"NMRiH_LAN_Tooltip"	"LAN接続を強制、パブリックサーバーには公開されない"
+"NMRiH_FriendlyFire_Tooltip"	"フレンドリーファイア有効、プレイヤーは感染せずとも常にダメージを受ける"
+"NMRiH_RealismMode_Tooltip"	"リアリズムモード、リスポン無効、ゾンビにはヘッドショットのみ有効、弾薬の種類に関係なく、ヘッドショットはすべて1ヒットキル"
 "NMRiH_HardcoreSurvival_Tooltip"	"サバイバルモードでHUDを隠す"
-"NMRiH_Max_Players_Tooltip"	"プレイヤー制限, 最小2, 最大8"
+"NMRiH_Max_Players_Tooltip"	"プレイヤー制限、最小2、最大8"
 "NMRiH_AdvOptions"	"追加オプション..."
 "NMRiH_AdvOptions_Tooltip"	"追加のゲームオプションを編集"
 
@@ -342,7 +342,7 @@
 "Workshop_Publisher_AddonForm_ContentPath"			"コンテンツのパス： *"
 "Workshop_Publisher_AddonForm_PreviewImage"			"プレビュー画像： *"
 "Workshop_Publisher_AddonForm_Category"				"カテゴリー："
-"Workshop_Publisher_AddonForm_Tags"					"タグ (カンマ [,] で区切ること)："
+"Workshop_Publisher_AddonForm_Tags"					"タグ (カンマ 「,」 で区切ること)："
 "Workshop_Publisher_AddonForm_ItemVisibility"		"公開設定："
 "Workshop_Publisher_AddonForm_Browse"				"閲覧..."
 "Workshop_Publisher_AddonForm_PackToVPK"			"VPKにパックする"

@@ -22,7 +22,7 @@
 [*]翻訳を更新：
 [list]
 
-[*]コミュニティの翻訳者に感謝を述べます： Blueberryy, Klowby, marcielcps, Plazehorta
+[*]コミュニティの翻訳者に感謝を述べます： Blueberryy、Klowby、marcielcps、Plazehorta
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -48,7 +48,7 @@
 [h2]マップとMOD制作者向けの変更点[/h2]
 [list]
 [*]開発者向けにレベル遷移のベータ版を追加。 デフォルトでは無効になっており、サーバー管理者はcvarの"sv_level_transition"で切り替えることができる (#1278)
-[*]ゲームステート関数に"RespawnDeadPlayers"コマンドを追加 (I/O, コンソール, VScript)
+[*]ゲームステート関数に"RespawnDeadPlayers"コマンドを追加 (I/O、コンソール、VScript)
 [*]キルペナルティのスコアを設定する"sv_killpenalty_score"変数を追加
 [*]cvarの"sv_resetscore"が追加され、ラウンドリスタート時に全プレイヤーのスコアがリセットされるように
 [*]ワークショップパブリッシャーに新しいカテゴリーの"ミューテーター"を追加
