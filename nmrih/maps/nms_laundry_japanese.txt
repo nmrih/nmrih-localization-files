@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nms_laundry_hinta"	"ゾンビに安全地帯を制圧させるな！"
+	"nms_laundry_hintb"	"無線信号が途絶え、物資の補給も無くなってしまった！"
+	"nms_laundry_losea"	"脱出用バンを失った..."
+	"nms_laundry_pushcar"	"車を押せ！"
+	"nms_laundry_cutrope1"	"ロープを切れ！"
+	"nms_laundry_cutrope2"	"ロープを切れ！"
+	"nms_laundry_mine"	"地雷に気をつけろ！"
+	"nms_laundry_et"	"トラップの燃料を探せ！"
+}
+}

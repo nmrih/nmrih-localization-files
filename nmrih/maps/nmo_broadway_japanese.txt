@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_broadway_objA"	"ゲートロックを破壊する"
+	"nmo_broadway_objB1"	"モーテルのドアを破れる、適当な物を探す"
+	"nmo_broadway_objB_1"	"地下への道を探す"
+	"nmo_broadway_objC"	"映画館の裏口の鍵を探す"
+	"nmo_broadway_objD"	"バッテリーを探し、トラックの電源を入れる"
+	"nmo_broadway_objD_1"	"カフェにプロパンを運ぶ"
+	"nmo_broadway_objE"	"バーへ進み、鍵を見つける"
+	"nmo_broadway_objF"	"スプリンクラーをオンにする"
+	"nmo_broadway_objG1"	"倉庫ドアのレバーを探す"
+	"nmo_broadway_objH"	"管理者のオフィスに入り、救出要請をする"
+	"nmo_broadway_objI"	"溶接機でモーテル側の入り口を開ける"
+}
+}

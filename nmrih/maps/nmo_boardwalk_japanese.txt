@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_boardwalk_Objectives_Radio"	"ラジオで救助を要請する"
+	"nmo_boardwalk_Objectives_Door"	"鍵を探してドアを開ける"
+	"nmo_boardwalk_Objectives_Survive"	"生き残れ"
+	"nmo_boardwalk_Objectives_Secure"	"救助が来るまで持ちこたえる"
+	"nmo_boardwalk_Objectives_Propane"	"バリケードを破れ"
+	"nmo_boardwalk_Objectives_Can"	"障害物を焼き払え"
+	"nmo_boardwalk_Objectives_Gauntlet"	"セーフハウスへ向かう"
+	"nmo_boardwalk_Objectives_Signal"	"合図の火を点ける"
+}
+}

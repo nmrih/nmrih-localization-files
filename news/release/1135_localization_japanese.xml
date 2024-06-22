@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell のアップデートがリリースされました。
+アップデートは No More Room in Hell を再起動すると自動的に適用されます。
+主な変更点は以下の通りです：
+
+[h2]追加[/h2]
+[list]
+[*]ミューテーターの設定が追加され、ユーザーが選択したものを保存/ロードできるようになりました (#1459)
+[*]新しいゲームタイプ"ミニゲーム"を追加。 マップの接頭辞 mg_ でサポート
+[*]スコアボードに現在のマップ名とゲームタイプが表示されるようになりました
+[*]実験的機能： アイテムのピックアップ予測を追加。 cvarの"cl_predictpickup"で切り替え可能 (有効にすると、ピックアップされたアイテムはラグなくスムーズに移動する)
+[/list]
+[h2]変更[/h2]
+[list]
+[*]バヨネットがキャラクターの実体に当たるようになり、より正確な押しのけの検出が可能になった
+[*]SSAOと被写界深度エフェクトは不安定なため非推奨となり、これらの設定はオプションに保存/表示されなくなりましたが、cvarの"nmrih_ssao"と"nmrih_dof"は引き続き使用できます
+[*]発射され落下した矢が、時間経過とともに無効になるようになった
+[*]レベル遷移を利用するマップにおいて、ラウンド再開時にプレイヤーのインベントリとステータス効果がデフォルトで復元されなくなった
+[*]ナビゲーションメッシュ、ストリームオーディオ、音声ラインを圧縮することにより、インストールサイズを削減 (~685mb)
+[*]音による弾薬チェックがない武器は、常にHUDに情報が表示されるようになった (金づち、弓、チェーンソー)
+
+[*]翻訳を更新：
+[list]
+
+[*]コミュニティの翻訳者に感謝を述べます： [b]Blueberryy、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta[/b]
+[*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[list]
+[*]付属の矢が"物理的騒乱"を引き起こすバグを修正 (#1455)
+[*]リアリズムモードで弾丸の貫通が正しく動作しなかった問題を修正 (#1439)
+[*]解像度変更後のコンパスの視覚的なバグを修正 (#1396)
+[*]懐中電灯をホルスターに入れた後、アイアンサイトモードで操作がロックされる不具合を修正 (#684)
+[*]cvarの"sv_allow_custom_balance"が1に設定されたサーバーに参加するとクラッシュする問題を修正
+[*]解像度変更後に現在の目標が表示されない問題を修正 (#1396)
+[*]レベル移行後に死んだプレイヤーがHP1でリスポーンするのを修正
+[*]現在装備しているアイテムをドロップすると、保持している物理プロップもドロップするように修正 (#1433)
+[*]使用キーを押し続けると、消耗した補給袋ステーションのプロップがフェードイン/フェードアウトし続けるのを修正 (#1423)
+[*]プレイヤーが近づいてから離れると、アイテムの輝きが消えていた問題を修正 (#1456)
+[*]プレイヤーのインベントリに存在しない場合でも、懐中電灯が目に見えて装備されたままになる問題を修正 (#1424)
+[*]他のプレイヤーが視界から消えると時折現れるゴースト懐中電灯を修正
+[*]残弾チェック中に手榴弾が誤って表示される不具合を修正 (#1460)
+[*]チェーンソーの音が不正確だったのを修正 (#1231)
+[*]拳で攻撃する際の誤ったクローズドキャプションを修正 (#938)
+[*]以前のゾーンで、即座にスポーンされたゾンビの有効期限が切れず、オーバーロードによりゾンビの限界に達し、それ以上スポーンできなくなることがあったのを修正
+[*]インストラクターのヒントが、アクティベーター以外のプレイヤーに対して"No Caption Specified"と表示されていた問題を修正 (#1410)
+[*]高密度ゾーンでオーバーロードにより、スポーンするゾンビの量が不足していたのを修正 (例： Boardwalk の耐久セクション)
+[*]クローズドキャプションのフェードアウト順序に関する問題を修正
+[*]レベル遷移を扱うサーバープラグインでレベル遷移が機能しなかった問題を修正
+[*]銃が空の状態で射撃ボタンを押し続けると、スプリントのアニメーションが欠けていたのを修正 (#59)
+[*]視界から外れているときに、プレーヤーとその武器が理由なくネットワークに接続されていた問題を修正
+[*]プログレストリガーを使用している際の発射予測エラーを修正
+[*]Steamが利用できない場合にリッチプレゼンスがクラッシュする問題を修正
+[*]検索パスのオーバーフローにより、キャプションファイルが読み込めなかった問題を修正 (ワークショップアドオンを大量に使用した場合にキャプションが消えてしまう問題を修正)
+[*]解像度変更後にスコアボードのサーバー名欄が空白になっていた問題を修正 (#1396)
+[*]他のプレーヤーのフラッシュライトの深度テクスチャをレンダリングする際のシャドウバッファのオーバーフローを修正 (#1336)
+[*]チェーンソーで押しのけると、アイドリング音がキャンセルされる不具合を修正 (#1252)
+[/list]
+[h2]マップとMOD制作者向けの変更点[/h2]
+[list]
+[*]弾薬の種類ごとに ammobox_ エンティティを追加
+[*]!activatorが!selfの代わりに殺されるバグがあるマップの互換性レイヤーを追加 ("trigger_progress_use" "trigger_progress_weapon" と "trigger_keypad" に適応)
+[*]遠くのゾンビの大群のモデルを追加
+[*]エンティティの"env_screenoverlay_multiplayer"を追加
+[*]エンティティの"point_viewcontrol_multiplayer"を追加
+[*]エンティティの"trigger_speed"を追加。 トリガーに入ったプレイヤーに全体的なスピード補正を適用する
+[*]ゾンビに"BecomeShambler"入力を追加
+[*]"ambient_fmod"に"SetSound"入力を追加
+[*]武器のインベントリプロパティのオーバーライドを追加 (アイコン、ラベル、重量)
+[*]"item_inventory_box"の背景テクスチャを変更するためのキーフィールドを追加 (#1296)
+[*]ファイルサイズを削減するためにナビゲーションメッシュの圧縮を追加しました。 既存のメッシュは"nav_compress"で再保存できます。 または、スイッチ"-compress"を既存の nav_ コマンドで使用できます (例： "nav_generate -compress")
+[*]"random_spawner"に"OnItemSpawn"出力を追加
+[*]武器の"OnPlayerDrop"出力を追加
+[*]雨、吹雪、降雪、灰を含むパーティクル降水を追加 (Mapbaseから移植)
+[*]"item_custom"エンティティによるカスタムインベントリアイテムのサポートを追加 (#1297)
+[*]カスタムサウンドスクリプトの読み込みに対応
+[*]カスタムパーティクルのプリキャッシュのサポートを追加 (#1465)
+[*]サバイバルモード以外でのセーフゾーンのサポートを追加
+[*]未分類の"item_inventory_box"のサポートを追加 (#1296)
+[*]"ambient_generic" (ループをサポート) およびサウンドスケープにWAV -&gt; MP3フォールバックの互換性を追加
+[*]ゾンビサウンドのオーバーライドを追加
+[*]"report_entities"コマンドがサーバーのみのエンティティにタグを付けるようになりました
+[*]"Kill"入力によるプレイヤーとワールドの削除を禁止
+[*]ゾンビのギャグフラグを消去しないでください (#1437)
+[*]エンティティの"ambient_generic"が複数のサウンドシステムをサポートするようになりました
+[*]Hammerの"Entity scripts"キーフィールドに"filter_script"が欠けていたのを修正
+[*]"Disable item motion"フラグがチェックされていないボードにモーションがない問題を修正 (#1422)
+[*]"dumpgamestringtable"コマンド使用時のクラッシュを修正
+[*]カスタムグローカラーが武器、ツール、治療アイテムで機能していなかった問題を修正 (#1457)
+[*]"trigger_keypad" "trigger_progress_use" と "trigger_progress_weapon" のエンティティの出力が、プレイヤーを!activatorとして設定しないよう修正 (#1454)
+[*]コントロール不能な"func_tracktrain"がプレイヤーの使用入力を盗んでいた問題を修正 (#1445)
+[*]アップロード中にマップをダウンロードしようとすると、ワークショップがロックされることがあった問題を修正
+[*]FMOD： 環境音サポートのオーバーホール
+[*]効率的なスポットライトの"spotlight_end"エンティティの無料化
+[*]Hammerのゲーム設定にエンティティ"npc_maker"を追加
+[*]"SetCauser"入力がすべてのエンティティを受け付けるようになり、プレイヤーである必要はなくなりました
+[*]NMRObjective： 境界線がvisgroupのメンバーでない場合、または境界線が存在しない場合に警告を表示する (#1302)
+[*]NMRObjective： ラインのドラッグ時のメモリリークを修正
+[*]NMRObjective： "Objectives"と"anti"のvisgroup名の大文字と小文字を区別しないようになりました
+[*]NMRObjective： Wikiのリンクの代わりにローカルヘルプドキュメントを使用するようになりました
+[*]NMRObjective： 最新のフォルダセレクターを使用
+[*]"logic_script_proxy"エンティティのオーバーホール
+[*]VScript： CAI_BaseNPC 関数の Freeze() と Unfreeze() を追加
+[*]VScript： CAmbientFMOD バインディングを追加
+[*]VScript： CEnvScreenOverlayMultiplayer バインディングを追加
+[*]VScript： CEnvTimer バインディングを追加
+[*]VScript： CFuncZombieSpawn 関数の GetSpawnMax()、GetSpawnedCount()、GetSpawnedDead()、GetInterimMax()、GetSpawnDensity()、GetRegenTarget() と GetZombiesNeeded() を追加
+[*]VScript： CItem_AmmoBox 関数の GetAmmoType() を追加
+[*]VScript： CItem_InventoryBox 関数の IsDroppedByChopper()、IsUncategorized() と SetBackgroundTexture() を追加
+[*]VScript： CLogicProgress バインディングの追加
+[*]VScript： CNavMesh 関数の GetAllAreas() と GetNavAreasInRadius() を追加
+[*]VScript： CNMRiH_ItemCustom バインディングの追加
+[*]VScript： CNMRiH_Player 関数の GetCarriedItems()、Get/SetStamina()、Get/SetSpeedModifier()、Get/SetSpeedOverride()、IsDucking()、IsJumping() と IsSprinting() を追加
+[*]VScript： CNMRiH_WeaponBase 関数の GetWorldModelOverride()、SetWorldModelOverride()、ClearWorldModelOverride()、SetShootSoundOverride() と ClearShootSoundOverride() を追加
+[*]VScript： CObjectiveManager 組み合わせて使用する CObjective バインディングを追加
+[*]VScript： CObjectiveManager 関数の GetObjectiveById()、GetObjectiveByName()、GetObjectiveByIndex() と GetObjectiveChain() を追加
+[*]VScript： CPointMessageMultiplayer バインディングを追加
+[*]VScript： CPointViewControlMultiplayer バインディングを追加
+[*]VScript： CRandomSpawnController バインディングを追加
+[*]VScript： CRandom_Spawner バインディングを追加
+[*]VScript： CScriptNavArea 関数の GetHidingSpots()、IsCompletelyVisible() と IsPotentiallyVisible() を追加
+[*]VScript： CNETPropManager のデータマップのサポートを追加しました
+[*]VScript： CBaseAnimating に Glowable 関数を追加
+[*]VScript： アンダースコアのないKeyValueメソッドを追加 (例： _KeyValueFromString の代わりに KeyValueFromString を優先する。 互換性は維持されます）
+[*]VScript： CNETPropManager が機能していなかったのを修正しました (#1427)
+[*]VScript： CScriptNavArea メソッドの IsCompletelyVisibleToTeam() および IsPotentiallyVisibleToTeam() でクラッシュする問題を修正しました
+[*]VScript： Linuxでエンティティのフックが呼び出されない問題を修正 (#1428)
+[*]VScript： CNMRiH_Player 関数の ThrowAllAmmo() の無限ループを修正
+[*]VScript： 関数呼び出し時のメモリリークを修正
+[*]VScript： OnDeath() NPCフックでエラーが発生する問題を修正 (#1313)
+[*]VScript： Mapbaseから様々な機能拡張を移植
+[*]VScript： 専用サーバーでは動作しないため、CLocalizeインスタンスを削除
+[*]VScript： "mapspawn_&lt;mapname&gt;.nut"という名前のスクリプトが、マップのinit時に実行されるようになりました
+[*]VScript： VMスタックの不整合が原因でサーバーがクラッシュした場合、エラーメッセージにコールスタックが表示されるようになりました
+[/list]
+[h2]サーバー管理者向けの変更[/h2]
+[list]
+[*]cvarの"hide_server"を追加。 Steamにアナウンスしない、つまりサーバーリストから非表示にする
+[*]cvarの"sv_bullet_bypass_player"を追加。 弾丸がプレイヤーを通過するようにした (フレンドリーファイアがオンになっている場合、またはターゲットが感染している場合は効果がありません) (#1466)
+[*]cvarの"sv_remove_unreasonable_physics"を追加。 物理挙動で世界から落ちたエンティティを削除します
+[*]ルールセットのロード順序が変更され、ミューテーターがサーバー設定の前にロードされるようになりました
+[*]レベル遷移のサポートがデフォルトで有効になり、管理者が手動で切り替える必要がなくなりました
+[*]ワークショップ： ファイルシステムの呼び出しを削減することで更新を最適化
+[*]ワークショップ： 更新中に名前が変更された場合、以前のマップエントリーがリストから削除されるようになりました
+[/list]
+[h1]マップ[/h1]
+
+[h3]すべてのマップ[/h3]
+[list]
+[*]音楽リストに未使用のトラックを数曲追加 (また、トラック"Sorrow"には2つの異なるパートがあるため、分割してアンビエントとテンションのセクションに追加)
+[*]泥のテクスチャに変な反射があったのを修正
+[/list]
+[h3]nmo_anxiety[/h3]
+[list]
+[*]階段にクリップを追加
+[*]不足していたオーバーレイを追加
+[*]脱出用バンが左折する際、プレーヤーが立ち往生して曲がれなくなる問題を修正
+[*]プレイ不可能なエリアのナビメッシュをクリーンアップ
+[*]トンネル内のプレイヤースポーンが機能していなかったのを修正
+[/list]
+[h3]nmo_asylum[/h3]
+[list]
+[*]ロード画面の追加 (#1429)
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]避難用ラップトップのダイアログでクローズドキャプションが欠落していたのを修正
+[*]その他の微調整
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]特定の目標チェーンにおいて、スイカを脱出ポイントまで運ぶことがほとんど不可能であったバグを修正
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]ラジオでの雑談中のクローズドキャプションが欠落していたのを修正
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]VPhysicsのクリップにフィルターを追加 (アリーナでの爆発物の跳ね返りをなくす)
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]VPhysicsのクリップをいくつか追加
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]教会付近の壊れやすいレンガの壁のnodrawテクスチャを削除
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]目標によるソフトロックを修正 (#1452)
+[*]クリップを微調整
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]弾薬/武器が原因で列車がランダムに立ち往生する問題を修正
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]いくつかのディティールを追加
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]マップの最後にゾンビを追加
+[*]マップスポーンに未使用の音楽トラックを追加
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">1.13.5 アップデートをリリース</string></content>
