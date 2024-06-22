@@ -695,11 +695,11 @@
 		// Dialogue
 	
 		// Generic
-		"Heli.Approach_Alert_NoAccent"	"<len:1.7>Qui è la Guardia Nazionale, <delay:1.9><len:4>se ci sono dei sopravvissuti, arriveremo fra 30 secondi!"
-		"Heli.Approach_Alert_US"	"<len:1.5>Qui è la Guardia Nazionale, <delay:1.6><len:3.6>se ci sono dei sopravvissuti, arriveremo fra 30 secondi!"
+		"Heli.Approach_Alert_NoAccent"	"<len:1.7>Qui è la Guardia Nazionale. <delay:1.9><len:4>Se ci sono dei sopravvissuti, arriveremo fra 30 secondi!"
+		"Heli.Approach_Alert_US"	"<len:1.5>Qui è la Guardia Nazionale. <delay:1.6><len:3.6>Se ci sono dei sopravvissuti, arriveremo fra 30 secondi!"
 		"Heli.Arrival1min_NoAccent"	"<len:3.3>Qui è la Guardia Nazionale, siamo qui ma non potremo restare a lungo. <delay:3.5><len:1.3>Avete un minuto."
 		"Heli.Arrival1min_US"	"<len:3.7>Qui è la Guardia Nazionale, siamo atterrati ma non rimarremo a lungo. <delay:3.8><len:1.5>Avete un minuto."
-		"Heli.Departure_NoAccent"	"<len:2.5>D'accordo, dobbiamo andare, abbiamo quasi finito il carburante. <delay:3.1><len:1.9>Se è rimasto qualcuno in vita, <delay:5.2><len:1.1>buona fortuna."
+		"Heli.Departure_NoAccent"	"<len:2.5>D'accordo, dobbiamo andare, abbiamo quasi finito il carburante. <delay:3.1><len:1.9>Se è rimasto qualcuno in vita... <delay:5.2><len:1.1>Buona fortuna."
 		"Heli.Departure_US"	"<len:2.2>Noi dobbiamo andare, siete da soli! <delay:2.6><len:1.4>Mi dispiace!"
 		"GenericVoice.YouFoundIt"	"<len:2.6>Beh, caspita! Sembra che lo abbiate trovato!"
 		"GenericVoice.AnybodyOutThere"	"<len:2.5>Ehi, c'è qualcuno là fuori?"
@@ -781,7 +781,10 @@
 		"QuarantineVoice.RadioTalk"	"<len:4.3>Una volta chiuso il cancello d'ingresso, apriremo il cancello di quarantena interno. <delay:4.7><len:6.7>Ma c'è un failsafe nel sistema automatico, il cancello interno si chiuderà tra circa un minuto e... <delay:11.8><len:5.6>Beh... visto che il cancello d'ingresso è rimasto aperto a lungo, si attiverà il failsafe secondario, diciamo così... <delay:17.5><len:7.1>Se non sarete all'interno della zona di quarantena quando il cancello si chiude, morirete!"
 		"QuarantineVoice.RadioTalk2"	"<len:6.3>Ecco cosa dobbiamo fare, c'è una sirena, <I>c'è una sirena<I>, nella zona in cui vi trovate. <delay:6.5><len:5>Dovete attivare la sirena, che servirà a far allontanare gli zombi da noi. <delay:11.5><len:3.1>Quando potremo, andremo a prendere l'elicottero. <delay:14.62><len:3.8>Poi torneremo, verremo a prendervi e ce ne andremo tutti fuori dalle palle. <delay:18.6><len:4.88>Quindi vi suggerisco di prendere tutto quello che potete e... di prepararvi. <delay:23.5><len:3.8>Quando siete pronti, attivate la sirena, va bene?"
 		"QuarantineVoice.RadioTalk3"	"<len:5.4>Prima di tutto, dovrebbe esserci un walkie talkie da qualche parte in quella stanza, prendetelo."
-		
+
+		// Suzhou
+		"SuzhouVoice.BoatMan"	"<len:6.6><I>Ehilà? Pronto? Sono su una barca, se potete dirmi dove vi trovate, verrò a prendervi il prima possibile!<I>"
+
 		// Toxteth
 		"ToxtethVoice.PilotRadio"	"<len:3.5>Sì, vi sentiamo. Stiamo sorvolando l'area locale. <delay:4.2><len:4.4>Ascoltate, andate a Hartington Road, saremo lì tra cinque minuti a prendervi, <delay:9><len:2.3>non possiamo trattenerci troppo a lungo, quindi siate veloci!"
 		"ToxtethVoice.PilotRadio2"	"<len:2.9>Sì, vi sentiamo. Stiamo sorvolando l'area locale. <delay:3.2><len:3.6>Andate a Hartington Road, saremo lì tra cinque minuti a prendervi, <delay:7.3><len:2.1>non possiamo trattenerci troppo a lungo, quindi siate veloci!"
