@@ -702,6 +702,8 @@
 		"Heli.Departure_NoAccent"	"<len:2.5>Tudo bem, temos que ir, estamos quase sem combustível. <delay:3.1><len:1.9>Se alguém ainda está vivo lá fora, <delay:5.2><len:1.1>boa sorte."
 		"Heli.Departure_US"	"<len:2.2>Estamos saindo daqui, você está sozinho! <delay:2.6><len:1.4>Eu sinto Muito!"
 		"GenericVoice.YouFoundIt"	"<len:2.6>Porra, parece que você encontrou!"
+		"GenericVoice.AnybodyOutThere"	"<len:2.5>Ei, tem alguém aí?"
+		"GenericVoice.ExitByBoat"	"<len:4.4>Ei, Você quer dar o fora daqui? Haverá um barco próximo a balsa na linha d'água."
 		
 		// Asylum
 		"AsylumVoice.Intro"	"<len:5.3>Então, é assim que você esperava que as coisas fossem? Morrer de fome em uma cela de isolamento? <delay:5.5><len:4.7>Decisão realmente inteligente, posso dizer. Mas eu posso te dar uma nova escolha. <delay:10.3><len:5.6>Você pode ficar aqui e morrer, ou você pode me ajudar, e eu posso te dar uma saída em troca. <delay:16.2><len:1>Prometo."
@@ -780,6 +782,9 @@
 		"QuarantineVoice.RadioTalk2"	"<len:6.3>Aqui está o que temos que fazer, há uma sirene, <I>Tem uma sirene<I>, naquela área em que você está. <delay:6.5><len:5>Você precisa ativar a sirene, o que isso vai fazer, isso vai distrair os zumbis para longe de nós. <delay:11.5><len:6.8>Quando pudermos, vamos pegar o helicóptero e depois vamos voltar, vamos buscá-lo e todos vamos dar o fora daqui. <delay:18.6><len:8.5>Então, sugiro embarcar assim que puder, apenas... prepare-se. Quando estiver pronto, acione a sirene, certo?"
 		"QuarantineVoice.RadioTalk3"	"<len:5.4>Em primeiro lugar, deve haver um walkie-talkie em algum lugar naquela sala, basta pegá-lo."
 		
+		// Suzhou
+		"SuzhouVoice.BoatMan"	"<len:6.6><I>Oi? Olá? Estou no barco, se me contar a sua localização, Irei buscá-lo o mais rápido possível!<I>"
+				
 		// Toxteth
 		"ToxtethVoice.PilotRadio"	"<len:3.5>Sim, podemos ouvir você. Estamos pairando sobre a área local agora. <delay:4.2><len:4.4>Ouça, vá para a estrada Hartington, estaremos aí em cinco minutos para buscá-lo, <delay:9><len:2.3>não podemos ter muito tempo, então seja rápido!"
 		"ToxtethVoice.PilotRadio2"	"<len:2.9>Sim, podemos ouvir você. Estamos pairando sobre a área local. <delay:3.2><len:3.6>Vá para a estrada Hartington, estaremos lá em cinco minutos para buscá-lo, <delay:7.3><len:2.1>não podemos perder muito tempo, então seja rápido!"
