@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[h2]Additions[/h2]
+[list]
+[*]The game now includes a full sound cache, this resolves noticeable framerate hitches when playing sounds for the first time, especially for users with slower disk drives
+[/list]
+[h2]Changes[/h2]
+[list]
+[*]Improved tension calculation in the dynamic music system (#1482)
+[*]Tweaked runner pursuit dynamic music playlist, songs with lengthy intros have been cut
+
+[*]Updated the localization files:
+[list]
+
+[*]With thanks to community translators: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, Uncut[/b]
+[*]Want to localize NMRiH to your own language? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed bow arrows disappearing when fired at a certain distance (#1479)
+[*]Fixed certain ambient sounds such as room tones cutting short (#1482)
+[*]Fixed command "snd_restart" not restarting all ambient sounds in-game
+[*]Fixed converted ambient sounds having incorrect audible distance or looping forever
+[*]Fixed occasional crash when selecting an item from a supply crate
+[*]Fixed score rolling over with 2048 or more kills
+[*]Fixed speaker options crashing on the main menu
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added "Ammo Fill Min/Max" keyfields to ammobox entities
+[*]Added opt-in keyfield to support MP3 looping, fixes an issue on existing maps where one-shot MP3 sounds loop forever due to incorrect spawnflags
+[*]Added weapon progress trigger support for "item_zippo"
+[*]Entity "point_viewcontrol_multiplayer" now turns on the camera when input "AddPlayer" is fired
+[*]Fixed !activator not working for "OnEndUse" on "trigger_progress_use" and "trigger_progress_weapon" (#1473)
+[*]Fixed hold time for "point_viewcontrol_multiplayer" not working when following a target
+[*]Fixed "point_viewcontrol_multiplayer" not turning on the camera for chosen players when input "Enable" is fired for the first time
+[*]Fixed movement speed modifiers not resetting the absolute max speed
+[*]Fixed zombie input "BecomeShambler" not working properly
+[*]FMOD: Improved ambient sound audible distance, now more closely matches "ambient_generic"
+[*]MapHack: Added function "$filter", removes entities by matching keyvalues
+[*]MapHack: Fixed "$modify" ignoring multiple keyvalue filters (#1474)
+[*]VScript: Added CConvars function RegisterAdminCommand(), creates a console command that can be only executed by server admins, otherwise it's identical to RegisterCommand()
+[*]VScript: Fixed CItem_InventoryBox function AllowEmpty() not working properly
+[/list]
+[h2]Changes for server admins[/h2]
+[list]
+[*]Added cvar "sv_infection_bypass", ported from Ryan's QoL plugin
+[*]Added cvar "sv_barricade_show_damage", ported from Ryan's QoL plugin
+[*]Cvar "sv_bullet_bypass_player" no longer has a cheat flag
+[/list]
+[h1]Maps[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Fixed incorrect dynamic music playlist
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]Added dialogue captions
+[*]Fixed radio dialogue looping forever
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Fixed outdoor shadows and incorrectly lit props
+[*]Removed a single fence in front of the entrance to the control room
+[*]Removed clips from the staircase leading to the upper floor of the control room
+[*]Small adjustments to some item pools to reduce RNG
+[*]Zombies will now be pushed away from the spawn fence gate when it's being opened
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Added dialogue captions
+[*]Fixed finale radio dialogue playing for too long
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]Added dialogue captions
+[*]Fixed extraction helicopter dialogue looping forever
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]Fixed weird reflection on mud texture
+[*]Tank now properly goes backwards when all players are extracted or when extraction expires
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.6 Released</string></content>
