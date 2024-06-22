@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell のアップデートがリリースされました。
+アップデートは No More Room in Hell を再起動すると自動的に適用されます。
+主な変更点は以下の通りです：
+
+[h2]追加[/h2]
+[list]
+[*]ゲームに完全なサウンドキャッシュが追加され、特に低速のディスクドライブを使用しているユーザーにとって、初めてサウンドを再生する際のフレームレートの不具合が解消されました
+[/list]
+[h2]変更[/h2]
+[list]
+[*]ダイナミックミュージックシステムにおける張力計算の改善 (#1482)
+[*]ランナー追跡時のダイナミックな音楽のプレイリストを調整し、イントロの長い曲をカット
+
+[*]翻訳を更新：
+[list]
+
+[*]コミュニティの翻訳者に感謝を述べます： [b]Blueberryy、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta、RicecakeHuman、Uncut[/b]
+[*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[list]
+[*]一定の距離で発射すると弓の矢が消える問題を修正 (#1479)
+[*]ルームトーンなどの環境音が短くなることがあった問題を修正 (#1482)
+[*]コマンドの"snd_restart"がゲーム内のすべてのアンビエントサウンドを再起動しない問題を修正
+[*]変換されたアンビエントサウンドの可聴距離が正しくなかったり、永遠にループしたりすることがあった問題を修正
+[*]補給物資からアイテムを選択する際にクラッシュすることがあった問題を修正
+[*]2048キル以上でスコアがロールオーバーする問題を修正
+[*]メインメニューでスピーカー設定を変更すると、クラッシュすることがあった問題を修正
+[/list]
+[h2]マップとMOD制作者向けの変更[/h2]
+[list]
+[*]弾薬箱のエンティティに"弾薬充填量 最小/最大"のキーフィールドを追加
+[*]MP3ループをサポートするオプトインキーフィールドを追加。 既存のマップにおいて、誤ったスポーンフラグのために一度限りのMP3サウンドが永遠にループする問題を修正
+[*]武器進行トリガーの"item_zippo"への対応を追加
+[*]エンティティの"point_viewcontrol_multiplayer"が、入力の"AddPlayer"が発生したときにカメラをオンにするようになりました
+[*]"trigger_progress_use"および"trigger_progress_weapon"の"OnEndUse"において、!activatorが機能していなかったのを修正 (#1473)
+[*]"point_viewcontrol_multiplayer"の待機時間がターゲットのフォロー時に機能していなかった問題を修正
+[*]"point_viewcontrol_multiplayer"で"Enable"入力が初めて実行されたとき、選択されたプレイヤーのカメラがオンにならなかったのを修正
+[*]移動速度補正が絶対的な最大速度をリセットしない問題を修正
+[*]ゾンビ入力の"BecomeShambler"が正しく動作しない問題を修正
+[*]FMOD： 環境音の可聴距離が改善され、"ambient_generic"により近くなりました
+[*]MapHack： キー値にマッチするエンティティを削除する関数の"$filter"を追加
+[*]MapHack： "$modify"が複数のキー値フィルタを無視する問題を修正 (#1474)
+[*]VScript： CConvars 関数の RegisterAdminCommand() を追加。 サーバー管理者のみが実行できるコンソールコマンドを作成できます
+[*]VScript： CItem_InventoryBox 関数の AllowEmpty() が正しく動作していなかった問題を修正
+[/list]
+[h2]サーバー管理者向けの変更[/h2]
+[list]
+[*]cvarの"sv_infection_bypass"をRyanのQoLプラグインから移植
+[*]cvarの"sv_barricade_show_damage"をRyanのQoLプラグインから移植
+[*]cvarの"sv_bullet_bypass_player"がチートフラグを持たなくなった
+[/list]
+[h1]マップ[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]誤ったダイナミックミュージックのプレイリストを修正
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]ダイアログキャプションを追加
+[*]ラジオのダイアログが永遠にループするのを修正
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]屋外の影とプロップの照明の不具合を修正
+[*]コントロールルーム入口前のフェンス1枚を撤去
+[*]コントロールルームの上階に通じる階段のクリップを取り外した
+[*]運要素を減らすため、いくつかのアイテムプールを微調整
+[*]ゾンビがスポーン地点のフェンスのゲートを開けたときに、そこから押し出されるようになりました
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]ダイアログキャプションを追加
+[*]フィナーレラジオのダイアログが長すぎるのを修正
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]ダイアログキャプションを追加
+[*]脱出用ヘリコプターのダイアログが永遠にループする問題を修正
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]泥のテクスチャに変な反射があったのを修正
+[*]プレイヤーが全員救出、または救出が終了した場合、戦車が適切に後退するようになりました
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.6 Released</string></content>
