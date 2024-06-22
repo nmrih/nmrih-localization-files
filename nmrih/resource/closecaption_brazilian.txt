@@ -702,7 +702,7 @@
 		"Heli.Departure_NoAccent"	"<len:2.5>Tudo bem, temos que ir, estamos quase sem combustível. <delay:3.1><len:1.9>Se alguém ainda está vivo lá fora, <delay:5.2><len:1.1>boa sorte."
 		"Heli.Departure_US"	"<len:2.2>Estamos saindo daqui, você está sozinho! <delay:2.6><len:1.4>Eu sinto Muito!"
 		"GenericVoice.YouFoundIt"	"<len:2.6>Porra, parece que você encontrou!"
-"GenericVoice.AnybodyOutThere"	"<len:2.5>Ei, tem alguém aí?"
+		"GenericVoice.AnybodyOutThere"	"<len:2.5>Ei, tem alguém aí?"
 		"GenericVoice.ExitByBoat"	"<len:4.4>Ei, Você quer dar o fora daqui? Haverá um barco próximo a balsa na linha d'água."
 		
 		// Asylum
