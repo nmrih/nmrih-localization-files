@@ -1,0 +1,8 @@
+[b]最低:[/b]
+[list][*][b]OS:[/b] Ubuntu 14.04LTS 以上 (非LTSの最新版を強く推奨) 
+    [*][b]プロセッサー:[/b] Dual core 2.8 GHz processor 以上
+    [*][b]メモリー:[/b] 2 GB RAM 
+    [*][b]グラフィック:[/b] Radeon HD 5000 Series または nVidia GeForce 200 series 以上
+    [*][b]ストレージ:[/b] 10 GB の空き容量
+    [*][b]追記事項:[/b] マウス、キーボード、上り/下り で少なくとも 5Mbps を出せるブロードバンドインターネット接続
+[/list]

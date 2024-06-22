@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nms_silence_truck"	"トラックが来る！ 準備しろ！"
+}
+}

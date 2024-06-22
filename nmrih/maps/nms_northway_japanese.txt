@@ -1,0 +1,13 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nms_northway_work"	"ドアシステムが作動している！ この建物への6つの出入り口をすべて閉めろ！"
+	"nms_northway_5"	"残り5ドア！"
+	"nms_northway_4"	"残り4ドア！"
+	"nms_northway_3"	"残り3ドア！"
+	"nms_northway_2"	"残り2ドア！"
+	"nms_northway_1"	"残り1ドア！"
+}
+}

@@ -697,40 +697,42 @@
 		// Generic
 		"Heli.Approach_Alert_NoAccent"	"<len:1.7>Qui è la Guardia Nazionale, <delay:1.9><len:4>se ci sono dei sopravvissuti, arriveremo fra 30 secondi!"
 		"Heli.Approach_Alert_US"	"<len:1.5>Qui è la Guardia Nazionale, <delay:1.6><len:3.6>se ci sono dei sopravvissuti, arriveremo fra 30 secondi!"
-		"Heli.Arrival1min_NoAccent"	"<len:3.3>Qui è la Guardia Nazionale, siamo qui ma non potremo stare a lungo. <delay:3.5><len:1.3>Avete un minuto."
+		"Heli.Arrival1min_NoAccent"	"<len:3.3>Qui è la Guardia Nazionale, siamo qui ma non potremo restare a lungo. <delay:3.5><len:1.3>Avete un minuto."
 		"Heli.Arrival1min_US"	"<len:3.7>Qui è la Guardia Nazionale, siamo atterrati ma non rimarremo a lungo. <delay:3.8><len:1.5>Avete un minuto."
 		"Heli.Departure_NoAccent"	"<len:2.5>D'accordo, dobbiamo andare, abbiamo quasi finito il carburante. <delay:3.1><len:1.9>Se è rimasto qualcuno in vita, <delay:5.2><len:1.1>buona fortuna."
-		"Heli.Departure_US"	"<len:2.2>Noi dobbiamo andare, sei da solo! <delay:2.6><len:1.4>Mi dispiace!"
-		"GenericVoice.YouFoundIt"	"<len:2.6>Che io sia maledetto, sembra che tu lo abbia trovato!"
+		"Heli.Departure_US"	"<len:2.2>Noi dobbiamo andare, siete da soli! <delay:2.6><len:1.4>Mi dispiace!"
+		"GenericVoice.YouFoundIt"	"<len:2.6>Beh, caspita! Sembra che lo abbiate trovato!"
+		"GenericVoice.AnybodyOutThere"	"<len:2.5>Ehi, c'è qualcuno là fuori?"
+		"GenericVoice.ExitByBoat"	"<len:4.4>Ehi, vuoi andartene da qui? Ci sarà una barca vicino al traghetto dalla battigia."
 	
 		// Asylum
-		"AsylumVoice.Intro"	"<len:5.3>Allora, è così che ti aspettavi che andassero le cose? Morire di fame in una cella di isolamento? <delay:5.5><len:4.7>Una decisione davvero intelligente, direi. Ma posso darvi una nuova scelta. <delay:10.3><len:5.6>Potete restare qui e morire, oppure potete aiutarmi e io in cambio vi darò una via d'uscita. <delay:16.2><len:1>Promesso."
-		"AsylumVoice.Intro2"	"<len:4.6>Pronto, pronto!? Questa cosa è accesa? <delay:4.9><len:1.5>Puoi, puoi sentirmi? <delay:6.7><len:2.6>Ti vedo, fai qualcosa se mi senti... <delay:9.8><len:2.2>Lo prendo come un sì. <delay:12.5><len:5.1>Non intendevo rovinare il fantastico "piano" che avevi per intrappolarti nel reparto di isolamento, <delay:17.7><len:2.5>ma nessuno verrà a salvarti. <delay:20.3><len:5.6>Il manicomio è invaso, la radio tace, i militari sono morti o scomparsi. <delay:26.6><len:2.3>Ora siamo solo io e te, <delay:28.7><len:3.7>quindi aiutami a finire il lavoro della mia vita e ti farò uscire di qui."
-		"AsylumVoice.Intro3"	"<len:3.4>Come dimostrazione di buona fede, ti ho lasciato un regalo, <delay:3.5><len:1.2>è all'esterno. <delay:4.8><len:2.3>Lascia che ti apra quelle fastidiose porte."
-		"AsylumVoice.Intro4"	"<len:3.8>Ti ho anche portato qualcosa che potrebbe aiutarti. L'ho lasciata fuori dalla tua cella. <delay:3.9><len:2.7>Non è molto, ma spero che sia d'aiuto. <delay:6.7><len:1.8>Lasciami aprire quelle porte."
+		"AsylumVoice.Intro"	"<len:5.3>Allora, è così che vi aspettavate andassero le cose? Morti di fame in una cella d'isolamento? <delay:5.5><len:4.7>Una decisione davvero intelligente, direi. Ma posso darvi una nuova scelta. <delay:10.3><len:5.6>Potete restare qui e morire, oppure potete aiutarmi e io in cambio vi fornirò una via d'uscita. <delay:16.2><len:1>Promesso."
+		"AsylumVoice.Intro2"	"<len:4.6>Pronto, pronto!? Questo affare è acceso? <delay:4.9><len:1.5>Potete, potete sentirmi? <delay:6.7><len:2.6>Vi vedo, fate qualcosa se mi sentite... <delay:9.8><len:2.2>Lo prendo come un sì. <delay:12.5><len:5.1>Non intendevo rovinare il vostro fantastico "piano" per intrappolarvi nel reparto d'isolamento. <delay:17.7><len:2.5>Ma nessuno verrà a salvarvi. <delay:20.3><len:5.6>Il manicomio è invaso, via radio tutto tace e i militari sono morti o scomparsi. <delay:26.6><len:2.3>Ora siamo rimasti soltanto noi. <delay:28.7><len:3.7>Quindi aiutatemi a finire il lavoro della mia vita e io vi farò uscire di qui."
+		"AsylumVoice.Intro3"	"<len:3.4>Come dimostrazione di buona fede, vi ho lasciato un regalo. <delay:3.5><len:1.2>È proprio qui fuori. <delay:4.8><len:2.3>Lasciate che vi apra quelle fastidiose porte."
+		"AsylumVoice.Intro4"	"<len:3.8>Vi ho anche portato qualcosa che potrebbe aiutarvi. L'ho lasciato fuori dalla vostra cella. <delay:3.9><len:2.7>Non è molto, ma spero che sia d'aiuto. <delay:6.7><len:1.8>Lasciatemi aprire quelle porte."
 		"AsylumVoice.Intro5"	"<len:2.8>Ho spostato una delle casse militari laggiù. <delay:2.9><len:2.6>Non so cosa ci sia dentro, ma potrebbe essere utile. <delay:5.9><len:1.7>Ora apro le porte delle celle."
-		"AsylumVoice.CarBarks"	"<len:5>Ecco fatto! Ora datti una mossa. Non aspetterò per sempre."
+		"AsylumVoice.CarBarks"	"<len:5>Ecco fatto! Ora datevi una mossa. Non aspetterò per sempre."
 		"AsylumVoice.CarBarks2"	"<len:3.3>Eccellente, sarebbe un buon momento per iniziare a correre. <delay:3.5><len:2.8>Il tempo non aspetta nessuno, e nemmeno io!"
-		"AsylumVoice.FinishRitual"	"<len:2.45>Ecco il mio piano. <delay:2.54><len:4.7>Con questo cerchio di evocazione, posso aprire un portale per l'Inferno e portarci via da qui. <delay:7.5><len:2.8>Mi mancano solo alcuni componenti chiave. <delay:10.4><len:1.7>Prendeteli per me, ora!"
+		"AsylumVoice.FinishRitual"	"<len:2.45>Ecco il mio piano. <delay:2.54><len:4.7>Con questo cerchio di evocazione, posso aprire un portale per l'<I>Inferno<I> e portarci via da qui. <delay:7.5><len:2.8>Mi mancano solo alcuni componenti chiave. <delay:10.4><len:1.7>Prendeteli per me, ora!"
 		"AsylumVoice.ProtectRitual"	"<len:2.6>Sì, sento il potere! <delay:2.64><len:4>Non manca molto, proteggete il rituale ad ogni costo!"
 		"AsylumVoice.ProtectRitual2"	"<len:1.6>No, fermateli! <delay:1.7><len:2.7>Se rovinano il rituale, il nostro accordo salta!"
 		"AsylumVoice.ProtectRitual3"	"<len:3.5>NOO! Idioti! AVEVATE UN SOLO LAVORO. <delay:3.6><len:1.8>Ora il rituale è rovinato! <delay:5.5><len:2.1>Lasciate perdere, me ne vado. <delay:7.7><len:1.7>Potete marcire qui per sempre!"
-		"AsylumVoice.RitualComplete"	"<len:5.1>Sì! Sì! Aspetta, no. Non è giusto. <delay:5.5><len:1.5>Ho... ho fatto qualcosa di sbagliato? <delay:7.2><len:1.8>Il portale dovrebbe essere aperto! <delay:9.2><len:4.9>Dannazione. Oh, beh. Piano B, allora. State indietro!"
-		"AsylumVoice.RitualComplete2"	"<len:1.85>Aspetta, c'è qualcosa che non va. <delay:1.9><len:2.3>Hai... hai usato un secchio per la testa? <delay:4.3><len:5.3>Perché dovresti... Non importa. È il momento del piano B! State indietro!"
-		"AsylumVoice.SecurityShutters"	"<len:3.9>Dovete raggiungere la caffetteria. La strada per arrivarci è ben chiusa, <delay:4.1><len:3>dovrete andare alla sicurezza e aprire le serrande."
+		"AsylumVoice.RitualComplete"	"<len:5.1>Sì! Sì! Aspetta, no. Così non va. <delay:5.5><len:1.5>Ho... ho fatto qualcosa di sbagliato? <delay:7.2><len:1.8>Il portale dovrebbe essere aperto! <delay:9.2><len:4.9>Dannazione. Oh, beh. Piano B, allora. State indietro!"
+		"AsylumVoice.RitualComplete2"	"<len:1.85>Aspettate, c'è qualcosa che non va. <delay:1.9><len:2.3>Avete... avete usato un secchio per la testa? <delay:4.3><len:5.3>Perché dovreste... Non importa. È il momento del piano B! State indietro!"
+		"AsylumVoice.SecurityShutters"	"<len:3.9>Dovete raggiungere la caffetteria ma la strada per arrivarci è sigillata. <delay:4.1><len:3>Dovrete raggiungere la stanza di sicurezza e aprire le serrande."
 		"AsylumVoice.SecurityShutters2"	"<len:5.1>Bene, con le serrande di sicurezza aperte, ora è possibile raggiungere il cortile dal secondo piano. <delay:5.3><len:1.8>Il. Secondo. Piano."
 		
 		// Broadway2
 		"Broadway2Voice.Extraction"	"<len:2.1>Attenzione, attenzione. <delay:2.7><len:4.7>Se mi sentite, dovete raggiungere il tetto e attendere l'estrazione il prima possibile. <delay:8><len:2.9>Avete cinque minuti prima che il governo sganci una bomba. <delay:11.8><len:2.7>Per favore, andate via da lì."
 		
 		// Brooklyn
-		"brooklyn_voice.01"	"<len:2.4>Ehi, grazie per essere passato, vuoi darmi una mano?"
+		"brooklyn_voice.01"	"<len:2.4>Ehi, grazie per essere passati, volete darmi una mano?"
 		"brooklyn_voice.02"	"<len:4.9>Ma che cazzo?! I cancelli non hanno corrente, dobbiamo ripararli per poter uscire da questo buco di merda!"
 		"brooklyn_voice.03"	"<len:3.1>Ottima idea! Legatelo, così possiamo tirarlo giù."
-		"brooklyn_voice.04"	"<len:3.7>Ehi, ragazzi! È bello vedere che non sono l'unica carne che non è marcia! <delay:3.8><len:4.8>Sono favorevole a uscire da questo buco di merda, ma dobbiamo abbattere la recinzione esterna per poter passare."
-		"brooklyn_voice.05"	"<len:1.5>Già, grazie amico! <delay:1.5><len:2.4>Vedrò di mettere in moto il camion, <delay:4><len:2.4>ma se dobbiamo uscire da qui, avremo bisogno di rifornimenti. <delay:6.5><len:2.3>Ho visto un vecchio carretto a mano vicino al vicolo dall'altra parte della strada, <delay:8.9><len:3.3>con quello possiamo probabilmente ottenere tutto ciò che ci serve da ciò che resta del quartiere."
+		"brooklyn_voice.04"	"<len:3.7>Ehi, ragazzi! È bello vedere che non sono l'unico ammasso di carne che non è ancora marcita! <delay:3.8><len:4.8>Sono favorevole a uscire da questo buco di merda, ma dobbiamo abbattere la recinzione esterna per poter passare."
+		"brooklyn_voice.05"	"<len:1.5>Già, grazie amici! <delay:1.5><len:2.4>Vedrò di mettere in moto il camion. <delay:4><len:2.4>Ma se dobbiamo uscire da qui, avremo bisogno di rifornimenti. <delay:6.5><len:2.3>Ho visto un vecchio carretto a mano vicino al vicolo dall'altra parte della strada. <delay:8.9><len:3.3>Con quello potremo ottenere tutto ciò che ci serve da quello che resta del quartiere."
 		"brooklyn_voice.06"	"<len:2>Va bene, siete ancora vivi! <delay:2><len:2.8>Forza, caricate il furgone, qui c'è una folla."
-		"brooklyn_voice.07"	"<len:2.2>Bene, siamo quasi fuori da questo buco di merda! <delay:2.2><len:2.4>Dobbiamo trovare i comandi di esclusione del cancello, <delay:4.6><len:1.8>non può essere troppo lontano da qui."
+		"brooklyn_voice.07"	"<len:2.2>Bene, siamo quasi fuori da questo buco di merda! <delay:2.2><len:2.4>Dobbiamo trovare i comandi del cancello. <delay:4.6><len:1.8>Non possono essere troppo lontano da qui."
 		"brooklyn_voice.08"	"<len:3.8><I>FORZA <clr:255,0,0>MAIALINI<clr:255,255,255> - non fatemi andare via senza di voi!"
 		"brooklyn_voice.09"	"<len:3.3>Merda. Sembra che qualcuno non sappia parcheggiare."
 		"brooklyn_voice.10"	"<len:3.3>Non so voi, ma il mio stomaco sta <I>gridando."
@@ -742,29 +744,29 @@
 		"CampbloodVoice.RalphComingForYa"	"<len:1.5>Ehi, sopravvissuti! <delay:1.6><len:1.6>Sto venendo a prendervi!"
 		"CampbloodVoice.RalphLastChance"	"<len:2.2>Questa è la vostra ultima occasione!"
 		"CampbloodVoice.RalphLightsOff"	"<len:2.8>Qualcuno si è ricordato di spegnere le luci?"
-		"CampbloodVoice.RalphWelcome"	"<len:2.3>Andrai a Camp Blood, vero? <delay:2.6><len:2.1>Non tornerai mai più, <delay:4.9><len:2.1>ha una <I>MALEDIZIONE MORTALE!"
+		"CampbloodVoice.RalphWelcome"	"<len:2.3>Andrete a Camp Blood, vero? <delay:2.6><len:2.1>Non tornerete mai più! <delay:4.9><len:2.1>Ha una <I>MALEDIZIONE MORTALE!"
 		"CampbloodVoice.RalphYourDoomed"	"<len:3.8>Siete <I>CONDANNATI! <clr:255,0,0><B>EHEHEHEHE!"
 
 		// Cleopas
-		"CleopasVoice.Radio"	"<len:1.8>[Rumore statico della radio] <delay:1.8><len:6>Qui è la pattuglia 206 che chiede assistenza immediata in centro, abbiamo subito gravi perdite, <delay:8><len:6>queste... cose... non vogliono stare giù... continuano a rialzarsi! <delay:14.8><len:3.2>Se qualcuno riesce a sentirci, per favore mandate i rinforzi! <delay:22.4><len:3.4>Ripeto, abbiamo bisogno di rinforzi in centro al più presto, <delay:26.4><len:4.6>siamo a corto di munizioni, stiamo esaurendo le opzioni qui, per favore rispondete Quartier Generale-- <delay:30.6><len:2>[spari, la trasmissione si interrompe]"
+		"CleopasVoice.Radio"	"<len:1.8>[Rumore statico della radio] <delay:1.8><len:6>Qui è la pattuglia 206 che chiede assistenza immediata in centro, abbiamo subito gravi perdite. <delay:8><len:6>Queste... cose... non vogliono stare giù... continuano a rialzarsi! <delay:14.8><len:3.2>Se qualcuno riesce a sentirci, per favore mandate i rinforzi! <delay:22.4><len:3.4>Ripeto, abbiamo bisogno di rinforzi in centro al più presto. <delay:26.4><len:4.6>Siamo a corto di munizioni, stiamo esaurendo le opzioni qui, per favore rispondete Quartier Generale-- <delay:30.6><len:2>[spari, la trasmissione si interrompe]"
 
 		// FEMA
-		"FemaVoice.BillyComplex"	"<len:4.2>Il segnale proviene dal complesso? L'intera struttura è sparita! <delay:4.6><len:3.9>Qualunque cosa abbiano fatto i nerd ha ucciso tutti prima che potessero attivare il protocollo di contenimento. <delay:9><len:3.7>Dovete finire il lavoro e impedire che qualsiasi cosa abbiano fatto esca da lì!"
-		"FemaVoice.BillyFuel"	"<len:2.8>Possiamo portarvi in salvo, ma siamo a corto di carburante! <delay:2.9><len:2.6>Dobbiamo fare il pieno prima di riuscire ad uscire da qui."
+		"FemaVoice.BillyComplex"	"<len:4.2>Il segnale proviene dal complesso? L'intera struttura è sparita! <delay:4.6><len:3.9>Qualunque cosa abbiano fatto i nerd, ha ucciso tutti prima che potessero attivare il protocollo di contenimento. <delay:9><len:3.7>Dovete finire il lavoro e impedire che qualsiasi cosa abbiano fatto esca da lì!"
+		"FemaVoice.BillyFuel"	"<len:2.8>Possiamo portarvi in salvo, ma siamo a corto di carburante! <delay:2.9><len:2.6>Dobbiamo fare il pieno prima di poter uscire da qui."
 		"FemaVoice.BillyGetIn"	"<len:2.5>Forza, salite! Stiamo volando verso la terra promessa!"
-		"FemaVoice.BillyTopside"	"<len:1.8>Ciao? Pronto! <delay:2.1><len:3.3>Se riuscite ancora a sentirmi, salite a bordo così possiamo portarvi in salvo. <delay:5.7><len:4.1>Controllate l'armadietto nella nostra roulotte, ho nascosto un po' del vaccino che i nerd stavano sviluppando. <delay:9.9><len:2.6>Non possiamo essere troppo prudenti, prendetelo e muovetevi!"
+		"FemaVoice.BillyTopside"	"<len:1.8>Pronto? Pronto! <delay:2.1><len:3.3>Se riuscite ancora a sentirmi, salite a bordo così possiamo portarvi in salvo. <delay:5.7><len:4.1>Controllate l'armadietto nella nostra roulotte, ho nascosto un po' del vaccino che i nerd stavano sviluppando. <delay:9.9><len:2.6>Non possiamo essere troppo prudenti, prendetelo e muovetevi!"
 		"FemaVoice.MengelerOkayBob"	"<len:2.4><I>Ok Bub. Ora, premi l'interruttore."
-		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>Ecco fatto Bub! Ora puoi avere la tua ricompensa."
+		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>Ecco fatto Bub! Ora puoi avere il tuo premio."
 		"FemaVoice.MengelerSayHello"	"<len:2.5><I>Saluta la zia Alicia, Bub."
-		"FemaVoice.ColonelNatSec"	"<len:1.5>Qui è il colonnello Kazan, <delay:1.7><len:5.5>possiamo estrarvi per questioni di sicurezza nazionale, ma solo se il vaccino sperimentale potrà essere recuperato. <delay:7.6><len:3>Abbiamo la vostra posizione e attendiamo la vostra risposta di sopra."
-		"FemaVoice.ColonelStow"	"<len:2.8>Qui è il colonnello Kazan dell'Agenzia di Sicurezza Nazionale, <delay:2.8><len:1.1>abbiamo il vostro segnale. <delay:3.9><len:2.5>Stoccate il vaccino e preparatevi a metterlo in sicurezza per l'evacuazione."
+		"FemaVoice.ColonelNatSec"	"<len:1.5>Qui è il colonnello Kazan. <delay:1.7><len:5.5>Possiamo estrarvi per questioni di sicurezza nazionale, ma solo se il vaccino sperimentale può essere recuperato. <delay:7.6><len:3>Abbiamo la vostra posizione e attendiamo la vostra risposta al piano di sopra."
+		"FemaVoice.ColonelStow"	"<len:2.8>Qui è il colonnello Kazan dell'Agenzia di Sicurezza Nazionale. <delay:2.8><len:1.1>Abbiamo ricevuto il vostro segnale. <delay:3.9><len:2.5>Prendete il vaccino e preparatevi a metterlo al sicuro per l'evacuazione."
 		
 		// Midwest
 		"MidwestVoice.EngineerBarbara"	"<len:2.9>Stanno venendo a prenderci, Barbara!"
 		"MidwestVoice.EngineerEnd"	"<len:4.9>Ok, credo di aver trovato il problema, ora si tratta di risolverlo."
 		"MidwestVoice.EngineerEnd2"	"<len:3.1>Ok, è tutto pronto e funzionante! Forza ragazzi, salite!"
 		"MidwestVoice.EngineerFirst"	"<len:3.6>Tenete duro ragazzi, risolverò questo problema il prima possibile!"
-		"MidwestVoice.EngineerStart"	"<len:2.6>Ragazzi, il motore del treno è andato in tilt... <delay:2.9><len:1.8>Non ho idea di cosa stia succedendo. <delay:4.8><len:1.6>Dobbiamo fermarci qui per un po', <delay:6.6><len:2.1>non ci sarà un'altra città per diversi chilometri."
+		"MidwestVoice.EngineerStart"	"<len:2.6>Ragazzi, il motore del treno è andato in tilt... <delay:2.9><len:1.8>Non ho idea di cosa stia succedendo. <delay:4.8><len:1.6>Dobbiamo fermarci qui per un po'. <delay:6.6><len:2.1>Non ci sarà un'altra città per diversi chilometri."
 		
 		// Junction
 		"JunctionVoice.01"	"<len:2.8><I>[Tono di trasmissione d'emergenza] <delay:2.8><len:8.4><I>Il seguente messaggio viene trasmesso su richiesta del New Jersey Office of Emergency Management, Union City, New Jersey. <delay:11.2><len:8><I>Se siete ancora vivi, rimanete dove siete e aspettate i soccorsi. Viaggiare per le strade è estremamente pericoloso. <delay:19.4><len:5.9><I>Le seguenti contee sono state messe in quarantena: Union, Hudson e Monmouth. <delay:25.4><len:7><I>Se siete stati feriti o avete un'emergenza, mantenete la calma e restate dove siete fino a nuovo ordine. <delay:32.5><len:3.5><I>I veicoli di emergenza potrebbero non essere in grado di raggiungervi in questo momento. <delay:36><len:2.8><I>[Fine della trasmissione]"
@@ -774,10 +776,10 @@
 		"JunctionVoice.05"	"<len:3.2>Andiamocene da qui, spero che siate a bordo!"
 		
 		// Quarantine
-		"QuarantineVoice.RadioIntro"	"<len:6.9>C'è nessuno? Siamo ciò che resta della quarantena... ciò che resta... <delay:7><len:4>tutti, tranne noi, sono... lo sapete. <delay:11.2><len:5.1>Ascoltate, ci sono elicotteri dall'altra parte della quarantena rispetto a noi, <delay:16.5><len:4.2>se non fosse per il fatto che eravamo circondati da quelle... fottute cose, <delay:20.8><len:1.6>saremmo già fuori di qui! <delay:22.6><len:3.1>Cioè, è fantastico che siate venuti perché... <delay:26><len:3.5>potete aiutarci a uscire da qui, possiamo aiutarci a vicenda."
-		"QuarantineVoice.RadioIntro2"	"<len:1.6>Quindi ecco cosa faremo: <delay:1.7><len:2.8>Dovete chiudere il cancello d'ingresso della quarantena, <delay:4.6><len:3.4>il sistema automatico terrà chiuso il cancello di quarantena interno. <delay:8.1><len:2>Dovete essere nella quarantena interna, <delay:10.3><len:2.2>ma prima bisogna chiudere il cancello d'ingresso."
-		"QuarantineVoice.RadioTalk"	"<len:4.3>Una volta chiuso il cancello d'ingresso, apriremo il cancello di quarantena interno. <delay:4.7><len:6.7>Ma c'è un sistema di sicurezza nel sistema automatico, il cancello interno si chiuderà in circa un minuto e... <delay:11.8><len:5.6>beh... visto quanto tempo il cancello d'ingresso è stato aperto, si attiverà il failsafe secondario, diciamo così - <delay:17.5><len:7.1>se non sarete all'interno della zona di quarantena quando il cancello si chiude, morirete!"
-		"QuarantineVoice.RadioTalk2"	"<len:6.3>Ecco cosa dobbiamo fare, c'è una sirena, <I>c'è una sirena<I>, nella zona in cui vi trovate. <delay:6.5><len:5>Dovete attivare la sirena, che servirà a far allontanare gli zombi da noi. <delay:11.5><len:3.1>Quando potremo, andremo a prendere l'elicottero, <delay:14.62><len:3.8>poi torneremo, verremo a prendervi e ce ne andremo tutti fuori dalle palle. <delay:18.6><len:4.88>Quindi vi suggerisco di prendere tutto quello che potete e... di prepararvi. <delay:23.5><len:3.8>Quando siete pronti, attivate la sirena, va bene?"
+		"QuarantineVoice.RadioIntro"	"<len:6.9>C'è nessuno? Siamo ciò che resta della quarantena... ciò che resta... <delay:7><len:4>Tutti, tranne noi, sono... l'avrete capito. <delay:11.2><len:5.1>Ascoltate, ci sono degli elicotteri dall'altra parte della quarantena. <delay:16.5><len:4.2>Se non fosse per il fatto che eravamo circondati da quelle... fottute cose... <delay:20.8><len:1.6>Saremmo già usciti di qui! <delay:22.6><len:3.1>Cioè, è fantastico che voi siate qui perché... <delay:26><len:3.5>Potete aiutarci a uscire, possiamo aiutarci a vicenda."
+		"QuarantineVoice.RadioIntro2"	"<len:1.6>Quindi ecco cosa dovrete fare: <delay:1.7><len:2.8>Dovete chiudere il cancello d'ingresso della quarantena. <delay:4.6><len:3.4>Il sistema automatico terrà chiuso il cancello di quarantena interno. <delay:8.1><len:2>Dovete essere nella quarantena interna. <delay:10.3><len:2.2>Ma prima bisogna chiudere il cancello d'ingresso."
+		"QuarantineVoice.RadioTalk"	"<len:4.3>Una volta chiuso il cancello d'ingresso, apriremo il cancello di quarantena interno. <delay:4.7><len:6.7>Ma c'è un failsafe nel sistema automatico, il cancello interno si chiuderà tra circa un minuto e... <delay:11.8><len:5.6>Beh... visto che il cancello d'ingresso è rimasto aperto a lungo, si attiverà il failsafe secondario, diciamo così... <delay:17.5><len:7.1>Se non sarete all'interno della zona di quarantena quando il cancello si chiude, morirete!"
+		"QuarantineVoice.RadioTalk2"	"<len:6.3>Ecco cosa dobbiamo fare, c'è una sirena, <I>c'è una sirena<I>, nella zona in cui vi trovate. <delay:6.5><len:5>Dovete attivare la sirena, che servirà a far allontanare gli zombi da noi. <delay:11.5><len:3.1>Quando potremo, andremo a prendere l'elicottero. <delay:14.62><len:3.8>Poi torneremo, verremo a prendervi e ce ne andremo tutti fuori dalle palle. <delay:18.6><len:4.88>Quindi vi suggerisco di prendere tutto quello che potete e... di prepararvi. <delay:23.5><len:3.8>Quando siete pronti, attivate la sirena, va bene?"
 		"QuarantineVoice.RadioTalk3"	"<len:5.4>Prima di tutto, dovrebbe esserci un walkie talkie da qualche parte in quella stanza, prendetelo."
 		
 		// Toxteth
@@ -793,8 +795,8 @@
 		"ToxtethVoice.SurvivorPhone4"	"<len:3.4>Ehi! Sono giorni che vi osservo con le telecamere a circuito chiuso. <delay:3.7><len:5.6>Dovete raggiungere il negozio che si trova dietro il cimitero, io sono bloccato qui e fuori ci sono zombi ovunque! <delay:9.9><len:3.4>Ho fatto una telefonata per portarci via da qui, ma dovete venire ad aiutarmi prima di poter partire. <delay:14.3><len:1.4>Non c'è tempo da perdere!"
 		
 		// Zephyr
-		"ZephyrVoice.Engineer04"	"<len:7.6>Scusate ragazzi, mi sono scordato. Potete per favore girare l'interruttore dietro di me in modo che io possa raggiungere la stazione, la carrozza e i vagoni?"
-		"ZephyrVoice.Engineer06"	"<len:8.5>Va bene, c'è ancora un cambio da fare. Sc... Scusate ragazzi, avrei dovuto dirvelo prima, è un po' lontano... eheh."
+		"ZephyrVoice.Engineer04"	"<len:7.6>Scusate ragazzi, mi sono scordato. Potete per favore girare l'interruttore dietro di me in modo che possa raggiungere la stazione, la carrozza e i vagoni?"
+		"ZephyrVoice.Engineer06"	"<len:8.5>Va bene, c'è ancora un cambio da fare. Sc... Scusate ragazzi, avrei dovuto dirvelo prima, è un po' più lontano... eheh."
 		"ZephyrVoice.Engineer07"	"<len:8.5>Bene ragazzi, c'è un'ultima cosa da fare. Rilasciate i freni a mano sul cabotaggio, che a proposito è la carrozza verde dietro di me."
 		"ZephyrVoice.Engineer08"	"<len:4.1>Sono pronto! Datemi il via e partiamo.."
 		"ZephyrVoice.Engineer09"	"<len:2.6>Si parte!"

@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nms_notld_title"	"ナイト・オブ・ザ・デッド"
+}
+}

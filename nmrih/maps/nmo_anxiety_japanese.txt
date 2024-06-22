@@ -1,0 +1,16 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"シャッターを開く"
+	"nmo_anxiety_Obj2"	"火を消す"
+	"nmo_anxiety_Obj3"	"バリケードを破壊する"
+	"nmo_anxiety_Obj4"	"ゲートを上げる"
+	"nmo_anxiety_Obj5"	"地下鉄から出る"
+	"nmo_anxiety_Obj6"	"ハシゴを使いフェンスを越える"
+	"nmo_anxiety_Obj7"	"溶接機を使い駐車場を抜ける"
+	"nmo_anxiety_Obj8"	"病院のドアを開錠する"
+	"nmo_anxiety_Obj9"	"キャンピングカーの鍵を探す"
+}
+}

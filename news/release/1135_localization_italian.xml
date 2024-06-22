@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">È stato rilasciato un aggiornamento per No More Room in Hell. L'aggiornamento verrà applicato automaticamente al riavvio di No More Room in Hell. Le principali modifiche includono:
+
+[h2]Aggiunte[/h2]
+[list]
+[*]Aggiunta la configurazione dei mutatori, gli utenti possono ora salvare/caricare le loro selezioni (#1459)
+[*]Aggiunta una nuova modalità "Minigioco", supportata dal prefisso della mappa mg_
+[*]Il nome della mappa attuale e la modalità sono ora visualizzati sul tabellone
+[*]Sperimentale: Aggiunta la previsione di raccolta degli oggetti, attivabile con la cvar "cl_predictpickup" (se attivata, gli oggetti raccolti si muoveranno in modo fluido con il lag)
+[/list]
+[h2]Cambiamenti[/h2]
+[list]
+[*]La baionetta può ora colpire il 'hull' del personaggio per un rilevamento più accurato degli spintoni
+[*]Deprecati gli effetti SSAO e di profondità di campo a causa di instabilità, queste impostazioni non sono più salvate / visibili nelle opzioni, mentre le cvar "nmrih_ssao" e "nmrih_dof" possono ancora essere utilizzate
+[*]Le frecce cadute ora spariscono nel tempo
+[*]Nelle mappe che utilizzano la transizione di livello, gli inventari e gli effetti di stato dei giocatori non vengono più ripristinati per impostazione predefinita al riavvio del round
+[*]Riduzione delle dimensioni dell'installazione grazie alla compressione delle nav mesh, dell'audio in streaming e delle battute (~685 mb)
+[*]Le armi che non hanno un controllo acustico delle munizioni visualizzeranno sempre le informazioni sull'HUD (martello da barricata, arco, motosega)
+
+[*]Aggiornati i file di localizzazione:
+[list]
+
+[*]Grazie ai traduttori della comunità: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]Vuoi localizzare NMRiH nella tua lingua? [url=https://github.com/nmrih/nmrih-localization-files]Visita il nostro repository di localizzazione su GitHub.[/url]
+[/list]
+[/list]
+[h2]Correzioni[/h2]
+[list]
+[*]Corretto il bug delle frecce attaccate che causano "caos fisico" (#1455)
+[*]Corretta la penetrazione dei proiettili che non funziona correttamente in modalità realismo (#1439)
+[*]Corretto l'errore di visualizzazione della bussola dopo il cambio di risoluzione (#1396)
+[*]Corretto il blocco dei comandi in modalità mirino dopo aver messo via la torcia (#684)
+[*]Corretto il crash quando ci si unisce a un server con la cvar "sv_allow_custom_balance" impostata su 1
+[*]Corretto l'obiettivo corrente che non viene visualizzato dopo la modifica della risoluzione (#1396)
+[*]Corretto il respawn dei giocatori morti con 1HP dopo il passaggio di livello
+[*]Corretto il fatto che l'abbandono di un oggetto equipaggiato faccia cadere anche un oggetto fisico tenuto in mano (#1433)
+[*]Corretta la cassa di rifornimenti che sparisce e ri-appare continuamente se si continua a premere il tasto di utilizzo (#1423)
+[*]Corretto il bagliore esistente sugli oggetti che scompare quando un giocatore si avvicina e poi si allontana (#1456)
+[*]Corretto il problema della torcia che rimane visibilmente equipaggiata anche se non è presente nell'inventario del giocatore (#1424)
+[*]Corrette le torce fantasma che appaiono occasionalmente quando gli altri giocatori escono dalla visuale
+[*]Corretto il problema delle granate che appaiono erroneamente durante il controllo delle munizioni (#1460)
+[*]Corretto il suono impreciso della motosega (#1231)
+[*]Corretti i sottotitoli errati quando si attacca con i pugni (#938)
+[*]Corretto il problema degli zombi generati istantaneamente che non scadevano nelle zone precedenti, causando il raggiungimento di un limite di zombie da parte dell'overlord e l'impossibilità di generarne altri
+[*]Corretto il fatto che i suggerimenti dell'istruttore vengano visualizzati come "Nessuna didascalia specificata" per i giocatori diversi dall'attivatore (#1410)
+[*]Corretta la quantità insufficiente di zombi generati dall'overlord nelle zone ad alta densità (ad esempio, la sezione di sopravvivenza di Boardwalk)
+[*]Risolti problemi con l'ordine di dissolvenza dei sottotitoli
+[*]Corretto il passaggio di livello che non funziona con i plugin del server che gestiscono i cambi di livello
+[*]Corretta l'animazione di sprint mancante quando si tiene premuto il pulsante di fuoco con un'arma scarica (#59)
+[*]Corretto il networking dei giocatori e delle loro armi senza motivo quando non sono in vista
+[*]Corretto l'errore di previsione sullo sparo durante l'utilizzo di un trigger di avanzamento
+[*]Corretto il crash di Rich Presence quando Steam non è disponibile
+[*]Corretto l'overflow del percorso di ricerca che impediva il caricamento dei file delle didascalie (ad esempio, risolve un problema di scomparsa delle didascalie con la presenza di molti add-on del Workshop)
+[*]Corretto il campo del nome del server sul tabellone che risulta vuoto dopo la modifica della risoluzione (#1396)
+[*]Corretto l'overflow del buffer delle ombre durante il rendering delle texture di profondità della torcia per altri giocatori (#1336)
+[*]Corretto l'avviamento della motosega che annulla il suono da ferma quando si usa per spingere (#1252)
+[/list]
+[h2]Modifiche per mappatori e modder[/h2]
+[list]
+[*]Aggiunta l'entità ammobox_ per ogni tipo di munizione
+[*]Aggiunto un livello di compatibilità per le mappe difettose che interrompono !activator invece di !self (si applica a "trigger_progress_use", "trigger_progress_weapon" e "trigger_keypad")
+[*]Aggiunti modelli di orde di zombi distanti, forniti da Demo
+[*]Aggiunta l'entità "env_screenoverlay_multiplayer"
+[*]Aggiunta l'entità "point_viewcontrol_multiplayer"
+[*]Aggiunta l'entità "trigger_speed", applica un modificatore di velocità complessiva ai giocatori che entrano nell'area di attivazione
+[*]Aggiunto l'input "BecomeShambler" agli zombi
+[*]Aggiunto l'input "SetSound" a "ambient_fmod"
+[*]Aggiunte le sovrascritture delle proprietà dell'inventario per le armi (icona, etichetta, peso)
+[*]Aggiunto campo chiave per cambiare la texture di sfondo su "item_inventory_box" (#1296)
+[*]Aggiunta la compressione delle nav mesh per ridurre le dimensioni dei file; le mesh esistenti possono essere salvate con "nav_compress", oppure si può usare lo switch "-compress" nei comandi nav_ esistenti (ad esempio, "nav_generate -compress")
+[*]Aggiunto l'output "OnItemSpawn" per "random_spawner"
+[*]Aggiunto l'output "OnPlayerDrop" per le armi
+[*]Aggiunte le precipitazioni particellari, tra cui pioggia, temporali, nevicate e cenere (trasferite da Mapbase)
+[*]Aggiunto il supporto per gli oggetti d'inventario personalizzati con l'entità "item_custom" (#1297)
+[*]Aggiunto il supporto per il caricamento di soundscript personalizzati
+[*]Aggiunto il supporto per il precaching delle particelle personalizzate (#1465)
+[*]Aggiunto il supporto per le zone sicure al di fuori della modalità Sopravvivenza
+[*]Aggiunto il supporto per "item_inventory_box" non categorizzati (#1296)
+[*]Aggiunta la compatibilità con il fallback WAV -&gt; MP3 per "ambient_generic" (con supporto per il looping) e i suoni ambientali
+[*]Aggiunte le sovrascritture per i suoni degli zombi
+[*]Il comando "report_entities" ora etichetta le entità solo server
+[*]L'input "Kill" non consente di eliminare i giocatori e il mondo
+[*]Non rimozione della gag flag degli zombi (#1437)
+[*]L'entità "ambient_generic" ora supporta più sistemi audio, FMOD è usato come fallback per il looping dei suoni MP3 quando è necessario
+[*]Corretto il campo chiave "filter_script" mancante in "Entity scripts" in Hammer
+[*]Corrette le assi fisse con il flag "Disabilita il movimento degli oggetti" deselezionato non si muovevano comunque (#1422)
+[*]Corretto il crash quando si usa il comando "dumpgamestringtable"
+[*]Corretto il colore del bagliore personalizzato che non funziona su armi, strumenti e oggetti medici (#1457)
+[*]Corretti gli output sulle entità "trigger_keypad", "trigger_progress_use" e "trigger_progress_weapon" che non impostano il giocatore come !activator (#1454)
+[*]Corretto l'incontrollabile "func_train" che ruba l'input di utilizzo del giocatore (#1445)
+[*]Corretto il blocco del Workshop quando si tenta di scaricare le mappe mentre è in corso un upload
+[*]FMOD: Supporto del suono ambientale revisionato
+[*]Entità "spotlight_end" gratuita sui faretti efficienti
+[*]Inclusa l'entità "npc_maker" nella configurazione del gioco in Hammer
+[*]L'input "SetCauser" ora accetta tutte le entità, non deve più essere un giocatore
+[*]NMRObjective: Visualizza l'avviso quando il confine non è membro di un visgroup o non esistono confini. (#1302)
+[*]NMRObjective: Corretta la perdita di memoria durante il trascinamento delle linee
+[*]NMRObjective: I nomi dei visgroup "Obiettivi" e "Anti" sono diventati insensibili alle maiuscole e alle minuscole
+[*]NMRObjective: Ora utilizza un documento di aiuto locale invece di un collegamento alla wiki
+[*]NMRObjective: Ora utilizza un moderno selettore di cartelle
+[*]Revisionata l'entità "logic_script_proxy", sanificando l'input con chiamate grezze
+[*]VScript: Aggiunte le funzioni CAI_BaseNPC Freeze() e Unfreeze()
+[*]VScript: Aggiunti i collegamenti a CAmbientFMOD
+[*]VScript: Aggiunti i collegamenti a CEnvScreenOverlayMultiplayer
+[*]VScript: Aggiunti i collegamenti a CEnvTimer
+[*]VScript: Aggiunte le funzioni CFuncZombieSpawn GetSpawnMax(), GetSpawnedCount(), GetSpawnedDead(), GetInterimMax(), GetSpawnDensity(), GetRegenTarget(), e GetZombiesNeed()
+[*]VScript: Aggiunta la funzione GetAmmoType() per CItem_AmmoBox
+[*]VScript: Aggiunte le funzioni CItem_InventoryBox IsDroppedByChopper(), IsUncategorized() e SetBackgroundTexture()
+[*]VScript: Aggiunti i collegamenti a CLogicProgress
+[*]VScript: Aggiunte le funzioni GetAllAreas() e GetNavAreasInRadius() per CNavMesh
+[*]VScript: Aggiunti i collegamenti a CNMRiH_ItemCustom
+[*]VScript: Aggiunte le funzioni di CNMRiH_Player GetCarriedItems(), Get/SetStamina(), Get/SetSpeedModifier(), Get/SetSpeedOverride(), IsDucking(), IsJumping() e IsSprinting()
+[*]VScript: Aggiunte le funzioni di CNMRiH_WeaponBase GetWorldModelOverride(), SetWorldModelOverride(), ClearWorldModelOverride(), SetShootSoundOverride() e ClearShootSoundOverride()
+[*]VScript: Aggiunti i collegamenti di CObjective, usati insieme a CObjectiveManager
+[*]VScript: Aggiunte le funzioni del CObjectiveManager GetObjectiveById(), GetObjectiveByName(), GetObjectiveByIndex() e GetObjectiveChain()
+[*]VScript: Aggiunti i collegamenti a CPointMessageMultiplayer
+[*]VScript: Aggiunti i collegamenti a CPointViewControlMultiplayer
+[*]VScript: Aggiunti i collegamenti a CRandomSpawnController
+[*]VScript: Aggiunti i collegamenti a CRandom_Spawner
+[*]VScript: Aggiunte le funzioni di CScriptNavArea GetHidingSpots(), IsCompletelyVisible() e IsPotentiallyVisible()
+[*]VScript: Aggiunto il supporto della datamap per CNetPropManager, contributo di samisalreadytaken
+[*]VScript: Aggiunta la funzione Glowable a CBaseAnimating
+[*]VScript: Aggiunti metodi KeyValue senza trattini bassi (ad esempio, preferire KeyValueFromString invece di __KeyValueFromString, la compatibilità è mantenuta)
+[*]VScript: Corretto il mancato funzionamento di CNetPropManager, contributo di samisalreadytaken (#1427)
+[*]VScript: Corretto il crash con i metodi CScriptNavArea IsCompletelyVisibleToTeam() e IsPotentiallyVisibleToTeam()
+[*]VScript: Corretto l'aggancio delle entità che non viene chiamato su Linux (#1428)
+[*]VScript: Corretto il loop infinito con la funzione ThrowAllAmmo() di CNMRiH_Player
+[*]VScript: Corretto il memory leak sulle chiamate di funzione
+[*]VScript: Corretto l'hook OnDeath() del PNG che causava errori (#1313)
+[*]VScript: Portati vari miglioramenti da Mapbase
+[*]VScript: Rimossa l'istanza di CLocalize, poiché non funziona sui server dedicati
+[*]VScript: Lo script chiamato "mapspawn_&lt;mapname&gt;.nut" ora viene eseguito all'avvio della mappa quando è disponibile
+[*]VScript: Quando il server si arresta a causa di uno stack VM incoerente, lo stack delle chiamate è ora visualizzato nel messaggio di errore
+[/list]
+[h2]Cambiamenti per gli amministratori dei server[/h2]
+[list]
+[*]Aggiunta la cvar "hide_server", non annuncia a Steam, cioè si nasconde dall'elenco dei server
+[*]Aggiunta la cvar "sv_bullet_bypass_player", che fa sì che i proiettili aggirino i giocatori; non ha effetto se il fuoco amico è attivo o se il bersaglio è infetto (#1466)
+[*]Aggiunta la cvar "sv_remove_unreasonable_physics", rimuove le entità che sono cadute fuori dal mondo per la fisica
+[*]Modificato l'ordine di caricamento delle regole, i mutatori sono ora caricati prima della configurazione dei server
+[*]Il supporto per la transizione di livello è ora abilitato per impostazione predefinita, gli amministratori non devono più attivarlo
+[*]Workshop: Aggiornamenti ottimizzati grazie alla riduzione delle chiamate al file system
+[*]Workshop: La voce della mappa precedente viene ora rimossa dall'elenco se viene rinominata durante un aggiornamento
+[/list]
+[h1]Mappe[/h1]
+
+[h3]Tutte le mappe[/h3]
+[list]
+[*]Aggiunte alcune tracce inutilizzate all'elenco musicale (anche la traccia "Sorrow" ha due parti diverse, quindi è stata divisa e aggiunta alla sezione ambient e tension).
+[*]Corretto lo strano riflesso sulla texture del fango
+[/list]
+[h3]nmo_anxiety[/h3]
+[list]
+[*]Aggiunta di clip alle scale
+[*]Aggiunte alcune sovrapposizioni mancanti
+[*]Tentativo di risolvere il problema dei giocatori che si bloccano e si girano quando il furgone di fuga gira a sinistra
+[*]Pulite le nav mesh nelle aree non giocabili
+[*]Corretto uno degli spawn dei giocatori nei tunnel che non funzionava
+[/list]
+[h3]nmo_asylum[/h3]
+[list]
+[*]Aggiunta schermata di caricamento (#1429)
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]Corretta la mancanza di un sottotitolo durante il dialogo con il portatile evac
+[*]Miglioramenti vari
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]Corretto un bug quando con una certa catena di obiettivi era quasi impossibile portare l'anguria al punto di estrazione
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Corretta la mancanza di sottotitoli durante le conversazioni radiofoniche
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Aggiunti filtri alle clip VPhysics (niente più esplosivi rimbalzanti nell'obiettivo dell'arena)
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Aggiunte alcune clip VPhysics
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Rimossa la texture nodraw nel muro di mattoni frangibile vicino alla chiesa
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Sistemato softlock dell'obiettivo (#1452)
+[*]Clip migliorate
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Tentativo di risolvere il problema del treno che si blocca in modo casuale a causa di munizioni/armi
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]Aggiunti alcuni dettagli
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]Aggiunti altri zombi alla fine della mappa
+[*]Aggiunta traccia musicale inutilizzata allo spawn della mappa
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Rilascio dell'Aggiornamento 1.13.5</string></content>
