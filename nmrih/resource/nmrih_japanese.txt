@@ -301,7 +301,7 @@
 "DeathNotice_NPC_TurnedZombie"	"生き返ったゾンビ"
 
 "ChallengeTimer_PersonalBest"	"自己ベスト"
-"ChallengeTimer_NoTime"	"タイム無し"
+"ChallengeTimer_NoTime"	"タイムなし"
 "ChallengeTimer_NewRecord"	"新記録！"
 
 "ChallengeInvalid"	"チャレンジ結果は無効になった！"
@@ -350,9 +350,9 @@
 "Hint_Advanced_ScavengeMedicalItems" "もしあなたが感染していてチームメイトを信用できない場合、医療品を要求してはいけない。 自分で調達して見つけよう！"
 "Hint_Advanced_HealthStationStopsBleeding" "ヘルスステーションは、体力を満タンまで回復すれば出血を止めてくれる。"
 "Hint_Advanced_StaminaRegen" "立ち止まっているとスタミナの回復が早くなる。 移動中にしゃがむと同じようにスタミナが回復する。 効果は重複しない。"
-"Hint_Advanced_StaminaDrain" "攻撃、突き飛ばし、ジャンプ、スプリントはスタミナを消耗する。"
+"Hint_Advanced_StaminaDrain" "攻撃、押しのけ、ジャンプ、スプリントはスタミナを消耗する。"
 "Hint_Advanced_LowStaminaVulnerable" "スタミナが少ないと非常に危険だ。 防御行動が一切できなくなる。"
-"Hint_Advanced_LowStaminaBreathing" "スタミナが少なくなると、キャラクターが必死に息衝く声が聞こえてくる。"
+"Hint_Advanced_LowStaminaBreathing" "スタミナが少なくなると、キャラクターが必死に呼吸する声が聞こえてくる。"
 "Hint_Advanced_LowStaminaMovement" "スタミナが少なくなったらスプリントをやめよう。 移動速度が歩くよりも遅くなる。"
 "Hint_Advanced_FlareGunSupplies" "サバイバルマップをプレイしているときにフレアを空に放つと、追加の補給物資がドロップする(1ラウンドにつき1回)。"
 
