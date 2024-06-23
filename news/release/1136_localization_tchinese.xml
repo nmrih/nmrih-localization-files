@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell 更新發布，只要重新啟動即可自動更新遊戲，更新的主要變更有：
+
+[h2]新增[/h2]
+[list]
+[*]現在遊戲中含有一份完整的音效快取，這能解決音效第一次波播放時的明顯掉幀，尤其是硬碟較慢的使用者
+[/list]
+[h2]更動[/h2]
+[list]
+[*]改良動態音樂系統的張力計算 (#1482)
+[*]調整跑屍追捕時的動態音樂播放清單，把前奏較長的曲目移除
+
+[*]更新在地化檔案：
+[list]
+
+[*]感謝社群翻譯者：[b]Blueberryy、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta、RicecakeHuman、Uncut[/b]
+[*]想要為 NMRiH 在地化你的語言嗎？[url=https://github.com/nmrih/nmrih-localization-files]造訪我們在 GitHub 上的在地化存儲庫。[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[list]
+[*]修正弓箭箭矢發射時在特定距離消失 (#1479)
+[*]修正如房間音效等特定環境音效被切斷 (#1482)
+[*]修正指令 "snd_restart" 沒有把所有遊戲中的環境因重新啟動
+[*]修正轉檔後的環境音效沒有正確的可聽見距離或者一直重複播放
+[*]修正在選擇物資箱的物件時偶爾會發生的崩潰
+[*]修正計分殺敵超過 2048 重新開始
+[*]修正主選單播放器設定的崩潰
+[/list]
+[h2]為地圖模組製作進行的更動[/h2]
+[list]
+[*]新增 "Ammo Fill Min/Max" 輸入格給彈藥盒 entities
+[*]新增 opt-in 輸入格來支援 MP3 looping，修正現有地圖中一些單次播放的 MP3 音效因錯誤的 spawnflags 故無限循環播放
+[*]新增武器進度觸發支援 "item_zippo"
+[*]Entity "point_viewcontrol_multiplayer" 現在會在 input "AddPlayer" 觸發時啟動攝影機
+[*]修正 !activator 在 "trigger_progress_use" 和 "trigger_progress_weapon" 沒辦法使用 "OnEndUse" (#1473)
+[*]修正 "point_viewcontrol_multiplayer" 停留時間在跟隨目標時沒辦法使用
+[*]修正 "point_viewcontrol_multiplayer" 在 input "Enable" 第一次觸發時沒辦法對指定的玩家啟動攝影機
+[*]修正移動速度修改氣沒有重置絕對最高速度
+[*]修正殭屍 input "BecomeShambler" 無法正常運作
+[*]FMOD: 改良環境音效可聽見距離，現在與 "ambient_generic" 更接近
+[*]MapHack: 新增 function "$filter"，透過 keyvalue 配對移除 entities
+[*]MapHack: 修正 "$modify" 忽略數個 keyvalue 篩選器 (#1474)
+[*]VScript: 新增 CConvars function RegisterAdminCommand()，建立一個只有伺服器管理員可以執行的控制台指令，除此之外與 RegisterCommand() 相同
+[*]VScript: 修正 CItem_InventoryBox function AllowEmpty() 無法正常運作
+[/list]
+[h2]為伺服器管理者進行的更動[/h2]
+[list]
+[*]新增控制台參數 "sv_infection_bypass"，由 Ryan's QoL plugin 人性化插件導入
+[*]新增控制台參數 "sv_barricade_show_damage"，由 Ryan's QoL plugin 人性化插件導入
+[*]控制台參數 "sv_bullet_bypass_player" 不再有作弊 flag
+[/list]
+[h1]地圖[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]修正錯誤的動態音樂播放清單
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]新增台詞字幕
+[*]修正對講機台詞無限循環
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]修正室外陰影與打光異常的物件
+[*]移除控制室入口前面的一個圍籬
+[*]移除通往控制室樓上的樓梯上的 clips
+[*]微調一些物件池來降低隨機性
+[*]出生點門前的殭屍現在會在開門時被推開
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]新增台詞字幕
+[*]修正最終對講機台詞播放過長
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]新增台詞字幕
+[*]修正撤離直升機台詞無限循環
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]修正泥土材質詭異的反射
+[*]現在坦克車會在所有玩家皆撤離或撤離時間結束後正常後撤
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">更新 1.13.6 釋出</string></content>
