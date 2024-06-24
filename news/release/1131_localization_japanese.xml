@@ -49,7 +49,7 @@
 [*]フィルターエンティティの"filter_activator_player_infection"が追加され、プレイヤーが感染している場合、または任意でアクティベーターがプレイヤーでない場合に通過するようになった
 [*]エンティティ"env_explosion"のフィルターサポートを追加
 [*]エンティティの"ambient_fmod"に入力の"ToggleSound"を追加
-[*]エンティティに"SetCauser"入力を追加。 (例えばダメージトリガーにより) 与えたキルのクレジットを誰が得るかを設定する
+[*]エンティティに"SetCauser"入力を追加。 (例えば負傷トリガーにより) 得たキルのクレジットを誰が得るかを設定する
 [*]エンティティの"trigger_keypad"が、コードを入力したプレーヤーを"OnTrigger"のアクティベーターとして設定するようになりました
 [*]"ambient_fmod"入力の"IncreaseVolume"と"DecreaseVolume"が機能していなかったのを修正
 [/list]
