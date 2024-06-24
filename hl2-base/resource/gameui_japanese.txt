@@ -873,7 +873,7 @@
 "GameUI_vote_failed_cannot_kick_min"	"%s1 分後までこのプレイヤーをキックできません。"
 "GameUI_vote_failed_cannot_kick_mins"	"%s1 分後までこのプレイヤーをキックできません。"
 "GameUI_vote_failed_round_active"		"ラウンド進行中はプレイヤーをキックできません。"
-"GameUI_vote_failed_vote_in_progress"	"投票が現在始まっています。"
+"GameUI_vote_failed_vote_in_progress"	"投票は現在進行中です。"
 "GameUI_vote_failed_kick_limit"			"このマップまたはミッションのキック投票数が上限に達しました。"
 
 
