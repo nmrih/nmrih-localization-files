@@ -9,7 +9,7 @@
 [/list]
 [h2]変更[/h2]
 [list]
-[*]ダイナミックミュージックシステムにおける張力計算の改善 (#1482)
+[*]ダイナミックミュージックシステムにおけるテンション計算の改善 (#1482)
 [*]ランナー追跡時のダイナミックな音楽のプレイリストを調整し、イントロの長い曲をカット
 
 [*]翻訳を更新：
@@ -61,7 +61,7 @@
 [h3]nmo_lakeside[/h3]
 [list]
 [*]ダイアログキャプションを追加
-[*]ラジオのダイアログが永遠にループするのを修正
+[*]ラジオのダイアログが永遠にループする問題を修正
 [/list]
 [h3]nmo_rockpit[/h3]
 [list]
@@ -84,6 +84,6 @@
 [h3]nms_ransack[/h3]
 [list]
 [*]泥のテクスチャに変な反射があったのを修正
-[*]プレイヤーが全員救出、または救出が終了した場合、戦車が適切に後退するようになりました
+[*]プレイヤーが全員脱出するか、脱出猶予時間が終了した場合、戦車が適切に後退するようになりました
 [/list]
-</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.6 Released</string></content>
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">1.13.6 アップデートをリリース</string></content>

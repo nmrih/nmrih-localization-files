@@ -156,6 +156,6 @@
 [/list]
 [h3]nms_midwest[/h3]
 [list]
-[*]列車にダメージトリガーを追加し、邪魔されて他のプレーヤーが脱出できないのを阻止する
+[*]列車に負傷トリガーを追加し、邪魔されて他のプレーヤーが脱出できないのを阻止する
 [/list]
 </string><string id="subtitle"></string><string id="summary"></string><string id="title">1.13.3 アップデートをリリース</string></content>
