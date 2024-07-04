@@ -14,7 +14,7 @@
 	"nmo_fema_objective13"	"滅菌前の施設から脱出する"
 	"nmo_fema_objective14"	"隔離ドアを開けるための爆発物を探す"
 	"nmo_fema_objective15"	"ラジオで救助を呼ぶ"
-	"nmo_fema_objective16"	"通電した水たまりを通るため電源を切る"
+	"nmo_fema_objective16"	"漏電している水たまりを通るために、電源を切る"
 	"nmo_fema_objective17"	"クランクを使って試験ゲートを開ける"
 	"nmo_fema_objective18"	"雷管で岩を吹き飛ばす"
 	"nmo_fema_objective19"	"雷管を使って崩落した岩盤を除去する"
