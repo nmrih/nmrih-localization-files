@@ -11,7 +11,7 @@
 	"nmo_brooklyn_Objective14"	"食料を回収する"
 	"nmo_brooklyn_Objective13"	"アパートから脱出する"
 	"nmo_brooklyn_Objective8"	"ロックを解除する"
-	"nmo_brooklyn_Objective6"	"溶接機を探しガレージドアの開閉機にアクセスする"
+	"nmo_brooklyn_Objective6"	"溶接機を探し、ガレージドアの開閉機にアクセスする"
 	"nmo_brooklyn_Objective5"	"IEDを使って署内の窓を吹き飛ばす"
 	"nmo_brooklyn_Objective4"	"ヒューズを見つけ、エレベーターの電源を復旧させる"
 	"nmo_brooklyn_Objective3"	"待機場ゲートのキーコードを探す"
