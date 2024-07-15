@@ -66,9 +66,9 @@
 "NMRiH_Advanced_mp_decals"			"Лимит декалей (макс. 4096)"
 "NMRiH_Advanced_cl_mainmenu_background"		"Фон в меню"
 "NMRiH_Advanced_cl_mainmenu_background_Random"	"Случайный"
-"NMRiH_Advanced_cl_mainmenu_background_0"	"Anniversary (v1.12)"
-"NMRiH_Advanced_cl_mainmenu_background_1"	"Greenlight (v1.07)"
-"NMRiH_Advanced_cl_mainmenu_background_2"	"Rebirth (v1.10)"
+"NMRiH_Advanced_cl_mainmenu_background_0"	"Годовщина (вер. 1.12)"
+"NMRiH_Advanced_cl_mainmenu_background_1"	"Greenlight (вер. 1.07)"
+"NMRiH_Advanced_cl_mainmenu_background_2"	"Перерождение (вер. 1.10)"
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"Эффекты при ударе объекта"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Высокое качество, с частицами"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Низкое качество, без частиц"
@@ -175,8 +175,8 @@
 "NMRiH_UnmutedPlayer"			"Включены микрофон и чат у игрока %s1"
 
 "NMRiH_Challenge_Select"		"Выбрать испытание:"
-"NMRiH_Challenge_Random"		"Случайные задания"
-"NMRiH_Challenge_Random_Desc"		"Пройдите набор заданий как можно скорее!"
+"NMRiH_Challenge_Random"		"Случайные испытания"
+"NMRiH_Challenge_Random_Desc"		"Пройдите набор испытаний как можно скорее!"
 "NMRiH_Challenge_NoDesc"		"Нет описания."
 
 "Downloading_Workshop_Map"		"Скачивание карты из мастерской..."
