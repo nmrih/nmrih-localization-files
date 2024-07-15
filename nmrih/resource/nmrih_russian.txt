@@ -161,7 +161,7 @@
 "Weapon_fa_m16a4"			"M16A4"
 "Weapon_fa_m16a4_carryhandle"		"M16A4 с ручкой для переноски"
 "Weapon_fa_m92fs"			"«Беретта M92FS»"
-"Weapon_fa_mac10"			"Mac-10"
+"Weapon_fa_mac10"			"MAC-10"
 "Weapon_fa_mp5a4"			"HK MP5A4"
 "Weapon_fa_mkiii"			"«Ругер MKIII»"
 "Weapon_fa_sako85"			"«Зако 85»"
