@@ -324,7 +324,7 @@
 		"VoiceCommand.FemaleDefault.Stay" "Оставайся здесь!"
 		"VoiceCommand.FemaleDefault.ThankYou" "Спасибо!"
 		"VoiceCommand.FemaleDefault.Incoming"	"Наступают!"
-		"VoiceCommand.FemaleDefault.Injured"	"Я ранен!"
+		"VoiceCommand.FemaleDefault.Injured"	"Я ранена!"
 		"VoiceCommand.FemaleDefault.FireInTheHole" "Ложись!"
 
 		//reserve ammo check for magazines
