@@ -15,7 +15,7 @@
 	"nmo_toxtethdark_ObjH"	"救助を呼ぶ"
 	"nmo_toxtethdark_ObjI"	"電話に応える"
 	"nmo_toxtethdark_ObjJ"	"壁コンセント3個に溶接機を使い、火災を起こせ！"
-	"nmo_toxtethdark_ObjK"	"クランクを探しドアを開ける"
+	"nmo_toxtethdark_ObjK"	"クランクを探し、ドアを開ける"
 	"nmo_toxtethdark_ObjL"	"教会へ進む"
 	"nmo_toxtethdark_ObjM"	"マンホールの蓋に溶接機を使用"
 	"nmo_toxtethdark_ObjZ"	"ハーティントン・ロードに戻る"

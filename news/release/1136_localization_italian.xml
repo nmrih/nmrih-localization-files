@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">È stato rilasciato un aggiornamento per No More Room in Hell. L'aggiornamento verrà applicato automaticamente al riavvio di No More Room in Hell. Le principali modifiche includono:
+
+[h2]Aggiunte[/h2]
+[list]
+[*]Il gioco ora include una cache completa dei suoni, che risolve i notevoli problemi di framerate quando si riproducono i suoni per la prima volta, soprattutto per gli utenti con unità disco più lente
+[/list]
+[h2]Cambiamenti[/h2]
+[list]
+[*]Miglioramento del calcolo della tensione nel sistema musicale dinamico (#1482)
+[*]Tagliati i brani con lunghe introduzioni dalla playlist di musica dinamica d'inseguimento
+
+[*]Aggiornamento dei file di localizzazione:
+[list]
+
+[*]Grazie ai traduttori della comunità: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, Uncut[/b]
+[*]Volete tradurre NMRiH nella vostra lingua? [url=https://github.com/nmrih/nmrih-localization-files]Visitate il nostro repository di localizzazione su GitHub.[/url]
+[/list]
+[/list]
+[h2]Correzioni[/h2]
+[list]
+[*]Corretto il problema delle frecce dell'arco che scompaiono quando vengono scoccate a una certa distanza (#1479)
+[*]Corretti alcuni suoni ambientali come i toni delle stanze che si interrompono (#1482)
+[*]Corretto il comando "snd_restart" che non riavvia tutti i suoni ambientali nel gioco
+[*]Corretto il problema dei suoni ambientali convertiti che non hanno una distanza udibile corretta o che si ripetono all'infinito
+[*]Corretto un crash occasionale quando si seleziona un oggetto da una cassa di rifornimento
+[*]Corretto il punteggio con 2048 o più uccisioni
+[*]Corretto il crash delle opzioni dell'altoparlante nel menu principale
+[/list]
+[h2]Modifiche per mapper e modder[/h2]
+[list]
+[*]Aggiunti i campi chiave "Ammo Fill Min/Max" alle entità ammobox
+[*]Aggiunto un campo chiave opt-in per supportare il looping MP3, che risolve un problema sulle mappe esistenti in cui i suoni MP3 one-shot vanno in loop per sempre a causa di spawnflag errati
+[*]Aggiunto il supporto per il trigger di avanzamento dell'arma per "item_zippo"
+[*]L'entità "point_viewcontrol_multiplayer" ora accende la telecamera quando viene attivato l'input "AddPlayer".
+[*]Corretto !activator che non funzionava per "OnEndUse" su "trigger_progress_use" e "trigger_progress_weapon" (#1473)
+[*]Corretto il tempo di attesa per "point_viewcontrol_multiplayer" che non funzionava quando si seguiva un obiettivo
+[*]Corretto "point_viewcontrol_multiplayer" che non attivava la telecamera per i giocatori scelti quando l'input "Abilita" veniva attivato per la prima volta
+[*]Corretto il problema dei modificatori della velocità di movimento che non resettavano la velocità massima assoluta
+[*]Corretto l'input zombie "BecomeShambler" che non funzionava correttamente
+[*]FMOD: Migliorata la distanza udibile dei suoni ambientali, ora più simile a "ambient_generic"
+[*]MapHack: Aggiunta la funzione "$filter", rimuove le entità in base alla corrispondenza dei valori chiave
+[*]MapHack: Corretto "$modify" ignorando i filtri dei valori chiave multipli (#1474)
+[*]VScript: Aggiunta la funzione CConvars RegisterAdminCommand(), crea un comando di console che può essere eseguito solo dagli amministratori del server, altrimenti è identico a RegisterCommand()
+[*]VScript: Corretto CItem_InventoryBox function AllowEmpty() che non funzionava correttamente
+[/list]
+[h2]Modifiche per gli amministratori di server[/h2]
+[list]
+[*]Aggiunto il cvar "sv_infection_bypass", portato dal plugin QoL di Ryan
+[*]Aggiunto il cvar "sv_barricade_show_damage", portato dal plugin QoL di Ryan
+[*]Il cvar "sv_bullet_bypass_player" non ha più il flag di cheat
+[/list]
+[h1]Mappe[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Corretta la playlist musicale dinamica non corretta
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]Aggiunte le didascalie dei dialoghi
+[*]Corretto il dialogo della radio che va in loop per sempre
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Corrette le ombre esterne e gli oggetti di scena illuminati in modo errato
+[*]Rimossa una singola recinzione davanti all'ingresso della sala di controllo
+[*]Rimossi i fermi dalla scala che porta al piano superiore della sala di controllo
+[*]Piccoli aggiustamenti ad alcuni gruppi di oggetti per ridurre l'RNG
+[*]Gli zombie ora vengono allontanati dal cancello del recinto di spawn quando viene aperto
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Aggiunte le didascalie dei dialoghi
+[*]Corretto il dialogo finale della radio che viene riprodotto troppo a lungo
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]Aggiunte le didascalie dei dialoghi
+[*]Corretto il dialogo sull'elicottero di estrazione che va in loop per sempre
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]Corretto lo strano riflesso sulla texture del fango
+[*]Il carro armato ora torna correttamente indietro quando tutti i giocatori vengono estratti o quando l'estrazione scade.
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Rilascio dell'Aggiornamento 1.13.6</string></content>

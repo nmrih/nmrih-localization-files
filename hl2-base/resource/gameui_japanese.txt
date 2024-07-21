@@ -7,7 +7,7 @@
 "GameUI_ReverseMouseLabel"	"マウスの上下軸を反転させます"
 "GameUI_MouseLook"		"マウスルック"
 "GameUI_MouseLookLabel"		"マウスで見る方向を変えます"
-"GameUI_MouseFilter"		"マウスフィルタ"
+"GameUI_MouseFilter"		"マウスフィルター"
 "GameUI_MouseFilterLabel"	"2フレーム以上のマウスの反応をなめらかにします"
 "GameUI_MouseRaw"			"Raw input"
 "GameUI_MouseRaw_Hint"			"Raw input はコントロールパネルのマウス設定を通さずに、 デバイスから直接マウス移動量を読み込み、 マウス移動量をより正確に伝達します。"
@@ -16,8 +16,8 @@
 "GameUI_MouseAcceleration_Hint"	"マウスアクセラレーションを有効化 (raw input使用時推奨)"
 "GameUI_MouseAccelerationAmount_Hint"	"アクセラレーション値。 1.0は加速なしです。大きな値になるほど加速度が高くなります。"
 "GameUI_Joystick"		"ゲームパッド"
-"GameUI_JoystickLabel"		"ゲームパッドを有効にします"
-"GameUI_ReverseJoystick"	"ゲームパッドの上下軸を反転させます"
+"GameUI_JoystickLabel"		"ゲームパッドを有効"
+"GameUI_ReverseJoystick"	"ゲームパッドの上下軸を反転"
 "GameUI_JoystickLook"		"ジョイスティックルック"
 "GameUI_JoystickLookLabel"	"ゲームパッドで見る方向を変えます"
 "GameUI_JoystickLookType"	"ルックタイプ"
@@ -25,12 +25,12 @@
 "GameUI_JoystickInverted"	"反転"
 "GameUI_JoystickMoveLookSticks"	"移動/ルックのスティック"	[$WIN32]
 "GameUI_JoystickMoveLookSticks"	"サムスティック"	[$X360]
-"GameUI_JoystickSouthpaw"	"デュアルスティックコントローラーでスティックの機能をそれぞれ入れ替えます"	[$WIN32]
+"GameUI_JoystickSouthpaw"	"スティックの左右入れ替え"	[$WIN32]
 "GameUI_JoystickSouthpaw"	"サウスポー"	[$X360]
 "GameUI_JoystickLookSpeedPitch"	"垂直感度"
 "GameUI_JoystickLookSpeedYaw"	"水平感度"
-"GameUI_JoystickDuckZoomMode"	"しゃがむ/ズームモード"
-"GameUI_JoystickDuckMode"	"しゃがむモード"
+"GameUI_JoystickDuckZoomMode"	"しゃがみ/ズームモード"
+"GameUI_JoystickDuckMode"	"しゃがみモード"
 "GameUI_JoystickSprintMode"	"スティッキースプリント"
 "GameUI_AutoAim"		"自動照準"
 "GameUI_AutoaimLabel"		"自動的に敵に照準します。"
@@ -189,7 +189,7 @@
 "GameUI_DisplayMode"		"ディスプレイモード"
 "GameUI_Fullscreen"		"フルスクリーン"
 "GameUI_AspectRatio"		"アスペクト比"
-"GameUI_AspectNormal"		"標準(4:3)"
+"GameUI_AspectNormal"		"標準 (4:3)"
 "GameUI_AspectWide16x9"		"ワイドスクリーン 16:9"
 "GameUI_AspectWide16x10"	"ワイドスクリーン 16:10"
 "GameUI_AspectWide"		"ワイドスクリーン"
@@ -519,13 +519,13 @@
 "GameUI_TestSpeakersWarning_OkButton"	"スピーカーテストの実行"
 "GameUI_TestSpeakersWarning_CancelButton"	"キャンセル"
 
-"GameUI_GammaInfo"	"スライダで、下の 3 行のテキストがすべてよく見えるよう調整してください。"
+"GameUI_GammaInfo"	"スライダーで、下の3行のテキストがすべてよく見えるよう調整してください。"
 
 "GameUI_SaveAndQuitQuery_Info"	"終了する前に、今までのゲームをセーブしますか？"
 "GameUI_SaveAndQuit"		"セーブ"
 "GameUI_DontSaveAndQuit"	"セーブしない"
 
-"GameUI_Captioning"	"キャプションあり"
+"GameUI_Captioning"	"キャプション"
 "GameUI_NoClosedCaptions"	"キャプションなし"
 "GameUI_Subtitles"	"字幕 (会話のみ)"	[$WIN32]
 "GameUI_Subtitles"	"字幕"	[$X360]
@@ -873,7 +873,7 @@
 "GameUI_vote_failed_cannot_kick_min"	"%s1 分後までこのプレイヤーをキックできません。"
 "GameUI_vote_failed_cannot_kick_mins"	"%s1 分後までこのプレイヤーをキックできません。"
 "GameUI_vote_failed_round_active"		"ラウンド進行中はプレイヤーをキックできません。"
-"GameUI_vote_failed_vote_in_progress"	"投票が現在始まっています。"
+"GameUI_vote_failed_vote_in_progress"	"投票は現在進行中です。"
 "GameUI_vote_failed_kick_limit"			"このマップまたはミッションのキック投票数が上限に達しました。"
 
 

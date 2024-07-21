@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">地狱已满的版本更新现已发布，更新将会在您重新启动游戏时自动应用，新版本的主要变化包含以下内容：
+
+[h2]新增内容[/h2]
+[list]
+[*]游戏内目前包含了完整的音频缓存，这解决了在首次播放音频时帧数会显著卡顿的问题，尤其对于使用老旧硬盘进行游戏的玩家
+[/list]
+[h2]改动内容[/h2]
+[list]
+[*]改善了在动态音乐系统中的张力计算 (#1482)
+[*]调整了跑尸追逐时的动态音乐播放列表，前奏过于冗长的歌曲已被删除
+
+[*]语言本地化文件更新：
+[list]
+
+[*]感谢社区翻译者的贡献: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, Uncut[/b]
+[*]想要为地狱已满提供您的本地化语言支持吗？ [url=https://github.com/nmrih/nmrih-localization-files] 欢迎访问我们在 Github 上的文件仓库。[/url]
+[/list]
+[/list]
+[h2]已修复内容[/h2]
+[list]
+[*]修复了弓箭在一定距离内被发射后会消失的问题 (#1479)
+[*]修复了部分环境音效，例如房间音效会中断的错误 (#1482)
+[*]修复了控制台命令 "snd_restart" 不会重置所有游戏内环境音效的错误
+[*]修复了转换后的环境音效播放距离不正确或无限循环的问题
+[*]修复了从补给箱中选择物品偶尔会崩溃的问题
+[*]修复了得分数在 2048 或更多击杀数时滚动的问题
+[*]修复了在主菜单中扬声器设置崩溃的问题
+[/list]
+[h2]地图设计与模组制作改动[/h2]
+[list]
+[*]对 ammobox 实体新增了 "Ammo Fill Min/Max" 关键字
+[*]新增了 opt-in 选择性关键字用于支持 MP3 循环播放，修复了由于错误的 spawnflags 标识会导致一次性播放的 MP3 音效在现有地图中无限循环的问题
+[*]对 "item_zippo" 新增了 weapon progress trigger 支持
+[*]现在当 input "AddPlayer" 被触发后，实体 "point_viewcontrol_multiplayer" 将会打开摄像机
+[*]修复了实体 "trigger_progress_use" 和 "trigger_progress_weapon" 上的 !activator 在 output "OnEndUse" 中不起作用的问题 (#1473)
+[*]修复了在跟随目标时，实体 "point_viewcontrol_multiplayer" 的保持时间不起作用的问题
+[*]修复了在首次触发 input "Enable" 后，实体 "point_viewcontrol_multiplayer" 没有为选定玩家打开摄像机的问题
+[*]修复了移动速度修改器不会重置最大绝对速度的错误
+[*]修复了丧尸 input "BecomeShambler" 没有正确生效的问题
+[*]FMOD: 改善了环境音效的播放距离，现在将与 "ambient_generic" 配合得更加密切
+[*]MapHack: 新增了功能 "$filter"，将通过匹配键值的方式删除实体
+[*]MapHack: 修复了 "$modify" 会忽略多种键值过滤器的错误 (#1474)
+[*]VScript: 新增了 CConvars 类函数 RegisterAdminCommand()，用于创建一条只有服务器管理员才能执行的控制台命令，除此之外它的功能与函数 RegisterCommand() 完全相同
+[*]VScript: 修复了 CItem_InventoryBox 类函数 AllowEmpty() 不正确工作的问题
+[/list]
+[h2]服务器管理员改动[/h2]
+[list]
+[*]新增了控制台参数 "sv_infection_bypass"，移植自 Ryan's QoL plugin
+[*]新增了控制台参数 "sv_barricade_show_damage"，移植自 Ryan's QoL plugin
+[*]控制台参数 "sv_bullet_bypass_player" 现在将不再具有 cheat 标识
+[/list]
+[h1]地图改动[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]修复了错误的动态音乐播放列表
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]增加了对话字幕
+[*]修复了无线电收音机的对话会无限循环的问题
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]修复了室外阴影和部分 props 光照不正常的问题
+[*]移除了位于控制室入口前的一个栅栏
+[*]从通往控制室楼上的楼梯中移除了 clips 纹理
+[*]对部分道具池进行了微小调整以减少随机性
+[*]现在当栅栏门正在被打开时，丧尸们会被从栅栏门旁推开
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]增加了对话字幕
+[*]修复了在结尾时无线电收音机的对话播放时间过长的问题
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]增加了对话字幕
+[*]修复了撤离直升机的对话会无限循环的问题
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]修复了泥浆纹理上的反射错误
+[*]当所有玩家成功撤离或撤离时间结束后，坦克现在能够正确的向后移动了
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">版本更新 1.13.6 已发布</string></content>

@@ -19,7 +19,7 @@
 [*]翻訳を更新：
 [list]
 
-[*]コミュニティの翻訳者に感謝を述べます： [b]Blueberryy、BloodyMoonlight、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta[/b]
+[*]コミュニティの翻訳者に謝辞を述べます： [b]Blueberryy、BloodyMoonlight、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -44,7 +44,7 @@
 [*]未定義のベーステクスチャの値を要求するいくつかのシェーダーを修正
 [*]スキルショットのマテリアルがプリキャッシュされない問題を修正
 [/list]
-[h2]マップとMOD制作者向けの変更点[/h2]
+[h2]マップとMOD制作者向けの変更[/h2]
 [list]
 [*]cvarの"sv_ignore_win_loss_state"を追加し、勝敗によってラウンドが終了しないようにした
 [*]Hammerのゲームデータに、モデル/スキンセレクター付きの"generic_actor"やスクリプト化されたシーケンスなど、いくつかのエンティティを追加
@@ -97,7 +97,7 @@
 [/list]
 [h3]nmo_quarantine[/h3]
 [list]
-[*]検疫所内の食堂に屋根が見えるようになったので、ディテールを追加した
+[*]検疫所内の食堂で屋根が見えるようになったため、ディテールを追加
 [*]墓地のFastExトラックの近くに、詰所を塞いでいる可能性のあるゾンビの上にブーストするために使用できるボックスを追加
 [*]VPhysicsのクリッピングを下水道のオブジェクティブアイテムが失われる可能性のあるエリアに追加
 [*]スイカを追加
@@ -156,6 +156,6 @@
 [/list]
 [h3]nms_midwest[/h3]
 [list]
-[*]列車にダメージトリガーを追加し、邪魔されて他のプレーヤーが脱出できないのを阻止する
+[*]列車に負傷トリガーを追加し、邪魔されて他のプレイヤーが脱出できないのを阻止
 [/list]
 </string><string id="subtitle"></string><string id="summary"></string><string id="title">1.13.3 アップデートをリリース</string></content>
