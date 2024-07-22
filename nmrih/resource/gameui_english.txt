@@ -170,6 +170,7 @@
 
 "NMRiH_Scoreboard_MutePlayer"	"Mute player"
 "NMRiH_Scoreboard_ViewSteamProfile"	"View Steam profile"
+"NMRiH_Scoreboard_Bot"	"BOT"
 
 "NMRiH_MutedPlayer"	"Muted player %s1's voice"
 "NMRiH_UnmutedPlayer"	"Unmuted player %s1's voice"
