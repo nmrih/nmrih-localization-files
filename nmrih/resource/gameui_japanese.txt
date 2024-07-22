@@ -170,6 +170,7 @@
 
 "NMRiH_Scoreboard_MutePlayer"	"プレイヤーをミュート"
 "NMRiH_Scoreboard_ViewSteamProfile"	"Steam プロフィールを閲覧"
+"NMRiH_Scoreboard_Bot"	"ボット"
 
 "NMRiH_MutedPlayer"	"%s1 をミュートしました"
 "NMRiH_UnmutedPlayer"	"%s1 のミュートを解除しました"
@@ -178,6 +179,107 @@
 "NMRiH_Challenge_Random"	"ランダムオブジェクティブ"
 "NMRiH_Challenge_Random_Desc"	"目標をできるだけ早く達成すること！"
 "NMRiH_Challenge_NoDesc"	"記述なし"
+
+"Challenge_Name_nmo_anxiety_challenge_1"	"暴露療法"
+"Challenge_Desc_nmo_anxiety_challenge_1"	"心臓の鼓動を感じられるか？"
+
+"Challenge_Name_nmo_boardwalk_challenge_1"	"公園の散歩"
+"Challenge_Desc_nmo_boardwalk_challenge_1"	"温かい砂浜や無料の娯楽を楽しみ、それから... マジで言ってる？"
+
+"Challenge_Name_nmo_broadway_challenge_1"	"上映開始"
+"Challenge_Desc_nmo_broadway_challenge_1"	"上映時間に遅刻してしまった! 人混みをかき分けて、帰りの電車に乗ろう！"
+"Challenge_Name_nmo_broadway_challenge_2"	"モーテルラッシュ"
+"Challenge_Desc_nmo_broadway_challenge_2"	"予約はしていない。 プールの死体に気をつけろ。"
+"Challenge_Name_nmo_broadway_blitz_1"	"ブリッツ： 上映開始"
+"Challenge_Desc_nmo_broadway_blitz_1"	"ブリッツモードでは、目標を達成することで時間稼ぎをしながら攻略する。"
+"Challenge_Name_nmo_broadway_blitz_2"	"ブリッツ： モーテルラッシュ"
+"Challenge_Desc_nmo_broadway_blitz_2"	"ブリッツモードでは、目標を達成することで時間稼ぎをしながら攻略する。"
+
+"Challenge_Name_nmo_broadway2_challenge_1"	"バスケ選手の夢"
+"Challenge_Desc_nmo_broadway2_challenge_1"	"どの選手も、無事にここから脱出することを夢見ている。"
+"Challenge_Name_nmo_broadway2_challenge_2"	"レールに乗って"
+"Challenge_Desc_nmo_broadway2_challenge_2"	"救助ヘリはもうないようだ。 列車で脱出しよう！"
+"Challenge_Name_nmo_broadway2_challenge_3"	"この手に限る"
+"Challenge_Desc_nmo_broadway2_challenge_3"	"店の入り口に鍵がかかっていたのですが、新しく作ってもらっても？"
+
+"Challenge_Name_nmo_brooklyn_challenge_1"	"体幹トレーニング"
+"Challenge_Desc_nmo_brooklyn_challenge_1"	"この障害物は自分では動いてくれないみたいだ..."
+"Challenge_Name_nmo_brooklyn_challenge_2"	"ショップ&チョップ"
+"Challenge_Desc_nmo_brooklyn_challenge_2"	"旅に出るなら、物資が必要だ！"
+
+"Challenge_Name_nmo_cabin_challenge_1"	"キャビン・フィーバー"
+"Challenge_Desc_nmo_cabin_challenge_1"	"隣人は、あなたのふざけた態度にあまり感心していないようだ。 ここから出て行った方がいいだろう。"
+"Challenge_Name_nmo_cabin_challenge_2"	"アンダー・ザ・キャビン"
+"Challenge_Desc_nmo_cabin_challenge_2"	"管理人はあそこに何を隠したのだろうか？ 探してみよう。"
+"Challenge_Name_nmo_cabin_challenge_3"	"秘密の知識"
+"Challenge_Desc_nmo_cabin_challenge_3"	"家族こそが答え。 動く本棚が登場するぞ！"
+"Challenge_Name_nmo_cabin_blitz_1"	"ブリッツ： キャビン・フィーバー"
+"Challenge_Desc_nmo_cabin_blitz_1"	"今にも奴らは迫ってきている... ブリッツモードでは、目標を達成することで時間稼ぎをしながら攻略する。"
+
+"Challenge_Name_nmo_chinatown_challenge_1"	"コーナーで差をつけろ"
+"Challenge_Desc_nmo_chinatown_challenge_1"	"ショートカットを使ってマップを進もう。"
+"Challenge_Name_nmo_chinatown_blitz_1"	"ブリッツ： ラッシュアワー"
+"Challenge_Desc_nmo_chinatown_blitz_1"	"ブリッツモードでは、目標を達成することで時間稼ぎをしながら攻略する。"
+
+"Challenge_Name_nmo_cleopas_challenge_1"	"計画"
+"Challenge_Desc_nmo_cleopas_challenge_1"	"私達のためにこのような目標を定めてくれるとは、なんて素敵な人でしょう。"
+"Challenge_Name_nmo_cleopas_challenge_2"	"不法侵入だ！"
+"Challenge_Desc_nmo_cleopas_challenge_2"	"家に押し入られるのを嫌がる人もいるかもしれない。"
+
+"Challenge_Name_nmo_fema_challenge_1"	"表向きの英雄"
+"Challenge_Desc_nmo_fema_challenge_1"	"レトロウイルスワクチンの確保に協力すれば、恩返しができるかもしれない。"
+"Challenge_Name_nmo_fema_challenge_2"	"給油中"
+"Challenge_Desc_nmo_fema_challenge_2"	"燃料がなければ離陸できない。 ディーゼル燃料を送り続けてくれ！"
+
+"Challenge_Name_nmo_junction_challenge_1"	"安全など存在しない"
+"Challenge_Desc_nmo_junction_challenge_1"	"街から脱出するためにも、まずは避難所を離れなくては。"
+
+"Challenge_Name_nmo_lakeside_challenge_1"	"平常運転"
+"Challenge_Desc_nmo_lakeside_challenge_1"	"こんなことは日常茶飯事だ。"
+"Challenge_Name_nmo_lakeside_challenge_2"	"ダウンタイム"
+"Challenge_Desc_nmo_lakeside_challenge_2"	"繋がらない？ 自分だけじゃないみたいだ！"
+
+"Challenge_Name_nmo_quarantine_challenge_1"	"収容違反"
+"Challenge_Desc_nmo_quarantine_challenge_1"	"やっべ、やらかしたっ。"
+
+"Challenge_Name_nmo_rockpit_challenge_1"	"自信家"
+"Challenge_Desc_nmo_rockpit_challenge_1"	"我々はこの場所を知り尽くしている。 公園を散歩するようなものさ。"
+"Challenge_Name_nmo_rockpit_challenge_2"	"高ストレス"
+"Challenge_Desc_nmo_rockpit_challenge_2"	"可能な限り長い目標チェーンでラウンドを完了する。"
+"Challenge_Name_nmo_rockpit_blitz_1"	"ブリッツ： 自信家"
+"Challenge_Desc_nmo_rockpit_blitz_1"	"ブリッツモードでは、目標を達成することで時間稼ぎをしながら攻略する。"
+
+"Challenge_Name_nmo_shelter_challenge_1"	"ここにはシェルターは無い！"
+"Challenge_Desc_nmo_shelter_challenge_1"	"娯楽と戦争の線引きは細くなる。"
+
+"Challenge_Name_nmo_suzhou_challenge_1"	"ツイてない日"
+"Challenge_Desc_nmo_suzhou_challenge_1"	"可能な限り長い目標チェーンでラウンドを完了する。"
+
+"Challenge_Name_nmo_toxteth_challenge_1"	"墓ダッシュ"
+"Challenge_Desc_nmo_toxteth_challenge_1"	"墓地を通り抜けることをお勧めする..."
+"Challenge_Name_nmo_toxteth_challenge_2"	"下水清掃"
+"Challenge_Desc_nmo_toxteth_challenge_2"	"まぁ、ドロドロになってもいいなら..."
+"Challenge_Name_nmo_toxteth_blitz_1"	"ブリッツ： 墓ダッシュ"
+"Challenge_Desc_nmo_toxteth_blitz_1"	"あまり時間がない。急いでくれ！ ブリッツモードでは、目標を達成することで時間稼ぎをしながら攻略する。"
+"Challenge_Name_nmo_toxteth_blitz_2"	"ブリッツ： 下水清掃"
+"Challenge_Desc_nmo_toxteth_blitz_2"	"他人の排泄物の上を歩いていることに気づいてる？ ブリッツモードでは、目標を達成することで時間稼ぎをしながら攻略する。"
+
+"Challenge_Name_nmo_toxtethdark_challenge_1"	"墓ダッシュ (夜)"
+"Challenge_Desc_nmo_toxtethdark_challenge_1"	"墓地を通り抜けることをお勧めする..."
+"Challenge_Name_nmo_toxtethdark_challenge_2"	"下水清掃 (夜)"
+"Challenge_Desc_nmo_toxtethdark_challenge_2"	"まぁ、ドロドロになってもいいなら..."
+
+"Challenge_Name_nmo_underground_challenge_1"	"通勤ラッシュ"
+"Challenge_Desc_nmo_underground_challenge_1"	"遠くへは行けないだろう..."
+"Challenge_Name_nmo_underground_challenge_2"	"カートを押せ"
+"Challenge_Desc_nmo_underground_challenge_2"	"小さなカートを押さなければ！"
+"Challenge_Name_nmo_underground_challenge_3"	"近接攻撃マニア"
+"Challenge_Desc_nmo_underground_challenge_3"	"銃や爆発物を使わずにマップを完了しよう！"
+
+"Challenge_Name_nmo_zephyr_challenge_1"	"Zephyrの道"
+"Challenge_Desc_nmo_zephyr_challenge_1"	"人間の声を聞くのは新鮮な感じだ。"
+"Challenge_Name_nmo_zephyr_challenge_2"	"メンテナンス不備"
+"Challenge_Desc_nmo_zephyr_challenge_2"	"あの技士はどうした？ 何も動いてないんだが。"
 
 "Downloading_Workshop_Map"		"ワークショップからマップをダウンロード中..."
 "Downloading_Workshop_Map_Progress"		"ワークショップからマップをダウンロード中... (%s1/%s2)"
@@ -201,6 +303,18 @@
 "NMRiH_Mutator_ConfigFileType"	"ミューテーターの設定 (.txt)"
 "NMRiH_Mutator_ExportCfgSuccess"	"ミューテーターの設定が正常にエクスポートされました。"
 "NMRiH_Mutator_FailedToImportConfig"	"ミューテーターの設定のインポートに失敗しました。 ファイルが無効です。"
+
+"Mutator_Name_deathnotice"	"死亡ログ"
+"Mutator_Desc_deathnotice"	"キル/デスを表示"
+
+"Mutator_Name_nostamina"	"スタミナなし"
+"Mutator_Desc_nostamina"	"スタミナ要素を無効化する"
+
+"Mutator_Name_nozombierespawn"	"ゾンビのリスポーン無効化"
+"Mutator_Desc_nozombierespawn"	"ゾンビがリスポーンしなくなる"
+
+"Mutator_Name_weightlessammo"	"超軽量弾薬"
+"Mutator_Desc_weightlessammo"	"弾薬がインベントリを圧迫しなくなる"
 
 "NMRiH_DeckCompatibility_Title"	"Steam Deckとの互換性"
 "NMRiH_DeckCompatibility_Message1"	"Steam Deckでプレイされているようですね。"
