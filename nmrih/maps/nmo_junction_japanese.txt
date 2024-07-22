@@ -12,7 +12,7 @@
 	"nmo_junction_Pawnshop_fense_door"	"質屋のドアを開ける"
 	"nmo_junction_pawnshop_door_code"	"アクセスコードを入力する"
 	"nmo_junction_Office_progress"	"別の出口を探す"
-	"nmo_junction_Find_sewer_key"	"下水道の鍵を見つけ、永久に街から脱出する"
+	"nmo_junction_Find_sewer_key"	"下水道の鍵を見つけ、街から脱出する"
 	"nmo_junction_Finale_tnt"	"トンネル内に爆発物を3つ設置し、逃げ道を確保する"
 }
 }
