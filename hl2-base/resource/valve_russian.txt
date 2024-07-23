@@ -498,7 +498,7 @@ In Overview Map Mode move around with:
 "[english]Valve_Hud_FLASHLIGHT"	"FLASHLIGHT"
 "Valve_Hud_SPRINT"	"БЕГ"
 "[english]Valve_Hud_SPRINT"	"SPRINT"
-"Valve_Hud_BONUS_PROGRESS"	"ДОП. КАРТА"
+"Valve_Hud_BONUS_PROGRESS"	"БОНУС"
 "[english]Valve_Hud_BONUS_PROGRESS"	"BONUS"
 "Valve_Hud_SQUAD_FOLLOWING"	"ОТРЯД ДВИГАЕТСЯ"
 "[english]Valve_Hud_SQUAD_FOLLOWING"	"SQUAD FOLLOWING"
