@@ -99,7 +99,7 @@
 "[english]GameUI_BonusMaps"	"BONUS MAPS"
 "GameUI_BonusMapsCompletion"	"Пройдена"
 "[english]GameUI_BonusMapsCompletion"	"Complete"
-"GameUI_BonusMapsUnlocked"	"+Доп. карта"
+"GameUI_BonusMapsUnlocked"	"+Бонус"
 "[english]GameUI_BonusMapsUnlocked"	"+Bonus"
 "GameUI_BonusMapsStandard"	"Стандарт"
 "[english]GameUI_BonusMapsStandard"	"Standard"
