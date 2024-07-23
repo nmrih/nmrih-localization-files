@@ -63,7 +63,7 @@
 "NMRiH_Advanced_nmrih_lensflare"		"Блики"
 "NMRiH_Advanced_nmrih_dof"			"Глубина резкости"
 "NMRiH_Advanced_nmrih_ssao"			"Модель затенения (HBAO)"
-"NMRiH_Advanced_mp_decals"			"Лимит декалей (макс. 4096)"
+"NMRiH_Advanced_mp_decals"			"Предел декалей (макс. 4096)"
 "NMRiH_Advanced_cl_mainmenu_background"		"Фон в меню"
 "NMRiH_Advanced_cl_mainmenu_background_Random"	"Случайный"
 "NMRiH_Advanced_cl_mainmenu_background_0"	"Годовщина (вер. 1.12)"
