@@ -170,6 +170,7 @@
 
 "NMRiH_Scoreboard_MutePlayer"		"Отключить микрофон и чат"
 "NMRiH_Scoreboard_ViewSteamProfile"	"Показать профиль Steam"
+"NMRiH_Scoreboard_Bot"	"БОТ"
 
 "NMRiH_MutedPlayer"			"Отключены микрофон и чат у игрока %s1"
 "NMRiH_UnmutedPlayer"			"Включены микрофон и чат у игрока %s1"
@@ -178,6 +179,107 @@
 "NMRiH_Challenge_Random"		"Случайные испытания"
 "NMRiH_Challenge_Random_Desc"		"Пройдите набор испытаний как можно скорее!"
 "NMRiH_Challenge_NoDesc"		"Нет описания."
+
+"Challenge_Name_nmo_anxiety_challenge_1"	"Длительная терапия"
+"Challenge_Desc_nmo_anxiety_challenge_1"	"Чувствуешь, как бьётся твоё сердце?"
+
+"Challenge_Name_nmo_boardwalk_challenge_1"	"Прогулка по парку"
+"Challenge_Desc_nmo_boardwalk_challenge_1"	"Наслаждайтесь тёплым песком, бесплатными развлечениями и... да кого я обманываю."
+
+"Challenge_Name_nmo_broadway_challenge_1"	"Кинопремьера"
+"Challenge_Desc_nmo_broadway_challenge_1"	"Вы опаздываете на премьеру! Проберитесь сквозь толпу и успейте на поезд домой!"
+"Challenge_Name_nmo_broadway_challenge_2"	"Мотельный прорыв"
+"Challenge_Desc_nmo_broadway_challenge_2"	"Никаких бронирований, обратите внимание на тот труп в бассейне."
+"Challenge_Name_nmo_broadway_blitz_1"	"Блиц: Кинопремьера"
+"Challenge_Desc_nmo_broadway_blitz_1"	"В режиме «Блиц» выиграйте больше времени, выполняя задания!"
+"Challenge_Name_nmo_broadway_blitz_2"	"Блиц: Мотельный прорыв"
+"Challenge_Desc_nmo_broadway_blitz_2"	"В режиме «Блиц» выиграйте больше времени, выполняя задания!"
+
+"Challenge_Name_nmo_broadway2_challenge_1"	"Баскетбольные мечты"
+"Challenge_Desc_nmo_broadway2_challenge_1"	"Каждый игрок мечтает... выбраться отсюда целым и невредимым."
+"Challenge_Name_nmo_broadway2_challenge_2"	"По рельсам"
+"Challenge_Desc_nmo_broadway2_challenge_2"	"Похоже, нашего спасательного вертолёта больше нет. Спасайтесь на поезде!"
+"Challenge_Name_nmo_broadway2_challenge_3"	"Единственный путь"
+"Challenge_Desc_nmo_broadway2_challenge_3"	"Вход в магазин заблокирован, можно ли сделать новый?"
+
+"Challenge_Name_nmo_brooklyn_challenge_1"	"Интенсивнные тренировки"
+"Challenge_Desc_nmo_brooklyn_challenge_1"	"Это препятствие само по себе не сдвинется..."
+"Challenge_Name_nmo_brooklyn_challenge_2"	"Закупаемся и отбиваем"
+"Challenge_Desc_nmo_brooklyn_challenge_2"	"Если мы хотим отправиться в путь, нам понадобятся припасы!"
+
+"Challenge_Name_nmo_cabin_challenge_1"	"Лихорадка в хижине"
+"Challenge_Desc_nmo_cabin_challenge_1"	"Местные соседи, похоже, не слишком впечатлены вашими выходками, лучше убирайтесь отсюда."
+"Challenge_Name_nmo_cabin_challenge_2"	"Под хижиной"
+"Challenge_Desc_nmo_cabin_challenge_2"	"Что там прятал уборщик? Давайте выясним."
+"Challenge_Name_nmo_cabin_challenge_3"	"Тайное знание"
+"Challenge_Desc_nmo_cabin_challenge_3"	"Семья - вот ответ на этот вопрос, и теперь у нас есть передвижные книжные шкафы!"
+"Challenge_Name_nmo_cabin_blitz_1"	"Блиц: Лихорадка в хижине"
+"Challenge_Desc_nmo_cabin_blitz_1"	"Теперь они действительно засекли нас... В режиме «Блиц» выиграйте больше времени, выполняя задания!"
+
+"Challenge_Name_nmo_chinatown_challenge_1"	"Срезая углы"
+"Challenge_Desc_nmo_chinatown_challenge_1"	"Прокладывайте свой путь по карте, используя короткие пути."
+"Challenge_Name_nmo_chinatown_blitz_1"	"Блиц: Час пик"
+"Challenge_Desc_nmo_chinatown_blitz_1"	"В режиме «Блиц» выиграйте больше времени, выполняя задания!"
+
+"Challenge_Name_nmo_cleopas_challenge_1"	"План"
+"Challenge_Desc_nmo_cleopas_challenge_1"	"Как хорошо, что кто-то поставил перед нами такие задания заблаговременно."
+"Challenge_Name_nmo_cleopas_challenge_2"	"Грабитель!"
+"Challenge_Desc_nmo_cleopas_challenge_2"	"Людям может не понравиться, если вы вломитесь к ним в дом."
+
+"Challenge_Name_nmo_fema_challenge_1"	"Народный герой"
+"Challenge_Desc_nmo_fema_challenge_1"	"Помогите получить ретровирусную вакцину, и мы, возможно, ответим вам тем же."
+"Challenge_Name_nmo_fema_challenge_2"	"Качай"
+"Challenge_Desc_nmo_fema_challenge_2"	"Мы не сможем взлететь без горючего, продолжайте качать дизель!"
+
+"Challenge_Name_nmo_junction_challenge_1"	"Убежищ больше нет"
+"Challenge_Desc_nmo_junction_challenge_1"	"Вырвитесь из города."
+
+"Challenge_Name_nmo_lakeside_challenge_1"	"Обычное дело"
+"Challenge_Desc_nmo_lakeside_challenge_1"	"Такое увидишь не каждый день."
+"Challenge_Name_nmo_lakeside_challenge_2"	"Техобслуживание"
+"Challenge_Desc_nmo_lakeside_challenge_2"	"Не можете подключиться? Не вы одни такие!"
+
+"Challenge_Name_nmo_quarantine_challenge_1"	"Разгерметизация"
+"Challenge_Desc_nmo_quarantine_challenge_1"	"Ой, вот мы натворили дел."
+
+"Challenge_Name_nmo_rockpit_challenge_1"	"Работа на износ"
+"Challenge_Desc_nmo_rockpit_challenge_1"	"Мы знаем это место вдоль и поперёк, это будет как два пальца."
+"Challenge_Name_nmo_rockpit_challenge_2"	"В напряжении"
+"Challenge_Desc_nmo_rockpit_challenge_2"	"Пройдите раунд с самой длинной из возможных цепочек заданий."
+"Challenge_Name_nmo_rockpit_blitz_1"	"Блиц: Работа на износ"
+"Challenge_Desc_nmo_rockpit_blitz_1"	"В режиме «Блиц» выиграйте больше времени, выполняя задания!"
+
+"Challenge_Name_nmo_shelter_challenge_1"	"Здесь нет убежища!"
+"Challenge_Desc_nmo_shelter_challenge_1"	"Тонкая грань между развлечением и войной."
+
+"Challenge_Name_nmo_suzhou_challenge_1"	"День плохой причёски"
+"Challenge_Desc_nmo_suzhou_challenge_1"	"Пройдите раунд с самой длинной из возможных цепочек заданий."
+
+"Challenge_Name_nmo_toxteth_challenge_1"	"Кладбищенский рывок"
+"Challenge_Desc_nmo_toxteth_challenge_1"	"Я предлагаю срезать через кладбище..."
+"Challenge_Name_nmo_toxteth_challenge_2"	"Прочистка канализации"
+"Challenge_Desc_nmo_toxteth_challenge_2"	"Ну, если вы не возражаете против грязи..."
+"Challenge_Name_nmo_toxteth_blitz_1"	"Блиц: Кладбищенский рывок"
+"Challenge_Desc_nmo_toxteth_blitz_1"	"У нас не так много времени, так что поторопитесь! В режиме «Блиц» выиграйте больше времени, выполняя задания!"
+"Challenge_Name_nmo_toxteth_blitz_2"	"Блиц: Прочистка канализации"
+"Challenge_Desc_nmo_toxteth_blitz_2"	"Вы ведь понимаете, что ходите по чужим экскрементам? В режиме «Блиц» выиграйте больше времени, выполняя задания!"
+
+"Challenge_Name_nmo_toxtethdark_challenge_1"	"Кладбищенский рывок (тёмное)"
+"Challenge_Desc_nmo_toxtethdark_challenge_1"	"Я предлагаю срезать через кладбище..."
+"Challenge_Name_nmo_toxtethdark_challenge_2"	"Прочистка канализации (тёмное)"
+"Challenge_Desc_nmo_toxtethdark_challenge_2"	"Ну, если вы не возражаете против грязи..."
+
+"Challenge_Name_nmo_underground_challenge_1"	"Пригородный ад"
+"Challenge_Desc_nmo_underground_challenge_1"	"Вы далеко не уйдёте..."
+"Challenge_Name_nmo_underground_challenge_2"	"Толкайте вагонетку"
+"Challenge_Desc_nmo_underground_challenge_2"	"Нужно толкать маленькую вагонетку!"
+"Challenge_Name_nmo_underground_challenge_3"	"Обычный ценитель рукопашного боя"
+"Challenge_Desc_nmo_underground_challenge_3"	"Пройдите карту без оружия и взрывчатки!"
+
+"Challenge_Name_nmo_zephyr_challenge_1"	"Путь Зефирса"
+"Challenge_Desc_nmo_zephyr_challenge_1"	"Слышать человеческий голос так приятно."
+"Challenge_Name_nmo_zephyr_challenge_2"	"Отсутствие обслуживания"
+"Challenge_Desc_nmo_zephyr_challenge_2"	"Куда делся инженер? Кажется, ничего не работает."
 
 "Downloading_Workshop_Map"		"Скачивание карты из мастерской..."
 "Downloading_Workshop_Map_Progress"	"Скачивание карты из мастерской... (%s1/%s2)"
@@ -201,6 +303,18 @@
 "NMRiH_Mutator_ConfigFileType"	"Конфигурация мутатора (.txt)"
 "NMRiH_Mutator_ExportCfgSuccess"	"Конфигурация мутатора экспортирована успешно."
 "NMRiH_Mutator_FailedToImportConfig"	"Не удалось импортировать конфигурацию мутатора. Файл недействителен."
+
+"Mutator_Name_deathnotice"	"Уведомления о смерти"
+"Mutator_Desc_deathnotice"	"Отображает убийства / смерти."
+
+"Mutator_Name_nostamina"	"Без выносливости"
+"Mutator_Desc_nostamina"	"У игроков бесконечная выносливость."
+
+"Mutator_Name_nozombierespawn"	"Нет появлений зомби"
+"Mutator_Desc_nozombierespawn"	"Зомби не будут появляться."
+
+"Mutator_Name_weightlessammo"	"Невесомые боеприпасы"
+"Mutator_Desc_weightlessammo"	"Боеприпасы не занимают место в инвентаре."
 
 "NMRiH_DeckCompatibility_Title"	"Совместимость со Steam Deck"
 "NMRiH_DeckCompatibility_Message1"	"Похоже, вы играете на Steam Deck."
