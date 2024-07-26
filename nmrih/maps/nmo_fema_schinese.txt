@@ -30,7 +30,7 @@
 	"nmo_fema_Objective32"	"寻找保险丝并启动通讯站的发电机"
 	"nmo_fema_Objective33"	"使用无线电发送救援信号"
 	"nmo_fema_Objective34"	"将加油枪插入直升机的油箱"
-	"nmo_fema_Objective35"	"使用加油枪为直升机添加柴油"
+	"nmo_fema_Objective35"	"使用加油枪为直升机加油"
 	"nmo_fema_Objective36"	"用焊枪焊开隔离大门的三重锁定"
 	"nmo_fema_Objective37"	"寻找梯子并潜入基地隔离区"
 	"nmo_fema_msg1"		"消杀程序正开始倒计时"

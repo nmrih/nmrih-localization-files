@@ -170,6 +170,7 @@
 
 "NMRiH_Scoreboard_MutePlayer"	"禁言玩家"
 "NMRiH_Scoreboard_ViewSteamProfile"	"查看Steam个人信息"
+"NMRiH_Scoreboard_Bot"	"电脑"
 
 "NMRiH_MutedPlayer"	"已静音 %s1 的麦克风"
 "NMRiH_UnmutedPlayer"	"取消静音 %s1 的麦克风"
@@ -178,6 +179,107 @@
 "NMRiH_Challenge_Random"	"随机任务"
 "NMRiH_Challenge_Random_Desc"	"尽你最快的速度完成任务"
 "NMRiH_Challenge_NoDesc"	"没有可用的描述信息"
+
+"Challenge_Name_nmo_anxiety_challenge_1"	"暴露疗法"
+"Challenge_Desc_nmo_anxiety_challenge_1"	"你能感受到你的心跳吗？"
+
+"Challenge_Name_nmo_boardwalk_challenge_1"	"公园漫步"
+"Challenge_Desc_nmo_boardwalk_challenge_1"	"享受温暖的沙滩，体验免费的娱乐，还有... 我在骗谁呢？"
+
+"Challenge_Name_nmo_broadway_challenge_1"	"影院首映"
+"Challenge_Desc_nmo_broadway_challenge_1"	"你要错过首映式了！快穿过人群，赶上回家的列车吧！"
+"Challenge_Name_nmo_broadway_challenge_2"	"旅店急速"
+"Challenge_Desc_nmo_broadway_challenge_2"	"没有预约，当心池塘里的尸体。"
+"Challenge_Name_nmo_broadway_blitz_1"	"突袭: 影院首映"
+"Challenge_Desc_nmo_broadway_blitz_1"	"在突袭模式中，通过完成任务目标来争取更多时间！"
+"Challenge_Name_nmo_broadway_blitz_2"	"突袭: 旅店急速"
+"Challenge_Desc_nmo_broadway_blitz_2"	"在突袭模式中，通过完成任务目标来争取更多时间！"
+
+"Challenge_Name_nmo_broadway2_challenge_1"	"篮球梦"
+"Challenge_Desc_nmo_broadway2_challenge_1"	"每个人都梦想着... 完好无缺地离开这里。"
+"Challenge_Name_nmo_broadway2_challenge_2"	"铁路之上"
+"Challenge_Desc_nmo_broadway2_challenge_2"	"看起来不会再有撤离直升机了，乘坐火车撤离！"
+"Challenge_Name_nmo_broadway2_challenge_3"	"艺术就是爆炸"
+"Challenge_Desc_nmo_broadway2_challenge_3"	"商店的大门被锁住了，你能开一个新的出来吗？"
+
+"Challenge_Name_nmo_brooklyn_challenge_1"	"核心训练"
+"Challenge_Desc_nmo_brooklyn_challenge_1"	"主动出击，问题才会被解决..."
+"Challenge_Name_nmo_brooklyn_challenge_2"	"“剁手”还是剁手"
+"Challenge_Desc_nmo_brooklyn_challenge_2"	"如果我们要出发，就得需要补给！"
+
+"Challenge_Name_nmo_cabin_challenge_1"	"幽居病"
+"Challenge_Desc_nmo_cabin_challenge_1"	"本地居民似乎对你的行为并不感冒，最好还是赶快离开这里。"
+"Challenge_Name_nmo_cabin_challenge_2"	"木屋之下"
+"Challenge_Desc_nmo_cabin_challenge_2"	"看门人在那下面藏了什么？让我们一探究竟。"
+"Challenge_Name_nmo_cabin_challenge_3"	"秘密知识"
+"Challenge_Desc_nmo_cabin_challenge_3"	"全家福就是答案，现在需要移动书架！"
+"Challenge_Name_nmo_cabin_blitz_1"	"突袭: 幽居病"
+"Challenge_Desc_nmo_cabin_blitz_1"	"现在它们真的盯上我们了... 在突袭模式中，通过完成任务目标来争取更多时间！"
+
+"Challenge_Name_nmo_chinatown_challenge_1"	"投机取巧"
+"Challenge_Desc_nmo_chinatown_challenge_1"	"通过各种捷径穿越城市。"
+"Challenge_Name_nmo_chinatown_blitz_1"	"突袭: 尖峰时刻"
+"Challenge_Desc_nmo_chinatown_blitz_1"	"在突袭模式中，通过完成任务目标来争取更多时间！"
+
+"Challenge_Name_nmo_cleopas_challenge_1"	"逃生计划"
+"Challenge_Desc_nmo_cleopas_challenge_1"	"能有人指引我们该完成哪些任务真是太好了。"
+"Challenge_Name_nmo_cleopas_challenge_2"	"入侵者！"
+"Challenge_Desc_nmo_cleopas_challenge_2"	"人们可能并不喜欢你闯入他们的家。"
+
+"Challenge_Name_nmo_fema_challenge_1"	"平民英雄"
+"Challenge_Desc_nmo_fema_challenge_1"	"你需要协助回收逆转录病毒疫苗，作为回报我们会帮你个忙。"
+"Challenge_Name_nmo_fema_challenge_2"	"加把劲"
+"Challenge_Desc_nmo_fema_challenge_2"	"没有燃料我们就无法起飞，保持住燃料的输送！"
+
+"Challenge_Name_nmo_junction_challenge_1"	"无家可归"
+"Challenge_Desc_nmo_junction_challenge_1"	"逃出城市的路上，最好别忘了喘口气。"
+
+"Challenge_Name_nmo_lakeside_challenge_1"	"磨坊出逃"
+"Challenge_Desc_nmo_lakeside_challenge_1"	"这种事可不是每天都能见到的。"
+"Challenge_Name_nmo_lakeside_challenge_2"	"停摆时刻"
+"Challenge_Desc_nmo_lakeside_challenge_2"	"连不上网吗？你不是一个人！"
+
+"Challenge_Name_nmo_quarantine_challenge_1"	"封锁失败"
+"Challenge_Desc_nmo_quarantine_challenge_1"	"该死，这下我们搞砸了。"
+
+"Challenge_Name_nmo_rockpit_challenge_1"	"穷抖威风"
+"Challenge_Desc_nmo_rockpit_challenge_1"	"我们对这里了如指掌，简直轻车熟路。"
+"Challenge_Name_nmo_rockpit_challenge_2"	"任重道远"
+"Challenge_Desc_nmo_rockpit_challenge_2"	"通过尽可能最长的任务链完成一局游戏。"
+"Challenge_Name_nmo_rockpit_blitz_1"	"突袭: 穷抖威风"
+"Challenge_Desc_nmo_rockpit_blitz_1"	"在突袭模式中，通过完成任务目标来争取更多时间！"
+
+"Challenge_Name_nmo_shelter_challenge_1"	"这里没有避难所！"
+"Challenge_Desc_nmo_shelter_challenge_1"	"娱乐与斗争仅在一念之间。"
+
+"Challenge_Name_nmo_suzhou_challenge_1"	"倒霉的一天"
+"Challenge_Desc_nmo_suzhou_challenge_1"	"通过尽可能最长的任务链完成一局游戏。"
+
+"Challenge_Name_nmo_toxteth_challenge_1"	"墓地冲刺"
+"Challenge_Desc_nmo_toxteth_challenge_1"	"我的建议是穿过墓地..."
+"Challenge_Name_nmo_toxteth_challenge_2"	"清扫下水道"
+"Challenge_Desc_nmo_toxteth_challenge_2"	"我是说，如果你不介意淤泥的话..."
+"Challenge_Name_nmo_toxteth_blitz_1"	"突袭: 墓地冲刺"
+"Challenge_Desc_nmo_toxteth_blitz_1"	"我们没有太多时间，所以一定要快！在突袭模式中，通过完成任务目标来争取更多时间！"
+"Challenge_Name_nmo_toxteth_blitz_2"	"突袭: 清扫下水道"
+"Challenge_Desc_nmo_toxteth_blitz_2"	"你是知道你正走在其他人的排泄物上的对吧？在突袭模式中，通过完成任务目标来争取更多时间！"
+
+"Challenge_Name_nmo_toxtethdark_challenge_1"	"墓地冲刺 (黑夜)"
+"Challenge_Desc_nmo_toxtethdark_challenge_1"	"我的建议是穿过墓地..."
+"Challenge_Name_nmo_toxtethdark_challenge_2"	"清扫下水道 (黑夜)"
+"Challenge_Desc_nmo_toxtethdark_challenge_2"	"我是说，如果你不介意淤泥的话..."
+
+"Challenge_Name_nmo_underground_challenge_1"	"通勤地狱"
+"Challenge_Desc_nmo_underground_challenge_1"	"你是走不远的..."
+"Challenge_Name_nmo_underground_challenge_2"	"手推车"
+"Challenge_Desc_nmo_underground_challenge_2"	"我们必须得推那辆小推车！"
+"Challenge_Name_nmo_underground_challenge_3"	"一个普通的近战爱好者"
+"Challenge_Desc_nmo_underground_challenge_3"	"在不使用枪械和爆炸物的前提下通关地图！"
+
+"Challenge_Name_nmo_zephyr_challenge_1"	"西风之路"
+"Challenge_Desc_nmo_zephyr_challenge_1"	"能听到人类的声音真是令人心旷神怡。"
+"Challenge_Name_nmo_zephyr_challenge_2"	"缺乏维护"
+"Challenge_Desc_nmo_zephyr_challenge_2"	"那个工程师是怎么干的活？这里没有任何能正常运转的东西。"
 
 "Downloading_Workshop_Map"		"从创意工坊下载地图中..."
 "Downloading_Workshop_Map_Progress"		"从创意工坊下载中... (%s1/%s2)"
@@ -201,6 +303,18 @@
 "NMRiH_Mutator_ConfigFileType"	"修改器配置文件 (.txt)"
 "NMRiH_Mutator_ExportCfgSuccess"	"修改器配置文件导出成功。"
 "NMRiH_Mutator_FailedToImportConfig"	"导入修改器配置失败，使用了无效的文件。"
+
+"Mutator_Name_deathnotice"	"死亡提示"
+"Mutator_Desc_deathnotice"	"显示击杀与死亡信息。"
+
+"Mutator_Name_nostamina"	"无限体力"
+"Mutator_Desc_nostamina"	"玩家将拥有无限的体力。"
+
+"Mutator_Name_nozombierespawn"	"禁用丧尸复活"
+"Mutator_Desc_nozombierespawn"	"丧尸们将不再重生。"
+
+"Mutator_Name_weightlessammo"	"轻量化弹药"
+"Mutator_Desc_weightlessammo"	"弹药将不会占用背包的空间。"
 
 "NMRiH_DeckCompatibility_Title"	"Steam Deck 兼容性"
 "NMRiH_DeckCompatibility_Message1"	"您似乎正在 Steam Deck 上游玩此游戏。"
