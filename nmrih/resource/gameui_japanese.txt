@@ -249,7 +249,7 @@
 "Challenge_Name_nmo_rockpit_blitz_1"	"ブリッツ： 自信家"
 "Challenge_Desc_nmo_rockpit_blitz_1"	"ブリッツモードでは、目標を達成することで時間稼ぎをしながら攻略する。"
 
-"Challenge_Name_nmo_shelter_challenge_1"	"ここにはシェルターは無い！"
+"Challenge_Name_nmo_shelter_challenge_1"	"ここにはシェルターなんか無い！"
 "Challenge_Desc_nmo_shelter_challenge_1"	"娯楽と戦争の線引きは細くなる。"
 
 "Challenge_Name_nmo_suzhou_challenge_1"	"ツイてない日"
