@@ -313,7 +313,7 @@
 "Mutator_Name_nozombierespawn"	"無殭屍重生"
 "Mutator_Desc_nozombierespawn"	"殭屍不會重生。"
 
-"Mutator_Name_weightlessammo"	"彈藥無重量"
+"Mutator_Name_weightlessammo"	"無彈藥重量"
 "Mutator_Desc_weightlessammo"	"彈藥不會佔據物品空間。"
 
 "NMRiH_DeckCompatibility_Title"	"Steam Deck 相容性"
