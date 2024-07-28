@@ -196,7 +196,7 @@
 "Challenge_Desc_nmo_broadway_blitz_2"	"在閃電戰模式中，必須透過完成目標來爭取更多時間！"
 
 "Challenge_Name_nmo_broadway2_challenge_1"	"籃球夢"
-"Challenge_Desc_nmo_broadway2_challenge_1"	"每個玩家都嚮往著……活著逃出去。"
+"Challenge_Desc_nmo_broadway2_challenge_1"	"每位玩家都嚮往著……活著逃出去。"
 "Challenge_Name_nmo_broadway2_challenge_2"	"鐵道上"
 "Challenge_Desc_nmo_broadway2_challenge_2"	"看來我們沒有救援直升機了。改搭列車逃生！"
 "Challenge_Name_nmo_broadway2_challenge_3"	"需要坦一下"
@@ -216,7 +216,7 @@
 "Challenge_Name_nmo_cabin_blitz_1"	"閃電戰：幽居病"
 "Challenge_Desc_nmo_cabin_blitz_1"	"現在他們可真的找上門來了……在閃電戰模式中，必須透過完成目標來爭取更多時間！"
 
-"Challenge_Name_nmo_chinatown_challenge_1"	"偷工減料"
+"Challenge_Name_nmo_chinatown_challenge_1"	"投機取巧"
 "Challenge_Desc_nmo_chinatown_challenge_1"	"走捷徑、闖通關。"
 "Challenge_Name_nmo_chinatown_blitz_1"	"閃電戰：尖峰時刻"
 "Challenge_Desc_nmo_chinatown_blitz_1"	"在閃電戰模式中，必須透過完成目標來爭取更多時間！"
@@ -229,7 +229,7 @@
 "Challenge_Name_nmo_fema_challenge_1"	"頭號英雄"
 "Challenge_Desc_nmo_fema_challenge_1"	"幫忙取回反轉錄病毒疫苗的話，我們或許能回報你們。"
 "Challenge_Name_nmo_fema_challenge_2"	"加油"
-"Challenge_Desc_nmo_fema_challenge_2"	"沒有燃料我們無法起飛，繼續加！"
+"Challenge_Desc_nmo_fema_challenge_2"	"沒有燃料我們無法起飛，灌下去！"
 
 "Challenge_Name_nmo_junction_challenge_1"	"家園已逝"
 "Challenge_Desc_nmo_junction_challenge_1"	"逃出生天，別再回這座城了。"
