@@ -49,6 +49,7 @@
 "HudSurvivalWave"			"ВОЛНА"
 "HudSurvivalRemaining"			"ОСТАЛОСЬ"
 "HudSurvivalZone"			"ЗОНА"
+"HudSurvivalInactive"		"НЕАКТИВНАЯ"
 "HudSurvivalResupply"			"СБРОС ПРИПАСОВ"
 "HudSurvivalWaveBegin"			"ВОЛНА НАЧАЛАСЬ"
 "HudSurvivalWaveEnd"			"ВОЛНА ЗАВЕРШЕНА"
