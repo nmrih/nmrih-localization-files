@@ -170,6 +170,7 @@
 
 "NMRiH_Scoreboard_MutePlayer"		"靜音玩家"
 "NMRiH_Scoreboard_ViewSteamProfile"	"檢視 Steam 個人資料"
+"NMRiH_Scoreboard_Bot"	"BOT"
 
 "NMRiH_MutedPlayer"		"將 %s1 靜音"
 "NMRiH_UnmutedPlayer"		"停止將 %s1 靜音"
@@ -179,8 +180,109 @@
 "NMRiH_Challenge_Random_Desc"	"盡快完成一系列的目標！"
 "NMRiH_Challenge_NoDesc"	"無描述。"
 
-"Downloading_Workshop_Map"		"正在於工作坊下載地圖…"
-"Downloading_Workshop_Map_Progress"	"正在於工作坊下載地圖… (%s1/%s2)"
+"Challenge_Name_nmo_anxiety_challenge_1"	"暴露療法"
+"Challenge_Desc_nmo_anxiety_challenge_1"	"你能感受到自己的心跳嗎？"
+
+"Challenge_Name_nmo_boardwalk_challenge_1"	"輕鬆溜搭"
+"Challenge_Desc_nmo_boardwalk_challenge_1"	"享受溫暖的沙灘、免費的娛樂還有…… 我在騙鬼啊？"
+
+"Challenge_Name_nmo_broadway_challenge_1"	"首映會"
+"Challenge_Desc_nmo_broadway_challenge_1"	"首映會遲到啦！ 趕快穿越人群、趕上回家那班車！"
+"Challenge_Name_nmo_broadway_challenge_2"	"即刻入住"
+"Challenge_Desc_nmo_broadway_challenge_2"	"沒有預約房間，注意倒在血泊中的屍體。"
+"Challenge_Name_nmo_broadway_blitz_1"	"閃電戰：首映會"
+"Challenge_Desc_nmo_broadway_blitz_1"	"在閃電戰模式中，必須透過完成目標來爭取更多時間！"
+"Challenge_Name_nmo_broadway_blitz_2"	"閃電戰：即刻入住"
+"Challenge_Desc_nmo_broadway_blitz_2"	"在閃電戰模式中，必須透過完成目標來爭取更多時間！"
+
+"Challenge_Name_nmo_broadway2_challenge_1"	"籃球夢"
+"Challenge_Desc_nmo_broadway2_challenge_1"	"每位玩家都嚮往著……活著逃出去。"
+"Challenge_Name_nmo_broadway2_challenge_2"	"鐵道上"
+"Challenge_Desc_nmo_broadway2_challenge_2"	"看來我們沒有救援直升機了。改搭列車逃生！"
+"Challenge_Name_nmo_broadway2_challenge_3"	"需要坦一下"
+"Challenge_Desc_nmo_broadway2_challenge_3"	"商店入口鎖死了，怎麼辦咧？"
+
+"Challenge_Name_nmo_brooklyn_challenge_1"	"核心訓練"
+"Challenge_Desc_nmo_brooklyn_challenge_1"	"這個路障不會自己移開……"
+"Challenge_Name_nmo_brooklyn_challenge_2"	"零元購"
+"Challenge_Desc_nmo_brooklyn_challenge_2"	"我們想上路的話，我們需要一堆物資！"
+
+"Challenge_Name_nmo_cabin_challenge_1"	"幽居病"
+"Challenge_Desc_nmo_cabin_challenge_1"	"鄰居們不太喜歡你的生活方式，最好趕緊出門。"
+"Challenge_Name_nmo_cabin_challenge_2"	"木屋之下"
+"Challenge_Desc_nmo_cabin_challenge_2"	"打掃的到底在下面藏了什麼？我們來一探究竟。"
+"Challenge_Name_nmo_cabin_challenge_3"	"隱藏的知識"
+"Challenge_Desc_nmo_cabin_challenge_3"	"家庭即是答案，另外還有會動的書櫃！"
+"Challenge_Name_nmo_cabin_blitz_1"	"閃電戰：幽居病"
+"Challenge_Desc_nmo_cabin_blitz_1"	"現在他們可真的找上門來了……在閃電戰模式中，必須透過完成目標來爭取更多時間！"
+
+"Challenge_Name_nmo_chinatown_challenge_1"	"投機取巧"
+"Challenge_Desc_nmo_chinatown_challenge_1"	"走捷徑、闖通關。"
+"Challenge_Name_nmo_chinatown_blitz_1"	"閃電戰：尖峰時刻"
+"Challenge_Desc_nmo_chinatown_blitz_1"	"在閃電戰模式中，必須透過完成目標來爭取更多時間！"
+
+"Challenge_Name_nmo_cleopas_challenge_1"	"計畫"
+"Challenge_Desc_nmo_cleopas_challenge_1"	"願那位替我們安排好目標的人一生平安。"
+"Challenge_Name_nmo_cleopas_challenge_2"	"擅闖民宅"
+"Challenge_Desc_nmo_cleopas_challenge_2"	"這樣擅自闖進別人家一定會引起住戶的不滿。"
+
+"Challenge_Name_nmo_fema_challenge_1"	"頭號英雄"
+"Challenge_Desc_nmo_fema_challenge_1"	"幫忙取回反轉錄病毒疫苗的話，我們或許能回報你們。"
+"Challenge_Name_nmo_fema_challenge_2"	"加油"
+"Challenge_Desc_nmo_fema_challenge_2"	"沒有燃料我們無法起飛，灌下去！"
+
+"Challenge_Name_nmo_junction_challenge_1"	"家園已逝"
+"Challenge_Desc_nmo_junction_challenge_1"	"逃出生天，別再回這座城了。"
+
+"Challenge_Name_nmo_lakeside_challenge_1"	"周而復始"
+"Challenge_Desc_nmo_lakeside_challenge_1"	"你沒辦法天天這樣盯著。"
+"Challenge_Name_nmo_lakeside_challenge_2"	"斷訊"
+"Challenge_Desc_nmo_lakeside_challenge_2"	"連不上？你不孤單！"
+
+"Challenge_Name_nmo_quarantine_challenge_1"	"控制損失"
+"Challenge_Desc_nmo_quarantine_challenge_1"	"哎呀，我們搞砸了。"
+
+"Challenge_Name_nmo_rockpit_challenge_1"	"主場優勢"
+"Challenge_Desc_nmo_rockpit_challenge_1"	"這地方我們熟門熟路，沒什麼難得倒我們的。"
+"Challenge_Name_nmo_rockpit_challenge_2"	"壓力山大"
+"Challenge_Desc_nmo_rockpit_challenge_2"	"循著最遠的目標路徑通關。"
+"Challenge_Name_nmo_rockpit_blitz_1"	"閃電戰：主場優勢"
+"Challenge_Desc_nmo_rockpit_blitz_1"	"在閃電戰模式中，必須透過完成目標來爭取更多時間！"
+
+"Challenge_Name_nmo_shelter_challenge_1"	"這裡沒有庇護所！"
+"Challenge_Desc_nmo_shelter_challenge_1"	"娛樂與戰爭，僅僅一線之隔。"
+
+"Challenge_Name_nmo_suzhou_challenge_1"	"諸事不順"
+"Challenge_Desc_nmo_suzhou_challenge_1"	"循著最遠的目標路徑通關。"
+
+"Challenge_Name_nmo_toxteth_challenge_1"	"勇闖墓園"
+"Challenge_Desc_nmo_toxteth_challenge_1"	"我建議你們穿過墓園……"
+"Challenge_Name_nmo_toxteth_challenge_2"	"清掃下水道"
+"Challenge_Desc_nmo_toxteth_challenge_2"	"這個嘛，要是你們不怕髒的話……"
+"Challenge_Name_nmo_toxteth_blitz_1"	"閃電戰：勇闖墓園"
+"Challenge_Desc_nmo_toxteth_blitz_1"	"我們時間有限，所以請盡快！ 在閃電戰模式中，必須透過完成目標來爭取更多時間！"
+"Challenge_Name_nmo_toxteth_blitz_2"	"閃電戰：清掃下水道"
+"Challenge_Desc_nmo_toxteth_blitz_2"	"你知道你踩在別人的大便裡面吧？ 在閃電戰模式中，必須透過完成目標來爭取更多時間！"
+
+"Challenge_Name_nmo_toxtethdark_challenge_1"	"勇闖墓園 (黑夜)"
+"Challenge_Desc_nmo_toxtethdark_challenge_1"	"我建議你們穿過墓園……"
+"Challenge_Name_nmo_toxtethdark_challenge_2"	"清掃下水道 (黑夜)"
+"Challenge_Desc_nmo_toxtethdark_challenge_2"	"這個嘛，要是你們不怕髒的話……"
+
+"Challenge_Name_nmo_underground_challenge_1"	"通勤族地域"
+"Challenge_Desc_nmo_underground_challenge_1"	"走不了多遠的……"
+"Challenge_Name_nmo_underground_challenge_2"	"推車啊"
+"Challenge_Desc_nmo_underground_challenge_2"	"我們得推那台小破車！"
+"Challenge_Name_nmo_underground_challenge_3"	"普通的近戰愛好者"
+"Challenge_Desc_nmo_underground_challenge_3"	"不使用槍械或爆裂物通關！"
+
+"Challenge_Name_nmo_zephyr_challenge_1"	"和風之道"
+"Challenge_Desc_nmo_zephyr_challenge_1"	"聽見活人的聲音真是振奮人心。"
+"Challenge_Name_nmo_zephyr_challenge_2"	"缺乏維護"
+"Challenge_Desc_nmo_zephyr_challenge_2"	"那位工程師是怎樣？怎麼什麼都壞了。"
+
+"Downloading_Workshop_Map"		"正在由工作坊下載地圖…"
+"Downloading_Workshop_Map_Progress"	"正在由工作坊下載地圖… (%s1/%s2)"
 
 "GameUI_Multiplayer"		"遊戲"
 "GameUI_OptionNeedsRestart"	"(此選項需重新開始)"
@@ -201,6 +303,18 @@
 "NMRiH_Mutator_ConfigFileType"	"調整器設定檔 (.txt)"
 "NMRiH_Mutator_ExportCfgSuccess"	"調整器已成功匯出。"
 "NMRiH_Mutator_FailedToImportConfig"	"匯入調整器失敗。此檔案無效。"
+
+"Mutator_Name_deathnotice"	"死亡提示"
+"Mutator_Desc_deathnotice"	"顯示兇手 / 死亡"
+
+"Mutator_Name_nostamina"	"無體力限制"
+"Mutator_Desc_nostamina"	"玩家有無限的體力。"
+
+"Mutator_Name_nozombierespawn"	"無殭屍重生"
+"Mutator_Desc_nozombierespawn"	"殭屍不會重生。"
+
+"Mutator_Name_weightlessammo"	"無彈藥重量"
+"Mutator_Desc_weightlessammo"	"彈藥不會佔據物品空間。"
 
 "NMRiH_DeckCompatibility_Title"	"Steam Deck 相容性"
 "NMRiH_DeckCompatibility_Message1"	"您似乎正在於 Steam Deck 進行遊戲。"
