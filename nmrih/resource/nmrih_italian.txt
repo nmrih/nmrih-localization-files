@@ -54,7 +54,7 @@
 "HudSurvivalWaveBegin"		"ONDATA INIZIATA"
 "HudSurvivalWaveEnd"		"ONDATA COMPLETATA"
 
-"NMRiH_Votekick_List"			"Gli ID utente per l'espulsione sono i seguenti:\n%s1"
+"NMRiH_Votekick_List"			"Gli ID utente per il voto di espulsione sono i seguenti:\n%s1"
 "NMRiH_Votekick_InProgress"		"È già in corso una votazione!"
 "NMRiH_Votekick_KickSelf"		"Non puoi votare per espellerti!"
 "NMRiH_Votekick_Started"		"Votazione iniziata per l'espulsione di %s1\nHai %s2 secondi per votare.\nScrivi !yes per approvare
