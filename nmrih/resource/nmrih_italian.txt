@@ -50,21 +50,22 @@
 "HudSurvivalRemaining"		"RESTANTI"
 "HudSurvivalZone"			"ZONA"
 "HudSurvivalResupply"		"LANCIO DI RIFORNIMENTI IN ARRIVO"
+"HudSurvivalInactive"		"INATTIVO"
 "HudSurvivalWaveBegin"		"ONDATA INIZIATA"
 "HudSurvivalWaveEnd"		"ONDATA COMPLETATA"
 
-"NMRiH_Votekick_List"			"Gli ID utente per il votekick sono i seguenti:\n%s1"
+"NMRiH_Votekick_List"			"Gli ID utente per il voto di espulsione sono i seguenti:\n%s1"
 "NMRiH_Votekick_InProgress"		"È già in corso una votazione!"
 "NMRiH_Votekick_KickSelf"		"Non puoi votare per espellerti!"
-"NMRiH_Votekick_Started"		"Votekick iniziato per il giocatore: %s1\nHai %s2 secondi per votare.\nScrivi !yes per approvare
+"NMRiH_Votekick_Started"		"Votazione iniziata per l'espulsione di %s1\nHai %s2 secondi per votare.\nScrivi !yes per approvare
 l'espulsione."
 "NMRiH_Votekick_UnknownPlayer"		"ID giocatore sconosciuto!\nScrivi !vklist per visualizzare la lista dei giocatori."
 "NMRiH_Votekick_InvalidId"		"ID giocatore non valido.\nScrivi !vklist per visualizzare la lista dei giocatori ."
 "NMRiH_Votekick_Pass"			"Votazione riuscita!"
 "NMRiH_Votekick_Fail"			"Votazione fallita!"
-"NMRiH_Votekick_NeedMorePlayers"	"Sono necessari almeno 3 giocatori per iniziare un votekick o un voteban."
-"NMRiH_Votekick_BanSelf"		"Non puoi votare per bandirti dalla partita!"
-"NMRiH_Voteban_Started"			"Voteban iniziato per il giocatore: %s1\nHai %s2 secondi per votare.\nScrivi !yes per approvare il blocco."
+"NMRiH_Votekick_NeedMorePlayers"	"Sono necessari almeno 3 giocatori per iniziare un espulsione o un ban."
+"NMRiH_Votekick_BanSelf"		"Non puoi votare per bannarti da solo dalla partita!"
+"NMRiH_Voteban_Started"			"Votazione iniziata per il ban di %s1\nHai %s2 secondi per votare.\nScrivi !yes per approvare il blocco."
 
 "NMR_Automatic_Weapon_Switch"		"Cambio automatico per le armi raccolte (se sono più potenti)"
 
