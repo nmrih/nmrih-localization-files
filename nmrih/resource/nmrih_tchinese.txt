@@ -49,6 +49,7 @@
 "HudSurvivalWave"	"屍潮"
 "HudSurvivalRemaining"	"剩餘"
 "HudSurvivalZone"	"區域"
+"HudSurvivalInactive"		"停滯"
 "HudSurvivalResupply"	"發放補給空投"
 "HudSurvivalWaveBegin"	"屍潮即將湧入"
 "HudSurvivalWaveEnd"	"此波侵襲結束"

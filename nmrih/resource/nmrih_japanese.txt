@@ -49,6 +49,7 @@
 "HudSurvivalWave"			"ウェーブ"
 "HudSurvivalRemaining"		"残り"
 "HudSurvivalZone"			"ゾーン"
+"HudSurvivalInactive"		"停滞"
 "HudSurvivalResupply"		"補給物資が来る"
 "HudSurvivalWaveBegin"		"ウェーブ開始"
 "HudSurvivalWaveEnd"		"ウェーブ完了"
