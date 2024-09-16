@@ -110,12 +110,12 @@
 //  = 0x04 (EOT) - Use location color from this point forward
 //  = 0x05 (ENQ) - Use achievement color from this point forward
 //  = 0x01 (SOH) - Use normal color from this point forward
-"SDK_Chat_Team"				"(チーム) %s1：  %s2"
-"SDK_Chat_Team_Dead"			"*死亡*(チーム) %s1：  %s2"
-"SDK_Chat_Spec"				"(観戦者) %s1：  %s2"
+"SDK_Chat_Team"				"(チーム) %s1：  %s2"
+"SDK_Chat_Team_Dead"			"*死亡*(チーム) %s1：  %s2"
+"SDK_Chat_Spec"				"(観戦者) %s1：  %s2"
 "SDK_Chat_All"				"%s1：  %s2"
-"SDK_Chat_All_Dead"			"(死亡) %s1：  %s2"
-"SDK_Chat_All_Spec"			"(観戦) %s1：  %s2"
+"SDK_Chat_All_Dead"			"(死亡) %s1：  %s2"
+"SDK_Chat_All_Spec"			"(観戦) %s1：  %s2"
 
 "SDK_Team_Unassigned"			"未割り当て"
 "SDK_Team_Spectator"			"観戦"
