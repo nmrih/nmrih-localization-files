@@ -3,7 +3,7 @@
 "Language" "japanese"
 "Tokens"
 {
-"GameUI_ReverseMouse"		"マウス反転"
+"GameUI_ReverseMouse"		"マウスの上下反転"
 "GameUI_ReverseMouseLabel"	"マウスの上下軸を反転させます"
 "GameUI_MouseLook"		"マウスルック"
 "GameUI_MouseLookLabel"		"マウスで見る方向を変えます"
@@ -12,12 +12,12 @@
 "GameUI_MouseRaw"			"Raw入力"
 "GameUI_MouseRaw_Hint"			"Raw入力はコントロールパネルのマウス設定を通さずに、デバイスから直接マウス移動量を読み込んでマウス移動量をより正確に伝達します。"
 "GameUI_MouseSensitivity"	"マウス感度"
-"GameUI_MouseAcceleration"	"マウスアクセラレーション"
-"GameUI_MouseAcceleration_Hint"	"マウスアクセラレーションを有効化 (raw input使用時推奨)"
-"GameUI_MouseAccelerationAmount_Hint"	"アクセラレーション値。 1.0は加速なしです。大きな値になるほど加速度が高くなります。"
+"GameUI_MouseAcceleration"	"マウス加速"
+"GameUI_MouseAcceleration_Hint"	"マウス加速を有効化 (Raw入力使用時推奨)"
+"GameUI_MouseAccelerationAmount_Hint"	"加速値。 1.0は加速なし。 大きな値になるほど加速度が高くなります。"
 "GameUI_Joystick"		"ゲームパッド"
-"GameUI_JoystickLabel"		"ゲームパッドを有効"
-"GameUI_ReverseJoystick"	"ゲームパッドの上下軸を反転"
+"GameUI_JoystickLabel"		"ゲームパッド"
+"GameUI_ReverseJoystick"	"ゲームパッドの上下反転"
 "GameUI_JoystickLook"		"ジョイスティックルック"
 "GameUI_JoystickLookLabel"	"ゲームパッドで見る方向を変えます"
 "GameUI_JoystickLookType"	"ルックタイプ"
@@ -29,8 +29,8 @@
 "GameUI_JoystickSouthpaw"	"サウスポー"	[$X360]
 "GameUI_JoystickLookSpeedPitch"	"垂直感度"
 "GameUI_JoystickLookSpeedYaw"	"水平感度"
-"GameUI_JoystickDuckZoomMode"	"しゃがみ/ズームモード"
-"GameUI_JoystickDuckMode"	"しゃがみモード"
+"GameUI_JoystickDuckZoomMode"	"しゃがむ/ズームモード"
+"GameUI_JoystickDuckMode"	"しゃがむモード"
 "GameUI_JoystickSprintMode"	"スティッキースプリント"
 "GameUI_AutoAim"		"自動照準"
 "GameUI_AutoaimLabel"		"自動的に敵に照準します。"
@@ -411,8 +411,8 @@
 
 
 "GameUI_EasyDescription"	"敵は簡単に撃破でき、コンピューターが照準を支援する。"
-"GameUI_NormalDescription"	"敵は手強くなる。武器で与えられるダメージは標準程度。"
-"GameUI_HardDescription"	"敵は非常に手強くなる。武器で与えられるダメージは小さい。"
+"GameUI_NormalDescription"	"敵は手強くなる。 武器で与えられるダメージは標準程度。"
+"GameUI_HardDescription"	"敵は非常に手強くなる。 武器で与えられるダメージは小さい。"
 
 "GameUI_CloseCaptions_Checkbox"	"キャプションを表示"
 
@@ -536,7 +536,7 @@
 // spray importer strings.
 "GameUI_Spray_Import_Error_Title"	"スプレーインポートエラー"
 "GameUI_Spray_Import_Error_Reading_Image"	"ソース画像の読み込みエラー 画像ファイルが壊れている、または不正にフォーマットされた可能性があります"
-"GameUI_Spray_Import_Image_Wrong_Size"	"ソース画像のサイズが間違っています。有効な縦横サイズ(ピクセル単位)は、256、128、64、32、16、8、4、2、および1です。"
+"GameUI_Spray_Import_Image_Wrong_Size"	"ソース画像のサイズが間違っています。 有効な縦横サイズ(ピクセル単位)は、256、128、64、32、16、8、4、2、および1です。"
 "GameUI_Spray_Import_Error_Memory"	"メモリーの割り当てに失敗したので、変換できません。 画像ファイルが壊れている可能性があります。"
 "GameUI_Spray_Import_Error_Image_File_Corrupt"	"画像ファイルが壊れています。"
 "GameUI_Spray_Import_Error_BMP_Format_Not_Supported"	"このファイルの BMP 形式 はサポートされていません。使用可能な BMP 形式は、24-bit RGB、32-bitRBGAです。"
@@ -783,9 +783,9 @@
 "GameUI_EnableHUDMinMode"	"小型 HUD を使用する"
 
 "GameUI_DownloadFilter_Title"		"ゲームサーバーからカスタムコンテンツの\nダウンロードを要求された場合の設定"
-"GameUI_DownloadFilter_ALL"		"サーバーのカスタムファイルをすべて許可する"
+"GameUI_DownloadFilter_ALL"		"サーバーのカスタムファイルをすべて許可"
 "GameUI_DownloadFilter_NoSounds"	"カスタムサウンドはダウンロードしない"
-"GameUI_DownloadFilter_MapsOnly"	"マップファイルのみ許可する"
+"GameUI_DownloadFilter_MapsOnly"	"マップファイルのみ許可"
 "GameUI_DownloadFilter_None"		"カスタムファイルはダウンロードしない"
 
 "GameUI_GameMenu_Store"				"アイテムを購入する"
@@ -852,7 +852,7 @@
 "GameUI_vote_failed_quorum"			"必要十分なプレイヤーの投票がありませんでした。"
 "GameUI_vote_failed_yesno"			"賛成投票数が十分ではありません。"
 
-"GameUI_vote_failed_vote_spam"			"再び投票を呼び掛けるには、あと%s1秒待たなくてはいけません。"
+"GameUI_vote_failed_vote_spam"			"再び投票を呼び掛けるには、あと %s1 秒待たなくてはいけません。"
 "GameUI_vote_failed_vote_spam_min"		"再び投票を呼び掛けるには、あと %s1 分待たなくてはいけません。"
 "GameUI_vote_failed_vote_spam_mins"		"再び投票を呼び掛けるには、あと %s1 分待たなくてはいけません。"
 "GameUI_vote_failed_transition_vote"	"他のプレイヤーのロード中に投票の要求を開始することはできません。"
