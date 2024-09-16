@@ -285,7 +285,7 @@
 "Downloading_Workshop_Map_Progress"		"ワークショップからマップをダウンロード中... (%s1/%s2)"
 
 "GameUI_Multiplayer" 	"ゲーム"
-"GameUI_OptionNeedsRestart"		"(このオプションの有効化には再起動が必要です)"
+"GameUI_OptionNeedsRestart"		"(この設定の有効化には再起動が必要です)"
 
 "NMRiH_CreateGame_NATWarning_Title"	"NAT警告"
 "NMRiH_CreateGame_NATWarning1"		"ネットワークデバイスがNAT(Network Address Translation)の背後にあるようです。"

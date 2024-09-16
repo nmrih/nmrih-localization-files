@@ -89,8 +89,8 @@
 "GameUI_Next"			"次へ >"
 "GameUI_Prev"			"< 前へ"
 "GameUI_Play"			"プレイ"
-"GameUI_EnableEAX"		"EAX ハードウェアサポートを有効にする"
-"GameUI_EnableA3D"		"A3D ハードウェアサポートを有効にする"
+"GameUI_EnableEAX"		"EAX ハードウェアサポートを有効化"
+"GameUI_EnableA3D"		"A3D ハードウェアサポートを有効化"
 "GameUI_SoundEffectVolume"	"ゲーム音量"
 "GameUI_HEVSuitVolume"		"HEVスーツ音量"
 "GameUI_MP3Volume"		"MP3音量 *"
@@ -391,7 +391,7 @@
 "GameUI_CrosshairScale"	"サイズ"
 
 "GameUI_FastSwitchCheck"		"高速武器スイッチ"
-"GameUI_DeveloperConsoleCheck"		"開発者コンソールを有効にする"
+"GameUI_DeveloperConsoleCheck"		"開発者コンソールを有効化"
 "GameUI_KeyboardAdvanced_Title"		"キーボード - 詳細"
 
 // temp restart strings
