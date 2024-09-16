@@ -180,7 +180,7 @@
 "NMRiH_Challenge_Random_Desc"		"Пройдите набор испытаний как можно скорее!"
 "NMRiH_Challenge_NoDesc"		"Нет описания."
 
-"Challenge_Name_nmo_anxiety_challenge_1"	"Длительная терапия"
+"Challenge_Name_nmo_anxiety_challenge_1"	"Экспозиционная терапия"
 "Challenge_Desc_nmo_anxiety_challenge_1"	"Чувствуешь, как бьётся твоё сердце?"
 
 "Challenge_Name_nmo_boardwalk_challenge_1"	"Прогулка по парку"
