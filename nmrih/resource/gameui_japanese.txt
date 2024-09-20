@@ -51,7 +51,7 @@
 "NMRiH_Advanced_cl_richpresence"		"Rich Presence (Discord / Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"頭の揺れ"
 "NMRiH_Advanced_cl_stickyironsight"		"切り替え式エイム"
-"NMRiH_Advanced_cl_voicesubtitles"		"チャットに音声字幕を表示"
+"NMRiH_Advanced_cl_voicesubtitles"		"チャットにボイスコマンドの字幕を表示"
 "NMRiH_Advanced_cl_ejectbrass"			"薬莢/散弾銃の薬莢の排出"
 "NMRiH_Advanced_cl_muzzle_dlight"		"マズルフラッシュのダイナミックライト"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"HTML MOTDの無効化"
