@@ -94,7 +94,7 @@
 "GameUI_SoundEffectVolume"	"ゲーム音量"
 "GameUI_HEVSuitVolume"		"HEVスーツ音量"
 "GameUI_MP3Volume"		"MP3音量 *"
-"GameUI_MusicVolume"		"BGM 音量"
+"GameUI_MusicVolume"		"BGM音量"
 "GameUI_SoundQuality"		"音質"
 "GameUI_Ultra"			"最高"
 "GameUI_High"			"高"
@@ -251,7 +251,7 @@
 "GameUI_UserSaveLabel"		"ユーザー："
 "GameUI_Type"			"タイプ"
 "GameUI_ServerName"		"サーバー名"
-"GameUI_MaxPlayers"		"最大 プレイヤー："
+"GameUI_MaxPlayers"		"最大プレイヤー："
 "GameUI_Password"		"パスワード"
 
 "GameUI_DARK"			"暗い"
