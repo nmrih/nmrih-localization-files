@@ -55,7 +55,7 @@
 "NMRiH_Advanced_cl_ejectbrass"			"薬莢/散弾銃の薬莢の排出"
 "NMRiH_Advanced_cl_muzzle_dlight"		"マズルフラッシュのダイナミックライト"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"HTML MOTDの無効化"
-"NMRiH_Advanced_fov_allow_change"		"FOVをADS時にスケーリングしない"
+"NMRiH_Advanced_fov_allow_change"		"視野角をエイム中にスケーリング"
 "NMRiH_Advanced_nmrih_screenspace"		"スクリーンシェーダー (問題発生時にのみ無効化)"
 "NMRiH_Advanced_nmrih_screenspace_shadow"	"スクリーンビネット"
 "NMRiH_Advanced_nmrih_grain"			"フィルムグレイン"

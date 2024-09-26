@@ -94,7 +94,7 @@
 "GameUI_SoundEffectVolume"	"ゲーム音量"
 "GameUI_HEVSuitVolume"		"HEVスーツ音量"
 "GameUI_MP3Volume"		"MP3音量 *"
-"GameUI_MusicVolume"		"BGM 音量"
+"GameUI_MusicVolume"		"BGM音量"
 "GameUI_SoundQuality"		"音質"
 "GameUI_Ultra"			"最高"
 "GameUI_High"			"高"
@@ -251,7 +251,7 @@
 "GameUI_UserSaveLabel"		"ユーザー："
 "GameUI_Type"			"タイプ"
 "GameUI_ServerName"		"サーバー名"
-"GameUI_MaxPlayers"		"最大 プレイヤー："
+"GameUI_MaxPlayers"		"最大プレイヤー："
 "GameUI_Password"		"パスワード"
 
 "GameUI_DARK"			"暗い"
@@ -877,7 +877,7 @@
 "GameUI_vote_failed_kick_limit"			"このマップまたはミッションのキック投票数が上限に達しました。"
 
 
-"GameUI_SndMuteLoseFocus"		"ゲームウィンドウがバックグラウンド時は、オーディオを消音にする。"
+"GameUI_SndMuteLoseFocus"		"ゲームウィンドウがバックグラウンドのときは、オーディオをミュートにする"
 "GameUI_CloseBrowserOnConnect"	"サーバーに接続後、サーバーブラウザを閉じてください。"
 
 "GameUI_ServerConnectOutOfDate"		"サーバーが最新バージョンにアップデートされていません。\n"
