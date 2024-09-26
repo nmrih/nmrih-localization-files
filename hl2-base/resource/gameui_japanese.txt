@@ -877,7 +877,7 @@
 "GameUI_vote_failed_kick_limit"			"このマップまたはミッションのキック投票数が上限に達しました。"
 
 
-"GameUI_SndMuteLoseFocus"		"ゲームウィンドウがバックグラウンド時は、オーディオを消音にする。"
+"GameUI_SndMuteLoseFocus"		"ゲームウィンドウがバックグラウンドのときは、オーディオをミュートにする"
 "GameUI_CloseBrowserOnConnect"	"サーバーに接続後、サーバーブラウザを閉じてください。"
 
 "GameUI_ServerConnectOutOfDate"		"サーバーが最新バージョンにアップデートされていません。\n"
