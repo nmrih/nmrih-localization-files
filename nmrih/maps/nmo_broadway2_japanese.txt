@@ -21,7 +21,7 @@
 	"nmo_broadway2_ObjH_1"	"2分間生き残る"
 	"nmo_broadway2_ObjJ_1"	"車庫内のFastExバン用のバッテリーを探す"
 	"nmo_broadway2_ObjG_2"	"溶接機で路地のゲートを開ける"
-	"nmo_broadway2_ObjI_1"	"ガスカンを店舗裏口へ"
+	"nmo_broadway2_ObjI_1"	"ガス缶を店の裏口に持っていく"
 	"nmo_broadway2_ObjM_1"	"ラジオを探し救助を要請する"
 	"nmo_broadway2_ObjM_2"	"ストリートへ戻る"
 	"nmo_broadway2_ObjE_1"	"穴から下水道に降りる"
