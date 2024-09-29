@@ -24,7 +24,7 @@
 [*]Добавлены мутаторы игрового процесса для локальной и сетевой игры, называемые «модификаторами»:
 
 [list]
-[*]Добавлен переменная «sv_mutators», список постоянных модификаторов с разделителем в виде «,»
+[*]Добавлена переменная «sv_mutators», список постоянных модификаторов с разделителем в виде «,»
 [*]Добавлен выбор модификаторов в меню создания игры
 [*]Чтобы добавить новые модификаторы, перейдите в каталог «nmrih/rulesets/mutators» и создайте новые скрипты, примеры прилагаются
 [/list]
@@ -75,8 +75,8 @@
 [*]Обновлены файлы локализации:
 [list]
 
-[*]С благодарностью переводчикам сообщества: Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta
-[*]Хотите локализовать NMRiH на свой язык? [url=https://github.com/nmrih/nmrih-localization-files]Посетите наш репозиторий по переводу на GitHub.[/url]
+[*]с благодарностью переводчикам сообщества: Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta;
+[*]хотите локализовать NMRiH на свой язык? [url=https://github.com/nmrih/nmrih-localization-files]Посетите наш репозиторий по переводу на GitHub.[/url]
 [/list]
 [/list]
 [h2]Исправления[/h2]
@@ -124,11 +124,11 @@
 [*]VScript:
 [list]
 
-[*]Добавлен CNMRiH_BaseZombie::IsKid()
-[*]Исправлены значения активатора, вызывающего и т.д., не работающие в RunScriptCode и связанных параметрах ввода
-[*]Исправлены неработающие обработчики CBaseEntity FireBullets() и ModifyEmitSoundParams()
-[*]Исправлено CBasePlayer, не производящий от CInfectableCharacter
-[*]Исправлен сбой в ObjectiveManager.StartNextObjective() при вызове во время подготовки к раунду
+[*]добавлен CNMRiH_BaseZombie::IsKid();
+[*]исправлены значения активатора, вызывающего и т.д., не работающие в RunScriptCode и связанных параметрах ввода;
+[*]исправлены неработающие обработчики CBaseEntity FireBullets() и ModifyEmitSoundParams();
+[*]исправлен CBasePlayer, не производящий от CInfectableCharacter;
+[*]исправлен сбой в ObjectiveManager.StartNextObjective() при вызове во время подготовки к раунду.
 [/list]
 [/list]
 [h1]Карты[/h1]

@@ -10,7 +10,7 @@
 	"nmo_cleopas_ObjE"	"通電した水面を渡るために4枚の板を見つける"
 	"nmo_cleopas_ObjF"	"レバーを探し電源を切る"
 	"nmo_cleopas_ObjH"	"ハシゴを使ってSamcoの店に入る"
-	"nmo_cleopas_ObjI"	"溶接機を使い店に入る"
+	"nmo_cleopas_ObjI"	"溶接機を使い、店に入る"
 	"nmo_cleopas_ObjJ"	"ハシゴを使い路地のゲートを越える"
 	"nmo_cleopas_ObjG"	"路地の壁を爆破する"
 	"nmo_cleopas_OBjD"	"家を通り抜け、正面突破する"
