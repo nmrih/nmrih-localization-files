@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "Русский (Russian)" 
+"Tokens" 
+{
+	"nmo_shoreline_obj_startgo"	"Покиньте убежище"
+	"nmo_shoreline_obj_startbreakplanks"	"Найдите путь в хижину"
+	"nmo_shoreline_obj_startunlockcellar"	"Найдите сварочный аппарат и откройте дверь в подвал"
+	"nmo_shoreline_obj_cellartocabin"	"Пройдите по подвалу"
+	"nmo_shoreline_obj_unlockbasementexit"	"Найдите ключ от подвала и отоприте дверь"
+	"nmo_shoreline_obj_unlockgarage"	"Лестница заблокирована, найдите ключ от комнаты с блоком предохранителей"
+	"nmo_shoreline_obj_disableelec"	"Отключите питание электрического забора в подвале"
+	"nmo_shoreline_obj_cellartocourtyard"	"Вернитесь в подвал, найдите проход в хижину"
+	"nmo_shoreline_obj_watersidetocabin"	"Войдите в хижину через причал"
+	"nmo_shoreline_obj_vanbattery"	"Найдите недостающий аккумулятор, чтобы запитать фургон"
+	"nmo_shoreline_obj_destroygaragedoor"	"Взорвите взрывчатку у ворот гаража"
+	"nmo_shoreline_obj_garagetocabin"	"Войдите в хижину через гараж"
+	"nmo_shoreline_obj_garagetolaundry"	"Лестница заблокирована, пройдите через прачечную"
+	"nmo_shoreline_obj_watersideexplosive"	"Найдите баллон с пропаном, чтобы взорвать дверь"
+	"nmo_shoreline_obj_gouproute"	"Пройдите через верхний этаж хижины"
+	"nmo_shoreline_obj_findtheradio"	"Используйте сварочный аппарат, чтобы попасть в радиорубку"
+	"nmo_shoreline_obj_radiofindbattery"	"Радио не работает, найдите батарею"
+	"nmo_shoreline_obj_callextraction"	"Используйте радио для вызова помощи"
+	"nmo_shoreline_obj_flare"	"Подайте сигнал спасателям с помощью ракеты"
+	"nmo_shoreline_evac"	"Спасатели прибудут через 2 минуты. Охраняйте точку эвакуации!"
+}
+}
