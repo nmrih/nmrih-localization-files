@@ -49,6 +49,7 @@
 "HudSurvivalWave"			"回合数"
 "HudSurvivalRemaining"		"剩余丧尸数"
 "HudSurvivalZone"			"地点"
+"HudSurvivalInactive" "闲置"
 "HudSurvivalResupply"		"空投物资即将抵达"
 "HudSurvivalWaveBegin"		"回合开始"
 "HudSurvivalWaveEnd"		"回合完成"

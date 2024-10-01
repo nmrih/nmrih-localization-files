@@ -763,9 +763,9 @@
 		
 		// Midwest
 		"MidwestVoice.EngineerBarbara"	"<len:2.9>奴らが来るぞ、バーバラ！"
-		"MidwestVoice.EngineerEnd"	"<len:4.9>ふむ、問題は見つかったな。 さあ、この件に取り掛かろう"
+		"MidwestVoice.EngineerEnd"	"<len:4.9>ふむ、問題は見つかった。 今からこの件に取り掛かる。"
 		"MidwestVoice.EngineerEnd2"	"<len:3.1>よし、全部稼動してるな！ さあ、みんな乗れ！"
-		"MidwestVoice.EngineerFirst"	"<len:3.6>砦のみんな、早急にこの問題を解決するぞ！"
+		"MidwestVoice.EngineerFirst"	"<len:3.6>なるはやでこの問題を解決するから、みんなで砦を守ってくれ！"
 		"MidwestVoice.EngineerStart"	"<len:2.6>みんな、列車のエンジンが壊れちまった...<delay:2.9><len:1.8>どうしたら良いかわからない。<delay:4.8><len:1.6>しばらくここで停まるしかないな。<delay:6.6><len:2.1>数マイル先まで他の町はないはずだ。"
 		
 		// Junction

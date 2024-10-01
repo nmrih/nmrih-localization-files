@@ -170,6 +170,7 @@
 
 "NMRiH_Scoreboard_MutePlayer"	"Mute player"
 "NMRiH_Scoreboard_ViewSteamProfile"	"View Steam profile"
+"NMRiH_Scoreboard_Bot"	"BOT"
 
 "NMRiH_MutedPlayer"	"Muted player %s1's voice"
 "NMRiH_UnmutedPlayer"	"Unmuted player %s1's voice"
@@ -178,6 +179,112 @@
 "NMRiH_Challenge_Random"	"Random Objectives"
 "NMRiH_Challenge_Random_Desc"	"Complete a set of objectives as quick as you can!"
 "NMRiH_Challenge_NoDesc"	"No description available."
+
+"Challenge_Name_nmo_anxiety_challenge_1"	"Exposure Therapy"
+"Challenge_Desc_nmo_anxiety_challenge_1"	"Can you feel your heart beating?"
+
+"Challenge_Name_nmo_boardwalk_challenge_1"	"Walk in the Park"
+"Challenge_Desc_nmo_boardwalk_challenge_1"	"Enjoy warm sand, free entertainment, and... who am I kidding?"
+
+"Challenge_Name_nmo_broadway_challenge_1"	"Cinema Premiere"
+"Challenge_Desc_nmo_broadway_challenge_1"	"You're late to the premiere! Make your way through the crowds, and catch the train home!"
+"Challenge_Name_nmo_broadway_challenge_2"	"Motel Rush"
+"Challenge_Desc_nmo_broadway_challenge_2"	"No reservations, mind that corpse on the pool."
+"Challenge_Name_nmo_broadway_blitz_1"	"Blitz: Cinema Premiere"
+"Challenge_Desc_nmo_broadway_blitz_1"	"In Blitz mode, gain more time by completing objectives!"
+"Challenge_Name_nmo_broadway_blitz_2"	"Blitz: Motel Rush"
+"Challenge_Desc_nmo_broadway_blitz_2"	"In Blitz mode, gain more time by completing objectives!"
+
+"Challenge_Name_nmo_broadway2_challenge_1"	"Hoop Dreams"
+"Challenge_Desc_nmo_broadway2_challenge_1"	"Every player dreams of making it... out of here in one piece."
+"Challenge_Name_nmo_broadway2_challenge_2"	"On a Rail"
+"Challenge_Desc_nmo_broadway2_challenge_2"	"Looks like our rescue helicopter is no more. Escape via the train!"
+"Challenge_Name_nmo_broadway2_challenge_3"	"Tank Me Later"
+"Challenge_Desc_nmo_broadway2_challenge_3"	"The store entrance is locked, can you make a new one?"
+
+"Challenge_Name_nmo_brooklyn_challenge_1"	"Core Workout"
+"Challenge_Desc_nmo_brooklyn_challenge_1"	"This roadblock won't budge on its own..."
+"Challenge_Name_nmo_brooklyn_challenge_2"	"Shop and Chop"
+"Challenge_Desc_nmo_brooklyn_challenge_2"	"If we want to hit the road, we are gonna need supplies!"
+
+"Challenge_Name_nmo_cabin_challenge_1"	"Cabin Fever"
+"Challenge_Desc_nmo_cabin_challenge_1"	"Local neighbors don't seem too impressed about your antics, better get the hell out from here."
+"Challenge_Name_nmo_cabin_challenge_2"	"Under the Cabin"
+"Challenge_Desc_nmo_cabin_challenge_2"	"What did the janitor hide down there? Let's find out."
+"Challenge_Name_nmo_cabin_challenge_3"	"Secret Knowledge"
+"Challenge_Desc_nmo_cabin_challenge_3"	"The family is the answer, now featuring moving bookcases!"
+"Challenge_Name_nmo_cabin_blitz_1"	"Blitz: Cabin Fever"
+"Challenge_Desc_nmo_cabin_blitz_1"	"Now they are really onto us... In Blitz mode, gain more time by completing objectives!"
+
+"Challenge_Name_nmo_chinatown_challenge_1"	"Cutting Corners"
+"Challenge_Desc_nmo_chinatown_challenge_1"	"Make your way through the map using shortcuts."
+"Challenge_Name_nmo_chinatown_blitz_1"	"Blitz: Rush Hour"
+"Challenge_Desc_nmo_chinatown_blitz_1"	"In Blitz mode, gain more time by completing objectives!"
+
+"Challenge_Name_nmo_cleopas_challenge_1"	"The Plan"
+"Challenge_Desc_nmo_cleopas_challenge_1"	"How nice of someone to lay down these objectives for us."
+"Challenge_Name_nmo_cleopas_challenge_2"	"Trespasser!"
+"Challenge_Desc_nmo_cleopas_challenge_2"	"People might not like it when you break in their house."
+
+"Challenge_Name_nmo_fema_challenge_1"	"Public Hero"
+"Challenge_Desc_nmo_fema_challenge_1"	"Help secure the retroviral vaccine and we might return the favor."
+"Challenge_Name_nmo_fema_challenge_2"	"Pump It"
+"Challenge_Desc_nmo_fema_challenge_2"	"We can't take off without fuel, keep that diesel pumping!"
+
+"Challenge_Name_nmo_junction_challenge_1"	"Safe Haven No More"
+"Challenge_Desc_nmo_junction_challenge_1"	"Make a break for it to escape the city for good."
+
+"Challenge_Name_nmo_lakeside_challenge_1"	"Run of the Mill"
+"Challenge_Desc_nmo_lakeside_challenge_1"	"You won't see this every day."
+"Challenge_Name_nmo_lakeside_challenge_2"	"Downtime"
+"Challenge_Desc_nmo_lakeside_challenge_2"	"Can't connect? It's not just you!"
+
+"Challenge_Name_nmo_quarantine_challenge_1"	"Containment Loss"
+"Challenge_Desc_nmo_quarantine_challenge_1"	"Oopsies, we made a mess."
+
+"Challenge_Name_nmo_rockpit_challenge_1"	"Power Trip"
+"Challenge_Desc_nmo_rockpit_challenge_1"	"We know this place inside out, it'll be a walk in the park."
+"Challenge_Name_nmo_rockpit_challenge_2"	"Under Stress"
+"Challenge_Desc_nmo_rockpit_challenge_2"	"Complete a round with the longest possible objective chain."
+"Challenge_Name_nmo_rockpit_blitz_1"	"Blitz: Power Trip"
+"Challenge_Desc_nmo_rockpit_blitz_1"	"In Blitz mode, gain more time by completing objectives!"
+
+"Challenge_Name_nmo_shelter_challenge_1"	"There Be No Shelter Here!"
+"Challenge_Desc_nmo_shelter_challenge_1"	"The thin line between entertainment and war."
+
+"Challenge_Name_nmo_shoreline_challenge_1"	"Sightseer"
+"Challenge_Desc_nmo_shoreline_challenge_1"	"I don't think the folk around here are fond of tourists..."
+"Challenge_Name_nmo_shoreline_challenge_2"	"Detoured"
+"Challenge_Desc_nmo_shoreline_challenge_2"	"Go through the map via the full alternative path."
+
+"Challenge_Name_nmo_suzhou_challenge_1"	"Bad Hair Day"
+"Challenge_Desc_nmo_suzhou_challenge_1"	"Complete a round with the longest possible objective chain."
+
+"Challenge_Name_nmo_toxteth_challenge_1"	"Graveyard Dash"
+"Challenge_Desc_nmo_toxteth_challenge_1"	"I suggest cutting through the graveyard..."
+"Challenge_Name_nmo_toxteth_challenge_2"	"Sewer Sweep"
+"Challenge_Desc_nmo_toxteth_challenge_2"	"Well, if you don't mind the sludge..."
+"Challenge_Name_nmo_toxteth_blitz_1"	"Blitz: Graveyard Dash"
+"Challenge_Desc_nmo_toxteth_blitz_1"	"We can't afford much time so be quick! In Blitz mode, gain more time by completing objectives!"
+"Challenge_Name_nmo_toxteth_blitz_2"	"Blitz: Sewer Sweep"
+"Challenge_Desc_nmo_toxteth_blitz_2"	"You do realize you're walking on other people's excrement right? In Blitz mode, gain more time by completing objectives!"
+
+"Challenge_Name_nmo_toxtethdark_challenge_1"	"Graveyard Dash (Dark)"
+"Challenge_Desc_nmo_toxtethdark_challenge_1"	"I suggest cutting through the graveyard..."
+"Challenge_Name_nmo_toxtethdark_challenge_2"	"Sewer Sweep (Dark)"
+"Challenge_Desc_nmo_toxtethdark_challenge_2"	"Well, if you don't mind the sludge..."
+
+"Challenge_Name_nmo_underground_challenge_1"	"Commuter Hell"
+"Challenge_Desc_nmo_underground_challenge_1"	"You won't get far..."
+"Challenge_Name_nmo_underground_challenge_2"	"Push the Cart"
+"Challenge_Desc_nmo_underground_challenge_2"	"We must push little cart!"
+"Challenge_Name_nmo_underground_challenge_3"	"Average Melee Appreciator"
+"Challenge_Desc_nmo_underground_challenge_3"	"Complete the map without guns and explosives!"
+
+"Challenge_Name_nmo_zephyr_challenge_1"	"Way of the Zephyrs"
+"Challenge_Desc_nmo_zephyr_challenge_1"	"Hearing human voice is so refreshing."
+"Challenge_Name_nmo_zephyr_challenge_2"	"Lack of Maintenance"
+"Challenge_Desc_nmo_zephyr_challenge_2"	"What's up with that engineer? Nothing seems to be working."
 
 "Downloading_Workshop_Map"		"Downloading map from Workshop..."
 "Downloading_Workshop_Map_Progress"		"Downloading map from Workshop... (%s1/%s2)"
@@ -201,6 +308,18 @@
 "NMRiH_Mutator_ConfigFileType"	"Mutator config (.txt)"
 "NMRiH_Mutator_ExportCfgSuccess"	"Mutator config exported successfully."
 "NMRiH_Mutator_FailedToImportConfig"	"Failed to import mutator config. The file is invalid."
+
+"Mutator_Name_deathnotice"	"Deathnotices"
+"Mutator_Desc_deathnotice"	"Displays kills / deaths."
+
+"Mutator_Name_nostamina"	"No Stamina"
+"Mutator_Desc_nostamina"	"Players have infinite stamina."
+
+"Mutator_Name_nozombierespawn"	"No Zombie Respawn"
+"Mutator_Desc_nozombierespawn"	"Zombies will not respawn."
+
+"Mutator_Name_weightlessammo"	"Weightless Ammo"
+"Mutator_Desc_weightlessammo"	"Ammo will not take inventory space."
 
 "NMRiH_DeckCompatibility_Title"	"Steam Deck Compatibility"
 "NMRiH_DeckCompatibility_Message1"	"It appears you're playing on Steam Deck."

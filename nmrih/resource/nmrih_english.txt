@@ -49,6 +49,7 @@
 "HudSurvivalWave"			"WAVE"
 "HudSurvivalRemaining"		"REMAINING"
 "HudSurvivalZone"			"ZONE"
+"HudSurvivalInactive"		"INACTIVE"
 "HudSurvivalResupply"		"SUPPLY DROP INCOMING"
 "HudSurvivalWaveBegin"		"WAVE STARTING"
 "HudSurvivalWaveEnd"		"WAVE COMPLETE"

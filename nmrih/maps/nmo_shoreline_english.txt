@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_shoreline_obj_startgo"	"Leave the safehouse"
+	"nmo_shoreline_obj_startbreakplanks"	"Find a way into the cabin"
+	"nmo_shoreline_obj_startunlockcellar"	"Find a welder and open the cellar door"
+	"nmo_shoreline_obj_cellartocabin"	"Navigate through the cellar"
+	"nmo_shoreline_obj_unlockbasementexit"	"Find basement key and unlock the door"
+	"nmo_shoreline_obj_unlockgarage"	"Staircase is blocked, find key to the fuse box room"
+	"nmo_shoreline_obj_disableelec"	"Turn off power to the electric fence in the cellar"
+	"nmo_shoreline_obj_cellartocourtyard"	"Go back to the cellar, find a way into the cabin"
+	"nmo_shoreline_obj_watersidetocabin"	"Enter the cabin through the dock"
+	"nmo_shoreline_obj_vanbattery"	"Find missing battery to power up the van"
+	"nmo_shoreline_obj_destroygaragedoor"	"Set off IED at the garage door"
+	"nmo_shoreline_obj_garagetocabin"	"Enter the cabin through the garage"
+	"nmo_shoreline_obj_garagetolaundry"	"Staircase is blocked, go through the laundry room"
+	"nmo_shoreline_obj_watersideexplosive"	"Find propane tank to blast through the door"
+	"nmo_shoreline_obj_gouproute"	"Go through the upper floor of the cabin"
+	"nmo_shoreline_obj_findtheradio"	"Use a welder to access the radio room"
+	"nmo_shoreline_obj_radiofindbattery"	"The radio has no power, find a battery"
+	"nmo_shoreline_obj_callextraction"	"Use the radio to call for help"
+	"nmo_shoreline_obj_flare"	"Signal extraction with a flare"
+	"nmo_shoreline_evac"	"Rescue arrives in 2 minutes. Secure the evac point!"
+}
+}

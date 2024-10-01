@@ -49,6 +49,7 @@
 "HudSurvivalWave"	"屍潮"
 "HudSurvivalRemaining"	"剩餘"
 "HudSurvivalZone"	"區域"
+"HudSurvivalInactive"		"停滯"
 "HudSurvivalResupply"	"發放補給空投"
 "HudSurvivalWaveBegin"	"屍潮即將湧入"
 "HudSurvivalWaveEnd"	"此波侵襲結束"
@@ -80,7 +81,7 @@
 "Round_Restart"		"遊戲將在 %s1 後開始"
 "Round_PlayerShortage"	"玩家不足"
 
-"Item_Received"		"%s1 將 %s2 交給了您。"
+"Item_Received"		"%s1 將%s2交給了您。"
 "Item_TargetOwns"	"%s1 已經擁有%s2。"
 "Item_TargetFull"	"%s1 沒有足夠的容納空間。"
 
@@ -139,7 +140,7 @@
 
 "PlayerAlive"		"狀態"
 "PlayerAlive_Alive"	"存活"
-"PlayerAlive_Dead"	"死亡"
+"PlayerAlive_Dead"	"罹難"
 "PlayerAlive_Extracted"	"已疏散"
 "PlayerRespawns"	"重生"
 
