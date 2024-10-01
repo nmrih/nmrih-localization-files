@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "TChinese" 
+"Tokens" 
+{
+	"nmo_shoreline_obj_startgo"	"離開藏身處"
+	"nmo_shoreline_obj_startbreakplanks"	"找到進屋的路"
+	"nmo_shoreline_obj_startunlockcellar"	"找一支焊槍打開地窖門"
+	"nmo_shoreline_obj_cellartocabin"	"穿過地窖"
+	"nmo_shoreline_obj_unlockbasementexit"	"找到地下室的鑰匙開啟上鎖的門"
+	"nmo_shoreline_obj_unlockgarage"	"樓梯不通，找到配電室的鑰匙"
+	"nmo_shoreline_obj_disableelec"	"關閉地窖裡通電鐵絲網的電源"
+	"nmo_shoreline_obj_cellartocourtyard"	"回到地窖，找到進屋的路"
+	"nmo_shoreline_obj_watersidetocabin"	"由碼頭進屋"
+	"nmo_shoreline_obj_vanbattery"	"找出遺失的電瓶啟動廂型車"
+	"nmo_shoreline_obj_destroygaragedoor"	"引爆車庫門的土製炸彈"
+	"nmo_shoreline_obj_garagetocabin"	"由車庫進屋"
+	"nmo_shoreline_obj_garagetolaundry"	"樓梯不通，穿過洗衣房"
+	"nmo_shoreline_obj_watersideexplosive"	"找一桶瓦斯炸開門"
+	"nmo_shoreline_obj_gouproute"	"穿過房屋樓上"
+	"nmo_shoreline_obj_findtheradio"	"用焊槍進入通訊室"
+	"nmo_shoreline_obj_radiofindbattery"	"對講機沒電，尋找電瓶"
+	"nmo_shoreline_obj_callextraction"	"使用對講機呼叫救援"
+	"nmo_shoreline_obj_flare"	"以信號彈發出救援信號"
+	"nmo_shoreline_evac"	"救援將於 2 分鐘內抵達。鎮守撤離點！"
+}
+}
