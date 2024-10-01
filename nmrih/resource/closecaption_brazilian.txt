@@ -781,6 +781,12 @@
 		"QuarantineVoice.RadioTalk"		"<len:4.3>Depois de fechar o portão de entrada, abriremos o portão interno da quarentena. <delay:4.7><len:6.7>Mas, há um sistema à prova de falhas no sistema automatizado, o portão interno fechará em cerca de um minuto, e... <delay:11.8><len:5.6>bem... dado quanto tempo o portão de entrada esteve aberto, ele acionará o sistema de segurança secundário, digamos apenas - <delay:17.5><len:7.1>se você não está dentro da quarentena interna quando o portão se fecha, você irá morrer!"
 		"QuarantineVoice.RadioTalk2"	"<len:6.3>Aqui está o que temos que fazer, há uma sirene, <I>Tem uma sirene<I>, naquela área em que você está. <delay:6.5><len:5>Você precisa ativar a sirene, o que isso vai fazer, isso vai distrair os zumbis para longe de nós. <delay:11.5><len:6.8>Quando pudermos, vamos pegar o helicóptero e depois vamos voltar, vamos buscá-lo e todos vamos dar o fora daqui. <delay:18.6><len:8.5>Então, sugiro embarcar assim que puder, apenas... prepare-se. Quando estiver pronto, acione a sirene, certo?"
 		"QuarantineVoice.RadioTalk3"	"<len:5.4>Em primeiro lugar, deve haver um walkie-talkie em algum lugar naquela sala, basta pegá-lo."
+
+		// Shoreline
+		"ShorelineVoice.Arrival1"	"<len:1.6>Ei! Aí fora!"
+		"ShorelineVoice.Arrival2"	"<len:4.4>Ei, você quer dar o fora daqui? Haverá um barco perto da balsa na linha d’água."
+		"ShorelineVoice.FindLadder"	"<len:4>Certo, bem, parece que seu único caminho será através daquela ponte aérea. <delay:4.2><len:2.5>Veja se consegue encontrar uma escada para atravessá-la."
+		"ShorelineVoice.LadderPlaced"	"<len:2.8>Shoo wee! É disso que eu estou falando! <delay:3.1><len:5.2>Ei, é melhor vocês começarem a ir onde precisam estar, porque agora vocês têm um monte de coisas mortas vindo em sua direção. <delay:8.4><len:3.7>E a Guarda Nacional não está lá fora tentando garantir que <I>nós<I> sobreviveremos a isso se é que me entende."
 		
 		// Suzhou
 		"SuzhouVoice.BoatMan"	"<len:6.6><I>Oi? Olá? Estou no barco, se me contar a sua localização, Irei buscá-lo o mais rápido possível!<I>"

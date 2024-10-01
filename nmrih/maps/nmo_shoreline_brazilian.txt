@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "Brazilian" 
+"Tokens" 
+{
+	"nmo_shoreline_obj_startgo"	"Saia do abrigo"
+	"nmo_shoreline_obj_startbreakplanks"	"Encontre um caminho para a cabine"
+	"nmo_shoreline_obj_startunlockcellar"	"Encontre um maçarico e abra a porta do porão"
+	"nmo_shoreline_obj_cellartocabin"	"Navegue pela adega"
+	"nmo_shoreline_obj_unlockbasementexit"	"Encontre a chave do porão e destranque a porta"
+	"nmo_shoreline_obj_unlockgarage"	"A escada está bloqueada, encontre a chave da sala da caixa de fusíveis"
+	"nmo_shoreline_obj_disableelec"	"Desligue a energia da cerca elétrica no porão"
+	"nmo_shoreline_obj_cellartocourtyard"	"Volte para o porão, encontre um caminho para a cabine"
+	"nmo_shoreline_obj_watersidetocabin"	"Entre na cabine pela doca"
+	"nmo_shoreline_obj_vanbattery"	"Encontre a bateria que falta para ligar a van"
+	"nmo_shoreline_obj_destroygaragedoor"	"Exploda a porta da garagem com IED"
+	"nmo_shoreline_obj_garagetocabin"	"Entre na cabine pela garagem"
+	"nmo_shoreline_obj_garagetolaundry"	"A escada está bloqueada, passe pela lavanderia"
+	"nmo_shoreline_obj_watersideexplosive"	"Encontre o tanque de propano para explodir a porta"
+	"nmo_shoreline_obj_gouproute"	"Passe pelo andar superior da cabine"
+	"nmo_shoreline_obj_findtheradio"	"Use um maçarico para acessar a sala de rádio"
+	"nmo_shoreline_obj_radiofindbattery"	"O rádio não tem energia, encontre uma bateria"
+	"nmo_shoreline_obj_callextraction"	"Use o rádio para pedir ajuda"
+	"nmo_shoreline_obj_flare"	"Sinalize para a extração com um sinalizador"
+	"nmo_shoreline_evac"	"O resgate chega em 2 minutos. Proteja o ponto de evacuação!"
+}
+}
