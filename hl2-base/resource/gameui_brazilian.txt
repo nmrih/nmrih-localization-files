@@ -621,7 +621,7 @@
 "[english]LoadingProgress_SendClientInfo"	"Sending client info..."
 "LoadingProgress_SignonData"	"Coletando dados da partida..."
 "[english]LoadingProgress_SignonData"	"Retrieving game data..."
-"LoadingProgress_Changelevel"	"O servidor está mudando de nível..."
+"LoadingProgress_Changelevel"	"O servidor está mudando de mapa..."
 "[english]LoadingProgress_Changelevel"	"Server is changing level..."
 "GameUI_Difficulty"	"Dificuldade"
 "[english]GameUI_Difficulty"	"Difficulty"
