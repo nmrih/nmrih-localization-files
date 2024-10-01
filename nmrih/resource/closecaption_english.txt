@@ -782,6 +782,12 @@
 		"QuarantineVoice.RadioTalk2"	"<len:6.3>Here's what we gotta do, there's a siren, <I>there is a siren<I>, in that area you're in. <delay:6.5><len:5>You need to activate the siren, what that is going to do, is that's going to get the zombies off of us. <delay:11.5><len:3.1>When we can, we're going to go for the helicopter. <delay:14.62><len:3.8>And then we're going to come back, we're gonna pick you up, and we're all going to get the fuck outta here. <delay:18.6><len:4.88>So I suggest boarding whatever up you can, just... get ready. <delay:23.5><len:3.8>When you're ready, trigger the siren, alright?"
 		"QuarantineVoice.RadioTalk3"	"<len:5.4>First things first, there should be a walkie talkie somewhere in that room, just grab it."
 		
+		// Shoreline
+		"ShorelineVoice.Arrival1"	"<len:1.6>Hey out there!"
+		"ShorelineVoice.Arrival2"	"<len:4.4>Hey, you wanna get the hell out of here? There's going to be a boat near the ferry at the waterline."
+		"ShorelineVoice.FindLadder"	"<len:4>Alright well looks like your only way across is gonna be through that skybridge. <delay:4.2><len:2.5>See if you can find yourself a ladder to get across it."
+		"ShorelineVoice.LadderPlaced"	"<len:2.8>Shoo wee! That is what I mean! <delay:3.1><len:5.2>Hey y'all better start hauling ass where you need to be because right now you've got a whole lot of dead things coming your way. <delay:8.4><len:3.7>And the National Guard ain't out there trying to make sure <I>we<I> survive this if you catch my drift."
+		
 		// Suzhou
 		"SuzhouVoice.BoatMan"	"<len:6.6><I>Hello? Hello? I'm on a boat, if you can tell me your location, I will come pick you up ASAP!<I>"
 		

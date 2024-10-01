@@ -252,6 +252,11 @@
 "Challenge_Name_nmo_shelter_challenge_1"	"There Be No Shelter Here!"
 "Challenge_Desc_nmo_shelter_challenge_1"	"The thin line between entertainment and war."
 
+"Challenge_Name_nmo_shoreline_challenge_1"	"Sightseer"
+"Challenge_Desc_nmo_shoreline_challenge_1"	"I don't think the folk around here are fond of tourists..."
+"Challenge_Name_nmo_shoreline_challenge_2"	"Detoured"
+"Challenge_Desc_nmo_shoreline_challenge_2"	"Go through the map via the full alternative path."
+
 "Challenge_Name_nmo_suzhou_challenge_1"	"Bad Hair Day"
 "Challenge_Desc_nmo_suzhou_challenge_1"	"Complete a round with the longest possible objective chain."
 
