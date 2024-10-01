@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "Japanese" 
+"Tokens" 
+{
+	"nmo_shoreline_obj_startgo"	"セーフハウスを出る"
+	"nmo_shoreline_obj_startbreakplanks"	"キャビンに入る方法を見つける"
+	"nmo_shoreline_obj_startunlockcellar"	"溶接機を見つけ、地下室のドアを開ける"
+	"nmo_shoreline_obj_cellartocabin"	"地下室を通り抜ける"
+	"nmo_shoreline_obj_unlockbasementexit"	"地下室の鍵を見つけ、ドアのロックを解除する"
+	"nmo_shoreline_obj_unlockgarage"	"階段は塞がれている。 ヒューズボックスの部屋の鍵を見つけよう"
+	"nmo_shoreline_obj_disableelec"	"地下室の電気柵の電源を切る"
+	"nmo_shoreline_obj_cellartocourtyard"	"地下室に戻り、キャビンに入る方法を見つける"
+	"nmo_shoreline_obj_watersidetocabin"	"ドックからキャビンに入る"
+	"nmo_shoreline_obj_vanbattery"	"バンのバッテリーを探し、電源を入れる"
+	"nmo_shoreline_obj_destroygaragedoor"	"ガレージのドアにIEDを設置する"
+	"nmo_shoreline_obj_garagetocabin"	"ガレージからキャビンに入る"
+	"nmo_shoreline_obj_garagetolaundry"	"階段が塞がれているため、洗濯室を通る"
+	"nmo_shoreline_obj_watersideexplosive"	"ドアを爆破するためのプロパンタンクを探す"
+	"nmo_shoreline_obj_gouproute"	"キャビンの上階を通り抜ける"
+	"nmo_shoreline_obj_findtheradio"	"溶接機を使って無線室に入る"
+	"nmo_shoreline_obj_radiofindbattery"	"ラジオに電源が来ていない、バッテリーを探せ"
+	"nmo_shoreline_obj_callextraction"	"ラジオで助けを呼ぶ"
+	"nmo_shoreline_obj_flare"	"フレアで救難信号を送れ"
+	"nmo_shoreline_evac"	"救助の到着まであと2分。 避難場所を確保しろ！"
+}
+}
