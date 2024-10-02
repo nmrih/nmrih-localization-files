@@ -8,7 +8,7 @@
 	"nmo_shoreline_obj_startunlockcellar"	"溶接機を見つけ、地下室のドアを開ける"
 	"nmo_shoreline_obj_cellartocabin"	"地下室を通り抜ける"
 	"nmo_shoreline_obj_unlockbasementexit"	"地下室の鍵を見つけ、ドアのロックを解除する"
-	"nmo_shoreline_obj_unlockgarage"	"階段は塞がれている。 ヒューズボックスの部屋の鍵を見つけよう"
+	"nmo_shoreline_obj_unlockgarage"	"階段は塞がれている。 ヒューズボックスの部屋の鍵を見つけろ"
 	"nmo_shoreline_obj_disableelec"	"地下室の電気柵の電源を切る"
 	"nmo_shoreline_obj_cellartocourtyard"	"地下室に戻り、キャビンに入る方法を見つける"
 	"nmo_shoreline_obj_watersidetocabin"	"ドックからキャビンに入る"
