@@ -687,9 +687,9 @@
 		"NGSurvivalZoneF" "<clr: 255, 255, 0><I>ゾーンFが攻撃されている。"
 		"SafeZone.Killed" "<clr: 255, 0, 0>[セーフゾーンを失いました 全てのゾーンを失うと軍は撤退します]"
 		"Wave.Complete" "[ウェーブ完了]"
-		"NMRPlayer.TokenEarned" "[リスポーンチケットを獲得しました]"	
-		"NMRPlayer.TokenDenied" "[未使用のリスポーンチケットが消滅しました]"
-		"NMRPlayer.TokenUsed" "[リスポーンチケットを使用しました]"
+		"NMRPlayer.TokenEarned" "[リスポーントークンを獲得しました]"	
+		"NMRPlayer.TokenDenied" "[未使用のリスポーントークンが消滅しました]"
+		"NMRPlayer.TokenUsed" "[リスポーントークンを使用しました]"
 		"Wave.LowZombies" "[次のウェーブが始まります]"
 		
 		// Dialogue
