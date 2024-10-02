@@ -687,9 +687,9 @@
 		"NGSurvivalZoneF" "<clr: 255, 255, 0><I>ゾーンFが攻撃されている。"
 		"SafeZone.Killed" "<clr: 255, 0, 0>[セーフゾーンを失いました 全てのゾーンを失うと軍は撤退します]"
 		"Wave.Complete" "[ウェーブ完了]"
-		"NMRPlayer.TokenEarned" "[リスポーンチケットを獲得しました]"	
-		"NMRPlayer.TokenDenied" "[未使用のリスポーンチケットが消滅しました]"
-		"NMRPlayer.TokenUsed" "[リスポーンチケットを使用しました]"
+		"NMRPlayer.TokenEarned" "[リスポーントークンを獲得しました]"	
+		"NMRPlayer.TokenDenied" "[未使用のリスポーントークンが消滅しました]"
+		"NMRPlayer.TokenUsed" "[リスポーントークンを使用しました]"
 		"Wave.LowZombies" "[次のウェーブが始まります]"
 		
 		// Dialogue
@@ -782,8 +782,14 @@
 		"QuarantineVoice.RadioTalk2"	"<len:6.3>それで次にやるべきことは、そこ、サイレンあるだろ？ <I>そこにサイレンがあるはずだ<I>、君の居るエリアに。<delay:6.5><len:5>サイレンを起動するんだ。 それが何をするかって言うと、ゾンビを追い払ってくれる。<delay:11.5><len:3.1>できれば、その時にヘリコプターへ向かう。<delay:14.62><len:3.8>それから戻って、君を拾ってから皆でここを脱出しよう。<delay:18.6><len:4.88>だから、乗れるものには何でも乗って、とにかく... 準備することを勧める。<delay:23.5><len:3.8>準備ができたらサイレンを鳴らしてくれ、いいな？"
 		"QuarantineVoice.RadioTalk3"	"<len:5.4>まず最初に、あの部屋のどこかにトランシーバーがあるはずだから、それを取ってほしい。"
 		
+		// Shoreline
+		"ShorelineVoice.Arrival1"	"<len:1.6>おい、そこのお前！"
+		"ShorelineVoice.Arrival2"	"<len:4.4>なあ、ここから出たいのか？ なら水際のフェリーの近くにボートがあるはずだ。"
+		"ShorelineVoice.FindLadder"	"<len:4>よし、あの連絡橋を渡るしかなさそうだな。<delay:4.2><len:2.5>ハシゴを見つけて、渡れるかどうか試してみろ。"
+		"ShorelineVoice.LadderPlaced"	"<len:2.8>イヤッホウ！ そういうことだ！<delay:3.1><len:5.2>おい、お前ら、さっさとケツを動かしたほうがいいぞ。 今、お前らの所に大量の死体が向かってきてる。<delay:8.4><len:3.7>そんでもって、州兵は<I>俺たち<I>のために来てくれてるワケじゃねえ、意味はわかるよな？"
+		
 		// Suzhou
-		"SuzhouVoice.BoatMan"	"<len:6.6><I>もしもし？ もしもし？ こっちは今ボートに乗っているから、場所を教えてくれたら大至急迎えに行くぞ！<I>"
+		"SuzhouVoice.BoatMan"	"<len:6.6><I>もしもし？ もしもし？ こっちは今ボートに乗っている。 場所を教えてくれたら、大至急迎えに行くぞ！<I>"
 		
 		// Toxteth
 		"ToxtethVoice.PilotRadio"	"<len:3.5>ああ、聞こえてる。 今、近場で滞空中だ。<delay:4.2><len:4.4>聞いてくれ、5分で迎えに行くから、ハーティントン・ロードに向かってほしい。<delay:9><len:2.3>あまり時間はとれない。急いでくれ！"

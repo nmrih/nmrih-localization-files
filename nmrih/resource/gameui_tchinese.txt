@@ -252,6 +252,11 @@
 "Challenge_Name_nmo_shelter_challenge_1"	"這裡沒有庇護所！"
 "Challenge_Desc_nmo_shelter_challenge_1"	"娛樂與戰爭，僅僅一線之隔。"
 
+"Challenge_Name_nmo_shoreline_challenge_1"	"觀光客"
+"Challenge_Desc_nmo_shoreline_challenge_1"	"我覺得當地人不是很喜歡觀光客……"
+"Challenge_Name_nmo_shoreline_challenge_2"	"自助行"
+"Challenge_Desc_nmo_shoreline_challenge_2"	"全程走替代路線過關。"
+
 "Challenge_Name_nmo_suzhou_challenge_1"	"諸事不順"
 "Challenge_Desc_nmo_suzhou_challenge_1"	"循著最遠的目標路徑通關。"
 
@@ -305,7 +310,7 @@
 "NMRiH_Mutator_FailedToImportConfig"	"匯入調整器失敗。此檔案無效。"
 
 "Mutator_Name_deathnotice"	"死亡提示"
-"Mutator_Desc_deathnotice"	"顯示兇手 / 死亡"
+"Mutator_Desc_deathnotice"	"顯示兇手 / 死者"
 
 "Mutator_Name_nostamina"	"無體力限制"
 "Mutator_Desc_nostamina"	"玩家有無限的體力。"
