@@ -10,7 +10,7 @@
 	"nmo_rockpit_obj_survive"	"生き残れ！"
 	"nmo_rockpit_obj_heli"	"ヘリコプターで脱出しろ！"
 	"nmo_rockpit_obj_start"	"溶接機でドアを開ける"
-	"nmo_rockpit_obj_panel"	"コントロールルームのパネルを使い、ゲートBを開ける"
+	"nmo_rockpit_obj_panel"	"制御室のパネルを使い、ゲートBを開ける"
 	"nmo_rockpit_obj_esc"	"地表に脱出しろ！"
 	"nmo_rockpit_obj_gen_normal"	"エレベーターの電源を回復する"
 	"nmo_rockpit_obj_radio"	"助けを呼ぶ為に2階の無線を使う"
