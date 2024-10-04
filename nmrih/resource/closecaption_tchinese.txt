@@ -677,7 +677,7 @@
 
 		"NGSurvivalExtraction"	"<len:10.0><I>救援即將抵達你們的位置，請動身前往！"
 		"NGSurvivalSupply"	"<len:10.0><I>通知，FEMA 物資空投即將抵達你們的位置。以上。"
-		"NGSurvivalBegin"	"<len:15.0><I>注意，這是美國國民警衛隊。 在你們的位置上有幾處保護區，依據國家疫情法及聯合國雷德克措施，請就地撐到區域清除。 屆時即可獲救並送至安全處。請各司其職。以上。"
+		"NGSurvivalBegin"	"<len:15.0><I>注意，這是美國國民警衛隊。 在你們的位置上有幾處保護區，依據國家疫情法及聯合國雷德克措施，請就地撐到區域清除。 屆時即可獲救並送往安全處。請各司其職。以上。"
 		"NGSurvivalWaveStart"	"<len:5.0><I>屍潮正向你們所在地點接近中！做好準備！"
 		"NGSurvivalZoneA"	"<len:5.0><clr: 255, 255, 0><I>A 區遭受侵襲！守住它！"
 		"NGSurvivalZoneB"	"<len:5.0><clr: 255, 255, 0><I>B 區遭受侵襲！守住它！"
@@ -723,7 +723,7 @@
 		"AsylumVoice.SecurityShutters2"	"<len:5.1>很好，既然保全門開了，現在你可以從二樓到中庭。 <delay:5.3><len:1.8><b>從二樓。"
 		
 		// Broadway2
-		"Broadway2Voice.Extraction"	"<len:2.1>注意，注意。 <delay:2.7><len:4.7>如果有誰聽得見，你們得立刻馬上到屋頂上來等待救援。<delay:8><len:2.9>過五分鐘政府就要投炸彈了。<delay:11.8><len:2.7>拜託，快點逃。"
+		"Broadway2Voice.Extraction"	"<len:2.1>注意，注意。 <delay:2.7><len:4.7>如果有誰聽得見，你們得立刻馬上到屋頂上來等待救援。<delay:8><len:2.9>再過五分鐘政府就要投炸彈了。<delay:11.8><len:2.7>拜託，快點逃。"
 		
 		// Brooklyn
 		"brooklyn_voice.01"	"<len:2.4>嘿還好你路過了，能幫點忙嗎？"
@@ -733,12 +733,12 @@
 		"brooklyn_voice.05"	"<len:1.5>哎呀，多謝了！<delay:1.5><len:2.4>聽我說，我看看我能不能發動這輛貨卡。<delay:4><len:2.4>但是如果我們想逃出去的話，我們要有足夠的物資。<delay:6.5><len:2.3>我看到對街附近的巷子裡有一個手推車，<delay:8.9><len:3.3>我們可能可以用它來裝附近社區有用的東西。"
 		"brooklyn_voice.06"	"<len:2>太好了，人還活著呀！<delay:2><len:2.8>東西上車，我們在這引來太多群眾了。"
 		"brooklyn_voice.07"	"<len:2.2>好，我們就快逃出去了！<delay:2.2><len:2.4>我們得找到大門的控制台。<delay:4.6><len:1.8>應該不會離這太遠。"
-		"brooklyn_voice.08"	"<len:3.8><I>動作快啊<clr:255,0,0>小豬仔──<clr:255,255,255>別逼我先走一步了！"
+		"brooklyn_voice.08"	"<len:3.8><I>動作快啊！<clr:255,0,0>小豬仔──<clr:255,255,255>別逼我先走一步了！"
 		"brooklyn_voice.09"	"<len:3.3>哭爸，看起來有人不會停車。"
 		"brooklyn_voice.10"	"<len:3.3>不知道各位怎麼想，我的肚子開始叫了。"
 		
 		// Cabin
-		"CabinVoice.SpawnRadio"	"<len:3.4>這是颶風 88 向區域內的生還者通報。<delay:3.5><len:3.5>我們已經抵達疏散位置，準備就緒進行人員疏散。<delay:7.1><len:2.5>重複，救援抵達了。<delay:9.7><len:2.6>注意時間緊迫動作要快。以上。"
+		"CabinVoice.SpawnRadio"	"<len:3.4>颶風 88 隊長報告，區域內的生還者請注意。<delay:3.5><len:3.5>我們已抵達疏散點，準備就緒進行人員疏散。<delay:7.1><len:2.5>重複，救援已經抵達。<delay:9.7><len:2.6>請注意時間緊迫動作要快。以上。"
 		
 		// Campblood
 		"CampbloodVoice.RalphComingForYa"	"<len:1.5>生還者！<delay:1.6><len:1.6>我來找你啦！"
@@ -753,10 +753,10 @@
 		// FEMA
 		"FemaVoice.BillyComplex"	"<len:4.2>這段訊號是基地傳來的嗎？那整座設施都淪陷了！<delay:4.6><len:3.9>那些科學家的蠢點子在封鎖程序啟動前就害死了所有人。<delay:9><len:3.7>你得完成封鎖程序，別讓他們出的包擴散到外頭來！"
 		"FemaVoice.BillyFuel"		"<len:2.8>我們可以帶你們起飛，但是我們的燃料不夠！<delay:2.9><len:2.6>我們得先灌飽油才能出發去安全的地方。"
-		"FemaVoice.BillyGetIn"		"<len:2.5>快上來！我們要遠走高飛了！"
+		"FemaVoice.BillyGetIn"		"<len:2.5>快上來！馬上就要遠走高飛了！"
 		"FemaVoice.BillyTopside"	"<len:1.8>喂？喂！<delay:2.1><len:3.3>如果有人聽見我說的，到地面上來我們能帶你們飛往安全處。<delay:5.7><len:4.1>去我們拖車裡的櫃子搜。我存一些那些金頭腦在開發的疫苗。<delay:9.9><len:2.6>我們還是小心為妙，帶著疫苗就馬上過來！"
 		"FemaVoice.MengelerOkayBob"	"<len:2.4><I>好，巴布，現在請拉下開關。"
-		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>做得很好喔巴布！你這樣值得讚賞。"
+		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>做得很好喲巴布！這樣值得讚賞。"
 		"FemaVoice.MengelerSayHello"	"<len:2.5><I>向艾莉西亞阿姨說聲喂，巴布。"
 		"FemaVoice.ColonelNatSec"	"<len:1.5>這是凱珊上校。<delay:1.7><len:5.5>基於國家安全我們可以幫助你們脫困，前提是你們必須回收實驗中的疫苗。<delay:7.6><len:3>我們知道你的位置，我們會在地面上等待回應。"
 		"FemaVoice.ColonelStow"		"<len:2.8>這是國家安全局凱珊上校。<delay:2.8><len:1.1>我們得到你們的訊號。<delay:3.9><len:2.5>妥當收納疫苗，準備疏散。"
@@ -789,7 +789,7 @@
 		"ShorelineVoice.LadderPlaced"	"<len:2.8>哇呼！這就對了！ <delay:3.1><len:5.2>嘿，你最好抓緊時間動作加快，有一大群死人要往你那邊去了。 <delay:8.4><len:3.7>而且國民警衛隊可沒有替<I>我們<I>的性命擔保，懂我的意思吧。"
 
 		// Suzhou
-		"SuzhouVoice.BoatMan"	"<len:6.6><I>喂？喂？ 我在船上。喂？喂？我在船上，假如你告訴你們的位置，我在船上，假如你告訴你們的位置，我快來接你！<I>"
+		"SuzhouVoice.BoatMan"	"<len:6.6><I>喂？喂？我在船上，假如你告訴你們的位置，我快來接你！<I>"
 
 		// Toxteth
 		"ToxtethVoice.PilotRadio"	"<len:3.5>有，我們聽得見，我們在鄰近的區域盤旋。<delay:4.2><len:4.4>聽著，前往哈廷頓路，我們會在五分鐘內抵達，接你們上來。<delay:9><len:2.3>我們時間有限，所以請盡快！"
@@ -812,8 +812,8 @@
 		"ZephyrVoice.Engineer10"	"<len:4.7>誰還沒上車的，加緊動作！快呀！"
 		"ZephyrVoice.AllAboard"		"<len:2.6><B>全員登車！"
 		"ZephyrVoice.OhCrud"		"<len:2.7><I>哇咧……"
-		"ZephyrVoice.Speech1901"	"<len:6>喂喂？ 喔，好久沒聽到活人的聲音了，真叫人放心。<delay:6.8><len:4.3>聽好了，目前我人關在軌道轉盤旁邊的機廠裡頭，<delay:11.8><len:4.7>如果你們可以出來幫我一把，我會很感激的，<delay:16.8><len:4.1>況且，我也有辦法回報你們，不過首先，<delay:21.7><len:5.3>月台門需要通行密碼，密碼是……我看看……：<delay:28.5><len:4.3>1、9、0、1。"
-		"ZephyrVoice.Speech2606"	"<len:6>喂喂？ 喔，好久沒聽到活人的聲音了，真叫人放心。<delay:6.8><len:4.3>聽好了，目前我人關在軌道轉盤旁邊的機廠裡頭，<delay:11.8><len:4.7>如果你們可以出來幫我一把，我會很感激的，<delay:16.8><len:4.1>況且，我也有辦法回報你們，不過首先，<delay:21.7><len:5.3>月台門需要通行密碼，密碼是……我看看……：<delay:28.5><len:4.1>2、6、0、6。"
-		"ZephyrVoice.Speech2710"	"<len:6>喂喂？ 喔，好久沒聽到活人的聲音了，真叫人放心。<delay:6.8><len:4.3>聽好了，目前我人關在軌道轉盤旁邊的機廠裡頭，<delay:11.8><len:4.7>如果你們可以出來幫我一把，我會很感激的，<delay:16.8><len:4.1>況且，我也有辦法回報你們，不過首先，<delay:21.7><len:5.3>月台門需要通行密碼，密碼是……我看看……：<delay:28.5><len:4.1>2、7、1、0。"
+		"ZephyrVoice.Speech1901"	"<len:6>喂喂？喔，好久沒聽到活人的聲音了，真叫人放心。<delay:6.8><len:4.3>聽好了，目前我人關在軌道轉盤旁邊的機廠裡頭。<delay:11.8><len:4.7>如果你們可以出來幫我一把，我會很感激的。<delay:16.8><len:4.1>況且，我也有辦法回報你們，不過首先，<delay:21.7><len:5.3>往月台的門有密碼鎖，密碼是……我看看……<delay:28.5><len:4.3>1、9、0、1。"
+		"ZephyrVoice.Speech2606"	"<len:6>喂喂？喔，好久沒聽到活人的聲音了，真叫人放心。<delay:6.8><len:4.3>聽好了，目前我人關在軌道轉盤旁邊的機廠裡頭。<delay:11.8><len:4.7>如果你們可以出來幫我一把，我會很感激的。<delay:16.8><len:4.1>況且，我也有辦法回報你們，不過首先，<delay:21.7><len:5.3>往月台的門有密碼鎖，密碼是……我看看……<delay:28.5><len:4.1>2、6、0、6。"
+		"ZephyrVoice.Speech2710"	"<len:6>喂喂？喔，好久沒聽到活人的聲音了，真叫人放心。<delay:6.8><len:4.3>聽好了，目前我人關在軌道轉盤旁邊的機廠裡頭。<delay:11.8><len:4.7>如果你們可以出來幫我一把，我會很感激的。<delay:16.8><len:4.1>況且，我也有辦法回報你們，不過首先，<delay:21.7><len:5.3>往月台的門有密碼鎖，密碼是……我看看……<delay:28.5><len:4.1>2、7、1、0。"
 	}
 }
