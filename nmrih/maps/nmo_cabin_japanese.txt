@@ -4,7 +4,7 @@
 "Tokens" 
 {
 	"nmo_cabin_objStart"	"屋根裏部屋から脱出する"
-	"nmo_cabin_ObjA"	"鍵を探しドアを開錠する"
+	"nmo_cabin_ObjA"	"鍵を探し、ドアを開錠する"
 	"nmo_cabin_ObjB"	"板を壊して進む"
 	"nmo_cabin_ObjC"	"家族こそ答え、秘密の本を見つけよう"
 	"nmo_cabin_ObjD"	"階段のゲートを開ける"
