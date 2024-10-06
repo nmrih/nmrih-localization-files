@@ -255,7 +255,7 @@
 "Challenge_Name_nmo_shoreline_challenge_1"	"Экскурсант"
 "Challenge_Desc_nmo_shoreline_challenge_1"	"Не думаю, что здешние жители любят туристов..."
 "Challenge_Name_nmo_shoreline_challenge_2"	"Объезд"
-"Challenge_Desc_nmo_shoreline_challenge_2"	"Пройдите карту полным другим путём."
+"Challenge_Desc_nmo_shoreline_challenge_2"	"Пройдите карту альтернативным путём."
 
 "Challenge_Name_nmo_suzhou_challenge_1"	"День плохой причёски"
 "Challenge_Desc_nmo_suzhou_challenge_1"	"Пройдите раунд с самой длинной из возможных цепочек заданий."
