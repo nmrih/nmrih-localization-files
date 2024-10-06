@@ -316,7 +316,7 @@
 "Mutator_Desc_nostamina"	"У игроков бесконечная выносливость."
 
 "Mutator_Name_nozombierespawn"	"Нет появлений зомби"
-"Mutator_Desc_nozombierespawn"	"Зомби не будут появляться."
+"Mutator_Desc_nozombierespawn"	"Зомби не будут заново появляться."
 
 "Mutator_Name_weightlessammo"	"Невесомые боеприпасы"
 "Mutator_Desc_weightlessammo"	"Боеприпасы не занимают место в инвентаре."
