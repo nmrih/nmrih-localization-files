@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "Italian" 
+"Tokens" 
+{
+	"nmo_shoreline_obj_startgo"	"Esci dal rifugio"
+	"nmo_shoreline_obj_startbreakplanks"	"Trova un modo per entrare nella cabina"
+	"nmo_shoreline_obj_startunlockcellar"	"Trova un saldatore e apri la porta della cantina"
+	"nmo_shoreline_obj_cellartocabin"	"Passa per la cantina"
+	"nmo_shoreline_obj_unlockbasementexit"	"Trova la chiave del seminterrato e sblocca la porta"
+	"nmo_shoreline_obj_unlockgarage"	"La scala è bloccata, trova la chiave per la stanza della scatola dei fusibili"
+	"nmo_shoreline_obj_disableelec"	"Disattiva la corrente del recinto elettrico in cantina."
+	"nmo_shoreline_obj_cellartocourtyard"	"Torna in cantina e trova un modo per entrare nella cabina."
+	"nmo_shoreline_obj_watersidetocabin"	"Entra nella cabina attraverso la banchina"
+	"nmo_shoreline_obj_vanbattery"	"Trova la batteria mancante per alimentare il furgone"
+	"nmo_shoreline_obj_destroygaragedoor"	"Innesca gli esplosivi dalla porta del garage"
+	"nmo_shoreline_obj_garagetocabin"	"Entra nella cabina dal garage"
+	"nmo_shoreline_obj_garagetolaundry"	"La scala è bloccata, passa per la lavanderia"
+	"nmo_shoreline_obj_watersideexplosive"	"Trova una bombola di propano per sfondare la porta"
+	"nmo_shoreline_obj_gouproute"	"Attraversa il piano superiore della cabina"
+	"nmo_shoreline_obj_findtheradio"	"Usa un saldatore per accedere alla stanza della radio"
+	"nmo_shoreline_obj_radiofindbattery"	"La radio non ha corrente, trova una batteria"
+	"nmo_shoreline_obj_callextraction"	"Usa la radio per chiamare i soccorsi"
+	"nmo_shoreline_obj_flare"	"Segnala l'estrazione con un bengala"
+	"nmo_shoreline_evac"	"I soccorsi arriveranno fra 2 minuti. Metti in sicurezza il punto d'evacuazione!"
+}
+}

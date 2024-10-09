@@ -782,6 +782,12 @@
 		"QuarantineVoice.RadioTalk2"	"<len:4>现在你们要做的是，那里应该有一个警报器，<delay:2.8><len:4.2><B>有一个警报器装置<B>，就在内侧隔离区的某个位置。<delay:6.5><len:5>你们需要激活警报，而这样就能够，就能够让这些丧尸不再包围我们。<delay:11.5><len:3.8>之后我们就会前往启动救援直升机，<delay:14.7><len:3.9>然后再回来接上你们，这样我们就都能离开这个鬼地方了。<delay:18.6><len:8.5>我希望你们都能够登机，所以...请务必做好准备。当你们准备好后，就激活警报，好吗？"
 		"QuarantineVoice.RadioTalk3"	"<len:4.0>不过首先，在你们所在房子里的某处应该有一个对讲机，<delay:4.1><len:2.2>把它带上，以便我们之后联络。"
 
+		// Shoreline
+		"ShorelineVoice.Arrival1"	"<len:1.6>嘿，那里的人！"
+		"ShorelineVoice.Arrival2"	"<len:4.4>嘿，你想要离开这吗？有条船正好要靠近岸边。"
+		"ShorelineVoice.FindLadder"	"<len:4>好吧，看起来你们唯一的路就是通过那个天桥。<delay:4.2><len:2.5>看看你们是否能找到一架梯子来通过。"
+		"ShorelineVoice.LadderPlaced"	"<len:2.8>呜呼！我就是这个意思！<delay:3.1><len:5.2>嘿，你们最好快点动身前往要去的地方，因为现在可是有一大群丧尸要来了。<delay:8.4><len:3.7>国民警卫队在那儿可不是为了确保<I>我们<I>活下来，如果你懂我意思的话。"
+
 		// Suzhou
 		"SuzhouVoice.BoatMan"	"<len:6.6><I>喂？喂？我在船上，假如你告诉你们的位置，我会来—接你！<I>"
 

@@ -4,7 +4,7 @@
 "Tokens" 
 {
 	"nmo_zephyr_objective1_leavebuilding"	"コードを見つけてオフィスビルから脱出せよ"
-	"nmo_zephyr_objective2_blowwarehouse"	"倉庫へのアクセス方法を探す"
+	"nmo_zephyr_objective2_blowwarehouse"	"倉庫に入る方法を探す"
 	"nmo_zephyr_objective2a_sewertime"	"マンホールをこじ開ける道具を探す"
 	"nmo_zephyr_objective2b_blowtorchsewer"	"溶接機で格子を溶かす"
 	"nmo_zephyr_objective3_warehouseelevator"	"エレベーターを起動し、上層階へ上がる"
@@ -15,9 +15,9 @@
 	"nmo_zephyr_Objective5c_1901"	"ドアのコードは1901"
 	"nmo_zephyr_objective6_activate"	"転車台を起動する"
 	"nmo_zephyr_objective6a_unclog"	"転車台の詰まりを取り除く"
-	"nmo_zephyr_objective7_switch1"	"機関車の後ろにあるスイッチを押す"
-	"nmo_zephyr_objective8_switchdasequel"	"もう一つのスイッチを押す"
+	"nmo_zephyr_objective7_switch1"	"機関車の後ろにあるスイッチを入れる"
+	"nmo_zephyr_objective8_switchdasequel"	"もう一つのスイッチを入れる"
 	"nmo_zephyr_objective9_brakes"	"ハンドブレーキを解除する"
-	"nmo_zephyr_objective10_allaboard"	"準備ができ次第、エンジニアに無線連絡する"
+	"nmo_zephyr_objective10_allaboard"	"準備ができ次第、技士に連絡する"
 }
 }

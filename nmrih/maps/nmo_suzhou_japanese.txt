@@ -4,7 +4,7 @@
 "Tokens" 
 {
 	"nmo_suzhou_Objective01_leavestation"	"駅からの出口を探す"
-	"nmo_suzhou_Objective02_maintenancedetour"	"メインエントランスが封鎖されている、別の出口を探す"
+	"nmo_suzhou_Objective02_maintenancedetour"	"正面入り口が封鎖されている。 別の出口を探せ"
 	"nmo_suzhou_Objective03_tolindun"	"リンドゥン・ロードへの行き方を探す"
 	"nmo_suzhou_Objective04_headout"	"橋を渡る"
 	"nmo_suzhou_Objective05_oldtown"	"旧市街に入る方法を探す"
@@ -21,7 +21,7 @@
 	"nmo_suzhou_Objective15_batterybarricade"	"ドアの電源となる車のバッテリーを探す"
 	"nmo_suzhou_Objective16_truckpuzzle"	"トラックを動かして道を空ける"
 	"nmo_suzhou_Objective16b_recrosscanal"	"トラックで運河を渡る"
-	"nmo_suzhou_Objective17_findevac"	"避難ステーションへ進む"
+	"nmo_suzhou_Objective17_findevac"	"避難所へ進む"
 	"nmo_suzhou_Objective18_horrifyingrealization"	"避難所が感染者に占領されている！ 無線で救援を要請せよ"
 	"nmo_suzhou_Objective19_batteryforradio"	"停電している、車のバッテリーを探して動かそう"
 	"nmo_suzhou_Objective20_flarelauncher"	"ボートに合図を送る方法を探す"

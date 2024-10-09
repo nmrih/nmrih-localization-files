@@ -17,7 +17,7 @@
 	"nmo_toxteth_ObjJ"	"壁コンセント3個に溶接機を使い、火災を起こせ！"
 	"nmo_toxteth_ObjK"	"クランクを探し、ドアを開ける"
 	"nmo_toxteth_ObjL"	"教会へ進む"
-	"nmo_toxteth_ObjM"	"マンホールの蓋に溶接機を使用"
+	"nmo_toxteth_ObjM"	"マンホールの蓋に溶接機を使用する"
 	"nmo_toxteth_ObjZ"	"ハーティントン・ロードに戻る"
 }
 }

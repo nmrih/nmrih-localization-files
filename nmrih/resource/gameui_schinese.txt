@@ -252,6 +252,11 @@
 "Challenge_Name_nmo_shelter_challenge_1"	"这里没有避难所！"
 "Challenge_Desc_nmo_shelter_challenge_1"	"娱乐与斗争仅在一念之间。"
 
+"Challenge_Name_nmo_shoreline_challenge_1"	"观光客"
+"Challenge_Desc_nmo_shoreline_challenge_1"	"我觉得这里的人不喜欢游客..."
+"Challenge_Name_nmo_shoreline_challenge_2"	"绕道而行"
+"Challenge_Desc_nmo_shoreline_challenge_2"	"用完整的备用路线穿过地图。"
+
 "Challenge_Name_nmo_suzhou_challenge_1"	"倒霉的一天"
 "Challenge_Desc_nmo_suzhou_challenge_1"	"通过尽可能最长的任务链完成一局游戏。"
 

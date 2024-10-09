@@ -252,6 +252,11 @@
 "Challenge_Name_nmo_shelter_challenge_1"	"ここにはシェルターなんか無い！"
 "Challenge_Desc_nmo_shelter_challenge_1"	"娯楽と戦争の線引きは細くなる。"
 
+"Challenge_Name_nmo_shoreline_challenge_1"	"観光客"
+"Challenge_Desc_nmo_shoreline_challenge_1"	"この辺の人たちは観光客が好きじゃなさそうだ..."
+"Challenge_Name_nmo_shoreline_challenge_2"	"遠回り"
+"Challenge_Desc_nmo_shoreline_challenge_2"	"完全な代替ルートでマップを通過する。"
+
 "Challenge_Name_nmo_suzhou_challenge_1"	"ツイてない日"
 "Challenge_Desc_nmo_suzhou_challenge_1"	"可能な限り長い目標チェーンでラウンドを完了する。"
 
