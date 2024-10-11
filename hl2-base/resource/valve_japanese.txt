@@ -376,7 +376,7 @@
 "Attrib_LimitedUse"					"使用回数制限アイテム。\n残り使用回数： %s1"
 "Attrib_EventDate"					"受領日： %s1"
 "Attrib_InUse"						"現在使用中"
-"Attrib_Community_Description"		"コミュニティの貢献者に捧ぐ"
+"Attrib_Community_Description"		"コミュニティへの貢献者に捧ぐ"
 "Attrib_Selfmade_Description"		"私が作りました！"
 
 //----------------------------------------------
