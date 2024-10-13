@@ -118,13 +118,13 @@
  マウス - マップ/ターゲットを周回
 "
 
-"Spec_Modes"	"カメラ オプション"
+"Spec_Modes"	"カメラオプション"
 "Spec_Mode0"	"カメラ無効"
 "Spec_Mode1"	"死後のカメラ"
 "Spec_Mode2"	"視点固定"
 "Spec_Mode3"	"プレイヤー視点"
 "Spec_Mode4"	"バードビュー"
-"Spec_Mode5"	"フリー ルック"
+"Spec_Mode5"	"フリールック"
 "Spec_Mode6" "マップ見下ろし(追跡)"
 "Spec_NoTarget"	"有効なターゲットなし。 カメラモードに切替できません。"
 "Spec_Options"	"設定"
@@ -167,7 +167,7 @@
 "C5TITLE"	"選択の時間"
 
 "Valve_Hostname"	"ホストネーム"
-"Valve_Max_Players"	"最大 プレイヤー"
+"Valve_Max_Players"	"最大プレイヤー"
 "Valve_Server_Password"	"サーバーパスワード"
 
 "Valve_Close"		"閉じる"
@@ -255,7 +255,7 @@
 
 "Valve_HudPoisonDamage"	"神経毒を検知\n解毒剤を投与中"
 
-"Valve_CreatingCache"	"サウンド キャッシュを作成中..."
+"Valve_CreatingCache"	"サウンドキャッシュを作成中..."
 "Valve_CreatingSpecificSoundCache"	"処理中： %s1"
 
 "Valve_UpdatingSteamResources" "Steam のリソースを更新中..."
@@ -264,7 +264,7 @@
 "Valve_Suit_Zoom"	"スーツズーム"
 "Valve_Commander_Mode"	"部隊の派遣/召還"
 "Valve_Gravity_Gun"	"重力銃"
-"Valve_CC_Toggle"	"クローズドキャプションの SE を切り替える"
+"Valve_CC_Toggle"	"クローズドキャプションのSEを切り替える"
 
 "Valve_Hud_HEALTH"		"ヘルス"
 "Valve_Hud_AMMO"		"弾薬"
