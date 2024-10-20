@@ -252,6 +252,11 @@
 "Challenge_Name_nmo_shelter_challenge_1"	"Qui non c'è riparo!"
 "Challenge_Desc_nmo_shelter_challenge_1"	"La sottile linea che separa l'intrattenimento dalla guerra."
 
+"Challenge_Name_nmo_shoreline_challenge_1"	"Turista"
+"Challenge_Desc_nmo_shoreline_challenge_1"	"Non credo che la gente di queste parti ami i turisti..."
+"Challenge_Name_nmo_shoreline_challenge_2"	"Deviazione"
+"Challenge_Desc_nmo_shoreline_challenge_2"	"Attraversa la mappa passando per il percorso alternativo completo."
+
 "Challenge_Name_nmo_suzhou_challenge_1"	"Giornata delle pessime capigliature"
 "Challenge_Desc_nmo_suzhou_challenge_1"	"Completa un round con la catena di obiettivi più lunga possibile."
 
