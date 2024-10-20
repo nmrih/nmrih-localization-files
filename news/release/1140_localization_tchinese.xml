@@ -54,7 +54,7 @@
 [*]修正密碼鎖的密碼用 "InputSetCode" 更動時無法維持
 [*]修正 "item_custom" inputs "SetLabel" 和 "SetIcon" 的 late transmit
 [*]修正武器標籤和覆蓋圖示的 late transmit
-[*]修正直接設定 "solid" keyvalue 時的 "physics mayhem" bug
+[*]修正直接設定 "solid" keyvalue 時的「物理騷動」bug
 [*]修正偏好拿取角度沒有作用 (#1509)
 [*]修正殭屍攻擊音效覆蓋沒有作用 (#1491)
 [*]FMOD：新增控制台命令 "fmod_memstats" 來追蹤記憶體使用
