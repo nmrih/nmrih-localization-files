@@ -785,7 +785,7 @@
 		// Shoreline
 		"ShorelineVoice.Arrival1"	"<len:1.6>嘿，那邊的！"
 		"ShorelineVoice.Arrival2"	"<len:4.4>嘿，你想逃出這個鬼地方嗎？ 有艘船要去岸邊的渡口停靠。"
-		"ShorelineVoice.FindLadder"	"<len:4>好了欸，看樣子你那邊唯一行得通的路就只有走天橋了。 <delay:4.2><len:2.5>看你能不能找到梯子通過。"
+		"ShorelineVoice.FindLadder"	"<len:4>好了欸，看樣子你那邊唯一行得通的辦法就只有架天橋了。 <delay:4.2><len:2.5>看你能不能找架梯子跨過去。"
 		"ShorelineVoice.LadderPlaced"	"<len:2.8>哇呼！這就對了！ <delay:3.1><len:5.2>嘿，你最好抓緊時間動作加快，有一大群死人要往你那邊去了。 <delay:8.4><len:3.7>而且國民警衛隊可沒有替<I>我們<I>的性命擔保，懂我的意思吧。"
 
 		// Suzhou
