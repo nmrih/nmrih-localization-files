@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[h1]New Maps[/h1]
+[h3]Shoreline [Objective] (by Sirdoggy)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/aa8fbb33c465f0024395d4885c5a6249fd1721af.jpg[/img]
+
+[i]The US military declared this portion of the shoreline as a redeker safe zone. We, and many others, have fled here from the city, but the dead bastards have also followed us here. This caused the military to withhold rescue operations. It's been days now, and things are only getting worse.
+
+Last night a horde breached one of the cabin entrances. Many got bit and infected. A couple of us got together and hid in the basement of a nearby house. We're staying quiet until things calm down.
+The plan is to return to the cabin and re-establish contact with the national guard. Hopefully they'll organize one last transport for us.[/i]
+
+[h1]Code[/h1]
+
+[h2]Additions[/h2]
+[list]
+[*]Added medical item viewmodels, contributed by S0kk0 (#1516)
+[/list]
+[h2]Changes[/h2]
+[list]
+[*]Improved zombie LOD models, contributed by BigHatMarley (#1500)
+[*]Inactive safezones are now displayed as "INACTIVE" on the HUD
+[*]Increased max. depth texture shadows to 8, added launch option "-numshadowtextures"
+[*]Misc. CPU performance improvements
+[*]Names and descriptions for challenges and mutators now support localization strings
+
+[*]Updated the localization files:
+[list]
+
+[*]With thanks to community translators: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]Want to localize NMRiH to your own language? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed Badass character model not casting dynamic shadows (#587)
+[*]Fixed broken center-bottom HUD messages (#1484)
+[*]Fixed custom sounds not playing sometimes on Workshop maps
+[*]Fixed demo compatibility with files recorded before 1.13.5
+[*]Fixed disconnect with infection status crashing the game (#1489)
+[*]Fixed dying during extraction with respawn tokens making game enter 'win state' in survival (#1168)
+[*]Fixed missing sounds for shoving and holstering with frag grenade (#1293)
+[*]Fixed shaky viewmodel when running into walls (#1354)
+[*]Fixed walking on a texture with gravel surface causing player to slide (#1507)
+[*]Fixed zombie AI aggro issues (#1448/#1475)
+
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added input "SetActivatorCaption" to entity "env_instructor_hint"
+[*]Added inputs "PauseDrain" and "ResumeDrain" to entity "func_safe_zone" (#1467)
+[*]Added keyfield "Spawn Solid?" to entity "item_inventory_box"
+[*]Added map-defined override for "func_zombie_spawn" spawn regen target, to fix a bug with it being reset on round restart
+[*]Added support for highlighting multiple objective entities sharing the same name (#1524)
+[*]Fixed crash caused by "prop_physics_override" with collisionless model (#1504)
+[*]Fixed crash when "generic_actor" spawns with empty "model" keyfield (#1494)
+[*]Fixed "Disable Motion" spawnflag being ignored for "item_custom" (#1510)
+[*]Fixed entities "point_viewcontrol_multiplayer" and "nmrih_extract_preview" locking camera rotation for spectators (#1522)
+[*]Fixed entity "ambient_fmod" not playing a sound when spawned by a script (#1496)
+[*]Fixed entity "item_custom" not releasing inventory space on "Kill" input
+[*]Fixed input "Disable" for entity "instant_trigger" not functioning (#1498)
+[*]Fixed keypad codes not persisting when changing those with "InputSetCode"
+[*]Fixed late transmit for "item_custom" inputs "SetLabel" and "SetIcon"
+[*]Fixed late transmit for weapon label and icon overrides
+[*]Fixed "physics mayhem" bug when setting "solid" keyvalue directly
+[*]Fixed preferred carry angles not working (#1509)
+[*]Fixed zombie attack sound override not working (#1491)
+[*]FMOD: Added console command "fmod_memstats" for tracking memory usage
+[*]FMOD: Added occlusion to ambient sounds
+[*]FMOD: Added partial sound character support ('*' [stream from disk], '#' [dry mix, play everywhere, affected by music volume])
+[*]FMOD: Fixed inaccurate attenuation with ambient sounds
+[*]MapHack: Fixed misbehaving $respawn function, it now correctly respawns an entity on its original position with pristine entdata (#1089)
+[*]NMRObjective: On initial load, default description is set to objective name instead of empty field
+[*]VScript: Added CAI_BaseNPC function IsFrozen()
+[*]VScript: Added CNMRiH_Objective functions GetObjectiveBoundary(), and GetObjectiveBoundaryName() (#1495)
+[*]VScript: Added CNMRiH_ObjectiveManager function GetCurrentObjective()
+[*]VScript: Added function DispatchParticleEffectByAttachment()
+[*]VScript: Added function FMOD_PrecacheSound()
+[*]VScript: Added particle attachment constants
+[*]VScript: Deprecated Enable/DisableEntityListening() functions, entity hooks are now always listening
+[*]VScript: Fixed CBaseEntity::GetKeyValue() returning garbled values for strings
+[*]VScript: Fixed CNMRiH_Player::GetCarriedItems() not returning custom items with duplicate targetnames
+[*]VScript: Fixed hooks "NPC_TranslateActivity" and "NPC_TranslateSchedule" not working properly
+[*]VScript: Ruleset validated cvars are now allowed to be set by Convars functions
+[*]VScript: Throw an error instead of crashing when a function expects table parameter and won't get one
+
+[/list]
+[h2]Changes for server admins[/h2]
+[list]
+[*]Added cvar "sv_grenade_rise", ported from Ryan's QoL plugin (warps grenades slightly off ground on detonation to improve effectiveness around clutter)
+[*]Added improved idle player detection, idle item drop, and new cvars "sv_idle_tracking_method", "sv_idle_item_drop", and "sv_idle_item_drop_time" (#1372)
+[*]Added QoL inspired multi-shove, can be enabled by cvar "sv_shove_multi" (off by default)
+[/list]
+[h1]Maps[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Door near market, which leads to a house with a welder, now opens outside only
+[*]Fixed nodraw surface on destroyed wall's brick
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Fixed softlock (#1451)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Added watermelon
+[*]Fixed instructor hint indicators following other players
+[*]Fixed respawn door being openable by zombies
+[*]Removed various clips
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Tweaked clips
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]Little tweaks
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]Changed escape van color
+[*]Little tweaks
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]Little tweaks
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]Fixed wrong prop placement in cutscene area
+[/list]
+</string><string id="subtitle">Visit Shoreline, a brand new map, in this content update for NMRiH.</string><string id="summary">Visit Shoreline, a brand new map, in this content update for NMRiH.</string><string id="title">NMRiH Shoreline Update (1.14) Released</string></content>
