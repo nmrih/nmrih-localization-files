@@ -677,7 +677,7 @@
 
 		"NGSurvivalExtraction"	"<len:10.0><I>救援即將抵達你們的位置，請動身前往！"
 		"NGSurvivalSupply"	"<len:10.0><I>通知，FEMA 物資空投即將抵達你們的位置。以上。"
-		"NGSurvivalBegin"	"<len:15.0><I>注意，這是美國國民警衛隊。 在你們的位置上有幾處保護區，依據國家疫情法及聯合國雷德克措施，請就地撐到區域清除。 屆時即可獲救並送往安全處。請各司其職。以上。"
+		"NGSurvivalBegin"	"<len:15.0><I>注意，這是美國國民警衛隊。 在你們的位置上有幾處安全區，依據國家疫情法及聯合國雷德克措施，請就地撐到區域清除。 屆時即可獲救並送往安全處。請各司其職。以上。"
 		"NGSurvivalWaveStart"	"<len:5.0><I>屍潮正向你們所在地點接近中！做好準備！"
 		"NGSurvivalZoneA"	"<len:5.0><clr: 255, 255, 0><I>A 區遭受侵襲！守住它！"
 		"NGSurvivalZoneB"	"<len:5.0><clr: 255, 255, 0><I>B 區遭受侵襲！守住它！"
