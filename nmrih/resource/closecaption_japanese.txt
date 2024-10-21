@@ -677,7 +677,7 @@
 
 		"NGSurvivalExtraction" "<I>救出部隊がそちらに向かう。 集合地点に移動してくれ。"
 		"NGSurvivalSupply" "<I>FEMA物資投下がそちらに向かっている。 以上。"
-		"NGSurvivalBegin" "<I>こちら合衆国州兵、エリアの安全を確保してくれ。 脱出手段は用意する。 以上。"
+		"NGSurvivalBegin" "<I>こちら州兵、エリアの安全を確保してくれ。 脱出手段は用意する。 以上。"
 		"NGSurvivalWaveStart" "<I>そちらにゾンビの群れが接近中。 備えよ。"
 		"NGSurvivalZoneA" "<clr: 255, 255, 0><I>ゾーンAが攻撃されている。"
 		"NGSurvivalZoneB" "<clr: 255, 255, 0><I>ゾーンBが攻撃されている。"
@@ -786,7 +786,7 @@
 		"ShorelineVoice.Arrival1"	"<len:1.6>おい、そこのお前！"
 		"ShorelineVoice.Arrival2"	"<len:4.4>なあ、ここから出たいのか？ なら水際のフェリーの近くにボートがあるはずだ。"
 		"ShorelineVoice.FindLadder"	"<len:4>よし、あの連絡橋を渡るしかなさそうだな。<delay:4.2><len:2.5>ハシゴを見つけて、渡れるかどうか試してみろ。"
-		"ShorelineVoice.LadderPlaced"	"<len:2.8>イヤッホウ！ そういうことだ！<delay:3.1><len:5.2>おい、お前ら、さっさとケツを動かしたほうがいいぞ。 今、お前らの所に大量の死体が向かってきてる。<delay:8.4><len:3.7>そんでもって、州兵は<I>俺たち<I>のために来てくれてるワケじゃねえ、意味はわかるよな？"
+		"ShorelineVoice.LadderPlaced"	"<len:2.8>イヤッホウ！ そういうことだ！<delay:3.1><len:5.2>おい、お前ら、さっさとケツを動かしたほうがいいぞ。 今、お前らの所に大量の死体が向かってきてる。<delay:8.4><len:3.7>そんでもって、州兵は<I>俺たち<I>のために来てくれるワケじゃねえ、意味はわかるよな？"
 		
 		// Suzhou
 		"SuzhouVoice.BoatMan"	"<len:6.6><I>もしもし？ もしもし？ こっちは今ボートに乗っている。 場所を教えてくれたら、大至急迎えに行くぞ！<I>"
