@@ -274,7 +274,7 @@
 "Challenge_Name_nmo_toxtethdark_challenge_2"	"清掃下水道 (黑夜)"
 "Challenge_Desc_nmo_toxtethdark_challenge_2"	"這個嘛，要是你們不怕髒的話……"
 
-"Challenge_Name_nmo_underground_challenge_1"	"通勤族地域"
+"Challenge_Name_nmo_underground_challenge_1"	"通勤族地獄"
 "Challenge_Desc_nmo_underground_challenge_1"	"走不了多遠的……"
 "Challenge_Name_nmo_underground_challenge_2"	"推車啊"
 "Challenge_Desc_nmo_underground_challenge_2"	"我們得推那台小破車！"

@@ -677,7 +677,7 @@
 
 		"NGSurvivalExtraction"	"<len:10.0><I>救援即將抵達你們的位置，請動身前往！"
 		"NGSurvivalSupply"	"<len:10.0><I>通知，FEMA 物資空投即將抵達你們的位置。以上。"
-		"NGSurvivalBegin"	"<len:15.0><I>注意，這是美國國民警衛隊。 在你們的位置上有幾處保護區，依據國家疫情法及聯合國雷德克措施，請就地撐到區域清除。 屆時即可獲救並送往安全處。請各司其職。以上。"
+		"NGSurvivalBegin"	"<len:15.0><I>注意，這是美國國民警衛隊。 在你們的位置上有幾處安全區，依據國家疫情法及聯合國雷德克措施，請就地撐到區域清除。 屆時即可獲救並送往安全處。請各司其職。以上。"
 		"NGSurvivalWaveStart"	"<len:5.0><I>屍潮正向你們所在地點接近中！做好準備！"
 		"NGSurvivalZoneA"	"<len:5.0><clr: 255, 255, 0><I>A 區遭受侵襲！守住它！"
 		"NGSurvivalZoneB"	"<len:5.0><clr: 255, 255, 0><I>B 區遭受侵襲！守住它！"
@@ -785,7 +785,7 @@
 		// Shoreline
 		"ShorelineVoice.Arrival1"	"<len:1.6>嘿，那邊的！"
 		"ShorelineVoice.Arrival2"	"<len:4.4>嘿，你想逃出這個鬼地方嗎？ 有艘船要去岸邊的渡口停靠。"
-		"ShorelineVoice.FindLadder"	"<len:4>好了欸，看樣子你那邊唯一行得通的路就只有走天橋了。 <delay:4.2><len:2.5>看你能不能找到梯子通過。"
+		"ShorelineVoice.FindLadder"	"<len:4>好了欸，看樣子你那邊唯一行得通的辦法就只有架天橋了。 <delay:4.2><len:2.5>看你能不能找架梯子跨過去。"
 		"ShorelineVoice.LadderPlaced"	"<len:2.8>哇呼！這就對了！ <delay:3.1><len:5.2>嘿，你最好抓緊時間動作加快，有一大群死人要往你那邊去了。 <delay:8.4><len:3.7>而且國民警衛隊可沒有替<I>我們<I>的性命擔保，懂我的意思吧。"
 
 		// Suzhou
