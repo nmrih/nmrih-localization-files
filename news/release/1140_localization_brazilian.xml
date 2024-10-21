@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">Uma atualização para No More Room in Hell foi lançada. A atualização será aplicada automaticamente quando você reiniciar o No More Room in Hell. As principais mudanças incluem:
+
+[h1]Novos Mapas[/h1]
+[h3]Shoreline [Objetivo] (por Sirdoggy)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/aa8fbb33c465f0024395d4885c5a6249fd1721af.jpg[/img]
+
+[i]O exército dos EUA declarou esta parte da costa como uma zona segura. Nós, e muitos outros, fugimos da cidade para cá, mas os bastardos mortos também nos seguiram até aqui. Isso fez com que o exército suspendesse as operações de resgate. Já faz dias, e as coisas só estão piorando.
+
+Ontem à noite, uma horda invadiu uma das entradas da cabana. Muitos foram mordidos e infectados. Alguns de nós nos reunimos e nos escondemos no porão de uma casa próxima. Estamos ficando quietos até as coisas se acalmarem.
+O plano é retornar à cabine e restabelecer contato com a guarda nacional. Espero que eles organizem um último transporte para nós.[/i]
+
+[h1]Código[/h1]
+
+[h2]Adições[/h2]
+[list]
+[*]Adicionados modelos de visualização de itens médicos, contribuído por S0kk0 (#1516)
+[/list]
+[h2]Mudanças[/h2]
+[list]
+[*]Modelos de LOD de zumbis aprimorados, contribuídos por BigHatMarley (#1500)
+[*]As zonas seguras inativas agora são exibidas como "INATIVAS" no HUD
+[*]Aumento da profundidade máxima das sombras de textura para 8, opção de inicialização adicionada "-numshadowtextures"
+[*]Diversas melhorias no desempenho da CPU
+[*]Nomes e descrições para desafios e mutadores agora oferecem suporte a textos de localização
+
+[*]Atualizados os arquivos de localização:
+[list]
+
+[*]Agradecimentos aos tradutores da comunidade: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]Quer localizar o NMRiH para o seu idioma? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Correções[/h2]
+[list]
+[*]Corrigido o modelo de personagem Badass não projetando sombras dinâmicas (#587)
+[*]Corrigido Mensagens do HUD central-inferior quebradas (#1484)
+[*]Corrigidos sons personalizados que às vezes não tocavam nos mapas da Oficina
+[*]Corrigido compatibilidade de demonstração com arquivos gravados antes da versão 1.13.5
+[*]Corrigida desconexão com status de infecção travando o jogo (#1489)
+[*]Corrigido o problema de morte durante a extração com tokens de renascimento, fazendo o jogo entrar em "estado de vitória" no modo de sobrevivência (#1168)
+[*]Corrigidos sons ausentes ao empurrar e guardar a granada de fragmentação (#1293)
+[*]Corrigido o modelo de visualização instável ao bater em paredes (#1354)
+[*]Corrigido o problema de andar em uma textura com superfície de cascalho, fazendo o jogador escorregar (#1507)
+[*]Corrigidos problemas de agressividade da IA ​​dos zumbis (#1448/#1475)
+
+[/list]
+[h2]Mudanças para mappers e modders[/h2]
+[list]
+[*]Adicionada entrada "SetActivatorCaption" à entidade "env_instructor_hint"
+[*]Adicionadas entradas "PauseDrain" e "ResumeDrain" à entidade "func_safe_zone" (#1467)
+[*]Adicionado campo-chave "Spawn Solid?" à entidade "item_inventory_box"
+[*]Adicionada substituição definida pelo mapa para o alvo de regeneração de spawn "func_zombie_spawn", para corrigir um bug com ele sendo reiniciado na reinicialização da rodada
+[*]Adicionado suporte para destacar várias entidades objetivas que compartilham o mesmo nome (#1524)
+[*]Corrigida falha causada por "prop_physics_override" com modelo sem colisão (#1504)
+[*]Corrigida a falha quando "generic_actor" é gerado com o campo-chave "model" vazio (#1494)
+[*]Corrigido o spawnflag "Disable Motion" sendo ignorado para "item_custom" (#1510)
+[*]Correção das entidades "point_viewcontrol_multiplayer" e "nmrih_extract_preview" bloqueando a rotação da câmera para espectadores (#1522)
+[*]Corrigida a entidade "ambient_fmod" que não reproduzia um som quando gerada por um script (#1496)
+[*]Corrigida a entidade "item_custom" não liberando espaço de inventário quando realizado a entrada "Kill"
+[*]Corrigida a entrada "Desativar" para a entidade "instant_trigger" que não estava funcionando (#1498)
+[*]Corrigido códigos de teclado que não persistiam ao alterá-los com "InputSetCode"
+[*]Corrigida transmissão atrasada para entradas "item_custom" "SetLabel" e "SetIcon"
+[*]Corrigida transmissão tardia para substituições de rótulos e ícones de armas
+[*]Corrigido o bug "physics mayhem" ao definir o valor-chave "solid" diretamente
+[*]Corrigidos ângulos de transporte preferidos que não funcionavam (#1509)
+[*]Corrigida a substituição do som do ataque de zumbi que não funcionava (#1491)
+[*]FMOD: Adicionado comando de console "fmod_memstats" para rastrear o uso de memória
+[*]FMOD: Adicionada oclusão aos sons ambientes
+[*]FMOD: Adicionado suporte parcial a caracteres sonoros ('*' [stream do disco], '#' [dry mix, tocar em qualquer lugar, afetado pelo volume da música])
+[*]FMOD: Atenuação imprecisa corrigida com sons ambientes
+[*]MapHack: Corrigida a função $respawn com comportamento incorreto, agora ela gera novamente uma entidade corretamente em sua posição original com entdata originais (#1089)
+[*]NMRObjective: No carregamento inicial, a descrição padrão é definida como nome do objetivo em vez de campo vazio
+[*]VScript: Adicionada a função CAI_BaseNPC IsFrozen()
+[*]VScript: Adicionadas funções CNMRiH_Objective GetObjectiveBoundary() e GetObjectiveBoundaryName() (#1495)
+[*]VScript: Adicionada a função CNMRiH_ObjectiveManager GetCurrentObjective()
+[*]VScript: Adicionada função DispatchParticleEffectByAttachment()
+[*]VScript: Adicionada função FMOD_PrecacheSound()
+[*]VScript: Adicionadas constantes de fixação de partículas
+[*]VScript: Funções obsoletas Enable/DisableEntityListening(), agora os ganchos de entidade estão sempre escutando
+[*]VScript: Corrigido CBaseEntity::GetKeyValue() retornando valores ilegíveis para textos
+[*]VScript: Corrigido CNMRiH_Player::GetCarriedItems() não retornando itens personalizados com nomes de destino duplicados
+[*]VScript: Corrigidos os ganchos "NPC_TranslateActivity" e "NPC_TranslateSchedule" que não funcionavam corretamente
+[*]VScript: As cvars validadas pelo conjunto de regras agora podem ser definidas por funções Convars
+[*]VScript: Lançar um erro em vez de travar quando uma função espera um parâmetro de tabela e não obtém nenhum
+
+[/list]
+[h2]Mudanças para administradores de servidor[/h2]
+[list]
+[*]Adicionado cvar "sv_grenade_rise", portado do plugin QoL de Ryan (distorce as granadas ligeiramente para fora do solo na detonação para melhorar a eficácia em torno da desordem)
+[*]Adicionada detecção aprimorada de jogador ocioso, queda de item ocioso e novas cvars "sv_idle_tracking_method", "sv_idle_item_drop" e "sv_idle_item_drop_time" (#1372)
+[*]Adicionado multi-shove inspirado em QoL, pode ser habilitado por cvar "sv_shove_multi" (desativado por padrão)
+[/list]
+[h1]Mapas[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Porta perto do mercado, que leva a uma casa com um maçarico de solda, agora abre apenas para fora
+[*]Superfície nodraw corrigida em tijolos de parede destruída
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Corrigido bloqueio (#1451)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Adicionada melancia
+[*]Correção de indicadores de dicas do instrutor seguindo outros jogadores
+[*]Corrigida a porta de respawn que podia ser aberta por zumbis
+[*]Removido vários clips
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Clips ajustados
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]Pequenos ajustes
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]Mudança na cor da van de fuga
+[*]Pequenos ajustes
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]Pequenos ajustes
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]Corrigido posicionamento incorreto de objetos na área da cena de corte......
+[/list]
+</string><string id="subtitle">Visite Shoreline, um novo mapa, nesta atualização de conteúdo para NMRiH.</string><string id="summary">Visite Shoreline, um novo mapa, nesta atualização de conteúdo para NMRiH.</string><string id="title">Atualização NMRiH Shoreline (1.14) disponível</string></content>
