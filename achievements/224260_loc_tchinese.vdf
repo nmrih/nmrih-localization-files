@@ -108,9 +108,9 @@
 		"NEW_ACHIEVEMENT_3_21_NAME"	"狂歡結束"
 		"NEW_ACHIEVEMENT_3_21_DESC"	"在 5.5 分鐘內完成 Cabin"
 		"NEW_ACHIEVEMENT_3_22_NAME"	"羅賓漢"
-		"NEW_ACHIEVEMENT_3_22_DESC"	"在 125 碼以上的距離用弓箭殺死任何敵人(殭屍或國民警衛隊)"
+		"NEW_ACHIEVEMENT_3_22_DESC"	"在 125 碼以上的距離用弓箭殺死任何敵人 (殭屍或國民警衛隊)"
 		"NEW_ACHIEVEMENT_3_23_NAME"	"針插包"
-		"NEW_ACHIEVEMENT_3_23_DESC"	"在 10 個還在行走的殭屍身上插上 10 枝箭失"
+		"NEW_ACHIEVEMENT_3_23_DESC"	"在 10 個還在行走的殭屍身上插上 10 枝箭矢"
 		"NEW_ACHIEVEMENT_3_24_NAME"	"疑病症"
 		"NEW_ACHIEVEMENT_3_24_DESC"	"在一條命中，嗑掉整整四罐膠囊繼續苟延殘喘下去"
 		"NEW_ACHIEVEMENT_3_25_NAME"	"凱沃基安"
@@ -231,5 +231,7 @@
 		"NEW_ACHIEVEMENT_57_21_DESC"	"在 Asylum 成功通關"
 		"NEW_ACHIEVEMENT_57_22_NAME"	"骯髒活"
 		"NEW_ACHIEVEMENT_57_22_DESC"	"在 Laundry 成功生還"
+		"NEW_ACHIEVEMENT_57_23_NAME"	"搜救行動"
+		"NEW_ACHIEVEMENT_57_23_DESC"	"在 Shoreline 成功通關"
 	}
 }

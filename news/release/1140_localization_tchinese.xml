@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell 更新發布，只要重新啟動即可自動更新遊戲，更新的主要變更有：
+[h1]新地圖[/h1]
+[h3]Shoreline [目標] (by Sirdoggy)[/h3]
+[img]{STEAM_CLAN_IMAGE}/4458555/aa8fbb33c465f0024395d4885c5a6249fd1721af.jpg[/img]
+[i]這段河岸線被美軍劃分為雷德克安全區。我們和許多人一樣從都市逃來這裡，卻讓那群陰魂不散的怪物也跟來了。搞的軍隊收手停止救援行動。一天天過去，局勢只有一直惡化下去。
+昨晚有一群殭屍突破了房子的其中一個入口。很多人被咬被感染。我們一些人躲進了附近一棟房子的地下室，靜靜等待騷動暫歇。
+我們的計畫是回到那棟房子恢復與國民警衛隊的聯繫。希望他們能為我們安排最後一趟救援。[/i]
+[h1]程式碼[/h1]
+[h2]新增[/h2]
+[list]
+[*]新增醫療用品第一人稱模型，由 S0kk0 提供 (#1516)
+[/list]
+[h2]更動[/h2]
+[list]
+[*]改善殭屍 LOD 模型，由 BigHatMarley 提供 (#1500)
+[*]停用的安全曲線在會在 HUD 上顯示為「停滯」
+[*]將最大深度材質陰影提升至 8，新增啟動選項 "-numshadowtextures"
+[*]諸多 CPU 效能改善
+[*]挑戰與調整器的名稱與描述支援在地化字串
+[*]更新在地化檔案：
+[list]
+[*]感謝社群翻譯者：[b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]想要為 NMRiH 在地化你的語言嗎？[url=https://github.com/nmrih/nmrih-localization-files]造訪我們在 GitHub 上的在地化存儲庫。[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[list]
+[*]修正 Badass 人物模型不會投射動態陰影 (#587)
+[*]修正壞掉的至中下排 HUD 訊息 (#1484)
+[*]修正工作坊地圖的客製化音效有時不會播放
+[*]修正 1.13.5 之前錄製的影片檔的相容性問題
+[*]修正在感染狀態下斷開連接會導致遊戲崩潰 (#1489)
+[*]修正在生存模式撤離期間帶著復活點數死亡時會使遊戲進入「勝利狀態」 (#1168)
+[*]修正推與收納破片手榴彈遺失的音效 (#1293)
+[*]修正跑向牆壁時第一人稱模型的抖動 (#1354)
+[*]修正在石子地上移動時玩家的滑行 (#1507)
+[*]修正殭屍 AI 攻擊性問題 (#1448/#1475)
+[/list]
+[h2]為地圖模組製作進行的更動[/h2]
+[list]
+[*]新增 input "SetActivatorCaption" 給 entity "env_instructor_hint"
+[*]新增 inputs "PauseDrain" 和 "ResumeDrain" 給 entity "func_safe_zone" (#1467)
+[*]新增 keyfield "Spawn Solid?" 給 entity "item_inventory_box"
+[*]新增地圖定義覆蓋給 "func_zombie_spawn" spawn regen target，來修正回合重啟時會讓它重設的問題
+[*]新增支援同時標示出多件相同名稱的任務目標 (#1524)
+[*]修正 "prop_physics_override" 在無碰撞模型導致的崩潰 (#1504)
+[*]修正 "generic_actor" 生成無填寫內容的 "model" keyfield 時導致的崩潰 (#1494)
+[*]修正 "Disable Motion" spawnflag 被 "item_custom" 忽略 (#1510)
+[*]修正 entities "point_viewcontrol_multiplayer" 和 "nmrih_extract_preview" 鎖住觀察者的鏡頭 (#1522)
+[*]修正 entity "ambient_fmod" 被腳本生成時不播放音效 (#1496)
+[*]修正 entity "item_custom" 在 "kill" 輸入時不釋放物品欄空間
+[*]修正 entity "instant_trigger" 的 input "Disable" 不作用 (#1498)
+[*]修正密碼鎖的密碼用 "InputSetCode" 更動時無法維持
+[*]修正 "item_custom" inputs "SetLabel" 和 "SetIcon" 的 late transmit
+[*]修正武器標籤和覆蓋圖示的 late transmit
+[*]修正直接設定 "solid" keyvalue 時的「物理騷動」bug
+[*]修正偏好拿取角度沒有作用 (#1509)
+[*]修正殭屍攻擊音效覆蓋沒有作用 (#1491)
+[*]FMOD：新增控制台命令 "fmod_memstats" 來追蹤記憶體使用
+[*]FMOD：新增環境音效遮蔽
+[*]FMOD：新增部分 sound character 支援 ('*' [stream from disk], '#' [dry mix, play everywhere, affected by music volume])
+[*]FMOD：修正環境音效不準確的衰減
+[*]MapHack：修正 $respawn function 的錯誤行為，它現在能夠在初始位置正確地生成一個帶 pristine entdata 的 entity  (#1089)
+[*]NMRObjective：在初始讀取時，預設描述會設定為目標名稱而不留白
+[*]VScript：新增 CAI_BaseNPC function IsFrozen()
+[*]VScript：新增 CNMRiH_Objective functions GetObjectiveBoundary(), 和 GetObjectiveBoundaryName() (#1495)
+[*]VScript：新增 CNMRiH_ObjectiveManager function GetCurrentObjective()
+[*]VScript：新增 function DispatchParticleEffectByAttachment()
+[*]VScript：新增 function FMOD_PrecacheSound()
+[*]VScript：新增粒子附件常數
+[*]VScript：淘汰 Enable/DisableEntityListening() functions，entity hooks 現在會永遠處在 listening
+[*]VScript：修正 CBaseEntity::GetKeyValue() 在字串中回到亂碼數值
+[*]VScript：修正 CNMRiH_Player::GetCarriedItems() 沒有返還複製目標名稱的自訂物件
+[*]VScript：修正 hooks "NPC_TranslateActivity" 和 "NPC_TranslateSchedule" 沒有正確作用
+[*]VScript：規則設定認可的控制台參數現在可以由 Convars functions 設定
+[*]VScript：在一個 function 等待 table parameter 卻沒接收到時彈出錯誤訊息不直接讓遊戲崩潰
+[/list]
+[h2]為伺服器管理者進行的更動[/h2]
+[list]
+[*]新增控制台參數 cvar "sv_grenade_rise"，提取至 Ryan's QoL 插件 (使手榴彈引爆時稍微抬高位置來改善在凌亂場景中的效果)
+[*]新增改良的掛機玩家偵測、掛機丟棄物件、和新的控制台參數 "sv_idle_tracking_method"、"sv_idle_item_drop" 和 "sv_idle_item_drop_time" (#1372)
+[*]新增 QoL 啟發的推開多個目標，可以利用伺服器參數 cvar "sv_shove_multi" 來啟動 (預設為關閉)
+[/list]
+[h1]地圖[/h1]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]商場附近的能通往有焊槍的房子的門現在只能由外側開啟
+[*]修正垮牆磚頭上的 nodraw 表面
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]修正卡點 (#1451)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]增加西瓜
+[*]修正指示提示跟隨其他玩家
+[*]修正重生門可被殭屍開啟
+[*]移除許多 clips
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]調整 clips
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]一些微調
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]更改逃亡貨車顏色
+[*]一些小微調
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]一些小微調
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]修正過場畫面區域的道具錯誤擺放
+[/list]
+</string><string id="subtitle">這次 NMRiH 內容更新，邀你來河岸線 (Shoreline) 走走。</string><string id="summary">這次 NMRiH 內容更新，邀你來河岸線 (Shoreline) 走走。</string><string id="title">NMRiH Shoreline 更新 (1.14) 釋出</string></content>

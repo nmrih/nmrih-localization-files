@@ -119,7 +119,7 @@
 "GameUI_Gamma"			"ガンマ"
 "GameUI_Resolution"		"解像度"
 "GameUI_VideoRestart"		"注：ビデオオプションを変更するとゲームが再起動されます。"
-"GameUI_EnableVoice"		"ボイスチャットを使用可能にする"
+"GameUI_EnableVoice"		"ボイスチャットを有効化"
 "GameUI_BoostMicrophone"	"マイク感度を上げる"
 "GameUI_MicrophoneVolume"	"マイク音量"
 "GameUI_ReceiveVolume"		"受信音量"

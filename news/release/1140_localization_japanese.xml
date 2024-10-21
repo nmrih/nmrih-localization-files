@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell のアップデートがリリースされました。
+アップデートは No More Room in Hell を再起動すると自動的に適用されます。
+主な変更点は以下の通りです：
+
+[h1]新しいマップ[/h1]
+[h3]Shoreline [オブジェクティブ] (by Sirdoggy)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/aa8fbb33c465f0024395d4885c5a6249fd1721af.jpg[/img]
+
+[i]米軍はこの海岸線の一部をリデカー安全地帯と宣言した。 私たちや他の多くの人たちは街からここに逃げてきたが、死体野郎共も私たちを追ってここにやってきた。 そのせいで軍は救助活動を保留。 もう何日も経つが、事態は悪化の一途をたどっている。
+
+昨夜、大群がキャビンの入り口のひとつを突破。 多くの人が噛まれ、感染したが、私たちは数人で集まって近くの家の地下室に隠れた。 事態が落ち着くまで安静にしている。
+ひとまずはキャビンに戻り、州兵と連絡を取り直す予定だ。 うまくいけば、彼らが最後の救助を手配してくれるかもしれない。[/i]
+
+[h1]コード[/h1]
+
+[h2]追加[/h2]
+[list]
+[*]医療アイテムのビューモデルを追加 by S0kk0 (#1516)
+[/list]
+[h2]変更[/h2]
+[list]
+[*]ゾンビのLODモデルを改良 by BigHatMarley (#1500)
+[*]アクティブでないセーフゾーンは、HUDに"停滞"と表示されるようになりました
+[*]テクスチャーシャドウの最大深度を8まで増やし、起動オプションの"-numshadowtextures"を追加
+[*]その他CPUパフォーマンスの改善
+[*]チャレンジとミューテーターの名前と説明を翻訳に対応
+
+[*]翻訳を更新：
+[list]
+
+[*]コミュニティの翻訳者に謝辞を述べます： [b]Blueberryy、Klowby、MakinDay、marcielcps、Plazehorta、RicecakeHuman[/b]
+[*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[list]
+[*]Badassのキャラクターモデルがダイナミックシャドウを投影していなかった問題を修正 (#587)
+[*]中央下部のHUDメッセージが壊れている問題を修正 (#1484)
+[*]ワークショップマップでカスタムサウンドが再生されないことがある問題を修正
+[*]1.13.5以前に録画されたファイルとのデモの互換性を修正
+[*]感染状態で切断するとゲームがクラッシュする問題を修正 (#1489)
+[*]サバイバルモードで脱出中に死亡すると、リスポーントークンによりゲームが"win state"になる問題を修正 (#1168)
+[*]フラググレネードで押しのけとしまう際のサウンドの欠落を修正 (#1293)
+[*]壁にぶつかったときにビューモデルが揺れる問題を修正 (#1354)
+[*]砂利のテクスチャーの上を歩くと、プレーヤーが滑ってしまう問題を修正 (#1507)
+[*]ゾンビAIの攻撃性の問題を修正 (#1448/#1475)
+
+[/list]
+[h2]マップとMOD制作者向けの変更[/h2]
+[list]
+[*]"env_instructor_hint"エンティティに"SetActivatorCaption"入力を追加
+[*]"func_safe_zone"エンティティに"PauseDrain"と"ResumeDrain"入力を追加 (#1467)
+[*]"item_inventory_box"エンティティに"Spawn Solid?"キーフィールドを追加
+[*]ラウンドリスタート時にリセットされるバグの修正のために"func_zombie_spawn"スポーン再生成ターゲットにマップ定義のオーバーライドを追加
+[*]同じ名前を共有する複数の目標エンティティのハイライト表示をサポート (#1524)
+[*]非衝突モデルの"prop_physics_override"によって引き起こされるクラッシュを修正 (#1504)
+[*]"generic_actor"が空の"model"キーフィールドで生成されるときのクラッシュを修正 (#1494)
+[*]"item_custom"の"Disable Motion"スポーンフラグが無視される問題を修正 (#1510)
+[*]エンティティの"point_viewcontrol_multiplayer"と"nmrih_extract_preview"が観戦者のカメラ回転を固定してしまう問題を修正 (#1522)
+[*]エンティティの"ambient_fmod"がスクリプトによって生成された場合に、サウンドを再生しない問題を修正 (#1496)
+[*]"Kill"入力時にエンティティの"item_custom"がインベントリのスペースを開放しない問題を修正
+[*]"instant_trigger"エンティティの"Disable"入力が機能しない問題を修正 (#1498)
+[*]"InputSetCode"でキーパッドのコードを変更すると、コードが保持されない問題を修正
+[*]"item_custom"入力の"SetLabel"と"SetIcon"の送信遅延を修正
+[*]武器ラベルとアイコンオーバーライドの送信遅延を修正
+[*]"solid"キー値を直接設定するときの"物理的騒乱"バグを修正
+[*]優先キャリー角度が機能しない問題を修正 (#1509)
+[*]ゾンビの攻撃音のオーバーライドが機能しない問題を修正 (#1491)
+[*]FMOD： メモリ使用量を追跡するために使える、コンソールコマンドの"fmod_memstats"を追加
+[*]FMOD： 環境音にオクルージョンを追加
+[*]FMOD： 部分的なサウンド文字のサポートを追加 ('*' [ディスクから流れる] '#' [ドライミックス、どこでも再生可能、音楽の音量に影響される])
+[*]FMOD： 環境音の不正確な減衰を修正
+[*]MapHack： $respawn 関数の誤動作を修正し、元の位置で、元のままの entdata でエンティティを正しくリスポーンするようになった (#1089)
+[*]NMRObjective： 初回ロード時に、デフォルトの説明文が空のフィールドではなく、目標の名前に設定されるようになった
+[*]VScript： CAI_BaseNPC 関数の IsFrozen() を追加
+[*]VScript： CNMRiH_Objective 関数の GetObjectiveBoundary() と GetObjectiveBoundaryName() を追加 (#1495)
+[*]VScript： CNMRiH_ObjectiveManager 関数の GetCurrentObjective() を追加
+[*]VScript： DispatchParticleEffectByAttachment() 関数を追加
+[*]VScript： FMOD_PrecacheSound() 関数を追加
+[*]VScript： 粒子付着定数を追加
+[*]VScript： 非推奨の Enable/DisableEntityListening() 関数では、エンティティフックが常にリッスン状態になるように変更
+[*]VScript： 文字化けした値の文字列を返す CBaseEntity::GetKeyValue() 関数を修正
+[*]VScript： CNMRiH_Player::GetCarriedItems() が重複したターゲット名を持つカスタムアイテムを出力しない問題を修正
+[*]VScript： フックの"NPC_TranslateActivity"と"NPC_TranslateSchedule"が正しく動作しない問題を修正
+[*]VScript： ルールセットで検証された cvar を Convars 関数で設定できるようになりました
+[*]VScript： 関数がテーブルパラメーターの待機中にそれが得られない場合、クラッシュする代わりにエラーを返すように変更
+
+[/list]
+[h2]サーバー管理者向けの変更[/h2]
+[list]
+[*]cvarの"sv_grenade_rise"をRyanのQoLプラグインから移植 (爆発時に手榴弾を地面からわずかにワープさせ、破片の拡散効果を向上させる)
+[*]改善された放置状態のプレイヤーの検出、放置状態のアイテムのドロップ、および新しいcvarの"sv_idle_tracking_method" "sv_idle_item_drop" と "sv_idle_item_drop_time" を追加 (#1372)
+[*]QoLにインスパイアされた複数同時押しのけを追加。 cvarの"sv_shove_multi"で有効にできます (デフォルトではオフ)
+[/list]
+[h1]マップ[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]溶接機のある家につながる店の近くのドアは、外側にのみ開くようになりました
+[*]破壊された壁のレンガのnodrawサーフェスを修正
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]ソフトロックを修正 (#1451)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]スイカを追加
+[*]インストラクターのヒントインジケーターが他のプレイヤーについていく問題を修正
+[*]ゾンビが開けられるリスポーンドアを修正
+[*]各種クリップを除去
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]クリップを微調整
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]微調整
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]脱出バンの色を変更
+[*]微調整
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]微調整
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]カットシーンエリアにおけるプロップの誤った配置を修正
+[/list]
+</string><string id="subtitle">NMRiHのコンテンツアップデートで、新しいマップの"Shoreline"を訪れよう。</string><string id="summary">NMRiHのコンテンツアップデートで、新しいマップの"Shoreline"を訪れよう。</string><string id="title">NMRiH Shoreline アップデートのリリース (1.14)</string></content>
