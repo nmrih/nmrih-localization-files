@@ -34,7 +34,7 @@
 		"NEW_ACHIEVEMENT_1_15_NAME"	"Uno per ogni occhio"
 		"NEW_ACHIEVEMENT_1_15_DESC"	"Effettua 500 uccisioni con l'SV10 Perennia"
 		"NEW_ACHIEVEMENT_1_16_NAME"	"357 Motivi"
-		"NEW_ACHIEVEMENT_1_16_DESC"	"Effettua 500 uccisioni con l' S&W 686-6"
+		"NEW_ACHIEVEMENT_1_16_DESC"	"Effettua 500 uccisioni con la S&W 686-6"
 		"NEW_ACHIEVEMENT_1_17_NAME"	"Mare's Laig"
 		"NEW_ACHIEVEMENT_1_17_DESC"	"Effettua 500 uccisioni con il Winchester 1892"
 		"NEW_ACHIEVEMENT_1_18_NAME"	"Successo al botteghino"
@@ -231,5 +231,7 @@
 		"NEW_ACHIEVEMENT_57_21_DESC"	"Completa con successo Asylum"
 		"NEW_ACHIEVEMENT_57_22_NAME"	"Panni sporchi"
 		"NEW_ACHIEVEMENT_57_22_DESC"	"Sopravvivi con successo a Laundry"
+		"NEW_ACHIEVEMENT_57_23_NAME"	"Ricerca e soccorso"
+		"NEW_ACHIEVEMENT_57_23_DESC"	"Completa con successo Shoreline"
 	}
 }
