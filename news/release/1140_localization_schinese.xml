@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">地狱已满的版本更新现已发布，更新将会在您重新启动游戏时自动应用，新版本的主要变化包含以下内容：
+
+[h1]地图上新[/h1]
+[h3]Shoreline [任务模式] (作者 Sirdoggy)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/aa8fbb33c465f0024395d4885c5a6249fd1721af.jpg[/img]
+
+[i]美国军方宣布这部分海岸线为新安全区。我们和许多其他人逃离了这座城市，但死去的混蛋也跟着我们来到这里。这导致军方暂停了救援行动。现在已经过去好几天了，情况只会越来越糟。
+
+昨晚，尸潮闯入了小屋的一个入口。许多人被咬伤并感染。我们聚在一起躲在附近一所房子的地下室里。保持安静，直到事情平息。
+计划是返回小屋重新与国民警卫队建立联系。希望他们能为我们安排最后一次运输。[/i]
+
+[h1]代码[/h1]
+
+[h2]新增内容[/h2]
+[list]
+[*]添加了医疗物品视图模型，由 S0kk0 贡献 (#1516)
+[/list]
+[h2]改动内容[/h2]
+[list]
+[*]改进的僵尸 LOD 模型，由 BigHatMarley 贡献 (#1500)
+[*]不活跃的安全区现在在 HUD 上显示为 "INACTIVE"
+[*]将最大深度纹理阴影增加到 8，添加steam启动项 "-numshadowtextures"
+[*]其他CPU性能改进
+[*]挑战和修改器的名称和描述现在支持本地化字符串翻译
+
+[*]语言本地化文件更新：
+[list]
+
+[*]感谢社区翻译者的贡献: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]想要为地狱已满提供您的本地化语言支持吗？ [url=https://github.com/nmrih/nmrih-localization-files] 欢迎访问我们在 Github 上的文件仓库。[/url]
+[/list]
+[/list]
+[h2]已修复内容[/h2]
+[list]
+[*]修复 Badass 角色模型不投射动态阴影的问题  (#587)
+[*]修复 HUD中下方消息的显示问题 (#1484)
+[*]修复 第三方地图上有时不播放自定义音效的问题
+[*]修复 demo 与 1.13.5 之前录制文件的兼容性
+[*]修复 感染状态下断开连接导致游戏崩溃的问题 (#1489)
+[*]修复 在撤离过程中死亡且拥有重生点数会使游戏进入 'win state' 的问题 (#1168)
+[*]修复 使用手雷时推开和收回时缺少的声音 (#1293)
+[*]修复 跑步撞墙时视角模型抖动的问题 (#1354)
+[*]修复 在带有沙砾表面的纹理上行走导致玩家滑动的问题 (#1507)
+[*]修复 僵尸 AI 仇恨问题 (#1448/#1475)
+
+[/list]
+[h2]地图设计与模组制作改动[/h2]
+[list]
+[*]添加 输入 "SetActivatorCaption" 至实体 "env_instructor_hint"
+[*]添加 输入 "PauseDrain" 和 "ResumeDrain" 至实体 "func_safe_zone" (#1467)
+[*]添加 字段 "Spawn Solid?" 至 "item_inventory_box"
+[*]添加 地图定义覆盖 "func_zombie_spawn" 以生成重生目标, 修复回合重启时被重置的 bug
+[*]添加 对共享相同名称的多个目标实体进行高亮显示的支持 (#1524)
+[*]修复 "prop_physics_override" 与无碰撞模型一起使用时导致的崩溃 (#1504)
+[*]修复 当 "generic_actor" 生成时 "model" 键域为空时的崩溃  (#1494)
+[*]修复 "item_custom" 的 "Disable Motion" 生成标志被忽略的问题  (#1510)
+[*]修复 实体 "point_viewcontrol_multiplayer" 和 "nmrih_extract_preview" 锁定旁观者相机旋转的问题 (#1522)
+[*]修复 实体 "ambient_fmod" 在通过脚本生成时不播放声音的问题 (#1496)
+[*]修复 实体 "item_custom" 在 "Kill" 输入时不释放库存空间的问题
+[*]修复 实体 "instant_trigger" 的 "Disable" 输入不工作的问题 (#1498)
+[*]修复 "InputSetCode" 更改密码时键盘代码不持久的问题
+[*]修复 "item_custom" 输入 "SetLabel" 和 "SetIcon" 的延迟传输
+[*]修复 武器标签和图标覆盖的延迟传输
+[*]修复 直接设置 "solid" 键值时的 "physics mayhem" bug
+[*]修复 首选携带角度不工作的问题 (#1509)
+[*]修复 僵尸攻击音效覆盖不起作用的问题 (#1491)
+[*]FMOD: 添加 控制台命令 "fmod_memstats" 以跟踪内存使用情况
+[*]FMOD: 添加 环境音对于物体的遮挡
+[*]FMOD: 添加 部分声音字符支持 ('*' [从磁盘流], '#' [干混音, 随处播放, 受音乐音量影响])
+[*]FMOD: 修复 环境音的不准确衰减
+[*]MapHack: 修复 函数 $respawn 的行为，现在它正确的以原始 entdata 在原始位置重生实体 (#1089)
+[*]NMRObjective: 在初始加载时，默认描述设置为目标名称而不是空字段
+[*]VScript: 添加 CAI_BaseNPC 函数 IsFrozen()
+[*]VScript: 添加 CNMRiH_Objective 函数 GetObjectiveBoundary(), and GetObjectiveBoundaryName() (#1495)
+[*]VScript: 添加 CNMRiH_ObjectiveManager 函数 GetCurrentObjective()
+[*]VScript: 添加 函数 DispatchParticleEffectByAttachment()
+[*]VScript: 添加 函数 FMOD_PrecacheSound()
+[*]VScript: 添加 粒子附着常量
+[*]VScript: 弃用 Enable/DisableEntityListening() 函数，实体钩子现在始终监听
+[*]VScript: 修复 CBaseEntity::GetKeyValue() 返回字符串乱码的问题
+[*]VScript: 修复 CNMRiH_Player::GetCarriedItems() 没有返回具有重复目标名称的自定义物品的问题
+[*]VScript: 修复 钩子 "NPC_TranslateActivity" 和 "NPC_TranslateSchedule" 无法正常工作的问题
+[*]VScript: 规则集验证的 cvars 现在可以通过 Convars 函数设置
+[*]VScript: 当函数需要表格参数而没有得到时，抛出错误而不是崩溃
+
+[/list]
+[h2]服务器管理员改动[/h2]
+[list]
+[*]添加 cvar "sv_grenade_rise", 由 Ryan's QoL plugin 移植而来(在爆炸时使手雷略微离地，以提高在杂物周围的效果)
+[*]添加 改进的空闲玩家检测，空闲物品掉落，以及新的cvars "sv_idle_tracking_method", "sv_idle_item_drop",和 "sv_idle_item_drop_time" (#1372)
+[*]添加 QoL 启发的多重推开, 可以通过 cvar "sv_shove_multi" 启用（默认关闭）
+[/list]
+[h1]地图改动[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]超市附近的门通向有焊枪的房子，现在只能从外面打开
+[*]修复 破损墙壁砖块上的无绘制表面
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]修复 软锁卡任务 (#1451)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]添加 西瓜
+[*]修复 任务提示会跟随其他玩家的问题
+[*]修复 重生门可以被僵尸打开的问题
+[*]移除 各种模型
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]调整模型
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]小调整
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]改变 逃生车的颜色
+[*]小调整
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]小调整
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]修复 错误道具放置在过场区域
+[/list]
+</string><string id="subtitle">在本次地狱已满更新中，探索全新地图 Shoreline。</string><string id="summary">在本次地狱已满更新中，探索全新地图 Shoreline。</string><string id="title">地狱已满 海岸线更新 (1.14) 现已发布</string></content>
