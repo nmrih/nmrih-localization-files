@@ -785,7 +785,7 @@
 		// Shoreline
 		"ShorelineVoice.Arrival1"	"<len:1.6>おい、そこのお前！"
 		"ShorelineVoice.Arrival2"	"<len:4.4>なあ、ここから出たいのか？ なら水際のフェリー乗り場の近くにボートを寄せるぞ。"
-		"ShorelineVoice.FindLadder"	"<len:4>ふむ、どうやら連絡橋で渡るしかなさそうだな。<delay:4.2><len:2.5>ハシゴを見つけて、渡れるかどうか試してみろ。"
+		"ShorelineVoice.FindLadder"	"<len:4>よし、どうやら連絡橋で渡るしかなさそうだな。<delay:4.2><len:2.5>ハシゴを見つけて、渡れるかどうか試してみろ。"
 		"ShorelineVoice.LadderPlaced"	"<len:2.8>イヤッホウ！ そういうことだ！<delay:3.1><len:5.2>おい、お前ら、さっさとケツを動かしたほうがいいぞ。 今、お前らの所に大量の死体が向かってきてる。<delay:8.4><len:3.7>そんでもって、州兵は<I>俺たち<I>のために来てくれるワケじゃねえ、意味はわかるよな？"
 		
 		// Suzhou
