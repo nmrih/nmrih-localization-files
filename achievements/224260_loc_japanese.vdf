@@ -49,7 +49,7 @@
 		"NEW_ACHIEVEMENT_1_22_DESC"	"Floodedを無事に生き延びる"
 		"NEW_ACHIEVEMENT_1_23_NAME"	"自由"
 		"NEW_ACHIEVEMENT_1_23_DESC"	"Isolatedを無事に生き延びる"
-		"NEW_ACHIEVEMENT_1_24_NAME"	"閉店時間だ！"
+		"NEW_ACHIEVEMENT_1_24_NAME"	"閉店ガラガラ"
 		"NEW_ACHIEVEMENT_1_24_DESC"	"Northwayを無事に生き延びる"
 		"NEW_ACHIEVEMENT_1_25_NAME"	"奴らが来るぞ、バーバラ"
 		"NEW_ACHIEVEMENT_1_25_DESC"	"Night of the Living Deadを無事に生き延びる"
@@ -231,5 +231,7 @@
 		"NEW_ACHIEVEMENT_57_21_DESC"	"Asylumを無事に完了する"
 		"NEW_ACHIEVEMENT_57_22_NAME"	"汚れ仕事"
 		"NEW_ACHIEVEMENT_57_22_DESC"	"Laundryを無事に生き延びる"
+		"NEW_ACHIEVEMENT_57_23_NAME"	"捜索と救助"
+		"NEW_ACHIEVEMENT_57_23_DESC"	"Shorelineを無事に完了する"
 	}
 }
