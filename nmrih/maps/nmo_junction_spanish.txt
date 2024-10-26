@@ -6,7 +6,7 @@
 	"nmo_junction_Street_door"	"Escapa de la zona segura"
 	"nmo_junction_Break_front"	"Logra entrar al mercado"
 	"nmo_junction_Turn_off_alarm"	"Apaga la alarma"
-	"nmo_junction_Exploding_door"	"Destruye la pueta del callejón para entrar a los departamentos"
+	"nmo_junction_Exploding_door"	"Destruye la puerta del callejón para entrar a los departamentos"
 	"nmo_junction_Use_radio"	"Encuentra una forma de pedir ayuda"
 	"nmo_junction_Weld_door"	"Busca un soldador para abrir la puerta del depósito"
 	"nmo_junction_Pawnshop_fense_door"	"Intenta entrar a la tienda de empeños"
