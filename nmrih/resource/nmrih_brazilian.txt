@@ -49,6 +49,7 @@
 "HudSurvivalWave"			"ONDA"
 "HudSurvivalRemaining"		"RESTANDO"
 "HudSurvivalZone"			"ZONA"
+"HudSurvivalInactive"		"INATIVO"
 "HudSurvivalResupply"		"CAIXA DE SUPRIMENTOS A CAMINHO"
 "HudSurvivalWaveBegin"		"INICIANDO ONDA"
 "HudSurvivalWaveEnd"		"ONDA COMPLETA"
