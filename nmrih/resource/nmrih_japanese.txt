@@ -317,7 +317,7 @@
 "Hint_Generic_Compass" "コンパスで次の目標を確認するには %+compass% を押す。"
 "Hint_Generic_CheckAmmo" "弾薬の確認は %+reload% を長押しで行う。"
 "Hint_Generic_CheckInventory" "%+inventory% を押してインベントリを見たり、武器を装備することができる。"
-"Hint_Generic_AmmoInventory" "%+ammoinv% を押しながら弾薬メニューを開くと、他のプレーヤーと弾薬を共有することができる。"
+"Hint_Generic_AmmoInventory" "%+ammoinv% を押しながら弾薬メニューを開くと、他のプレイヤーと弾薬を共有することができる。"
 "Hint_Generic_VoiceCommand" "音声コマンドを使ってチームとコミュニケーションをとることが可能だ！ 音声メニューを開くには %+voicecmd% を押そう。"
 "Hint_Generic_Infected" "画面の端に血管が見え、視界がかすんできたら感染している。"
 "Hint_Generic_Bleeding" "キャラクターがうめき声をあげ、画面に血が映っていれば出血している。"

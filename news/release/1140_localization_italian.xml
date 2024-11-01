@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">È stato rilasciato un aggiornamento per No More Room in Hell. L'aggiornamento verrà applicato automaticamente al riavvio di No More Room in Hell. Le principali modifiche includono:
+
+[h1]Nuova Mappa[/h1]
+[h3]Shoreline [Obiettivo] (di Sirdoggy)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/aa8fbb33c465f0024395d4885c5a6249fd1721af.jpg[/img]
+
+[i]L'esercito americano ha dichiarato questa porzione di costa come zona sicura redeker. Noi e molti altri siamo fuggiti qui dalla città, ma anche i bastardi morti ci hanno seguito. Ciò ha indotto l'esercito a sospendere le operazioni di salvataggio. Sono passati giorni e le cose stanno solo peggiorando.
+
+La scorsa notte un'orda ha fatto breccia in uno degli ingressi delle cabine. Molti sono stati morsi e infettati. Un paio di noi si sono riuniti e si sono nascosti nel seminterrato di una casa vicina. Restiamo in silenzio finché non si calmano le acque.
+Il piano è di tornare alla cabina e ristabilire il contatto con la Guardia Nazionale. Speriamo che organizzino un ultimo trasporto per noi.[/i]
+
+[h1]Codice[/h1]
+
+[h2]Aggiunte[/h2]
+[list]
+[*]Aggiunti viewmodel per oggetti medicinali, contributo di S0kk0 (#1516)
+[/list]
+[h2]Cambiamenti[/h2]
+[list]
+[*]Migliorati i modelli LOD degli zombi, contributo di BigHatMarley (#1500)
+[*]Le zona sicure inattive ora vengono mostrate come "INATTIVE" nel HUD
+[*]Aumentata la profondità massima delle ombre delle texture a 8, aggiunta l'opzione di lancio "-numshadowtextures"
+[*]Vari miglioramenti delle prestazioni della CPU
+[*]I nomi e le descrizioni delle sfide e dei mutatori ora supportano le stringhe di localizzazione.
+
+[*]Aggiornati i file di localizzazione:
+[list]
+
+[*]Grazie ai traduttori della comunità: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]Vuoi localizzare NMRiH nella tua lingua? [url=https://github.com/nmrih/nmrih-localization-files]Visitate il nostro repository di localizzazione su GitHub.[/url]
+[/list]
+[/list]
+[h2]Correzioni[/h2]
+[list]
+[*]Corretto il modello del personaggio Badass che non proiettava ombre dinamiche (#587)
+[*]Corretti i messaggi dell'HUD in basso al centro non funzionanti (#1484)
+[*]Corretto il problema dei suoni personalizzati che a volte non vengono riprodotti nelle mappe del Workshop
+[*]Corretta la compatibilità della demo con i file registrati prima della 1.13.5
+[*]Corretta la disconnessione con lo stato di infezione che mandava in crash il gioco (#1489)
+[*]Corretto il fatto che morire durante l'estrazione con i gettoni di respawn faccia entrare il gioco in “stato di vittoria” in sopravvivenza. (#1168)
+[*]Corretti i suoni mancanti per lo spintone e l'inserimento nella fondina con la granata a frammentazione (#1293)
+[*]Corretto il modello di vista traballante quando si va a sbattere contro i muri (#1354)
+[*]Corretto il fatto che camminando su una texture con superficie di ghiaia il giocatore scivolava (#1507)
+[*]Risolti i problemi di aggressione dell'intelligenza artificiale degli zombi (#1448/#1475)
+
+[/list]
+[h2]Cambiamenti per mapper e modder[/h2]
+[list]
+[*]Aggiunto input "SetActivatorCaption" all'entità "env_instructor_hint"
+[*]Aggiunti input "PauseDrain" e "ResumeDrain" all'entità "func_safe_zone" (#1467)
+[*]Aggiunto keyfield "Spawn Solid?" all'entità "item_inventory_box"
+[*]Aggiunto override in base alla mappa "func_zombie_spawn" come obiettivo di rigenerazione dello spawn, per risolvere un problema di reset al riavvio del round
+[*]Aggiunto il supporto per l'evidenziazione di più entità obiettivo che condividono lo stesso nome. (#1524)
+[*]Corretto crash causato da “prop_physics_override” con il modello senza collisioni (#1504)
+[*]Corretto crash quando "generic_actor" viene generato con keyfield "model" vuoto (#1494)
+[*]Corretta spawnflag "Disable Motion" ignorata per "item_custom" (#1510)
+[*]Corrette entità "point_viewcontrol_multiplayer" e "nmrih_extract_preview" che bloccavano la rotazione della telecamera degli spettatori (#1522)
+[*]Corretta l'entità "ambient_fmod" che non riproduce un suono quando viene generata da uno script (#1496)
+[*]Corretta l'entità "item_custom" che non rilasciava lo spazio nell'inventario dopo imput "Kill"
+[*]Corretto input "Disable" per l'entità "instant_trigger" non funzionante (#1498)
+[*]I codici della tastiera non persistevano quando si cambiavano con "InputSetCode"
+[*]Corretto il ritardo di trasmissione per input "item_custom", "SetLabel" e "SetIcon"
+[*]Corretto il ritardo di trasmissione per l'etichetta dell'arma e la sovrascrittura dell'icona
+[*]Corretto bug "physics mayhem" quando si impostava il keyvalue "solid" direttamente
+[*]Corretto il mancato funzionamento degli angoli di trasporto preferiti (#1509)
+[*]Corretto l'override del suono dell'attacco zombi che non funziona (#1491)
+[*]FMOD: Aggiunto comando per console "fmod_memstats" per tracciare l'utilizzo di memoria
+[*]FMOD: Aggiunta dell'occlusione ai suoni ambientali
+[*]FMOD: Aggiunto il supporto per i caratteri sonori parziali ('*' [stream from disk], '#' [mix secco, riproduzione ovunque, influenzato dal volume della musica])
+[*]FMOD: Corretta l'attenuazione imprecisa con i suoni ambientali
+[*]MapHack: Corretta la funzione $respawn, che ora fa ripartire correttamente un'entità nella sua posizione originale con dati di ingresso incontaminati (#1089)
+[*]NMRObjective: Al caricamento iniziale, la descrizione predefinita è impostata sul nome dell'obiettivo invece che sul campo vuoto
+[*]VScript: Aggiunta funzione CAI_BaseNPC: IsFrozen()
+[*]VScript: Aggiunte funzioni CNMRiH_Objective: GetObjectiveBoundary() e GetObjectiveBoundaryName() (#1495)
+[*]VScript: Aggiunta funzione CNMRiH_ObjectiveManager: GetCurrentObjective()
+[*]VScript: Aggiunta funzione DispatchParticleEffectByAttachment()
+[*]VScript: Aggiunta funzione FMOD_PrecacheSound()
+[*]VScript: Aggiunte le costanti di attacco delle particelle
+[*]VScript: Deprecate le funzioni Enable/DisableEntityListening(), i ganci delle entità sono ora sempre in ascolto
+[*]VScript: Corretto CBaseEntity::GetKeyValue() che restituiva valori confusi per le stringhe
+[*]VScript: Corretto CNMRiH_Player::GetCarriedItems() che non restituiva gli elementi personalizzati con nomi di destinazione duplicati
+[*]VScript: Fixed hooks "NPC_TranslateActivity" and "NPC_TranslateSchedule" not working properly
+[*]VScript: Le cvars convalidate dal ruleset possono ora essere impostate dalle funzioni Convars
+[*]VScript: Lancia un errore invece di andare in crash quando una funzione si aspetta un parametro di tabella e non lo riceve
+
+[/list]
+[h2]Cambiamenti per gli amministratori di server[/h2]
+[list]
+[*]Aggiunta cvar "sv_grenade_rise", importata da Ryan's QoL plugin (Al momento della detonazione, le granate si allontanano leggermente dal terreno per migliorare l'efficacia in prossimità di ostacoli.)
+[*]Aggiunti il miglioramento del rilevamento dei giocatori inattivi, il drop degli oggetti inattivi e le nuove cvar “sv_idle_tracking_method”, “sv_idle_item_drop” e “sv_idle_item_drop_time”. (#1372)
+[*]Aggiunto il multi-shove ispirato alla QoL, può essere abilitato da cvar "sv_shove_multi" (disabilitato come predefinito)
+[/list]
+[h1]Mappe[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]La porta vicino al mercato, che conduce a una casa con una saldatrice, ora si apre solo all'esterno
+[*]Fissata la superficie di nodraw sul mattone del muro distrutto
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Corretto softlock (#1451)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Aggiunta una anguria
+[*]Corretto l'indicatore del suggerimento dell'istruttore che segue gli altri giocatori
+[*]Riparata la porta di respawn apribile dagli zombi
+[*]Rimossi vari clip
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Clip migliorati
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]Piccole modifiche
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]Cambiato il colore del van di fuga
+[*]Piccole modifiche
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]Piccole modifiche
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]Corretto il posizionamento errato degli oggetti di scena nell'area delle cutscene
+[/list]
+</string><string id="subtitle">Visitate Shoreline, una mappa nuova di zecca, in questo aggiornamento per NMRiH.</string><string id="summary">Visitate Shoreline, una mappa nuova di zecca, in questo aggiornamento per NMRiH.</string><string id="title">Rilascio dell'Aggiornamento Shoreline per NMRiH (1.14)</string></content>
