@@ -20,7 +20,7 @@
 	"nmo_rockpit_obj_barrier"	"ガス缶を使ってバリケードを破壊する"
 	"nmo_rockpit_obj_tunnel"	"メンテナンストンネルに入る別の方法を探す"
 	"nmo_rockpit_obj_gen_underground"	"エレベーターの電源を回復する"
-	"nmo_rockpit_obj_moving"	"ゲートに向かって進む"
+	"nmo_rockpit_obj_moving"	"ゲートに向かって進め"
 	"nmo_rockpit_obj_siren"	"サイレンを鳴らして位置を知らせる"
 	"nmo_rockpit_entervan"	"2分以内にバンに乗り込む"
 	"nmo_rockpit_rescue"	"準備しろ。 救助隊はあなたを捜索中だ！"

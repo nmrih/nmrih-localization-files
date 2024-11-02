@@ -10,7 +10,7 @@
 	"nmo_zephyr_objective3_warehouseelevator"	"エレベーターを起動し、上層階へ上がる"
 	"nmo_zephyr_objective4_pickupwalkie"	"無線機を拾う"
 	"nmo_zephyr_objective5a_2710"	"ドアのコードは2710"
-	"nmo_zephyr_objective5d_powerup"	"燃料を探し発電機を起動しろ"
+	"nmo_zephyr_objective5d_powerup"	"燃料を探し、発電機を起動しろ"
 	"nmo_zephyr_Objective5b_2606"	"ドアのコードは2606"
 	"nmo_zephyr_Objective5c_1901"	"ドアのコードは1901"
 	"nmo_zephyr_objective6_activate"	"転車台を起動する"
