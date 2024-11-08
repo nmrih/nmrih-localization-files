@@ -19,7 +19,7 @@
 
 "MainMenu_ResumeGame"			"RESUME GAME"
 "MainMenu_Disconnect"			"DISCONNECT"
-"MainMenu_PlayerList"			"PLAYER LIST"
+"MainMenu_PlayerList"			"MUTE PLAYERS"
 "MainMenu_CallVote"				"CALL VOTE"
 
 "NMRiH_Dev_NextObjective"		"Next Objective: %s1"
