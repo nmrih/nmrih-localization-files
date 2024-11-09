@@ -19,7 +19,7 @@
 
 "MainMenu_ResumeGame"	"繼續遊戲"
 "MainMenu_Disconnect"	"中斷連線"
-"MainMenu_PlayerList"	"玩家列表"
+"MainMenu_PlayerList"	"靜音玩家"
 "MainMenu_CallVote"	"發起投票"
 
 "NMRiH_Dev_NextObjective"	"下一個目標：%s1"
