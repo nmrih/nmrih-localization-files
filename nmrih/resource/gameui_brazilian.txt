@@ -170,6 +170,7 @@
 
 "NMRiH_Scoreboard_MutePlayer"	"Silenciar Jogador(a)"
 "NMRiH_Scoreboard_ViewSteamProfile"	"Ver perfil Steam"
+"NMRiH_Scoreboard_Bot"	"BOT"
 
 "NMRiH_MutedPlayer"	"Silenciou a voz do(a) jogador(a) %s1"
 "NMRiH_UnmutedPlayer"	"Voltou a escutar a voz do(a) jogador(a) %s1"
@@ -178,6 +179,112 @@
 "NMRiH_Challenge_Random"	"Objetivos Aleatórios"
 "NMRiH_Challenge_Random_Desc"	"Conclua um conjunto de objetivos o mais rápido possível!"
 "NMRiH_Challenge_NoDesc"	"Nenhuma descrição disponível."
+
+"Challenge_Name_nmo_anxiety_challenge_1"	"Terapia de Exposição"
+"Challenge_Desc_nmo_anxiety_challenge_1"	"Consegue sentir seu coração batendo?"
+
+"Challenge_Name_nmo_boardwalk_challenge_1"	"Caminhada no Parque"
+"Challenge_Desc_nmo_boardwalk_challenge_1"	"Aproveite a areia quente, o entretenimento gratuito e... quem estou enganando?"
+
+"Challenge_Name_nmo_broadway_challenge_1"	"Estreia no Cinema"
+"Challenge_Desc_nmo_broadway_challenge_1"	"Você está atrasado para a estreia! Abra caminho pela multidão e pegue o trem para casa!"
+"Challenge_Name_nmo_broadway_challenge_2"	"Corrida ao Motel"
+"Challenge_Desc_nmo_broadway_challenge_2"	"Sem reservas, cuidado com o cadáver na piscina."
+"Challenge_Name_nmo_broadway_blitz_1"	"Blitz: Estreia no Cinema"
+"Challenge_Desc_nmo_broadway_blitz_1"	"No modo Blitz, ganhe mais tempo completando objetivos!"
+"Challenge_Name_nmo_broadway_blitz_2"	"Blitz: Corrida ao Motel"
+"Challenge_Desc_nmo_broadway_blitz_2"	"No modo Blitz, ganhe mais tempo completando objetivos!"
+
+"Challenge_Name_nmo_broadway2_challenge_1"	"Basquete Blues"
+"Challenge_Desc_nmo_broadway2_challenge_1"	"Todo jogador sonha em sair... daqui inteiro."
+"Challenge_Name_nmo_broadway2_challenge_2"	"Em um trilho"
+"Challenge_Desc_nmo_broadway2_challenge_2"	"Parece que nosso helicóptero de resgate não existe mais. Fuja pelo trem!"
+"Challenge_Name_nmo_broadway2_challenge_3"	"Me Agradeça Mais Tarde"
+"Challenge_Desc_nmo_broadway2_challenge_3"	"A entrada da loja está trancada. Você pode abrir uma nova?"
+
+"Challenge_Name_nmo_brooklyn_challenge_1"	"Treino de Núcleo"
+"Challenge_Desc_nmo_brooklyn_challenge_1"	"Este bloqueio não vai ceder sozinho..."
+"Challenge_Name_nmo_brooklyn_challenge_2"	"Compra e Corte"
+"Challenge_Desc_nmo_brooklyn_challenge_2"	"Se quisermos pegar a estrada, vamos precisar de suprimentos!"
+
+"Challenge_Name_nmo_cabin_challenge_1"	"Febre de Cabine"
+"Challenge_Desc_nmo_cabin_challenge_1"	"Os vizinhos locais não parecem muito impressionados com suas palhaçadas, é melhor você dar o fora daqui."
+"Challenge_Name_nmo_cabin_challenge_2"	"Sob a Cabine"
+"Challenge_Desc_nmo_cabin_challenge_2"	"O que o zelador escondeu lá embaixo? Vamos descobrir."
+"Challenge_Name_nmo_cabin_challenge_3"	"Conhecimento Secreto"
+"Challenge_Desc_nmo_cabin_challenge_3"	"A família é a resposta, agora com estantes móveis!"
+"Challenge_Name_nmo_cabin_blitz_1"	"Blitz: Febre de Cabine"
+"Challenge_Desc_nmo_cabin_blitz_1"	"Agora eles realmente nos descobriram... No modo Blitz, ganhe mais tempo completando objetivos!"
+
+"Challenge_Name_nmo_chinatown_challenge_1"	"Cortando Atalhos"
+"Challenge_Desc_nmo_chinatown_challenge_1"	"Navegue pelo mapa usando atalhos."
+"Challenge_Name_nmo_chinatown_blitz_1"	"Blitz: Hora do Rush"
+"Challenge_Desc_nmo_chinatown_blitz_1"	"No modo Blitz, ganhe mais tempo completando objetivos!"
+
+"Challenge_Name_nmo_cleopas_challenge_1"	"O Plano"
+"Challenge_Desc_nmo_cleopas_challenge_1"	"Que gentil da parte de alguém estabelecer esses objetivos para nós."
+"Challenge_Name_nmo_cleopas_challenge_2"	"Invasor!"
+"Challenge_Desc_nmo_cleopas_challenge_2"	"As pessoas podem não gostar quando você arromba a casa delas."
+
+"Challenge_Name_nmo_fema_challenge_1"	"Herói Público"
+"Challenge_Desc_nmo_fema_challenge_1"	"Ajude a garantir a vacina retroviral e poderemos retribuir o favor."
+"Challenge_Name_nmo_fema_challenge_2"	"Bombeie"
+"Challenge_Desc_nmo_fema_challenge_2"	"Não podemos decolar sem combustível, continue bombeando esse diesel!"
+
+"Challenge_Name_nmo_junction_challenge_1"	"Porto Seguro Não Mais"
+"Challenge_Desc_nmo_junction_challenge_1"	"Faça uma pausa para escapar da cidade para sempre."
+
+"Challenge_Name_nmo_lakeside_challenge_1"	"Comum"
+"Challenge_Desc_nmo_lakeside_challenge_1"	"Você não verá isso todo dia."
+"Challenge_Name_nmo_lakeside_challenge_2"	"Tempo de Inatividade"
+"Challenge_Desc_nmo_lakeside_challenge_2"	"Não consegue se conectar? Não é só você!"
+
+"Challenge_Name_nmo_quarantine_challenge_1"	"Perda de Contenção"
+"Challenge_Desc_nmo_quarantine_challenge_1"	"Oops, fizemos uma bagunça."
+
+"Challenge_Name_nmo_rockpit_challenge_1"	"Viagem de Poder"
+"Challenge_Desc_nmo_rockpit_challenge_1"	"Nós conhecemos esse lugar de cabo a rabo, será fácil."
+"Challenge_Name_nmo_rockpit_challenge_2"	"Sob Estresse"
+"Challenge_Desc_nmo_rockpit_challenge_2"	"Complete uma rodada com a maior cadeia de objetivos possível."
+"Challenge_Name_nmo_rockpit_blitz_1"	"Blitz: Viagem de Poder"
+"Challenge_Desc_nmo_rockpit_blitz_1"	"No modo Blitz, ganhe mais tempo completando objetivos!"
+
+"Challenge_Name_nmo_shelter_challenge_1"	"Não Há Abrigo Aqui!"
+"Challenge_Desc_nmo_shelter_challenge_1"	"A tênue linha entre entretenimento e guerra."
+
+"Challenge_Name_nmo_shoreline_challenge_1"	"Turista"
+"Challenge_Desc_nmo_shoreline_challenge_1"	"Não acho que o pessoal daqui goste de turistas..."
+"Challenge_Name_nmo_shoreline_challenge_2"	"Desviado"
+"Challenge_Desc_nmo_shoreline_challenge_2"	"Percorra o mapa através do caminho alternativo completo."
+
+"Challenge_Name_nmo_suzhou_challenge_1"	"Dia de Cabelo Ruim"
+"Challenge_Desc_nmo_suzhou_challenge_1"	"Complete uma rodada com a maior cadeia de objetivos possível."
+
+"Challenge_Name_nmo_toxteth_challenge_1"	"Traço do Cemitério"
+"Challenge_Desc_nmo_toxteth_challenge_1"	"Eu sugiro cortar caminho pelo cemitério..."
+"Challenge_Name_nmo_toxteth_challenge_2"	"Varredura de Esgoto"
+"Challenge_Desc_nmo_toxteth_challenge_2"	"Bem, se você não se importa com a lama..."
+"Challenge_Name_nmo_toxteth_blitz_1"	"Blitz: Traço do Cemitério"
+"Challenge_Desc_nmo_toxteth_blitz_1"	"Não podemos perder muito tempo, então seja rápido! No modo Blitz, ganhe mais tempo completando objetivos!"
+"Challenge_Name_nmo_toxteth_blitz_2"	"Blitz: Varredura de Esgoto"
+"Challenge_Desc_nmo_toxteth_blitz_2"	"Você percebe que está pisando nos excrementos de outras pessoas, certo? No modo Blitz, ganhe mais tempo completando objetivos!"
+
+"Challenge_Name_nmo_toxtethdark_challenge_1"	"Traço do Cemitério (Escuro)"
+"Challenge_Desc_nmo_toxtethdark_challenge_1"	"Eu sugiro cortar caminho pelo cemitério..."
+"Challenge_Name_nmo_toxtethdark_challenge_2"	"Varredura de Esgoto (Escuro)"
+"Challenge_Desc_nmo_toxtethdark_challenge_2"	"Bem, se você não se importa com a lama..."
+
+"Challenge_Name_nmo_underground_challenge_1"	"Inferno do Viajante"
+"Challenge_Desc_nmo_underground_challenge_1"	"Você não irá longe..."
+"Challenge_Name_nmo_underground_challenge_2"	"Empurre o Carrinho"
+"Challenge_Desc_nmo_underground_challenge_2"	"Temos que empurrar o carrinho!"
+"Challenge_Name_nmo_underground_challenge_3"	"Apreciador Médio de Combate Corpo a Corpo"
+"Challenge_Desc_nmo_underground_challenge_3"	"Complete o mapa sem armas e explosivos!"
+
+"Challenge_Name_nmo_zephyr_challenge_1"	"Caminho dos Zéfiros"
+"Challenge_Desc_nmo_zephyr_challenge_1"	"Ouvir a voz humana é tão revigorante."
+"Challenge_Name_nmo_zephyr_challenge_2"	"Falta de Manutenção"
+"Challenge_Desc_nmo_zephyr_challenge_2"	"O que há com esse engenheiro? Nada parece estar funcionando."
 
 "Downloading_Workshop_Map"		"Baixando mapa da Oficina..."
 "Downloading_Workshop_Map_Progress"		"Baixando mapa da Oficina... (%s1/%s2)"
@@ -201,6 +308,18 @@
 "NMRiH_Mutator_ConfigFileType"	"Config. Mutador (.txt)"
 "NMRiH_Mutator_ExportCfgSuccess"	"Config. Mutador exportado com sucesso."
 "NMRiH_Mutator_FailedToImportConfig"	"Falha ao importar config. mutador. O arquivo é inválido."
+
+"Mutator_Name_deathnotice"	"Avisos de Falecimento"
+"Mutator_Desc_deathnotice"	"Exibe Zumbis Mortos / Mortes."
+
+"Mutator_Name_nostamina"	"Sem Estâmina"
+"Mutator_Desc_nostamina"	"Jogadores terão estâmina infinita."
+
+"Mutator_Name_nozombierespawn"	"Sem Reaparecimento de Zumbis"
+"Mutator_Desc_nozombierespawn"	"Zumbis não irão reaparecer."
+
+"Mutator_Name_weightlessammo"	"Munição sem Peso"
+"Mutator_Desc_weightlessammo"	"A munição não ocupará espaço no inventário."
 
 "NMRiH_DeckCompatibility_Title"	"Compatibilidade do Steam Deck"
 "NMRiH_DeckCompatibility_Message1"	"Parece que você está jogando via Steam Deck."
