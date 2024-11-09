@@ -19,7 +19,7 @@
 
 "MainMenu_ResumeGame"	"繼續遊戲"
 "MainMenu_Disconnect"	"中斷連線"
-"MainMenu_PlayerList"	"玩家列表"
+"MainMenu_PlayerList"	"禁言玩家"
 "MainMenu_CallVote"	"發起投票"
 
 "NMRiH_Dev_NextObjective"	"下一個目標：%s1"
@@ -168,12 +168,12 @@
 "NMRiH_Vote_ChangeChallenge"	"更換挑戰至 %s1？"
 "NMRiH_Vote_ChangeDifficulty"	"更換難易度至 %s1?"
 
-"NMRiH_Scoreboard_MutePlayer"		"靜音玩家"
+"NMRiH_Scoreboard_MutePlayer"		"禁言玩家"
 "NMRiH_Scoreboard_ViewSteamProfile"	"檢視 Steam 個人資料"
 "NMRiH_Scoreboard_Bot"	"BOT"
 
-"NMRiH_MutedPlayer"		"將 %s1 靜音"
-"NMRiH_UnmutedPlayer"		"停止將 %s1 靜音"
+"NMRiH_MutedPlayer"		"將 %s1 禁言"
+"NMRiH_UnmutedPlayer"		"停止將 %s1 禁言"
 
 "NMRiH_Challenge_Select"	"選擇一個挑戰："
 "NMRiH_Challenge_Random"	"隨機目標"
