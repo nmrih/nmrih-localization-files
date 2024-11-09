@@ -19,7 +19,7 @@
 
 "MainMenu_ResumeGame"		"ВОЗОБНОВИТЬ ИГРУ"
 "MainMenu_Disconnect"		"ОТКЛЮЧИТЬСЯ"
-"MainMenu_PlayerList"		"СПИСОК ИГРОКОВ"
+"MainMenu_PlayerList"		"ЗАГЛУШИТЬ ИГРОКОВ"
 "MainMenu_CallVote"		"НАЧАТЬ ГОЛОСОВАНИЕ"
 
 "NMRiH_Dev_NextObjective"	"Следующая задача: %s1"
