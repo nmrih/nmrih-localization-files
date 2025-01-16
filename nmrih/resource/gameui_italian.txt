@@ -94,7 +94,7 @@
 "NMRiH_FriendlyFire_Tooltip"	"Abilita il fuoco amico, i giocatori infetti subiranno sempre danni."
 "NMRiH_RealismMode_Tooltip"	"In modalità Realismo, i respawn sono disattivati, gli zombi subiscono solo danni da colpo alla testa e tutti i colpi alla testa sono 1-hit-kill, indipendentemente dal tipo di munizioni."
 "NMRiH_HardcoreSurvival_Tooltip"	"Nasconde l'HUD in modalità sopravvivenza."
-"NMRiH_Max_Players_Tooltip"	"Limite di giocatori, minimo 2, massimo 8."
+"NMRiH_Max_Players_Tooltip"	"Il limite di giocatori, fino a un massimo di 8. Imposta su 1 per giocare in singolo."
 "NMRiH_AdvOptions"	"Opzioni estese..."
 "NMRiH_AdvOptions_Tooltip"	"Modifica le opzioni di gioco estese."
 
