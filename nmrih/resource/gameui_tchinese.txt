@@ -94,7 +94,7 @@
 "NMRiH_FriendlyFire_Tooltip"		"開啟隊友傷害，無論何種設定遭感染的玩家都會受到傷害。"
 "NMRiH_RealismMode_Tooltip"		"在寫實模式中，停用重生點、殭屍只有頭部會受到傷害，且不論何種彈藥均能一發爆頭。"
 "NMRiH_HardcoreSurvival_Tooltip"	"隱藏生存模式中的抬頭顯示。"
-"NMRiH_Max_Players_Tooltip"		"玩家上限，最低 2，最高 8。"
+"NMRiH_Max_Players_Tooltip"		"玩家人數限制，至多 8 人，設為 1 人即可單人進行遊戲。"
 "NMRiH_AdvOptions"			"進階選項…"
 "NMRiH_AdvOptions_Tooltip"		"編輯進階遊戲選項。"
 
