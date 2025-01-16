@@ -94,7 +94,7 @@
 "NMRiH_FriendlyFire_Tooltip"	"启用友军伤害，您可以对已感染的玩家造成伤害。"
 "NMRiH_RealismMode_Tooltip"	"您将无法在写实模式中复活，并且丧尸只会受到爆头伤害。无论弹药类型如何，所有的爆头都是一击必杀。"
 "NMRiH_HardcoreSurvival_Tooltip"	"该模式将隐藏您的HUD菜单。"
-"NMRiH_Max_Players_Tooltip"	"玩家人数限制，最小为2人，最大为8人。"
+"NMRiH_Max_Players_Tooltip"	"玩家人数限制，最大为8人。设置为1则进行单人游戏。"
 "NMRiH_AdvOptions"	"扩展设置..."
 "NMRiH_AdvOptions_Tooltip"	"编辑游戏的扩展设置。"
 
