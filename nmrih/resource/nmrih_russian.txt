@@ -89,6 +89,9 @@
 
 "Map_Time_Extended"			"Время на уровень увеличено на %s1 минут."
 
+"VersionEmulation_Notice"		"Этот сервер эмулирует игру версии %s1"
+"VersionEmulation_Disclaimer"	"Некоторые функции могут отсутствовать, а также могут присутствовать ошибки."
+
 // Префикс в чате (Voice)
 "Voice"					"Говорит"
 
@@ -313,6 +316,7 @@
 "ChallengeReject_OutsideVScript"	"Был запущен пользовательский скрипт VScript."
 "ChallengeReject_LateValidate"		"Проверка результатов была включена слишком поздно."
 "ChallengeReject_GameStateCommand"	"Были использованы команды энтити «nmrih_game_state»."
+"ChallengeReject_VersionEmulation"	"Эмуляция версии включена."
 
 "Hint_Generic_Compass" 			"Используйте компас для поиска подсказок! Нажмите клавишу %+compass%."
 "Hint_Generic_CheckAmmo" 		"Зажав клавишу %+reload%, вы сможете проверить количество патронов."
