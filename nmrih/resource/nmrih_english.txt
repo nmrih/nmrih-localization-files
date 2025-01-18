@@ -89,6 +89,9 @@
 
 "Map_Time_Extended"			"Map time extended by %s1 minutes."
 
+"VersionEmulation_Notice"		"This server is emulating game version %s1"
+"VersionEmulation_Disclaimer"	"Features could be missing, and bugs may be present."
+
 // Prefix for (Voice) subtitle
 "Voice"							"Voice"
 
@@ -313,6 +316,7 @@
 "ChallengeReject_OutsideVScript"	"Custom VScript was run."
 "ChallengeReject_LateValidate"	"Validation was turned on late."
 "ChallengeReject_GameStateCommand"	"Game state console command was used."
+"ChallengeReject_VersionEmulation"	"Version emulation was turned on."
 
 "Hint_Generic_Compass" "Check your compass for objectives! Press %+compass%."
 "Hint_Generic_CheckAmmo" "You can check ammo by holding the %+reload% key."
