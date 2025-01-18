@@ -49,16 +49,15 @@
 "HudSurvivalWave"			"ONDATA"
 "HudSurvivalRemaining"		"RESTANTI"
 "HudSurvivalZone"			"ZONA"
-"HudSurvivalResupply"		"LANCIO DI RIFORNIMENTI IN ARRIVO"
 "HudSurvivalInactive"		"INATTIVO"
+"HudSurvivalResupply"		"LANCIO DI RIFORNIMENTI IN ARRIVO"
 "HudSurvivalWaveBegin"		"ONDATA INIZIATA"
 "HudSurvivalWaveEnd"		"ONDATA COMPLETATA"
 
 "NMRiH_Votekick_List"			"Gli ID utente per il voto di espulsione sono i seguenti:\n%s1"
 "NMRiH_Votekick_InProgress"		"È già in corso una votazione!"
 "NMRiH_Votekick_KickSelf"		"Non puoi votare per espellerti!"
-"NMRiH_Votekick_Started"		"Votazione iniziata per l'espulsione di %s1\nHai %s2 secondi per votare.\nScrivi !yes per approvare
-l'espulsione."
+"NMRiH_Votekick_Started"		"Votazione iniziata per l'espulsione di %s1\nHai %s2 secondi per votare.\nScrivi !yes per approvare l'espulsione."
 "NMRiH_Votekick_UnknownPlayer"		"ID giocatore sconosciuto!\nScrivi !vklist per visualizzare la lista dei giocatori."
 "NMRiH_Votekick_InvalidId"		"ID giocatore non valido.\nScrivi !vklist per visualizzare la lista dei giocatori ."
 "NMRiH_Votekick_Pass"			"Votazione riuscita!"
@@ -89,6 +88,9 @@ l'espulsione."
 "Watermelon_Rescued"		"Cocomero al sicuro! Sono stati assegnati %s1 punti a tutti i giocatori."
 
 "Map_Time_Extended"			"Tempo della mappa esteso di %s1 minuti."
+
+"VersionEmulation_Notice"		"Questo server sta emulando la versione %s1 del gioco."
+"VersionEmulation_Disclaimer"	"Potrebbero mancare delle funzionalità ed esserci bug."
 
 // Prefix for (Voice) subtitle
 "Voice"						"Voce"
@@ -314,6 +316,7 @@ l'espulsione."
 "ChallengeReject_OutsideVScript"	"VScript personalizzato in esecuzione."
 "ChallengeReject_LateValidate"	"Convalida attivata troppo tardi."
 "ChallengeReject_GameStateCommand"	"Console di gioco utilizzata."
+"ChallengeReject_VersionEmulation"	"Emulazione di un'altra versione attivata."
 
 "Hint_Generic_Compass" "Controlla la bussola per conoscere i tuoi obiettivi! Premi %+compass%."
 "Hint_Generic_CheckAmmo" "Puoi controllare le tue munizioni tenendo premuto il tasto %+reload%."
