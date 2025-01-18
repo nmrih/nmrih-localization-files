@@ -10,7 +10,7 @@
 
 "NMRiH_FriendlyFire"			"Огонь по своим"
 "NMRiH_RealismMode"			"Реализм"
-"NMRiH_HardcoreSurvival"		"Выживание - «Хардкор»"
+"NMRiH_HardcoreSurvival"		"Выживание – «Хардкор»"
 "NMRiH_ChallengeMode"			"Испытание"
 
 "NMRiH_Practice_Starting"		"Недостаточно игроков для начала игры. Начинается режим тренировки."
