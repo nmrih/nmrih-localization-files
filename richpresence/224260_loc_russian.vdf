@@ -5,10 +5,10 @@
 	{
 		"#Status_JoiningServer"	"Присоединяется к серверу..."
 		"#Status_MainMenu"	"Главное меню"
-		"#Status_PlayingObjective"	"Режим заданий - %map%"
-		"#Status_PlayingSurvival"	"Режим выживания - %map%"
-		"#Status_PlayingCustom"	"Пользовательская - %map%"
-		"#Status_PlayingPvP"	"Игрок против игрока - %map%"
-		"#Status_PlayingMinigame"	"Мини-игры - %map%"
+		"#Status_PlayingObjective"	"Режим заданий – %map%"
+		"#Status_PlayingSurvival"	"Режим выживания – %map%"
+		"#Status_PlayingCustom"	"Польз. – %map%"
+		"#Status_PlayingPvP"	"Игрок x игрока – %map%"
+		"#Status_PlayingMinigame"	"Мини-игры – %map%"
 	}
 }
