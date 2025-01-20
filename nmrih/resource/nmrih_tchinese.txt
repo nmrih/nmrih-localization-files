@@ -89,6 +89,9 @@
 
 "Map_Time_Extended"	"地圖時間延長 %s1 分鐘。"
 
+"VersionEmulation_Notice"		"本伺服器正在模擬遊戲版本 %s1"
+"VersionEmulation_Disclaimer"	"功能可能遺失，且可能存在 BUG。"
+
 // Prefix for (Voice) subtitle
 "Voice"		"語音"
 
@@ -313,6 +316,7 @@
 "ChallengeReject_OutsideVScript"	"執行到自訂 VScript。"
 "ChallengeReject_LateValidate"		"驗證未及時啟用。"
 "ChallengeReject_GameStateCommand"	"曾使用遊戲狀態控制台指令。"
+"ChallengeReject_VersionEmulation"	"啟動版本模擬。"
 
 "Hint_Generic_Compass"		"檢查指示取得方向與任務目標資訊！請按 %+compass%。"
 "Hint_Generic_CheckAmmo"	"持續按住 %+reload% 鍵可以檢查彈藥。"
