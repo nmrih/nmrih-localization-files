@@ -19,7 +19,7 @@
 
 "MainMenu_ResumeGame"		"ВОЗОБНОВИТЬ ИГРУ"
 "MainMenu_Disconnect"		"ОТКЛЮЧИТЬСЯ"
-"MainMenu_PlayerList"		"СПИСОК ИГРОКОВ"
+"MainMenu_PlayerList"		"ЗАГЛУШИТЬ ИГРОКОВ"
 "MainMenu_CallVote"		"НАЧАТЬ ГОЛОСОВАНИЕ"
 
 "NMRiH_Dev_NextObjective"	"Следующая задача: %s1"
@@ -94,7 +94,7 @@
 "NMRiH_FriendlyFire_Tooltip"		"Огонь по своим, заражённые игроки всегда получают урон."
 "NMRiH_RealismMode_Tooltip"		"В режиме реализма нет точек возрождения, зомби получают урон только от попаданий в голову и, независимо от патронов, выстрелы в голову убивают с одной пули."
 "NMRiH_HardcoreSurvival_Tooltip"	"Зоны не показываются на экране."
-"NMRiH_Max_Players_Tooltip"		"Макс. игроков: минимум 2, максимум 8."
+"NMRiH_Max_Players_Tooltip"		"Макс. игроков: максимум 8. Установите значение 1 для одиночной игры."
 "NMRiH_AdvOptions"			"Расширенные опции..."
 "NMRiH_AdvOptions_Tooltip"		"Изменить расширенные опции."
 
@@ -212,7 +212,7 @@
 "Challenge_Name_nmo_cabin_challenge_2"	"Под хижиной"
 "Challenge_Desc_nmo_cabin_challenge_2"	"Что там прятал уборщик? Давайте выясним."
 "Challenge_Name_nmo_cabin_challenge_3"	"Тайное знание"
-"Challenge_Desc_nmo_cabin_challenge_3"	"Семья - вот ответ на этот вопрос, и теперь у нас есть передвижные книжные шкафы!"
+"Challenge_Desc_nmo_cabin_challenge_3"	"Семья – вот ответ на этот вопрос, и теперь у нас есть передвижные книжные шкафы!"
 "Challenge_Name_nmo_cabin_blitz_1"	"Блиц: Лихорадка в хижине"
 "Challenge_Desc_nmo_cabin_blitz_1"	"Теперь они действительно засекли нас... В режиме «Блиц» выиграйте больше времени, выполняя задания!"
 

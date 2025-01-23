@@ -19,7 +19,7 @@
 
 "MainMenu_ResumeGame"			"RESUME GAME"
 "MainMenu_Disconnect"			"DISCONNECT"
-"MainMenu_PlayerList"			"PLAYER LIST"
+"MainMenu_PlayerList"			"MUTE PLAYERS"
 "MainMenu_CallVote"				"CALL VOTE"
 
 "NMRiH_Dev_NextObjective"		"Next Objective: %s1"
@@ -94,7 +94,7 @@
 "NMRiH_FriendlyFire_Tooltip"	"Enables friendly fire, infected players will always take damage."
 "NMRiH_RealismMode_Tooltip"	"In Realism mode, respawns are disabled, zombies only take headshot damage, and all headshots are 1-hit-kill regardless of ammo type."
 "NMRiH_HardcoreSurvival_Tooltip"	"Hides the HUD in survival mode."
-"NMRiH_Max_Players_Tooltip"	"Player limit, minimum of 2, maximum of 8."
+"NMRiH_Max_Players_Tooltip"	"Player limit, with maximum of 8. Set to 1 for solo play."
 "NMRiH_AdvOptions"	"Extended Options..."
 "NMRiH_AdvOptions_Tooltip"	"Edit extended game options."
 

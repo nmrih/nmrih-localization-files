@@ -182,26 +182,26 @@ in first-person mode while playing.
 "[english]Spec_PlayerItem"	"%s1"
 "Spec_PlayerItem_Team"	"%s1 (%s2)"
 "[english]Spec_PlayerItem_Team"	"%s1 (%s2)"
-"Spec_Duck"	"ПРИСЕСТЬ - вход в меню наблюдения"
+"Spec_Duck"	"ПРИСЕСТЬ – вход в меню наблюдения"
 "[english]Spec_Duck"	"Press DUCK for Spectator Menu"
 "Spec_Help_Title"	"Режим наблюдателя"
 "[english]Spec_Help_Title"	"Spectator Mode"
 "Spec_Help_Text"	"Используйте следующие клавиши для переключения видов обзора:
 
- ОГОНЬ1 - следовать за следующим игроком
- ОГОНЬ2 - следовать за предыдущим игроком
- ПРЫЖОК - изменение режимов обзора
- ИСПОЛЬЗОВАТЬ - изменение режима картинки-вставки
+ ОГОНЬ1 – следовать за следующим игроком
+ ОГОНЬ2 – следовать за предыдущим игроком
+ ПРЫЖОК – изменение режимов обзора
+ ИСПОЛЬЗОВАТЬ – изменение режима картинки-вставки
 
- ПРИСЕСТЬ - запустить меню наблюдения
+ ПРИСЕСТЬ – запустить меню наблюдения
 
 В режиме обзора карты двигайтесь при помощи:
 
- ВЛЕВО - движение влево
- ВПРАВО - движение вправо
- ВПЕРЁД - крупное изображение
- НАЗАД - мелкое изображение
- МЫШЬ - вращение вокруг карты или цели"
+ ВЛЕВО – движение влево
+ ВПРАВО – движение вправо
+ ВПЕРЁД – приблизить
+ НАЗАД – отдалить
+ МЫШЬ – вращение вокруг карты или цели"
 "[english]Spec_Help_Text"	"
 Use the following keys to change view styles:
 
@@ -234,7 +234,7 @@ In Overview Map Mode move around with:
 "[english]Spec_Mode4"	"Chase Camera"
 "Spec_Mode5"	"Свободный обзор"
 "[english]Spec_Mode5"	"Free Look"
-"Spec_Mode6"	"Следовать за игроком - карта"
+"Spec_Mode6"	"Следовать за игроком – карта"
 "[english]Spec_Mode6"	"Chase Map Overview"
 "Spec_NoTarget"	"Нет подходящих целей. Невозможно переключить режим камеры."
 "[english]Spec_NoTarget"	"No valid targets. Cannot switch camera mode."
@@ -252,7 +252,7 @@ In Overview Map Mode move around with:
 "[english]OBS_IN_EYE"	"First Person"
 "OBS_MAP_FREE"	"Свободный обзор карты"
 "[english]OBS_MAP_FREE"	"Free Map Overview"
-"OBS_MAP_CHASE"	"Следовать за игроком - карта"
+"OBS_MAP_CHASE"	"Следовать за игроком – карта"
 "[english]OBS_MAP_CHASE"	"Chase Map Overview"
 "SPECT_OPTIONS"	"Настройки"
 "[english]SPECT_OPTIONS"	"Options"
@@ -394,17 +394,17 @@ In Overview Map Mode move around with:
 "[english]Valve_x_4"	"x4"
 "Valve_ViewDemoStatus"	"%s1  %s2  %s3"
 "[english]Valve_ViewDemoStatus"	"%s1  %s2  %s3"
-"Valve_Hint_Zoom"	"%+zoom% - ПРИБЛИЗИТЬ"
+"Valve_Hint_Zoom"	"%+zoom% – ПРИБЛИЗИТЬ"
 "[english]Valve_Hint_Zoom"	"%+zoom% ZOOM VIEW"
-"Valve_Hint_machinegun"	"%+USE% - ИСПОЛЬЗОВАТЬ СТАНКОВОЕ ОРУЖИЕ"
+"Valve_Hint_machinegun"	"%+USE% – ИСПОЛЬЗОВАТЬ СТАНКОВОЕ ОРУЖИЕ"
 "[english]Valve_Hint_machinegun"	"%+USE% TO USE MOUNTED GUN"
-"Valve_Hint_Flashlight"	"%impulse 100% - ФОНАРЬ"
+"Valve_Hint_Flashlight"	"%impulse 100% – ФОНАРЬ"
 "[english]Valve_Hint_Flashlight"	"%impulse 100% FLASHLIGHT"
-"Valve_Hint_PhysSwap"	"%phys_swap% - СМЕНА НА ГРАВИ-ПУШКУ И ОБРАТНО"
+"Valve_Hint_PhysSwap"	"%phys_swap% – СМЕНА НА ГРАВИ-ПУШКУ И ОБРАТНО"
 "[english]Valve_Hint_PhysSwap"	"%phys_swap% TO SWAP GRAVITY GUN\n WITH PREVIOUS GUN"
-"Valve_Hint_Command_send"	"%impulse 50% - НАПРАВИТЬ БОЙЦОВ В ЭТО МЕСТО"
+"Valve_Hint_Command_send"	"%impulse 50% – НАПРАВИТЬ БОЙЦОВ В ЭТО МЕСТО"
 "[english]Valve_Hint_Command_send"	"%impulse 50% SEND YOUR SQUAD TO A LOCATION"
-"Valve_Hint_Command_recall"	"%impulse 50% - НАЖАТЬ ДВАЖДЫ, ЧТОБЫ ПОДОЗВАТЬ БОЙЦОВ"
+"Valve_Hint_Command_recall"	"%impulse 50% – НАЖАТЬ ДВАЖДЫ, ЧТОБЫ ПОДОЗВАТЬ БОЙЦОВ"
 "[english]Valve_Hint_Command_recall"	"%impulse 50% TWICE TO RECALL YOUR SQUAD"
 "Valve_Hint_CraneKeys"	"%+forward% ОПУСТИТЬ КРАН %+back% ПОДНЯТЬ КРАН %+moveleft% ВЛЕВО %+moveright% ВПРАВО %+attack% ПОДНЯТЬ ИЛИ БРОСИТЬ ОБЪЕКТ"	[$WIN32]
 "[english]Valve_Hint_CraneKeys"	"%+forward% EXTEND ARM %+back% RETRACT ARM %+moveleft% TURN LEFT %+moveright% TURN RIGHT %+attack% PICKUP OR DROP OBJECT"
@@ -414,25 +414,25 @@ In Overview Map Mode move around with:
 "[english]Valve_Hint_BoatKeys"	"%+forward% SPEED UP %+back% SLOW DOWN %+moveleft% TURN LEFT %+moveright% TURN RIGHT"
 "Valve_Hint_BoatKeys"	"%xmove% УСКОРЕНИЕ/УПРАВЛЕНИЕ %xlook% ОБЗОР"	[$X360]
 "[english]Valve_Hint_BoatKeys"	"%xmove% ACCELERATE/STEER %xlook% LOOK"
-"Valve_Hint_JeepKeys"	"%+speed% — УСКОРЕНИЕ %+jump% — РУЧНОЙ ТОРМОЗ"
+"Valve_Hint_JeepKeys"	"%+speed% – УСКОРЕНИЕ %+jump% – РУЧНОЙ ТОРМОЗ"
 "[english]Valve_Hint_JeepKeys"	"%+speed% TURBO %+jump% HANDBRAKE"
-"Valve_Hint_JeepTurbo"	"%+speed% — УСКОРЕНИЕ"
+"Valve_Hint_JeepTurbo"	"%+speed% – УСКОРЕНИЕ"
 "[english]Valve_Hint_JeepTurbo"	"%+speed% TURBO"
-"Valve_Hint_HEVcharger"	"%+use% - УДЕРЖИВАТЬ ДЛЯ ЗАРЯДКИ КОСТЮМА"
+"Valve_Hint_HEVcharger"	"%+use% – УДЕРЖИВАТЬ ДЛЯ ЗАРЯДКИ КОСТЮМА"
 "[english]Valve_Hint_HEVcharger"	"%+use% HOLD DOWN TO CHARGE SUIT"
-"Valve_Hint_AirboatGun"	"%+attack% - ВЕСТИ ОГОНЬ ИЗ ОРУЖИЯ НА КАТЕРЕ"
+"Valve_Hint_AirboatGun"	"%+attack% – ВЕСТИ ОГОНЬ ИЗ ОРУЖИЯ НА КАТЕРЕ"
 "[english]Valve_Hint_AirboatGun"	"%+attack% FIRE AIRBOAT GUN"
-"Valve_Hint_AmmoCrate"	"%+use% - ВЗЯТЬ ПАТРОНЫ ИЗ ЯЩИКА"
+"Valve_Hint_AmmoCrate"	"%+use% – ВЗЯТЬ ПАТРОНЫ ИЗ ЯЩИКА"
 "[english]Valve_Hint_AmmoCrate"	"%+use% GET AMMO FROM CRATE"
-"Valve_Hint_USEPickup"	"%+use% - ПОДОБРАТЬ ПРЕДМЕТ"
+"Valve_Hint_USEPickup"	"%+use% – ПОДОБРАТЬ ПРЕДМЕТ"
 "[english]Valve_Hint_USEPickup"	"%+use% PICKUP OBJECT"
-"Valve_Hint_ThrowHeld"	"%+attack% - БРОСИТЬ ПРЕДМЕТ"
+"Valve_Hint_ThrowHeld"	"%+attack% – БРОСИТЬ ПРЕДМЕТ"
 "[english]Valve_Hint_ThrowHeld"	"%+attack% THROW HELD OBJECT"
-"Valve_Hint_MomentaryButton"	"%+use% - УДЕРЖИВАТЬ, ЧТОБЫ ПОВЕРНУТЬ КОЛЕСО"
+"Valve_Hint_MomentaryButton"	"%+use% – УДЕРЖИВАТЬ, ЧТОБЫ ПОВЕРНУТЬ КОЛЕСО"
 "[english]Valve_Hint_MomentaryButton"	"%+use% HOLD DOWN TO TURN WHEEL"
-"Valve_Hint_ThrowBait"	"%+attack% - БРОСИТЬ ПРИМАНКУ"
+"Valve_Hint_ThrowBait"	"%+attack% – БРОСИТЬ ПРИМАНКУ"
 "[english]Valve_Hint_ThrowBait"	"%+attack% THROW BUGBAIT"
-"Valve_Hint_SqueezeBait"	"%+attack2% - ВЫЗВАТЬ МУРАВЬИНЫХ ЛЬВОВ"
+"Valve_Hint_SqueezeBait"	"%+attack2% – ВЫЗВАТЬ МУРАВЬИНЫХ ЛЬВОВ"
 "[english]Valve_Hint_SqueezeBait"	"%+attack2% CALL ANTLIONS"
 "Valve_Hint_Ladder"	"%+use% ПОДНЯТЬСЯ/СПУСТИТЬСЯ ПО ЛЕСТНИЦЕ"
 "[english]Valve_Hint_Ladder"	"%+use% MOUNT/DISMOUNT LADDER"
@@ -440,7 +440,7 @@ In Overview Map Mode move around with:
 "[english]Valve_Hint_Interact"	"%+use% INTERACT"
 "Valve_Hint_Jump"	"%+jump% ПОДПРЫГНУТЬ"
 "[english]Valve_Hint_Jump"	"%+jump% JUMP"
-"Valve_Hint_Movement"	"%xmove% - ДВИГАТЬСЯ %xlook% - СМОТРЕТЬ"	[$X360]
+"Valve_Hint_Movement"	"%xmove% – ДВИГАТЬСЯ %xlook% – СМОТРЕТЬ"	[$X360]
 "[english]Valve_Hint_Movement"	"%xmove% TO MOVE %xlook% TO LOOK"
 "Valve_Hint_Movement"	"ВПЕРЕД %+forward%НАЗАД %+back%ВЛЕВО %+moveleft%ВПРАВО %+moveright%"	[$WIN32]
 "[english]Valve_Hint_Movement"	"FORWARD %+forward%BACK %+back%LEFT %+moveleft%RIGHT %+moveright%"
