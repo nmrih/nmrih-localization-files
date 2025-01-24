@@ -309,7 +309,7 @@
 "ChallengeTimer_NewRecord"	"新記録！"
 
 "ChallengeInvalid"	"チャレンジ結果は無効です！"
-"ChallengeReject_Cheats"	"チートがオンです。"
+"ChallengeReject_Cheats"	"チートがオンになっています。"
 "ChallengeReject_CvarChanged"	"Gameplay ConVarがプレイの途中で変わっています。"
 "ChallengeReject_ModifiedRuleset"	"難易度/ルールセットが変更されています。"
 "ChallengeReject_OutsideMapHack"	"カスタムMapHackスクリプトがロードされています。"
