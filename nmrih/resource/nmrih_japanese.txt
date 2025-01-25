@@ -89,6 +89,9 @@
 
 "Map_Time_Extended"			"マップの制限時間が %s1 分延長されました。"
 
+"VersionEmulation_Notice"		"このサーバーはゲームバージョン %s1 をエミュレートしています。"
+"VersionEmulation_Disclaimer"	"機能が欠けていたり、バグがあるかもしれません。"
+
 // Prefix for (Voice) subtitle
 "Voice"						"ボイス"
 
@@ -305,14 +308,15 @@
 "ChallengeTimer_NoTime"	"タイムなし"
 "ChallengeTimer_NewRecord"	"新記録！"
 
-"ChallengeInvalid"	"チャレンジ結果は無効になった！"
-"ChallengeReject_Cheats"	"チートがオンになった。"
-"ChallengeReject_CvarChanged"	"Gameplay ConVarがプレイの途中で変わった。"
-"ChallengeReject_ModifiedRuleset"	"変更された難易度/ルールセット"
-"ChallengeReject_OutsideMapHack"	"カスタムMapHackスクリプトをロード。"
-"ChallengeReject_OutsideVScript"	"カスタムVScriptが実行された。"
+"ChallengeInvalid"	"チャレンジ結果は無効です！"
+"ChallengeReject_Cheats"	"チートがオンになっています。"
+"ChallengeReject_CvarChanged"	"Gameplay ConVarがプレイの途中で変わっています。"
+"ChallengeReject_ModifiedRuleset"	"難易度/ルールセットが変更されています。"
+"ChallengeReject_OutsideMapHack"	"カスタムMapHackスクリプトがロードされています。"
+"ChallengeReject_OutsideVScript"	"カスタムVScriptが実行されています。"
 "ChallengeReject_LateValidate"	"検証がオンになるのが遅かった。"
-"ChallengeReject_GameStateCommand"	"Game stateのコンソールコマンドが使用された。"
+"ChallengeReject_GameStateCommand"	"Game stateのコンソールコマンドが使用されています。"
+"ChallengeReject_VersionEmulation"	"バージョンエミュレーションがオンになっています。"
 
 "Hint_Generic_Compass" "コンパスで次の目標を確認するには %+compass% を押す。"
 "Hint_Generic_CheckAmmo" "弾薬の確認は %+reload% を長押しで行う。"
