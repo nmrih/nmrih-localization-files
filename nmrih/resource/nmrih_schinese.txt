@@ -89,6 +89,9 @@
 
 "Map_Time_Extended"			"地图时间已被延长 %s1 分钟。"
 
+"VersionEmulation_Notice"		"该服务器正在模拟游戏版本 %s1"
+"VersionEmulation_Disclaimer"	"这可能会导致游戏存在 BUG，或出现功能缺失。"
+
 // Prefix for (Voice) subtitle					  
 "Voice"						"语音"
 
@@ -313,6 +316,7 @@
 "ChallengeReject_OutsideVScript"	"运行了自定义 VScript 脚本。"
 "ChallengeReject_LateValidate"	"校验系统加载过迟。"
 "ChallengeReject_GameStateCommand"	"执行过修改游戏状态的控制台指令。"
+"ChallengeReject_VersionEmulation"	"开启了版本模拟。"
 
 "Hint_Generic_Compass" "按下 %+compass% 键，打开指南针来查看当前的任务目标！"
 "Hint_Generic_CheckAmmo" "您可以按住 %+reload% 键查看当前武器的剩余弹药量。"
