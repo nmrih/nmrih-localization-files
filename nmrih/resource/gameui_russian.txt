@@ -70,8 +70,8 @@
 "NMRiH_Advanced_cl_mainmenu_background_1"	"Greenlight (вер. 1.07)"
 "NMRiH_Advanced_cl_mainmenu_background_2"	"Перерождение (вер. 1.10)"
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"Эффекты при ударе объекта"
-"NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Высокое качество, с частицами"
-"NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Низкое качество, без частиц"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Высок. качество, с частицами"
+"NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Низк. качество, без частиц"
 
 "NMRiH_Difficulty"		"Сложность"
 
@@ -87,18 +87,20 @@
 "NMRiH_GameType_Minigame"		"Мини-игры"
 
 "NMRiH_LAN"				"Только лок. сеть"
+"NMRiH_Coplay"			"Совместная игра (сетевые функции Steam)"
 
-"NMRiH_Difficulty_Tooltip"		"Выбрать уровень сложности.\nКлассика: стандартные настройки, есть точки возрождения.\nСвободный: постоянное возрождение, оружие выдаётся при возрождении.\nКошмар: здоровье зомби, их количество и шанс заражения увеличены.\nИгрок против игрока: очки набираются путём убийства других игроков. Показываются иконки убийств, нет зомби и заданий."
+"NMRiH_Difficulty_Tooltip"		"Выбрать уровень сложности.\nКлассика: стандартные настройки, есть точки возрождения.\nСвободный: постоянное возрождение, оружие выдаётся при возрождении.\nКошмар: здоровье зомби, их количество и шанс заражения увеличены.\nИгрок против игрока: очки набираются путём убийства других игроков. Показываются значки убийств, нет зомби и заданий."
 "NMRiH_Map_Time_Tooltip"		"Количество времени на одну карту."
 "NMRiH_LAN_Tooltip"			"Обеспечивает подключение по локальной сети, сервер недоступен публично."
 "NMRiH_FriendlyFire_Tooltip"		"Огонь по своим, заражённые игроки всегда получают урон."
 "NMRiH_RealismMode_Tooltip"		"В режиме реализма нет точек возрождения, зомби получают урон только от попаданий в голову и, независимо от патронов, выстрелы в голову убивают с одной пули."
 "NMRiH_HardcoreSurvival_Tooltip"	"Зоны не показываются на экране."
 "NMRiH_Max_Players_Tooltip"		"Макс. игроков: максимум 8. Установите значение 1 для одиночной игры."
-"NMRiH_AdvOptions"			"Расширенные опции..."
-"NMRiH_AdvOptions_Tooltip"		"Изменить расширенные опции."
+"NMRiH_Coplay_Tooltip"	"Совместная игра предоставляет реализацию сетевых функций Steam для пиринговых соединений. Это устраняет необходимость переадресации портов."
+"NMRiH_AdvOptions"			"Расширенные..."
+"NMRiH_AdvOptions_Tooltip"		"Изменить расширенные параметры."
 
-"NMRiH_Extended_Options"		"Расширенные опции"
+"NMRiH_Extended_Options"		"Расширенные параметры"
 
 "NMRiH_TokensEnabledObjective"		"Прохождение: билеты возрождения"
 "NMRiH_KillsPerTokenObjective"		"Прохождение: убийств для билета возрождения"
@@ -143,7 +145,7 @@
 "NMRiH_VoteKickReason_Griefing"	"Препятствование нормальной игре"
 
 "NMRiH_Vote_Column_Issue"	"Выбор"
-"NMRiH_Vote_Column_Name"	"Имя"
+"NMRiH_Vote_Column_Name"	"Название"
 "NMRiH_Vote_Column_Properties"	""
 
 "NMRIH_vote_no_maps"		"Нет доступных карт."
@@ -290,14 +292,14 @@
 "Downloading_Workshop_Map_Progress"	"Скачивание карты из мастерской... (%s1/%s2)"
 
 "GameUI_Multiplayer" 			"Игра"
-"GameUI_OptionNeedsRestart"		"(Требуется перезапуск игры)"
+"GameUI_OptionNeedsRestart"		"(требуется перезапуск игры)"
 
 "NMRiH_CreateGame_NATWarning_Title"		"Предупреждение NAT"
 "NMRiH_CreateGame_NATWarning1"			"Ваше сетевое устройство находится вне NAT. (Network address translation)"
 "NMRiH_CreateGame_NATWarning2"			"Это не позволит другим игрокам присоединиться к вам."
 "NMRiH_CreateGame_NATWarning3"			"Перед началом игры убедитесь, что UDP порт 27015 переадресован на вашем роутере."
 "NMRiH_CreateGame_NATWarning_DontShowAgain"	"Не показывать снова"
-"NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"Справка по запуску серверов..."
+"NMRiH_CreateGame_NATWarning_OpenHostingGuide"	"Руководство..."
 
 "NMRiH_ScoreBoard_PlayerCount"	"Игроки: %s1"
 
@@ -338,16 +340,16 @@
 "Addon_Manager_Sort"			"Сортировка:"
 "Addon_Manager_SwapWith"		"Поменять c:"
 "Addon_Manager_Refresh"			"Обновить"
-"Addon_Manager_OpenInWorkshop"		"Открыть в мастерской Steam..."
-"Addon_Manager_BrowseAddons"		"Найти дополнения..."
+"Addon_Manager_OpenInWorkshop"		"Открыть в мастерской..."
+"Addon_Manager_BrowseAddons"		"Поиск..."
 "Addon_Manager_ApplyChanges"		"Применить изменения"
-"Addon_Manager_InvalidAddon"		"Этот дополнение несовместимо."
+"Addon_Manager_InvalidAddon"		"Это дополнение несовместимо."
 "Addon_Manager_MultiSelect"		"[выбрано: %s1]"
 
 "Addon_Manager_DropMenu_Disable"		"Отключить"
 "Addon_Manager_DropMenu_ShowInfo"		"Показать информацию"
 "Addon_Manager_DropMenu_OpenInWorkshop"		"Открыть в мастерской..."
-"Addon_Manager_DropMenu_ViewChangeNotes"	"Показать список изменений..."
+"Addon_Manager_DropMenu_ViewChangeNotes"	"Показать список обновлений..."
 "Addon_Manager_DropMenu_Uninstall"		"Удалить"
 "Addon_Manager_DropMenu_Unsubscribe"		"Отписаться"
 "Addon_Manager_DropMenu_PackToVPK"		"Упаковать в VPK..."
@@ -362,7 +364,7 @@
 "Addon_Manager_DropMenu_MultiSelectUninstall"	"Удалить выбранные"
 
 "Addon_Manager_Category_All"			"Все"
-"Addon_Manager_Category_Local"			"Локальные"
+"Addon_Manager_Category_Local"			"На устройстве"
 "Addon_Manager_Category_Workshop"		"Мастерская"
 "Addon_Manager_Category_Published"		"Опубликованные"
 "Addon_Manager_Category_VotedUp"		"Понравившиеся"
@@ -385,22 +387,22 @@
 "Addon_Manager_NotAvailable_Disabled"		"Вы можете включить дополнения в настройках."
 "Addon_Manager_NotAvailable_NoSteam"		"Нет связи со Steam."
 
-"Addon_Manager_DisabledNotice"			"В данный момент дополнения отключены, однако вы всё ещё можете использовать менеджер дополнений. Вы можете включить дополнения в настройках.\n(Не относится к картам из мастерской.)"
+"Addon_Manager_DisabledNotice"			"В данный момент дополнения отключены, однако вы всё ещё можете использовать менеджер дополнений. Вы можете включить дополнения в настройках.\n(Не относится к картам из мастерской)."
 "Addon_Manager_NoConnection"			"Нет связи со Steam, невозможно управлять дополнениями в мастерской. Ваши установленные дополнения могут работать вне сети."
 
 "Addon_Manager_UnsubscribeAddon_Title"		"Отписаться от дополнения"
-"Addon_Manager_UnsubscribeAddon_Message"	"Вы будете отписаны от %s1, вы уверены?"
+"Addon_Manager_UnsubscribeAddon_Message"	"Вы будете отписаны от «%s1», вы уверены?"
 
 "Addon_Manager_UninstallAddon_Title"		"Удалить дополнение"
-"Addon_Manager_UninstallAddon_Message"		"%s1 будет удалён навсегда, если вы продолжите, данное действие нельзя будет отменить."
-"Addon_Manager_UninstallAddon_Tip"		"СОВЕТ: Вы можете легко отключить дополнения в списке вместо их удаления."
+"Addon_Manager_UninstallAddon_Message"		"«%s1» будет удалено навсегда, если вы продолжите, данное действие нельзя будет отменить."
+"Addon_Manager_UninstallAddon_Tip"		"СОВЕТ: вы можете легко отключить дополнения в списке вместо их удаления."
 "Addon_Manager_UninstallAddon_Failed"		"Удаление прервано!"
 
 "Addon_Manager_MultiSelectUninstall_Title"	"Удалить несколько дополнений"
 "Addon_Manager_MultiSelectUninstall_Message"	"%s1 будут удалены/вы отпишитесь от них, вы уверены?"
 
-"Addon_Manager_SubscribedAddon"			"Менеджер дополнений заметил, что вы подписались на новый(-ые) дополнение(-я)."
-"Addon_Manager_ApplyChangesDialog"		"Вы хотите применить изменения? Игра будет перезапущена."
+"Addon_Manager_SubscribedAddon"			"Менеджер дополнений заметил, что вы подписались на новое дополнение."
+"Addon_Manager_ApplyChangesDialog"		"Вы хотите применить ия? Игра будет перезапущена."
 
 "Addon_Manager_AdvancedPanel"			"Дополнительно"
 "Addon_Manager_Advanced_ImportCfg"		"Импорт конфигурации дополнения..."
@@ -411,7 +413,7 @@
 "Addon_Manager_ImportCfg"			"Импорт конфигурации дополнения"
 "Addon_Manager_ExportCfg"			"Экспорт конфигурации дополнения"
 "Addon_Manager_CfgFileType"			"Конфигурация дополнения (.txt)"
-"Addon_Manager_ImportCfgSuccess"		"Конфигурация дополнения успешно импортирована, перезапустите игру, чтобы изменения вступили в силу."
+"Addon_Manager_ImportCfgSuccess"		"Конфигурация дополнения успешно импортирована, перезапустите игру, чтобы ия вступили в силу."
 "Addon_Manager_ExportCfgSuccess"		"Конфигурация дополнения успешно экспортирована."
 "Addon_Manager_FailedToImportCfg"		"Ошибка при импорте конфигурации дополнения. Файл недействителен."
 
@@ -421,9 +423,9 @@
 "Addon_Manager_ConfigReset_Confirm"		"Все настройки будут потеряны, вы уверены, что хотите продолжить?"
 
 "Addon_Manager_ConfigReset_Title"		"Сброс настроек"
-"Addon_Manager_ConfigReset_Message"		"Настройки дополнения были сброшены. Перезапустите игру, чтобы изменения вступили в силу."
+"Addon_Manager_ConfigReset_Message"		"Настройки дополнения были сброшены. Перезапустите игру, чтобы ия вступили в силу."
 
-"Addon_Manager_MapDownloadFailed"		"Не удалось скачать карту из мастерской! (Код ошибки: %s1)"
+"Addon_Manager_MapDownloadFailed"		"Не удалось скачать карту из мастерской! (код ошибки: %s1)"
 
 "Addon_Manager_InfoPanel"			"Информация дополнения"
 "Addon_Manager_InfoPanel_Title"			"Название"
@@ -432,8 +434,8 @@
 "Addon_Manager_InfoPanel_Workshop"		"Мастерская"
 "Addon_Manager_InfoPanel_Tags"			"Метки"
 "Addon_Manager_InfoPanel_LoadOrder"		"Очередь загрузки"
-"Addon_Manager_InfoPanel_Installed"		"Установлен"
-"Addon_Manager_InfoPanel_LastModified"		"Последнее изменение"
+"Addon_Manager_InfoPanel_Installed"		"Установлено"
+"Addon_Manager_InfoPanel_LastModified"		"Последнее ие"
 "Addon_Manager_InfoPanel_FileSize"		"Размер файла"
 "Addon_Manager_InfoPanel_WorkshopID"		"Идентификатор в мастерской"
 "Addon_Manager_InfoPanel_UserRating"		"Рейтинг"
@@ -442,7 +444,7 @@
 //============================
 //Workshop Publisher
 //============================
-"Workshop_Publisher"				"Публикация в мастерской"
+"Workshop_Publisher"				"Опубликовать"
 "Workshop_Publisher_AddonForm"			"Бланк дополнения"
 "Workshop_Publisher_UpdateExisting"		"Обновление существующего дополнения"
 "Workshop_Publisher_UploadProgress"		"Загрузка дополнения в мастерскую..."
@@ -457,7 +459,7 @@
 "Workshop_Publisher_AddonForm_Title"				"Название: *"
 "Workshop_Publisher_AddonForm_Desc"					"Описание:"
 "Workshop_Publisher_AddonForm_Summary"				"Обобщение:"
-"Workshop_Publisher_AddonForm_ChangeNotes"			"Список изменений:"
+"Workshop_Publisher_AddonForm_ChangeNotes"			"Обновления:"
 "Workshop_Publisher_AddonForm_ContentPath"			"Путь к файлам: *"
 "Workshop_Publisher_AddonForm_PreviewImage"			"Изображение: *"
 "Workshop_Publisher_AddonForm_Category"				"Категория:"
@@ -497,7 +499,7 @@
 
 "Workshop_Publisher_Category_None"		"Нет"
 
-"Workshop_Publisher_UpdatingExisting"		"(Обновление текущего дополнения %s1)"
+"Workshop_Publisher_UpdatingExisting"		"(Обновление текущего дополнения: %s1)"
 
 "Workshop_Publisher_OpenInWorkshop"		"Открыть в мастерской..."
 
