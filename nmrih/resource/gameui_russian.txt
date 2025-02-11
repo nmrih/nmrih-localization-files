@@ -402,7 +402,7 @@
 "Addon_Manager_MultiSelectUninstall_Message"	"%s1 будут удалены/вы отпишитесь от них, вы уверены?"
 
 "Addon_Manager_SubscribedAddon"			"Менеджер дополнений заметил, что вы подписались на новое дополнение."
-"Addon_Manager_ApplyChangesDialog"		"Вы хотите применить ия? Игра будет перезапущена."
+"Addon_Manager_ApplyChangesDialog"		"Вы хотите применить изменения? Игра будет перезапущена."
 
 "Addon_Manager_AdvancedPanel"			"Дополнительно"
 "Addon_Manager_Advanced_ImportCfg"		"Импорт конфигурации дополнения..."
@@ -413,7 +413,7 @@
 "Addon_Manager_ImportCfg"			"Импорт конфигурации дополнения"
 "Addon_Manager_ExportCfg"			"Экспорт конфигурации дополнения"
 "Addon_Manager_CfgFileType"			"Конфигурация дополнения (.txt)"
-"Addon_Manager_ImportCfgSuccess"		"Конфигурация дополнения успешно импортирована, перезапустите игру, чтобы ия вступили в силу."
+"Addon_Manager_ImportCfgSuccess"		"Конфигурация дополнения успешно импортирована, перезапустите игру, чтобы изменения вступили в силу."
 "Addon_Manager_ExportCfgSuccess"		"Конфигурация дополнения успешно экспортирована."
 "Addon_Manager_FailedToImportCfg"		"Ошибка при импорте конфигурации дополнения. Файл недействителен."
 
@@ -423,7 +423,7 @@
 "Addon_Manager_ConfigReset_Confirm"		"Все настройки будут потеряны, вы уверены, что хотите продолжить?"
 
 "Addon_Manager_ConfigReset_Title"		"Сброс настроек"
-"Addon_Manager_ConfigReset_Message"		"Настройки дополнения были сброшены. Перезапустите игру, чтобы ия вступили в силу."
+"Addon_Manager_ConfigReset_Message"		"Настройки дополнения были сброшены. Перезапустите игру, чтобы изменения вступили в силу."
 
 "Addon_Manager_MapDownloadFailed"		"Не удалось скачать карту из мастерской! (код ошибки: %s1)"
 
@@ -435,7 +435,7 @@
 "Addon_Manager_InfoPanel_Tags"			"Метки"
 "Addon_Manager_InfoPanel_LoadOrder"		"Очередь загрузки"
 "Addon_Manager_InfoPanel_Installed"		"Установлено"
-"Addon_Manager_InfoPanel_LastModified"		"Последнее ие"
+"Addon_Manager_InfoPanel_LastModified"		"Последнее изменение"
 "Addon_Manager_InfoPanel_FileSize"		"Размер файла"
 "Addon_Manager_InfoPanel_WorkshopID"		"Идентификатор в мастерской"
 "Addon_Manager_InfoPanel_UserRating"		"Рейтинг"
