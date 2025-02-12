@@ -96,7 +96,7 @@
 "NMRiH_RealismMode_Tooltip"	"リアリズムモード、リスポーン無効、ゾンビにはヘッドショットのみ有効、弾薬の種類に関係なく、ヘッドショットはすべて1ヒットキル"
 "NMRiH_HardcoreSurvival_Tooltip"	"サバイバルモードでHUDを隠す"
 "NMRiH_Max_Players_Tooltip"	"プレイヤー制限、最小2、最大8。 ソロプレイの場合は1に設定"
-"NMRiH_Coplay_Tooltip"	"Coplayはピアツーピア接続のためのSteam ネットワーキングの実装を提供します。 これにより、ポート開放の必要がなくなります"
+"NMRiH_Coplay_Tooltip"	"Coplayはピアツーピア接続のためのSteam ネットワーキングを提供します。 これにより、ポート開放の必要がなくなります"
 "NMRiH_AdvOptions"	"追加オプション..."
 "NMRiH_AdvOptions_Tooltip"	"追加のゲームオプションを編集"
 
