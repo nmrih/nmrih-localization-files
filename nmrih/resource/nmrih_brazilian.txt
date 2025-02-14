@@ -89,6 +89,9 @@
 
 "Map_Time_Extended"			"Tempo do mapa estendido por %s1 minuto(s)."
 
+"VersionEmulation_Notice"		"Este servidor está emulando a versão %s1 do jogo"
+"VersionEmulation_Disclaimer"	"Recursos podem estar faltando e bugs podem estar presentes."
+
 // Prefix for (Voice) subtitle
 "Voice"						"Voz"
 
@@ -313,6 +316,7 @@
 "ChallengeReject_OutsideVScript"	"Um VScript personalizado foi executado."
 "ChallengeReject_LateValidate"	"A validação foi ativada com atraso."
 "ChallengeReject_GameStateCommand"	"O comando do console de estado do jogo foi usado."
+"ChallengeReject_VersionEmulation"	"Emulação de versão foi ligada."
 
 "Hint_Generic_Compass" "Verifique sua bússola para os objetivos! Pressione %+compass%."
 "Hint_Generic_CheckAmmo" "Você pode verificar sua munição segurando a tecla %+reload%."
@@ -358,4 +362,4 @@
 "Hint_Advanced_FlareGunSupplies" "Atire um sinalizador para o céu ao jogar um mapa de sobrevivência para obter uma queda de suprimentos adicional (uma vez por rodada)."
 
 } 
-}  
+}
