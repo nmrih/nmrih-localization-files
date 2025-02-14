@@ -631,7 +631,7 @@
 "[english]GameUI_SkillNormal"	"Normal"
 "GameUI_SkillHard"	"Сложно"
 "[english]GameUI_SkillHard"	"Hard"
-"GameUI_SelectDifficulty"	"Уровень сложности боя:"
+"GameUI_SelectDifficulty"	"Сложность:"
 "[english]GameUI_SelectDifficulty"	"Combat difficulty:"
 "GameUI_Portal"	"Порталы"
 "[english]GameUI_Portal"	"Portals"

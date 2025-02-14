@@ -87,6 +87,7 @@
 "NMRiH_GameType_Minigame"		"ミニゲーム"
 
 "NMRiH_LAN"				"LANのみ"
+"NMRiH_Coplay"			"Coplayを使用 (Steam ネットワーキング)"
 
 "NMRiH_Difficulty_Tooltip"	"難易度を選ぶ\nクラシック： デフォルト設定、リスポーン地点有効\nカジュアル： 常にリスポーン可、武器をもってスポーン\nナイトメア： ゾンビの体力、密度、感染確率が増加\n対戦： PvPのスコアリングとデス通知を有効にし、ゾンビと目標を無効にする"
 "NMRiH_Map_Time_Tooltip"	"マップ変更までの時間"
@@ -94,7 +95,8 @@
 "NMRiH_FriendlyFire_Tooltip"	"フレンドリーファイア有効、プレイヤーは感染せずとも常にダメージを受ける"
 "NMRiH_RealismMode_Tooltip"	"リアリズムモード、リスポーン無効、ゾンビにはヘッドショットのみ有効、弾薬の種類に関係なく、ヘッドショットはすべて1ヒットキル"
 "NMRiH_HardcoreSurvival_Tooltip"	"サバイバルモードでHUDを隠す"
-"NMRiH_Max_Players_Tooltip"	"プレイヤー制限、最小2、最大8"
+"NMRiH_Max_Players_Tooltip"	"プレイヤー制限、最小2、最大8。 ソロプレイの場合は1に設定"
+"NMRiH_Coplay_Tooltip"	"Coplayはピアツーピア接続のためのSteam ネットワーキングを提供します。 これにより、ポート開放の必要がなくなります"
 "NMRiH_AdvOptions"	"追加オプション..."
 "NMRiH_AdvOptions_Tooltip"	"追加のゲームオプションを編集"
 
