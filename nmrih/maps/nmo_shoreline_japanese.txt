@@ -23,5 +23,6 @@
 	"nmo_shoreline_obj_callextraction"	"ラジオで助けを呼ぶ"
 	"nmo_shoreline_obj_flare"	"フレアで救難信号を送れ"
 	"nmo_shoreline_evac"	"救助の到着まであと2分。 避難場所を確保しろ！"
+	"nmo_shoreline_alert"	"誰かが救難信号を送っている！"
 }
 }
