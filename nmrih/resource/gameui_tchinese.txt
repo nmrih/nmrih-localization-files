@@ -87,7 +87,6 @@
 "NMRiH_GameType_Minigame"		"小遊戲"
 
 "NMRiH_LAN"	"僅限區域網路"
-"NMRiH_Coplay"			"使用 Coplay (Steam 網路)"
 
 "NMRiH_Difficulty_Tooltip"		"選擇一個難易度。\n經典：標準設定，重生點啟用。\n休閒：持續重生，重生時給予武器。\n惡夢：增加殭屍生命值、密集度與感染風險。\n對戰：開啟對戰分數與死亡訊息並關閉殭屍與目標。"
 "NMRiH_Map_Time_Tooltip"		"地圖時間限制。"
@@ -95,8 +94,7 @@
 "NMRiH_FriendlyFire_Tooltip"		"開啟隊友傷害。受感染的玩家不論設定為何都會受到隊友傷害。"
 "NMRiH_RealismMode_Tooltip"		"在寫實模式中，重生點將被停用、殭屍只有頭部會受到傷害，且不論何種彈藥均能一發爆頭。"
 "NMRiH_HardcoreSurvival_Tooltip"	"隱藏生存模式中的抬頭顯示。"
-"NMRiH_Max_Players_Tooltip"		"玩家人數限制，至多 8 人，設為 1 人即可單人進行遊戲。"
-"NMRiH_Coplay_Tooltip"	"Coplay 可藉由 Steam 網路進行 P2P 連線。有利於移除通訊埠轉發 (Port fowarding) 的需求。"
+"NMRiH_Max_Players_Tooltip"		"玩家上限，最低 2，最高 8。"
 "NMRiH_AdvOptions"			"進階選項…"
 "NMRiH_AdvOptions_Tooltip"		"編輯進階遊戲選項。"
 

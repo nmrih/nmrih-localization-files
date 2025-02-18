@@ -87,7 +87,6 @@
 "NMRiH_GameType_Minigame"		"Minigame"
 
 "NMRiH_LAN"				"LAN Only"
-"NMRiH_Coplay"			"Use Coplay (Steam Networking)"
 
 "NMRiH_Difficulty_Tooltip"	"Choose a difficulty level.\nClassic: Default options, respawn points active.\nCasual: Always respawn, weapons given on spawn.\nNightmare: Zombie health, density and infection chance increased.\nPvP: Enables PvP scoring and deathnotices, disables zombies and objectives."
 "NMRiH_Map_Time_Tooltip"	"Map time limit."
@@ -95,8 +94,7 @@
 "NMRiH_FriendlyFire_Tooltip"	"Enables friendly fire, infected players will always take damage."
 "NMRiH_RealismMode_Tooltip"	"In Realism mode, respawns are disabled, zombies only take headshot damage, and all headshots are 1-hit-kill regardless of ammo type."
 "NMRiH_HardcoreSurvival_Tooltip"	"Hides the HUD in survival mode."
-"NMRiH_Max_Players_Tooltip"	"Player limit, with maximum of 8. Set to 1 for solo play."
-"NMRiH_Coplay_Tooltip"	"Coplay provides an implementation of Steam Networking for peer-to-peer connections. This removes the port forwarding requirement."
+"NMRiH_Max_Players_Tooltip"	"Player limit, minimum of 2, maximum of 8."
 "NMRiH_AdvOptions"	"Extended Options..."
 "NMRiH_AdvOptions_Tooltip"	"Edit extended game options."
 
