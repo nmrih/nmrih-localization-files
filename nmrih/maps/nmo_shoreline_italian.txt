@@ -23,5 +23,6 @@
 	"nmo_shoreline_obj_callextraction"	"Usa la radio per chiamare i soccorsi"
 	"nmo_shoreline_obj_flare"	"Segnala l'estrazione con un bengala"
 	"nmo_shoreline_evac"	"I soccorsi arriveranno fra 2 minuti. Metti in sicurezza il punto d'evacuazione!"
+        "nmo_shoreline_alert"	"Qualcuno sta segnalando l'estrazione!"
 }
 }
