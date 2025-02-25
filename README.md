@@ -4,8 +4,6 @@ Localization files for No More Room in Hell
 ## Contributing
 Pull requests are welcome!
 
-In order to ensure working encoding and diff, this repository mirrors changes from our internal SVN repository. As a result, contributions can't always be merged directly, and you will be credited in this README and patch notes instead. Thank you!
-
 If you wish to translate the game to new language, please view the supported languages before contributing:\
 https://partner.steamgames.com/doc/store/localization/languages#supported_languages
 
