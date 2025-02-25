@@ -87,7 +87,6 @@
 "NMRiH_GameType_Minigame"		"Minijuego"
 
 "NMRiH_LAN"				"Sólo LAN"
-"NMRiH_Coplay"			"Usar Coplay (Networking de Steam)"
 
 "NMRiH_Difficulty_Tooltip"	"Elige una dificultad.\nClásica: Opciones predeterminadas, reapariciones fijas activadas.\nCasual: Reapariciones automáticas y con armas.\nPesadilla: Vida/densidad de zombis y chance de infección aumentadas.\nPvP: Activa el puntaje y avisos de muertes de PvP, deactiva zombis y objetivos."
 "NMRiH_Map_Time_Tooltip"	"Tiempo límite del mapa."
@@ -96,7 +95,6 @@
 "NMRiH_RealismMode_Tooltip"	"Modo Realismo: reapariciones desactivadas, zombis sólo reciben daño a la cabeza y cada disparo a la cabeza mata instantáneamente, sin importar el tipo de munición."
 "NMRiH_HardcoreSurvival_Tooltip"	"Esconde las ayudas visuales en modo Supervivencia."
 "NMRiH_Max_Players_Tooltip"	"Límite de jugadores, mínimo de 2, máximo de 8."
-"NMRiH_Coplay_Tooltip"	"Coplay provee una implementación del Networking de Steam para conexiones directas entre clientes (peer-to-peer). Esto saltea el requerimiento de abrir los puertos de tu router."
 "NMRiH_AdvOptions"	"Opciones Extendidas..."
 "NMRiH_AdvOptions_Tooltip"	"Editar opciones de juego extendidas."
 

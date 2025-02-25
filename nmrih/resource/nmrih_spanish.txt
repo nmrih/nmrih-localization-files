@@ -313,7 +313,6 @@
 "ChallengeReject_OutsideVScript"	"Se ha iniciado un VScript personalizado."
 "ChallengeReject_LateValidate"	"La validación fue iniciada tarde."
 "ChallengeReject_GameStateCommand"	"Fue usado un comando de consola de estado de juego."
-"ChallengeReject_VersionEmulation"	"Emulación de versión ha sido activada."
 
 "Hint_Generic_Compass" "¡Revisa tu brújula para ver tus objetivos! Presiona %+compass%."
 "Hint_Generic_CheckAmmo" "Puedes ver tu munición al mantener pulsada la tecla %+reload%."
