@@ -459,7 +459,7 @@
 "GameUI_Filtering_Mode"		"フィルタリング モード"
 "GameUI_Water_Detail"		"水の詳細"
 "GameUI_Shadow_Detail"		"影の詳細"
-"GameUI_Wait_For_VSync"		"垂直同期を待機"
+"GameUI_Wait_For_VSync"		"垂直同期"
 "GameUI_Shader_Detail"		"シェーダーの詳細"
 "GameUI_Color_Correction"	"色調整"
 
