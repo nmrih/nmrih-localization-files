@@ -87,14 +87,16 @@
 "NMRiH_GameType_Minigame"		"小遊戲"
 
 "NMRiH_LAN"	"僅限區域網路"
+"NMRiH_Coplay"			"使用 Coplay (Steam 網路)"
 
 "NMRiH_Difficulty_Tooltip"		"選擇一個難易度。\n經典：標準設定，重生點啟用。\n休閒：持續重生，重生時給予武器。\n惡夢：增加殭屍生命值、密集度與感染風險。\n對戰：開啟對戰分數與死亡訊息並關閉殭屍與目標。"
 "NMRiH_Map_Time_Tooltip"		"地圖時間限制。"
 "NMRiH_LAN_Tooltip"			"限制在區域網路連線，不會連接到公開網路。"
-"NMRiH_FriendlyFire_Tooltip"		"開啟隊友傷害，無論何種設定遭感染的玩家都會受到傷害。"
-"NMRiH_RealismMode_Tooltip"		"在寫實模式中，停用重生點、殭屍只有頭部會受到傷害，且不論何種彈藥均能一發爆頭。"
+"NMRiH_FriendlyFire_Tooltip"		"開啟隊友傷害。受感染的玩家不論設定為何都會受到隊友傷害。"
+"NMRiH_RealismMode_Tooltip"		"在寫實模式中，重生點將被停用、殭屍只有頭部會受到傷害，且不論何種彈藥均能一發爆頭。"
 "NMRiH_HardcoreSurvival_Tooltip"	"隱藏生存模式中的抬頭顯示。"
 "NMRiH_Max_Players_Tooltip"		"玩家人數限制，至多 8 人，設為 1 人即可單人進行遊戲。"
+"NMRiH_Coplay_Tooltip"	"Coplay 可藉由 Steam 網路進行 P2P 連線。有利於移除通訊埠轉發 (Port fowarding) 的需求。"
 "NMRiH_AdvOptions"			"進階選項…"
 "NMRiH_AdvOptions_Tooltip"		"編輯進階遊戲選項。"
 
@@ -140,7 +142,7 @@
 "NMRiH_VoteKickReason_Other"	"其他"
 "NMRiH_VoteKickReason_Cheating"	"作弊"
 "NMRiH_VoteKickReason_Idle"	"掛機"
-"NMRiH_VoteKickReason_Griefing"	"不當使用"
+"NMRiH_VoteKickReason_Griefing"	"騷擾"
 
 "NMRiH_Vote_Column_Issue"	"提案"
 "NMRiH_Vote_Column_Name"	"名稱"
@@ -158,7 +160,7 @@
 "NMRiH_Vote_Kick_Player_Other"		"踢除玩家 %s1？\n(無提出理由)"
 "NMRiH_Vote_Kick_Player_Cheating"	"踢除玩家 %s1？\n(遭控作弊)"
 "NMRiH_Vote_Kick_Player_Idle"	    	"踢除玩家 %s1？\n(遭控掛機)"
-"NMRiH_Vote_Kick_Player_Griefing"	"踢除玩家 %s1？\n(遭控不當使用)"
+"NMRiH_Vote_Kick_Player_Griefing"	"踢除玩家 %s1？\n(遭控騷擾)"
 "NMRiH_Vote_Kick_Player"		"踢除玩家 %s1？"
 "NMRiH_Vote_Passed_Kick_Player"		"正在踢除玩家： %s1…"
 
@@ -443,7 +445,7 @@
 //Workshop Publisher
 //============================
 "Workshop_Publisher"			"工作坊發行工具"
-"Workshop_Publisher_AddonForm"		"插件格式"
+"Workshop_Publisher_AddonForm"		"插件表單"
 "Workshop_Publisher_UpdateExisting"	"更新現有的插件"
 "Workshop_Publisher_UploadProgress"	"插件上傳至工作坊…"		
 
@@ -476,7 +478,7 @@
 "Workshop_Publisher_AddonForm_IncludeMaphack"	"包含 MapHack 檔"
 "Workshop_Publisher_AddonForm_RepairItem"	"修復物件"
 "Workshop_Publisher_AddonForm_TooltipMaphack"	"若存在時提交名為 {mapname}.txt 的 MapHack 檔。"
-"Workshop_Publisher_AddonForm_TooltipRepair"	"當您的工作坊物件中有多餘的檔案或存放錯誤時選取這個，省去取代內容。"
+"Workshop_Publisher_AddonForm_TooltipRepair"	"當您的工作坊物件中有多餘的檔案或存放錯誤時選取此選項，省去取代內容。"
 
 "Workshop_Publisher_BrowseContent"	"瀏覽內容"
 "Workshop_Publisher_BrowsePreview"	"瀏覽預覽影像"
@@ -502,7 +504,7 @@
 "Workshop_Publisher_OpenInWorkshop"	"於工作坊開啟…"
 
 "Workshop_Publisher_ConfirmClose"	"有未發布的變更，是否要關閉？"
-"Workshop_Publisher_ConfirmClear"	"有未發布的變更，是否要清除格式？"
+"Workshop_Publisher_ConfirmClear"	"有未發布的變更，是否要清除表單？"
 
 "Workshop_Publisher_Status_StartingUp"			"啟動中…"
 "Workshop_Publisher_Status_PreparingConfig"		"準備配置中…"

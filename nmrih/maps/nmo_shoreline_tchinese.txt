@@ -23,5 +23,6 @@
 	"nmo_shoreline_obj_callextraction"	"使用對講機呼叫救援"
 	"nmo_shoreline_obj_flare"	"以信號彈發出救援信號"
 	"nmo_shoreline_evac"	"救援將於 2 分鐘內抵達。鎮守撤離點！"
+	"nmo_shoreline_alert"	"有人發出了求救訊號！"
 }
 }

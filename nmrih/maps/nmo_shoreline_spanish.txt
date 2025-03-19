@@ -3,7 +3,7 @@
 "Language" "Spanish" 
 "Tokens" 
 {
-	"nmo_shoreline_obj_startgo"	"Sal de la zona segura"
+	"nmo_shoreline_obj_startgo"	"Escapa de la zona segura"
 	"nmo_shoreline_obj_startbreakplanks"	"Encuentra una forma de entrar a la cabaña"
 	"nmo_shoreline_obj_startunlockcellar"	"Busca un soldador para abrir la puerta de la bodega"
 	"nmo_shoreline_obj_cellartocabin"	"Avanza por la bodega"
@@ -17,7 +17,7 @@
 	"nmo_shoreline_obj_garagetocabin"	"Entra a la cabaña a través del garage"
 	"nmo_shoreline_obj_garagetolaundry"	"La escalera está bloqueada, avanza por el cuarto de limpieza"
 	"nmo_shoreline_obj_watersideexplosive"	"Busca un tanque de propano para destruir la puerta"
-	"nmo_shoreline_obj_gouproute"	"Avanza por el piso de arriba de la cabaña"
+	"nmo_shoreline_obj_gouproute"	"Avanza por el piso superior de la cabaña"
 	"nmo_shoreline_obj_findtheradio"	"Busca un soldador para entrar al cuarto de radio"
 	"nmo_shoreline_obj_radiofindbattery"	"La radio no tiene electricidad, busca una batería"
 	"nmo_shoreline_obj_callextraction"	"Utiliza la radio para pedir ayuda"

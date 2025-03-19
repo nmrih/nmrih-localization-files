@@ -23,5 +23,6 @@
 	"nmo_shoreline_obj_callextraction"	"使用无线电呼叫救援"
 	"nmo_shoreline_obj_flare"	"用信号弹发出求救信号"
 	"nmo_shoreline_evac"	"救援将在 2 分钟后到达，请确保撤离点安全！"
+	"nmo_shoreline_alert"	"有玩家正在发出撤离信号！"
 }
 }

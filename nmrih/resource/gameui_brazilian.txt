@@ -87,6 +87,7 @@
 "NMRiH_GameType_Minigame"		"Minigame"
 
 "NMRiH_LAN"				"Apenas LAN"
+"NMRiH_Coplay"			"Usar Coplay (Rede Steam)"
 
 "NMRiH_Difficulty_Tooltip"		"Escolha um nível de dificuldade.\nClássico: opções padrão, pontos de renascimento ativos.\nCasual: Sempre renasce, armas dadas na geração.\nPesadelo: Saúde, densidade e chance de infecção do zumbi aumentam.\nPvP: Ativa pontuação PvP e avisos de morte, zumbis e objetivos desativados."
 "NMRiH_Map_Time_Tooltip"					"Limite de tempo do mapa."
@@ -95,6 +96,7 @@
 "NMRiH_RealismMode_Tooltip"					"No modo de realismo, os renascimentos são desativados, os zumbis só recebem dano de tiro na cabeça e todos os headshots têm 1 hit-kill independentemente do tipo de munição."
 "NMRiH_HardcoreSurvival_Tooltip"			"Esconde o HUD no modo de sobrevivência."
 "NMRiH_Max_Players_Tooltip"					"Limite de jogador, mínimo de 2, máximo de 8."
+"NMRiH_Coplay_Tooltip"	"Coplay fornece uma implementação da Rede Steam para conexões ponto a ponto. Isso remove o requisito de encaminhamento de porta."
 "NMRiH_AdvOptions"							"Opções Estendidas..."
 "NMRiH_AdvOptions_Tooltip"					"Editar opções de jogo estendidas."
 

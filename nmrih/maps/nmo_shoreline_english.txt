@@ -23,5 +23,6 @@
 	"nmo_shoreline_obj_callextraction"	"Use the radio to call for help"
 	"nmo_shoreline_obj_flare"	"Signal extraction with a flare"
 	"nmo_shoreline_evac"	"Rescue arrives in 2 minutes. Secure the evac point!"
+	"nmo_shoreline_alert"	"Someone is signalling extraction!"
 }
 }
