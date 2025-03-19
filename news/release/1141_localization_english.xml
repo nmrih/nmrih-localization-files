@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
 
+[b]March 19th Hotfix[/b]: We've released an update that fixes an issue with runner behavior.
+This update is optional, but all community admins are encouraged to apply it.
+
 [h2]Additions[/h2]
 [list]
 [*]Added ability to erase keypad input by pressing backspace
