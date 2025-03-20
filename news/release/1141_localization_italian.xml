@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">È stato rilasciato un aggiornamento per No More Room in Hell. L'aggiornamento verrà applicato automaticamente al riavvio di No More Room in Hell. Le principali modifiche includono:
+
+[b]Hotfix del 19 Marzo:[/b] Abbiamo rilasciato un aggiornamento per i server dedicati che risolve un problema relativo al comportamento dei corridori.
+Questo aggiornamento è facoltativo, ma tutti gli amministratori della comunità sono invitati ad applicarlo.
+
+[h2]Novità[/h2]
+[list]
+[*]Aggiunta la possibilità di cancellare l'input da tastiera premendo il tasto Indietro
+[*]Aggiunto l'impulso dei proiettili ai ragdoll, che risulta in un contraccolpo più visibile in base al tipo di munizione
+[*]Aggiunto il rilevamento del blocco dell'angolo per gli zombi, che ora possono attaccare correttamente i giocatori che bloccano invece di cercare un nuovo percorso
+[/list]
+[h2]Cambiamenti[/h2]
+[list]
+[*]Abilitata "ottimizzazione dell'intero programma" sul client, questo potrebbe migliorare leggermente le prestazioni complessive
+[*]Prestazioni dei server migliorate nelle mappe affollate
+[*]Ottimizzato il supporto del Gestore degli Add-on e del Workshop, migliorando le prestazioni.
+[*]Ottimizzato l'utilizzo della CPU su tutta la linea, migliorando le prestazioni sulle macchine con specifiche inferiori.
+[*]Ottimizzato l'uso della RAM nelle mappe che utilizzano i suoni ambientali FMOD.
+[*]Gli zombi non restano più fermi per 20 secondi quando tutti i loro nemici muoiono, ma eseguono un'animazione di inattività e poi si spostano
+[*]Gli zombi ora cercano di trovare di nuovo un riparo quando un nemico è irraggiungibile, non passano più allo stato di vagabondaggio
+
+[*]Aggiornati i file di localizzazione:
+[list]
+
+[*]Grazie ai traduttori della comunità: [b]Atheist, Blueberryy, DouglasVarollo, Holy Crap, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, SkyAfterRain[/b]
+[*]Vuoi tradurre NMRiH nella tua lingua? [url=https://github.com/nmrih/nmrih-localization-files]Visita il nostro repository di localizzazione su GitHub.[/url]
+[/list]
+[/list]
+[h2]Correzioni[/h2]
+[list]
+[*]Corretta la possibilità di caricare l'oscillazione in mischia della motosega per infliggere danni extra durante il suo utilizzo (#1543)
+[*]Corretto il problema degli oggetti personalizzati caduti che collidono con il giocatore (#1463)
+[*]Corretto il problema delle armi cadute che bloccano gli zombi e li costringono a trovare un nuovo percorso. (#1544)
+[*]Corretto lo stuttering di inattività durante il programma "guarda verso il suono migliore" dello zombi
+[*]Corretto l'incoerente "ingrassaggio" degli zombie a causa di una routine di vagabondaggio errata; ora dovrebbero cambiare gruppo di collisione più frequentemente
+[*]Corretto il t-posing del ragdoll dei giocatori locali in caso di morte
+[*]Corretto il mancato ripristino dello stato del mutatore dopo il caricamento di una configurazione nella finestra di dialogo di selezione
+[*]Corretto lo stuttering dei movimenti degli NPC quando non sono presenti giocatori vivi
+[*]Corretto il problema dei ragdoll dei giocatori che non reagiscono correttamente alla forza dei proiettili.
+[*]Corretto il fatto che occasionalmente i giocatori avevano i comandi vocali bloccati in un punto  quando non erano visibili. (#1503)
+[*]Corretta la regressione per cui la musica dinamica non passava al brano successivo della playlist
+[*]Corretta la persistenza dei modelli delle tavole di legno trasparenti quando non si è in modalità barricata (#1532)
+[*]Corretti i messaggi di votazione che si interrompono in spagnolo (e forse in altre lingue) (#1530)
+[*]Corretto l'attacco degli zombi che danneggia i giocatori dietro di loro (#1288)
+[*]Corretta la t-pose dei bambini zombie mentre si arrampicano (#800)
+[*]Corretti gli zombie che tentano di afferrare i giocatori morti
+[*]Corretto il problema degli zombie che si bloccano nel loop di pathfinding e lo stutter quando tutti i nemici sono irraggiungibili
+[*]Corretto il fatto che gli zombie non entravano nel loro programma di vagabondaggio "arrabbiato" quando un nemico diventava irraggiungibile, ma iniziavano erroneamente il vagabondaggio "normale" che aveva compiti e condizioni diverse per il vagabondaggio neutrale
+[*]Corretto il suono d'impatto inutilizzato degli zombie quando colpiscono le barricate
+[/list]
+[h2]Cambiamenti per mapper e modder[/h2]
+[list]
+[*]Aggiunta l'entità "func_precipitation_blocker" (#1541)
+[*]Aggiunta l'entità "logic_script_preserved", una variante che viene conservata al riavvio del round
+[*]Aggiunto l'evento di gioco "player_jump"
+[*]Aggiunto l'evento di gioco "player_use"
+[*]Aggiunto gli eventi di gioco "item_medical_start" e "item_medical_apply"
+[*]Aggiunto il campo chiave "Can Grab?" agli zombi
+[*]Aggiunto il campo chiave "Ignore Room Size" all'entità "func_zombie_spawn", quando impostato su 'Yes', il brush rigenererà sempre gli spawn e sarà trattata come una stanza grande, indipendentemente dalle sue dimensioni (Overlord non genera più zombie per le stanze piccole una volta visitate dal giocatore)
+[*]Aggiunto il campo chiave "Show Compass Blip?" all'entità "nmrih_objective_boundary"
+[*]Aggiunti i campi chiave per i viewmodel delle armi e gli override dei worldmodel (#1547)
+[*]Corretto il crash sull'entità "filter_name" quando un giocatore che si disconnette muore (#1539)
+[*]Corretto il crash durante la collisione con un brush in movimento a cui è associata un'entità punto (#1527)
+[*]Corretto il crash dell'entità "item_custom" a causa della mancanza del VPhysics object quando il movimento è disabilitato.
+[*]Corretta l'input "RemovedAllItems" dell'entità "item_inventory_box" che non funzionava per gli articoli non catalogati (#1538)
+[*]Corretta la svista per cui l'entità "ambient_generic" veniva rimossa quando il suo file audio era mancante
+[*]Corretto il problema della precipitazione delle particelle che si estendeva oltre i limiti e sovrascriveva gli altri brush di precipitazione (#1545)
+[*]FMOD: Aggiunta la cross compatibilità a "ambient_generic" e "ambient_fmod", il campo chiave "health" ora viene riconosciuto come volume
+[*]FMOD: Aggiunto spawnflag "Is NOT Occluded (Obstructions won't muffle sound)" all'entità "ambient_fmod"
+[*]FMOD: Correzione dei caratteri sonori che non vengono applicati ai nomi dei file diretti
+[*]FMOD: snd_show ora visualizza più informazioni, in modo simile ai suoni del motore
+[*]NMRObjective: Corretto il crash dopo il caricamento di un file NMOS su una mappa con meno confini di quelli precedentemente salvati
+[*]NMRObjective: Ora viene visualizzata una finestra di dialogo di avviso quando vengono riscontrati problemi potenziali durante il caricamento di NMOS
+[*]L'HUD degli obiettivi è ora sempre disponibile, indipendentemente dalla modalità di gioco, se è presente una stringa di obiettivi, ad esempio durante gli obiettivi scriptati
+[*]VScript: Aggiunti le funzioni per CBaseEntity: GetClassname(), e SetClassname()
+[*]VScript: Aggiunte le funzioni per CItem_InventoryBox: AddItemAtIndex(), RemoveItem() e ItemAtPosition()
+[*]VScript: Aggiunte le funzioni per CNMRiH_Player: IsHoldingEntity() e GetHeldEntity()
+[*]VScript: Aggiunta la funzione per CObjective: SetDescription()
+[*]VScript: Aggiunta la funzione per CObjectiveManager: SendObjectiveNotify()
+[*]VScript: Aggiunto il ConCommand "script_dump_scope"
+[*]VScript: Aggiunte le funzioni TracerEffect() e ParticleTracerEffect()
+[*]VScript:Aggiunte le funzioni VPhysicsInitNormal() e VPhysicsDestroyObject()
+[*]VScript: Aggiunto il supporto legacy per la funzione deprecata CNMRiH_ObjectiveManager::GetCurrentObjectiveBoundary(), corregge la compatibilità con alcuni mutatori esistenti
+[*]VScript: Aggiunto debugger Squirrel (sqdbg), contributo di samisalreadytaken
+[*]VScript: L'ambito dello script dell'entità viene ora cancellato automaticamente quando viene eliminato
+[*]VScript: Corretta la CNavMesh::GetNavAreasInRadius() che riportava risultati non accurati (#1546)
+[*]VScript: Corretti vari leak di memoria
+[*]VScript: Aggiornato Squirrel all'ultima versione
+[/list]
+[h2]Cambiamenti per gli amministratori di server[/h2]
+[list]
+[*]Aggiunta la cvar "ai_legacy": esegue il comportamento dell'IA precedente alla versione 1.14.0 per scopi di gioco legacy
+[*]Aggiunta la cvar "sv_first_draw_activity" che mostra l'animazione di estrazione iniziale, ad esempio l'estrazione del cane nelle pistole
+[*]Aggiunta la cvar "sv_ng_zombie_drop_grenade": gli zombie della guardia nazionale possono rilasciare granate come bottino alla morte
+[*]Aggiunta la cvar "sv_zombie_chase_enemy_on_barricade_fail": gli zombie devono tentare di inseguire i nemici se la pianificazione dello sfondamento delle barricate fallisce?
+[*]Aggiunta la cvar "sv_zombie_cornerblock_method" che tratta i giocatori che "bloccano gli angoli": 0 = gli zombie si bloccano (~v1.09), 1 = gli zombie trovano un nuovo percorso (~v1.13), 2 = gli zombie attaccano con una traccia di colpo diretto (predefinito)
+[*]Aggiunta la cvar "sv_zombie_crawler_attack_barricade": gli zombi che strisciano possono attaccare le barricate?
+[*]Aggiunta la cvar "sv_zombie_crawler_open_doors": gli zombi che strisciano possono aprire le porte?
+[*]Aggiunta la cvar "sv_zombie_crawler_swat_items": gli zombi che strisiano possono colpire gli oggetti?
+[*]Aggiunta la cvar "sv_zombie_explosion_shove": le esplosioni spingono gli zombie?
+[*]Aggiunta la cvar "sv_zombie_fix_barricade_distance": non attaccano le barricate che sono troppo lontane
+[*]Aggiunta la cvar "sv_zombie_fix_bestsound_alert": non interrompere la sequenza d'inattività mentre si è di fronte a un "suono migliore"
+[*]Aggiunta la cvar "sv_zombie_fix_bite_damage": se lo zombie sta mordendo un nemico, infligge danni solo a quest'ultimo
+[*]Aggiunta la cvar "sv_zombie_fix_dawdle": il comportamento di default dopo aver perso un nemico è attendere per 20 secondi, eseguire invece un ciclo di inattività?
+[*]Aggiunta la cvar "sv_zombie_fix_falling_loot": impedisce che il bottino degli zombi cada sotto il terreno
+[*]Aggiunta la cvar "sv_zombie_fix_hitbox_offset": deve correggere le hitbox degli zombi che sono fuori misura di uno? (bug introdotto nella v1.11.0)
+[*]Aggiunta la cvar "sv_zombie_fix_physobj_distance": gli zombie tendono a tornare agli oggetti anche se questi sono troppo lontani, questo risolve il problema
+[*]Aggiunta la cvar "sv_zombie_fix_rise_collision": correggere gli zombi trasformati che entrano in collisione con i giocatori dopo che si sono alzati?
+[*]Aggiunta la cvar "sv_zombie_standoff_on_chase_enemy_fail": esegue la routine di stallo invece di vagare dopo un'inseguimento fallito, richiede "sv_zombie_take_cover_from_enemy 0"
+[*]Aggiunta la cvar "sv_zombie_swat_supplies": gli zombie possono distruggere le stazioni di salute e i rifornimenti?
+[*]Aggiunta la cvar "sv_zombie_take_cover_from_enemy": gli zombie devono cercare di ripararsi dai nemici irraggiungibili? Quando è disattivato, può introdurre un loop di errore di percorso su AI non legacy. (v1.14.0)
+[*]Rimosso il cheat flag dal cvar "sv_shove_multi"
+[/list]
+[h1]Mappe[/h1]
+
+[h3]nmo_rockpit[/h3]
+[list]
+[*]L'obiettivo dell'estintore è stato modificato per salvare i progressi dopo l'annullamento dell'interazione
+[*]Aumentata la durata dell'estrazione dell'elicottero di 30 secondi
+[*]Aumentato leggermente il timeout dei suggerimenti dell'istruttore
+[*]Spostata la bombola di gas nella stanza dello spawn più vicina al cancello di uscita.
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]Aggiunta una discesa al piano superiore della casa degli ospiti
+[*]Aggiunto un messaggio di avvertimento per l'attivazione del bengala di estrazione quando non tutti i giocatori sono ancora arrivati al ponte di estrazione
+[*]Aggiunte frecce di direzione e contorni luminosi per alcuni obiettivi
+[*]Regolati numerosi spawner di oggetti in tutta la mappa per ridurre l'RNG
+[*]Regolati alcuni brush di spawn degli zombi
+[*]Il colore del tasto del nascondiglio segreto è stato cambiato da rosso a verde per distinguerlo dai bagliori degli obiettivi
+[*]Modificata la posizione di spawn di alcuni oggetti obiettivo
+[*]Sistemato il punto dove si era invulnerabili durante l'estrazione
+[*]Risolti i problemi di clipping nel garage
+[*]Sistemate alcune porte che venivano bloccate dagli zombie
+[*]Corretti gli spazi vuoti visibili nelle porte
+[*]Miglioramento della leggibilità di alcuni oggetti non scalabili
+[*]Aumentata la durata dell'interazione per l'attivazione del bengala
+[*]Estrazione ribilanciata
+[*]Ribilanciati gli spawn di zombie Overlord con l'opzione "Ignora le dimensioni della stanza"
+[*]Rimossi i clip brush da alcuni oggetti di scena e corrimano
+[*]Ritoccati alcuni contorni degli obiettivi per renderli visibili a distanze maggiori
+[*]Varie piccole modifiche visive
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Rilascio dell'Aggiornamento 1.14.1</string></content>

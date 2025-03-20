@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">地狱已满的版本更新现已发布，更新将会在您重新启动游戏时自动应用，新版本的主要变化包含以下内容：
+
+[b]3月19日热修复:[/b] 我们为专业服务器发布了一个用于修复跑尸行为问题的更新。
+这个更新是可选择性的，但建议所有社区管理员对服务器应用此更新。
+
+[h2]新增内容[/h2]
+[list]
+[*]添加了按下退格键消除游戏内密码锁输入的功能
+[*]为布娃娃 (ragdoll) 添加子弹冲击，根据不同弹药类型将产生更明显的击退效果
+[*]添加了墙角阻挡检测，丧尸目前能够正常攻击到阻挡的玩家，而不是去寻找新的路径
+[/list]
+[h2]改动内容[/h2]
+[list]
+[*]为客户端启用了全程序优化，可能会略微改善游戏的整体性能
+[*]改善了服务器在拥挤地图上的性能
+[*]优化了插件管理器和创意工坊支持，提高性能
+[*]全面优化 CPU 使用率，提高了低配机器的性能
+[*]优化了使用 FMOD 环境音效的地图的内存用量
+[*]当所有敌人死亡后，丧尸不再会原地停留 20 秒，而是会播放闲置动作并移动
+[*]当无法接近敌人时，丧尸现在会再次尝试寻找掩体，而不再会直接选择游荡
+
+[*]语言本地化文件更新:
+[list]
+
+[*]感谢社区翻译者的贡献: [b]Atheist, Blueberryy, DouglasVarollo, Holy Crap, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, SkyAfterRain[/b]
+[*]想要为地狱已满提供您的本地化语言支持吗？ [url=https://github.com/nmrih/nmrih-localization-files]欢迎访问我们在 Github 上的文件仓库。[/url]
+[/list]
+[/list]
+[h2]已修复内容[/h2]
+[list]
+[*]修复 能够对电锯挥动蓄力而造成额外伤害的问题 (#1543)
+[*]修复 掉落的自定义物品会与玩家产生碰撞的问题 (#1463)
+[*]修复 掉落的武器会阻碍丧尸并导致其寻找新路径的问题 (#1544)
+[*]修复 丧尸在 "寻找最佳音源" 过程时出现闲置卡顿的问题
+[*]修复 由于丧尸游荡路线不正确导致的 "润滑" 不一致问题，目前丧尸应该会更频繁地切换碰撞组
+[*]修复 本地玩家的布娃娃 (ragdoll) 死亡时出现 T-pose 的问题
+[*]修复 在选择对话框加载配置文件后修改器 (mutator) 状态没有重置的问题
+[*]修复 当没有任何玩家存活时 NPC 移动卡顿的问题
+[*]修复 玩家的布娃娃没有正确对子弹冲击作出反应的问题
+[*]修复 偶尔当玩家不可见时发送的语音指令会卡住的问题 (#1503)
+[*]修复 动态音乐无法过渡到播放列表中下一首歌曲的回归问题
+[*]修复 在退出路障模式后透明木板的模型仍然存在的问题 (#1532)
+[*]修复 西班牙语下的投票信息会被截断的问题 (也可能包含其他语言) (#1530)
+[*]修复 丧尸向前方的攻击会对站在其身后的玩家造成伤害的问题 (#1288)
+[*]修复 丧尸小孩在攀爬时出现 T-pose 的问题 (#800)
+[*]修复 丧尸试图抓取已死亡玩家的问题
+[*]修复 当所有敌人都无法接近时，丧尸进入寻路死循环并在原地卡住的问题
+[*]修复 当无法接近敌人时丧尸没有进入 "愤怒" 游荡模式的问题，它们错误地进入了不同于原本任务和条件的 "正常" 游荡模式
+[*]修复 丧尸在撞击障碍木板时没有播放撞击音效的问题
+[/list]
+[h2]地图设计与模组制作改动[/h2]
+[list]
+[*]添加 实体 "func_precipitation_blocker" (#1541)
+[*]添加 实体 "logic_script_preserved", 是一个在回合重新开始后仍然保留的 "logic_script" 变体
+[*]添加 game event "player_jump"
+[*]添加 game event "player_use"
+[*]添加 game events "item_medical_start" 和 "item_medical_apply"
+[*]添加 字段 "Can Grab?" 至丧尸实体
+[*]添加 字段 "Ignore Room Size" 至 实体 "func_zombie_spawn", 当设置为 'Yes', 这个 brush 无论大小都会被视为一个大房间, 并将一直生成丧尸 (Overlord 不会在有玩家经过的小房间中生成更多丧尸)
+[*]添加 字段 "Show Compass Blip?" 至 实体 "nmrih_objective_boundary"
+[*]为武器实体添加模型字段支持, 以便覆盖武器的 viewmodel 和 worldmodel (#1547)
+[*]修复 当正在退出的玩家死亡时, 实体 "filter_name" 会导致崩溃的问题 (#1539)
+[*]修复 当移动中的 brush (并被 point entity 绑定) 碰撞时崩溃的问题 (#1527)
+[*]修复 当运动被禁用时, 缺失 VPhysics 会导致实体 "item_custom" 崩溃的问题
+[*]修复 实体 "item_inventory_box" 的 输入 "RemovedAllItems" 对未分类物品不起作用的问题 (#1538)
+[*]修复 实体 "ambient_generic" 由于缺失声音文件而导致其本身被移除的疏忽错误
+[*]修复 粒子沉淀的体积超出范围, 并覆盖其他 brush 的问题 (#1545)
+[*]FMOD: 添加 "ambient_generic" 和 "ambient_fmod" 交叉兼容性，"health" 字段目前将被认作是音量
+[*]FMOD: 添加 spawnflag "Is NOT Occluded (Obstructions won't muffle sound)" 至 实体 "ambient_fmod"
+[*]FMOD: 修复 声音字符无法直接被应用于文件名的问题
+[*]FMOD: snd_show 现在可以显示更多信息, 类似于引擎中的其他音效
+[*]NMRObjective: 修复了在 boundary 比之前保存的少的地图上加载 NMOS 文件会崩溃的问题
+[*]NMRObjective: 当加载 NMOS 文件会出现潜在性问题时, 现在会显示一个警告对话框
+[*]只要有任务字符串存在, 现在无论何种模式下任务目标 HUD 都将一直可用, 例如: 在由脚本定制的任务目标期间
+[*]VScript: 添加 CBaseEntity 函数 GetClassname(), 和 SetClassname()
+[*]VScript: 添加 CItem_InventoryBox 函数 AddItemAtIndex(), RemoveItem(), ItemAtPosition()
+[*]VScript: 添加 CNMRiH_Player 函数 IsHoldingEntity(), 和 GetHeldEntity()
+[*]VScript: 添加 CObjective 函数 SetDescription()
+[*]VScript: 添加 CObjectiveManager 函数 SendObjectiveNotify()
+[*]VScript: 添加 控制台指令 "script_dump_scope"
+[*]VScript: 添加 函数 TracerEffect(), 和 ParticleTracerEffect()
+[*]VScript: 添加 函数 VPhysicsInitNormal(), 和 VPhysicsDestroyObject()
+[*]VScript: 添加 旧版支持至 已弃用函数 CNMRiH_ObjectiveManager::GetCurrentObjectiveBoundary(), 修复了对一部分已存在修改器 (mutator) 的兼容性
+[*]VScript: 添加 Squirrel debugger (sqdbg), 由 samisalreadytaken 贡献
+[*]VScript: 实体脚本的范围目前会在删除阶段自动清除
+[*]VScript: 修复 CNavMesh::GetNavAreasInRadius() 返回值不准确的问题 (#1546)
+[*]VScript: 修复 多种内存泄漏的问题
+[*]VScript: 更新 Squirrel 至最新版本
+[/list]
+[h2]服务器管理员改动[/h2]
+[list]
+[*]添加 参数 "ai_legacy", 运行 pre-v1.14.0 的 AI 行为, 以满足旧版游戏需求
+[*]添加 参数 "sv_first_draw_activity", 显示初始版本的拔枪动画, 例如: 手枪会拉动击锤
+[*]添加 参数 "sv_ng_zombie_drop_grenade", 国民护卫队丧尸会在死亡时掉落手榴弹作为战利品
+[*]添加 参数 "sv_zombie_chase_enemy_on_barricade_fail", 丧尸在破坏路障失败后是否尝试追寻敌人?
+[*]添加 参数 "sv_zombie_cornerblock_method", 用于处理 '墙角阻挡' 的玩家: 0 = 冻结丧尸 (~v1.09), 1 = 丧尸寻找新的路径 (~v1.13), 2 = 丧尸会直接攻击 (默认)
+[*]添加 参数 "sv_zombie_crawler_attack_barricade", 爬尸是否可以攻击路障?
+[*]添加 参数 "sv_zombie_crawler_open_doors", 爬尸是否可以开门?
+[*]添加 参数 "sv_zombie_crawler_swat_items", 爬尸是否可以破坏物品?
+[*]添加 参数 "sv_zombie_explosion_shove", 爆炸是否会击退丧尸?
+[*]添加 参数 "sv_zombie_fix_barricade_distance", 距离路障太远时则不会进行攻击
+[*]添加 参数 "sv_zombie_fix_bestsound_alert", 当丧尸朝向 '最佳音源' 时, 不会中断之前的闲置动画
+[*]添加 参数 "sv_zombie_fix_bite_damage", 如果丧尸正在撕咬敌人, 则只对该敌人造成伤害
+[*]添加 参数 "sv_zombie_fix_dawdle", 默认在丧尸丢失敌人后会等待 20 秒, 还是会进入闲置周期?
+[*]添加 参数 "sv_zombie_fix_falling_loot", 阻止丧尸掉落的战利品穿透地面
+[*]添加 参数 "sv_zombie_fix_hitbox_offset", 是否修复丧尸碰撞箱 (hitbox) 的偏移问题? (bug 引入自版本 v1.11.0)
+[*]添加 参数 "sv_zombie_fix_physobj_distance", 尽管物体的距离过远, 丧尸仍倾向于返回物体, 该参数修复了这个问题
+[*]添加 参数 "sv_zombie_fix_rise_collision", 是否修复转化后的丧尸在起身后穿透玩家的问题?
+[*]添加 参数 "sv_zombie_standoff_on_chase_enemy_fail", 在追寻玩家失败后进入对峙状态而不是游荡, 需要设置 "sv_zombie_take_cover_from_enemy 0"
+[*]添加 参数 "sv_zombie_swat_supplies", 丧尸是否能破坏医疗站/补给物资?
+[*]添加 参数 "sv_zombie_take_cover_from_enemy", 丧尸是否该尝试躲避无法接近的敌人? 当关闭时, 这可能会导致新版 AI (v1.14.0) 陷入寻路失败的死循环中
+[*]移除 参数 "sv_shove_multi" 需要启用作弊才能修改的限制
+[/list]
+[h1]地图改动[/h1]
+
+[h3]nmo_rockpit[/h3]
+[list]
+[*]修改了灭火器任务，在取消互动后能够保存进度
+[*]增加直升机的撤离时间，延长 30 秒
+[*]稍微增加了任务提示的超时时间
+[*]将汽油桶从出生房间移动到了更靠近出口大门的位置
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]在小旅馆的二楼增加了一个可跳下的点位
+[*]当玩家没有全部到达撤离甲板时，增加了一个激活撤离信号弹的警告提示
+[*]为部分任务增加了额外的方向箭头和发光轮廓
+[*]调整了多个地图上的物品生成器以减少随机性
+[*]调整了部分用于生成丧尸的 brush
+[*]将秘密藏匿处的钥匙颜色从红色改为绿色，以区分任务的发光效果
+[*]修改了部分任务物品的生成位置
+[*]修复了在撤离过程中的无敌点位
+[*]修复了车库区域的模型问题
+[*]修复了部分门会被丧尸挡住的问题
+[*]修复了门口可见缝隙的问题
+[*]提高了部分不可攀爬物体的辨识度
+[*]增加了激活信号弹的互动时间
+[*]重新平衡了撤离难度
+[*]重新平衡了启用 "Ignore Room Size" 选项后 Overlord 的丧尸生成
+[*]从部分物体和扶手上移除了 clip brush
+[*]调整了部分任务的发光轮廓，以便于在远处可见
+[*]多种小的视觉调整
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">版本更新 1.14.1 已发布</string></content>

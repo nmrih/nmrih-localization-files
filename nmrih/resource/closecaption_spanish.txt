@@ -702,6 +702,25 @@
 		"Heli.Departure_NoAccent"	"<len:6.2>Bueno, tenemos que irnos, ya casi no nos queda combustible. Si alguien sigue vivo por allí, buena suerte."
 		"Heli.Departure_US"	"<len:3.9>¡Nos vamos, están por su cuenta! ¡Lo siento!"
 		"GenericVoice.YouFoundIt"	"<len:2.6>¡Excelente, parece que lo encontraron!"
+		"GenericVoice.AnybodyOutThere"	"<len:2.5>¡Hey! ¿Hay alguien allí?"
+		"GenericVoice.ExitByBoat"	"<len:4.4>Hey, ¿quieren escapar de aquí? Se está acercando un barco por la costa." //Esta línea obviamente no es una traducción exacta, pero como en el juego base sólo se usa en nmo_shoreline, esta traducción me parece más apropiada.
+
+		// Asylum
+		"AsylumVoice.Intro"	"<len:5.3>¿Así que, esto es lo que esperaban que suceda? ¿Morir de hambre en una celda de aislamiento? <delay:5.5><len:4.7>Bravo, muy inteligente. Pero puedo darles una nueva opción. <delay:10.3><len:5.6>Pueden quedarse aquí y pudrirse, o pueden ayudarme, y yo puedo darles una salida como recompensa. <delay:16.2><len:1>Lo prometo."
+		"AsylumVoice.Intro2"	"<len:4.6>¿¡Hola, hola!? ¿Está encendido esto? <delay:4.9><len:1.5>¿Pueden oirme? <delay:6.7><len:2.6>Puedo verlos, si pueden oirme hagan algo... <delay:9.8><len:2.2>Tomaré eso como un sí. <delay:12.5><len:5.1>No es mi intención arruinar lo que parece ser su 'plan maestro' de encerrarse en el ala de aislamiento. <delay:17.7><len:2.5>Pero, nadie vendrá a rescatarlos. <delay:20.3><len:5.6>El asilo está totalmente plagado, nadie contesta la radio, los militares sean ido o están todos muertos. <delay:26.6><len:2.3>Sólo estamos ustedes y yo ahora. <delay:28.7><len:3.7>Así que, ayúdenme a terminar el trabajo de toda mi vida, y los sacaré de aquí."
+		"AsylumVoice.Intro3"	"<len:3.4>Como una muestra de buena voluntad, les he dejado un regalo. <delay:3.5><len:1.2>Está justo afuera. <delay:4.8><len:2.3>Permítanme abrir esas puertas molestas."
+		"AsylumVoice.Intro4"	"<len:3.8>También he conseguido algo que los puede ayudar. Está justo afuera de sus celdas. <delay:3.9><len:2.7>No es mucho, pero ojalá los ayude. <delay:6.7><len:1.8>Dejadme abrir esas puertas."
+		"AsylumVoice.Intro5"	"<len:2.8>He bajado una de las cajas militares hasta aquí. <delay:2.9><len:2.6>No estoy seguro de qué tiene adentro, pero podría ayudarlos. <delay:5.9><len:1.7>Voy a abrir las puertas de las celdas ahora."
+		"AsylumVoice.CarBarks"	"<len:5>¡Genial! Ahora muévanse. No voy a estar esperando por siempre."
+		"AsylumVoice.CarBarks2"	"<len:3.3>Excelente, ahora sería un buen momento para empezar a correr. <delay:3.5><len:2.8>¡El tiempo no espera a nadie y yo tampoco!"
+		"AsylumVoice.FinishRitual"	"<len:2.45>Mirad, mi plan maestro. <delay:2.54><len:4.7>Con este círculo de convocación, puedo abrir un portal al <I>Infierno<I> y sacarnos de aquí. <delay:7.5><len:2.8>Sólo me faltan algunos componentes clave. <delay:10.4><len:1.7>¡Búsquenlos, ahora!"
+		"AsylumVoice.ProtectRitual"	"<len:2.6>¡Sí, puedo sentir el poder! <delay:2.64><len:4>No me tardaré mucho, ¡protejan el ritual a toda costa!"
+		"AsylumVoice.ProtectRitual2"	"<len:1.6>¡No, deténganlos! <delay:1.7><len:2.7>¡Si arruinan el ritual, se cancela nuestro acuerdo!"
+		"AsylumVoice.ProtectRitual3"	"<len:3.5>¡NOO! ¡Idiotas! TENÍAN UN SOLO TRABAJO. <delay:3.6><len:1.8>¡Ahora el ritual está arruinado! <delay:5.5><len:2.1>Olvídalo, me voy de aquí. <delay:7.7><len:1.7>¡Pueden pudrirse aquí para siempre!"
+		"AsylumVoice.RitualComplete"	"<len:5.1>¡Sí! ¡SÍ! S-esperen, no. Esto no está bien. <delay:5.5><len:1.5>Acaso... ¿acaso me he equivocado? <delay:7.2><len:1.8>¡El portal debería estar abierto! <delay:9.2><len:4.9>Maldición. Oh, bueno. Plan B entonces. ¡Aléjense!"
+		"AsylumVoice.RitualComplete2"	"<len:1.85>Esperen, algo está mal. <delay:1.9><len:2.3>Acaso... ¿Acaso usaron un balde para la cabeza? <delay:4.3><len:5.3>¿Por qué demonios habrían- no importa. ¡Es hora del Plan B! ¡Aléjense!"
+		"AsylumVoice.SecurityShutters"	"<len:3.9>Deberán llegar a la cafetería, pero el camino está bien sellado. <delay:4.1><len:3>Busquen el cuarto de seguridad y abran los portones."
+		"AsylumVoice.SecurityShutters2"	"<len:5.1>Bien, con los portones de seguridad abiertos ahora pueden salir al patio por el segundo piso. <delay:5.3><len:1.8>El. Segundo. Piso."
 	
 		// Broadway2
 		"Broadway2Voice.Extraction"	"<len:16.7>Atención, atención. Si pueden oirme, deben ir a la azotea lo antes posible y esperar el rescate. Tienen cinco minutos hasta que el gobierno lance una bomba. Por favor, salgan de allí."
@@ -725,22 +744,22 @@
 		"CampbloodVoice.RalphComingForYa"	"<len:3.2>¡Hey, supervivientes! ¡Estoy yendo por ustedes!"
 		"CampbloodVoice.RalphLastChance"	"<len:2.2>¡Esta es su última chance!"
 		"CampbloodVoice.RalphLightsOff"	"<len:2.8>¿Alguien recordó apagar las luces?"
-		"CampbloodVoice.RalphWelcome"	"<len:7.1>Están yendo al Campamento Sangre verdad? No volverán de allí, tiene una <I>¡MALDICIÓN DE MUERTE!"
+		"CampbloodVoice.RalphWelcome"	"<len:7.1>¿Están yendo al Campamento Sangre verdad? No volverán de allí, tiene una <I>¡MALDICIÓN DE MUERTE!"
 		"CampbloodVoice.RalphYourDoomed"	"<len:3.8>¡Están <I>CONDENADOS! <clr:255,0,0><B>¡EHEHEHEHE!"
 
 		// Cleopas
 		"CleopasVoice.Radio"	"<len:36.8>Esta es la patrulla 206 pidiendo ayuda inmediata en el centro, hemos sufrido muchas bajas. Estas... cosas, simplemente... ¡no dejan de levantarse! ¡Si alguien puede oir esto, por favor envíen refuerzos! Repito, necesitamos refuerzos en el centro lo antes posible. Tenemos poca munición, nos estamos quedando sin opciones, por favor respond-- [disparos, se corta la transmisión]"
 
 		// FEMA
-		"FemaVoice.BillyComplex"	"<len:12.9>Acaso esta señal viene del complejo? ¡Toda la instalación está perdida! Lo que sea que hayan hecho los cerebritos ha matado a todas las personas antes de que pudieran activar el protocolo de contenimiento. ¡Ustedes deben terminar el trabajo y detener lo que se haya escapado de allí!"
+		"FemaVoice.BillyComplex"	"<len:12.9>¿Acaso esta señal viene del complejo? ¡Toda la instalación está perdida! Lo que sea que hayan hecho los cerebritos ha matado a todas las personas antes de que pudieran activar el protocolo de contención. ¡Ustedes deben terminar el trabajo y detener lo que se haya escapado de allí!"
 		"FemaVoice.BillyFuel"	"<len:5.6>¡Nosotros podemos sacarlos de aquí pero tenemos poco combustible! Necesitamos llenar el tanque antes de partir."
-		"FemaVoice.BillyGetIn"	"<len:2.5>¡Vamos, entren! ¡Nos iremos a la tierra prometida!"
+		"FemaVoice.BillyGetIn"	"<len:2.5>¡Vamos, entren! ¡Volaremos a la tierra prometida!"
 		"FemaVoice.BillyTopside"	"<len:12.4>¿Hola? ¡Hola! Si todavía pueden escucharme, vayan a la superficie para que podamos rescatarlos. Revisen el locker en nuestro remolque, he escondido un poco de la vacuna que los cerebritos estaban desarrollando. ¡No podemos perder más tiempo, tómenla y muévanse!"
 		"FemaVoice.MengelerOkayBob"	"<len:2.4><I>Okey Bub. Ahora, apreta el botón."
-		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>¡Eso es Bub! Ahora, puedes recibir tu recompensa."
+		"FemaVoice.MengelerThatsIt"	"<len:2.6><I>¡Eso es Bub! Ahora, puedes tomar tu recompensa."
 		"FemaVoice.MengelerSayHello"	"<len:2.5><I>Bub, dile hola a tu tía Alicia."
 		"FemaVoice.ColonelNatSec"	"<len:10.9>Habla el Coronel Kazan. Siendo esto un asunto de seguridad nacional, podemos rescatarlos, pero sólo si recuperan la vacuna experimental. Conocemos su ubicación y estaremos esperando su respuesta en la superficie."
-		"FemaVoice.ColonelStow"	"<len:6.4>Habla el Coronel Kazan de la Agencia de Seguridad Nacional, recibimos su señal. Coloquen la vacuna sobre la carga y asegúrenla para el transporte."
+		"FemaVoice.ColonelStow"	"<len:6.4>Habla el Coronel Kazan de la Agencia de Seguridad Nacional, recibimos su señal. Coloquen la vacuna sobre el cargamento y asegúrenla para el transporte."
 		
 		// Midwest
 		"MidwestVoice.EngineerBarbara"	"<len:2.9>¡Vienen por nosotros, Bárbara!"
@@ -752,16 +771,25 @@
 		// Junction
 		"JunctionVoice.01"	"<len:38.8><I>El siguiente mensaje está siendo transmitido a pedido de la Oficina de Control de Emergencias de New Jersey, Union City, New Jersey. Si están vivos, quédense donde están y esperen al rescate. Moverse por las calles es extremadamente peligroso. Los siguientes condados han sido puestos bajo cuarentena: Union, Hudson y Monmouth. Si están heridos o han sufrido una emergencia, por favor mantengan la calma y quédense donde están hasta nuevo aviso. Es posible que actualmente los vehículos de emergencia no puedan llegar a su posición."
 		"JunctionVoice.02"	"<len:23.1>¡Qué bueno oir la voz de otra persona! Parece que todavía hay gente en la ciudad después de todo. Les habla el soldado Jones de la división 42. No se si se han enterado, pero el Túnel Lincoln es la única via para escapar de la ciudad. Nosotros queríamos sellarlo pero una de las bombas se detonó por accidente. El experto en demolición ha muerto y yo acabé herido por la explosión. He logrado trepar hasta el asiento de conductor de uno de los camiones. Estaré allí hasta que lleguen ustedes."
-		"JunctionVoice.03"	"<len:11.3>¡No puedo creer que lo hayan logrado, estaba por irme de aquí! Los tres explosivos que ven aquí son lo suficientemente poderosos para sellar el túnel para siempre y asegurar nuestro escape. ¡Colóquenlos en los pilares y vuelvan al camión!"
+		"JunctionVoice.03"	"<len:11.3>¡No puedo creer que lo hayan logrado, estaba por irme de aquí! Los tres explosivos que ven aquí son lo suficientemente poderosos como para sellar el túnel y asegurar nuestro escape. ¡Plántenlos en los pilares y vuelvan al camión!"
 		"JunctionVoice.04"	"<len:3.0>¡Okey, ahora suban rápido! ¡No queda mucho tiempo!"
-		"JunctionVoice.05"	"<len:3.2>¡Vámonos de aquí, espero que ya estén arriba!"
+		"JunctionVoice.05"	"<len:3.2>¡Vámonos de aquí, ojalá que ya estén arriba!"
 		
 		// Quarantine
 		"QuarantineVoice.RadioIntro"	"<len:29.5>¿Hola? Nosotros somos lo que quedó de la cuarentena...lo que quedó...todos excepto nosotros...ya saben. Escuchen, hay helicópteros del otro lado de la cuarentena desde nuestra ubicación. Si no fuera por el hecho de que estamos rodeados por esas... putas cosas, ¡ya nos hubiésemos escapado! Quiero decir, es genial que ustedes hayan aparecido... porque pueden ayudarnos, podremos ayudarnos entre ambos."
 		"QuarantineVoice.RadioIntro2"	"<len:12.4>Entonces, esto es lo que deben hacer: Deben cerrar el portón de entrada a la cuarentena, el sistema automático mantendrá el otro portón de la cuarentena interna cerrado. Deben ingresar a la cuarentena interna, pero primero hay que cerrar el portón de entrada."
-		"QuarantineVoice.RadioTalk"	"<len:24.9>Una vez cerrado el portón de entrada, nosotros abriremos el portón de la cuarentena interna. Pero, hay un seguro en el sistema automático, el portón interno se cerrará en un minuto y... bueno... dado el tiempo largo durante el cual el portón de entrada ha estado abierto, se iniciará el segundo seguro. Digamos que si no llegan a entrar a la cuarentena interna cuando se cierre el portón, ¡todos morirán!"
+		"QuarantineVoice.RadioTalk"	"<len:24.9>Una vez cerrado el portón de entrada, nosotros abriremos el portón de la cuarentena interna. Pero, hay un seguro en el sistema automático, el portón interno se cerrará en un minuto y... bueno... dado el tiempo largo durante el cual el portón de entrada ha estado abierto, se iniciará el protocolo de seguridad secundario. Digamos que si no llegan a entrar a la cuarentena interna cuando se cierre el portón, ¡todos morirán!"
 		"QuarantineVoice.RadioTalk2"	"<len:27.9>Esto es lo que debemos hacer, <I>hay una sirena<I> en el área donde entrarán. Deben activarla y eso alejará los zombis de nuestra posición. Apenas podamos, iremos al helicóptero y volveremos por ustedes. Nos iremos todos de aquí. Entonces, sugiero que construyan barricadas donde puedan... prepárense. Cuando estén listos, prendan la sirena, ¿está bien?"
 		"QuarantineVoice.RadioTalk3"	"<len:5.4>Primero lo primero, debería haber una radio portátil cerca de ustedes. Tómenla."
+
+		// Shoreline
+		"ShorelineVoice.Arrival1"	"<len:1.6>¡Hey muchachos!"
+		"ShorelineVoice.Arrival2"	"<len:4.4>Hey, ¿quieren escapar de aquí? Se está acercando un barco por la costa." //Esta línea obviamente no es una traducción exacta, pero como en el juego base sólo se usa en nmo_shoreline, esta traducción me parece más apropiada.
+		"ShorelineVoice.FindLadder"	"<len:4>Bueno, parece que la única forma que tienen de alcanzar el barco es haciendo un puente. <delay:4.2><len:2.5>Vean si pueden encontrar una escalera para cruzar." //Esta línea obviamente no es una traducción exacta, pero como en el juego base sólo se usa en nmo_shoreline, esta traducción me parece más apropiada.
+		"ShorelineVoice.LadderPlaced"	"<len:2.8>¡Vamos! ¡Eso es lo que quiero ver! <delay:3.1><len:5.2>Hey, mas vale que empiecen a moverse porque ahora mismo tienen un montón de cosas muertas acercándoseles. <delay:8.4><len:3.7>Y la Guardia Nacional no está rondando por ahí tratando de que <I>nosotros<I> sobrevivamos. ¿Me explico?"
+
+		// Suzhou
+		"SuzhouVoice.BoatMan"	"<len:6.6><I>¿Hola? ¿Hola? Estoy en un barco, si me pueden marcar su ubicación, ¡vendré a rescatarlos lo antes posible!<I>"
 		
 		// Toxteth
 		"ToxtethVoice.PilotRadio"	"<len:11.4>Sí, podemos oírlos. Estamos sobrevolando el área ahora mismo. Escuchen, vayan a la calle Hartington, estaremos allí en cinco minutos para rescatarlos. No podemos perder más tiempo, ¡así que vayan rápido!"

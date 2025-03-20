@@ -49,6 +49,7 @@
 "HudSurvivalWave"			"OLEADA"
 "HudSurvivalRemaining"		"RESTANTES"
 "HudSurvivalZone"			"ZONA"
+"HudSurvivalInactive"		"INACTIVA"
 "HudSurvivalResupply"		"ENTREGA DE SUMINISTROS INMINENTE"
 "HudSurvivalWaveBegin"		"OLEADA INMINENTE"
 "HudSurvivalWaveEnd"		"OLEADA COMPLETADA"
@@ -65,7 +66,7 @@
 "NMRiH_Votekick_BanSelf"		"¡No te puedes bloquear a tí mismo!"
 "NMRiH_Voteban_Started"			"Votación de bloqueo ha comenzado para el jugador: %s1\nTienes %s2 segundos para votar.\Escribe !yes para votar su bloqueo."
 
-"NMR_Automatic_Weapon_Switch"		"Cambiar automáticamente a las armas recogidas (si son más potentes)"
+"NMR_Automatic_Weapon_Switch"		"Cambiar automáticamente a las armas recogidas (si son más poderosas)"
 
 "NMR_Tertiary_Attack"			"Ataque terciario"
 "NMR_Drop_Weapon"			"Tira tu arma actual"
@@ -84,7 +85,7 @@
 "Item_TargetOwns"			"%s1 ya tiene %s2."
 "Item_TargetFull"			"%s1 no tiene espacio para este objeto."
 
-"Watermelon_Rescued"		"¡Sandía rescatada! Otorgados %s1 puntos a todos los jugadores."
+"Watermelon_Rescued"		"¡Sandía rescatada! %s1 puntos otorgados a todos los jugadores."
 
 "Map_Time_Extended"			"Extendida la duración del mapa por %s1 minutos."
 
@@ -312,6 +313,7 @@
 "ChallengeReject_OutsideVScript"	"Se ha iniciado un VScript personalizado."
 "ChallengeReject_LateValidate"	"La validación fue iniciada tarde."
 "ChallengeReject_GameStateCommand"	"Fue usado un comando de consola de estado de juego."
+"ChallengeReject_VersionEmulation"	"Emulación de versión ha sido activada."
 
 "Hint_Generic_Compass" "¡Revisa tu brújula para ver tus objetivos! Presiona %+compass%."
 "Hint_Generic_CheckAmmo" "Puedes ver tu munición al mantener pulsada la tecla %+reload%."
@@ -338,11 +340,11 @@
 "Hint_Advanced_Pills" "Las píldoras te quitan los síntomas de la infección y los retrasan por 3 minutos."
 "Hint_Advanced_PillsInfection" "Usa tus píldoras cuando te sea difícil ver. Ganarás un poco más de tiempo de vida."
 "Hint_Advanced_PillsTiming" "Si te encuentras en peligro mientras estás infectado, usa tus píldoras antes de que tu visión empeore."
-"Hint_Advanced_Medkit" "Los botiquines restauran un tercio de tu vida total y frenan tu sangrado."
+"Hint_Advanced_Medkit" "Los botiquines restauran un tercio de tu vida total y detienen el sangrado."
 "Hint_Advanced_DontWasteMedkit" "No uses botiquines si te encuentras cerca de tu vida máxima a menos que haya de sobra."
-"Hint_Advanced_DontWasteGeneTherapy" "Usa las jeringas de Terapia de Genes sólo si te encuentras infectado. Si las usas antes y te mueres se desperdiciarán."
+"Hint_Advanced_DontWasteGeneTherapy" "Usa las jeringas de Terapia de Genes sólo si te encuentras infectado. Si las usas antes y mueres, se habrán desperdiciado."
 "Hint_Advanced_InfectionChance" "A menor cantidad de vida, mayor es la chance de ser infectado por una mordida."
-"Hint_Advanced_InfectionOnlyWhenGrabbed" "Sólo puedes contraer la infección si te muerden al agarrarte."
+"Hint_Advanced_InfectionOnlyWhenGrabbed" "Sólo puedes contraer la infección si te muerden al agarrarte o tocando agua infectada."
 "Hint_Advanced_Bandages" "Los vendajes restauran un sexto de tu vida total y frenan tu sagrando. Sólo puedes usarlas si sangras."
 "Hint_Advanced_Bleeding" "Mientras sangras tu vida se reducirá lentamente, no podrás correr y gastarás el doble de energía al saltar."
 "Hint_Advanced_Suicide" "Puedes suicidarte con un arma de fuego si te encuentras infectado para prevenir que tu cuerpo se reanime."
@@ -353,8 +355,8 @@
 "Hint_Advanced_StaminaDrain" "Si atacas, empujas, saltas o corres gastarás energía."
 "Hint_Advanced_LowStaminaVulnerable" "Si tienes poca energía eres muy vulnerable. No podrás correr, empujar, atacar o saltar."
 "Hint_Advanced_LowStaminaBreathing" "Si tienes poca energía oirás a tu personaje jadeando desesperadamente."
-"Hint_Advanced_LowStaminaMovement" "Si tienes poca energía, deja de correr. Te moverás más rápido caminando en dicho estado."
-"Hint_Advanced_FlareGunSupplies" "Lanza una bengala al cielo si te encuentras jugando un mapa de supervivencia para recibir una sola caja de suministros extra."
+"Hint_Advanced_LowStaminaMovement" "Si tienes poca energía, deja de correr. Te moverás más rápido estando cansado al caminar."
+"Hint_Advanced_FlareGunSupplies" "Lanza una bengala al cielo si te encuentras jugando un mapa de supervivencia para recibir una única caja de suministros extra."
 
 } 
 }  

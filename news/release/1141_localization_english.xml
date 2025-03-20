@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[b]March 19th Hotfix:[/b] We've released a dedicated server update that fixes an issue with runner behavior.
+This update is optional, but all community admins are encouraged to apply it.
+
+[h2]Additions[/h2]
+[list]
+[*]Added ability to erase keypad input by pressing backspace
+[*]Added bullet impulse to ragdolls, this results in more visible knockbacks based on ammo type
+[*]Added corner blocking detection for zombies, they can now properly attack blocking players instead of finding a new path
+[/list]
+[h2]Changes[/h2]
+[list]
+[*]Enabled "whole program optimization" on client, this may slightly improve overall performance
+[*]Improved server performance on crowded maps
+[*]Optimized Add-on Manager and Workshop support, improving performance
+[*]Optimized CPU usage across the board, improving performance on lower spec machines
+[*]Optimized RAM usage on maps that utilize FMOD ambient sounds
+[*]Zombies no longer spend 20 seconds standing still when all of their enemies die, instead, they play an idle animation and move on
+[*]Zombies now try to find cover again when an enemy is unreachable, they no longer skip to wander
+
+[*]Updated the localization files:
+[list]
+
+[*]With thanks to community translators: [b]Atheist, Blueberryy, DouglasVarollo, Holy Crap, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, SkyAfterRain[/b]
+[*]Want to localize NMRiH to your own language? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed being able to charge chainsaw's melee swing to deal extra damage while sawing (#1543)
+[*]Fixed dropped custom items colliding with player (#1463)
+[*]Fixed dropped weapons blocking zombies and causing them to find a new path (#1544)
+[*]Fixed idle stutter during zombie's "face best sound" schedule
+[*]Fixed inconsistent zombie "greasing" due to incorrect wandering routine, they should switch collision groups more frequently now
+[*]Fixed local player ragdoll t-posing on death
+[*]Fixed mutator state not being reset after loading a config in the selection dialog
+[*]Fixed NPC movement stutter when no alive players are present
+[*]Fixed player ragdolls not properly reacting to bullet forces
+[*]Fixed players occasionally having their voice commands stuck in one spot when they aren't visible (#1503)
+[*]Fixed regression where dynamic music wouldn't transition to next song in the playlist
+[*]Fixed transparent board models persisting when not in barricading mode (#1532)
+[*]Fixed voting messages being cut-off in Spanish (and possibly other languages) (#1530)
+[*]Fixed zombie attack hurting players behind it (#1288)
+[*]Fixed zombie kids t-posing while climbing (#800)
+[*]Fixed zombies attempting to grab dead players
+[*]Fixed zombies getting stuck in pathfinding loop and stuttering in place when all enemies are unreachable
+[*]Fixed zombies not entering their "angry" wandering schedule when an enemy became unreachable, they erroneously began "normal" wander which had different tasks and conditions for neutral roaming
+[*]Fixed zombies not playing impact sounds while bashing barricades
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added entity "func_precipitation_blocker" (#1541)
+[*]Added entity "logic_script_preserved", a variant that's preserved across round restarts
+[*]Added game event "player_jump"
+[*]Added game event "player_use"
+[*]Added game events "item_medical_start" and "item_medical_apply"
+[*]Added keyfield "Can Grab?" to zombies
+[*]Added keyfield "Ignore Room Size" to entity "func_zombie_spawn", when set to 'Yes', the brush will always regenerate spawns, and is treated as a large room regardless of its size (Overlord won't spawn more zombies for small rooms once visited by player)
+[*]Added keyfield "Show Compass Blip?" to entity "nmrih_objective_boundary"
+[*]Added keyfields for weapon viewmodel and worldmodel overrides (#1547)
+[*]Fixed crash on entity "filter_name" when a disconnecting player dies (#1539)
+[*]Fixed crash when colliding with a moving brush which has a point entity parented to it (#1527)
+[*]Fixed entity "item_custom" crashing due to missing VPhysics object when motion is disabled
+[*]Fixed entity "item_inventory_box" input "RemovedAllItems" not working for uncategorized items (#1538)
+[*]Fixed oversight where "ambient_generic" entity would be removed when its sound file was missing
+[*]Fixed particle precipitation overextending its bounds and overriding other precipitation brushes (#1545)
+[*]FMOD: Added "ambient_generic" and "ambient_fmod" cross compatibility, "health" keyfield is now recognized as volume
+[*]FMOD: Added spawnflag "Is NOT Occluded (Obstructions won't muffle sound)" to entity "ambient_fmod"
+[*]FMOD: Fixed sound characters not being applied for direct filenames
+[*]FMOD: snd_show now displays more information, similar to engine sounds
+[*]NMRObjective: Fixed crash after loading a NMOS file on map with less boundaries than previously saved
+[*]NMRObjective: Now shows a warning dialog when potential issues are raised during NMOS load
+[*]Objective HUD is now always available regardless of gamemode if we have an objective string, e.g. during scripted objectives
+[*]VScript: Added CBaseEntity functions GetClassname(), and SetClassname()
+[*]VScript: Added CItem_InventoryBox functions AddItemAtIndex(), RemoveItem(), ItemAtPosition()
+[*]VScript: Added CNMRiH_Player functions IsHoldingEntity(), and GetHeldEntity()
+[*]VScript: Added CObjective function SetDescription()
+[*]VScript: Added CObjectiveManager function SendObjectiveNotify()
+[*]VScript: Added ConCommand "script_dump_scope"
+[*]VScript: Added functions TracerEffect(), and ParticleTracerEffect()
+[*]VScript: Added functions VPhysicsInitNormal(), and VPhysicsDestroyObject()
+[*]VScript: Added legacy support for deprecated function CNMRiH_ObjectiveManager::GetCurrentObjectiveBoundary(), fixes compatibility with some existing mutators
+[*]VScript: Added Squirrel debugger (sqdbg), contributed by samisalreadytaken
+[*]VScript: Entity script scope is now automatically cleared on deletion
+[*]VScript: Fixed CNavMesh::GetNavAreasInRadius() returning inaccurate results (#1546)
+[*]VScript: Fixed various memory leaks
+[*]VScript: Updated Squirrel to the latest version
+[/list]
+[h2]Changes for server admins[/h2]
+[list]
+[*]Added cvar "ai_legacy", runs AI behavior from pre-v1.14.0 for legacy gameplay purposes
+[*]Added cvar "sv_first_draw_activity", shows initial draw animation, e.g. pulling back the hammer on pistols
+[*]Added cvar "sv_ng_zombie_drop_grenade", NG zombies can drop grenades as loot on death
+[*]Added cvar "sv_zombie_chase_enemy_on_barricade_fail", should zombies attempt to chase enemies if barricade bash schedule fails?
+[*]Added cvar "sv_zombie_cornerblock_method", deals with 'corner blocking' players: 0 = zombies freeze (~v1.09), 1 = zombies find new path (~v1.13), 2 = zombies attack with direct hit trace (default)
+[*]Added cvar "sv_zombie_crawler_attack_barricade", can crawlers attack barricades?
+[*]Added cvar "sv_zombie_crawler_open_doors", can crawlers open doors?
+[*]Added cvar "sv_zombie_crawler_swat_items", can crawlers swat items?
+[*]Added cvar "sv_zombie_explosion_shove", shove zombies on explosions?
+[*]Added cvar "sv_zombie_fix_barricade_distance", don't attack barricades that are too far away
+[*]Added cvar "sv_zombie_fix_bestsound_alert", don't stutter idle sequence while facing a 'best sound'
+[*]Added cvar "sv_zombie_fix_bite_damage", if zombie is biting an enemy, only deal damage to them
+[*]Added cvar "sv_zombie_fix_dawdle", default behavior after losing an enemy waits for 20 seconds, perform idle cycle instead?
+[*]Added cvar "sv_zombie_fix_falling_loot", prevent zombie loot from falling through the ground
+[*]Added cvar "sv_zombie_fix_hitbox_offset", fix zombie hitboxes being off by one? (bug introduced in v1.11.0)
+[*]Added cvar "sv_zombie_fix_physobj_distance", zombies tend to return to objects even if those are too far away, this fixes it
+[*]Added cvar "sv_zombie_fix_rise_collision", fix turned zombies clipping into players after rising?
+[*]Added cvar "sv_zombie_standoff_on_chase_enemy_fail", perform standoff routine instead of wander on chase fail, requires "sv_zombie_take_cover_from_enemy 0"
+[*]Added cvar "sv_zombie_swat_supplies", can zombies swat health stations/supply pieces?
+[*]Added cvar "sv_zombie_take_cover_from_enemy", should zombies attempt to take cover from unreachable enemies? When off, this may introduce a path failure loop on non-legacy AI (v1.14.0)
+[*]Removed cheat flag from cvar "sv_shove_multi"
+[/list]
+[h1]Maps[/h1]
+
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Changed fire extinguisher objective to save progress after cancelling interaction
+[*]Increased helicopter extraction length by 30 seconds
+[*]Increased instructor hint timeouts slightly
+[*]Moved gas can in spawn room closer to the exit gate
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]Added a drop down in the upper floor of the guest house
+[*]Added a warning message for activating the extraction flare when not all players have yet made it to the extraction deck
+[*]Added additional direction arrows and glow outlines for some objectives
+[*]Adjusted numerous item spawners throughout the map to reduce RNG
+[*]Adjusted some zombie spawn brushes
+[*]Changed secret stash key color from red to green to distinguish it from objective glows
+[*]Changed spawn positions of some objective items
+[*]Fixed godspot during extraction
+[*]Fixed issues with clipping in the garage
+[*]Fixed some doors being blocked by zombies
+[*]Fixed visible gaps in doorways
+[*]Improved legibility of certain unclimbable props
+[*]Increased the interaction length for activating the flare
+[*]Rebalanced extraction
+[*]Rebalanced Overlord zombie spawns with "Ignore Room Size" option
+[*]Removed clip brushes from some props and handrails
+[*]Tweaked some objective outlines to be visible at further distances
+[*]Various small visual changes
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.14.1 Released</string></content>

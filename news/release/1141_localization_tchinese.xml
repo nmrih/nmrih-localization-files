@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell 更新已發布。只需重新啟動 No More Room in Hell 即可自動更新。主要的更新有：
+
+[b]3 月 19 日 Hotfix：[/b] 我們發布了一個專屬伺服器更新以解決奔跑殭屍行為模式的問題。 此為非必要的更新，不過建議所有社群伺服器管理員下載更新。 
+  
+[h2]新增[/h2]
+[list]
+[*]新增按下退格鍵消除鍵盤輸入的功能
+[*]新增子彈對布娃娃的衝擊，基於彈藥種類現在有更明顯的擊退效果
+[*]新增殭屍的角落阻擋偵測，它們現在可以適當攻擊阻擋的玩家，而不是生成新路徑
+[/list]
+[h2]更動[/h2]
+[list]
+[*]用戶端啟用 "whole program optimization"，這可能會明顯改善全局效能
+[*]改善在殭屍密集的地圖中伺服器的效能
+[*]最佳化插件瀏覽器和工作坊支援，改善效能
+[*]最佳化全局 CPU 使用量，改善在低階機器上的效能
+[*]最佳化使用 FMOD 環境聲效的地圖的 RAM 使用量
+[*]所有敵人死亡時，殭屍不再靜止不動 20 秒， 而是播放閒置動作並移動
+[*]當無法追逐敵人時，殭屍現在會再次尋找掩護，他們不再會跳過徘徊
+[*]更新在地化檔案：
+[list]
+
+[*]感謝社群翻譯者： [b]Atheist, Blueberryy, DouglasVarollo, Holy Crap, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, SkyAfterRain[/b]
+[*]想要為 NMRiH 在地化你的語言嗎？ [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]修正[/h2]
+[list]
+[*]修正了能夠為電鋸的近戰揮動蓄力以在鋸切時造成額外傷害的問題 （#1543）
+[*]修正了掉落的自訂物品與玩家發生碰撞的問題 （#1463）
+[*]修正了掉落的武器阻擋殭屍的問題，它們現在會找到新路徑 （#1544）
+[*]修正了殭屍 "face best sound" 的閒置卡頓問題
+[*]修正了由於不正確的徘徊路徑而導致的殭屍「潤滑」不一致的問題，他們現在應該更頻繁地切換碰撞體積
+[*]修正了本機玩家死亡時布娃娃擺出的T-POSE問題
+[*]修正了在選擇對話方塊中載入配置後不重置可變狀態的問題
+[*]修正了當沒有存活玩家在場時 NPC 移動卡頓的問題
+[*]修正了玩家布娃娃對子彈衝擊沒有正確反應的問題 （#1503）
+[*]修正了玩家在使用語音指令，關閉時偶爾會卡在一個位置的問題
+[*]修正了動態音樂無法過渡到播放清單中下一首歌曲的舊有問題
+[*]修正了未處於路障模式時透明板模型持續存在的問題 （#1532）
+[*]修正了西班牙語（可能還有其他語言）的投票訊息被切斷的問題 （#1530）
+[*]修正了殭屍攻擊會傷害其身後玩家的問題  （#1288）
+[*]修正了孩童殭屍在攀爬時擺出的T-POSE問題 （#800）
+[*]修正了殭屍試圖抓住死亡玩家的問題
+[*]修正了當所有敵人都無法追逐時殭屍陷入尋路循環並卡在原地的問題
+[*]修復了當無法追逐敵人時，殭屍不會進入「憤怒」徘徊時序，他們錯誤地開始「正常」徘徊的問題，其中中立徘徊有不同的任務和情況
+[*]修正了殭屍在攻擊路障時不播放衝擊聲音的問題
+[/list]
+[h2]為地圖模組者製作進行的更動[/h2]
+[list]
+[*]新增 entity "func_precipitation_blocker" (#1541)
+[*]新增 entity "logic_script_preserved"，在一輪重啟中保留的變體
+[*]新增 game event "player_jump"
+[*]新增 game event "player_use"
+[*]新增 game events "item_medical_start" 和 "item_medical_apply"
+[*]新增 keyfield "Can Grab?" 給殭屍
+[*]新增 keyfield "Ignore Room Size" 給 entity "func_zombie_spawn"，當設定為 'Yes'時，brush將始終重新生成，並且無論大小如何，都被視為一個大房間（一旦玩家進入了小房間，Overlord 就不會為小房間生成更多殭屍）
+[*]新增 keyfield "Show Compass Blip?" to entity "nmrih_objective_boundary"
+[*]新增 keyfields 給武器模型與世界模型覆蓋 (#1547)
+[*]修正了 entity "filter_name" 當一個斷開連線的玩家死亡時發生的崩潰 (#1539)
+[*]修正了與具有父級點實體的移動brush碰撞時發生的崩潰 (#1527)
+[*]修正了 entity "item_custom" 禁用移動時因缺少 VPhysics 對象而崩潰
+[*]修正了 entity "item_inventory_box" 輸入 "RemovedAllItems" 不適用於未分類的專案 (#1538)
+[*]修正了當 「ambient_generic」 實體的聲音檔丟失時會被刪除的疏忽
+[*]修復了粒子沉澱超出其邊界並覆蓋其他沉澱brush的問題 （#1545）
+[*]FMOD: 新增 "ambient_generic" 和 "ambient_fmod" 的交叉相容性，"health" keyfield 現在被認定為 volume
+[*]FMOD: 新增 spawnflag "Is NOT Occluded (Obstructions won't muffle sound)" 到 entity "ambient_fmod"
+[*]FMOD: 修正了聲音字元未應用於直接檔名的問題
+[*]FMOD: snd_show 現在可顯示更多資訊，和engine sound相似
+[*]NMRObjective: 修復了在界限少於之前保存的地圖上載入NMOS檔案後發生的崩潰問題
+[*]NMRObjective: 現在在NMOS載入期間出現潛在問題時，會提示一個警告對話框
+[*]現在只要我們有目標字串，無論遊戲模式如何，目標 HUD 都會始終可用，例如在腳本化目標期間
+[*]VScript: 新增 CBaseEntity functions GetClassname()，和 SetClassname()
+[*]VScript: 新增 CItem_InventoryBox functions AddItemAtIndex(), RemoveItem(), ItemAtPosition()
+[*]VScript: 新增 CNMRiH_Player functions IsHoldingEntity()，和 GetHeldEntity()
+[*]VScript: 新增 CObjective function SetDescription()
+[*]VScript: 新增 CObjectiveManager function SendObjectiveNotify()
+[*]VScript: 新增 ConCommand "script_dump_scope"
+[*]VScript: 新增 functions TracerEffect()，和 ParticleTracerEffect()
+[*]VScript: 新增 functions VPhysicsInitNormal()，和 VPhysicsDestroyObject()
+[*]VScript: 新增對已遭淘汰的 function CNMRiH_ObjectiveManager::GetCurrentObjectiveBoundary()的舊版支援，修正了一些與現有 mutator 的相容性
+[*]VScript: 新增 Squirrel debugger (sqdbg), 由 samisalreadytaken 提供
+[*]VScript: 現在實體腳本範圍在刪除時會自動清除
+[*]VScript: 修正了 CNavMesh::GetNavAreasInRadius() 返回不準確的結果 (#1546)
+[*]VScript: 修正了各種記憶體流失的問題
+[*]VScript: 更新 Squirrel 至最新版本
+[/list]
+[h2]為伺服器管理者進行的更動[/h2]
+[list]
+[*]新增 cvar "ai_legacy"，以執行1.14.0以前的 AI 行為，用於舊版遊戲體驗
+[*]新增 cvar "sv_first_draw_activity"，顯示初始拔槍動畫，例如，拉回手槍的擊錘
+[*]新增 cvar "sv_ng_zombie_drop_grenade"，國民警衛隊殭屍死亡時可以掉落手榴彈作為戰利品
+[*]新增 cvar "sv_zombie_chase_enemy_on_barricade_fail"， 如果障礙破壞計劃失敗，殭屍應是否嘗試追擊敵人
+[*]新增 cvar "sv_zombie_cornerblock_method"， 決定「角落阻擋」玩家：0 = 殭屍凍結 （~v1.09），1 = 殭屍找到新路徑 （~v1.13），2 = 殭屍直接追蹤並攻擊（預設）
+[*]新增 cvar "sv_zombie_crawler_attack_barricade"，爬行殭屍是否可以攻擊路障
+[*]新增 cvar "sv_zombie_crawler_open_doors"，爬行殭屍是否開門
+[*]新增 cvar "sv_zombie_crawler_swat_items"， 爬行殭屍是否可以拍打物品
+[*]新增 cvar "sv_zombie_explosion_shove"，爆炸時是否可以造成殭屍擊退
+[*]新增 cvar "sv_zombie_fix_barricade_distance"，修正攻擊距離太遠的路障
+[*]新增 cvar "sv_zombie_fix_bestsound_alert"，修正在面對「最佳音效」時不卡頓空閒序列
+[*]新增 cvar "sv_zombie_fix_bite_damage"，修正如果殭屍正在咬敵人，則只對他們造成傷害
+[*]新增 cvar "sv_zombie_fix_dawdle"，失去敵人後的標準行為等待 20 秒，是否改為執行空閒循環
+[*]新增 cvar "sv_zombie_fix_falling_loot"、修正殭屍掉落的物品穿過地面
+[*]新增 cvar "sv_zombie_fix_hitbox_offset"，修正殭屍的碰撞箱偏移一個的問題（在 v1.11.0 中引入的bug）
+[*]新增 cvar "sv_zombie_fix_physobj_distance"，殭屍傾向返回物體，即使那些物體距離太遠，這樣可以解決這個問題
+[*]新增 cvar "sv_zombie_fix_rise_collision"，修正轉化殭屍在起身時卡住玩家的問題
+[*]新增 cvar "sv_zombie_standoff_on_chase_enemy_fail"，執行「對峙」例程而不是追丟敵人之後徘徊，需要 “sv_zombie_take_cover_from_enemy 0”
+[*]新增 cvar "sv_zombie_swat_supplies"，殭屍是否可以攻擊醫療站/補給包
+[*]新增 cvar "sv_zombie_take_cover_from_enemy"，殭屍是否試圖躲避無法接近的敵人，關閉後，這可能會在非舊版 AI 上引入路徑故障迴圈 （v1.14.0）
+[*]移除 cvar "sv_shove_multi" 作弊條目
+[/list]
+[h1]地圖[/h1]
+
+[h3]nmo_rockpit[/h3]
+[list]
+[*]更改了滅火器的目標，以便在取消互動後保存進度
+[*]直升機撤離時間增加30秒
+[*]略微增加了 instructor 的超時時間
+[*]將重生點中的油罐移到更靠近出口的地方
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]在客房的上層添加了一個可跳下的點位
+[*]添加了一條警告訊息，當並非所有玩家都已到達撤離甲板時啟動撤離信號彈
+[*]為某些目標添加了額外的方向箭頭和發光輪廓
+[*]調整了整個地圖中的許多物品刷新點以降低隨機性
+[*]調整了一些殭屍生成區域
+[*]將秘密藏匿鑰匙的顏色從紅色更改為綠色，以便與發光目標區分
+[*]更改了一些目標物品的生成位置
+[*]修正了撤離過程中的無敵點
+[*]修正了車庫的卡模問題
+[*]修正了某些門被殭屍堵住的問題
+[*]修正了門口的可見縫隙
+[*]提高了某些無法攀爬的道具的可辨識度
+[*]增加了啟動信號彈的互動時間
+[*]重新平衡了撤離難度
+[*]重新平衡了 Overlord 殭屍的生成，並帶有「忽略房間大小」選項
+[*]移除了一些道具和扶手的碰撞體積
+[*]調整了一些目標輪廓，以便在更遠的距離上可見
+[*]各種小型視覺調整
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">更新 1.14.1 釋出</string></content>

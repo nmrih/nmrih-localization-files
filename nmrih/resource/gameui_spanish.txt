@@ -82,9 +82,12 @@
 
 "NMRiH_GameType_Objective"		"Objetivo"
 "NMRiH_GameType_Survival"		"Supervivencia"
+"NMRiH_GameType_Custom"			"Personalizado"
 "NMRiH_GameType_PVP"			"PvP"
+"NMRiH_GameType_Minigame"		"Minijuego"
 
 "NMRiH_LAN"				"Sólo LAN"
+"NMRiH_Coplay"			"Usar Coplay (Networking de Steam)"
 
 "NMRiH_Difficulty_Tooltip"	"Elige una dificultad.\nClásica: Opciones predeterminadas, reapariciones fijas activadas.\nCasual: Reapariciones automáticas y con armas.\nPesadilla: Vida/densidad de zombis y chance de infección aumentadas.\nPvP: Activa el puntaje y avisos de muertes de PvP, deactiva zombis y objetivos."
 "NMRiH_Map_Time_Tooltip"	"Tiempo límite del mapa."
@@ -93,8 +96,9 @@
 "NMRiH_RealismMode_Tooltip"	"Modo Realismo: reapariciones desactivadas, zombis sólo reciben daño a la cabeza y cada disparo a la cabeza mata instantáneamente, sin importar el tipo de munición."
 "NMRiH_HardcoreSurvival_Tooltip"	"Esconde las ayudas visuales en modo Supervivencia."
 "NMRiH_Max_Players_Tooltip"	"Límite de jugadores, mínimo de 2, máximo de 8."
+"NMRiH_Coplay_Tooltip"	"Coplay provee una implementación del Networking de Steam para conexiones directas entre clientes (peer-to-peer). Esto saltea el requerimiento de abrir los puertos de tu router."
 "NMRiH_AdvOptions"	"Opciones Extendidas..."
-"NMRiH_AdvOptions_Tooltip"	"Editar opciones extendidas."
+"NMRiH_AdvOptions_Tooltip"	"Editar opciones de juego extendidas."
 
 "NMRiH_Extended_Options"	"Opciones Extendidas"
 
@@ -168,6 +172,7 @@
 
 "NMRiH_Scoreboard_MutePlayer"	"Silenciar jugador"
 "NMRiH_Scoreboard_ViewSteamProfile"	"Ver perfil de Steam"
+"NMRiH_Scoreboard_Bot"	"BOT"
 
 "NMRiH_MutedPlayer"	"Jugador %s1 silenciado"
 "NMRiH_UnmutedPlayer"	"Puedes escuchar al jugador %s1"
@@ -175,7 +180,113 @@
 "NMRiH_Challenge_Select"	"Elige un desafío:"
 "NMRiH_Challenge_Random"	"Objetivos al Azar"
 "NMRiH_Challenge_Random_Desc"	"Completa un conjunto de objetivos lo más rápido que puedas"
-"NMRiH_Challenge_NoDesc"	"No hay descripción disponible."
+"NMRiH_Challenge_NoDesc"	"No hay una descripción disponible."
+
+"Challenge_Name_nmo_anxiety_challenge_1"	"Terapia de Exposición"
+"Challenge_Desc_nmo_anxiety_challenge_1"	"¿Puedes sentir el latido de tu corazón?"
+
+"Challenge_Name_nmo_boardwalk_challenge_1"	"Paseo por el parque"
+"Challenge_Desc_nmo_boardwalk_challenge_1"	"Disfruta de la arena tibia, entretenimiento gratis, y... nah ¿a quién engaño?"
+
+"Challenge_Name_nmo_broadway_challenge_1"	"Premiere Cinemático"
+"Challenge_Desc_nmo_broadway_challenge_1"	"¡Llegas tarde a la premiere! ¡Ábrete camino por la multitud y tómate el tren a casa!"
+"Challenge_Name_nmo_broadway_challenge_2"	"Frenesí Motelero"
+"Challenge_Desc_nmo_broadway_challenge_2"	"No hay reservas, cuidado con el cadaver en la piscina."
+"Challenge_Name_nmo_broadway_blitz_1"	"Blitz: Premiere Cinemático"
+"Challenge_Desc_nmo_broadway_blitz_1"	"¡En el modo Blitz, puedes ganar más tiempo al completar objetivos!"
+"Challenge_Name_nmo_broadway_blitz_2"	"Blitz: Frenesí Motelero"
+"Challenge_Desc_nmo_broadway_blitz_2"	"¡En el modo Blitz, puedes ganar más tiempo al completar objetivos!"
+
+"Challenge_Name_nmo_broadway2_challenge_1"	"Sueños del Aro"
+"Challenge_Desc_nmo_broadway2_challenge_1"	"Todo jugador sueña con lograrlo... lograr escapar en una pieza."
+"Challenge_Name_nmo_broadway2_challenge_2"	"Sobre Raíles"
+"Challenge_Desc_nmo_broadway2_challenge_2"	"Parece que nuestro helicóptero de rescate ha caído. ¡Escapa con el tren!"
+"Challenge_Name_nmo_broadway2_challenge_3"	"Te Ha Crecido la Panzer"
+"Challenge_Desc_nmo_broadway2_challenge_3"	"La entrada de la tienda está cerrada, ¿puedes crear una nueva?"
+
+"Challenge_Name_nmo_brooklyn_challenge_1"	"Ejercicio Abdominal"
+"Challenge_Desc_nmo_brooklyn_challenge_1"	"Este bloqueo no se moverá solo..."
+"Challenge_Name_nmo_brooklyn_challenge_2"	"De Compras"
+"Challenge_Desc_nmo_brooklyn_challenge_2"	"¡Si queremos irnos de viaje, necesitaremos suministros!"
+
+"Challenge_Name_nmo_cabin_challenge_1"	"Fiebre de Cabaña"
+"Challenge_Desc_nmo_cabin_challenge_1"	"Los vecinos no se ven muy contentos con tus monerías, mejor vete de aquí."
+"Challenge_Name_nmo_cabin_challenge_2"	"En los Cimientos de la Cabaña"
+"Challenge_Desc_nmo_cabin_challenge_2"	"¿Qué ha escondido el conserje aquí abajo? Vamos a averiguarlo."
+"Challenge_Name_nmo_cabin_challenge_3"	"Conocimiento Secreto"
+"Challenge_Desc_nmo_cabin_challenge_3"	"La familia es la respuesta, ¡ahora con nuevas estanterías móviles!"
+"Challenge_Name_nmo_cabin_blitz_1"	"Blitz: Fiebre de Cabaña"
+"Challenge_Desc_nmo_cabin_blitz_1"	"Ahora sí nos han pillado... ¡En el modo Blitz, puedes ganar más tiempo al completar objetivos!"
+
+"Challenge_Name_nmo_chinatown_challenge_1"	"Abaratar Costos"
+"Challenge_Desc_nmo_chinatown_challenge_1"	"Avanza por el mapa usando atajos."
+"Challenge_Name_nmo_chinatown_blitz_1"	"Blitz: Hora Pico"
+"Challenge_Desc_nmo_chinatown_blitz_1"	"¡En el modo Blitz, puedes ganar más tiempo al completar objetivos!"
+
+"Challenge_Name_nmo_cleopas_challenge_1"	"El Plan"
+"Challenge_Desc_nmo_cleopas_challenge_1"	"Muy amable el que se ha tomado el tiempo de explicarnos los objetivos."
+"Challenge_Name_nmo_cleopas_challenge_2"	"¡Un forastero!"
+"Challenge_Desc_nmo_cleopas_challenge_2"	"A las personas puede que no les guste que entres a sus casas."
+
+"Challenge_Name_nmo_fema_challenge_1"	"Héroe Público"
+"Challenge_Desc_nmo_fema_challenge_1"	"Ayuda a recuperar la vacuna retroviral y quizás te devolveremos el favor."
+"Challenge_Name_nmo_fema_challenge_2"	"NAFTA"
+"Challenge_Desc_nmo_fema_challenge_2"	"No podemos despegar sin combustible, ¡continúa bombeando el diesel!"
+
+"Challenge_Name_nmo_junction_challenge_1"	"No Más Santuarios"
+"Challenge_Desc_nmo_junction_challenge_1"	"Has un intento para escapar de la ciudad para siempre."
+
+"Challenge_Name_nmo_lakeside_challenge_1"	"Ir con la Corriente"
+"Challenge_Desc_nmo_lakeside_challenge_1"	"No verás esto todos los días."
+"Challenge_Name_nmo_lakeside_challenge_2"	"A la Deriva"
+"Challenge_Desc_nmo_lakeside_challenge_2"	"¿No puedes conectar? ¡No te sucede sólo a ti!"
+
+"Challenge_Name_nmo_quarantine_challenge_1"	"La Fuga"
+"Challenge_Desc_nmo_quarantine_challenge_1"	"¡Ups!, qué lío hemos hecho."
+
+"Challenge_Name_nmo_rockpit_challenge_1"	"Abuso de Poder"
+"Challenge_Desc_nmo_rockpit_challenge_1"	"Conocemos todo este lugar por dentro, esto será un paseo."
+"Challenge_Name_nmo_rockpit_challenge_2"	"Bajo Estrés"
+"Challenge_Desc_nmo_rockpit_challenge_2"	"Completa una partida con la cadena de objetivos más larga posible."
+"Challenge_Name_nmo_rockpit_blitz_1"	"Blitz: Abuso de Poder"
+"Challenge_Desc_nmo_rockpit_blitz_1"	"¡En el modo Blitz, puedes ganar más tiempo al completar objetivos!"
+
+"Challenge_Name_nmo_shelter_challenge_1"	"¡No Hay Refugio Aquí!"
+"Challenge_Desc_nmo_shelter_challenge_1"	"La delgada línea entre la guerra y el entretenimiento."
+
+"Challenge_Name_nmo_shoreline_challenge_1"	"Excursionista"
+"Challenge_Desc_nmo_shoreline_challenge_1"	"No me parece que a la gente de aquí le gusten los turistas..."
+"Challenge_Name_nmo_shoreline_challenge_2"	"Desviado"
+"Challenge_Desc_nmo_shoreline_challenge_2"	"Progresa en el mapa por todo el camino alternativo."
+
+"Challenge_Name_nmo_suzhou_challenge_1"	"Día Para El Olvido"
+"Challenge_Desc_nmo_suzhou_challenge_1"	"Completa una partida con la cadena de objetivos más larga posible."
+
+"Challenge_Name_nmo_toxteth_challenge_1"	"Cementerio de las Tinieblas"
+"Challenge_Desc_nmo_toxteth_challenge_1"	"Sugiero cortar camino por el cementerio..."
+"Challenge_Name_nmo_toxteth_challenge_2"	"Mejor Llamar al Plomero"
+"Challenge_Desc_nmo_toxteth_challenge_2"	"Bueno, si no te molesta la mugre..."
+"Challenge_Name_nmo_toxteth_blitz_1"	"Blitz: Cementerio de las Tinieblas"
+"Challenge_Desc_nmo_toxteth_blitz_1"	"¡No tenemos tiempo que perder así que muévete! ¡En el modo Blitz, puedes ganar más tiempo al completar objetivos!"
+"Challenge_Name_nmo_toxteth_blitz_2"	"Blitz: Mejor Llamar al Plomero"
+"Challenge_Desc_nmo_toxteth_blitz_2"	"¿Te das cuenta que estás caminando por la caca de los vecinos no? ¡En el modo Blitz, puedes ganar más tiempo al completar objetivos!"
+
+"Challenge_Name_nmo_toxtethdark_challenge_1"	"Cementerio de las Tinieblas (Noche)"
+"Challenge_Desc_nmo_toxtethdark_challenge_1"	"Sugiero cortar camino por el cementerio..."
+"Challenge_Name_nmo_toxtethdark_challenge_2"	"Mejor Llamar al Plomero (Noche)"
+"Challenge_Desc_nmo_toxtethdark_challenge_2"	"Bueno, si no te molesta la mugre..."
+
+"Challenge_Name_nmo_underground_challenge_1"	"Lata de Sardinas"
+"Challenge_Desc_nmo_underground_challenge_1"	"No llegarás lejos..."
+"Challenge_Name_nmo_underground_challenge_2"	"Empuja el Carro"
+"Challenge_Desc_nmo_underground_challenge_2"	"¡Empujad vagoneta canija!"
+"Challenge_Name_nmo_underground_challenge_3"	"Catador Promedio de Armas Blancas"
+"Challenge_Desc_nmo_underground_challenge_3"	"¡Completa el mapa sin armas de fuego o explosivos!"
+
+"Challenge_Name_nmo_zephyr_challenge_1"	"Ruta de los Zephyrs"
+"Challenge_Desc_nmo_zephyr_challenge_1"	"Escuchar una voz humana es tan alentador."
+"Challenge_Name_nmo_zephyr_challenge_2"	"Falta de Mantenimiento"
+"Challenge_Desc_nmo_zephyr_challenge_2"	"¿Qué sucede con ese maquinista? Parece que nada funciona."
 
 "Downloading_Workshop_Map"		"Descargando mapa desde el Workshop..."
 "Downloading_Workshop_Map_Progress"		"Descargando mapa desde el Workshop... (%s1/%s2)"
@@ -194,6 +305,28 @@
 
 "NMRiH_Select_Mutators"	"Seleccionar Mutadores"
 "NMRiH_Find_Mutators"	"Buscar más..."
+"NMRiH_Mutator_ImportConfig"	"Importar Config. de Mutador"
+"NMRiH_Mutator_ExportConfig"	"Exportar Config. de Mutador"
+"NMRiH_Mutator_ConfigFileType"	"Config. de Mutador (.txt)"
+"NMRiH_Mutator_ExportCfgSuccess"	"Config. de Mutador exportada exitosamente."
+"NMRiH_Mutator_FailedToImportConfig"	"Error al importar la config. del mutador. El archivo es inválido."
+
+"Mutator_Name_deathnotice"	"Avisos de muerte"
+"Mutator_Desc_deathnotice"	"Muestra asesinatos / muertes."
+
+"Mutator_Name_nostamina"	"Sin Estamina"
+"Mutator_Desc_nostamina"	"Los jugadores tendrán estamina infinita."
+
+"Mutator_Name_nozombierespawn"	"Sin Reapariciones de Zombis"
+"Mutator_Desc_nozombierespawn"	"Los zombis no reapareceran."
+
+"Mutator_Name_weightlessammo"	"Munición sin Peso"
+"Mutator_Desc_weightlessammo"	"La munición no ocupará espacio en el inventario."
+
+"NMRiH_DeckCompatibility_Title"	"Compatibilidad con Steam Deck"
+"NMRiH_DeckCompatibility_Message1"	"Parece que estás jugando en la Steam Deck."
+"NMRiH_DeckCompatibility_Message2"	"El cliente de Linux no está testeado y puede ser inestable."
+"NMRiH_DeckCompatibility_Message3"	"Se recomienda usar Steam Play (Proton) para la mejor compatibilidad."
 
 //============================
 //Add-on Manager
@@ -362,6 +495,7 @@
 "Workshop_Publisher_Visibility_Public"		"Público"
 "Workshop_Publisher_Visibility_FriendsOnly"	"Sólo Amigos"
 "Workshop_Publisher_Visibility_Private"		"Privado"
+"Workshop_Publisher_Visibility_Unlisted"	"Fuera de Búsqueda"
 
 "Workshop_Publisher_Category_None"			"Ninguno"
 
