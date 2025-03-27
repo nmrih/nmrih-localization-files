@@ -3,12 +3,12 @@
 
 [h2]新增[/h2]
 [list]
-[*]新增強化的離線單人遊戲支援，在「創建伺服器」視窗中將最大玩家人數設為「1」時生效
+[*]新增強化的離線單人遊戲支援，在「創建伺服器」視窗中將玩家人數上限設為「1」時生效
 [/list]
 [h2]修正[/h2]
 [list]
-[*]修正奔跑殭屍行為中會造成它們不正常加速並逮到玩家的問題 (此項修正已在前段時間 1.14.1 的 hotfix 中更新)
-[*]修正回合開始時的貼花溢出的問題，這會導致彈孔與血跡等在特定地圖中消失
+[*]修正奔跑殭屍行為中會導致它們不正常加速並逮到玩家的問題 (此項修正已在前段時間 1.14.1 的 hotfix 中更新)
+[*]修正回合開始時的貼花溢出，導致彈孔與血跡等在特定地圖中消失的問題
 [*]修正凍結 NPC 無法招架
 [*]修正遊戲在發生連線封包遺失情形時，瞄準鏡的貼圖不見得會隱藏
 [/list]
@@ -20,7 +20,7 @@
 [*]修正當裝備中的 "item_custom" 接觸到可動的門時，可能產生的罕見崩潰情形
 [*]修正靜態貼花在回合重啟時不正確地重生而導致貼花上限溢出，有 targetname 的動態貼花則維持不變
 [*]修正殭屍鎖定玩家卻忽略阻擋它們攻勢的 "npc_bullseye" entity
-[*]FMOD: 修正包裝在地圖中的音訊檔沒有預先載入，於是在客戶端進入伺服器時變得沒有聲音
+[*]FMOD: 修正包裝在地圖中的音訊檔沒有預先載入，使其在客戶端進入伺服器時變得無法聽見
 [*]規則設定: 給腳本新增 "Include" 關鍵字
 [*]VScript: 新增 CBaseAnimating functions GetModelScale() 與 SetModelScale()
 [*]VScript: 新增 CNavMesh functions FindNavAreaAlongRay(), GetAreasWithAttributes(), GetNavAreasOverlappingEntityExtent(), GetObstructingEntities(), and NavAreaTravelDistance()
@@ -74,7 +74,7 @@
 [*]新增 cvar "sv_npc_frozen_death_immunity", 凍結的 NPC 不會死，模擬 v1.14.1 的錯誤行為模式
 [*]新增 cvar "sv_npc_goal_repath_tolerance", 預設值為 120.0，避免奔跑殭屍逮到移動中的玩家
 [*]新增 cvar "sv_player_bullet_force_accumulator", 使子彈衝擊力施在玩家的布娃娃上
-[*]新增 cvar "sv_player_death_music", 使死亡時撥放旋律
+[*]新增 cvar "sv_player_death_music", 使死亡時撥放音樂
 [*]新增 cvar "sv_player_duck_on_crawler_grab", 允許玩家在被爬行殭屍抓住時蹲下
 [*]新增 cvar "sv_player_fix_hitbox_desync", 修正向上看與向下看時 hitbox 同步錯誤
 [*]新增 cvar "sv_player_follow_ragdoll", 使鏡頭在死亡時跟隨玩家的布娃娃
@@ -105,7 +105,7 @@
 [h3]nmo_shoreline[/h3]
 [list]
 [*]在小屋正門增加木板設置點
-[*]修正小屋入口樓梯上面的可走動路徑
+[*]修正小屋入口樓梯上面的可走動邊緣
 [*]一些小視覺更動
 [*]微調殭屍的生成與路徑
 [/list]
