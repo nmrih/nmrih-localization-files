@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">No More Room in Hell のアップデートがリリースされました。
 アップデートは No More Room in Hell を再起動すると自動的に適用されます。
-主な変更点は以下の通りです：
+主な変更点は以下の通りです:
 
 [h2]追加[/h2]
 [list]
@@ -19,10 +19,10 @@
 [*]サーバーコマンドの"workshop_validate"に"-restore"オプションを追加
 [*]補給物資はプレイヤーをフリーズさせなくなり、代わりに距離をチェックするようになった
 
-[*]翻訳を更新：
+[*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます： Blueberryy、Klowby、marcielcps、Plazehorta
+[*]コミュニティの翻訳者に謝辞を述べます: Blueberryy, Klowby, marcielcps, Plazehorta
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -48,7 +48,7 @@
 [h2]マップとMOD制作者向けの変更[/h2]
 [list]
 [*]開発者向けにレベル遷移のベータ版を追加。 デフォルトでは無効になっており、サーバー管理者はcvarの"sv_level_transition"で切り替えることができる (#1278)
-[*]ゲームステート関数に"RespawnDeadPlayers"コマンドを追加 (I/O、コンソール、VScript)
+[*]ゲームステート関数に"RespawnDeadPlayers"コマンドを追加 (I/O, コンソール, VScript)
 [*]キルペナルティのスコアを設定する"sv_killpenalty_score"変数を追加
 [*]cvarの"sv_resetscore"が追加され、ラウンドリスタート時に全プレイヤーのスコアがリセットされるようになりました
 [*]ワークショップパブリッシャーに新しいカテゴリーの"ミューテーター"を追加
@@ -58,12 +58,12 @@
 [*]すべてのMapHackデバッグは"sv_maphack_debug"というcvarの後ろに置かれるようになった
 [*]コンソールコマンド"extractplayer"と"respawnplayer"でプレイヤー名を入力できるようになりました
 [*]エンティティの"trigger_changelevel"が、レベル遷移が有効なサーバー上で機能するようになりました
-[*]MapHack： エンティティー前の段階でスクリプトが失敗することがあった問題を修正
-[*]VScript： センタープリント機能を追加
-[*]VScript： CNMRiH_GameRules バインディングを追加
-[*]VScript： CNMRiH_Player 関数の SetHandModelOverride() と ClearHandModelOverride() を追加
-[*]VScript： CNMRiH_WeaponBase バインディングと WeaponID 列挙型を追加
-[*]VScript： Linuxでイベントリスナーが不正なデータを書き込んでいた問題を修正
+[*]MapHack: エンティティー前の段階でスクリプトが失敗することがあった問題を修正
+[*]VScript: センタープリント機能を追加
+[*]VScript: CNMRiH_GameRules バインディングを追加
+[*]VScript: CNMRiH_Player 関数の SetHandModelOverride() と ClearHandModelOverride() を追加
+[*]VScript: CNMRiH_WeaponBase バインディングと WeaponID 列挙型を追加
+[*]VScript: Linuxでイベントリスナーが不正なデータを書き込んでいた問題を修正
 [/list]
 [h1]マップ[/h1]
 

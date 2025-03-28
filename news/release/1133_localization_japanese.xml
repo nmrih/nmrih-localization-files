@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">No More Room in Hell のアップデートがリリースされました。
 アップデートは No More Room in Hell を再起動すると自動的に適用されます。
-主な変更点は以下の通りです：
+主な変更点は以下の通りです:
 
 [h2]追加[/h2]
 [list]
@@ -16,10 +16,10 @@
 [*]Steam DeckでLinuxランタイムを使用する場合、互換性の警告を表示するようになった
 [*]ユーザーアバターのダウンロード中にローディングスピナーを表示する
 
-[*]翻訳を更新：
+[*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます： [b]Blueberryy、BloodyMoonlight、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta[/b]
+[*]コミュニティの翻訳者に謝辞を述べます: [b]Blueberryy, BloodyMoonlight, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -51,16 +51,16 @@
 [*]サーフェスプロップの"bouncyball"を追加
 [*]ハンマーゲームデータの未使用エンティティをクリーンアップ
 [*]エンティティ"point_message_multiplayer"のプロパティをキー値で変更できるようになりました
-[*]以下のエンティティは命令を必要としなくなった： env_instructor_hint、env_timer、game_text、logic_progress、logic_script、player_speedmod、point_message_multiplayer、scripted_sequence
+[*]以下のエンティティは命令を必要としなくなった: env_instructor_hint, env_timer, game_text, logic_progress, logic_script, player_speedmod, point_message_multiplayer, scripted_sequence
 [*]"prop_sphere"エンティティのカスタマイズ可能な半径を拡張
 [*]エンティティの"point_message_multiplayer"が改善され、テキストがジッターなしにスムーズに親の動きに追従するようになった
-[*]MapHack： $removeサーバーのクラッシュを修正 (#1425)
-[*]MapHack： 潜在的に危険な関数における安全でないエンティティを制限
+[*]MapHack: $removeサーバーのクラッシュを修正 (#1425)
+[*]MapHack: 潜在的に危険な関数における安全でないエンティティを制限
 [*]"Trigger_hurt"のダメージタイプをHammerのNMRiHオーバーライドと一致するように更新
 [*]VPhysicsクリップエディタのテクスチャを更新
-[*]VScript： CNavMesh インターフェイスと CScriptNavArea クラスを追加
-[*]VScript： CNMRiH_BaseZombie::GetShoved() を追加
-[*]VScript： CNMRiH_WeaponBase 関数の SetViewModelOverride() と ClearViewModelOverride() を追加
+[*]VScript: CNavMesh インターフェイスと CScriptNavArea クラスを追加
+[*]VScript: CNMRiH_BaseZombie::GetShoved() を追加
+[*]VScript: CNMRiH_WeaponBase 関数の SetViewModelOverride() と ClearViewModelOverride() を追加
 [/list]
 [h2]サーバー管理者向けの変更[/h2]
 [list]
@@ -102,7 +102,7 @@
 [*]VPhysicsのクリッピングを下水道のオブジェクティブアイテムが失われる可能性のあるエリアに追加
 [*]スイカを追加
 [*]ドアを固定したので、どうか開けないでください
-[*]トランシーバーを入手すると、兵士のダイアログが無限に発動し、全員の鼓膜が破壊されるバグを修正
+[*]トランシーバーを入手すると兵士のダイアログが無限に発動し、全員の鼓膜が破壊されるバグを修正
 [*]下水道の冒頭のレンダリングの不具合を修正
 [*]変位の裏側が見えていた複数の事例を修正
 [*]スポーン時、ベニヤ板に赤いXが正しくレンダリングされない問題を修正
@@ -112,7 +112,7 @@
 [*]コインランドリーの路地にあるゴミ箱の上に乗れるようになった
 [*]意図的なデザインを妨げるクリップブラシを削除
 [*]コインランドリーの路地のゴミ箱が燃えるようになった
-[*]検疫所の火災は現在、可聴域内にある
+[*]検疫所の火災は現在、可聴域内になった
 [*]ゾンビが特定の場所で立ち往生する可能性を減らすため、ナビゲーションのメッシュを微調整
 [/list]
 [h3]nmo_rockpit[/h3]

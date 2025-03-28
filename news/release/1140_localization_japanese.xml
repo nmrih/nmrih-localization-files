@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">No More Room in Hell のアップデートがリリースされました。
 アップデートは No More Room in Hell を再起動すると自動的に適用されます。
-主な変更点は以下の通りです：
+主な変更点は以下の通りです:
 
 [h1]新しいマップ[/h1]
 [h3]Shoreline [オブジェクティブ] (by Sirdoggy)[/h3]
@@ -27,10 +27,10 @@
 [*]その他CPUパフォーマンスの改善
 [*]チャレンジとミューテーターの名前と説明を翻訳に対応
 
-[*]翻訳を更新：
+[*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます： [b]Blueberryy、Klowby、MakinDay、marcielcps、Plazehorta、RicecakeHuman[/b]
+[*]コミュニティの翻訳者に謝辞を述べます: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -68,24 +68,24 @@
 [*]"solid"キー値を直接設定するときの"物理的騒乱"バグを修正
 [*]優先キャリー角度が機能しない問題を修正 (#1509)
 [*]ゾンビの攻撃音のオーバーライドが機能しない問題を修正 (#1491)
-[*]FMOD： メモリ使用量を追跡するために使える、コンソールコマンドの"fmod_memstats"を追加
-[*]FMOD： 環境音にオクルージョンを追加
-[*]FMOD： 部分的なサウンド文字のサポートを追加 ('*' [ディスクから流れる] '#' [ドライミックス、どこでも再生可能、音楽の音量に影響される])
-[*]FMOD： 環境音の不正確な減衰を修正
-[*]MapHack： $respawn 関数の誤動作を修正し、元の位置で、元のままの entdata でエンティティを正しくリスポーンするようになった (#1089)
-[*]NMRObjective： 初回ロード時に、デフォルトの説明文が空のフィールドではなく、目標の名前に設定されるようになった
-[*]VScript： CAI_BaseNPC 関数の IsFrozen() を追加
-[*]VScript： CNMRiH_Objective 関数の GetObjectiveBoundary() と GetObjectiveBoundaryName() を追加 (#1495)
-[*]VScript： CNMRiH_ObjectiveManager 関数の GetCurrentObjective() を追加
-[*]VScript： DispatchParticleEffectByAttachment() 関数を追加
-[*]VScript： FMOD_PrecacheSound() 関数を追加
-[*]VScript： 粒子付着定数を追加
-[*]VScript： 非推奨の Enable/DisableEntityListening() 関数では、エンティティフックが常にリッスン状態になるように変更
-[*]VScript： 文字化けした値の文字列を返す CBaseEntity::GetKeyValue() 関数を修正
-[*]VScript： CNMRiH_Player::GetCarriedItems() が重複したターゲット名を持つカスタムアイテムを出力しない問題を修正
-[*]VScript： フックの"NPC_TranslateActivity"と"NPC_TranslateSchedule"が正しく動作しない問題を修正
-[*]VScript： ルールセットで検証された cvar を Convars 関数で設定できるようになりました
-[*]VScript： 関数がテーブルパラメーターの待機中にそれが得られない場合、クラッシュする代わりにエラーを返すように変更
+[*]FMOD: メモリ使用量を追跡するために使える、コンソールコマンドの"fmod_memstats"を追加
+[*]FMOD: 環境音にオクルージョンを追加
+[*]FMOD: 部分的なサウンド文字のサポートを追加 ('*' [ディスクから流れる] '#' [ドライミックス、どこでも再生可能、BGM音量に影響される])
+[*]FMOD: 環境音の不正確な減衰を修正
+[*]MapHack: $respawn 関数の誤動作を修正し、元の位置で、元のままの entdata でエンティティを正しくリスポーンするようになった (#1089)
+[*]NMRObjective: 初回ロード時に、デフォルトの説明文が空のフィールドではなく、目標の名前に設定されるようになった
+[*]VScript: CAI_BaseNPC 関数の IsFrozen() を追加
+[*]VScript: CNMRiH_Objective 関数の GetObjectiveBoundary() と GetObjectiveBoundaryName() を追加 (#1495)
+[*]VScript: CNMRiH_ObjectiveManager 関数の GetCurrentObjective() を追加
+[*]VScript: DispatchParticleEffectByAttachment() 関数を追加
+[*]VScript: FMOD_PrecacheSound() 関数を追加
+[*]VScript: 粒子付着定数を追加
+[*]VScript: 非推奨の Enable/DisableEntityListening() 関数では、エンティティフックが常にリッスン状態になるように変更
+[*]VScript: 文字化けした値の文字列を返す CBaseEntity::GetKeyValue() 関数を修正
+[*]VScript: CNMRiH_Player::GetCarriedItems() が重複したターゲット名を持つカスタムアイテムを出力しない問題を修正
+[*]VScript: フックの"NPC_TranslateActivity"と"NPC_TranslateSchedule"が正しく動作しない問題を修正
+[*]VScript: ルールセットで検証された cvar を Convars 関数で設定できるようになりました
+[*]VScript: 関数がテーブルパラメーターの待機中にそれが得られない場合、クラッシュする代わりにエラーを返すように変更
 
 [/list]
 [h2]サーバー管理者向けの変更[/h2]
