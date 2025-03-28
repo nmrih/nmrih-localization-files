@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">No More Room in Hell のアップデートがリリースされました。
 アップデートは No More Room in Hell を再起動すると自動的に適用されます。
-主な変更点は以下の通りです：
+主な変更点は以下の通りです:
 
-[b]3月19日の修正:[/b] ランナーの動作に関する問題を修正した専用サーバーのアップデートをリリースしました。
+[b]3月19日のホットフィックス:[/b] ランナーの動作に関する問題を修正した専用サーバーのアップデートをリリースしました。
 このアップデートはオプションですが、すべてのコミュニティ管理者はこのアップデートを適用することをお勧めします。
 
 [h2]追加[/h2]
@@ -22,10 +22,10 @@
 [*]ゾンビは、敵がすべて死亡したときに20秒間静止することがなくなりました。 代わりに、ゾンビは待機アニメーションを再生して移動します
 [*]ゾンビが敵に近づけない場合、再び隠れ場所を探そうとするようになりました
 
-[*]翻訳を更新：
+[*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます： [b]Atheist、Blueberryy、DouglasVarollo、Holy Crap、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta、RicecakeHuman、SkyAfterRain[/b]
+[*]コミュニティの翻訳者に謝辞を述べます: [b]Atheist, Blueberryy, DouglasVarollo, Holy Crap, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, SkyAfterRain[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -59,7 +59,7 @@
 [*]ゲームイベントの"player_use"を追加
 [*]ゲームイベントの"item_medical_start"と"item_medical_apply"を追加
 [*]キーフィールドの"Can Grab?"をゾンビに追加
-[*]エンティティの"func_zombie_spawn"にキーフィールドの"Ignore Room Size"を追加しました。 "Yes"に設定すると、ブラシは常にスポーンを再生成し、サイズに関係なく大きな部屋として扱われます (Overlord は、プレイヤーが一度小さな部屋を訪れるとそれ以上ゾンビをスポーンさせません)
+[*]エンティティの"func_zombie_spawn"にキーフィールドの"Ignore Room Size"を追加。 "Yes"に設定するとブラシは常にスポーンを再生成し、サイズに関係なく大きな部屋として扱われます (Overlord は、プレイヤーが一度小さな部屋を訪れるとそれ以上ゾンビをスポーンさせません)
 [*]エンティティの"nmrih_objective_boundary"にキーフィールドの"Show Compass Blip?"を追加 
 [*]武器のビューモデルとワールドモデルのオーバーライドにキーフィールドを追加 (#1547)
 [*]切断中のプレイヤーが死亡したときにエンティティの"filter_name"で発生するクラッシュを修正 (#1539)
@@ -68,27 +68,27 @@
 [*]エンティティ"item_inventory_box"の入力の"RemovedAllItems"が未分類のアイテムに対して機能しない問題を修正 (#1538)
 [*]サウンドファイルが見つからない場合にエンティティの"ambient_generic"が削除される問題を修正
 [*]パーティクルの降水が境界を超え、他の降水ブラシを上書きする問題を修正 (#1545)
-[*]FMOD： "ambient_generic"と"ambient_fmod"の相互互換性を追加し、"health"キーフィールドがボリュームとして認識されるようになりました
-[*]FMOD： エンティティの"ambient_fmod"にスポーンフラグの"Is NOT Occluded (障害物が音を消さない)"を追加しました
-[*]FMOD： ダイレクトファイル名にサウンド文字が適用されない問題を修正
-[*]FMOD： snd_show はエンジン音と同様に、より多くの情報を表示するようになりました
-[*]NMRObjective： 以前保存した境界よりも小さい境界を持つマップに NMOS ファイルをロードした後のクラッシュを修正しました
-[*]NMRObjective： NMOS ロード中に潜在的な問題が発生した場合に警告ダイアログを表示するようになりました
+[*]FMOD: "ambient_generic"と"ambient_fmod"の相互互換性を追加し、"health"キーフィールドがボリュームとして認識されるようになりました
+[*]FMOD: エンティティの"ambient_fmod"にスポーンフラグの"Is NOT Occluded (障害物が音を消さない)"を追加しました
+[*]FMOD: ダイレクトファイル名にサウンド文字が適用されない問題を修正
+[*]FMOD: snd_show はエンジン音と同様に、より多くの情報を表示するようになりました
+[*]NMRObjective: 以前保存した境界よりも小さい境界を持つマップに NMOS ファイルをロードした後のクラッシュを修正しました
+[*]NMRObjective: NMOS ロード中に潜在的な問題が発生した場合に警告ダイアログを表示するようになりました
 [*]スクリプトによる目標設定時など、目標テキストがある場合、ゲームモードに関係なく常に目標HUDが利用できるようになりました
-[*]VScript： CBaseEntity 関数の GetClassname() と SetClassname() を追加
-[*]VScript： CItem_InventoryBox 関数の AddItemAtIndex() と RemoveItem() と ItemAtPosition() を追加
-[*]VScript： CNMRiH_Player 関数の IsHoldingEntity() と GetHeldEntity() を追加
-[*]VScript： CObjective 関数の SetDescription() を追加
-[*]VScript： CObjectiveManager 関数の SendObjectiveNotify() を追加
-[*]VScript： ConCommand の "script_dump_scope" を追加
-[*]VScript： 関数の TracerEffect() と ParticleTracerEffect() を追加
-[*]VScript： 関数の VPhysicsInitNormal() と VPhysicsDestroyObject() を追加
-[*]VScript： 非推奨の CNMRiH_ObjectiveManager::GetCurrentObjectiveBoundary() 関数のレガシーサポートを追加し、既存のミューテーターとの互換性を修正
-[*]VScript： samisalreadytaken 提供の Squirrel debugger (sqdbg) を追加
-[*]VScript： エンティティスクリプトのスコープは削除時に自動的にクリアされるようになりました
-[*]VScript： CNavMesh::GetNavAreasInRadius() が不正確な結果を返す問題を修正 (#1546)
-[*]VScript： 様々なメモリリークを修正
-[*]VScript： Squirrel を最新バージョンに更新
+[*]VScript: CBaseEntity 関数の GetClassname() と SetClassname() を追加
+[*]VScript: CItem_InventoryBox 関数の AddItemAtIndex() と RemoveItem() と ItemAtPosition() を追加
+[*]VScript: CNMRiH_Player 関数の IsHoldingEntity() と GetHeldEntity() を追加
+[*]VScript: CObjective 関数の SetDescription() を追加
+[*]VScript: CObjectiveManager 関数の SendObjectiveNotify() を追加
+[*]VScript: ConCommand の "script_dump_scope" を追加
+[*]VScript: 関数の TracerEffect() と ParticleTracerEffect() を追加
+[*]VScript: 関数の VPhysicsInitNormal() と VPhysicsDestroyObject() を追加
+[*]VScript: 非推奨の CNMRiH_ObjectiveManager::GetCurrentObjectiveBoundary() 関数のレガシーサポートを追加し、既存のミューテーターとの互換性を修正
+[*]VScript: samisalreadytaken 提供の Squirrel debugger (sqdbg) を追加
+[*]VScript: エンティティスクリプトのスコープは削除時に自動的にクリアされるようになりました
+[*]VScript: CNavMesh::GetNavAreasInRadius() が不正確な結果を返す問題を修正 (#1546)
+[*]VScript: 様々なメモリリークを修正
+[*]VScript: Squirrel を最新バージョンに更新
 [/list]
 [h2]サーバー管理者向けの変更[/h2]
 [list]

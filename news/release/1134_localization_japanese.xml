@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">No More Room in Hell のアップデートがリリースされました。
 アップデートは No More Room in Hell を再起動すると自動的に適用されます。
-主な変更点は以下の通りです：
+主な変更点は以下の通りです:
 
-[b]10月6日 ホットフィックス：[/b] このアップデートはオプションですが、すべてのコミュニティ管理者はこのアップデートを適用することをお勧めします。
+[b]10月6日のホットフィックス:[/b] このアップデートはオプションですが、すべてのコミュニティ管理者はこのアップデートを適用することをお勧めします。
 
 [h2]追加[/h2]
 [list]
@@ -15,10 +15,10 @@
 [*]プレイヤーの近くにいるときのゾンビの能力チェックを最適化し、攻撃してくるゾンビが多いマップでのパフォーマンスを向上
 [*]混雑したマップでの待ち時間を減らすため、サーバーのネットワーク設定を微調整
 
-[*]翻訳を更新：
+[*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます： [b]Blueberryy、Klowby、MakinDay、marcielcps、Plazehorta[/b]
+[*]コミュニティの翻訳者に謝辞を述べます: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -44,23 +44,23 @@
 [*]ボーンフォロワーが存在する場合、ナビ生成時にクラッシュすることがあった問題を修正
 [*]クラス名を変更した改造ゾンビの死亡通知が正しく表示されなかった問題を修正
 [*]"nav_generate"が生成後に同じマップに戻らなかった問題を修正
-[*]以下のエンティティのエディションが不要になりました： env_soundscape、func_zombie_spawn
-[*]MapHack： サーバーのみのエンティティで$remove_allが動作しない問題を修正 (#1447)
-[*]MapHack： エンティティになる前の$edit_allでハングする問題を修正
-[*]VScript： CBaseEntity 関数の GetGroundEntity() と SetGroundEntity() を追加
-[*]VScript： CFuncZombieSpawn バインディングを追加
-[*]VScript： CFunc_SafeZone バインディングを追加
-[*]VScript： CNMRiH_BarricadePoint バインディングを追加
-[*]VScript： CNMRiH_HealthStationLocation バインディングを追加
-[*]VScript： COverlord_Zombie_Helper バインディングを追加
-[*]VScript： ナビメッシュの属性定数を追加
-[*]VScript： NavMesh 関数の NavAreaBuildPath() と GetNavAreasFromBuildPath() を追加
-[*]VScript： チーム定数を追加 (TEAM_ANY、TEAM_UNASSIGNED、など)
-[*]VScript： NavMeshメソッドを使用するとクラッシュすることがあった問題を修正
-[*]VScript： "logic_script"が所有していない関数を呼び出していた問題を修正
-[*]VScript： フックの"filter_script"同士がPassesDamageFilterをハイジャックしていたのを修正 (#1434)
-[*]VScript： 専用サーバーでデバッグオーバーレイを使用するとクラッシュする可能性がある問題を修正
-[*]VScript： サーバー専用エンティティがスクリプトのルートスコープを誤って使用していた問題を修正
+[*]以下のエンティティのエディションが不要になりました: env_soundscape、func_zombie_spawn
+[*]MapHack: サーバーのみのエンティティで$remove_allが動作しない問題を修正 (#1447)
+[*]MapHack: エンティティになる前の$edit_allでハングする問題を修正
+[*]VScript: CBaseEntity 関数の GetGroundEntity() と SetGroundEntity() を追加
+[*]VScript: CFuncZombieSpawn バインディングを追加
+[*]VScript: CFunc_SafeZone バインディングを追加
+[*]VScript: CNMRiH_BarricadePoint バインディングを追加
+[*]VScript: CNMRiH_HealthStationLocation バインディングを追加
+[*]VScript: COverlord_Zombie_Helper バインディングを追加
+[*]VScript: ナビメッシュの属性定数を追加
+[*]VScript: NavMesh 関数の NavAreaBuildPath() と GetNavAreasFromBuildPath() を追加
+[*]VScript: チーム定数を追加 (TEAM_ANY, TEAM_UNASSIGNED など)
+[*]VScript: NavMeshメソッドを使用するとクラッシュすることがあった問題を修正
+[*]VScript: "logic_script"が所有していない関数を呼び出していた問題を修正
+[*]VScript: フックの"filter_script"同士がPassesDamageFilterをハイジャックしていたのを修正 (#1434)
+[*]VScript: 専用サーバーでデバッグオーバーレイを使用するとクラッシュする可能性がある問題を修正
+[*]VScript: サーバー専用エンティティがスクリプトのルートスコープを誤って使用していた問題を修正
 [/list]
 [h2]サーバー管理者向けの変更[/h2]
 [list]

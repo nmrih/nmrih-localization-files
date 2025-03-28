@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">No More Room in Hell のアップデートがリリースされました。
 アップデートは No More Room in Hell を再起動すると自動的に適用されます。
-主な変更点は以下の通りです：
+主な変更点は以下の通りです:
 
 [h2]変更[/h2]
 [list]
@@ -13,10 +13,10 @@
 [*]スコアボードの"DEAD"ラベルを"DECEASED"に戻しました
 [*]サーバー側ワークショップのエラーメッセージがより分かりやすくなりました
 
-[*]翻訳ファイルを更新：
+[*]翻訳ファイルを更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます： Blueberryy、Holy Crap、Klowby、marcielcps、Plazehorta
+[*]コミュニティの翻訳者に謝辞を述べます: Blueberryy, Holy Crap, Klowby, marcielcps, Plazehorta
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -77,7 +77,7 @@
 [*]鍵、墓石、フロント受付の引っかかりが直され、アリサイズの小道具が取り除かれた
 [*]ナビゲーションメッシュを更新し、ゾンビの間抜けさを軽減
 [*]様々な細部の改善と雑多なバグ修正
-[*]スイカを救うことができるようになりました。 スイカレスキュー隊に深くお詫び申し上げます
+[*]スイカを救うことができるようになりました。 スイカ救助隊に深くお詫び申し上げます
 [/list]
 [h3]nmo_fema[/h3]
 [list]
