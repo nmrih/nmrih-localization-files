@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">No More Room in Hell のアップデートがリリースされました。
 アップデートは No More Room in Hell を再起動すると自動的に適用されます。
-主な変更点は以下の通りです：
+主な変更点は以下の通りです:
 
 [h2]追加[/h2]
 [list]
@@ -12,10 +12,10 @@
 [*]ダイナミックミュージックシステムにおけるテンション計算の改善 (#1482)
 [*]ランナー追跡時のダイナミックな音楽のプレイリストを調整し、イントロの長い曲をカット
 
-[*]翻訳を更新：
+[*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます： [b]Blueberryy、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta、RicecakeHuman、Uncut[/b]
+[*]コミュニティの翻訳者に謝辞を述べます: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, Uncut[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -40,11 +40,11 @@
 [*]"point_viewcontrol_multiplayer"で"Enable"入力が初めて実行されたとき、選択されたプレイヤーのカメラがオンにならなかったのを修正
 [*]移動速度補正が絶対的な最大速度をリセットしない問題を修正
 [*]ゾンビ入力の"BecomeShambler"が正しく動作しない問題を修正
-[*]FMOD： 環境音の可聴距離が改善され、"ambient_generic"により近くなりました
-[*]MapHack： キー値にマッチするエンティティを削除する関数の"$filter"を追加
-[*]MapHack： "$modify"が複数のキー値フィルタを無視する問題を修正 (#1474)
-[*]VScript： CConvars 関数の RegisterAdminCommand() を追加。 サーバー管理者のみが実行できるコンソールコマンドを作成できます
-[*]VScript： CItem_InventoryBox 関数の AllowEmpty() が正しく動作していなかった問題を修正
+[*]FMOD: 環境音の可聴距離が改善され、"ambient_generic"により近くなりました
+[*]MapHack: キー値にマッチするエンティティを削除する関数の"$filter"を追加
+[*]MapHack: "$modify"が複数のキー値フィルタを無視する問題を修正 (#1474)
+[*]VScript: CConvars 関数の RegisterAdminCommand() を追加。 サーバー管理者のみが実行できるコンソールコマンドを作成できます
+[*]VScript: CItem_InventoryBox 関数の AllowEmpty() が正しく動作していなかった問題を修正
 [/list]
 [h2]サーバー管理者向けの変更[/h2]
 [list]

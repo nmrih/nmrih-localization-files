@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">No More Room in Hell のアップデートがリリースされました。
 アップデートは No More Room in Hell を再起動すると自動的に適用されます。
-主な変更点は以下の通りです：
+主な変更点は以下の通りです:
 
 [h2]追加[/h2]
 [list]
 [*]ミューテーターの設定が追加され、ユーザーが選択したものを保存/ロードできるようになりました (#1459)
 [*]新しいゲームタイプ"ミニゲーム"を追加。 マップの接頭辞 mg_ でサポート
 [*]スコアボードに現在のマップ名とゲームタイプが表示されるようになりました
-[*]実験的機能： アイテムのピックアップ予測を追加。 cvarの"cl_predictpickup"で切り替え可能 (有効にすると、ピックアップされたアイテムはラグなくスムーズに移動する)
+[*]実験的機能: アイテムのピックアップ予測を追加。 cvarの"cl_predictpickup"で切り替え可能 (有効にすると、ピックアップされたアイテムはラグなくスムーズに移動する)
 [/list]
 [h2]変更[/h2]
 [list]
@@ -19,10 +19,10 @@
 [*]ナビゲーションメッシュ、ストリームオーディオ、音声ラインを圧縮することにより、インストールサイズを削減 (~685mb)
 [*]音による弾薬チェックがない武器は、常にHUDに情報が表示されるようになった (金づち、弓、チェーンソー)
 
-[*]翻訳を更新：
+[*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます： [b]Blueberryy、Klowby、MakinDay、marcielcps、MsLGXC、Plazehorta[/b]
+[*]コミュニティの翻訳者に謝辞を述べます: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -45,7 +45,7 @@
 [*]拳で攻撃する際の誤ったクローズドキャプションを修正 (#938)
 [*]以前のゾーンで、即座にスポーンされたゾンビの有効期限が切れず、オーバーロードによりゾンビの限界に達し、それ以上スポーンできなくなることがあったのを修正
 [*]インストラクターのヒントが、アクティベーター以外のプレイヤーに対して"No Caption Specified"と表示されていた問題を修正 (#1410)
-[*]高密度ゾーンでオーバーロードにより、スポーンするゾンビの量が不足していたのを修正 (例： Boardwalk の耐久セクション)
+[*]高密度ゾーンでオーバーロードにより、スポーンするゾンビの量が不足していたのを修正 (例: Boardwalk の耐久セクション)
 [*]クローズドキャプションのフェードアウト順序に関する問題を修正
 [*]レベル遷移を扱うサーバープラグインでレベル遷移が機能しなかった問題を修正
 [*]銃が空の状態で射撃ボタンを押し続けると、スプリントのアニメーションが欠けていたのを修正 (#59)
@@ -69,7 +69,7 @@
 [*]"ambient_fmod"に"SetSound"入力を追加
 [*]武器のインベントリプロパティのオーバーライドを追加 (アイコン、ラベル、重量)
 [*]"item_inventory_box"の背景テクスチャを変更するためのキーフィールドを追加 (#1296)
-[*]ファイルサイズを削減するためにナビゲーションメッシュの圧縮を追加しました。 既存のメッシュは"nav_compress"で再保存できます。 または、スイッチ"-compress"を既存の nav_ コマンドで使用できます (例： "nav_generate -compress")
+[*]ファイルサイズを削減するためにナビゲーションメッシュの圧縮を追加しました。 既存のメッシュは"nav_compress"で再保存できます。 または、スイッチ"-compress"を既存の nav_ コマンドで使用できます (例: "nav_generate -compress")
 [*]"random_spawner"に"OnItemSpawn"出力を追加
 [*]武器の"OnPlayerDrop"出力を追加
 [*]雨、吹雪、降雪、灰を含むパーティクル降水を追加 (Mapbaseから移植)
@@ -91,48 +91,48 @@
 [*]"trigger_keypad" "trigger_progress_use" と "trigger_progress_weapon" のエンティティの出力が、プレイヤーを!activatorとして設定しないよう修正 (#1454)
 [*]コントロール不能な"func_tracktrain"がプレイヤーの使用入力を盗んでいた問題を修正 (#1445)
 [*]アップロード中にマップをダウンロードしようとすると、ワークショップがロックされることがあった問題を修正
-[*]FMOD： 環境音サポートのオーバーホール
+[*]FMOD: 環境音サポートのオーバーホール
 [*]効率的なスポットライトの"spotlight_end"エンティティの無料化
 [*]Hammerのゲーム設定にエンティティ"npc_maker"を追加
 [*]"SetCauser"入力がすべてのエンティティを受け付けるようになり、プレイヤーである必要はなくなりました
-[*]NMRObjective： 境界線がvisgroupのメンバーでない場合、または境界線が存在しない場合に警告を表示する (#1302)
-[*]NMRObjective： ラインのドラッグ時のメモリリークを修正
-[*]NMRObjective： "Objectives"と"anti"のvisgroup名の大文字と小文字を区別しないようになりました
-[*]NMRObjective： Wikiのリンクの代わりにローカルヘルプドキュメントを使用するようになりました
-[*]NMRObjective： 最新のフォルダセレクターを使用
+[*]NMRObjective: 境界線がvisgroupのメンバーでない場合、または境界線が存在しない場合に警告を表示する (#1302)
+[*]NMRObjective: ラインのドラッグ時のメモリリークを修正
+[*]NMRObjective: "Objectives"と"anti"のvisgroup名の大文字と小文字を区別しないようになりました
+[*]NMRObjective: Wikiのリンクの代わりにローカルヘルプドキュメントを使用するようになりました
+[*]NMRObjective: 最新のフォルダセレクターを使用
 [*]"logic_script_proxy"エンティティのオーバーホール
-[*]VScript： CAI_BaseNPC 関数の Freeze() と Unfreeze() を追加
-[*]VScript： CAmbientFMOD バインディングを追加
-[*]VScript： CEnvScreenOverlayMultiplayer バインディングを追加
-[*]VScript： CEnvTimer バインディングを追加
-[*]VScript： CFuncZombieSpawn 関数の GetSpawnMax()、GetSpawnedCount()、GetSpawnedDead()、GetInterimMax()、GetSpawnDensity()、GetRegenTarget() と GetZombiesNeeded() を追加
-[*]VScript： CItem_AmmoBox 関数の GetAmmoType() を追加
-[*]VScript： CItem_InventoryBox 関数の IsDroppedByChopper()、IsUncategorized() と SetBackgroundTexture() を追加
-[*]VScript： CLogicProgress バインディングの追加
-[*]VScript： CNavMesh 関数の GetAllAreas() と GetNavAreasInRadius() を追加
-[*]VScript： CNMRiH_ItemCustom バインディングの追加
-[*]VScript： CNMRiH_Player 関数の GetCarriedItems()、Get/SetStamina()、Get/SetSpeedModifier()、Get/SetSpeedOverride()、IsDucking()、IsJumping() と IsSprinting() を追加
-[*]VScript： CNMRiH_WeaponBase 関数の GetWorldModelOverride()、SetWorldModelOverride()、ClearWorldModelOverride()、SetShootSoundOverride() と ClearShootSoundOverride() を追加
-[*]VScript： CObjectiveManager 組み合わせて使用する CObjective バインディングを追加
-[*]VScript： CObjectiveManager 関数の GetObjectiveById()、GetObjectiveByName()、GetObjectiveByIndex() と GetObjectiveChain() を追加
-[*]VScript： CPointMessageMultiplayer バインディングを追加
-[*]VScript： CPointViewControlMultiplayer バインディングを追加
-[*]VScript： CRandomSpawnController バインディングを追加
-[*]VScript： CRandom_Spawner バインディングを追加
-[*]VScript： CScriptNavArea 関数の GetHidingSpots()、IsCompletelyVisible() と IsPotentiallyVisible() を追加
-[*]VScript： CNETPropManager のデータマップのサポートを追加しました
-[*]VScript： CBaseAnimating に Glowable 関数を追加
-[*]VScript： アンダースコアのないキー値のメソッドを追加 (例： _KeyValueFromString の代わりに KeyValueFromString を優先する。 互換性は維持されます）
-[*]VScript： CNETPropManager が機能していなかったのを修正しました (#1427)
-[*]VScript： CScriptNavArea メソッドの IsCompletelyVisibleToTeam() および IsPotentiallyVisibleToTeam() でクラッシュする問題を修正しました
-[*]VScript： Linuxでエンティティのフックが呼び出されない問題を修正 (#1428)
-[*]VScript： CNMRiH_Player 関数の ThrowAllAmmo() の無限ループを修正
-[*]VScript： 関数呼び出し時のメモリリークを修正
-[*]VScript： OnDeath() NPCフックでエラーが発生する問題を修正 (#1313)
-[*]VScript： Mapbaseから様々な機能拡張を移植
-[*]VScript： 専用サーバーでは動作しないため、CLocalizeインスタンスを削除
-[*]VScript： "mapspawn_&lt;mapname&gt;.nut"という名前のスクリプトが、マップのinit時に実行されるようになりました
-[*]VScript： VMスタックの不整合が原因でサーバーがクラッシュした場合、エラーメッセージにコールスタックが表示されるようになりました
+[*]VScript: CAI_BaseNPC 関数の Freeze() と Unfreeze() を追加
+[*]VScript: CAmbientFMOD バインディングを追加
+[*]VScript: CEnvScreenOverlayMultiplayer バインディングを追加
+[*]VScript: CEnvTimer バインディングを追加
+[*]VScript: CFuncZombieSpawn 関数の GetSpawnMax(), GetSpawnedCount(), GetSpawnedDead(), GetInterimMax(), GetSpawnDensity(), GetRegenTarget() と GetZombiesNeeded() を追加
+[*]VScript: CItem_AmmoBox 関数の GetAmmoType() を追加
+[*]VScript: CItem_InventoryBox 関数の IsDroppedByChopper(), IsUncategorized() と SetBackgroundTexture() を追加
+[*]VScript: CLogicProgress バインディングの追加
+[*]VScript: CNavMesh 関数の GetAllAreas() と GetNavAreasInRadius() を追加
+[*]VScript: CNMRiH_ItemCustom バインディングの追加
+[*]VScript: CNMRiH_Player 関数の GetCarriedItems(), Get/SetStamina(), Get/SetSpeedModifier(), Get/SetSpeedOverride(), IsDucking(), IsJumping() と IsSprinting() を追加
+[*]VScript: CNMRiH_WeaponBase 関数の GetWorldModelOverride(), SetWorldModelOverride(), ClearWorldModelOverride(), SetShootSoundOverride() と ClearShootSoundOverride() を追加
+[*]VScript: CObjectiveManager 組み合わせて使用する CObjective バインディングを追加
+[*]VScript: CObjectiveManager 関数の GetObjectiveById(), GetObjectiveByName(), GetObjectiveByIndex() と GetObjectiveChain() を追加
+[*]VScript: CPointMessageMultiplayer バインディングを追加
+[*]VScript: CPointViewControlMultiplayer バインディングを追加
+[*]VScript: CRandomSpawnController バインディングを追加
+[*]VScript: CRandom_Spawner バインディングを追加
+[*]VScript: CScriptNavArea 関数の GetHidingSpots(), IsCompletelyVisible() と IsPotentiallyVisible() を追加
+[*]VScript: CNETPropManager のデータマップのサポートを追加しました
+[*]VScript: CBaseAnimating に Glowable 関数を追加
+[*]VScript: アンダースコアのないキー値のメソッドを追加 (例: _KeyValueFromString の代わりに KeyValueFromString を優先する。 互換性は維持されます）
+[*]VScript: CNETPropManager が機能していなかったのを修正しました (#1427)
+[*]VScript: CScriptNavArea メソッドの IsCompletelyVisibleToTeam() および IsPotentiallyVisibleToTeam() でクラッシュする問題を修正しました
+[*]VScript: Linuxでエンティティのフックが呼び出されない問題を修正 (#1428)
+[*]VScript: CNMRiH_Player 関数の ThrowAllAmmo() の無限ループを修正
+[*]VScript: 関数呼び出し時のメモリリークを修正
+[*]VScript: OnDeath() NPCフックでエラーが発生する問題を修正 (#1313)
+[*]VScript: Mapbaseから様々な機能拡張を移植
+[*]VScript: 専用サーバーでは動作しないため、CLocalizeインスタンスを削除
+[*]VScript: "mapspawn_&lt;mapname&gt;.nut"という名前のスクリプトが、マップのinit時に実行されるようになりました
+[*]VScript: VMスタックの不整合が原因でサーバーがクラッシュした場合、エラーメッセージにコールスタックが表示されるようになりました
 [/list]
 [h2]サーバー管理者向けの変更[/h2]
 [list]
@@ -141,8 +141,8 @@
 [*]cvarの"sv_remove_unreasonable_physics"を追加。 物理挙動で世界から落ちたエンティティを削除します
 [*]ルールセットのロード順序が変更され、ミューテーターがサーバー設定の前にロードされるようになりました
 [*]レベル遷移のサポートがデフォルトで有効になり、管理者が手動で切り替える必要がなくなりました
-[*]ワークショップ： ファイルシステムの呼び出しを削減することで更新を最適化
-[*]ワークショップ： 更新中に名前が変更された場合、以前のマップエントリーがリストから削除されるようになりました
+[*]ワークショップ: ファイルシステムの呼び出しを削減することで更新を最適化
+[*]ワークショップ: 更新中に名前が変更された場合、以前のマップエントリーがリストから削除されるようになりました
 [/list]
 [h1]マップ[/h1]
 
