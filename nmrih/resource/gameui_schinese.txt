@@ -53,6 +53,7 @@
 "NMRiH_Advanced_cl_stickyironsight"		"启用按下瞄准(关闭按住瞄准)"
 "NMRiH_Advanced_cl_voicesubtitles"		"启用聊天栏无线电语音指令显示"
 "NMRiH_Advanced_cl_ejectbrass"			"启用射击时退弹壳显示"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"启用手电筒阴影效果(expensive)"
 "NMRiH_Advanced_cl_muzzle_dlight"		"启用枪口火焰动态照明效果(expensive)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"关闭使用HTML的服务器每日消息"
 "NMRiH_Advanced_fov_allow_change"		"视野范围FOV可在游戏中被修改"
@@ -72,6 +73,10 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"碰撞冲击特效质量"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高(带碎片效果)"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低(无碎片效果)"
+"NMRiH_Advanced_cl_predictpickup"		"携带物延迟补偿"
+"NMRiH_Advanced_cl_predictpickup_0"		"不预测位置"
+"NMRiH_Advanced_cl_predictpickup_1"		"总是预测位置"
+"NMRiH_Advanced_cl_predictpickup_2"		"仅预测任务物品位置"
 
 "NMRiH_Difficulty"	"游戏难度"
 
@@ -87,7 +92,7 @@
 "NMRiH_GameType_Minigame"		"小游戏模式"
 
 "NMRiH_LAN"				"仅限局域网"
-"NMRiH_Coplay"			"使用 Coplay (Steam 网络)"
+"NMRiH_Coplay"			"使用 Steam 网络"
 
 "NMRiH_Difficulty_Tooltip"	"选择难度级别。\n经典：默认难度，并且能够使用复活点数。\n休闲：死亡后立即重生并在复活时附带初始武器。\n噩梦：丧尸的血量、数量以及感染几率均会增加。\nPvP：启用PvP记分牌以及死亡提示，并禁用丧尸生成和游戏任务。"
 "NMRiH_Map_Time_Tooltip"	"地图时间限制。"
@@ -96,7 +101,7 @@
 "NMRiH_RealismMode_Tooltip"	"您将无法在写实模式中复活，并且丧尸只会受到爆头伤害。无论弹药类型如何，所有的爆头都是一击必杀。"
 "NMRiH_HardcoreSurvival_Tooltip"	"该模式将隐藏您的HUD菜单。"
 "NMRiH_Max_Players_Tooltip"	"玩家人数限制，最大为8人。设置为1则进行单人游戏。"
-"NMRiH_Coplay_Tooltip"	"Coplay 提供了 Steam 网络 P2P 连接的实现，这移除了联机对于端口映射的要求。"
+"NMRiH_Coplay_Tooltip"	"使用 Steam 网络进行 P2P 连接，这移除了联机对于端口映射的要求。"
 "NMRiH_AdvOptions"	"扩展设置..."
 "NMRiH_AdvOptions_Tooltip"	"编辑游戏的扩展设置。"
 
