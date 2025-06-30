@@ -11,7 +11,7 @@
 [/list]
 [h2]更動[/h2]
 [list]
-[*]用戶端啟用 "whole program optimization"，這可能會明顯改善全局效能
+[*]用戶端啟用 "whole program optimization"，這可能會稍微改善全局效能
 [*]改善在殭屍密集的地圖中伺服器的效能
 [*]最佳化插件瀏覽器和工作坊支援，改善效能
 [*]最佳化全局 CPU 使用量，改善在低階機器上的效能
@@ -32,7 +32,7 @@
 [*]修正了掉落的武器阻擋殭屍的問題，它們現在會找到新路徑 （#1544）
 [*]修正了殭屍 "face best sound" 的閒置卡頓問題
 [*]修正了由於不正確的徘徊路徑而導致的殭屍「潤滑」不一致的問題，他們現在應該更頻繁地切換碰撞體積
-[*]修正了本機玩家死亡時布娃娃擺出的T-POSE問題
+[*]修正了本機玩家死亡時布娃娃擺出的 T-POSE 問題
 [*]修正了在選擇對話方塊中載入配置後不重置可變狀態的問題
 [*]修正了當沒有存活玩家在場時 NPC 移動卡頓的問題
 [*]修正了玩家布娃娃對子彈衝擊沒有正確反應的問題 （#1503）
@@ -56,20 +56,20 @@
 [*]新增 game events "item_medical_start" 和 "item_medical_apply"
 [*]新增 keyfield "Can Grab?" 給殭屍
 [*]新增 keyfield "Ignore Room Size" 給 entity "func_zombie_spawn"，當設定為 'Yes'時，brush將始終重新生成，並且無論大小如何，都被視為一個大房間（一旦玩家進入了小房間，Overlord 就不會為小房間生成更多殭屍）
-[*]新增 keyfield "Show Compass Blip?" to entity "nmrih_objective_boundary"
+[*]新增 keyfield "Show Compass Blip?" 給 entity "nmrih_objective_boundary"
 [*]新增 keyfields 給武器模型與世界模型覆蓋 (#1547)
 [*]修正了 entity "filter_name" 當一個斷開連線的玩家死亡時發生的崩潰 (#1539)
-[*]修正了與具有父級點實體的移動brush碰撞時發生的崩潰 (#1527)
+[*]修正了與具有父級點實體的移動 brush 碰撞時發生的崩潰 (#1527)
 [*]修正了 entity "item_custom" 禁用移動時因缺少 VPhysics 對象而崩潰
 [*]修正了 entity "item_inventory_box" 輸入 "RemovedAllItems" 不適用於未分類的專案 (#1538)
 [*]修正了當 「ambient_generic」 實體的聲音檔丟失時會被刪除的疏忽
-[*]修復了粒子沉澱超出其邊界並覆蓋其他沉澱brush的問題 （#1545）
+[*]修復了粒子沉澱超出其邊界並覆蓋其他沉澱 brush 的問題 （#1545）
 [*]FMOD: 新增 "ambient_generic" 和 "ambient_fmod" 的交叉相容性，"health" keyfield 現在被認定為 volume
 [*]FMOD: 新增 spawnflag "Is NOT Occluded (Obstructions won't muffle sound)" 到 entity "ambient_fmod"
 [*]FMOD: 修正了聲音字元未應用於直接檔名的問題
-[*]FMOD: snd_show 現在可顯示更多資訊，和engine sound相似
+[*]FMOD: snd_show 現在可顯示更多資訊，和 engine sound 相似
 [*]NMRObjective: 修復了在界限少於之前保存的地圖上載入NMOS檔案後發生的崩潰問題
-[*]NMRObjective: 現在在NMOS載入期間出現潛在問題時，會提示一個警告對話框
+[*]NMRObjective: 現在在 NMOS 載入期間出現潛在問題時，會提示一個警告對話框
 [*]現在只要我們有目標字串，無論遊戲模式如何，目標 HUD 都會始終可用，例如在腳本化目標期間
 [*]VScript: 新增 CBaseEntity functions GetClassname()，和 SetClassname()
 [*]VScript: 新增 CItem_InventoryBox functions AddItemAtIndex(), RemoveItem(), ItemAtPosition()
@@ -79,7 +79,7 @@
 [*]VScript: 新增 ConCommand "script_dump_scope"
 [*]VScript: 新增 functions TracerEffect()，和 ParticleTracerEffect()
 [*]VScript: 新增 functions VPhysicsInitNormal()，和 VPhysicsDestroyObject()
-[*]VScript: 新增對已遭淘汰的 function CNMRiH_ObjectiveManager::GetCurrentObjectiveBoundary()的舊版支援，修正了一些與現有 mutator 的相容性
+[*]VScript: 新增對已遭淘汰的 function CNMRiH_ObjectiveManager::GetCurrentObjectiveBoundary() 的舊版支援，修正了一些與現有 mutator 的相容性
 [*]VScript: 新增 Squirrel debugger (sqdbg), 由 samisalreadytaken 提供
 [*]VScript: 現在實體腳本範圍在刪除時會自動清除
 [*]VScript: 修正了 CNavMesh::GetNavAreasInRadius() 返回不準確的結果 (#1546)
@@ -88,7 +88,7 @@
 [/list]
 [h2]為伺服器管理者進行的更動[/h2]
 [list]
-[*]新增 cvar "ai_legacy"，以執行1.14.0以前的 AI 行為，用於舊版遊戲體驗
+[*]新增 cvar "ai_legacy"，以執行 1.14.0 以前的 AI 行為，用於舊版遊戲體驗
 [*]新增 cvar "sv_first_draw_activity"，顯示初始拔槍動畫，例如，拉回手槍的擊錘
 [*]新增 cvar "sv_ng_zombie_drop_grenade"，國民警衛隊殭屍死亡時可以掉落手榴彈作為戰利品
 [*]新增 cvar "sv_zombie_chase_enemy_on_barricade_fail"， 如果障礙破壞計劃失敗，殭屍應是否嘗試追擊敵人
@@ -102,7 +102,7 @@
 [*]新增 cvar "sv_zombie_fix_bite_damage"，修正如果殭屍正在咬敵人，則只對他們造成傷害
 [*]新增 cvar "sv_zombie_fix_dawdle"，失去敵人後的標準行為等待 20 秒，是否改為執行空閒循環
 [*]新增 cvar "sv_zombie_fix_falling_loot"、修正殭屍掉落的物品穿過地面
-[*]新增 cvar "sv_zombie_fix_hitbox_offset"，修正殭屍的碰撞箱偏移一個的問題（在 v1.11.0 中引入的bug）
+[*]新增 cvar "sv_zombie_fix_hitbox_offset"，修正殭屍的碰撞箱偏移一個的問題（在 v1.11.0 中引入的 bug）
 [*]新增 cvar "sv_zombie_fix_physobj_distance"，殭屍傾向返回物體，即使那些物體距離太遠，這樣可以解決這個問題
 [*]新增 cvar "sv_zombie_fix_rise_collision"，修正轉化殭屍在起身時卡住玩家的問題
 [*]新增 cvar "sv_zombie_standoff_on_chase_enemy_fail"，執行「對峙」例程而不是追丟敵人之後徘徊，需要 “sv_zombie_take_cover_from_enemy 0”
@@ -115,7 +115,7 @@
 [h3]nmo_rockpit[/h3]
 [list]
 [*]更改了滅火器的目標，以便在取消互動後保存進度
-[*]直升機撤離時間增加30秒
+[*]直升機撤離時間增加 30 秒
 [*]略微增加了 instructor 的超時時間
 [*]將重生點中的油罐移到更靠近出口的地方
 [/list]

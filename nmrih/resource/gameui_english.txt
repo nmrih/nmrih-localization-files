@@ -53,6 +53,7 @@
 "NMRiH_Advanced_cl_stickyironsight"		"Enable toggable ironsights"
 "NMRiH_Advanced_cl_voicesubtitles"		"Enable voice subtitles in chat"
 "NMRiH_Advanced_cl_ejectbrass"			"Enable ejecting bullet casings/shotgun shells"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"Enable flashlight shadows (expensive)"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Enable Dynamic Lighting for Muzzle Flashes (expensive)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Disable HTML MOTD"
 "NMRiH_Advanced_fov_allow_change"		"FOV can be altered by gameplay"
@@ -72,6 +73,10 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"Impact effect quality"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"High, with debris"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Low, no debris"
+"NMRiH_Advanced_cl_predictpickup"		"Carried object lag compensation"
+"NMRiH_Advanced_cl_predictpickup_0"		"Don't predict position"
+"NMRiH_Advanced_cl_predictpickup_1"		"Always predict position"
+"NMRiH_Advanced_cl_predictpickup_2"		"Only predict objective items"
 
 "NMRiH_Difficulty"	"Difficulty"
 
@@ -87,7 +92,7 @@
 "NMRiH_GameType_Minigame"		"Minigame"
 
 "NMRiH_LAN"				"LAN Only"
-"NMRiH_Coplay"			"Use Coplay (Steam Networking)"
+"NMRiH_Coplay"			"Use Steam Networking"
 
 "NMRiH_Difficulty_Tooltip"	"Choose a difficulty level.\nClassic: Default options, respawn points active.\nCasual: Always respawn, weapons given on spawn.\nNightmare: Zombie health, density and infection chance increased.\nPvP: Enables PvP scoring and deathnotices, disables zombies and objectives."
 "NMRiH_Map_Time_Tooltip"	"Map time limit."
@@ -96,7 +101,7 @@
 "NMRiH_RealismMode_Tooltip"	"In Realism mode, respawns are disabled, zombies only take headshot damage, and all headshots are 1-hit-kill regardless of ammo type."
 "NMRiH_HardcoreSurvival_Tooltip"	"Hides the HUD in survival mode."
 "NMRiH_Max_Players_Tooltip"	"Player limit, with maximum of 8. Set to 1 for solo play."
-"NMRiH_Coplay_Tooltip"	"Coplay provides an implementation of Steam Networking for peer-to-peer connections. This removes the port forwarding requirement."
+"NMRiH_Coplay_Tooltip"	"Use Steam Networking for peer-to-peer connections. This removes the port forwarding requirement."
 "NMRiH_AdvOptions"	"Extended Options..."
 "NMRiH_AdvOptions_Tooltip"	"Edit extended game options."
 

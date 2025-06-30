@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell のアップデートがリリースされました。
+アップデートは No More Room in Hell を再起動すると自動的に適用されます。
+主な変更点は以下の通りです:
+
+[h2]追加[/h2]
+[list]
+[*]オフラインでのソロプレイのサポートを強化しました。 "サーバー作成"ダイアログで最大プレイヤーを"1"にすることで利用可能になります
+[/list]
+[h2]修正[/h2]
+[list]
+[*]ランナーの挙動に関する問題を修正。 以前はランナーが意図せず素早く旋回し、プレイヤーを捕まえてしまうことがありました (このパッチは1.14.1の以前のホットフィックスで適用されています)
+[*]特定のマップで弾痕や血しぶきなどが消える原因となっていた、ラウンド再スタート時のデカールオーバーフローを修正
+[*]フリーズ中のNPCが無敵だったのを修正
+[*]ゲームがネットワークのパケットロスに見舞われた際、スナイパースコープのオーバーレイが非表示になることがあった問題を修正
+[/list]
+[h2]マップとMOD制作者向けの変更[/h2]
+[list]
+[*]エンティティの"point_worldtext"を追加。 ワールドの原点にテキストメッセージを表示します
+[*]脱出中にcvarの"sv_freeze_zombies_on_spawn"が強制的に設定され、ルールセットが無効になる可能性がある問題を修正
+[*]エンティティの"filter_activator_name"による不適切なフィルタリング動作を修正
+[*]装備した"item_custom"が動くプロップのドアと衝突したときに稀に発生するクラッシュを修正
+[*]ラウンド再スタート時に静的デカールが誤って再出現し、最終的にデカールの制限を超えてしまう問題を修正。 ターゲット名を持つ動的デカールは変更されません
+[*]ゾンビの攻撃を妨害する"npc_bullseye"エンティティではなく、プレイヤーをターゲットにしていた問題を修正
+[*]FMOD: マップによってパックされたサウンドファイルがプリキャッシュされず、クライアントがサーバーに参加したときに聞こえなくなる問題を修正
+[*]Ruleset: スクリプトに"Include"キーワードを追加
+[*]VScript: CBaseAnimating 関数の GetModelScale() と SetModelScale() を追加
+[*]VScript: CNavMesh 関数の FindNavAreaAlongRay(), GetAreasWithAttributes(), GetNavAreasOverlappingEntityExtent(), GetObstructingEntities(), NavAreaTravelDistance() を追加
+[*]VScript: CNMRiH_Player 関数の IsInBarricadingMode() と IsPlacingBoard() を追加
+[*]VScript: CPointWorldText バインディングを追加
+[*]VScript: CNavMesh 関数の GetNavAreasFromBuildPath(startArea, goalArea, goalPos ...) で"goalArea"にnullパラメータを指定できるようになり、"goalPos"にできるだけ近い道を計算できるようになりました
+[*]VScript: CConvars 関数が最適化され、スクリプトやルールセットによって登録されたcvarの値の取得がより効率的になりました
+[/list]
+[h2]サーバー管理者向けの変更[/h2]
+[list]
+
+[*]cvar経由でアイテムを禁止する機能を追加しました:
+[list]
+
+[*]cvarの"sv_ban_items"を追加。 これは「,」区切り文字を使用した禁止アイテムエンティティのリストです (例: "sv_ban_items me_fubar,exp_tnt,item_pills")
+[*]cvarの"sv_ban_items_on_entities"を追加。 これはルーズエンティティ(マップ制作者によって配置されたアイテムなど)に禁止アイテムリストを適用します
+[*]cvarの"sv_ban_items_on_random_spawners"を追加。 ランダムスポナーに禁止アイテムリストを適用します
+[*]cvarの"sv_ban_items_on_supplies"を追加。 補給箱に禁止アイテムリストを適用します
+[*]cvarの"sv_ban_items_override"を追加。 マップやスクリプトなどで使用するために、禁止リストを有効化するルールセットを追加しました
+[/list]
+
+[*]サーバーがコミュニティのプレイスタイルに影響を与える可能性のある変更をロールバックできるようにするために、"legacy cvars"の最初のバッチを追加しました (ゾンビの動作に関連するcvarは、1.14.1以前に追加されています)
+[list]
+
+[*]cvarの"sv_barricade_sounds"を追加。 板が破損したときに衝撃音を再生します
+[*]cvarの"sv_bow_fix_wallbang"を追加。 弓で壁を貫通して撃つことができる問題を修正します
+[*]cvarの"sv_bullet_impulse"を追加。 弾丸の衝撃を有効化し、弾薬の種類に応じてラグドールのノックバックがより目立つようになります
+[*]cvarの"sv_cancel_throw_drop"を追加。 しまった後にドロップキーを押したままにすると、投擲のチャージ度合いが保持される不具合を修正します
+[*]cvarの"sv_chainsaw_fix_charge_glitch"を追加。 チェーンソーをチャージして追加ダメージを与えることができるバグを修正します
+[*]cvarの"sv_chainsaw_fix_use_entity_glitch"を追加。 補給箱などを使用しているときにチェーンソーの燃料が無限になるバグを修正します
+[*]cvarの"sv_dropallammo"を追加。 ラジアルホイールで右クリックをすると、すべての弾薬をドロップできます
+[*]cvarの"sv_etool_allow_shove_during_switch"を追加。 軍用シャベルのモード切り替え中、プレイヤーが押しのけを行えるようにします
+[*]cvarの"sv_extinguisher_use_distance"を追加。 プレイヤーが消火器を使うとき、進行トリガーにどれだけ近づかなければならないかを設定できます
+[*]cvarの"sv_flame_legacy"を追加。 炎によるキルのレガシートラッキング (v1.12.3以前)
+[*]cvarの"sv_flare_gun_apply_radius_damage"を追加。 発射物がプロップ、窓、プレイヤー/NPCなどに影響を与える小さな爆発を発生させるかどうかを決める
+[*]cvarの"sv_flare_gun_fix_oob_supply_drop"を追加。 箱がプレイヤーの位置に落下し、境界外への侵入を回避する
+[*]cvarの"sv_flare_gun_passthrough_glass"を追加。 発射物がガラスを通過し、接触しても爆発しなくなる
+[*]cvarの"sv_flare_gun_passthrough_player"を追加。 フレンドリーファイアがオフの場合、発射物がプレイヤーを貫通するようになる
+[*]cvarの"sv_grenade_angular_impulse_max"を追加。 投げた手榴弾に回転する力を加える
+[*]cvarの"sv_grenade_angular_impulse_min"を追加。 同上
+[*]cvarの"sv_grenade_infect_bypass"を追加。 感染したプレイヤーが爆発で死んでも変化しなくなる
+[*]cvarの"sv_gunshot_suicide"を追加。 銃での自殺を許可する
+[*]cvarの"sv_hide_ammo_hud_on_fire"を追加。 射撃後に弾薬HUDを隠す
+[*]cvarの"sv_initial_sprint_stamina_penalty"を追加。 スプリント開始時にどれだけスタミナを消費するかを決める
+[*]cvarの"sv_item_pickup_sound"を追加。 アイテムを拾ったときにサウンドを再生
+[*]cvarの"sv_medical_allow_use_underwater"を追加。 水中での回復アイテムの使用を許可する
+[*]cvarの"sv_medical_audible_sounds"を追加。 他のプレイヤーが回復アイテムの使用音を聞くことができる
+[*]cvarの"sv_medical_instant_apply"を追加。 回復アイテムが即座に効果を発揮するようになる (v1.07をエミュレート)
+[*]cvarの"sv_melee_impact_style"を追加。 0 = なし, 1 = クラシック, 2 = パーティクルが円弧を描く
+[*]cvarの"sv_molotov_always_burn"を追加。 火炎瓶がどこに当たっても必ず炎上させる
+[*]cvarの"sv_npc_frozen_death_immunity"を追加。 フリーズ中のNPCが死亡しなくなる。 v1.14.1の不具合をエミュレートします
+[*]cvarの"sv_npc_goal_repath_tolerance"を追加。 初期値の120.0は、ランナーゾンビが動いているプレイヤーを捕まえるのを防ぎます
+[*]cvarの"sv_player_bullet_force_accumulator"を追加。 プレイヤーのラグドールに弾丸の力を適用する
+[*]cvarの"sv_player_death_music"を追加。 死亡時に曲を鳴らす
+[*]cvarの"sv_player_duck_on_crawler_grab"を追加。 クロウラーに掴まれたとき、プレイヤーがしゃがむようにする
+[*]cvarの"sv_player_fix_hitbox_desync"を追加。 上と下を見ているときのヒットボックスの同期ずれを修正する
+[*]cvarの"sv_player_follow_ragdoll"を追加。 プレイヤーの死亡時にカメラがラグドールを追跡する
+[*]cvarの"sv_player_grab_ff_immunity"を追加。 捕まれているプレイヤーがフレンドリーファイアを受けなくなる
+[*]cvarの"sv_player_spawn_sound"を追加。 プレイヤーのスポーン時にローカルサウンドを再生する
+[*]cvarの"sv_player_water_splash"を追加。 プレイヤーが水面に水しぶきを発生させる
+[*]cvarの"sv_realism_fix_bullet_penetration"を追加。 リアリズムモードで弾丸が貫通しない問題を修正する
+[*]cvarの"sv_realism_fix_crawler_damage"を追加。 デフォルトではクロウラーのヒットボックスへの当てづらさを考慮し、身体へのダメージが0にならないようにする
+[*]cvarの"sv_shove_allow_during_firemode_change"を追加。 射撃モードの切り替え中にプレイヤーが押しのけられるようにする
+[*]cvarの"sv_shove_allow_during_ironsight"を追加。 エイム開始/終了アニメーション中にプレイヤーが押しのけることを許可する
+[*]cvarの"sv_shove_allow_during_pickup"を追加。 プレイヤーがプロップを持ちながら押しのけることを許可する
+[*]cvarの"sv_shove_drain_stamina_on_world_hit"を追加。 押しのけがワールドに当たった場合、スタミナを消耗する
+[*]cvarの"sv_shove_stab_sound"を追加。 バヨネット付きSKSで押しのけたときに突き刺し音を再生する
+[*]cvarの"sv_suicide_disallow_while_using"を追加。 進行トリガーの使用中に自殺しようとすることを禁止する
+[*]cvarの"sv_suicide_infect_score"を追加。 感染中に銃で自殺した場合のスコアを決める
+[*]cvarの"sv_suicide_play_impact_sound"を追加。 銃で自殺したときに衝撃音を再生する
+[*]cvarの"sv_voicecmd_common_sounds"を追加。 出血などの一般的な音に、隠し音声コマンドを使用する
+[*]cvarの"sv_voicesubtitles"を追加。 チャットで音声字幕を有効にする
+[*]cvarの"sv_weapon_unload"を追加。 銃器のアンロードを許可する
+[*]cvarの"sv_zippo_extinguish_underwater"を追加。 ジッポは水中では消え、点火できなくなる
+[*]cvarの"sv_zombie_always_attack_bullseye"を追加。 ゾンビは npc_bullseyes を障害物とみなさなくなる。 v1.14.1の不具合をエミュレートします
+[*]cvarの"sv_zombie_pound_sound"を追加。 ゾンビがバリケード、プロップ、壁などを叩くときに衝撃音を出す
+[/list]
+
+[/list]
+[h1]マップ[/h1]
+
+[h3]nmo_shoreline[/h3]
+[list]
+[*]キャビンのメインエントランスのドアにバリケードポイントを追加
+[*]キャビン入口階段上のピクセルウォークを修正しました
+[*]小さなビジュアルを変更
+[*]ゾンビのスポーンとナビゲーションを微調整
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">1.14.2 アップデートをリリース</string></content>
