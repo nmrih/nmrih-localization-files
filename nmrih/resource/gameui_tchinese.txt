@@ -53,6 +53,7 @@
 "NMRiH_Advanced_cl_stickyironsight"	"啟用切換式瞄準"
 "NMRiH_Advanced_cl_voicesubtitles"	"啟用聊天室語音字幕"
 "NMRiH_Advanced_cl_ejectbrass"		"啟用彈殼彈出"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"啟用手電筒陰影 (耗費效能)"
 "NMRiH_Advanced_cl_muzzle_dlight"	"啟用槍口動態光線 (耗費效能)"
 "NMRiH_Advanced_cl_disablehtmlmotd"	"停用 HTML 本日訊息"
 "NMRiH_Advanced_fov_allow_change"	"視角寬度可在遊戲中變化"
@@ -72,6 +73,10 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"彈著點特效品質"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高，有殘骸效果"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低，無殘骸效果"
+"NMRiH_Advanced_cl_predictpickup"		"舉起物件延遲補償"
+"NMRiH_Advanced_cl_predictpickup_0"		"不預判位置"
+"NMRiH_Advanced_cl_predictpickup_1"		"永遠預判位置"
+"NMRiH_Advanced_cl_predictpickup_2"		"僅預判目標物件"
 
 "NMRiH_Difficulty"	"難易度"
 
@@ -87,7 +92,7 @@
 "NMRiH_GameType_Minigame"		"小遊戲"
 
 "NMRiH_LAN"	"僅限區域網路"
-"NMRiH_Coplay"			"使用 Coplay (Steam 網路)"
+"NMRiH_Coplay"			"使用 Steam 網路"
 
 "NMRiH_Difficulty_Tooltip"		"選擇一個難易度。\n經典：標準設定，重生點啟用。\n休閒：持續重生，重生時給予武器。\n惡夢：增加殭屍生命值、密集度與感染風險。\n對戰：開啟對戰分數與死亡訊息並關閉殭屍與目標。"
 "NMRiH_Map_Time_Tooltip"		"地圖時間限制。"
@@ -96,7 +101,7 @@
 "NMRiH_RealismMode_Tooltip"		"在寫實模式中，重生點將被停用、殭屍只有頭部會受到傷害，且不論何種彈藥均能一發爆頭。"
 "NMRiH_HardcoreSurvival_Tooltip"	"隱藏生存模式中的抬頭顯示。"
 "NMRiH_Max_Players_Tooltip"		"玩家人數限制，至多 8 人，設為 1 人即可單人進行遊戲。"
-"NMRiH_Coplay_Tooltip"	"Coplay 可藉由 Steam 網路進行 P2P 連線。有利於移除通訊埠轉發 (Port fowarding) 的需求。"
+"NMRiH_Coplay_Tooltip"	"以 Steam 網路進行 P2P 連線。有利於移除通訊埠轉發 (Port fowarding) 的需求。"
 "NMRiH_AdvOptions"			"進階選項…"
 "NMRiH_AdvOptions_Tooltip"		"編輯進階遊戲選項。"
 
