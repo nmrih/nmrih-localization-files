@@ -53,6 +53,7 @@
 "NMRiH_Advanced_cl_stickyironsight"		"Habilitar alternância da mira"
 "NMRiH_Advanced_cl_voicesubtitles"		"Habilitar legendas de voz no bate-papo"
 "NMRiH_Advanced_cl_ejectbrass"			"Habilitar ejetar cartuchos de bala/cartuchos de espingarda"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"Habilitar sombras da lanterna (pesado)"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Habilitar iluminação dinâmica para luzes de disparo (pesado)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Desabilitar HTML MOTD"
 "NMRiH_Advanced_fov_allow_change"		"O FOV pode ser alterado pela jogabilidade"
@@ -72,6 +73,10 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"Impacto na qualidade do efeito"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Alta, com detritos"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Baixo, sem detritos"
+"NMRiH_Advanced_cl_predictpickup"		"Compensação de lag de objetos carregados"
+"NMRiH_Advanced_cl_predictpickup_0"		"Não predizer posição"
+"NMRiH_Advanced_cl_predictpickup_1"		"Sempre predizer posição"
+"NMRiH_Advanced_cl_predictpickup_2"		"Apenas predizer itens de objetivos"
 
 "NMRiH_Difficulty"	"Dificuldade"
 
@@ -87,7 +92,7 @@
 "NMRiH_GameType_Minigame"		"Minigame"
 
 "NMRiH_LAN"				"Apenas LAN"
-"NMRiH_Coplay"			"Usar Coplay (Rede Steam)"
+"NMRiH_Coplay"			"Usar Rede Steam"
 
 "NMRiH_Difficulty_Tooltip"		"Escolha um nível de dificuldade.\nClássico: opções padrão, pontos de renascimento ativos.\nCasual: Sempre renasce, armas dadas na geração.\nPesadelo: Saúde, densidade e chance de infecção do zumbi aumentam.\nPvP: Ativa pontuação PvP e avisos de morte, zumbis e objetivos desativados."
 "NMRiH_Map_Time_Tooltip"					"Limite de tempo do mapa."
