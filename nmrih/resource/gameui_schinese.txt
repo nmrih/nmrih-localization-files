@@ -73,7 +73,7 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"碰撞冲击特效质量"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高(带碎片效果)"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低(无碎片效果)"
-"NMRiH_Advanced_cl_predictpickup"		"携带物延迟补偿"
+"NMRiH_Advanced_cl_predictpickup"		"搬运物品延迟补偿"
 "NMRiH_Advanced_cl_predictpickup_0"		"不预测位置"
 "NMRiH_Advanced_cl_predictpickup_1"		"总是预测位置"
 "NMRiH_Advanced_cl_predictpickup_2"		"仅预测任务物品位置"
