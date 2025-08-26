@@ -76,7 +76,7 @@
 "NMRiH_Advanced_cl_predictpickup"		"Компенсация задержки переносимого предмета"
 "NMRiH_Advanced_cl_predictpickup_0"		"Не предсказывать положение"
 "NMRiH_Advanced_cl_predictpickup_1"		"Всегда предсказывать положение"
-"NMRiH_Advanced_cl_predictpickup_2"		"Только предсказывать предметы заданий"
+"NMRiH_Advanced_cl_predictpickup_2"		"Предсказывать только предметы заданий"
 
 "NMRiH_Difficulty"		"Сложность"
 
