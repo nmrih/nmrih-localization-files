@@ -91,8 +91,17 @@
 "NMRiH_GameType_PVP"			"PvP"
 "NMRiH_GameType_Minigame"		"Minigame"
 
+"NMRiH_Server"				"Tipo"
+"NMRiH_Server_Solo"			"Um Jogador"
+"NMRiH_Server_LAN"			"Rede Local"
+"NMRiH_Server_Public"		"Público"
+"NMRiH_Server_FriendsOnly"	"Apenas Amigos"
+"NMRiH_Server_Unlisted"		"Não Listado"
+
 "NMRiH_LAN"				"Apenas LAN"
 "NMRiH_Coplay"			"Usar Rede Steam"
+
+"NMRiH_Server_Tooltip"	"Escolha um tipo de servidor (para Rede Steam):\nUm Jogador: Jogue offline.\nRede Local: Para hospedar um jogo em LAN.\nPúblico: Para hospedar um jogo público.\nApenas Amigos: Jogo somente para amigos convidados.\nNão Listado: Ocultar no navegador de servidores."
 
 "NMRiH_Difficulty_Tooltip"		"Escolha um nível de dificuldade.\nClássico: opções padrão, pontos de renascimento ativos.\nCasual: Sempre renasce, armas dadas na geração.\nPesadelo: Saúde, densidade e chance de infecção do zumbi aumentam.\nPvP: Ativa pontuação PvP e avisos de morte, zumbis e objetivos desativados."
 "NMRiH_Map_Time_Tooltip"					"Limite de tempo do mapa."
