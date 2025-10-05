@@ -73,7 +73,7 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"碰撞冲击特效质量"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高(带碎片效果)"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低(无碎片效果)"
-"NMRiH_Advanced_cl_predictpickup"		"携带物延迟补偿"
+"NMRiH_Advanced_cl_predictpickup"		"搬运物位置预测"
 "NMRiH_Advanced_cl_predictpickup_0"		"不预测位置"
 "NMRiH_Advanced_cl_predictpickup_1"		"总是预测位置"
 "NMRiH_Advanced_cl_predictpickup_2"		"仅预测任务物品位置"
@@ -91,8 +91,17 @@
 "NMRiH_GameType_PVP"			"PvP模式"
 "NMRiH_GameType_Minigame"		"小游戏模式"
 
+"NMRiH_Server"				"类型"
+"NMRiH_Server_Solo"			"单人游戏"
+"NMRiH_Server_LAN"			"本地局域网"
+"NMRiH_Server_Public"		"公开"
+"NMRiH_Server_FriendsOnly"	"仅限好友"
+"NMRiH_Server_Unlisted"		"不公开"
+
 "NMRiH_LAN"				"仅限局域网"
 "NMRiH_Coplay"			"使用 Steam 网络"
+
+"NMRiH_Server_Tooltip"	"选择服务器类型 (适用于 Steam 网络):\n单人游戏: 进行离线游戏.\n本地局域网: 在局域网上创建游戏.\n公开: 创建公开游戏.\n仅限好友: 仅限好友邀请的游戏.\n不公开: 在服务器列表中隐藏."
 
 "NMRiH_Difficulty_Tooltip"	"选择难度级别。\n经典：默认难度，并且能够使用复活点数。\n休闲：死亡后立即重生并在复活时附带初始武器。\n噩梦：丧尸的血量、数量以及感染几率均会增加。\nPvP：启用PvP记分牌以及死亡提示，并禁用丧尸生成和游戏任务。"
 "NMRiH_Map_Time_Tooltip"	"地图时间限制。"
