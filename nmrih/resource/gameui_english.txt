@@ -73,7 +73,7 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"Impact effect quality"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"High, with debris"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Low, no debris"
-"NMRiH_Advanced_cl_predictpickup"		"Carried object lag compensation"
+"NMRiH_Advanced_cl_predictpickup"		"Carried object prediction"
 "NMRiH_Advanced_cl_predictpickup_0"		"Don't predict position"
 "NMRiH_Advanced_cl_predictpickup_1"		"Always predict position"
 "NMRiH_Advanced_cl_predictpickup_2"		"Only predict objective items"
@@ -91,8 +91,17 @@
 "NMRiH_GameType_PVP"			"PvP"
 "NMRiH_GameType_Minigame"		"Minigame"
 
+"NMRiH_Server"				"Type"
+"NMRiH_Server_Solo"			"Single Player"
+"NMRiH_Server_LAN"			"Local Network"
+"NMRiH_Server_Public"		"Public"
+"NMRiH_Server_FriendsOnly"	"Friends Only"
+"NMRiH_Server_Unlisted"		"Unlisted"
+
 "NMRiH_LAN"				"LAN Only"
 "NMRiH_Coplay"			"Use Steam Networking"
+
+"NMRiH_Server_Tooltip"	"Choose a server type (for Steam Networking):\nSingle Player: Play a game offline.\nLocal Network: Host a game on LAN.\nPublic: Host a public game.\nFriends Only: Invite-only game for friends.\nUnlisted: Hide in the browser."
 
 "NMRiH_Difficulty_Tooltip"	"Choose a difficulty level.\nClassic: Default options, respawn points active.\nCasual: Always respawn, weapons given on spawn.\nNightmare: Zombie health, density and infection chance increased.\nPvP: Enables PvP scoring and deathnotices, disables zombies and objectives."
 "NMRiH_Map_Time_Tooltip"	"Map time limit."
