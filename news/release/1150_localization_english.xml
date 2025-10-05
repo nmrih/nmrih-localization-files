@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[h2]Source Engine upgrade[/h2]
+[list]
+[*]Added 64-bit support, 64-bit binaries will automatically be launched on systems with a 64-bit OS
+[*]Added a borderless window option to video settings
+[*]Added bicubic lightmaps (from Half-Life 2: 20th Anniversary Update)
+[*]Added radial fog (from Half-Life 2: 20th Anniversary Update)
+[*]Added Steam Networking, port forwarding is no longer required
+[*]Added UI scaling for high-resolution screens
+[*]Fixed a prediction bug where if the player was moved on the client, their input-based movement for that tick was not taken into account in non-player actions
+[*]Fixed an issue where certain variables like position would not be updated correctly to match the server in certain situations
+[*]Fixed certain breakable props not gibbing correctly
+[*]Fixed player hull being mis-predicted in certain instances causing rollbacks every frame when e.g. crouching or against a wall
+[*]Fixed the player's base velocity (e.g. conveyors, moving items etc.) getting subtly out of sync from client/server
+[*]Improved networking precision for local player positions, resulting in less prediction errors and better game-feel
+[*]Improved prediction for walking on props and other entities
+[*]Made the game launch in native resolution by default instead of 640x480
+[/list]
+[h2]Additions[/h2]
+[list]
+[*]Added a menu in the Create Server dialog that selects a server type for Steam Networking, allowing public / friends-only / unlisted servers without port forwarding
+[*]Added ability to pause the game when playing in Single Player mode
+[*]Added carried object prediction settings to advanced options
+[*]Added cvar "cl_allow_particle_precipitation", when off, it converts particle rain/snow to default variants on maps that use them
+[/list]
+[h2]Changes[/h2]
+[list]
+[*]Carried objective items, weapons, and medical items now move smoothly with lag (by default, via carried object prediction)
+[*]Certain HUD elements such as player names are now hidden during suicide blackout
+[*]ConVar "viewmodel_fov" is now saved to user config
+[*]Flashlight shadows are now independent from "High" shadow quality, and can be enabled in the advanced options (off by default to reduce engine crashes)
+[*]Optimized network bandwidth on player and zombie movement
+[*]Optimized zombie performance even further on crowded maps
+[*]Revised voice status icons over player heads to be more readable in darker maps
+[*]Updated the localization files:
+[list]
+
+[*]With thanks to community translators: [b]Atheist, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]Want to localize NMRiH to your own language? [url=https://github.com/nmrih/nmrih-localization-files]Visit our localization repository on GitHub.[/url]
+[/list]
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed ironsights not being turned off when contemplating suicide
+[*]Fixed particle rain collision, contributed by BigHatMarley (#1579)
+[*]Fixed zombie idle vocalization cutting short on longer moans
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added custom zombie model pools, which can be controlled by cvars prefixed with "sv_zombie_models"
+[*]Added "ent_minsmaxs" command, prints entity bounding box in a MapHack friendly format
+[*]Added entity "npc_nmrih_basezombie", base class for a generic zombie, useful for custom zombies
+[*]Added entity "skybox_swapper", swaps 2D skybox material
+[*]Added "HeadSplit" input for zombies (#1569)
+[*]Added hull override keyfield to zombies
+[*]Added input "RevertAllMapCvars" to entity "logic_ruleset", it reverts all cvars that were changed by an active map to a base value (when available), or default, it doesn't revert difficulty / script / mutator changes
+[*]Added keyfield "Despawn Ignore Population" to entity "func_zombie_spawn", by default, zombies only despawn when zone population is over the maximum, even when they're unseen; when set to 'No', it uses classic behavior where visited zones keep max. zombies, when set to 'Yes', it always despawns unseen zombies
+[*]Added keyfield "Ignore Zombie Rules" to zombies, when true, game rules will treat them as a generic NPC
+[*]Added line break support to entity "point_message_multiplayer"
+[*]Added missing spawnflags to entity "point_viewcontrol_multiplayer"
+[*]Added outputs "OnBarricade" and "OnBreak" to entity "nmrih_barricade"
+[*]Added support for barricade prop model override
+[*]Added support for filtering model rendering on specific clients
+[*]Fixed dynamic "logic_progress" always completing on "StopProgress"
+[*]Fixed entity "logic_script_proxy" calls not working on global scope when using instances
+[*]Fixed entity "logic_script_proxy" not accepting null for input "SetTargetEntity"
+[*]Fixed parented model attachments on NPCs being misaligned
+[*]Fixed runners spawned via BecomeRunner not randomizing their collision groups
+[*]Fixed sparks sound on buttons not playing
+[*]FGD: Customized "base.fgd" is now shipped with "nmrih.fgd", to replace class overrides and dependency for base SDK
+[*]MapHack: Fixed collision bounds on spawned brush entities
+[*]VScript: Added CBaseAnimating functions SetPlayerDrawFilter(), and DrawFilterAllPlayers(), when set to true, this model won't be visible for the given player
+[*]VScript: Added CBaseEntity hook OnTakeDamage, this hook is designed as a mutable replacement for filter_script's PassesFinalDamageFilter, incoming damage info can be modified before it's applied, returning 'false' will discard received damage
+[*]VScript: Added CNMRiH_BarricadePoint function SetModelOverride()
+[*]VScript: Added CNMRiH_Player function DidGunshotSuicide()
+[*]VScript: Added CNMRiH_Player hooks OnWeaponDrop, OnWeaponEquip, and OnWeaponSwitch
+[*]VScript: Added consistent rand() and RAND_MAX across platforms
+[*]VScript: Added constants for NMRiH button masks, collision groups, and damage types
+[*]VScript: Added CScriptNavArea functions GetAdjacentAreas(), and GetAdjacentCount()
+[*]VScript: Added functions TraceEntity(), and TraceHull()
+[*]VScript: Added support for trace filter hit entity callbacks on TraceLineEx(), TraceHull(), and TraceEntity(), via "callback" value that expects a function with single argument for params, e.g. "function ShouldHitEntity(params)" where 'params' have keys: entity, contentsmask; returned value filters the hit entity
+[*]VScript: Class CScriptNavArea now has string representation (i.e. "[&lt;ID&gt;] Area")
+[*]VScript: Fixed CNMRiH_Player function IsTalkingWalkie() always returning 'false'
+[*]VScript: Fixed crash when passing null values to TraceLineEx() function
+[*]VScript: Fixed function SetActivity() allowing ACT_INVALID, which caused a crash
+[*]VScript: Fixed hooks NPC_TranslateActivity and NPC_TranslateSchedule not checking invalid return types
+[/list]
+[h2]Changes for server admins[/h2]
+[list]
+[*]Added ability to modify zombie model pools, controlled by cvars "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng", and "sv_zombie_models_runner", models are set with ',' delimiter relative to models/nmr_zombie/*.mdl (or direct filename)
+[*]Added cvar "ov_despawn_ignore_population", by default zombies only despawn when zone population is over the maximum, set to 0 for vanilla behavior where visited zones keep max. zombies, or 1 that always despawns unseen zombies (#1562)
+[*]Added cvar "sv_runner_randomize_collision_group", runners always switch collision groups (grease) on spawn, when 0 and paired with BecomeRunner, this emulates bugged behavior pre-v1.15.0
+[*]Added cvar "sv_zombie_brainstem_dmg_scale", zombies take this factor of brainstem hitbox damage (if sv_brainstem is set to 1)
+[*]Added cvars to tweak zombie vocalization, "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit", and "sv_zombie_moan_freq_random" (vanilla behavior unchanged)
+[*]Added new method of randomizing zombie models by shuffling a model pool and pulling entries from it, this can be controlled with cvar "sv_zombie_shuffle_models"
+[*]Game state commands (such as "respawnplayer") now support SteamIDs and partial name matches as arguments
+[/list]
+[h1]Maps[/h1]
+
+[h3]nmo_asylum[/h3]
+[list]
+[*]Fixed leg part softlock (#1565)
+[*]Fixed weird glitch artifact on a ceiling brush
+[/list]
+[h3]nmo_broadway2[/h3]
+[list]
+[*]Added clips for smooth movement in the last ladder extraction area
+[*]Tweaked escape rope "ladder" brush to be less confusing (#1533)
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]Reduced damage time from the canister explosion
+[/list]
+[h3]nmo_chinatown[/h3]
+[list]
+[*]Fixed fade distance value being too close on a Gun Shop extinguisher prop
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Added glow for lever base
+[*]Added power box prop in one of the houses to hide a seeping tree through a wall
+[*]Fixed softlock when lever is dropped into the electric puddle (#1537)
+[*]Fixed softlock when objective items are thrown out of reach (#1548)
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Fixed barricade spots at the end of the map not working (#1561)
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Fixed missing X mark on the brick cemetery wall
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Fixed fade distance value on some props in the house being too close
+[/list]
+[h3]nms_northway[/h3]
+[list]
+[*]Fixed fade distance value on extinguisher prop being too close
+[/list]
+</string><string id="subtitle">Featuring 64-bit support, Steam Networking, latest Source Engine, and more!</string><string id="summary">No more port forwarding! Create your public and friends-only games effortlessly with Steam Networking, while taking advantage of the latest Source Engine features.</string><string id="title">NMRiH Networking Update (1.15) Released</string></content>
