@@ -73,7 +73,7 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"彈著點特效品質"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高，有殘骸效果"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低，無殘骸效果"
-"NMRiH_Advanced_cl_predictpickup"		"舉起物件延遲補償"
+"NMRiH_Advanced_cl_predictpickup"		"舉起物件預判"
 "NMRiH_Advanced_cl_predictpickup_0"		"不預判位置"
 "NMRiH_Advanced_cl_predictpickup_1"		"永遠預判位置"
 "NMRiH_Advanced_cl_predictpickup_2"		"僅預判目標物件"
@@ -91,8 +91,17 @@
 "NMRiH_GameType_PVP"		"對戰"
 "NMRiH_GameType_Minigame"		"小遊戲"
 
+"NMRiH_Server"				"類型"
+"NMRiH_Server_Solo"			"單人遊戲"
+"NMRiH_Server_LAN"			"區域網路"
+"NMRiH_Server_Public"		"公開"
+"NMRiH_Server_FriendsOnly"	"僅限好友"
+"NMRiH_Server_Unlisted"		"不公開"
+
 "NMRiH_LAN"	"僅限區域網路"
 "NMRiH_Coplay"			"使用 Steam 網路"
+
+"NMRiH_Server_Tooltip"	"選擇一個伺服器類別 (Steam 網路):\n單人遊戲：進行離線遊戲。\n區域網路：主持一個區域網路遊戲。\n公開：主持一個公開遊戲。\n僅限好友：僅限邀請的遊戲。\n不公開：不列在伺服器瀏覽器上。"
 
 "NMRiH_Difficulty_Tooltip"		"選擇一個難易度。\n經典：標準設定，重生點啟用。\n休閒：持續重生，重生時給予武器。\n惡夢：增加殭屍生命值、密集度與感染風險。\n對戰：開啟對戰分數與死亡訊息並關閉殭屍與目標。"
 "NMRiH_Map_Time_Tooltip"		"地圖時間限制。"
