@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">Uma atualização para No More Room in Hell foi lançada. A atualização será aplicada automaticamente quando você reiniciar o No More Room in Hell. As principais mudanças incluem:
+
+[h2]Atualização da Source Engine[/h2]
+[list]
+[*]Adicionado suporte a 64-bit, binários 64-bit serão iniciados automaticamente em sistemas com S.O. de 64 bits
+[*]Adicionado opção de vídeo em janela sem bordas
+[*]Adicionado Mapa de luz bicúbico (do Half-Life 2: 20th Anniversary Update)
+[*]Adicionado Neblina radial (do Half-Life 2: 20th Anniversary Update)
+[*]Adicionado Rede Steam, o redirecionamento de porta não é mais necessário
+[*]Adicionado Escala de IU para telas de alta resolução
+[*]Corrigido um bug de previsão onde, se o jogador fosse movido no cliente, o movimento baseado em entrada para aquele tick não era levado em conta em ações não relacionadas ao jogador
+[*]Corrigido um problema onde certas variáveis, como a posição, não eram atualizadas corretamente para corresponder ao servidor em determinadas situações
+[*]Corrigido certos props quebráveis que não se despedaçavam corretamente
+[*]Corrigido a previsão incorreta da hitbox do jogador em certas instâncias, causando reversões a cada frame ao agachar ou encostar em uma parede, por exemplo
+[*]Corrigida a velocidade base do jogador (por exemplo, esteiras, itens em movimento, etc.) que estava ficando sutilmente dessincronizada entre o cliente e o servidor
+[*]Melhorada a precisão da rede para as posições do jogador local, resultando em menos erros de previsão e uma experiência de jogo mais fluida
+[*]Melhorada a previsão para caminhar sobre props e outras entidades
+[*]Feito o jogo iniciar em resolução nativa por padrão, em vez de 640x480
+[/list]
+[h2]Adições[/h2]
+[list]
+[*]Adicionado um menu no diálogo de Criar Servidor que seleciona o tipo de servidor para Rede Steam, permitindo servidores públicos / somente para amigos / não listados sem necessidade de redirecionamento de porta
+[*]Adicionada a capacidade de pausar o jogo ao jogar no modo de Um Jogador
+[*]Adicionadas configurações de previsão de objetos carregados às opções avançadas
+[*]Adicionado o cvar "cl_allow_particle_precipitation". Quando desativado, converte as partículas de chuva/neve em variantes padrão em mapas que as utilizam
+[/list]
+[h2]Mudanças[/h2]
+[list]
+[*]Itens, armas e itens médicos que são carregados no modo objetivo agora se movem suavemente com latência (por padrão, via previsão de objetos carregados)
+[*]Agora, alguns elementos da HUD, como nomes de jogadores, ficam ocultos durante o efeito de suicídio
+[*]O ConVar "viewmodel_fov" agora é salvo na configuração do usuário
+[*]Sombras da lanterna agora são independentes da qualidade de sombra "Alta" e podem ser ativadas nas opções avançadas (desativadas por padrão para reduzir crashes da engine)
+[*]Otimizado o uso de banda de rede para movimento de jogadores e zumbis
+[*]Otimizado ainda mais o desempenho de zumbis em mapas lotados
+[*]Ícones de status de voz sobre as cabeças dos jogadores foram revisados para serem mais legíveis em mapas mais escuros
+[*]Arquivos de localização atualizados:
+[list]
+
+[*]Agradecimentos aos tradutores da comunidade: [b]Atheist, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]Quer traduzir o NMRiH para o seu idioma? [url=https://github.com/nmrih/nmrih-localization-files]Visite nosso repositório de localização no GitHub.[/url]
+[/list]
+[/list]
+[h2]Correções[/h2]
+[list]
+[*]Corrigido o problema em que a mira não era desativada ao considerar o suicídio
+[*]Corrigida a colisão das partículas de chuva, contribuição de BigHatMarley (#1579)
+[*]Corrigida a vocalização ociosa dos zumbis que era cortada durante gemidos mais longos
+[/list]
+[h2]Mudanças para mappers e modders[/h2]
+[list]
+[*]Adicionados conjuntos de modelos de zumbis personalizados, que podem ser controlados por variáveis de console (cvars) prefixadas com "sv_zombie_models"
+[*]Adicionado o comando "ent_minsmaxs", que imprime a caixa delimitadora da entidade em um formato compatível com o MapHack
+[*]Adicionada a entidade "npc_nmrih_basezombie", classe base para um zumbi genérico, útil para zumbis personalizados
+[*]Adicionada a entidade "skybox_swapper", troca o material da skybox 2D
+[*]Adicionado input "HeadSplit" para zumbis (#1569)
+[*]Adicionado campo-chave de substituição de hitbox para zumbis
+[*]Adicionada entrada "RevertAllMapCvars" à entidade "logic_ruleset", que reverte todas as variáveis de console (cvars) alteradas por um mapa ativo para um valor base (quando disponível) ou padrão. Não reverte alterações de dificuldade, script ou mutador
+[*]Adicionado campo-chave "Despawn Ignore Population" à entidade "func_zombie_spawn". Por padrão, os zumbis só despawnam quando a população da zona está acima do máximo, mesmo quando não estão visíveis. Quando definido para "No", usa o comportamento clássico em que zonas visitadas mantêm o máximo de zumbis. Quando definido para "Yes", sempre despawna zumbis não visíveis
+[*]Adicionado campo-chave "Ignore Zombie Rules" para zumbis. Quando ativado, as regras do jogo os tratarão como um NPC genérico
+[*]Adicionado suporte a quebras de linha à entidade "point_message_multiplayer"
+[*]Adicionadas flags de spawn ausentes à entidade "point_viewcontrol_multiplayer"
+[*]Adicionadas saídas "OnBarricade" e "OnBreak" à entidade "nmrih_barricade"
+[*]Adicionado suporte para substituição de modelo de adereço de barricada
+[*]Adicionado suporte para filtrar a renderização de modelos em clientes específicos
+[*]Corrigido problema em que o "logic_progress" dinâmico sempre era concluído ao "StopProgress"
+[*]orrigidas chamadas da entidade "logic_script_proxy" que não funcionavam no escopo global ao usar instâncias
+[*]Corrigida entidade "logic_script_proxy" para aceitar nulo como entrada para "SetTargetEntity"
+[*]Corrigidos anexos de modelo parentais em NPCs desalinhados.
+[*]Corrigido problema em que corredores criados via "BecomeRunner" não randomizavam seus grupos de colisão
+[*]Corrigido problema em que o som de faíscas em botões não era reproduzido
+[*]FGD: O "base.fgd" personalizado agora é fornecido junto com o "nmrih.fgd", para substituir as substituições de classe e a dependência do SDK base
+[*]MapHack: Corrigidos limites de colisão em entidades de brush criadas
+[*]VScript: Adicionadas funções CBaseAnimating SetPlayerDrawFilter() e DrawFilterAllPlayers(), quando definidas como true, este modelo não será visível para o jogador especificado
+[*]VScript: Adicionado hook OnTakeDamage à CBaseEntity, este hook foi projetado como uma substituição mutável para o PassesFinalDamageFilter do filter_script, permitindo modificar as informações de dano recebido antes de aplicá-las, retornando 'false' para descartar o dano recebido
+[*]VScript: Adicionada função SetModelOverride() à CNMRiH_BarricadePoint
+[*]VScript: Adicionada função DidGunshotSuicide() à CNMRiH_Player
+[*]VScript: Adicionados hooks OnWeaponDrop, OnWeaponEquip e OnWeaponSwitch à CNMRiH_Player
+[*]VScript: Adicionada implementação consistente de rand() e RAND_MAX em todas as plataformas
+[*]VScript: Adicionadas constantes para máscaras de botões, grupos de colisão e tipos de dano do NMRiH
+[*]VScript: Adicionadas funções GetAdjacentAreas() e GetAdjacentCount() à CScriptNavArea
+[*]VScript: Adicionadas funções TraceEntity() e TraceHull()
+[*]VScript: Adicionado suporte a callbacks de filtro de acerto de entidade em TraceLineEx(), TraceHull() e TraceEntity(), via valor "callback" que espera uma função com um único argumento 'params', por exemplo, "function ShouldHitEntity(params)" onde 'params' tem as chaves: entity, contentsmask; o valor retornado filtra a entidade atingida
+[*]VScript: A classe CScriptNavArea agora tem representação em string (i.e. "[&lt;ID&gt;] Area")
+[*]VScript: Corrigida a função IsTalkingWalkie() da classe CNMRiH_Player que sempre retornava 'false'
+[*]VScript: Corrigido crash ao passar valores nulos para a função TraceLineEx()
+[*]VScript: Corrigida a função SetActivity() que permitia ACT_INVALID, causando crash
+[*]VScript: Corrigidos os hooks NPC_TranslateActivity e NPC_TranslateSchedule que não verificavam tipos de retorno inválidos
+[/list]
+[h2]Mudança para administrador de servidor[/h2]
+[list]
+[*]Adicionada capacidade de modificar pools de modelos de zumbis, controlados pelas variáveis de configuração "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng" e "sv_zombie_models_runner". Os modelos são definidos com delimitador ',' em relação a models/nmr_zombie/*.mdl (ou nome de arquivo direto)
+[*]Adicionada variável de configuração "ov_despawn_ignore_population". Por padrão, zumbis apenas são removidos quando a população da zona está acima do máximo. Defina como 0 para comportamento padrão, onde zonas visitadas mantêm o máximo de zumbis, ou 1 para sempre remover zumbis não visíveis (#1562)
+[*]Adicionada variável de configuração "sv_runner_randomize_collision_group". Os corredores (runners) sempre mudam de grupo de colisão (grease) ao spawnar quando ativado. Quando definido como 0 e emparelhado com BecomeRunner, isso emula o comportamento com bug anterior à versão 1.15.0
+[*]Adicionada variável de configuração "sv_zombie_brainstem_dmg_scale". Zumbis recebem esse fator de dano da hitbox do tronco cerebral (se sv_brainstem estiver definido como 1).
+[*]Adicionadas variáveis de configuração para ajustar a vocalização de zumbis: "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit" e "sv_zombie_moan_freq_random" (comportamento padrão inalterado)
+[*]Adicionado novo método de randomizar modelos de zumbis, embaralhando um conjunto de modelos e selecionando entradas dele. Isso pode ser controlado com a variável de configuração "sv_zombie_shuffle_models"
+[*]Comandos de estado do jogo (como "respawnplayer") agora suportam SteamIDs e correspondências parciais de nomes como argumentos.
+[/list]
+[h1]Mapas[/h1]
+
+[h3]nmo_asylum[/h3]
+[list]
+[*]Corrigido travamento na parte da perna (#1565)
+[*]Corrigido artefato estranho de glitch em um brush de teto
+[/list]
+[h3]nmo_broadway2[/h3]
+[list]
+[*]Adicionados clips para movimento suave na última escada na área de extração
+[*]Ajustado brush de "escada" da corda de escape para ser menos confuso. (#1533)
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]Reduzido tempo de dano da explosão do canister
+[/list]
+[h3]nmo_chinatown[/h3]
+[list]
+[*]Corrigido valor de distância de fade muito próximo no prop de extintor da Gun Shop
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Adicionada iluminação para a base da alavanca
+[*]Adicionada caixa de energia em uma das casas para ocultar uma árvore que estava aparecendo através da parede
+[*]Corrigido travamento quando a alavanca é solta na poça elétrica (#1537)
+[*]Corrigido travamento quando itens de objetivo são jogados fora do alcance (#1548)
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Corrigido pontos de barricada no final do mapa que não funcionavam (#1561)
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Corrigido marca X ausente na parede de tijolos do cemitério
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Corrigido valor de distância de fade em alguns objetos da casa muito próximo
+[/list]
+[h3]nms_northway[/h3]
+[list]
+[*]Corrigido valor de distância de fade no extintor muito próximo
+[/list]
+</string><string id="subtitle">Com suporte a 64 bits, Rede Steam, Source Engine mais recente e muito mais!</string><string id="summary">Sem mais encaminhamento de portas! Crie jogos públicos e para amigos com facilidade usando a Rede Steam, aproveitando os recursos mais recentes da Engine Source.</string><string id="title">Atualização de Rede NMRiH (1.15) Disponível!</string></content>
