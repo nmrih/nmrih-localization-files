@@ -73,7 +73,7 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"Эффекты при ударе объекта"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Высок. качество, с частицами"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Низк. качество, без частиц"
-"NMRiH_Advanced_cl_predictpickup"		"Компенсация задержки переносимого предмета"
+"NMRiH_Advanced_cl_predictpickup"		"Предсказывать положение переносимого предмета"
 "NMRiH_Advanced_cl_predictpickup_0"		"Не предсказывать положение"
 "NMRiH_Advanced_cl_predictpickup_1"		"Всегда предсказывать положение"
 "NMRiH_Advanced_cl_predictpickup_2"		"Предсказывать только предметы заданий"
@@ -91,8 +91,17 @@
 "NMRiH_GameType_PVP"			"Игрок против игрока"
 "NMRiH_GameType_Minigame"		"Мини-игры"
 
+"NMRiH_Server"				"Тип"
+"NMRiH_Server_Solo"			"Одиночная игра"
+"NMRiH_Server_LAN"			"Локальная сеть"
+"NMRiH_Server_Public"		"Открытый"
+"NMRiH_Server_FriendsOnly"	"Только для друзей"
+"NMRiH_Server_Unlisted"		"Скрытый"
+
 "NMRiH_LAN"				"Только лок. сеть"
 "NMRiH_Coplay"			"Сетевые функции Steam"
+
+"NMRiH_Server_Tooltip"	"Выберите тип сервера (для сетевых функций Steam):\nОдиночная игра: Играть без сети.\nЛокальная сеть: Создать игру по лок. сети.\nОткрытый: Доступен в списке серверов.\nТолько для друзей: Игра только для приглашенных друзей.\nСкрытый: Не показывается в списке серверов."
 
 "NMRiH_Difficulty_Tooltip"		"Выбрать уровень сложности.\nКлассика: стандартные настройки, есть точки возрождения.\nСвободный: постоянное возрождение, оружие выдаётся при возрождении.\nКошмар: здоровье зомби, их количество и шанс заражения увеличены.\nИгрок против игрока: очки набираются путём убийства других игроков. Показываются значки убийств, нет зомби и заданий."
 "NMRiH_Map_Time_Tooltip"		"Количество времени на одну карту."
