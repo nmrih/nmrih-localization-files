@@ -18,7 +18,7 @@
 [*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta[/b]
+[*]コミュニティ翻訳者の皆様に感謝します: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -36,7 +36,7 @@
 [*]移動の親に補給物資を取り付けた際、使用距離がチェックされなかった問題を修正
 [*]ワークショップのアドオンが、配信停止後にアドオンマネージャーのリストから適切に削除されない問題を修正
 [/list]
-[h2]マップとMOD制作者向けの変更[/h2]
+[h2]マップおよびMOD制作者向けの変更[/h2]
 [list]
 [*]コンソールコマンドの"script_execute"にオートコンプリートを追加
 [*]ワークショップパブリッシャーに"限定公開"の表示オプションを追加 (#1351)

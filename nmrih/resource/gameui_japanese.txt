@@ -73,7 +73,7 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"衝撃エフェクトの品質"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高、破片有り"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低、破片無し"
-"NMRiH_Advanced_cl_predictpickup"		"持ち運びオブジェクトのラグ補正"
+"NMRiH_Advanced_cl_predictpickup"		"持ち運びオブジェクトの予測"
 "NMRiH_Advanced_cl_predictpickup_0"		"位置の予測なし"
 "NMRiH_Advanced_cl_predictpickup_1"		"常に位置を予測"
 "NMRiH_Advanced_cl_predictpickup_2"		"目標アイテムのみ位置を予測"
@@ -91,8 +91,17 @@
 "NMRiH_GameType_PVP"			"対戦"
 "NMRiH_GameType_Minigame"		"ミニゲーム"
 
+"NMRiH_Server"				"タイプ"
+"NMRiH_Server_Solo"			"シングルプレイ"
+"NMRiH_Server_LAN"			"ローカル通信"
+"NMRiH_Server_Public"		"公開"
+"NMRiH_Server_FriendsOnly"	"フレンド限定"
+"NMRiH_Server_Unlisted"		"非公開"
+
 "NMRiH_LAN"				"LANのみ"
 "NMRiH_Coplay"			"Steam ネットワーキングを使用"
+
+"NMRiH_Server_Tooltip"	"サーバータイプを選択してください (Steam ネットワーキング用)：\nシングルプレイ： ゲームをオフラインでプレイします。\nローカルネットワーク： LAN上でゲームをホストします。\n公開： 誰でも参加できる公開サーバーをホストします。\nフレンド限定： フレンドだけを招待してプレイします。\n非公開： サーバーブラウザに表示されません。"
 
 "NMRiH_Difficulty_Tooltip"	"難易度を選ぶ\nクラシック： デフォルト設定、リスポーン地点有効\nカジュアル： 常にリスポーン可、武器をもってスポーン\nナイトメア： ゾンビの体力、密度、感染確率が増加\n対戦： PvPのスコアリングとデス通知を有効にし、ゾンビと目標を無効にする"
 "NMRiH_Map_Time_Tooltip"	"マップ変更までの時間"

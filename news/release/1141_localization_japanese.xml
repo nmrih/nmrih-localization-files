@@ -25,7 +25,7 @@
 [*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます: [b]Atheist, Blueberryy, DouglasVarollo, Holy Crap, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, SkyAfterRain[/b]
+[*]コミュニティ翻訳者の皆様に感謝します: [b]Atheist, Blueberryy, DouglasVarollo, Holy Crap, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, SkyAfterRain[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -51,7 +51,7 @@
 [*]ゾンビが敵に追いつけなくなったとき、"angry"の徘徊スケジュールに入らず、誤って"normal"の徘徊を開始していた問題を修正
 [*]ゾンビがバリケードを叩いている間、衝撃音が鳴らない問題を修正
 [/list]
-[h2]マップとMOD制作者向けの変更[/h2]
+[h2]マップおよびMOD制作者向けの変更[/h2]
 [list]
 [*]エンティティの"func_precipitation_blocker"を追加 (#1541)
 [*]ラウンドをまたいで作用する"logic_script_preserved"エンティティを追加
