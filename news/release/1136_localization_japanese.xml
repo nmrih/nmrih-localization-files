@@ -15,7 +15,7 @@
 [*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, Uncut[/b]
+[*]コミュニティ翻訳者の皆様に感謝します: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, Uncut[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -29,7 +29,7 @@
 [*]2048キル以上でスコアがロールオーバーする問題を修正
 [*]メインメニューでスピーカー設定を変更すると、クラッシュすることがあった問題を修正
 [/list]
-[h2]マップとMOD制作者向けの変更[/h2]
+[h2]マップおよびMOD制作者向けの変更[/h2]
 [list]
 [*]弾薬箱のエンティティに"Ammo Fill Min/Max"のキーフィールドを追加
 [*]MP3ループをサポートするオプトインキーフィールドを追加。 既存のマップにおいて、誤ったスポーンフラグのために一度限りのMP3サウンドが永遠にループする問題を修正

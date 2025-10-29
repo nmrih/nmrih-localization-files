@@ -22,7 +22,7 @@
 [*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます: Blueberryy, Klowby, marcielcps, Plazehorta
+[*]コミュニティ翻訳者の皆様に感謝します: Blueberryy, Klowby, marcielcps, Plazehorta
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -45,7 +45,7 @@
 [*]"次の目標"のセパレーターがテキストでクリッピングされたり、弾薬表示のラベルが小さくなるなど、解像度を問わずHUDのスケーリングに関するいくつかの問題を修正
 [*]補給物資のHUDが閉じない問題を修正
 [/list]
-[h2]マップとMOD制作者向けの変更[/h2]
+[h2]マップおよびMOD制作者向けの変更[/h2]
 [list]
 [*]開発者向けにレベル遷移のベータ版を追加。 デフォルトでは無効になっており、サーバー管理者はcvarの"sv_level_transition"で切り替えることができる (#1278)
 [*]ゲームステート関数に"RespawnDeadPlayers"コマンドを追加 (I/O, コンソール, VScript)

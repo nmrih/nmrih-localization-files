@@ -22,7 +22,7 @@
 [*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]コミュニティ翻訳者の皆様に感謝します: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -57,7 +57,7 @@
 [*]他のプレイヤーのフラッシュライトの深度テクスチャをレンダリングする際のシャドウバッファのオーバーフローを修正 (#1336)
 [*]チェーンソーで押しのけると、アイドリング音がキャンセルされる不具合を修正 (#1252)
 [/list]
-[h2]マップとMOD制作者向けの変更[/h2]
+[h2]マップおよびMOD制作者向けの変更[/h2]
 [list]
 [*]弾薬の種類ごとに ammobox_ エンティティを追加
 [*]!activatorが!selfの代わりに殺されるバグがあるマップの互換性レイヤーを追加 ("trigger_progress_use" "trigger_progress_weapon" と "trigger_keypad" に適応)
