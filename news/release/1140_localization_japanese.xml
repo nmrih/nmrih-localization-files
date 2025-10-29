@@ -30,7 +30,7 @@
 [*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]コミュニティ翻訳者の皆様に感謝します: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -48,7 +48,7 @@
 [*]ゾンビAIの攻撃性の問題を修正 (#1448/#1475)
 
 [/list]
-[h2]マップとMOD制作者向けの変更[/h2]
+[h2]マップおよびMOD制作者向けの変更[/h2]
 [list]
 [*]"env_instructor_hint"エンティティに"SetActivatorCaption"入力を追加
 [*]"func_safe_zone"エンティティに"PauseDrain"と"ResumeDrain"入力を追加 (#1467)

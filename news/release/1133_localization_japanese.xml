@@ -19,7 +19,7 @@
 [*]翻訳を更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます: [b]Blueberryy, BloodyMoonlight, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]コミュニティ翻訳者の皆様に感謝します: [b]Blueberryy, BloodyMoonlight, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -44,7 +44,7 @@
 [*]未定義のベーステクスチャの値を要求するいくつかのシェーダーを修正
 [*]スキルショットのマテリアルがプリキャッシュされない問題を修正
 [/list]
-[h2]マップとMOD制作者向けの変更[/h2]
+[h2]マップおよびMOD制作者向けの変更[/h2]
 [list]
 [*]cvarの"sv_ignore_win_loss_state"を追加し、勝敗によってラウンドが終了しないようにした
 [*]Hammerのゲームデータに、モデル/スキンセレクター付きの"generic_actor"やスクリプト化されたシーケンスなど、いくつかのエンティティを追加

@@ -77,7 +77,7 @@ No More Room in Hell のアップデートがリリースされました。
 [*]翻訳ファイルを更新:
 [list]
 
-[*]コミュニティの翻訳者に謝辞を述べます: Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta
+[*]コミュニティ翻訳者の皆様に感謝します: Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta
 [*]NMRiHをあなたの言語に翻訳したいですか？ [url=https://github.com/nmrih/nmrih-localization-files] GitHub の翻訳リポジトリにアクセスしましょう。[/url]
 [/list]
 [/list]
@@ -106,7 +106,7 @@ No More Room in Hell のアップデートがリリースされました。
 [*]ゾンビAIが敵を追いかけなかったとき、誤って遮蔽を探してしまう問題を修正
 [*]"脱出後、ゾンビが長時間固まったままになっている" を修正 (#1325)
 [/list]
-[h2]MAPとMOD制作者向けの変更[/h2]
+[h2]マップおよびMOD制作者向けの変更[/h2]
 [list]
 [*]コマンドの"ruleset_include"を追加。 新しいルールセットをアクティブなルールセットにマージし、利用可能な場合は値を置き換える
 [*]エンティティの"ambient_fmod"を追加。 このエンティティは"ambient_generic"のように動作するが、再生にはFMODサウンドシステムを使用する
