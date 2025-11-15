@@ -13,10 +13,14 @@
 	"nmo_underground_LootSmokeGrenade"	"Loot a smoke grenade!"
 	"nmo_underground_FindCodeLootPaint"	"Look for a code in the office building and loot a can of paint!"
 	"nmo_underground_LootCarBattery"	"Loot the car battery!"
-	"nmo_underground_LootPaint"	"Loot a can of paint!"
 	"nmo_underground_plugs"		"Connect the plugs!"
 	"nmo_underground_car"		"Push the car!"
 	"nmo_underground_sos"		"Draw «S.O.S»!"
 	"nmo_underground_gen"		"Activate the generator!"
+	"nmo_underground_pliers"	"Find pliers to cut the lock!"
+	"nmo_underground_propane"	"Blow up propane tank in the right place!"
+	"nmo_underground_code"		"Find a code to proceed further!"
+	"nmo_underground_hack"		"Use your computer skills to get out of this tunnel!"
+	"nmo_underground_go"		"Navigate through storage rooms!"
 }
 }
