@@ -75,8 +75,12 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低(无碎片效果)"
 "NMRiH_Advanced_cl_predictpickup"		"搬运物位置预测"
 "NMRiH_Advanced_cl_predictpickup_0"		"不预测位置"
-"NMRiH_Advanced_cl_predictpickup_1"		"总是预测位置"
+"NMRiH_Advanced_cl_predictpickup_1"		"始终预测位置"
 "NMRiH_Advanced_cl_predictpickup_2"		"仅预测任务物品位置"
+"NMRiH_Advanced_cl_radialfog"		"径向雾气偏好"
+"NMRiH_Advanced_cl_radialfog_-1"	"由地图决定"
+"NMRiH_Advanced_cl_radialfog_0"		"始终关闭 (经典效果)"
+"NMRiH_Advanced_cl_radialfog_1"		"始终开启"
 
 "NMRiH_Difficulty"	"游戏难度"
 
