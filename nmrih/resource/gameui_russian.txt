@@ -77,6 +77,10 @@
 "NMRiH_Advanced_cl_predictpickup_0"		"Не предсказывать положение"
 "NMRiH_Advanced_cl_predictpickup_1"		"Всегда предсказывать положение"
 "NMRiH_Advanced_cl_predictpickup_2"		"Предсказывать только предметы заданий"
+"NMRiH_Advanced_cl_radialfog"		"Радиальный туман"
+"NMRiH_Advanced_cl_radialfog_-1"	"Согласно настройкам карты"
+"NMRiH_Advanced_cl_radialfog_0"		"Всегда выключен (классический туман)"
+"NMRiH_Advanced_cl_radialfog_1"		"Всегда включен"
 
 "NMRiH_Difficulty"		"Сложность"
 
