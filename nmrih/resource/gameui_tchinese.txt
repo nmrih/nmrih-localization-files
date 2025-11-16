@@ -77,6 +77,10 @@
 "NMRiH_Advanced_cl_predictpickup_0"		"不預判位置"
 "NMRiH_Advanced_cl_predictpickup_1"		"永遠預判位置"
 "NMRiH_Advanced_cl_predictpickup_2"		"僅預判目標物件"
+"NMRiH_Advanced_cl_radialfog"		"放射式霧氣效果偏好"
+"NMRiH_Advanced_cl_radialfog_-1"	"依地圖決定"
+"NMRiH_Advanced_cl_radialfog_0"		"永遠關閉 (經典霧氣效果)"
+"NMRiH_Advanced_cl_radialfog_1"		"永遠開啟"
 
 "NMRiH_Difficulty"	"難易度"
 
