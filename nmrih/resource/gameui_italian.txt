@@ -77,6 +77,10 @@
 "NMRiH_Advanced_cl_predictpickup_0"		"Non prevedere la posizione"
 "NMRiH_Advanced_cl_predictpickup_1"		"Prevedi sempre la posizione"
 "NMRiH_Advanced_cl_predictpickup_2"		"Prevedi solo per gli oggetti obiettivo"
+"NMRiH_Advanced_cl_radialfog"		"Preferenza nebbia radiale"
+"NMRiH_Advanced_cl_radialfog_-1"	"Lascia decidere alla mappa"
+"NMRiH_Advanced_cl_radialfog_0"		"Sempre disattiva (nebbia classica)"
+"NMRiH_Advanced_cl_radialfog_1"		"Sempre attiva"
 
 "NMRiH_Difficulty"	"Difficoltà"
 
