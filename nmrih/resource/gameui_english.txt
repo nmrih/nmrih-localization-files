@@ -77,6 +77,10 @@
 "NMRiH_Advanced_cl_predictpickup_0"		"Don't predict position"
 "NMRiH_Advanced_cl_predictpickup_1"		"Always predict position"
 "NMRiH_Advanced_cl_predictpickup_2"		"Only predict objective items"
+"NMRiH_Advanced_cl_radialfog"		"Radial fog preference"
+"NMRiH_Advanced_cl_radialfog_-1"	"Let map decide"
+"NMRiH_Advanced_cl_radialfog_0"		"Always off (classic fog)"
+"NMRiH_Advanced_cl_radialfog_1"		"Always on"
 
 "NMRiH_Difficulty"	"Difficulty"
 

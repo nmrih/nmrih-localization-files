@@ -13,10 +13,14 @@
 	"nmo_underground_LootSmokeGrenade"	"帶走煙霧彈！"
 	"nmo_underground_FindCodeLootPaint"	"尋找進入辦公大來的密碼並取走一桶油漆！"
 	"nmo_underground_LootCarBattery"	"拿走車用電頻！"
-	"nmo_underground_LootPaint"	"帶走一桶油漆！"
 	"nmo_underground_plugs"		"接上電源插座！"
 	"nmo_underground_car"		"推車！"
 	"nmo_underground_sos"		"畫上 S.O.S 記號！"
 	"nmo_underground_gen"		"啟動發電機！"
+	"nmo_underground_pliers"	"找到鉗子剪斷鎖頭！"
+	"nmo_underground_propane"	"在正確的位置引爆瓦斯桶！"
+	"nmo_underground_code"		"找到密碼繼續前進！"
+	"nmo_underground_hack"		"使用你的電腦技術逃離這條隧道！"
+	"nmo_underground_go"		"穿過儲藏室！"
 }
 }
