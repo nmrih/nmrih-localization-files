@@ -13,10 +13,14 @@
 	"nmo_underground_LootSmokeGrenade"	"スモークグレネードを回収しろ！"
 	"nmo_underground_FindCodeLootPaint"	"オフィスビルで暗号を探し、ペンキの缶を回収しろ！"
 	"nmo_underground_LootCarBattery"	"カーバッテリーを回収しろ！"
-	"nmo_underground_LootPaint"	"ペンキ缶を回収しろ！"
 	"nmo_underground_plugs"		"プラグを接続しろ！"
 	"nmo_underground_car"		"車を押せ！"
 	"nmo_underground_sos"		"SOSを描け！"
 	"nmo_underground_gen"		"発電機を起動しろ！"
+	"nmo_underground_pliers"	"鍵を切るためのペンチを探せ！"
+	"nmo_underground_propane"	"プロパンタンクをしかるべき場所で爆破しろ！"
+	"nmo_underground_code"		"先に進むためのコードを見つけろ！"
+	"nmo_underground_hack"		"このトンネルから脱出するために、コンピュータスキルを使え！"
+	"nmo_underground_go"		"倉庫部屋を抜けて進め！"
 }
 }
