@@ -13,10 +13,14 @@
 	"nmo_underground_LootSmokeGrenade"	"Saqueie uma granada de fumaça!"
 	"nmo_underground_FindCodeLootPaint"	"Procure um código no prédio de escritórios e pegue uma lata de tinta!"
 	"nmo_underground_LootCarBattery"	"Saqueie a bateria do carro!"
-	"nmo_underground_LootPaint"	"Saqueie uma lata de tinta!"
 	"nmo_underground_plugs"		"Conecte os plugues!"
 	"nmo_underground_car"		"Empurre o carro!"
 	"nmo_underground_sos"		"Desenhe «S.O.S»!"
 	"nmo_underground_gen"		"Ative o gerador!"
+	"nmo_underground_pliers"	"Procure um alicate para cortar o cadeado!"
+	"nmo_underground_propane"	"Exploda o tanque de propano no lugar certo!"
+	"nmo_underground_code"		"Encontre um código para prosseguir!"
+	"nmo_underground_hack"		"Use suas habilidades em informática para sair deste túnel!"
+	"nmo_underground_go"		"Navegue pelos depósitos!"
 }
 }
