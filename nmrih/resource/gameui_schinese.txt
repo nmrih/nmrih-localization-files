@@ -363,6 +363,7 @@
 "Addon_Manager_ApplyChanges"		"应用更改"
 "Addon_Manager_InvalidAddon"		"此插件无法兼容."
 "Addon_Manager_MultiSelect"			"[%s1 个插件已选中]"
+"Addon_Manager_DefaultDesc"			"暂无描述."
 
 "Addon_Manager_DropMenu_Disable"	"禁用"
 "Addon_Manager_DropMenu_ShowInfo"	"更多信息"
