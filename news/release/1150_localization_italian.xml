@@ -80,7 +80,7 @@
 [*]VScript: aggiunte funzioni CScriptNavArea GetAdjacentAreas() e GetAdjacentCount()
 [*]VScript: aggiunte funzioni TraceEntity() e TraceHull()
 [*]VScript: aggiunto supporto per callback di entità colpite nei tracciamenti (TraceLineEx(), TraceHull(), TraceEntity()) tramite parametro "callback"
-[*]VScript: la classe CScriptNavArea ora ha una rappresentazione testuale (“[<ID>] Area”)
+[*]VScript: la classe CScriptNavArea ora ha una rappresentazione testuale (“[&lt;ID&gt;] Area”)
 [*]VScript: corretta la funzione CNMRiH_Player IsTalkingWalkie() che restituiva sempre “false”
 [*]VScript: corretti crash passando valori nulli a TraceLineEx()
 [*]VScript: corretta funzione SetActivity() che accettava ACT_INVALID causando crash
@@ -140,4 +140,4 @@
 [list]
 [*]Corretta la distanza di dissolvenza su un estintore troppo ravvicinata
 [/list]
-</string><string id="subtitle">Supporto a 64 bit, Rete di Steam, il nuovo motore Source e molto altro!/string><string id="summary">Niente più port forwarding! Crea facilmente partite pubbliche o solo per amici grazie alla Rete di Steam, sfruttando le nuove funzionalità del motore Source.</string><string id="title">Rilascio dell'Aggiornamento del Networking di NMRiH (1.15)</string></content>
+</string><string id="subtitle">Supporto a 64 bit, Rete di Steam, il nuovo motore Source e molto altro!</string><string id="summary">Niente più port forwarding! Crea facilmente partite pubbliche o solo per amici grazie alla Rete di Steam, sfruttando le nuove funzionalità del motore Source.</string><string id="title">Rilascio dell'Aggiornamento del Networking di NMRiH (1.15)</string></content>
