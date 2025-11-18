@@ -77,6 +77,10 @@
 "NMRiH_Advanced_cl_predictpickup_0"		"Não predizer posição"
 "NMRiH_Advanced_cl_predictpickup_1"		"Sempre predizer posição"
 "NMRiH_Advanced_cl_predictpickup_2"		"Apenas predizer itens de objetivos"
+"NMRiH_Advanced_cl_radialfog"		"Preferência por nevoeiro radial"
+"NMRiH_Advanced_cl_radialfog_-1"	"Deixe o mapa decidir"
+"NMRiH_Advanced_cl_radialfog_0"		"Sempre desligado (névoa clássica)"
+"NMRiH_Advanced_cl_radialfog_1"		"Sempre ligado"
 
 "NMRiH_Difficulty"	"Dificuldade"
 
