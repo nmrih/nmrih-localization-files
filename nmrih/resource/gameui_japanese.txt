@@ -77,6 +77,10 @@
 "NMRiH_Advanced_cl_predictpickup_0"		"位置の予測なし"
 "NMRiH_Advanced_cl_predictpickup_1"		"常に位置を予測"
 "NMRiH_Advanced_cl_predictpickup_2"		"目標アイテムのみ位置を予測"
+"NMRiH_Advanced_cl_radialfog"		"ラジアルフォグの設定"
+"NMRiH_Advanced_cl_radialfog_-1"	"マップに依存"
+"NMRiH_Advanced_cl_radialfog_0"		"常にオフ (クラシックな霧)"
+"NMRiH_Advanced_cl_radialfog_1"		"常にオン"
 
 "NMRiH_Difficulty"	"難易度"
 
