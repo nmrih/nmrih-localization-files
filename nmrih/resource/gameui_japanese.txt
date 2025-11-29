@@ -77,6 +77,10 @@
 "NMRiH_Advanced_cl_predictpickup_0"		"位置の予測なし"
 "NMRiH_Advanced_cl_predictpickup_1"		"常に位置を予測"
 "NMRiH_Advanced_cl_predictpickup_2"		"目標アイテムのみ位置を予測"
+"NMRiH_Advanced_cl_radialfog"		"ラジアルフォグの設定"
+"NMRiH_Advanced_cl_radialfog_-1"	"マップに依存"
+"NMRiH_Advanced_cl_radialfog_0"		"常にオフ (クラシックな霧)"
+"NMRiH_Advanced_cl_radialfog_1"		"常にオン"
 
 "NMRiH_Difficulty"	"難易度"
 
@@ -359,6 +363,7 @@
 "Addon_Manager_ApplyChanges"		"変更を適応"
 "Addon_Manager_InvalidAddon"		"このアドオンには互換性がありません。"
 "Addon_Manager_MultiSelect"			"[%s1 個のアドオンを選択中]"
+"Addon_Manager_DefaultDesc"			"説明がありません。"
 
 "Addon_Manager_DropMenu_Disable"	"無効"
 "Addon_Manager_DropMenu_ShowInfo"	"情報を確認"
@@ -471,7 +476,7 @@
 "Workshop_Publisher_NoAddons"		"アドオンが無効になっているため、ワークショップパブリッシャーが利用できません。"
 
 "Workshop_Publisher_AddonForm_Title"				"名前： *"
-"Workshop_Publisher_AddonForm_Desc"					"解説："
+"Workshop_Publisher_AddonForm_Desc"					"説明："
 "Workshop_Publisher_AddonForm_Summary"				"概要："
 "Workshop_Publisher_AddonForm_ChangeNotes"			"変更履歴："
 "Workshop_Publisher_AddonForm_ContentPath"			"コンテンツのパス： *"

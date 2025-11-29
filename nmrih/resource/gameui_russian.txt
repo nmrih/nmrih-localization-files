@@ -363,6 +363,7 @@
 "Addon_Manager_ApplyChanges"		"Применить изменения"
 "Addon_Manager_InvalidAddon"		"Это дополнение несовместимо."
 "Addon_Manager_MultiSelect"		"[выбрано: %s1]"
+"Addon_Manager_DefaultDesc"			"Описание отсутствует."
 
 "Addon_Manager_DropMenu_Disable"		"Отключить"
 "Addon_Manager_DropMenu_ShowInfo"		"Показать информацию"
