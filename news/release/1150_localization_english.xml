@@ -22,12 +22,10 @@
 [list]
 [*]Added a menu in the Create Server dialog that selects a server type for Steam Networking, allowing public / friends-only / unlisted servers without port forwarding
 [*]Added ability to pause the game when playing in Single Player mode
-[*]Added carried object prediction settings to advanced options
 [*]Added cvar "cl_allow_particle_precipitation", when off, it converts particle rain/snow to default variants on maps that use them
 [/list]
 [h2]Changes[/h2]
 [list]
-[*]Carried objective items, weapons, and medical items now move smoothly with lag (by default, via carried object prediction)
 [*]Certain HUD elements such as player names are now hidden during suicide blackout
 [*]ConVar "viewmodel_fov" is now saved to user config
 [*]Flashlight shadows are now independent from "High" shadow quality, and can be enabled in the advanced options (off by default to reduce engine crashes)
