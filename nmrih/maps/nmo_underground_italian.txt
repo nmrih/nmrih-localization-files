@@ -13,6 +13,7 @@
 	"nmo_underground_LootSmokeGrenade"	"Prendi una granata fumogena!"
 	"nmo_underground_FindCodeLootPaint"	"Cerca un codice negli uffici e prendi un barattolo di vernice!"
 	"nmo_underground_LootCarBattery"	"Prendi una batteria per auto!"
+	"nmo_underground_LootPaint"	"Prendi un barattolo di vernice!"
 	"nmo_underground_plugs"		"Collega i connettori!"
 	"nmo_underground_car"		"Spingi la macchina!"
 	"nmo_underground_sos"		"Disegna un «S.O.S»!"
