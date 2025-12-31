@@ -26,8 +26,10 @@
 [/list]
 [h2]Changes[/h2]
 [list]
+[*]Active Workshop map is now distributed to connecting players on local servers
 [*]Certain HUD elements such as player names are now hidden during suicide blackout
 [*]ConVar "viewmodel_fov" is now saved to user config
+[*]Difficulty is now displayed in the server browser game description
 [*]Flashlight shadows are now independent from "High" shadow quality, and can be enabled in the advanced options (off by default to reduce engine crashes)
 [*]Optimized network bandwidth on player and zombie movement
 [*]Optimized zombie performance even further on crowded maps
@@ -41,6 +43,7 @@
 [/list]
 [h2]Fixes[/h2]
 [list]
+[*]Fixed false spawn notifications (i.e. sound plays and window flashes while "waiting for spawn point")
 [*]Fixed ironsights not being turned off when contemplating suicide
 [*]Fixed particle rain collision, contributed by BigHatMarley (#1579)
 [*]Fixed zombie idle vocalization cutting short on longer moans
@@ -55,24 +58,32 @@
 [*]Added hull override keyfield to zombies
 [*]Added input "RevertAllMapCvars" to entity "logic_ruleset", it reverts all cvars that were changed by an active map to a base value (when available), or default, it doesn't revert difficulty / script / mutator changes
 [*]Added keyfield "Despawn Ignore Population" to entity "func_zombie_spawn", by default, zombies only despawn when zone population is over the maximum, even when they're unseen; when set to 'No', it uses classic behavior where visited zones keep max. zombies, when set to 'Yes', it always despawns unseen zombies
+[*]Added keyfield "Hide TAKE Button" to entity "item_inventorybox"
 [*]Added keyfield "Ignore Zombie Rules" to zombies, when true, game rules will treat them as a generic NPC
 [*]Added line break support to entity "point_message_multiplayer"
 [*]Added missing spawnflags to entity "point_viewcontrol_multiplayer"
 [*]Added outputs "OnBarricade" and "OnBreak" to entity "nmrih_barricade"
 [*]Added support for barricade prop model override
 [*]Added support for filtering model rendering on specific clients
+[*]FGD: Customized "base.fgd" is now shipped with "nmrih.fgd", to replace class overrides and dependency for base SDK
 [*]Fixed dynamic "logic_progress" always completing on "StopProgress"
 [*]Fixed entity "logic_script_proxy" calls not working on global scope when using instances
 [*]Fixed entity "logic_script_proxy" not accepting null for input "SetTargetEntity"
+[*]Fixed entity "player_weaponstrip" removing items improperly (#1588)
 [*]Fixed parented model attachments on NPCs being misaligned
+[*]Fixed "player_spawn" event being incorrectly fired when spawn points aren't available
 [*]Fixed runners spawned via BecomeRunner not randomizing their collision groups
 [*]Fixed sparks sound on buttons not playing
-[*]FGD: Customized "base.fgd" is now shipped with "nmrih.fgd", to replace class overrides and dependency for base SDK
 [*]MapHack: Fixed collision bounds on spawned brush entities
+[*]NMRObjective: Added ability to drag-select nodes
+[*]NMRObjective: Added scrollbars when nodes go outside the workspace
+[*]NMRObjective: Misc. optimization and improvements
 [*]VScript: Added CBaseAnimating functions SetPlayerDrawFilter(), and DrawFilterAllPlayers(), when set to true, this model won't be visible for the given player
 [*]VScript: Added CBaseEntity hook OnTakeDamage, this hook is designed as a mutable replacement for filter_script's PassesFinalDamageFilter, incoming damage info can be modified before it's applied, returning 'false' will discard received damage
 [*]VScript: Added CNMRiH_BarricadePoint function SetModelOverride()
 [*]VScript: Added CNMRiH_Player function DidGunshotSuicide()
+[*]VScript: Added CNMRiH_Player function SetForcedRespawn(), flags next respawn as forced and skips valid spawn point check, then reverts on spawn
+[*]VScript: Added CNMRiH_Player functions HasJumpAbility(), HasDuckAbility(), SetJumpAbility(), and SetDuckAbility(), overrides whether player can jump/duck or not, predicted on client
 [*]VScript: Added CNMRiH_Player hooks OnWeaponDrop, OnWeaponEquip, and OnWeaponSwitch
 [*]VScript: Added consistent rand() and RAND_MAX across platforms
 [*]VScript: Added constants for NMRiH button masks, collision groups, and damage types
@@ -80,6 +91,7 @@
 [*]VScript: Added functions TraceEntity(), and TraceHull()
 [*]VScript: Added support for trace filter hit entity callbacks on TraceLineEx(), TraceHull(), and TraceEntity(), via "callback" value that expects a function with single argument for params, e.g. "function ShouldHitEntity(params)" where 'params' have keys: entity, contentsmask; returned value filters the hit entity
 [*]VScript: Class CScriptNavArea now has string representation (i.e. "[&lt;ID&gt;] Area")
+[*]VScript: Entity input "RunScriptCode" now converts backticks to quotes (i.e. ` -&gt; ")
 [*]VScript: Fixed CNMRiH_Player function IsTalkingWalkie() always returning 'false'
 [*]VScript: Fixed crash when passing null values to TraceLineEx() function
 [*]VScript: Fixed function SetActivity() allowing ACT_INVALID, which caused a crash
@@ -89,7 +101,9 @@
 [list]
 [*]Added ability to modify zombie model pools, controlled by cvars "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng", and "sv_zombie_models_runner", models are set with ',' delimiter relative to models/nmr_zombie/*.mdl (or direct filename)
 [*]Added cvar "ov_despawn_ignore_population", by default zombies only despawn when zone population is over the maximum, set to 0 for vanilla behavior where visited zones keep max. zombies, or 1 that always despawns unseen zombies (#1562)
+[*]Added cvar "sv_gamedesc_override", to let server owners change game description without plugins
 [*]Added cvar "sv_runner_randomize_collision_group", runners always switch collision groups (grease) on spawn, when 0 and paired with BecomeRunner, this emulates bugged behavior pre-v1.15.0
+[*]Added cvar "sv_tree_sway_update_time", when 0, it disables tree sway server-side (useful for map compatibility)
 [*]Added cvar "sv_zombie_brainstem_dmg_scale", zombies take this factor of brainstem hitbox damage (if sv_brainstem is set to 1)
 [*]Added cvars to tweak zombie vocalization, "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit", and "sv_zombie_moan_freq_random" (vanilla behavior unchanged)
 [*]Added new method of randomizing zombie models by shuffling a model pool and pulling entries from it, this can be controlled with cvar "sv_zombie_shuffle_models"
@@ -99,12 +113,14 @@
 
 [h3]nmo_asylum[/h3]
 [list]
+[*]Attempted to fix body parts going through the ritual floor
 [*]Fixed leg part softlock (#1565)
 [*]Fixed weird glitch artifact on a ceiling brush
 [/list]
 [h3]nmo_broadway2[/h3]
 [list]
 [*]Added clips for smooth movement in the last ladder extraction area
+[*]Little visual fixes
 [*]Tweaked escape rope "ladder" brush to be less confusing (#1533)
 [/list]
 [h3]nmo_cabin[/h3]
@@ -122,9 +138,21 @@
 [*]Fixed softlock when lever is dropped into the electric puddle (#1537)
 [*]Fixed softlock when objective items are thrown out of reach (#1548)
 [/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]Fixed reflections on the plaster wall next to the initial spawn point
+[*]Tweaked zombie navigation
+[/list]
 [h3]nmo_quarantine[/h3]
 [list]
 [*]Fixed barricade spots at the end of the map not working (#1561)
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]Disabled zombie respawning around bedrooms in the upper floor of the cabin (only on Casual and Classic difficulty)
+[*]Fixed being able to go under the extraction zone by standing on the rear ramp of the boat
+[*]Increased first aid kit spawn rates
+[*]Small tweaks to make navigating the map easier
 [/list]
 [h3]nmo_toxteth / nmo_toxtethdark[/h3]
 [list]
@@ -133,6 +161,10 @@
 [h3]nms_arpley[/h3]
 [list]
 [*]Fixed fade distance value on some props in the house being too close
+[/list]
+[h3]nms_northway[/h3]
+[list]
+[*]Fixed visual bug on barricade prop at zone A
 [/list]
 [h3]nms_northway[/h3]
 [list]
