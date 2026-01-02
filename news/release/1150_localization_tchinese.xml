@@ -26,8 +26,10 @@
 [/list]
 [h2]更動[/h2]
 [list]
+[*]生效中的工作坊地圖現在能在連接至本地伺服器時發布給玩家
 [*]特定 HUD 元素 (如玩家名稱) 會在自轟後的黑畫面隱藏
 [*]控制台參數 "viewmodel_fov" 現在會在使用者的設定檔中儲存
+[*]難易度現在會顯示在伺服器瀏覽器的遊戲資訊中
 [*]手電筒陰影現在由「高」陰影品質選項分離，現在可以透過進階選項啟動 (預設為關閉以減少引擎崩潰)
 [*]最佳化玩家或殭屍移動的網路頻寬
 [*]最佳化擁擠地圖中的殭屍效能
@@ -41,6 +43,7 @@
 [/list]
 [h2]修正[/h2]
 [list]
+[*]修正錯誤的生成通知 (例如聲音撥放或在「等待重生點」時的視窗閃爍)
 [*]修正在準備自轟時沒把瞄準關掉
 [*]修正雨滴粒子效果碰撞，由 BigHatMarley 提供 (#1579)
 [*]修正殭屍閒置時較長的呻吟聲被截斷的問題
@@ -55,24 +58,32 @@
 [*]新增殭屍載體 (Hull) 修改輸入格
 [*]新增 input "RevertAllMapCvars" 給 Entity "logic_ruleset"，這會將受到地圖更動過的控制台參數改回基礎值 (若有的話) 或預設值，這不會動到難易度 / 腳本 / 修改器 (mutator) 的更動
 [*]新增輸入格 "Despawn Ignore Population" 給 Entity "func_zombie_spawn"，預設下，即使不被玩家看見，殭屍只會在區域人口超出最大值時消失；若設定為 'No'，將使用經典的規則讓玩家經過過的區域維持最大殭屍數，設定為 'Yes' 則會在殭屍不被看見時消失
+[*]新增輸入格 "Hide TAKE Button" 給 Entity "item_inventorybox"
 [*]新增輸入格 "Ignore Zombie Rules" 給殭屍，當啟動時，遊戲會把殭屍視為常態 NPC
 [*]新增換行功能給 Entity "point_message_multiplayer"
 [*]新增遺失的 spawnflags 給 Entity "point_viewcontrol_multiplayer"
 [*]新增輸出 "OnBarricade" 及 "OnBreak" 給 Entity "nmrih_barricade"
 [*]新增路障木板的替代模型支援
 [*]新增為特定客戶端的過濾模型彩現支援
+[*]FGD: 自訂的 "base.fgd" 現在與 "nmrih.fgd" 一併提供，取代 class overrides 和基礎 SDK 的依賴
 [*]修正 Dynamic "logic_progress" 永遠完成在 "StopProgress"
 [*]修正 Entity "logic_script_proxy" calls 使用變數時無法取得 global 層級
 [*]修正 Entity "logic_script_proxy" 不接受 input "SetTargetEntity" 的 Null
+[*]修正 Entity "player_weaponstrip" 不正常的移除物件 (#1588)
 [*]修正 NPC 身上有附屬關係的模型沒有對齊
+[*]修正 "player_spawn" 事件在沒有可用的復活點數時觸發
 [*]修正透過 BecomeRunner 產生的奔跑殭屍沒有亂數產生他們的碰撞群組
 [*]修正按鈕上的漏電聲不撥放
-[*]FGD: 自訂的 "base.fgd" 現在與 "nmrih.fgd" 一併提供，取代 class overrides 和基礎 SDK 的依賴
 [*]MapHack: 修正生成 Brush entity 的碰撞邊界
+[*]NMRObjective: 新增拖曳節點的功能
+[*]NMRObjective: 新增節點超出工作區時的捲軸
+[*]NMRObjective: 一些最佳化與改良
 [*]VScript: 新增 CBaseAnimating functions SetPlayerDrawFilter() 和 DrawFilterAllPlayers(), 當啟動時，這個模型不會被指定玩家看見
 [*]VScript: 新增 CBaseEntity hook OnTakeDamage, 這個 hook 設計來取代無法修改的 filter_script 的 PassesFinalDamageFilter，受到的傷害可以在套用前修改，回到 'false' 可取消傷害
 [*]VScript: 新增 CNMRiH_BarricadePoint function SetModelOverride()
 [*]VScript: 新增 CNMRiH_Player function DidGunshotSuicide()
+[*]VScript: 新增 CNMRiH_Player function SetForcedRespawn(), 將下一個重生視為強制並跳過復活點數的檢查，然後在重生後重置
+[*]VScript: 新增 CNMRiH_Player functions HasJumpAbility(), HasDuckAbility(), SetJumpAbility(), and SetDuckAbility(), 強制控制玩家是否能跳躍/蹲下，客戶端預測
 [*]VScript: 新增 CNMRiH_Player hooks OnWeaponDrop, OnWeaponEquip, 及 OnWeaponSwitch
 [*]VScript: 新增跨平台一致的 rand() 和 RAND_MAX 
 [*]VScript: 新增 constants 給 NMRiH button masks, 碰撞群組及傷害類型
@@ -80,6 +91,7 @@
 [*]VScript: 新增 functions TraceEntity() 及 TraceHull()
 [*]VScript: 為 TraceLineEx(), TraceHull() 及 TraceEntity() 新增支援命中 Entity 過濾 callback，透過 "callback" 值接收有判斷參數的 function ，例如 "function ShouldHitEntity(params)" 的參數有: entity, contentsmask 回傳數值過濾給命中的 Entity
 [*]VScript: Class CScriptNavArea 現在有字串顯示 (例 "[&lt;ID&gt;] Area")
+[*]VScript: Entity input "RunScriptCode" 現在會將反引號轉換為引號 (即 ` -&gt; ")
 [*]VScript: 修正 CNMRiH_Player function IsTalkingWalkie() 一直回傳 'false'
 [*]VScript: 修正當傳送 null 值給 TraceLineEx() function 的崩潰
 [*]VScript: 修正 function SetActivity() 允許 ACT_INVALID，以導致崩潰
@@ -89,7 +101,9 @@
 [list]
 [*]新增修改殭屍模型池的功能，利用控制台參數 "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng" 及 "sv_zombie_models_runner" 控制，模型以 ',' 區隔，登記為 models/nmr_zombie/*.mdl (或單一檔案名稱)
 [*]新增控制台參數 "ov_despawn_ignore_population", 預設時殭屍只會在區域人口超出最大值時移除，設為 0 使用原始規則讓待過的地方維持最大殭屍數，設為 1 永遠移除看不見的殭屍 (#1562)
+[*]新增控制台參數 "sv_gamedesc_override", 讓伺服器擁有者不需透過插件即可更改遊戲描述
 [*]新增控制台參數 "sv_runner_randomize_collision_group", 奔跑殭屍產生時永遠切換碰撞群組 (軟)，設為 0 並配上 BecomeRunner 會產生 v1.15.0 之前的錯誤行為
+[*]新增控制台參數 "sv_tree_sway_update_time", 設為 0 時，能夠在伺服器端關閉樹木搖晃 (對地圖相容性有幫助)
 [*]新增控制台參數 "sv_zombie_brainstem_dmg_scale", 殭屍會把此數值納入腦幹傷害的計算 (若 sv_brainstem 1)
 [*]新增控制台參數來調整殭屍的聲音，"sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit" 及 "sv_zombie_moan_freq_random" (預設行為不改變)
 [*]新增新的隨將殭屍模型產生方式，在一個模型池中洗牌並抽出當中的選擇，這可被控制台參數 "sv_zombie_shuffle_models" 控制
@@ -99,12 +113,14 @@
 
 [h3]nmo_asylum[/h3]
 [list]
+[*]嘗試修正軀體部位穿透儀式地面的問題
 [*]修正斷腿的卡關 (#1565)
 [*]修正天花板刷上的損毀貼圖
 [/list]
 [h3]nmo_broadway2[/h3]
 [list]
 [*]新增 Clip 讓最後梯子的逃生區域的移動更流暢
+[*]微小的視覺修正
 [*]調整逃脫繩的「梯子」Brush 讓它不那麼怪 (#1533)
 [/list]
 [h3]nmo_cabin[/h3]
@@ -122,9 +138,21 @@
 [*]修正拉桿落入通電積水的卡關 (#1537)
 [*]修正目標道具被拋出邊界的卡關 (#1548)
 [/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]修正初始出生點旁邊水泥牆的反射
+[*]調整殭屍導航
+[/list]
 [h3]nmo_quarantine[/h3]
 [list]
 [*]修正地圖尾聲的路障點無法使用的問題 (#1561)
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]關閉殭屍在小屋樓上臥房附近的重生 (僅休閒與經典難度)
+[*]修正站在船後方的斜坡底下會到撤離區底下的問題
+[*]提升醫療包生成機率
+[*]微幅調整導航使地圖變簡單
 [/list]
 [h3]nmo_toxteth / nmo_toxtethdark[/h3]
 [list]
@@ -136,6 +164,7 @@
 [/list]
 [h3]nms_northway[/h3]
 [list]
+[*]修正 A 區障礙物布景的視覺問題
 [*]修正滅火器淡出距離值過低
 [/list]
 </string><string id="subtitle">增加支援 64 位元、Steam 網路、最新版本的 Source 引擎和更多內容！</string><string id="summary">告別惱人的 Port forward！利用 Steam 網路輕鬆創建自己的公開或好友遊戲，並體驗最新版 Source 引擎的功能。</string><string id="title">NMRiH 網路連線更新 (1.15) 釋出</string></content>
