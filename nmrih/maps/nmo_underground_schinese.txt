@@ -13,6 +13,7 @@
 	"nmo_underground_LootSmokeGrenade"	"在附近找到烟雾弹后带回手推车"
 	"nmo_underground_FindCodeLootPaint"	"在大楼内寻找密码，然后解锁密码门来获取油漆"
 	"nmo_underground_LootCarBattery"	"在附近寻找汽车电池"
+	"nmo_underground_LootPaint"	"在附近寻找一罐油漆"
 	"nmo_underground_plugs"		"将插头与电线连接！"
 	"nmo_underground_car"		"推动警车！"
 	"nmo_underground_sos"		"画出《S.O.S》信号！"

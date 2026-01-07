@@ -22,12 +22,10 @@
 [list]
 [*]Aggiunto un menu nella finestra "Crea Server" che consente di selezionare il tipo di server per la Rete di Steam, permettendo server pubblici / solo amici / non elencati senza port forwarding
 [*]Aggiunta la possibilità di mettere in pausa il gioco in modalità giocatore singolo
-[*]Aggiunte impostazioni di previsione per oggetti trasportati nelle opzioni avanzate
 [*]Aggiunto il cvar "cl_allow_particle_precipitation"; quando disattivato, converte pioggia/neve particellare in varianti predefinite nelle mappe che le utilizzano
 [/list]
 [h2]Modifiche[/h2]
 [list]
-[*]Gli oggetti obiettivo, le armi e gli oggetti medici trasportati ora si muovono in modo fluido con il lag (di default tramite previsione oggetti trasportati)
 [*]Alcuni elementi dell'HUD come i nomi dei giocatori ora sono nascosti durante la schermata di suicidio
 [*]La ConVar "viewmodel_fov" viene ora salvata nella configurazione utente
 [*]Le ombre della torcia ora sono indipendenti dalla qualità ombre “Alta” e possono essere abilitate nelle opzioni avanzate (disattivate di default per ridurre i crash del motore)

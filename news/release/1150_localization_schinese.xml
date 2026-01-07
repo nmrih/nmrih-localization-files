@@ -22,14 +22,14 @@
 [list]
 [*]在创建服务器对话框中添加了一个菜单, 用于选择 Steam 网络服务器类型, 允许公开/仅限好友/不公开服务器联机不使用端口映射
 [*]在单人游戏模式中添加了暂停游戏的功能
-[*]在高级设置中添加了搬运物位置预测的设置
 [*]添加 控制台变量 "cl_allow_particle_precipitation", 当关闭时, 在使用粒子特效的地图上会将雨雪效果转换成默认的降水效果
 [/list]
 [h2]改动内容[/h2]
 [list]
-[*]目前在网络有延迟的情况下, 可搬运的任务物品, 武器, 和医疗物品的移动将变得更加流畅 (默认启用搬运物位置预测)
+[*]在本地服务器上使用创意工坊地图时, 现在地图会自动分发给正在加入的玩家
 [*]在自杀黑屏时, 部分 HUD 元素 (例如玩家名称) 现在将被隐藏
 [*]控制台变量 "viewmodel_fov" 现在将被保存到玩家配置 (user config) 中
+[*]游戏难度现在会显示在服务器列表的游戏描述中
 [*]手电筒阴影现在独立于 "高" 阴影质量设置, 可以单独在高级设置中启用 (默认关闭以降低引擎崩溃风险)
 [*]优化了玩家和丧尸移动时对网络带宽的占用
 [*]进一步优化了在拥挤地图上丧尸的性能表现
@@ -43,6 +43,7 @@
 [/list]
 [h2]已修复内容[/h2]
 [list]
+[*]修复了错误的出生提示 (例如在 "等待复活点" 时仍会播放音效和闪烁窗口的问题)
 [*]修复了吞枪自杀时瞄具不会自动关闭的问题
 [*]修复了雨雪粒子效果碰撞的问题, 贡献来自 BigHatMarley (#1579)
 [*]修复了丧尸长时间呻吟时待机音效被截断的问题
@@ -57,24 +58,32 @@
 [*]为丧尸添加碰撞体覆盖 (hull override) 关键字 (keyfield)
 [*]为实体 "logic_ruleset" 添加 "RevertAllMapCvars" 输入, 会将所有由地图修改过的控制台变量恢复到基础值 (如果有的话) 或默认值, 但不会恢复难度/脚本/修改器造成的改动
 [*]为实体 "func_zombie_spawn" 添加 "Despawn Ignore Population" 关键字, 默认情况下, 丧尸只有在区域数量超过最大值时才会消失, 即使它们不在视野内; 当设置为 'No' 时, 将使用经典行为, 探索过的区域会维持最大丧尸数, 当设置为 'Yes' 时, 不在视野内的丧尸将无视数量限制, 且总是会消失
+[*]为实体 "item_inventorybox" 添加 "Hide TAKE Button" 关键字
 [*]为丧尸添加 "Ignore Zombie Rules" 关键字, 设置为 true 时, 游戏规则会将丧尸视作普通 NPC
 [*]为实体 "point_message_multiplayer" 添加了换行支持
 [*]为实体 "point_viewcontrol_multiplayer" 添加了缺失的属性 (spawnflags)
 [*]为实体 "nmrih_barricade" 添加了 "OnBarricade" 和 "OnBreak" 输出
 [*]为障碍木板道具添加了模型覆盖的支持
 [*]添加了经过筛选的模型可以在特定客户端上渲染的支持
+[*]FGD: 自定义 "base.fgd" 现在已被打包进 "nmrih.fgd", 以取代对基础 SDK 的类覆盖和依赖
 [*]修复 动态 "logic_progress" 在接收到 "StopProgress" 输入时总是完成的问题
 [*]修复 实体 "logic_script_proxy" 当使用实例 (instance) 时在全局范围内调用无效的问题
 [*]修复 实体 "logic_script_proxy" 的输入 "SetTargetEntity" 不接受空值 (null) 的问题
+[*]修复 实体 "player_weaponstrip" 移除物品不正确的问题 (#1588)
 [*]修复 NPC 上附着的模型附件出现位置偏移的问题
+[*]修复 事件 (event) "player_spawn" 在复活点不可用时被错误触发的问题
 [*]修复 通过 "BecomeRunner" 生成的跑尸其碰撞组不会随机的问题
 [*]修复 按钮触发时火花音效无法播放的问题
-[*]FGD: 自定义 "base.fgd" 现在会附带 "nmrih.fgd", 用于替代对基础 SDK 的类覆盖和依赖
 [*]MapHack: 修复 生成的固体实体 (brush entity) 碰撞边界问题
+[*]NMRObjective: 添加 拖拽框选节点的功能
+[*]NMRObjective: 当节点超出工作区范围时, 将会显示滚动条
+[*]NMRObjective: 杂项优化和改善
 [*]VScript: 添加 CBaseAnimating 函数 SetPlayerDrawFilter(), 和 DrawFilterAllPlayers(), 设置成 true 时, 该模型将对给定的玩家不可见
 [*]VScript: 添加 CBaseEntity 钩子 OnTakeDamage, 该钩子 (hook) 可作为实体 filter_script 中 PassesFinalDamageFilter 函数的替代, 在伤害被应用前，可以修改传入的伤害信息, 返回 'false' 将会取消受到的伤害
 [*]VScript: 添加 CNMRiH_BarricadePoint 函数 SetModelOverride()
 [*]VScript: 添加 CNMRiH_Player 函数 DidGunshotSuicide()
+[*]VScript: 添加 CNMRiH_Player 函数 SetForcedRespawn(), 标记下一个复活点为强制复活并跳过检查出生点是否有效, 复活后自动恢复原有设置
+[*]VScript: 添加 CNMRiH_Player 函数 HasJumpAbility(), HasDuckAbility(), SetJumpAbility(), 和 SetDuckAbility(), 用于覆盖玩家是否可以跳跃/蹲下, 并在客户端进行预测
 [*]VScript: 添加 CNMRiH_Player 钩子 OnWeaponDrop, OnWeaponEquip, 和 OnWeaponSwitch
 [*]VScript: 添加 rand() 和 RAND_MAX 在跨平台执行时表现保持一致的支持
 [*]VScript: 添加 NMRiH 按键掩码 (button masks), 碰撞组 (collision groups), 和伤害类型 (damage types) 的常量定义
@@ -82,6 +91,7 @@
 [*]VScript: 添加 函数 TraceEntity(), 和 TraceHull()
 [*]VScript: 为 TraceLineEx(), TraceHull(), 和 TraceEntity() 添加命中实体回调过滤的支持, 通过对回调 "callback" 的值传入一个具有单个参数的函数, 例如 "function ShouldHitEntity(params)", 其参数可分为实体 (entity) 或碰撞掩码 (contentsmask); 函数的返回值可用于过滤命中的实体
 [*]VScript: 类 CScriptNavArea 现在带有字符串输出 (例如 "[&lt;ID&gt;] Area")
+[*]VScript: 实体 输入 "RunScriptCode" 现在会将反引号转换为引号 (例如 ` -&gt; ")
 [*]VScript: 修复 CNMRiH_Player 函数 IsTalkingWalkie() 总是返回 'false' 的问题
 [*]VScript: 修复 当给函数 TraceLineEx() 传入空值时会崩溃的问题
 [*]VScript: 修复 函数 SetActivity() 允许 ACT_INVALID 从而导致崩溃的问题
@@ -91,7 +101,9 @@
 [list]
 [*]添加 修改丧尸模型池的功能, 由控制台变量 "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng", 和 "sv_zombie_models_runner" 控制, 模型之间由 ',' 分割, 路径参照 models/nmr_zombie/*.mdl (或使用完整的文件名)
 [*]添加 控制台变量 "ov_despawn_ignore_population", 默认情况下丧尸只在区域数量超过最大值时消失, 设置成 0 使用原版行为, 探索过的区域维持最大丧尸数, 或设置成 1 让不在视野内的丧尸总是消失 (#1562)
+[*]添加 控制台变量 "sv_gamedesc_override", 服主在不使用插件的情况下即可修改游戏描述
 [*]添加 控制台变量 "sv_runner_randomize_collision_group", 跑尸在生成时总是随机切换碰撞组以防止卡住 (grease), 当设置成 0 并和 BecomeRunner 使用时将还原 v1.15.0 之前的 BUG 行为
+[*]添加 控制台变量 "sv_tree_sway_update_time", 当设置成 0 时, 将在服务器端禁用树木摆动效果 (有助于改善地图兼容性)
 [*]添加 控制台变量 "sv_zombie_brainstem_dmg_scale", 丧尸受到脑干攻击的伤害会使用这个系数计算 (如果 sv_brainstem 设置成 1)
 [*]添加 控制台变量 "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit", 和 "sv_zombie_moan_freq_random" 用于调整丧尸的发声行为 (未改动原版行为)
 [*]添加 新的随机丧尸模型的方法, 即将模型池打乱后再重新抽取, 由控制台变量 "sv_zombie_shuffle_models" 控制
@@ -101,12 +113,14 @@
 
 [h3]nmo_asylum[/h3]
 [list]
+[*]尝试修复尸体部位穿过仪式地板的问题
 [*]修复了断肢造成的卡关问题 (#1565)
 [*]修复了一个天花板上出现奇怪图形的问题
 [/list]
 [h3]nmo_broadway2[/h3]
 [list]
 [*]在最后的梯子撤离区域添加了碰撞纹理 (clip), 使移动更加流畅
+[*]一些小的视觉效果修复
 [*]对逃生绳梯进行了调整以减少迷惑性 (#1533)
 [/list]
 [h3]nmo_cabin[/h3]
@@ -124,9 +138,21 @@
 [*]修复了当拉杆掉到带电水坑中造成的卡关问题 (#1537)
 [*]修复了当任务物品被扔到无法到达的地方后导致的卡关问题 (#1548)
 [/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]修复了初始出生点旁石膏墙面的反射问题
+[*]调整了丧尸的导航路径
+[/list]
 [h3]nmo_quarantine[/h3]
 [list]
 [*]修复了地图末尾的路障点无法钉木板的问题 (#1561)
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]禁用了大屋上层卧室周围区域的丧尸重生 (仅限休闲和经典难度)
+[*]修复了站在船尾斜坡上可以进入撤离区域下方的问题
+[*]提高了急救包的刷新率
+[*]小幅调整以使地图寻路更加方便
 [/list]
 [h3]nmo_toxteth / nmo_toxtethdark[/h3]
 [list]
@@ -135,6 +161,10 @@
 [h3]nms_arpley[/h3]
 [list]
 [*]修复了房子里某些道具的淡出距离过近的问题
+[/list]
+[h3]nms_northway[/h3]
+[list]
+[*]修复了地点 A 中路障道具的视觉错误
 [/list]
 [h3]nms_northway[/h3]
 [list]

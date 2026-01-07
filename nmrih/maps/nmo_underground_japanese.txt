@@ -13,6 +13,7 @@
 	"nmo_underground_LootSmokeGrenade"	"スモークグレネードを回収しろ！"
 	"nmo_underground_FindCodeLootPaint"	"オフィスビルで暗号を探し、ペンキの缶を回収しろ！"
 	"nmo_underground_LootCarBattery"	"カーバッテリーを回収しろ！"
+	"nmo_underground_LootPaint"	"ペンキ缶を回収しろ！"
 	"nmo_underground_plugs"		"プラグを接続しろ！"
 	"nmo_underground_car"		"車を押せ！"
 	"nmo_underground_sos"		"SOSを描け！"

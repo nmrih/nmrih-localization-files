@@ -22,12 +22,10 @@
 [list]
 [*]Adicionado um menu no diálogo de Criar Servidor que seleciona o tipo de servidor para Rede Steam, permitindo servidores públicos / somente para amigos / não listados sem necessidade de redirecionamento de porta
 [*]Adicionada a capacidade de pausar o jogo ao jogar no modo de Um Jogador
-[*]Adicionadas configurações de previsão de objetos carregados às opções avançadas
 [*]Adicionado o cvar "cl_allow_particle_precipitation". Quando desativado, converte as partículas de chuva/neve em variantes padrão em mapas que as utilizam
 [/list]
 [h2]Mudanças[/h2]
 [list]
-[*]Itens, armas e itens médicos que são carregados no modo objetivo agora se movem suavemente com latência (por padrão, via previsão de objetos carregados)
 [*]Agora, alguns elementos da HUD, como nomes de jogadores, ficam ocultos durante o efeito de suicídio
 [*]O ConVar "viewmodel_fov" agora é salvo na configuração do usuário
 [*]Sombras da lanterna agora são independentes da qualidade de sombra "Alta" e podem ser ativadas nas opções avançadas (desativadas por padrão para reduzir crashes da engine)
