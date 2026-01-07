@@ -26,8 +26,10 @@
 [/list]
 [h2]Mudanças[/h2]
 [list]
+[*]O mapa da Oficina Ativo agora está sendo distribuído para jogadores conectados em servidores locais.
 [*]Agora, alguns elementos da HUD, como nomes de jogadores, ficam ocultos durante o efeito de suicídio
 [*]O ConVar "viewmodel_fov" agora é salvo na configuração do usuário
+[*]A dificuldade agora é exibida na descrição do jogo no navegador de servidores
 [*]Sombras da lanterna agora são independentes da qualidade de sombra "Alta" e podem ser ativadas nas opções avançadas (desativadas por padrão para reduzir crashes da engine)
 [*]Otimizado o uso de banda de rede para movimento de jogadores e zumbis
 [*]Otimizado ainda mais o desempenho de zumbis em mapas lotados
@@ -41,6 +43,7 @@
 [/list]
 [h2]Correções[/h2]
 [list]
+[*]Corrigidas notificações falsas de renascimento (ex: o som toca e a janela pisca enquanto 'aguarda ponto de spawn')
 [*]Corrigido o problema em que a mira não era desativada ao considerar o suicídio
 [*]Corrigida a colisão das partículas de chuva, contribuição de BigHatMarley (#1579)
 [*]Corrigida a vocalização ociosa dos zumbis que era cortada durante gemidos mais longos
@@ -52,27 +55,35 @@
 [*]Adicionada a entidade "npc_nmrih_basezombie", classe base para um zumbi genérico, útil para zumbis personalizados
 [*]Adicionada a entidade "skybox_swapper", troca o material da skybox 2D
 [*]Adicionado input "HeadSplit" para zumbis (#1569)
-[*]Adicionado campo-chave de substituição de hitbox para zumbis
+[*]Adicionado campo de sobreposição de colisão (hull override) aos zumbis
 [*]Adicionada entrada "RevertAllMapCvars" à entidade "logic_ruleset", que reverte todas as variáveis de console (cvars) alteradas por um mapa ativo para um valor base (quando disponível) ou padrão. Não reverte alterações de dificuldade, script ou mutador
 [*]Adicionado campo-chave "Despawn Ignore Population" à entidade "func_zombie_spawn". Por padrão, os zumbis só despawnam quando a população da zona está acima do máximo, mesmo quando não estão visíveis. Quando definido para "No", usa o comportamento clássico em que zonas visitadas mantêm o máximo de zumbis. Quando definido para "Yes", sempre despawna zumbis não visíveis
+[*]Adicionado o campo-chave "Hide TAKE Button" (Ocultar Botão Pegar) para a entidade "item_inventorybox"
 [*]Adicionado campo-chave "Ignore Zombie Rules" para zumbis. Quando ativado, as regras do jogo os tratarão como um NPC genérico
 [*]Adicionado suporte a quebras de linha à entidade "point_message_multiplayer"
 [*]Adicionadas flags de spawn ausentes à entidade "point_viewcontrol_multiplayer"
 [*]Adicionadas saídas "OnBarricade" e "OnBreak" à entidade "nmrih_barricade"
 [*]Adicionado suporte para substituição de modelo de adereço de barricada
 [*]Adicionado suporte para filtrar a renderização de modelos em clientes específicos
+[*]FGD: O arquivo 'base.fgd' customizado agora é enviado junto com o 'nmrih.fgd', para substituir os overrides de classes e a dependência do SDK base
 [*]Corrigido problema em que o "logic_progress" dinâmico sempre era concluído ao "StopProgress"
 [*]orrigidas chamadas da entidade "logic_script_proxy" que não funcionavam no escopo global ao usar instâncias
-[*]Corrigida entidade "logic_script_proxy" para aceitar nulo como entrada para "SetTargetEntity"
+[*]Corrigida a entidade "logic_script_proxy" para aceitar nulo como entrada para "SetTargetEntity"
+[*]Corrigida a entidade 'player_weaponstrip', que removia itens de forma incorreta (#1588)
 [*]Corrigidos anexos de modelo parentais em NPCs desalinhados.
+[*]Corrigido o evento 'player_spawn' sendo disparado incorretamente quando não há pontos de spawn disponíveis
 [*]Corrigido problema em que corredores criados via "BecomeRunner" não randomizavam seus grupos de colisão
 [*]Corrigido problema em que o som de faíscas em botões não era reproduzido
-[*]FGD: O "base.fgd" personalizado agora é fornecido junto com o "nmrih.fgd", para substituir as substituições de classe e a dependência do SDK base
 [*]MapHack: Corrigidos limites de colisão em entidades de brush criadas
+[*]NMRObjective: Adicionada a habilidade de selecionar nós clicando e arrastando
+[*]NMRObjective: Adicionadas barras de rolagem para quando os nós ficam fora da área de trabalho
+[*]NMRObjective: Otimizações e melhorias diversas
 [*]VScript: Adicionadas funções CBaseAnimating SetPlayerDrawFilter() e DrawFilterAllPlayers(), quando definidas como true, este modelo não será visível para o jogador especificado
 [*]VScript: Adicionado hook OnTakeDamage à CBaseEntity, este hook foi projetado como uma substituição mutável para o PassesFinalDamageFilter do filter_script, permitindo modificar as informações de dano recebido antes de aplicá-las, retornando 'false' para descartar o dano recebido
 [*]VScript: Adicionada função SetModelOverride() à CNMRiH_BarricadePoint
 [*]VScript: Adicionada função DidGunshotSuicide() à CNMRiH_Player
+[*]VScript: Adicionada a função SetForcedRespawn() em CNMRiH_Player; marca o próximo respawn como forçado, ignora a verificação de pontos de spawn válidos e reverte o estado após o surgimento
+[*]VScript: Adicionadas as funções de CNMRiH_Player: HasJumpAbility(), HasDuckAbility(), SetJumpAbility() e SetDuckAbility(); estas sobrepõem se o jogador pode pular/agachar ou não, com predição no cliente
 [*]VScript: Adicionados hooks OnWeaponDrop, OnWeaponEquip e OnWeaponSwitch à CNMRiH_Player
 [*]VScript: Adicionada implementação consistente de rand() e RAND_MAX em todas as plataformas
 [*]VScript: Adicionadas constantes para máscaras de botões, grupos de colisão e tipos de dano do NMRiH
@@ -80,6 +91,7 @@
 [*]VScript: Adicionadas funções TraceEntity() e TraceHull()
 [*]VScript: Adicionado suporte a callbacks de filtro de acerto de entidade em TraceLineEx(), TraceHull() e TraceEntity(), via valor "callback" que espera uma função com um único argumento 'params', por exemplo, "function ShouldHitEntity(params)" onde 'params' tem as chaves: entity, contentsmask; o valor retornado filtra a entidade atingida
 [*]VScript: A classe CScriptNavArea agora tem representação em string (i.e. "[&lt;ID&gt;] Area")
+[*]VScript: O input 'RunScriptCode' de entidades agora converte crases (backticks) em aspas (i.e. ` -&gt; ")
 [*]VScript: Corrigida a função IsTalkingWalkie() da classe CNMRiH_Player que sempre retornava 'false'
 [*]VScript: Corrigido crash ao passar valores nulos para a função TraceLineEx()
 [*]VScript: Corrigida a função SetActivity() que permitia ACT_INVALID, causando crash
@@ -89,7 +101,9 @@
 [list]
 [*]Adicionada capacidade de modificar pools de modelos de zumbis, controlados pelas variáveis de configuração "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng" e "sv_zombie_models_runner". Os modelos são definidos com delimitador ',' em relação a models/nmr_zombie/*.mdl (ou nome de arquivo direto)
 [*]Adicionada variável de configuração "ov_despawn_ignore_population". Por padrão, zumbis apenas são removidos quando a população da zona está acima do máximo. Defina como 0 para comportamento padrão, onde zonas visitadas mantêm o máximo de zumbis, ou 1 para sempre remover zumbis não visíveis (#1562)
+[*]Adicionada a cvar 'sv_gamedesc_override', para permitir que donos de servidores alterem a descrição do jogo sem a necessidade de plugins
 [*]Adicionada variável de configuração "sv_runner_randomize_collision_group". Os corredores (runners) sempre mudam de grupo de colisão (grease) ao spawnar quando ativado. Quando definido como 0 e emparelhado com BecomeRunner, isso emula o comportamento com bug anterior à versão 1.15.0
+[*]Adicionada a cvar 'sv_tree_sway_update_time'; quando definida como 0, desativa o balanço das árvores no lado do servidor (útil para compatibilidade de mapas)
 [*]Adicionada variável de configuração "sv_zombie_brainstem_dmg_scale". Zumbis recebem esse fator de dano da hitbox do tronco cerebral (se sv_brainstem estiver definido como 1).
 [*]Adicionadas variáveis de configuração para ajustar a vocalização de zumbis: "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit" e "sv_zombie_moan_freq_random" (comportamento padrão inalterado)
 [*]Adicionado novo método de randomizar modelos de zumbis, embaralhando um conjunto de modelos e selecionando entradas dele. Isso pode ser controlado com a variável de configuração "sv_zombie_shuffle_models"
@@ -99,12 +113,14 @@
 
 [h3]nmo_asylum[/h3]
 [list]
+[*]Tentativa de correção de partes do corpo atravessando o chão do ritual
 [*]Corrigido travamento na parte da perna (#1565)
 [*]Corrigido artefato estranho de glitch em um brush de teto
 [/list]
 [h3]nmo_broadway2[/h3]
 [list]
 [*]Adicionados clips para movimento suave na última escada na área de extração
+[*]Pequenas correções visuais
 [*]Ajustado brush de "escada" da corda de escape para ser menos confuso. (#1533)
 [/list]
 [h3]nmo_cabin[/h3]
@@ -122,9 +138,21 @@
 [*]Corrigido travamento quando a alavanca é solta na poça elétrica (#1537)
 [*]Corrigido travamento quando itens de objetivo são jogados fora do alcance (#1548)
 [/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]Corrigidos reflexos na parede de gesso ao lado do ponto de spawn inicial
+[*]Ajustes na navegação dos zumbis
+[/list]  
 [h3]nmo_quarantine[/h3]
 [list]
 [*]Corrigido pontos de barricada no final do mapa que não funcionavam (#1561)
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]Desativado o respawn de zumbis ao redor dos quartos no andar superior da cabana (apenas nas dificuldades Casual e Clássica)
+[*]Corrigida a falha que permitia ficar abaixo da zona de extração ao subir na rampa traseira do barco
+[*]Aumentada a taxa de surgimento (spawn) de kits de primeiros socorros
+[*]Pequenos ajustes para facilitar a navegação pelo mapa
 [/list]
 [h3]nmo_toxteth / nmo_toxtethdark[/h3]
 [list]
@@ -133,6 +161,10 @@
 [h3]nms_arpley[/h3]
 [list]
 [*]Corrigido valor de distância de fade em alguns objetos da casa muito próximo
+[/list]
+[h3]nms_northway[/h3]
+[list]
+[*]Corrigido bug visual no prop de barricada na zona A
 [/list]
 [h3]nms_northway[/h3]
 [list]
