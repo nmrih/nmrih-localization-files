@@ -28,8 +28,10 @@
 [/list]
 [h2]変更[/h2]
 [list]
-[*]自殺時のブラックアウト中に、プレイヤー名など一部のHUD要素が非表示になるように変更
+[*]有効なワークショップのマップが、ローカルサーバーに接続しているプレイヤーに配布されるようになりました
+[*]自殺時のブラックアウト中、プレイヤー名など一部のHUD要素が非表示になるように変更
 [*]ConVarの"viewmodel_fov"がユーザー設定ファイルに保存されるようになりました
+[*]サーバーブラウザのゲーム説明に難易度が表示されるようになりました
 [*]フラッシュライトの影が、影の詳細の「高」設定から独立し、高度な設定で個別に有効化できるようになりました (エンジンクラッシュ軽減のため、デフォルトでは無効)
 [*]プレイヤーおよびゾンビの移動におけるネットワーク帯域を最適化
 [*]混雑したマップにおけるゾンビのパフォーマンスをさらに最適化
@@ -43,6 +45,7 @@
 [/list]
 [h2]修正[/h2]
 [list]
+[*]誤ったスポーン通知を修正しました(「スポーンポイントを待機中」にサウンドが再生され、ウィンドウが点滅するなど)
 [*]自殺動作中にエイムが解除されない問題を修正
 [*]BigHatMarley氏の貢献により、パーティクルの雨の当たり判定を修正 (#1579)
 [*]ゾンビの待機時ボイス(うめき声)が長い場合に途中で途切れる問題を修正
@@ -57,24 +60,32 @@
 [*]ゾンビに"hull override"キーフィールドを追加
 [*]エンティティの"logic_ruleset"に"RevertAllMapCvars"入力を追加。 アクティブなマップによって変更されたすべてのcvarを、ベース値(存在する場合)またはデフォルト値に戻す。 ただし、難易度/スクリプト/ミューテーターの変更は戻さない
 [*]エンティティの"func_zombie_spawn"にキーフィールドの"Despawn Ignore Population"を追加。 デフォルトでは、ゾンビはゾーン内の人口が上限を超えた場合のみ(視認されていなくても)デスポーンさせる。 "No"に設定すると、訪れたゾーンでゾンビ数を維持するクラシックな挙動を使用し、"Yes"に設定すると、視認されていないゾンビを常にデスポーンさせる
+[*]キーフィールドの"Hide TAKE Button"を"item_inventorybox"エンティティに追加
 [*]ゾンビにキーフィールドの"Ignore Zombie Rules"を追加。 trueに設定すると、ゲームルールはそれらを汎用NPCとして扱う
 [*]エンティティの"point_message_multiplayerに改行サポートを追加"
 [*]エンティティの"point_viewcontrol_multiplayer"に不足していたスポーンフラグを追加
 [*]エンティティの"nmrih_barricade"に出力の"OnBarricade"と"OnBreak"を追加
 [*]バリケードプロップモデルのオーバーライドに対応
 [*]特定のクライアントに対するモデル描画フィルタリングをサポート
+[*]FGD: カスタマイズされた"base.fgd"が"nmrih.fgd"に同梱され、ベースSDKのクラスオーバーライドと依存関係を置き換えます
 [*]動的な"logic_progress"が"StopProgress"で常に完了扱いになる問題を修正
 [*]エンティティの"logic_script_proxy"の呼び出しが、インスタンス使用時にグローバルスコープで機能しない問題を修正
 [*]エンティティの"logic_script_proxy"が入力の"SetTargetEntity"にnullを受け付けない問題を修正
+[*]エンティティの"player_weaponstrip"がアイテムを不適切に削除する問題を修正 (#1588)
 [*]NPCに親付けされたモデルのアタッチメントがずれる問題を修正
+[*]スポーンポイントが利用できない状態において"player_spawn"イベントが誤って発生する問題を修正
 [*]"BecomeRunner"によってスポーンしたランナーが、コリジョングループをランダム化しない問題を修正
 [*]ボタンのスパーク音が再生されない問題を修正
-[*]FGD: "base.fgd"をカスタマイズしたものが"nmrih.fgd"と共に同梱されるようになり、Base SDKのクラスオーバーライドおよび依存関係を置き換えます
 [*]MapHack: 生成されたブラシエンティティの当たり判定範囲を修正
+[*]NMRObjective: ノードをドラッグして選択する機能を追加
+[*]NMRObjective: ノードがワークスペース外に出たときにスクロールバーを追加
+[*]NMRObjective: その他最適化と改善
 [*]VScript: CBaseAnimating に関数の SetPlayerDrawFilter() および DrawFilterAllPlayers() を追加。 trueに設定すると、指定プレイヤーにはこのモデルが表示されなくなる
 [*]VScript: CBaseEntity にフックの OnTakeDamage を追加。 filter_script の PassesFinalDamageFilter の代替として設計され、適用前に受けるダメージ情報を変更可能。 "false"を返すとダメージが無効化される
 [*]VScript: CNMRiH_BarricadePoint に関数に SetModelOverride() を追加
 [*]VScript: CNMRiH_Player に関数の DidGunshotSuicide() を追加
+[*]VScript: CNMRiH_Player に関数の SetForcedRespawn() を追加。 次回のリスポーンを強制としてフラグ付けし、有効なリスポーンポイントのチェックをスキップし、リスポーン時に元に戻す
+[*]VScript: CNMRiH_Player に関数の HasJumpAbility(), HasDuckAbility(), SetJumpAbility(), SetDuckAbility() を追加。 プレイヤーがジャンプ/しゃがむことができるかどうかをクライアント側で予測して上書きします
 [*]VScript: CNMRiH_Player にフックの OnWeaponDrop, OnWeaponEquip, OnWeaponSwitch を追加
 [*]VScript: プラットフォーム間で rand() と RAND_MAX の一貫性を確保
 [*]VScript: NMRiH のボタンマスク、コリジョングループ、ダメージタイプの定数を追加
@@ -82,6 +93,7 @@
 [*]VScript: 関数の TraceEntity() および TraceHull() を追加
 [*]VScript: TraceLineEx(), TraceHull(), TraceEntity() において、ヒットエンティティのトレースフィルターコールバックをサポート。 "callback"値を介して、パラメータに単一の引数を持つ関数を期待します。 例:"function ShouldHitEntity(params)"で、paramsには: entity, contentsmask があり、戻り値でヒットしたエンティティをフィルタリングする
 [*]VScript: クラスの CScriptNavArea に文字列表現(例: "[&lt;ID&gt;] Area")を追加
+[*]VScript: エンティティ入力の"RunScriptCode"はバッククォートを引用符(つまり ` -&gt; ")に変換するようになりました
 [*]VScript: CNMRiH_Player の関数 IsTalkingWalkie() が常に"false"を返す問題を修正
 [*]VScript: TraceLineEx() 関数にnull値を渡すとクラッシュする問題を修正
 [*]VScript: SetActivity() 関数で ACT_INVALID を許可してしまい、クラッシュを引き起こす問題を修正
@@ -91,7 +103,9 @@
 [list]
 [*]ゾンビモデルプールを変更できる機能を追加。 "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng", "sv_zombie_models_runner"で制御可能。モデルは models/nmr_zombie/.mdl (または直接ファイル名)に対して",(カンマ)"区切りで指定
 [*]cvarの"ov_despawn_ignore_population"を追加。 デフォルトではゾンビはゾーンの人口が上限を超えたときのみデスポーンする。 0に設定すると、訪問済みゾーンで最大数を維持するバニラ挙動に、1に設定すると視認されていないゾンビを常にデスポーンさせる (#1562)
+[*]cvarの"sv_gamedesc_override"を追加し、サーバー所有者がプラグインなしでゲームの説明を変更できるようになりました
 [*]cvarの"sv_runner_randomize_collision_group"を追加。 ランナーがスポーン時に常にコリジョングループ(grease)を切り替える。 0に設定し、"BecomeRunner"と組み合わせると、v1.15.0以前のバグ挙動を再現できる
+[*]cvarの"sv_tree_sway_update_time"を追加しました。 0の場合、サーバー側の木の揺れを無効にします (マップの互換性に役立ちます)
 [*]cvarの"sv_zombie_brainstem_dmg_scale"を追加。 ゾンビが脳幹ヒットボックスに受けるダメージを、この係数でスケール (sv_brainstem が1に設定されている場合)
 [*]ゾンビのうめき声を調整するためのcvarを追加。 "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit", "sv_zombie_moan_freq_random" (バニラ挙動は変更なし)
 [*]ゾンビモデルをランダム化する新方式を追加。 モデルプールをシャッフルしてそこから抽選する仕組みで、cvarの"sv_zombie_shuffle_models"で制御可能
@@ -101,12 +115,14 @@
 
 [h3]nmo_asylum[/h3]
 [list]
+[*]儀式の床を体のパーツが貫通してしまう問題を修正しようと試みました
 [*]脚部パーツでソフトロックが発生する問題を修正 (#1565)
 [*]天井ブラシ上に発生していた奇妙なグリッチアーティファクトを修正
 [/list]
 [h3]nmo_broadway2[/h3]
 [list]
 [*]最後のラダー脱出のエリアで、移動を滑らかにするためのクリップを追加
+[*]多少のビジュアル修正
 [*]脱出ロープの"ラダー"ブラシを調整し、混乱しにくく改善 (#1533)
 [/list]
 [h3]nmo_cabin[/h3]
@@ -124,9 +140,21 @@
 [*]レバーを感電した水たまりに落とすとソフトロックする問題を修正 (#1537)
 [*]目標アイテムを届かない場所に投げ捨てるとソフトロックする問題を修正 (#1548)
 [/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]初期スポーンポイントの隣の石膏ボードの反射を修正
+[*]ゾンビのナビゲーションの調整
+[/list]
 [h3]nmo_quarantine[/h3]
 [list]
 [*]マップ終盤のバリケード設置箇所が機能していなかった問題を修正 (#1561)
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]キャビンの上階の寝室周辺でゾンビが復活しないようになりました (カジュアルとクラシック難易度のみ)
+[*]ボートの後部ランプに立って脱出ゾーンの下に行くことができる問題を修正
+[*]救急キットの出現率を増加
+[*]マップのナビゲーションを容易にするために小さな調整を行った
 [/list]
 [h3]nmo_toxteth / nmo_toxtethdark[/h3]
 [list]
@@ -134,10 +162,14 @@
 [/list]
 [h3]nms_arpley[/h3]
 [list]
-[*]家の内部にある一部プロップのフェード距離値が近すぎた問題を修正
+[*]家の内部にある一部プロップのフェード距離の値が近すぎた問題を修正
 [/list]
 [h3]nms_northway[/h3]
 [list]
-[*]消火器プロップのフェード距離値が近すぎた問題を修正
+[*]ゾーンAのバリケードプロップの視覚的なバグを修正
+[/list]
+[h3]nms_northway[/h3]
+[list]
+[*]消火器プロップのフェード距離の値が近すぎた問題を修正
 [/list]
 </string><string id="subtitle">64-bit対応、Steam ネットワーキング、最新のSource Engineなどを搭載！</string><string id="summary">もうポート開放は不要！ Steam ネットワーキングにより、公開ゲームやフレンド限定ゲームを手軽に作成可能。 最新のSource Engine機能も活用できます。</string><string id="title">NMRiH ネットワーキングアップデート (1.15) をリリース</string></content>
