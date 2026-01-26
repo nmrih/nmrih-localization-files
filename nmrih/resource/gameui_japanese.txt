@@ -567,5 +567,17 @@
 "VPKTools_Error_BadVersion"				"このVPKのバージョンはサポートされていません。"
 "VPKTools_Error_BannedFileExtension"	"禁止されているファイル拡張子が見つかりました。"
 "VPKTools_Error_CfgFilesNotAllowed"		"設定(cfg)ファイルは許可されていないため、VPKから \"cfg\" フォルダを削除してください。"
+
+"UGC_ObjectiveMaps"						"オブジェクティブマップ"
+"UGC_SurvivalMaps"						"サバイバルマップ"
+"UGC_CustomMaps"						"カスタムマップ"
+"UGC_PlayerSkins"						"プレイヤースキン"
+"UGC_WeaponSkins"						"武器スキン"
+"UGC_ModelPacks"						"モデルパック"
+"UGC_SoundPacks"						"サウンドパック"
+"UGC_HUD_UI"							"HUD / UI"
+"UGC_Scripts_Resources"					"スクリプト / リソース"
+"UGC_Mutators"							"ミューテーター"
+"UGC_Miscellaneous"						"その他"
 } 
 }  

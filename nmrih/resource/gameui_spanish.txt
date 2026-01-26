@@ -548,6 +548,18 @@
 "VPKTools_Error_BadVersion"				"La versión del VPK no es compatible."
 "VPKTools_Error_BannedFileExtension"	"Extensión de archivo prohibida encontrada."
 "VPKTools_Error_CfgFilesNotAllowed"		"No están permitidos archivos de configuración (cfg), por favor remueve la carpeta \"cfg\" del VPK."
+
+"UGC_ObjectiveMaps"						"Mapas de Objetivo"
+"UGC_SurvivalMaps"						"Mapas de Supervivencia"
+"UGC_CustomMaps"						"Mapas Custom"
+"UGC_PlayerSkins"						"Diseños de Jugador"
+"UGC_WeaponSkins"						"Diseños de Armas"
+"UGC_ModelPacks"						"Paquetes de Modelos"
+"UGC_SoundPacks"						"Paquetes de Sonidos"
+"UGC_HUD_UI"							"HUD / Interfaz"
+"UGC_Scripts_Resources"					"Scripts / Recursos"
+"UGC_Mutators"							"Mutators"
+"UGC_Miscellaneous"						"Misceláneo"
 } 
 }
 //credits to elbisbe, Ryo567 and Holy Crap
