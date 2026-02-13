@@ -12,7 +12,7 @@
 [*]修正一個預判錯誤，當客戶段的玩家移動時，非玩家的動作沒有把玩家在一個 tick 中的動作輸入納入預判
 [*]修正一個如位置等特定參數沒有在某些情況下正確做與伺服器端相符的更新
 [*]修正特定可破壞物件沒有正確出現殘骸
-[*]修正玩家載體 (Player hull) 在特定情況下，如蹲下或撞牆時，的錯誤預判，造成逐禎退回
+[*]修正玩家載體 (Player hull) 在特定情況下，如蹲下或撞牆時，的錯誤預判，造成視覺上的逐幀退回
 [*]修正玩家基礎速度 (如輸送帶、移動物件等) 在伺服器端與客戶端間些微的不同步
 [*]改善本機玩家的位置連線下的精準度，減少預判錯誤改善遊戲體驗
 [*]改善在物件或其他 Entities 上走動時的預判
@@ -37,7 +37,7 @@
 [*]更新在地化檔案：
 [list]
 
-[*]感謝社群翻譯者：[b]Atheist、Klowby、MakinDay、marcielcps、Plazehorta、RicecakeHuman[/b]
+[*]感謝社群翻譯者：[b]Atheist、Klowby、MakinDay、marcielcps、Plazehorta、RicecakeHuman、SkyAfterRain[/b]
 [*]想要為 NMRiH 在地化你的語言嗎？ [url=https://github.com/nmrih/nmrih-localization-files]造訪我們在 GitHub 上的在地化存儲庫。[/url]
 [/list]
 [/list]
@@ -55,9 +55,9 @@
 [*]新增 Entity "npc_nmrih_basezombie"，基礎類別給常態的殭屍，有利於自訂殭屍
 [*]新增 Entity "skybox_swapper"，替換 2D skybox 材質
 [*]新增殭屍的 "HeadSplit" input (#1569)
-[*]新增殭屍載體 (Hull) 修改輸入格
+[*]新增殭屍的外層（Hull）覆寫輸入格
 [*]新增 input "RevertAllMapCvars" 給 Entity "logic_ruleset"，這會將受到地圖更動過的控制台參數改回基礎值 (若有的話) 或預設值，這不會動到難易度 / 腳本 / 修改器 (mutator) 的更動
-[*]新增輸入格 "Despawn Ignore Population" 給 Entity "func_zombie_spawn"，預設下，即使不被玩家看見，殭屍只會在區域人口超出最大值時消失；若設定為 'No'，將使用經典的規則讓玩家經過過的區域維持最大殭屍數，設定為 'Yes' 則會在殭屍不被看見時消失
+[*]新增輸入格 "Despawn Ignore Population" 給 Entity "func_zombie_spawn"，預設下，即使不被玩家看見，殭屍只會在區域人口超出最大值時消失；若設定為 'No'，將使用經典的規則讓玩家經過過的區域維持最大殭屍數，設定為 'Yes' 則會一直讓未被看到的殭屍消失
 [*]新增輸入格 "Hide TAKE Button" 給 Entity "item_inventorybox"
 [*]新增輸入格 "Ignore Zombie Rules" 給殭屍，當啟動時，遊戲會把殭屍視為常態 NPC
 [*]新增換行功能給 Entity "point_message_multiplayer"
@@ -72,7 +72,7 @@
 [*]修正 Entity "player_weaponstrip" 不正常的移除物件 (#1588)
 [*]修正 NPC 身上有附屬關係的模型沒有對齊
 [*]修正 "player_spawn" 事件在沒有可用的復活點數時觸發
-[*]修正透過 BecomeRunner 產生的奔跑殭屍沒有亂數產生他們的碰撞群組
+[*]修正透過 BecomeRunner 產生的奔跑殭屍沒有隨機產生他們的碰撞群組
 [*]修正按鈕上的漏電聲不撥放
 [*]MapHack: 修正生成 Brush entity 的碰撞邊界
 [*]NMRObjective: 新增拖曳節點的功能
@@ -102,11 +102,11 @@
 [*]新增修改殭屍模型池的功能，利用控制台參數 "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng" 及 "sv_zombie_models_runner" 控制，模型以 ',' 區隔，登記為 models/nmr_zombie/*.mdl (或單一檔案名稱)
 [*]新增控制台參數 "ov_despawn_ignore_population", 預設時殭屍只會在區域人口超出最大值時移除，設為 0 使用原始規則讓待過的地方維持最大殭屍數，設為 1 永遠移除看不見的殭屍 (#1562)
 [*]新增控制台參數 "sv_gamedesc_override", 讓伺服器擁有者不需透過插件即可更改遊戲描述
-[*]新增控制台參數 "sv_runner_randomize_collision_group", 奔跑殭屍產生時永遠切換碰撞群組 (軟)，設為 0 並配上 BecomeRunner 會產生 v1.15.0 之前的錯誤行為
+[*]新增控制台參數 "sv_runner_randomize_collision_group", 奔跑殭屍產生時永遠切換碰撞群組 (潤滑生成)，設為 0 並配上 BecomeRunner 會產生 v1.15.0 之前的錯誤行為
 [*]新增控制台參數 "sv_tree_sway_update_time", 設為 0 時，能夠在伺服器端關閉樹木搖晃 (對地圖相容性有幫助)
 [*]新增控制台參數 "sv_zombie_brainstem_dmg_scale", 殭屍會把此數值納入腦幹傷害的計算 (若 sv_brainstem 1)
 [*]新增控制台參數來調整殭屍的聲音，"sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit" 及 "sv_zombie_moan_freq_random" (預設行為不改變)
-[*]新增新的隨將殭屍模型產生方式，在一個模型池中洗牌並抽出當中的選擇，這可被控制台參數 "sv_zombie_shuffle_models" 控制
+[*]新增新的隨機殭屍模型產生方式，在一個模型池中隨機抽出一個模型作為選擇，這可被控制台參數 "sv_zombie_shuffle_models" 控制
 [*]遊戲狀態命令 (如 "respawnplayer") 現在支援 SteamIDs 與部分名稱相符做判斷依據
 [/list]
 [h1]地圖[/h1]
@@ -167,4 +167,4 @@
 [*]修正 A 區障礙物布景的視覺問題
 [*]修正滅火器淡出距離值過低
 [/list]
-</string><string id="subtitle">增加支援 64 位元、Steam 網路、最新版本的 Source 引擎和更多內容！</string><string id="summary">告別惱人的 Port forward！利用 Steam 網路輕鬆創建自己的公開或好友遊戲，並體驗最新版 Source 引擎的功能。</string><string id="title">NMRiH 網路連線更新 (1.15) 釋出</string></content>
+</string><string id="subtitle">增加支援 64 位元、Steam 網路、最新版本的 Source 引擎和更多內容！</string><string id="summary">告別惱人的通訊埠轉發！利用 Steam 網路輕鬆創建自己的公開或好友遊戲，並體驗最新版 Source 引擎的功能。</string><string id="title">NMRiH 網路連線更新 (1.15) 釋出</string></content>
