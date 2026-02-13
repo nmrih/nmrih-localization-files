@@ -26,9 +26,11 @@
 [/list]
 [h2]Modifiche[/h2]
 [list]
+[*]La mappa del Workshop Attiva ora viene distribuita ai giocatori connessi sui server locali.
 [*]Alcuni elementi dell'HUD come i nomi dei giocatori ora sono nascosti durante la schermata di suicidio
 [*]La ConVar "viewmodel_fov" viene ora salvata nella configurazione utente
 [*]Le ombre della torcia ora sono indipendenti dalla qualità ombre “Alta” e possono essere abilitate nelle opzioni avanzate (disattivate di default per ridurre i crash del motore)
+[*]La difficoltà ora viene visualizzata nella descrizione della partita nel browser dei server.
 [*]Ottimizzata la banda di rete per il movimento di giocatori e zombi
 [*]Ottimizzate ulteriormente le prestazioni degli zombi nelle mappe affollate
 [*]Riviste le icone di stato vocale sopra le teste dei giocatori per essere più leggibili nelle mappe scure
@@ -41,6 +43,7 @@
 [/list]
 [h2]Correzioni[/h2]
 [list]
+[*]Corrette le notifiche di spawn errate (ovvero il suono viene riprodotto e la finestra lampeggia mentre si è in “attesa del punto di spawn”).
 [*]Corretta la mancata disattivazione della mira con iron sights durante il suicidio
 [*]Corretta la collisione della pioggia particellare, contributo di BigHatMarley (#1579)
 [*]Corretta l'interruzione prematura dei suoni di gemiti lunghi degli zombi inattivi
@@ -55,23 +58,32 @@
 [*]Aggiunto campo chiave per override dell'hull negli zombi
 [*]Aggiunto input "RevertAllMapCvars" all'entità "logic_ruleset", che ripristina tutte le cvar modificate da una mappa attiva ai valori base o predefiniti (non ripristina difficoltà / script / mutatori)
 [*]Aggiunto campo chiave "Despawn Ignore Population" all'entità "func_zombie_spawn": di default gli zombi vengono rimossi solo quando la popolazione di zona supera il massimo, anche se non visibili; impostando "No" usa il comportamento classico (le zone visitate mantengono il numero massimo di zombi); impostando "Yes" rimuove sempre gli zombi non visibili
+[*]Aggiunto campo chiave "Hide TAKE Button" all'entità "item_inventorybox"
 [*]Aggiunto campo chiave "Ignore Zombie Rules" agli zombi: se impostato su true, le regole di gioco li trattano come NPC generici
 [*]Aggiunto supporto per a capo nelle entità "point_message_multiplayer"
 [*]Aggiunti flag mancanti all'entità "point_viewcontrol_multiplayer"
 [*]Aggiunti output "OnBarricade" e "OnBreak" all'entità "nmrih_barricade"
 [*]Aggiunto supporto per override del modello dei props di barricata
 [*]Aggiunto supporto per filtrare la visualizzazione dei modelli su client specifici
+[*]FGD: Il file “base.fgd” personalizzato ora è incluso in “nmrih.fgd”, per sostituire le modifiche alle classi e le dipendenze per l'SDK Base.
 [*]Corretto il "logic_progress" dinamico che si completava sempre su "StopProgress"
-[*]Corrette chiamate "logic_script_proxy" globali non funzionanti con istanze
+[*]Corrette le chiamate "logic_script_proxy" globali non funzionanti con istanze
 [*]Corretta l'accettazione di valori null per l'input "SetTargetEntity" in "logic_script_proxy"
+[*]Corretta l'entità "player_weaponstrip" che rimuoveva impropriamente gli oggetti (#1588)
 [*]Corretti allegati di modelli parented sugli NPC disallineati
+[*]Corretto l'evento "player_spawn" attivato incorrettamente quando non ci sono punti di spawn disponibili
 [*]Corretti runner generati con BecomeRunner che non randomizzavano i gruppi di collisione
 [*]Corretto suono delle scintille sui pulsanti che non veniva riprodotto
-[*]FGD: il file "base.fgd" personalizzato ora è incluso in "nmrih.fgd", sostituendo le dipendenze del SDK Base
+[*]MapHack: Corretti i limiti di collisione sulle entità brush generate
+[*]NMRObjective: Aggiunta la possibilità di selezionare e trascinare i nodi
+[*]NMRObjective: Aggiunte le barre di scorrimento quando i nodi escono dall'area di lavoro
+[*]NMRObjective: Ottimizzazioni e miglioramenti vari
 [*]MapHack: corretti i limiti di collisione sulle entità brush generate
 [*]VScript: aggiunte funzioni CBaseAnimating SetPlayerDrawFilter() e DrawFilterAllPlayers(), che rendono invisibile il modello per giocatori specifici
 [*]VScript: aggiunto hook CBaseEntity OnTakeDamage, sostituto modificabile per PassesFinalDamageFilter, consente di alterare i danni in ingresso o annullarli
 [*]VScript: aggiunta funzione CNMRiH_BarricadePoint SetModelOverride()
+[*]VScript: Aggiunta la funzione CNMRiH_Player SetForcedRespawn(), che contrassegna il prossimo respawn come forzato e salta il controllo del punto di spawn valido, quindi ripristina lo spawn
+[*]VScript: aggiunte le funzioni CNMRiH_Player HasJumpAbility(), HasDuckAbility(), SetJumpAbility() e SetDuckAbility(), che sovrascrivono la possibilità del giocatore di saltare/abbassarsi o meno, prevista sul client
 [*]VScript: aggiunte funzioni CNMRiH_Player DidGunshotSuicide(), OnWeaponDrop, OnWeaponEquip, OnWeaponSwitch
 [*]VScript: aggiunto comportamento coerente di rand() e RAND_MAX su tutte le piattaforme
 [*]VScript: aggiunte costanti per maschere di pulsanti NMRiH, gruppi di collisione e tipi di danno
@@ -79,16 +91,18 @@
 [*]VScript: aggiunte funzioni TraceEntity() e TraceHull()
 [*]VScript: aggiunto supporto per callback di entità colpite nei tracciamenti (TraceLineEx(), TraceHull(), TraceEntity()) tramite parametro "callback"
 [*]VScript: la classe CScriptNavArea ora ha una rappresentazione testuale (“[&lt;ID&gt;] Area”)
+[*]VScript: L'input dell'entità “RunScriptCode” ora converte i backtick in virgolette (ovvero ` -&gt; ")
 [*]VScript: corretta la funzione CNMRiH_Player IsTalkingWalkie() che restituiva sempre “false”
 [*]VScript: corretti crash passando valori nulli a TraceLineEx()
 [*]VScript: corretta funzione SetActivity() che accettava ACT_INVALID causando crash
 [*]VScript: corretti hook NPC_TranslateActivity e NPC_TranslateSchedule che non validavano i tipi di ritorno
 [/list]
-
 [h2]Modifiche per amministratori di server[/h2]
 [list]
 [*]Aggiunta la possibilità di modificare i pool di modelli zombi, controllati dalle cvar "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng" e "sv_zombie_models_runner", con modelli separati da virgole relativi a models/nmr_zombie/.mdl
+[*]Aggiunta la variabile cvar “sv_gamedesc_override”, per consentire ai proprietari dei server di modificare la descrizione della partita senza plugin
 [*]Aggiunto il cvar "ov_despawn_ignore_population": di default gli zombi vengono rimossi solo quando la popolazione di zona supera il massimo; impostare a 0 per comportamento classico o 1 per rimuovere sempre gli zombi non visibili (#1562)
+[*]Aggiunta la variabile cvar “sv_tree_sway_update_time”: se impostata su 0, disabilita l'oscillazione degli alberi lato server (utile per la compatibilità delle mappe)
 [*]Aggiunto il cvar "sv_runner_randomize_collision_group": controlla la randomizzazione del gruppo di collisione dei corridori; con 0 e usato con BecomeRunner emula il comportamento pre-v1.15.0
 [*]Aggiunto il cvar "sv_zombie_brainstem_dmg_scale": moltiplicatore per i danni al “brainstem” (se sv_brainstem = 1)
 [*]Aggiunte cvar per modificare le vocalizzazioni degli zombi: "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit" e "sv_zombie_moan_freq_random" (comportamento vanilla invariato)
@@ -96,20 +110,22 @@
 [*]I comandi di stato di gioco (es. "respawnplayer") ora supportano SteamID e corrispondenze parziali dei nomi come argomenti
 [/list]
 [h1]Mappe[/h1]
-
+  
 [h3]nmo_asylum[/h3]
 [list]
+[*]Tentativo di correggere le parti del corpo che attraversavano il pavimento del rituale
 [*]Corretto softlock nella parte delle gambe (#1565)
 [*]Corretto glitch visivo su una superficie del soffitto
 [/list]
 [h3]nmo_broadway2[/h3]
 [list]
-[*]Aggiunti clip per un movimento più fluido nell’area finale della scala di estrazione
+[*]Aggiunti clip per un movimento più fluido nell'area finale della scala di estrazione
+[*]Piccole correzioni visive
 [*]Modificato il brush “scala” della corda di fuga per renderlo meno confuso (#1533)
 [/list]
 [h3]nmo_cabin[/h3]
 [list]
-[*]Ridotto il tempo di danno dell’esplosione del contenitore
+[*]Ridotto il tempo di danno dell'esplosione del contenitore
 [/list]
 [h3]nmo_chinatown[/h3]
 [list]
@@ -122,9 +138,21 @@
 [*]Corretto softlock quando la leva veniva lasciata cadere nella pozzanghera elettrica (#1537)
 [*]Corretto softlock quando gli oggetti obiettivo venivano lanciati fuori portata (#1548)
 [/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]Corretti i riflessi sulla parete intonacata accanto al punto di spawn iniziale
+[*]Navigazione degli zombi ottimizzata
+[/list]
 [h3]nmo_quarantine[/h3]
 [list]
 [*]Corretti punti di barricata alla fine della mappa che non funzionavano (#1561)
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]Disabilitato il respawn degli zombie nelle camere da letto al piano superiore della baita (solo a difficoltà Casual e Classica)
+[*]Risolto il problema che consentiva di passare sotto la zona di estrazione stando in piedi sulla rampa posteriore dell'imbarcazione.
+[*]Aumentata la frequenza di comparsa dei kit di pronto soccorso
+[*]Piccole modifiche per facilitare la navigazione della mappa
 [/list]
 [h3]nmo_toxteth / nmo_toxtethdark[/h3]
 [list]
@@ -136,6 +164,10 @@
 [/list]
 [h3]nms_northway[/h3]
 [list]
+[*]Risolto un bug visivo sulla barricata nella zona A
+[/list]
+[h3]nms_northway[/h3]
+[list]
 [*]Corretta la distanza di dissolvenza su un estintore troppo ravvicinata
 [/list]
-</string><string id="subtitle">Supporto a 64 bit, Rete di Steam, il nuovo motore Source e molto altro!</string><string id="summary">Niente più port forwarding! Crea facilmente partite pubbliche o solo per amici grazie alla Rete di Steam, sfruttando le nuove funzionalità del motore Source.</string><string id="title">Rilascio dell'Aggiornamento del Networking di NMRiH (1.15)</string></content>
+</string><string id="subtitle">Supporto del 64-bit, Networking di Steam, l'ultima versione del motore Source e molto altro!</string><string id="summary">Niente più port forwarding! Crea facilmente partite pubbliche o solo per amici grazie alla Rete di Steam, sfruttando le nuove funzionalità del motore Source.</string><string id="title">Rilascio dell'Aggiornamento del Networking di NMRiH (1.15)</string></content>

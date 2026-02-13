@@ -419,5 +419,17 @@
 "VPKTools_Error_BadVersion"				"Version de VPK non supportée."
 "VPKTools_Error_BannedFileExtension"	"Extension de fichier bannie trouvée."
 "VPKTools_Error_CfgFilesNotAllowed"		"Les fichiers de configuration (cfg) ne sont pas autorises, retirez le dossier \"cfg\" du VPK."
+
+"UGC_ObjectiveMaps"						"Cartes à Objectifs"
+"UGC_SurvivalMaps"						"Cartes de Survie"
+"UGC_CustomMaps"						"Cartes Personnalisées"
+"UGC_PlayerSkins"						"Modèles de Joueur"
+"UGC_WeaponSkins"						"Modèles d'armes"
+"UGC_ModelPacks"						"Packs de Modèles"
+"UGC_SoundPacks"						"Packs de Sons"
+"UGC_HUD_UI"							"HUD / UI"
+"UGC_Scripts_Resources"					"Scripts / Ressources"
+"UGC_Mutators"							"Mutateurs"
+"UGC_Miscellaneous"						"Divers"
 } 
 }  

@@ -567,5 +567,17 @@
 "VPKTools_Error_BadVersion"	"VPK 版本不支援。"
 "VPKTools_Error_BannedFileExtension"	"發現禁用檔案擴充。"
 "VPKTools_Error_CfgFilesNotAllowed"	"不允許配置 (cfg) 檔，請移除 VPK 中的 \"cfg\" 資料夾。"
+
+"UGC_ObjectiveMaps"						"目標地圖"
+"UGC_SurvivalMaps"						"生存地圖"
+"UGC_CustomMaps"						"自訂地圖"
+"UGC_PlayerSkins"						"玩家外觀"
+"UGC_WeaponSkins"						"武器外觀"
+"UGC_ModelPacks"						"模型包"
+"UGC_SoundPacks"						"音效包"
+"UGC_HUD_UI"							"HUD / UI"
+"UGC_Scripts_Resources"					"腳本 / 資源"
+"UGC_Mutators"							"調整器"
+"UGC_Miscellaneous"						"雜項"
 } 
 }  

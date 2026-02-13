@@ -567,6 +567,18 @@
 "VPKTools_Error_BadVersion"				"Версия VPK не поддерживается."
 "VPKTools_Error_BannedFileExtension"			"Найдено запрещённое расширение файла."
 "VPKTools_Error_CfgFilesNotAllowed"			"Конфигурация (cfg) файла недопустима к упаковке, пожалуйста удалите папку «cfg» из VPK."
+
+"UGC_ObjectiveMaps"						"Карты на прохождение"
+"UGC_SurvivalMaps"						"Карты на выживание"
+"UGC_CustomMaps"						"Пользовательские карты"
+"UGC_PlayerSkins"						"Облики игрока"
+"UGC_WeaponSkins"						"Облики оружия"
+"UGC_ModelPacks"						"Наборы моделей"
+"UGC_SoundPacks"						"Наборы звуков"
+"UGC_HUD_UI"							"Интерфейс / Меню"
+"UGC_Scripts_Resources"					"Скрипты / Ресурсы"
+"UGC_Mutators"							"Модификаторы"
+"UGC_Miscellaneous"						"Разное"
 } 
 }
 
