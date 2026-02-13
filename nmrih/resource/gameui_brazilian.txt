@@ -363,6 +363,7 @@
 "Addon_Manager_ApplyChanges"		"Aplicar mudanças"
 "Addon_Manager_InvalidAddon"		"Este add-on é incompatível."
 "Addon_Manager_MultiSelect"			"[%s1 add-ons selecionados]"
+"Addon_Manager_DefaultDesc"			"Sem descrição disponível."
 
 "Addon_Manager_DropMenu_Disable"	"Desativar"
 "Addon_Manager_DropMenu_ShowInfo"	"Mostrar Informação"
