@@ -3,12 +3,12 @@
 	"Language"	"polish"
 	"Tokens"
 	{
-		"#Status_JoiningServer"	"Do³¹czanie do serwera..."
-		"#Status_MainMenu"	"Menu G³ówne"
-		"#Status_PlayingObjective"	"Gra mapê typu Objective - %map%"
-		"#Status_PlayingSurvival"	"Gra mapê typu Survival - %map%"
-		"#Status_PlayingCustom"	"Gra mapê typu Custom - %map%"
-		"#Status_PlayingPvP"	"Gra mapê typu PvP - %map%"
-		"#Status_PlayingMinigame"	"Gra mapê typu Minigame - %map%"
+		"#Status_JoiningServer"	"DoÅ‚Ä…czanie do serwera..."
+		"#Status_MainMenu"	"Menu GÅ‚Ã³wne"
+		"#Status_PlayingObjective"	"Gra mapÄ™ typu Objective - %map%"
+		"#Status_PlayingSurvival"	"Gra mapÄ™ typu Survival - %map%"
+		"#Status_PlayingCustom"	"Gra mapÄ™ typu Custom - %map%"
+		"#Status_PlayingPvP"	"Gra mapÄ™ typu PvP - %map%"
+		"#Status_PlayingMinigame"	"Gra mapÄ™ typu Minigame - %map%"
 	}
 }
