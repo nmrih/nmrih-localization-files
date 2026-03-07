@@ -1,0 +1,13 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nms_northway_work"	"System drzwi działa! Zamknij wszystkie sześć wejść do tego budynku!"
+	"nms_northway_5"	"Pozostało 5 drzwi!"
+	"nms_northway_4"	"Pozostały 4 drzwi!"
+	"nms_northway_3"	"Pozostały 3 drzwi!"
+	"nms_northway_2"	"Pozostały 2 drzwi!"
+	"nms_northway_1"	"Pozostały 1 drzwi!"
+}
+}

@@ -1,0 +1,21 @@
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{
+	"nmo_cleopas_ObjA"	"Znajdź TNT, aby przebić się przez bramę w alejce"
+	"nmo_cleopas_ObjB"	"Znajdź TNT, aby przebić się przez bramę w alejce"
+	"nmo_cleopas_ObjC"	"Znajdź TNT, aby przebić się przez bramę w alejce"
+	"nmo_cleopas_ObjZ"	"Podążaj za celem z tablicy"
+	"nmo_cleopas_ObjE"	"Znajdź 4 deski, aby przejść przez wodę pod napięciem"
+	"nmo_cleopas_ObjF"	"Znajdź dźwignię, aby wyłączyć zasilanie"
+	"nmo_cleopas_ObjH"	"Użyj drabiny, aby dostać się do sklepu Samco"
+	"nmo_cleopas_ObjI"	"Użyj palnika, aby włamać się do sklepu"
+	"nmo_cleopas_ObjJ"	"Znajdź drabinę, aby przejść przez bramę w alejce"
+	"nmo_cleopas_ObjG"	"Wysadź ścianę w alejce"
+	"nmo_cleopas_OBjD"	"Przejdź przez dom i przebij się przez front"
+	"nmo_cleopas_ObjK"	"Dostań się do następnej alejki"
+	"nmo_cleopas_ObjR"	"Znajdź szczypce, aby przeciąć zamek. Masz 3 minuty na ewakuację!"
+	"nmo_cleopas_ObjL"	"Znajdź palnik, aby otworzyć tylną bramę w alejce"
+}
+}

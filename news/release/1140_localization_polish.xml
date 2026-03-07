@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content><string id="body">Update do No More Room in Hell został wydany. Update zostanie zastosowany automatycznie po ponownym uruchomieniu No More Room in Hell. Główne zmiany obejmują:
+
+[h1]Nowe mapy[/h1]
+[h3]Shoreline [Objective] (autor: Sirdoggy)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/aa8fbb33c465f0024395d4885c5a6249fd1721af.jpg[/img]
+
+[i]Armia USA ogłosiła tę część wybrzeża strefą bezpieczeństwa Redecker. My oraz wielu innych uciekliśmy tu z miasta, ale te martwe sukinsyny podążyły za nami. To spowodowało, że wojsko wstrzymało operacje ratunkowe. Minęło już kilka dni i sytuacja tylko się pogarsza.
+
+Ostatniej nocy horda przedarła się przez jedno z wejść do domku. Wielu zostało ugryzionych i zainfekowanych. Kilkoro z nas zebrało się razem i ukryło w piwnicy pobliskiego domu. Zachowujemy ciszę, dopóki sytuacja się nie uspokoi.
+Plan zakłada powrót do domku i ponowne nawiązanie kontaktu z Gwardią Narodową. Mamy nadzieję, że zorganizują dla nas ostatni transport.[/i]
+
+[h1]Kod[/h1]
+
+[h2]Dodatki[/h2]
+[list]
+[*]Dodano viewmodele przedmiotów medycznych, autorstwa S0kk0 (#1516)
+[/list]
+[h2]Zmiany[/h2]
+[list]
+[*]Ulepszono modele LOD zombie, autorstwa BigHatMarley (#1500)
+[*]Nieaktywne bezpieczne strefy są teraz wyświetlane jako "NIEAKTYWNE" na HUD
+[*]Zwiększono maks. głębokość tekstur cieni do 8, dodano opcję uruchamiania "-numshadowtextures"
+[*]Różne usprawnienia wydajności CPU
+[*]Nazwy i opisy wyzwań oraz mutatorów obsługują teraz stringi lokalizacyjne
+
+[*]Zaktualizowano pliki lokalizacyjne:
+[list]
+
+[*]Podziękowania dla tłumaczy społeczności: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]Chcesz przetłumaczyć NMRiH na swój język? [url=https://github.com/nmrih/nmrih-localization-files]Odwiedź nasze repozytorium lokalizacji na GitHub.[/url]
+[/list]
+[/list]
+[h2]Poprawki[/h2]
+[list]
+[*]Naprawiono model postaci Badass, który nie rzucał dynamicznych cieni (#587)
+[*]Naprawiono uszkodzone komunikaty HUD na środku dołu ekranu (#1484)
+[*]Naprawiono problem z nieregularnym odtwarzaniem własnych dźwięków na mapach z Workshop
+[*]Naprawiono kompatybilność dem z plikami nagranymi przed 1.13.5
+[*]Naprawiono rozłączenie z aktywną infekcją powodujące crash gry (#1489)
+[*]Naprawiono problem, w którym śmierć podczas wydobycia z tokenami odrodzenia powodowała wejście gry w stan „wygranej” w trybie survival (#1168)
+[*]Naprawiono brakujące dźwięki odpychania i chowania przy granacie odłamkowym (#1293)
+[*]Naprawiono trzęsący się viewmodel podczas wbiegania w ściany (#1354)
+[*]Naprawiono ślizganie się gracza podczas chodzenia po teksturze żwirowej (#1507)
+[*]Naprawiono problemy z agresją AI zombie (#1448/#1475)
+
+[/list]
+[h2]Zmiany dla twórców map i modderów[/h2]
+[list]
+[*]Dodano input "SetActivatorCaption" do encji "env_instructor_hint"
+[*]Dodano inputy "PauseDrain" oraz "ResumeDrain" do encji "func_safe_zone" (#1467)
+[*]Dodano pole kluczowe "Spawn Solid?" do encji "item_inventory_box"
+[*]Dodano nadpisanie celu regeneracji spawnu dla "func_zombie_spawn" definiowane przez mapę, aby naprawić błąd resetowania przy restarcie rundy
+[*]Dodano wsparcie dla podświetlania wielu encji celu współdzielących tę samą nazwę (#1524)
+[*]Naprawiono crash spowodowany przez "prop_physics_override" z modelem bez kolizji (#1504)
+[*]Naprawiono crash przy spawnie "generic_actor" z pustym polem kluczowym "model" (#1494)
+[*]Naprawiono ignorowanie flagi spawnu "Disable Motion" dla "item_custom" (#1510)
+[*]Naprawiono encje "point_viewcontrol_multiplayer" oraz "nmrih_extract_preview" blokujące obrót kamery dla obserwatorów (#1522)
+[*]Naprawiono encję "ambient_fmod", która nie odtwarzała dźwięku przy spawnie przez skrypt (#1496)
+[*]Naprawiono encję "item_custom", która nie zwalniała miejsca w ekwipunku przy inpucie "Kill"
+[*]Naprawiono niedziałający input "Disable" dla encji "instant_trigger" (#1498)
+[*]Naprawiono brak zapisywania kodów klawiatury numerycznej przy zmianie przez "InputSetCode"
+[*]Naprawiono opóźnioną transmisję dla inputów "SetLabel" oraz "SetIcon" encji "item_custom"
+[*]Naprawiono opóźnioną transmisję dla nadpisania etykiety i ikony broni
+[*]Naprawiono błąd "physics mayhem" przy bezpośrednim ustawianiu wartości klucza "solid"
+[*]Naprawiono niedziałające preferowane kąty noszenia (#1509)
+[*]Naprawiono niedziałające nadpisanie dźwięku ataku zombie (#1491)
+[*]FMOD: Dodano komendę konsoli "fmod_memstats" do śledzenia użycia pamięci
+[*]FMOD: Dodano okluzję dla dźwięków ambientowych
+[*]FMOD: Dodano częściowe wsparcie znaków dźwięku ('*' [strumieniowanie z dysku], '#' [suchy miks, odtwarzany wszędzie, zależny od głośności muzyki])
+[*]FMOD: Naprawiono niedokładne tłumienie dla dźwięków ambientowych
+[*]MapHack: Naprawiono nieprawidłowe działanie funkcji $respawn, teraz poprawnie odradza encję w jej oryginalnej pozycji z nienaruszonymi danymi encji (#1089)
+[*]NMRObjective: Przy początkowym wczytaniu domyślny opis ustawiany jest na nazwę celu zamiast pustego pola
+[*]VScript: Dodano funkcję CAI_BaseNPC IsFrozen()
+[*]VScript: Dodano funkcje CNMRiH_Objective GetObjectiveBoundary() oraz GetObjectiveBoundaryName() (#1495)
+[*]VScript: Dodano funkcję CNMRiH_ObjectiveManager GetCurrentObjective()
+[*]VScript: Dodano funkcję DispatchParticleEffectByAttachment()
+[*]VScript: Dodano funkcję FMOD_PrecacheSound()
+[*]VScript: Dodano stałe przyczepienia cząsteczek
+[*]VScript: Oznaczono funkcje Enable/DisableEntityListening() jako przestarzałe, hooki encji są teraz zawsze aktywne
+[*]VScript: Naprawiono CBaseEntity::GetKeyValue() zwracające uszkodzone wartości stringów
+[*]VScript: Naprawiono CNMRiH_Player::GetCarriedItems() nie zwracające własnych przedmiotów z duplikatami targetname
+[*]VScript: Naprawiono hooki "NPC_TranslateActivity" oraz "NPC_TranslateSchedule" działające nieprawidłowo
+[*]VScript: Zweryfikowane przez ruleset cvar są teraz dozwolone do ustawiania przez funkcje Convars
+[*]VScript: Zwracany jest błąd zamiast crasha, gdy funkcja oczekuje parametru typu tabela i go nie otrzyma
+
+[/list]
+[h2]Zmiany dla administratorów serwerów[/h2]
+[list]
+[*]Dodano cvar "sv_grenade_rise", przeniesiony z pluginu QoL Ryana (lekko unosi granaty nad ziemię przy detonacji, aby zwiększyć skuteczność wśród przeszkód)
+[*]Dodano ulepszone wykrywanie nieaktywnych graczy, upuszczanie przedmiotów przez AFK oraz nowe cvar "sv_idle_tracking_method", "sv_idle_item_drop" i "sv_idle_item_drop_time" (#1372)
+[*]Dodano inspirowane QoL wielokrotne odpychanie, możliwe do włączenia przez cvar "sv_shove_multi" (domyślnie wyłączone)
+[/list]
+[h1]Mapy[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Drzwi przy rynku, prowadzące do domu ze spawarką, teraz otwierają się tylko na zewnątrz
+[*]Naprawiono powierzchnię nodraw na cegłach zniszczonej ściany
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Naprawiono softlock (#1451)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Dodano arbuza
+[*]Naprawiono wskaźniki podpowiedzi instruktora podążające za innymi graczami
+[*]Naprawiono drzwi odrodzenia możliwe do otwarcia przez zombie
+[*]Usunięto różne clipy
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Dostosowano clipy
+[/list]
+[h3]nms_camilla[/h3]
+[list]
+[*]Drobne poprawki
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]Zmieniono kolor vana ewakuacyjnego
+[*]Drobne poprawki
+[/list]
+[h3]nms_notld[/h3]
+[list]
+[*]Drobne poprawki
+[/list]
+[h3]nms_ransack[/h3]
+[list]
+[*]Naprawiono nieprawidłowe ustawienie obiektu w obszarze cutscenki
+[/list]
+</string><string id="subtitle">Odwiedź Shoreline, zupełnie nową mapę, w tym update zawartości do NMRiH.</string><string id="summary">Odwiedź Shoreline, zupełnie nową mapę, w tym update zawartości do NMRiH.</string><string id="title">NMRiH Shoreline Update (1.14) Wydany</string></content>

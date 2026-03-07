@@ -1,0 +1,28 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_shoreline_obj_startgo"	"Opuść kryjówkę"
+	"nmo_shoreline_obj_startbreakplanks"	"Znajdź sposób, aby dostać się do chaty"
+	"nmo_shoreline_obj_startunlockcellar"	"Znajdź palnik i otwórz drzwi do piwnicy"
+	"nmo_shoreline_obj_cellartocabin"	"Przejdź przez piwnicę"
+	"nmo_shoreline_obj_unlockbasementexit"	"Znajdź klucz do piwnicy i otwórz drzwi"
+	"nmo_shoreline_obj_unlockgarage"	"Schody są zablokowane, znajdź klucz do pmieszczenia ze skrzynką bezpieczników"
+	"nmo_shoreline_obj_disableelec"	"Wyłącz zasilanie elektrycznego ogrodzenia w piwnicy"
+	"nmo_shoreline_obj_cellartocourtyard"	"Wróć do piwnicy, znajdź sposób, aby dostać się do chaty"
+	"nmo_shoreline_obj_watersidetocabin"	"Wejdź do chaty przez pomost"
+	"nmo_shoreline_obj_vanbattery"	"Znajdź brakującą baterię, aby uruchomić furgonetkę"
+	"nmo_shoreline_obj_destroygaragedoor"	"Wysadź drzwi garażu za pomocą I.E.D"
+	"nmo_shoreline_obj_garagetocabin"	"Wejdź do chaty przez garaż"
+	"nmo_shoreline_obj_garagetolaundry"	"Schody są zablokowane, przejdź przez pralnię"
+	"nmo_shoreline_obj_watersideexplosive"	"Znajdź butlę z propanem, aby wysadzić drzwi"
+	"nmo_shoreline_obj_gouproute"	"Przejdź przez górne piętro chaty"
+	"nmo_shoreline_obj_findtheradio"	"Użyj palnika, aby dostać się do pokoju z radiem"
+	"nmo_shoreline_obj_radiofindbattery"	"Radio nie ma zasilania, znajdź baterię"
+	"nmo_shoreline_obj_callextraction"	"Użyj radia, aby wezwać pomoc"
+	"nmo_shoreline_obj_flare"	"Zasygnalizuj ewakuację za pomocą flary"
+	"nmo_shoreline_evac"	"Ratunek przybędzie za 2 minuty. Zabezpiecz punkt ewakuacyjny!"
+	"nmo_shoreline_alert"	"Ktoś sygnalizuje ewakuację!"
+}
+}
