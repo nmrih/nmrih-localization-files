@@ -1,0 +1,25 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_shelter_Objective_1"	"Przejdź do głównej sali"
+	"nmo_shelter_Objective_2"	"Wejdź na górę"
+	"nmo_shelter_Objective_3"	"Znajdź sposób, aby otworzyć kontrolnię"
+	"nmo_shelter_Objective_4"	"Użyj klucza w kształcie serca, aby otworzyć drzwi łączące z lobby (które znajduje się na górze)"
+	"nmo_shelter_Objective_5"	"Znajdź dźwignię i użyj jej, aby wejść do tuneli konserwacyjnych"
+	"nmo_shelter_Objective_6"	"Otwórz drzwi prowadzące do kanałów"
+	"nmo_shelter_Objective_7"	"Szukaj wskazówek"
+	"nmo_shelter_Objective_8"	"Znajdź przełączniki"
+	"nmo_shelter_Objective_7_pre"	"Wyłącz gaz"
+	"nmo_shelter_Objective_5_pre"	"Aktywuj generator, naciskając przycisk w maszynowni"
+	"nmo_shelter_Objective_6_pre"	"Zejdź na dół do tuneli konserwacyjnych"
+	"nmo_shelter_Objective_7_prepre"	"Zniszcz deskę, aby uzyskać dostęp do kanałów"
+	"nmo_shelter_Objective_pre9"	"Przejdź przez tunele"
+	"nmo_shelter_Objective_9"	"Przygotuj trasę ucieczki!"
+	"nmo_shelter_lever"		"Ktoś używa dźwigni!"
+	"nmo_shelter_6mins"		"Masz 6 minut na ewakuację!"
+	"nmo_shelter_switch"		"Umieść wszystkie przełączniki!"
+	"nmo_shelter_end"		"Poddajesz się, aby przeżyć kolejny dzień..."
+}
+}

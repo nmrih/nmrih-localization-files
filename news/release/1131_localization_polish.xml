@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">Aktualizacja do No More Room in Hell została wydana. Aktualizacja zostanie zastosowana automatycznie po ponownym uruchomieniu No More Room in Hell. Główne zmiany obejmują:
+
+[h2]Zmiany[/h2]
+[list]
+[*]Ulepszono ogólne wykrywanie trafień w walce wręcz, istoty z bliska mogą być teraz trafiane bardziej niezawodnie
+[*]Uderzenia z broni białej nie przykrywają już naklejek ani nie generują odłamków
+[*]Uderzenia w zwarciu mogą teraz trafiać wiele jednostek jednocześnie
+[*]Lista mutatorów jest teraz sortowana według tytułu
+[*]Zredukowano dla SKS z bagnetem dodatkowe opóźnienie pchnięcia (1.5s -&gt; 0.5s)
+[*]Przywrócono etykietę tablicy wyników „DEAD” z powrotem do „DECEASED”
+[*]Komunikaty o błędach w Warsztacie po stronie serwera są teraz bardziej opisowe
+
+[*]Zaktualizowano pliki lokalizacyjne:
+[list]
+
+[*]Podziękowania dla tłumaczy społecznościowych: Blueberryy, Holy Crap, Klowby, marcielcps, Plazehorta
+[*]Chcesz przetłumaczyć NMRiH na swój język? [url=https://github.com/nmrih/nmrih-localization-files]Visit nasze repozytorium tłumaczeniowe w serwisie GitHub.[/url]
+[/list]
+[/list]
+[h2]Poprawki[/h2]
+[list]
+[*]Naprawiono częsty crash systemu Linux podczas zdobywania osiągnięć
+[*]Naprawiono dźwięk śmierci odtwarzany po rozłączeniu
+[*]Naprawiono rozłączanie zabójstw wpływające na postęp osiągnięcia „Mamy to!”
+[*]Naprawiono entity „ambient_fmod” odtwarzający wszystkie aktywne dźwięki podczas logowania klienta
+[*]Naprawiono entity „point_message_multiplayer”, który nie zawsze aktualizował pozycję podczas podążania za entityami
+[*]Naprawiono zdarzenie „zombie_shoved” uruchamiane podczas popychania graczy
+[*]Naprawiono awarię systemu dźwięku FMOD podczas zmiany poziomu (#1363)
+[*]Naprawiono niespójny współczynnik głośności muzyki i dźwięków otoczenia FMOD
+[*]Naprawiono globalne wyświetlanie podpowiedzi na celach nieaktywnych entityów
+[*]Naprawiono lokalizację mapy, która nie powracała do języka angielskiego, gdy brakowało ciągów dla bieżącego języka
+[*]Naprawiono mutatory, które nie były stosowane przy restarcie serwera nasłuchiwania (#1361)
+[*]Naprawiono mutatory, które nie były przeładowywane przy zmianie poziomu
+[*]Naprawiono nakładające się elementy w oknie dialogowym opcji
+[*]Naprawiono rzadką awarię, gdy gracz korzystający ze skrzyni z zaopatrzeniem opuszcza grę
+[*]Naprawiono przycinanie tekstu na tablicy wyników w niższych rozdzielczościach
+[*]Naprawiono przycinanie nazwy serwera na tablicy wyników
+[*]Naprawiono kilka błędów związanych z entity "ambient_fmod"
+[*]Naprawiono odtwarzanie dźwięku pchnięcia bagnetem SKS po trafieniu w coś innego niż zombie lub gracz
+[*]Naprawiono skrzynię z zaopatrzeniem, która blokowała się po śmierci lub opuszczeniu gry przez gracza
+[*]Naprawiono interfejs użytkownika skrzynki z zaopatrzeniem, który nie zamykał się podczas odtwarzania wersji demonstracyjnej
+[/list]
+[h2]Zmiany dla mapperów i moderów[/h2]
+[list]
+[*]Dodano entity "env_timer", prosty zegar HUD z kontrolkami wejściowymi podobnymi do stopera
+[*]Dodano entity filtra "filter_activator_player_infection", który przechodzi, gdy gracz jest zainfekowany lub opcjonalnie, gdy aktywator nie jest graczem
+[*]Dodano obsługę filtrów dla entity "env_explosion"
+[*]Dodano wejście "ToggleSound" do entity "ambient_fmod"
+[*]Dodano wejście "SetCauser" do entity'ów, ustawiające kto otrzymuje uznanie za zabójstwo (np. z wyzwalacza zranienia)
+[*]Entity "trigger_keypad" ustawia teraz aktywator "OnTrigger" jako gracza, który wprowadził kod
+[*]Naprawiono niedziałające wejścia "ambient_fmod": "IncreaseVolume" i "DecreaseVolume"
+[/list]
+[h1]Mapy[/h1]
+
+[h3]nmo_asylum[/h3]
+[list]
+[*]Dodano dodatkowe audio
+[*]Dodano alternatywne miejsce pojawiania się klucza, aby lepiej zbalansować ścieżki celów
+[*]Dodano alternatywne ścieżki omijające większość wąskich gardeł powodujących „Zombie Clogs”
+[*]Dodano clipping w celu wygładzenia niektórych schodów, usunięcia miejsc typu „god-spot” w finale oraz zapobiegania blokowaniu się przedmiotów związanych z celami
+[*]Dodano więcej znaków
+[*]Dodano więcej strasznych elementów!
+[*]Drzwi Cheeky Foot od teraz odblokowują się po zdobyciu specjalnego Foot Spawna. Koniec z tęsknym wpatrywaniem się w stopy, do których nie da się dotrzeć
+[*]Wyegzorcyzmowano Ghost Bomb
+[*]Pierwsza połowa mapy została usprawniona pod kątem ścieżki realizacji celów — łatwiejsza nawigacja i mniej ślepych zaułków
+[*]Naprawiono kolizje w bardzo, bardzo wielu obiektach
+[*]Naprawiono słabo słyszalne audio w finale
+[*]Poprawiono wydajność na Dziedzińcu
+[*]Ulepszono spawn zombie w sekcji finałowej oraz zmniejszono liczbę biegaczy na dziedzińcu o około 20%, ale nadal będziecie zdani na losową logikę spawnu, więc przy pechu możecie nie zauważyć różnicy
+[*]Dostosowano wytrzymałość mięsa oraz czas trwania finału, aby zwiększyć poziom wyzwania
+[*]Zastąpiono znaczną liczbę „Fake Real Doors” prawdziwymi, fałszywymi drzwiami w celu poprawy nawigacji
+[*]Odświeżono oświetlenie w Dormitorium, aby było mniej monotonne; ogólne ulepszenia oświetlenia na całej mapie
+[*]Przebudowano logikę spawnu w finale, znacząco zmniejszając liczbę biegaczy
+[*]Naprawiono miejsca blokowania się przy Kluczach, nagrobkach oraz w recepcji przy wejściu; usunięto rekwizyty wielkości mrówek — przepraszamy mrówki
+[*]Zaktualizowano siatkę nawigacyjną, aby zombie były mniej „głupie”
+[*]Różne ulepszenia detali oraz drobne poprawki błędów
+[*]Można teraz uratować arbuza — szczere przeprosiny dla ekip ratowania arbuzów za to przeoczenie
+[/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]Zastąpiono muzykę ambientową z soundscape na ambient typu „room”
+[*]Nieznacznie zmieniono trasę celu wyzwania „Pump it”
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Naprawiono błędną falę końcową
+[/list]
+[h3]nms_laundry[/h3]
+[list]
+[*]Wydłużono czas ekstrakcji
+[*]Naprawiono problem z zombie blokującymi się w wąskim spawnie w alejce (rozszerzono grywalny obszar — nawet jeśli się zablokują, gracze mogą je zabić bronią białą)
+[*]Zabójstwa miną przeciwpiechotną są teraz przypisywane graczowi, który ją podniósł
+[*]Miny przeciwpiechotne nie zadają już obrażeń graczom (z wyjątkiem sytuacji, gdy są zainfekowani)
+[*]Skrócono czas trwania syreny z 4 minut do 1 minuty
+[*]Zastąpiono ikony podpowiedzi „alert” dla celu „cut the rope” ikoną „use key”
+[*]Van teraz trąbi klaksonem przed rozpoczęciem jazdy
+[*]Van nie zabija już graczy natychmiast
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.1 Wydany</string></content>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content><string id="body">Update do No More Room in Hell został wydany. Update zostanie zastosowany automatycznie po ponownym uruchomieniu No More Room in Hell. Główne zmiany obejmują:
+
+[h2]Dodatki[/h2]
+[list]
+[*]Dodano rozszerzone wsparcie dla gry solo offline, aktywowane poprzez ustawienie "1" jako maksymalną liczbę graczy w oknie "Utwórz Serwer"
+[/list]
+[h2]Poprawki[/h2]
+[list]
+[*]Naprawiono zachowanie biegacza, który niezamierzenie poruszał się szybciej i doganiał graczy (patch został zastosowany w wcześniejszym hotfixie dla 1.14.1)
+[*]Naprawiono przepełnianie dekoracji przy restartach rund, co powodowało znikanie śladów pocisków i rozprysków krwi na niektórych mapach
+[*]Naprawiono niewrażliwość NPC podczas zamrożenia
+[*]Naprawiono nakładkę lunety snajperskiej, która czasami nie znikała przy utracie pakietów sieciowych
+[/list]
+[h2]Zmiany dla twórców map i modderów[/h2]
+[list]
+[*]Dodano encję "point_worldtext", wyświetla wiadomość tekstową w świecie, zorientowaną w przestrzeni, w miejscu jej położenia
+[*]Naprawiono cvar "sv_freeze_zombies_on_spawn", który był wymuszenie ustawiany podczas wydobycia, co mogło unieważniać rulesety
+[*]Naprawiono nieprawidłowe filtrowanie w encji "filter_activator_name"
+[*]Naprawiono rzadki crash, gdy wyposażony "item_custom" kolidował z poruszającymi się drzwiami props
+[*]Naprawiono błędne respawnowanie statycznych dekoracji przy restartach rund i przepełnianie limitu dekoracji; dynamiczne dekoracje z targetname pozostają bez zmian
+[*]Naprawiono zombie celujące w graczy zamiast encji "npc_bullseye", które blokowały ataki
+[*]FMOD: Naprawiono pliki dźwiękowe spakowane przez mapy, które nie były precachowane i stawały się niesłyszalne po dołączeniu klienta do serwera
+[*]Ruleset: Dodano słowo kluczowe "Include" dla skryptów
+[*]VScript: Dodano funkcje CBaseAnimating GetModelScale() oraz SetModelScale()
+[*]VScript: Dodano funkcje CNavMesh FindNavAreaAlongRay(), GetAreasWithAttributes(), GetNavAreasOverlappingEntityExtent(), GetObstructingEntities(), NavAreaTravelDistance()
+[*]VScript: Dodano funkcje CNMRiH_Player IsInBarricadingMode() oraz IsPlacingBoard()
+[*]VScript: Dodano bindingi CPointWorldText
+[*]VScript: Funkcja CNavMesh GetNavAreasFromBuildPath(startArea, goalArea, goalPos ...) akceptuje teraz null dla "goalArea", aby obliczyć ścieżkę możliwie najbliżej "goalPos"
+[*]VScript: Zoptymalizowano funkcje CConvars, pobieranie wartości jest teraz bardziej wydajne dla cvars rejestrowanych przez skrypty i rulesety
+[/list]
+[h2]Zmiany dla administratorów serwerów[/h2]
+[list]
+
+[*]Dodano możliwość blokowania przedmiotów przez cvar:
+[list]
+
+[*]Dodano cvar "sv_ban_items", lista zbanowanych nazw encji przedmiotów rozdzielana przecinkami, np. "sv_ban_items me_fubar,exp_tnt,item_pills"
+[*]Dodano cvar "sv_ban_items_on_entities", zastosowanie listy blokowanych przedmiotów do luźnych encji (np. przedmiotów umieszczonych przez twórców map)
+[*]Dodano cvar "sv_ban_items_on_random_spawners", zastosowanie listy blokowanych przedmiotów do losowych spawnerów
+[*]Dodano cvar "sv_ban_items_on_supplies", zastosowanie listy blokowanych przedmiotów do skrzyń z zaopatrzeniem
+[*]Dodano cvar "sv_ban_items_override", dodatkowa zwalidowana lista blokad do użycia z mapami, skryptami itp.
+[/list]
+
+[*]Dodano pierwszą partię „legacy cvars”, w celu umożliwienia serwerom cofania zmian, które mogą wpływać na styl gry społeczności (cvars dotyczące zachowania zombie zostały wprowadzone wcześniej w 1.14.1)
+[list]
+
+[*]Dodano cvar "sv_barricade_sounds", odtwarza dźwięki uderzeń przy uszkadzaniu desek
+[*]Dodano cvar "sv_bow_fix_wallbang", naprawia możliwość strzelania przez ściany z łuku
+[*]Dodano cvar "sv_bullet_impulse", włącza impuls pocisku, co skutkuje bardziej widocznym odrzutem ragdolla zależnym od typu amunicji
+[*]Dodano cvar "sv_cancel_throw_drop", naprawia błąd, w którym gracz mógł trzymać przycisk drop, aby przechować ładunek rzutu po schowaniu
+[*]Dodano cvar "sv_chainsaw_fix_charge_glitch", naprawia błąd pozwalający na ładowanie piły łańcuchowej do zadawania dodatkowych obrażeń
+[*]Dodano cvar "sv_chainsaw_fix_use_entity_glitch", naprawia błąd nieskończonego paliwa piły łańcuchowej podczas używania np. skrzyni z zaopatrzeniem
+[*]Dodano cvar "sv_dropallammo", pozwala na wyrzucenie całej amunicji prawym przyciskiem w kole radialnym
+[*]Dodano cvar "sv_etool_allow_shove_during_switch", pozwala na popychanie podczas zmiany trybu narzędzia
+[*]Dodano cvar "sv_extinguisher_use_distance", jak blisko gracz musi być do triggera postępu z gaśnicą, aby jej użyć
+[*]Dodano cvar "sv_flame_legacy", legacy tracking dla zabójstw ogniem (pre-v1.12.3)
+[*]Dodano cvar "sv_flare_gun_apply_radius_damage", pocisk generuje małą eksplozję wpływającą na propsy, okna, graczy/NPC itd.
+[*]Dodano cvar "sv_flare_gun_fix_oob_supply_drop", skrzynie spadają na pozycję gracza, aby uniknąć out of bounds
+[*]Dodano cvar "sv_flare_gun_passthrough_glass", pocisk przechodzi przez szkło i nie eksploduje przy kontakcie
+[*]Dodano cvar "sv_flare_gun_passthrough_player", pocisk przechodzi przez graczy przy wyłączonym friendly fire
+[*]Dodano cvar "sv_grenade_angular_impulse_max", nadaje siły, aby granaty się obracały po rzucie
+[*]Dodano cvar "sv_grenade_angular_impulse_min", jak wyżej
+[*]Dodano cvar "sv_grenade_infect_bypass", zainfekowani gracze umierający od eksplozji nie stają się zombie
+[*]Dodano cvar "sv_gunshot_suicide", pozwala na samobójstwa strzałem
+[*]Dodano cvar "sv_hide_ammo_hud_on_fire", ukrywa HUD amunicji po strzale
+[*]Dodano cvar "sv_initial_sprint_stamina_penalty", ile staminy zużywa początkowy sprint
+[*]Dodano cvar "sv_item_pickup_sound", odtwarza dźwięk przy podniesieniu przedmiotu
+[*]Dodano cvar "sv_medical_allow_use_underwater", pozwala na użycie przedmiotów medycznych pod wodą
+[*]Dodano cvar "sv_medical_audible_sounds", inni gracze słyszą użycie przedmiotów medycznych
+[*]Dodano cvar "sv_medical_instant_apply", przedmioty medyczne działają natychmiast (emulacja v1.07)
+[*]Dodano cvar "sv_melee_impact_style", 0 = nic, 1 = klasycznie, 2 = cząsteczki wzdłuż łuku
+[*]Dodano cvar "sv_molotov_always_burn", czy molotov zawsze wywołuje pożar niezależnie od miejsca trafienia
+[*]Dodano cvar "sv_npc_frozen_death_immunity", zamrożeni NPC nie giną, emulacja buga v1.14.1
+[*]Dodano cvar "sv_npc_goal_repath_tolerance", domyślnie 120.0, zapobiega doganianiu przez biegaczy poruszających się graczy
+[*]Dodano cvar "sv_player_bullet_force_accumulator", nakłada siłę pocisków na ragdolle graczy
+[*]Dodano cvar "sv_player_death_music", odtwarza muzykę przy śmierci
+[*]Dodano cvar "sv_player_duck_on_crawler_grab", pozwala kucać, gdy pełzacz chwyta gracza
+[*]Dodano cvar "sv_player_fix_hitbox_desync", naprawia desynchronizację hitboxów przy patrzeniu w górę/dół
+[*]Dodano cvar "sv_player_follow_ragdoll", kamera podąża za ragdollem gracza po śmierci
+[*]Dodano cvar "sv_player_grab_ff_immunity", chwytani gracze nie otrzymują friendly fire
+[*]Dodano cvar "sv_player_spawn_sound", odtwarza lokalny dźwięk przy spawnie gracza
+[*]Dodano cvar "sv_player_water_splash", gracze generują pluski w wodzie
+[*]Dodano cvar "sv_realism_fix_bullet_penetration", naprawia brak przebicia pocisków w trybie realism
+[*]Dodano cvar "sv_realism_fix_crawler_damage", domyślnie obrażenia ciała nie są zerowane na pełzaczach
+[*]Dodano cvar "sv_shove_allow_during_firemode_change", pozwala popychać podczas zmiany trybu ognia
+[*]Dodano cvar "sv_shove_allow_during_ironsight", pozwala popychać podczas unoszenia/opuszczania celownika
+[*]Dodano cvar "sv_shove_allow_during_pickup", pozwala popychać podczas podnoszenia propsa
+[*]Dodano cvar "sv_shove_drain_stamina_on_world_hit", jeśli pchnięcie trafia świat, odbiera staminę
+[*]Dodano cvar "sv_shove_stab_sound", odtwarza dźwięk pchnięcia (np. bagnet SKS)
+[*]Dodano cvar "sv_suicide_disallow_while_using", blokuje samobójstwo przy użyciu triggera postępu
+[*]Dodano cvar "sv_suicide_infect_score", punkty za samobójstwo strzałem będąc zainfekowanym
+[*]Dodano cvar "sv_suicide_play_impact_sound", odtwarza dźwięk uderzenia przy samobójstwie strzałem
+[*]Dodano cvar "sv_voicecmd_common_sounds", wspólne dźwięki jak krwawienie używają ukrytych komend głosowych
+[*]Dodano cvar "sv_voicesubtitles", włącza napisy głosowe na czacie
+[*]Dodano cvar "sv_weapon_unload", pozwala rozładować broń palną
+[*]Dodano cvar "sv_zippo_extinguish_underwater", zippo gasi pod wodą i nie można go zapalić
+[*]Dodano cvar "sv_zombie_always_attack_bullseye", zombie nie biorą npc_bullseye za przeszkody, 0 emuluje błąd v1.14.1
+[*]Dodano cvar "sv_zombie_pound_sound", zombie odtwarzają dźwięki uderzeń podczas niszczenia barykad, propsów, ścian itp.
+[/list]
+
+[/list]
+[h1]Mapy[/h1]
+
+[h3]nmo_shoreline[/h3]
+[list]
+[*]Dodano punkt barykady przy głównych drzwiach wejściowych kabiny
+[*]Naprawiono pixelwalk nad schodami wejściowymi kabiny
+[*]Drobne zmiany wizualne
+[*]Dostosowano spawn zombie i nawigację
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.14.2 Wydany</string></content>

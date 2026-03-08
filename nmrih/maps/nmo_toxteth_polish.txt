@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_toxteth_ObjF"	"Włam się do sklepu"
+	"nmo_toxteth_ObjE"	"Użyj palnika na bocznym wejściu do sklepu"
+	"nmo_toxteth_ObjD"	"Użyj TNT, aby dostać się do sklepu"
+	"nmo_toxteth_ObjC"	"Znajdź zbiornik z paliwem, aby wysadzić ścianę ogrodu"
+	"nmo_toxteth_ObjB"	"Odbierz telefon"
+	"nmo_toxteth_ObjA"	"Udaj się na Hartington Road"
+	"nmo_toxteth_ObjG_1"	"Znajdź martwego pracownika, aby wejść do biura magazynu"
+	"nmo_toxteth_ObjG_2"	"Znajdź martwego pracownika, aby wejść do biura magazynu"
+	"nmo_toxteth_ObjG_3"	"Znajdź martwego pracownika, aby wejść do biura magazynu"
+	"nmo_toxteth_ObjH"	"Wezwij pomoc"
+	"nmo_toxteth_ObjI"	"Odbierz telefon"
+	"nmo_toxteth_ObjJ"	"Użyj palnika na 3 gniazdkach w ścianie, aby spowodować pożar!"
+	"nmo_toxteth_ObjK"	"Znajdź dźwignię do otwierania drzwi"
+	"nmo_toxteth_ObjL"	"Udaj się do kaplicy"
+	"nmo_toxteth_ObjM"	"Użyj palnika na pokrywie włazu"
+	"nmo_toxteth_ObjZ"	"Wróć na Hartington Road"
+}
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content><string id="body">Wydano update do No More Room in Hell. Update zostanie zastosowany automatycznie po ponownym uruchomieniu gry No More Room in Hell. Najważniejsze zmiany obejmują:
+
+[h2]Nowości[/h2]
+[list]
+[*]Gra zawiera teraz pełny cache dźwięku — eliminuje to zauważalne przycięcia FPS przy pierwszym odtwarzaniu dźwięków, szczególnie u użytkowników z wolniejszymi dyskami
+[/list]
+
+[h2]Zmiany[/h2]
+[list]
+[*]Ulepszono obliczanie napięcia w systemie dynamicznej muzyki (#1482)
+[*]Dostosowano playlistę dynamicznej muzyki pościgu runnera — utwory z długimi wstępami zostały usunięte
+
+[*]Zaktualizowano pliki lokalizacyjne:
+[list]
+[*]Podziękowania dla tłumaczy społeczności: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta, RicecakeHuman, Uncut[/b]
+[*]Chcesz przetłumaczyć NMRiH na swój język? [url=https://github.com/nmrih/nmrih-localization-files]Odwiedź nasze repozytorium lokalizacyjne na GitHubie.[/url]
+[/list]
+[/list]
+
+[h2]Poprawki[/h2]
+[list]
+[*]Naprawiono znikanie strzał z łuku przy trafieniu z określonej odległości (#1479)
+[*]Naprawiono ucinanie niektórych dźwięków ambient, takich jak tło pomieszczeń (#1482)
+[*]Naprawiono komendę „snd_restart”, która nie restartowała wszystkich dźwięków ambient w grze
+[*]Naprawiono przekonwertowane dźwięki ambient mające nieprawidłowy zasięg słyszalności lub zapętlające się bez końca
+[*]Naprawiono sporadyczny crash przy wybieraniu przedmiotu ze skrzyni z zaopatrzeniem
+[*]Naprawiono przepełnianie się wyniku przy 2048 lub więcej zabójstwach
+[*]Naprawiono crash opcji głośników w menu głównym
+[/list]
+
+[h2]Zmiany dla twórców map i modderów[/h2]
+[list]
+[*]Dodano pola kluczowe „Ammo Fill Min/Max” dla entity ammobox
+[*]Dodano opcjonalne pole kluczowe obsługujące zapętlanie MP3 — naprawia problem na istniejących mapach, gdzie jednorazowe dźwięki MP3 zapętlały się bez końca z powodu nieprawidłowych spawnflags
+[*]Dodano obsługę triggera postępu broni dla „item_zippo”
+[*]Entity „point_viewcontrol_multiplayer” włącza teraz kamerę po wywołaniu inputu „AddPlayer”
+[*]Naprawiono niedziałające !activator dla „OnEndUse” w „trigger_progress_use” oraz „trigger_progress_weapon” (#1473)
+[*]Naprawiono czas trzymania dla „point_viewcontrol_multiplayer” podczas podążania za celem
+[*]Naprawiono brak włączania kamery dla wybranych graczy przy pierwszym użyciu inputu „Enable” w „point_viewcontrol_multiplayer”
+[*]Naprawiono modyfikatory prędkości ruchu, które nie resetowały maksymalnej prędkości absolutnej
+[*]Naprawiono nieprawidłowe działanie inputu zombie „BecomeShambler”
+[*]FMOD: Ulepszono zasięg słyszalności dźwięków ambient — teraz bardziej zbliżony do „ambient_generic”
+[*]MapHack: Dodano funkcję „$filter” — usuwa entity poprzez dopasowanie keyvalues
+[*]MapHack: Naprawiono „$modify” ignorujące wiele filtrów keyvalue (#1474)
+[*]VScript: Dodano funkcję CConvars RegisterAdminCommand() — tworzy komendę konsoli możliwą do wykonania wyłącznie przez administratorów serwera; poza tym identyczna jak RegisterCommand()
+[*]VScript: Naprawiono nieprawidłowe działanie funkcji CItem_InventoryBox AllowEmpty()
+[/list]
+
+[h2]Zmiany dla administratorów serwerów[/h2]
+[list]
+[*]Dodano cvar „sv_infection_bypass”, przeniesiony z pluginu QoL Ryana
+[*]Dodano cvar „sv_barricade_show_damage”, przeniesiony z pluginu QoL Ryana
+[*]Cvar „sv_bullet_bypass_player” nie ma już flagi cheat
+[/list]
+
+[h1]Mapy[/h1]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Naprawiono nieprawidłową playlistę dynamicznej muzyki
+[/list]
+
+[h3]nmo_lakeside[/h3]
+[list]
+[*]Dodano napisy do dialogów
+[*]Naprawiono zapętlający się dialog radiowy
+[/list]
+
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Naprawiono cienie na zewnątrz oraz nieprawidłowo oświetlone propy
+[*]Usunięto jedno ogrodzenie przed wejściem do sterowni
+[*]Usunięto clipy ze schodów prowadzących na górne piętro sterowni
+[*]Drobne korekty niektórych pul przedmiotów w celu zmniejszenia RNG
+[*]Zombie są teraz odpychane od bramy spawnu podczas jej otwierania
+[/list]
+
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Dodano napisy do dialogów
+[*]Naprawiono zbyt długie odtwarzanie finałowego dialogu radiowego
+[/list]
+
+[h3]nms_drugstore[/h3]
+[list]
+[*]Dodano napisy do dialogów
+[*]Naprawiono zapętlający się dialog helikoptera ewakuacyjnego
+[/list]
+
+[h3]nms_ransack[/h3]
+[list]
+[*]Naprawiono dziwne odbicia na teksturze błota
+[*]Czołg teraz poprawnie cofa się, gdy wszyscy gracze zostaną ewakuowani lub gdy ewakuacja wygaśnie
+[/list]
+
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.6 Wydany</string></content>

@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nms_laundry_hinta"	"Nie pozwól, aby zombie opanowały tę strefę bezpieczeństwa!"
+	"nms_laundry_hintb"	"Straciliśmy sygnał radiowy, nie będzie już zrzutów zaopatrzenia!"
+	"nms_laundry_losea"	"Straciliśmy jeden z samochodów ewakuacyjnych..."
+	"nms_laundry_pushcar"	"Pchnij samochód!"
+	"nms_laundry_cutrope1"	"Przetnij linę!"
+	"nms_laundry_cutrope2"	"Przetnij linę!"
+	"nms_laundry_mine"	"Uważaj na miny!"
+	"nms_laundry_et"	"Znajdź paliwo do pułapki!"
+}
+}

@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_broadway_objA"	"Zniszcz kłódkę bramy"
+	"nmo_broadway_objB1"	"Przebij się przez boczne drzwi motelu, znajdź coś odpowiedniego do tego"
+	"nmo_broadway_objB_1"	"Znajdź drogę do piwnicy"
+	"nmo_broadway_objC"	"Znajdź klucz do tylnych drzwi kina"
+	"nmo_broadway_objD"	"Znajdź baterię i uruchom ciężarówkę"
+	"nmo_broadway_objD_1"	"Zanieś butlę z propanem do kawiarni"
+	"nmo_broadway_objE"	"Udaj się do baru i znajdź klucz"
+	"nmo_broadway_objF"	"Włącz zraszacze"
+	"nmo_broadway_objG1"	"Znajdź dźwignię do drzwi magazynu"
+	"nmo_broadway_objH"	"Dostań się do biura kierownika i wezwij ewakuację"
+	"nmo_broadway_objI"	"Przetnij palnikiem boczne wejście do motelu"
+}
+}

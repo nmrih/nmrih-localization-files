@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content><string id="body">Wydano update do No More Room in Hell. Zostanie on zastosowana automatycznie po ponownym uruchomieniu gry No More Room in Hell. Najważniejsze zmiany obejmują:
+
+[h2]Nowości[/h2]
+[list]
+[*]Dodano obsługę proporcjonalnego skalowania HUD dla wysokich rozdzielczości — najbardziej widoczne w 4K, na monitorach ultrawide itp.
+[*]Dodano pole wyszukiwania oraz przycisk „Znajdź więcej...” (prowadzący do Warsztatu) w oknie wyboru mutatorów
+[/list]
+
+[h2]Zmiany[/h2]
+[list]
+[*]Poprawiono wydajność serwera na systemie Linux
+[*]W oknie wyboru mutatorów kliknięcie elementu listy przełącza teraz pole wyboru
+[*]Zwiększono maksymalne FOV do 110
+[*]Efekty cząsteczkowe uderzeń bronią białą są teraz wyświetlane na całym łuku zamachu
+[*]Zoptymalizowano sprawdzanie przeszkód przez AI zombie — poprawa wydajności na zatłoczonych mapach
+[*]Przywrócono zamrażanie gracza podczas wydobywania
+[*]Komenda serwera „workshop_validate” posiada teraz opcję „-restore”, która przywraca wpisy map z pamięci podręcznej w przypadku przypadkowego usunięcia lub utraty danych
+[*]Skrzynia z zaopatrzeniem nie zamraża już graczy — sprawdzana jest teraz odległość zamiast tego
+
+[*]Zaktualizowano pliki lokalizacyjne:
+[list]
+[*]Podziękowania dla tłumaczy społeczności: Blueberryy, Klowby, marcielcps, Plazehorta
+[*]Chcesz przetłumaczyć NMRiH na swój język? [url=https://github.com/nmrih/nmrih-localization-files]Odwiedź nasze repozytorium lokalizacyjne na GitHubie.[/url]
+[/list]
+[/list]
+
+[h2]Poprawki[/h2]
+[list]
+[*]Naprawiono problem z niedokładnymi headshotami bronią białą
+[*]Naprawiono problem, w którym ślad cofania bronią białą miał priorytet nad początkowym łukiem zamachu (#1369)
+[*]Naprawiono problem, w którym wytrzymałość była zużywana tylko przy pierwszym trafieniu bronią białą (#1386)
+[*]Naprawiono problemy z przezroczystością tła w elementach listy paneli UI
+[*]Naprawiono problem z ptakami blokującymi miejsca odrodzenia graczy (#1389)
+[*]Naprawiono ograniczanie częstotliwości efektów trafienia pił łańcuchowych na postaciach
+[*]Naprawiono problem z encją „point_message_multiplayer”, która nie aktualizowała się dla graczy ponownie łączących się z serwerem (#1390)
+[*]Naprawiono działanie komend wydobycia w stanie gry na martwych graczach
+[*]Naprawiono nieprawidłowe skalowanie ekranu ładowania po zmianie rozdzielczości
+[*]Naprawiono podwójne ładowanie skryptów mutatorów podczas inicjalizacji serwera
+[*]Naprawiono brak resetowania czasu odnowienia komunikatu Gwardii Narodowej po zmianie mapy
+[*]Naprawiono nakładanie się dialogów Gwardii Narodowej w trybie survival
+[*]Naprawiono blokowanie używalnych obiektów przez ciała graczy (#1327)
+[*]Naprawiono blokowanie się graczy po użyciu skrzyni z zaopatrzeniem
+[*]Naprawiono kilka problemów ze skalowaniem HUD w różnych rozdzielczościach, m.in. przenikanie separatora „Next Objective” przez tekst, bardzo małe etykiety w wyświetlaczu amunicji itp.
+[*]Naprawiono problem z niezamykającym się HUD skrzyni z zaopatrzeniem
+[/list]
+
+[h2]Zmiany dla twórców map i modderów[/h2]
+[list]
+[*]Dodano wersję beta przejścia między poziomami dla deweloperów — domyślnie wyłączona; administratorzy serwerów mogą ją włączyć za pomocą cvar „sv_level_transition” (#1278)
+[*]Dodano komendę „RespawnDeadPlayers” do funkcji stanu gry (I/O, konsola, VScript)
+[*]Dodano cvar „sv_killpenalty_score”, ustawiający punkty kary za zabójstwo
+[*]Dodano cvar „sv_resetscore”, resetujący punkty wszystkich graczy po restarcie rundy
+[*]Dodano nową kategorię „Mutators” w publikatorze Warsztatu
+[*]Dodano obsługę efektów cząsteczkowych trafień bronią białą
+[*]Dodano obsługę nadpisywania modelu rąk w widoku pierwszoosobowym
+[*]Dodano właściwość powierzchni „no_friction”
+[*]Wszystkie komunikaty debugowania MapHack są teraz kontrolowane przez cvar „sv_maphack_debug”
+[*]Komendy konsoli „extractplayer” i „respawnplayer” akceptują teraz nazwę gracza jako parametr
+[*]Encja „trigger_changelevel” działa teraz na serwerach z włączonym przejściem poziomów
+[*]MapHack: Naprawiono problemy na etapie pre-entity powodujące błędy skryptów
+[*]VScript: Dodano funkcje CenterPrint
+[*]VScript: Dodano powiązania CNMRiH_GameRules
+[*]VScript: Dodano funkcje CNMRiH_Player SetHandModelOverride() oraz ClearHandModelOverride()
+[*]VScript: Dodano powiązania CNMRiH_WeaponBase oraz enum WeaponID
+[*]VScript: Naprawiono zapisywanie błędnych danych przez nasłuchiwacze zdarzeń na systemie Linux
+[/list]
+
+[h1]Mapy[/h1]
+
+[h3]Wszystkie mapy[/h3]
+[list]
+[*]Dodano flagę „debris” do wszystkich wybuchowych kanistrów z paliwem
+[/list]
+
+[h3]nmo_asylum[/h3]
+[list]
+[*]Poprawiono problem z areaportal w drzwiach znajdujących się w piwnicy (#1376)
+[*]Naprawiono softlock w biurze (#1375)
+[*]Naprawiono brak skalowania zdrowia rytualnego mięsa względem liczby graczy
+[/list]
+
+[h3]nmo_broadway[/h3]
+[list]
+[*]Różne poprawki
+[/list]
+
+[h3]nmo_broadway2[/h3]
+[list]
+[*]Dodano możliwość zdobycia spawarki, jeśli gracze jej nie mają podczas celu „navigate through sewers”
+[*]Dodano clipping do niektórych barierek
+[*]Naprawiono wiele miejsc, w których przedmioty mogły zostać utracone
+[/list]
+
+[h3]nmo_brooklyn[/h3]
+[list]
+[*]Dodano poświatę dla vana wydobywczego
+[/list]
+
+[h3]nmo_cabin[/h3]
+[list]
+[*]Dodano linę do helikoptera wydobywczego, aby wyraźniej wskazać miejsce docelowe
+[/list]
+
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Naprawiono softlock (#1394)
+[/list]
+
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Dodano clipping w wielu miejscach, gdzie przedmioty celu mogły zostać utracone
+[*]Różne drobne poprawki
+[/list]
+
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Różne poprawki
+[/list]
+
+[h3]nmo_underground[/h3]
+[list]
+[*]Dodano kilka detali do motelu
+[*]Naprawiono miejsce blokowania się przy kracie spawarki
+[/list]
+
+[h3]nms_camilla[/h3]
+[list]
+[*]Dostosowano clipping
+[/list]
+
+[h3]nms_drugstore[/h3]
+[list]
+[*]Dostosowano spawn shamblerów i biegaczy na różnych etapach mapy
+[*]Naprawiono drzwi w strefie A, w których zombie mogły się blokować
+[*]Naprawiono spawner, w którym zombie mogły się blokować
+[*]Naprawiono różne problemy/dokonano poprawek (#1250)
+[*]Naprawiono nieprawidłową oś zawiasu w prop_door (#1408)
+[*]Naprawiono kilka błędów z-fightingu w centrum handlowym
+[/list]
+
+[h3]nms_favela[/h3]
+[list]
+[*]Naprawiono błędną kolejność liter stref
+[/list]
+
+[h3]nms_ransack[/h3]
+[list]
+[*]Rozszerzono strefę wydobycia i wydłużono czas wydobycia
+[*]Iskry na drzwiach lombardu teraz prawidłowo uruchamiają się i zatrzymują podczas spawania
+[/list]
+
+[h3]nms_silence[/h3]
+[list]
+[*]Usunięto cząsteczki mgły przy ziemi, które zostały przypadkowo dodane
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.2 wydany</string></content>
