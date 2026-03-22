@@ -9,10 +9,11 @@
 [*]添加了径向雾气效果 (radial fog) (源自 半衰期2: 20 周年庆更新)
 [*]添加了 Steam 网络支持, 联机将不再需要端口映射
 [*]用户界面 (UI) 现在会缩放以支持更高的分辨率
+[*]添加了 Vulkan 渲染器, 目前在 Linux 系统上默认启用
 [*]修复了当玩家在客户端移动时, 当前 tick 上玩家输入的移动操作会被非玩家操作 (non-player actions) 忽略的预测问题
 [*]修复了在某些情况下, 位置等特定变量无法正确更新以匹配服务器的问题
 [*]修复了某些可破坏道具无法正确碎裂的问题
-[*]修复了在某些实例 (instance) 中, 玩家碰撞体错误预测导致每帧回滚的问题, 例如蹲下或靠墙时
+[*]修复了在某些情况下, 例如蹲下或靠墙时, 玩家碰撞体错误预测导致每帧回滚的问题
 [*]修复了玩家基础速度 (例如传送带, 移动物体等) 在客户端与服务器间出现轻微不同步的问题
 [*]提高了本地玩家位置的网络精度, 从而减少预测错误并改善游戏体验
 [*]改善了在道具 (prop) 和其他实体 (entity) 上行走时的预测效果
@@ -28,12 +29,18 @@
 [list]
 [*]在本地服务器上使用创意工坊地图时, 现在地图会自动分发给正在加入的玩家
 [*]在自杀黑屏时, 部分 HUD 元素 (例如玩家名称) 现在将被隐藏
+[*]默认的服务器名称变更为 "&lt;玩家名&gt;'s server"
 [*]控制台变量 "viewmodel_fov" 现在将被保存到玩家配置 (user config) 中
 [*]游戏难度现在会显示在服务器列表的游戏描述中
 [*]手电筒阴影现在独立于 "高" 阴影质量设置, 可以单独在高级设置中启用 (默认关闭以降低引擎崩溃风险)
+[*]改进了原生 Linux 支持以显著提升性能
 [*]优化了玩家和丧尸移动时对网络带宽的占用
 [*]进一步优化了在拥挤地图上丧尸的性能表现
+[*]重构了富状态 (rich presence) 功能以支持 Steam 网络连接, Discord 和 Steam 现在都将识别加入和邀请等服务器信息
+[*]移除了 NAT 网络连接和 Steam Deck 兼容性的警告对话框, 因为这些内容已不再相关
 [*]调整了玩家头顶的语音状态图标, 提高在黑暗地图中的辨识度
+[*]FMOD 音频引擎更新至 2.03.12 版本
+[*]现在被禁言玩家发出的语音指令会被默认屏蔽, 可通过控制台变量 "cl_voicecmd_ignore_muted_player" 控制
 [*]语言本地化文件更新:
 [list]
 
@@ -43,22 +50,28 @@
 [/list]
 [h2]已修复内容[/h2]
 [list]
+[*]修复了已撤离的玩家在记分板上偶尔会被显示为 "已死亡" 的问题
 [*]修复了错误的出生提示 (例如在 "等待复活点" 时仍会播放音效和闪烁窗口的问题)
 [*]修复了吞枪自杀时瞄具不会自动关闭的问题
 [*]修复了雨雪粒子效果碰撞的问题, 贡献来自 BigHatMarley (#1579)
+[*]修复了在分辨率变更后, 补给箱和密码键盘无法正确缩放的问题
 [*]修复了丧尸长时间呻吟时待机音效被截断的问题
 [/list]
 [h2]地图设计与模组制作改动[/h2]
 [list]
 [*]添加 自定义丧尸模型池, 可通过以 "sv_zombie_models" 为前缀的控制台变量进行控制
+[*]添加 控制台变量 "tonemap_debug", 用于可视化当前启用的色调映射 (tonemap) 控制器及其参数
 [*]添加 "ent_minsmaxs" 指令, 将以 MapHack 友好的格式输出实体的边界框 (bounding box)
 [*]添加 实体 "npc_nmrih_basezombie", 作为通用丧尸的基类, 适用于制作自定义丧尸
 [*]添加 实体 "skybox_swapper", 用于切换 2D 天空盒材质
+[*]添加 实体 "trigger_tonemap", 用于在玩家碰到触发器时切换色调映射控制器
 [*]为丧尸添加 "HeadSplit" 输入 (#1569)
 [*]为丧尸添加碰撞体覆盖 (hull override) 关键字 (keyfield)
 [*]为实体 "logic_ruleset" 添加 "RevertAllMapCvars" 输入, 会将所有由地图修改过的控制台变量恢复到基础值 (如果有的话) 或默认值, 但不会恢复难度/脚本/修改器造成的改动
 [*]为实体 "func_zombie_spawn" 添加 "Despawn Ignore Population" 关键字, 默认情况下, 丧尸只有在区域数量超过最大值时才会消失, 即使它们不在视野内; 当设置为 'No' 时, 将使用经典行为, 探索过的区域会维持最大丧尸数, 当设置为 'Yes' 时, 不在视野内的丧尸将无视数量限制, 且总是会消失
 [*]为实体 "item_inventorybox" 添加 "Hide TAKE Button" 关键字
+[*]为实体 "logic_progress" 添加 "HUD Style" 关键字, 用于更改进度条的视觉样式, 并增加了新的样式, 在屏幕中心以顺时针方向绘制的圆形进度条
+[*]为丧尸添加 "Ignore Grease" 关键字, 设置为 true 时, 丧尸将不会在 NPC 分配的碰撞组之间切换, 防止彼此穿模
 [*]为丧尸添加 "Ignore Zombie Rules" 关键字, 设置为 true 时, 游戏规则会将丧尸视作普通 NPC
 [*]为实体 "point_message_multiplayer" 添加了换行支持
 [*]为实体 "point_viewcontrol_multiplayer" 添加了缺失的属性 (spawnflags)
@@ -66,10 +79,12 @@
 [*]为障碍木板道具添加了模型覆盖的支持
 [*]添加了经过筛选的模型可以在特定客户端上渲染的支持
 [*]FGD: 自定义 "base.fgd" 现在已被打包进 "nmrih.fgd", 以取代对基础 SDK 的类覆盖和依赖
+[*]FGD: 恢复了在 Hammer 中编辑 "Filter Name" 关键字时, 缺失的 "Mark" 和吸管按钮
 [*]修复 动态 "logic_progress" 在接收到 "StopProgress" 输入时总是完成的问题
-[*]修复 实体 "logic_script_proxy" 当使用实例 (instance) 时在全局范围内调用无效的问题
+[*]修复 实体 "logic_script_proxy" 当使用脚本实例时在全局范围内调用无效的问题
 [*]修复 实体 "logic_script_proxy" 的输入 "SetTargetEntity" 不接受空值 (null) 的问题
 [*]修复 实体 "player_weaponstrip" 移除物品不正确的问题 (#1588)
+[*]修复 BSP 内嵌的地图本地化文件未被加载的问题
 [*]修复 NPC 上附着的模型附件出现位置偏移的问题
 [*]修复 事件 (event) "player_spawn" 在复活点不可用时被错误触发的问题
 [*]修复 通过 "BecomeRunner" 生成的跑尸其碰撞组不会随机的问题
@@ -78,10 +93,18 @@
 [*]NMRObjective: 添加 拖拽框选节点的功能
 [*]NMRObjective: 当节点超出工作区范围时, 将会显示滚动条
 [*]NMRObjective: 杂项优化和改善
+[*]VScript: 添加 CAI_BaseNPC 函数 CanLagCompensate(), 和 SetCanLagCompensate()
 [*]VScript: 添加 CBaseAnimating 函数 SetPlayerDrawFilter(), 和 DrawFilterAllPlayers(), 设置成 true 时, 该模型将对给定的玩家不可见
+[*]VScript: 添加 CBaseEntity 函数 IsZombie(), 如果该实体在游戏逻辑中被认定为有效丧尸, 则返回 true
 [*]VScript: 添加 CBaseEntity 钩子 OnTakeDamage, 该钩子 (hook) 可作为实体 filter_script 中 PassesFinalDamageFilter 函数的替代, 在伤害被应用前，可以修改传入的伤害信息, 返回 'false' 将会取消受到的伤害
+[*]VScript: 添加 CBaseEntity 钩子 TraceAttack, 在实体即将接收到攻击追踪时调用, 传入的伤害信息可以在被应用前修改, 该钩子在伤害过滤器 (damage filters) 检查 *之前* 触发, 返回 false 将丢弃该追踪信息
+[*]VScript: 添加 CBasePlayer 函数 SetTonemapScale(), SetTonemapRate(), SetAutoExposureMin(), SetAutoExposureMax(), SetBloomScale(), UseDefaultAutoExposure(), UseDefaultBloomScale(), 和 ClearTonemapParams()
+[*]VScript: 添加 CItem_InventoryBox 函数 IsTakeButtonHidden(), 和 SetTakeButtonHidden()
+[*]VScript: 添加 CLogicProgress 函数 SetCircle()
 [*]VScript: 添加 CNMRiH_BarricadePoint 函数 SetModelOverride()
+[*]VScript: 添加 CNMRiH_BaseZombie 函数 IsRecognizedByGameRules(), SetIgnoreZombieRules(), 和 SetIgnoreGrease()
 [*]VScript: 添加 CNMRiH_Player 函数 DidGunshotSuicide()
+[*]VScript: 添加 CNMRiH_Player 函数 ForceTransmit(), 向所有客户端发送网络更新, 即便有玩家对某些客户端处于休眠状态 (由 PVS 过滤)
 [*]VScript: 添加 CNMRiH_Player 函数 SetForcedRespawn(), 标记下一个复活点为强制复活并跳过检查出生点是否有效, 复活后自动恢复原有设置
 [*]VScript: 添加 CNMRiH_Player 函数 HasJumpAbility(), HasDuckAbility(), SetJumpAbility(), 和 SetDuckAbility(), 用于覆盖玩家是否可以跳跃/蹲下, 并在客户端进行预测
 [*]VScript: 添加 CNMRiH_Player 钩子 OnWeaponDrop, OnWeaponEquip, 和 OnWeaponSwitch
@@ -94,8 +117,10 @@
 [*]VScript: 实体 输入 "RunScriptCode" 现在会将反引号转换为引号 (例如 ` -&gt; ")
 [*]VScript: 修复 CNMRiH_Player 函数 IsTalkingWalkie() 总是返回 'false' 的问题
 [*]VScript: 修复 当给函数 TraceLineEx() 传入空值时会崩溃的问题
+[*]VScript: 修复 某些情况下实体的脚本实例悬空从而导致崩溃的问题 (例如带有脚本作用域的实体 "prop_physics" 由于模型错误而被提前删除时)
 [*]VScript: 修复 函数 SetActivity() 允许 ACT_INVALID 从而导致崩溃的问题
 [*]VScript: 修复 钩子 NPC_TranslateActivity 和 NPC_TranslateSchedule 不会检查无效返回类型的问题
+[*]VScript: 修复 实体删除时脚本作用域会泄漏 (memory leak) 的问题
 [/list]
 [h2]服务器管理员改动[/h2]
 [list]
