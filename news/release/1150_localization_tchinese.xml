@@ -187,9 +187,12 @@
 [list]
 [*]修正屋內一些物件過低的淡出距離值
 [/list]
-[h3]nms_northway[/h3]
+[h3]nms_midwest[/h3]
 [list]
 [*]修正 A 區障礙物布景的視覺問題
+[/list]
+[h3]nms_northway[/h3]
+[list]
 [*]修正滅火器淡出距離值過低
 [/list]
 </string><string id="subtitle">增加支援 64 位元、Steam 網路、最新版本的 Source 引擎和更多內容！</string><string id="summary">告別惱人的通訊埠轉發！利用 Steam 網路輕鬆創建自己的公開或好友遊戲，並體驗最新版 Source 引擎的功能。</string><string id="title">NMRiH 網路連線更新 (1.15) 釋出</string></content>
