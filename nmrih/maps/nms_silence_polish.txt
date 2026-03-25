@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nms_silence_truck"	"Ciężarówka nadjeżdża! Przygotuj się!"
+}
+}

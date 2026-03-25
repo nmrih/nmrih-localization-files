@@ -1,0 +1,22 @@
+„Kiedy w piekle zabraknie miejsca, umarli wstąpią na ziemię.” (angielski oryginał: "When there's no more room in hell, the dead will walk the earth.")
+
+Hołd dla wysoko ocenianej serii filmowej, z której pochodzi powyższy cytat, No More Room in Hell (Mod of the Year 2011 od PC Gamer, Editor Choice Multiplayer Mod of the Year 2011 od ModDB'), to kooperacyjna, realistyczna, typu survival horror, pierwszoosobowa modyfikacja dla Source Engine. Czerpiąc inspirację z serii George’a Romero „Of the Dead”, mod osadzony jest w czasie, gdy świat stoi na krawędzi upadku w chaosie spowodowanym chorobą o nieznanym pochodzeniu. Wiele ekspertów i organizacji ma swoje teorie i pomysły, jak taka choroba powstała i zaczęła systematycznie niszczyć nasz sposób życia, ale jeden fakt jest jasny dla wszystkich. Każdy, kto umrze z powodu choroby, wstaje i zabija, a osoby, które zabił, również wstają i zabijają.
+
+Szanse na przetrwanie tej totalnej wojny społeczeństwa z umarłymi są prawie żadne. Już teraz miliony chodzących umarłych wędrują w poszukiwaniu pożywienia. Nie ma znanego lekarstwa. Jedno ugryzienie może zakończyć wszystko dla ciebie. Jednak nie jesteś sama/sam w tym koszmarze. W tym zapomnianym przez Boga piekle pozostało jeszcze garstka niezainfekowanych ocalałych, a dzięki współpracy i pracy zespołowej możecie przeżyć wystarczająco długo, aby walczyć o swoje zbawienie.
+
+[h2]Cechy:[/h2]
+[list]
+[*][b]Współpraca:[/b] Kooperacyjna rozgrywka z udziałem do ośmiu graczy.
+[*][b]Komunikacja głosowa i tekstowa ograniczona dystansem:[/b] Im dalej jesteś, tym trudniej inni gracze cię usłyszą. Trzymaj walkie-talkie blisko!
+[*][b]Dynamiczne Mapy typu Objective:[/b] Kolejna rozgrywka może nie być taka sama jak poprzednia!
+[*][b]Mapy typu Survival:[/b] Broń i utrzymuj swoje schronienie przed umarłymi w nadziei na wydostanie się do bezpiecznej strefy.
+[*][b]Realistyczne podejście:[/b] W skrócie, brak celowników z ograniczonym "tylko jeśli chcesz" HUD'em. Ponadto amunicja i broń są niezwykle rzadkie. Mając to na uwadze, wyceluj (przez celownik!) i strzelaj w głowę!
+[*][b]Mnogość różnych przeciwników:[/b] Od kultowych „chodzących zombie” po bardziej współczesnych „biegaczy”, NMRiH utrzyma cię w napięciu dzięki mieszance niebezpiecznych wrogów. Jednak najniebezpieczniejszym wrogiem nie zawsze muszą być chodzący trupy...
+[*][b]Infekcja:[/b] Jedno ugryzienie może wystarczyć, aby cię pogrążyć. Jeśli wda Ci się infekcja, musisz zdecydować, czy powiadomić swój zespół, aby pozbyć się twojego ciężaru, czy zachować ciszę w nadziei na znalezienie lekarstwa…
+[*]30+ 30 broni i wciąż rośnie, od drobnego pistoletu .22 Target po potężną piłę mechaniczną.
+[*]Brak reklam (na oficjalnych i społecznościowych serwerach, serwery użytkowników mogą się różnić)
+[*]Brak przedmiotów pay-to-win lub mikropłatności
+[*]100% darmowe (chyba że kupisz DLC ze ścieżką dźwiękową <3)
+[/list]
+
+No More Room in Hell to Zombifikacja Half-Life 2. Mod powstał w 2003 roku. W 2009 roku przejął go nowy zespół. Wersja beta 1.0 została wydana w Halloween 2011 roku. Pełna lista członków zespołu No More Room in Hell i współtwórców znajduje się w zakładce „about” naszej witryny: www.nmrih.com.

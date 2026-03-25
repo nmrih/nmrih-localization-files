@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">Update do No More Room in Hell został wydany. Update zostanie zastosowany automatycznie po ponownym uruchomieniu No More Room in Hell. Główne zmiany obejmują:
+
+[h2]Aktualizacja Source Engine[/h2]
+[list]
+[*]Dodano wsparcie 64-bitowe, 64-bitowe binaria będą uruchamiane automatycznie na systemach z 64-bitowym systemem operacyjnym
+[*]Dodano opcję okna bezramkowego w ustawieniach wideo
+[*]Dodano bicubic lightmaps (z Half-Life 2: 20th Anniversary Update)
+[*]Dodano radial fog (z Half-Life 2: 20th Anniversary Update)
+[*]Dodano Steam Networking, port forwarding nie jest już wymagany
+[*]Dodano skalowanie UI dla ekranów wysokiej rozdzielczości
+[*]Naprawiono błąd predykcji, gdzie jeśli gracz był przesuwany po stronie klienta, jego ruch oparty na wejściu w tym ticku nie był brany pod uwagę w akcjach nie-gracza
+[*]Naprawiono problem, gdzie niektóre zmienne jak pozycja nie były poprawnie aktualizowane, aby zgadzały się z serwerem w niektórych sytuacjach
+[*]Naprawiono niepoprawne giblowanie niektórych breakable props
+[*]Naprawiono źle przewidywany hull gracza w niektórych przypadkach, powodujący rollbacky przy np. kucaniu lub przy ścianie
+[*]Naprawiono bazową prędkość gracza (np. przenośniki, ruchome przedmioty) w synchronizacji klient/serwer
+[*]Poprawiono precyzję sieci dla pozycji lokalnego gracza, zmniejszając błędy predykcji i poprawiając odczucie gry
+[*]Poprawiono predykcję chodzenia po propach i innych entity
+[*]Gra domyślnie uruchamia się w natywnej rozdzielczości zamiast 640x480
+[/list]
+[h2]Dodatki[/h2]
+[list]
+[*]Dodano menu w oknie Utwórz Serwer, umożliwiające wybór typu serwera dla Steam Networking (publiczny / tylko znajomi / niepubliczny) bez przekierowywania portu
+[*]Dodano możliwość pauzy gry w trybie dla jednego gracza
+[*]Dodano cvar "cl_allow_particle_precipitation", wyłączenie konwertuje deszcz/śnieg cząsteczkowy na warianty domyślne na mapach, które ich używają
+[/list]
+[h2]Zmiany[/h2]
+[list]
+[*]Aktywna mapa Warsztatu jest teraz dystrybuowana do łączących się graczy na serwerach lokalnych
+[*]Niektóre elementy HUD, jak nazwy graczy, są teraz ukryte podczas przyciemnienia przy samobójstwie
+[*]ConVar "viewmodel_fov" jest teraz zapisywany w konfiguracji użytkownika
+[*]Trudność jest teraz wyświetlana w opisie gry w przeglądarce serwerów
+[*]Cienie latarki są teraz niezależne od jakości cieni "Wysoka", można je włączyć w opcjach zaawansowanych (domyślnie wyłączone, aby zmniejszyć awarie silnika)
+[*]Optymalizacja pasma sieciowego dla ruchu graczy i zombie
+[*]Dalsza optymalizacja wydajności zombie na zatłoczonych mapach
+[*]Przejrzystość ikon statusu głosu nad graczami została poprawiona na ciemniejszych mapach
+[*]Zaktualizowano pliki lokalizacyjne:
+[list]
+[*]Podziękowania dla tłumaczy społeczności: [b]Atheist, grobinho, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]Chcesz przetłumaczyć NMRiH na swój język? [url=https://github.com/nmrih/nmrih-localization-files]Odwiedź repozytorium lokalizacji na GitHubie.[/url]
+[/list]
+[/list]
+[h2]Poprawki[/h2]
+[list]
+[*]Naprawiono fałszywe powiadomienia o spawnie (dźwięk i miganie okna przy "oczekiwanie na punkt spawnu")
+[*]Naprawiono wycelowanie nie wyłączające się podczas rozważania samobójstwa
+[*]Naprawiono kolizję deszczu cząsteczkowego, dzięki BigHatMarley (#1579)
+[*]Naprawiono przerywanie wokalizacji zombie w stanie idle przy dłuższych jękach
+[/list]
+[h2]Zmiany dla twórców map i modderów[/h2]
+[list]
+[*]Dodano własne pule modeli zombie, kontrolowane przez cvars z prefiksem "sv_zombie_models"
+[*]Dodano komendę "ent_minsmaxs", drukuje bounding box entity w formacie przyjaznym dla MapHack
+[*]Dodano encję "npc_nmrih_basezombie", klasa bazowa dla zombie ogólnego typu, użyteczna dla custom zombie
+[*]Dodano encję "skybox_swapper", zamienia materiał 2D skybox
+[*]Dodano input "HeadSplit" dla zombie (#1569)
+[*]Dodano klucz nadpisania hull dla zombie
+[*]Dodano input "RevertAllMapCvars" do entity "logic_ruleset", przywraca wszystkie zmienione przez mapę cvars do wartości bazowej lub domyślnej, nie przywraca trudności/skryptów/mutatorów
+[*]Dodano keyfield "Despawn Ignore Population" do entity "func_zombie_spawn", domyślnie zombie despawnuje gdy populacja strefy przekracza max; 'No' = klasyczne zachowanie, 'Yes' = zawsze despawnuje niewidoczne zombie
+[*]Dodano keyfield "Hide TAKE Button" do entity "item_inventorybox"
+[*]Dodano keyfield "Ignore Zombie Rules" dla zombie, jeśli true, traktowane jak ogólny NPC
+[*]Dodano obsługę łamania linii w entity "point_message_multiplayer"
+[*]Dodano brakujące spawnflagi do entity "point_viewcontrol_multiplayer"
+[*]Dodano outputy "OnBarricade" i "OnBreak" do entity "nmrih_barricade"
+[*]Dodano wsparcie dla nadpisania modelu barykady
+[*]Dodano wsparcie dla filtrowania renderowania modelu dla wybranych klientów
+[*]FGD: Zaktualizowano "base.fgd" do "nmrih.fgd", zastępując nadpisania klas i zależności SDK
+[*]Naprawiono dynamiczny "logic_progress" zawsze kończący się przy "StopProgress"
+[*]Naprawiono inputy entity "logic_script_proxy" na globalnym scope przy użyciu instancji
+[*]Naprawiono input "SetTargetEntity" w "logic_script_proxy" akceptujący null
+[*]Naprawiono niepoprawne usuwanie przedmiotów przez "player_weaponstrip" (#1588)
+[*]Naprawiono źle ustawione attachmenty modeli NPC
+[*]Naprawiono błędne wywołanie eventu "player_spawn" gdy punkty spawnu są niedostępne
+[*]Naprawiono runnerów spawnowanych przez BecomeRunner, aby losowo zmieniać collision groups
+[*]Naprawiono dźwięki iskier przy przyciskach
+[*]MapHack: Naprawiono bounding boxy dla spawnowanych brushy
+[*]NMRObjective: Dodano możliwość drag-select węzłów
+[*]NMRObjective: Dodano paski przewijania, gdy węzły wychodzą poza workspace
+[*]NMRObjective: Różne optymalizacje i ulepszenia
+[*]VScript: Dodano funkcje CBaseAnimating SetPlayerDrawFilter() i DrawFilterAllPlayers(), ustawienie true powoduje niewidoczność modelu dla gracza
+[*]VScript: Dodano hook CBaseEntity OnTakeDamage, pozwala modyfikować damage przed zastosowaniem; 'false' odrzuca otrzymane obrażenia
+[*]VScript: Dodano funkcje CNMRiH_BarricadePoint SetModelOverride()
+[*]VScript: Dodano funkcje CNMRiH_Player DidGunshotSuicide()
+[*]VScript: Dodano funkcje CNMRiH_Player SetForcedRespawn(), oznacza następny respawn jako wymuszony i pomija sprawdzenie valid spawn, przy respawnie przywraca
+[*]VScript: Dodano funkcje CNMRiH_Player HasJumpAbility(), HasDuckAbility(), SetJumpAbility(), SetDuckAbility(), przewidują możliwość skakania/kucania po stronie klienta
+[*]VScript: Dodano hooki CNMRiH_Player OnWeaponDrop, OnWeaponEquip, OnWeaponSwitch
+[*]VScript: Dodano spójne rand() i RAND_MAX dla wszystkich platform
+[*]VScript: Dodano stałe dla przycisków NMRiH, collision groups i typów obrażeń
+[*]VScript: Dodano funkcje CScriptNavArea GetAdjacentAreas(), GetAdjacentCount()
+[*]VScript: Dodano funkcje TraceEntity(), TraceHull()
+[*]VScript: Dodano wsparcie dla callbacków trace filter dla TraceLineEx(), TraceHull(), TraceEntity()
+[*]VScript: Klasa CScriptNavArea teraz ma reprezentację string "[&lt;ID&gt;] Area"
+[*]VScript: Input entity "RunScriptCode" konwertuje backticks na cudzysłowy
+[*]VScript: Naprawiono CNMRiH_Player IsTalkingWalkie() zawsze zwracająca 'false'
+[*]VScript: Naprawiono crash przy przekazywaniu null do TraceLineEx()
+[*]VScript: Naprawiono SetActivity() z ACT_INVALID powodujący crash
+[*]VScript: Naprawiono hooki NPC_TranslateActivity i NPC_TranslateSchedule przy niepoprawnych zwrotach
+[/list]
+[h2]Zmiany dla administratorów serwerów[/h2]
+[list]
+[*]Dodano możliwość modyfikowania pul modeli zombie, kontrolowane przez cvars "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng", "sv_zombie_models_runner", modele oddzielane przecinkami w stosunku do models/nmr_zombie/*.mdl lub bezpośredni filename
+[*]Dodano cvar "ov_despawn_ignore_population", domyślnie zombie despawnuje gdy populacja strefy przekracza max, 0 = klasyczne zachowanie, 1 = zawsze despawnuje niewidoczne zombie (#1562)
+[*]Dodano cvar "sv_gamedesc_override", pozwala właścicielom serwera zmienić opis gry bez pluginów
+[*]Dodano cvar "sv_runner_randomize_collision_group", runnerzy zawsze zmieniają collision groups (grease) przy spawnie, 0 + BecomeRunner = emulacja buga pre-v1.15.0
+[*]Dodano cvar "sv_tree_sway_update_time", 0 = wyłącza sway drzew po stronie serwera (przydatne dla kompatybilności map)
+[*]Dodano cvar "sv_zombie_brainstem_dmg_scale", zombie otrzymują ten współczynnik obrażeń w hitboxie brainstem (jeśli sv_brainstem = 1)
+[*]Dodano cvar do modyfikacji wokalizacji zombie: "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit", "sv_zombie_moan_freq_random" (domyślne zachowanie bez zmian)
+[*]Dodano nową metodę losowania modeli zombie przez tasowanie puli modeli i losowanie z niej, kontrolowane przez cvar "sv_zombie_shuffle_models"
+[*]Komendy stanu gry (np. "respawnplayer") obsługują teraz SteamID i częściowe dopasowanie nazw
+[/list]
+[h1]Mapy[/h1]
+
+[h3]nmo_asylum[/h3]
+[list]
+[*]Próba naprawy przenikania części ciał przez podłogę rytualną
+[*]Naprawiono softlock części nóg (#1565)
+[*]Naprawiono dziwny artefakt na suficie
+[/list]
+[h3]nmo_broadway2[/h3]
+[list]
+[*]Dodano przenikania dla płynnego poruszania się przy ostatniej drabinie w strefie wydobycia
+[*]Drobne poprawki wizualne
+[*]Dostosowano "ladder" przy ucieczkowej linie, aby była mniej myląca (#1533)
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]Zmniejszono czas obrażeń od eksplozji pojemnika
+[/list]
+[h3]nmo_chinatown[/h3]
+[list]
+[*]Naprawiono wartość fade distance zbyt blisko przy propsie gaśnicy sklepu "Gun Shop"
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Dodano podświetlenie bazy dźwigni
+[*]Dodano propa power box w jednym z domów, aby ukryć wyciekające drzewo przez ścianę
+[*]Naprawiono softlock przy upuszczeniu dźwigni do elektrycznej kałuży (#1537)
+[*]Naprawiono softlock przy rzucaniu celów poza zasięg (#1548)
+[/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]Naprawiono odbicia na ścianie tynkowej obok punktu startowego
+[*]Dostosowano nawigację zombie
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Naprawiono niedziałające punkty barykady na końcu mapy (#1561)
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]Wyłączono respawn zombie wokół sypialni na górnym piętrze kabiny (tylko na poziomie Casual i Classic)
+[*]Naprawiono możliwość wejścia pod Strefę wydobycia stojąc na tylnej rampie łodzi
+[*]Zwiększono spawn apteczek
+[*]Drobne poprawki ułatwiające nawigację po mapie
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Naprawiono brakujący znak X na murze cmentarza z cegieł
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Naprawiono wartość fade distance dla niektórych propsów w domu, która była zbyt blisko
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]Naprawiono błąd wizualny przy propsie barykady w strefie A
+[/list]
+[h3]nms_northway[/h3]
+[list]
+[*]Naprawiono wartość fade distance przy propsie gaśnicy, która była zbyt blisko
+[/list]
+</string><string id="subtitle">Obsługa 64-bit, Steam Networking, najnowszy Source Engine i więcej!</string><string id="summary">Koniec z port forwardingiem! Twórz publiczne i dla znajomych gry z łatwością dzięki Steam Networking, korzystając jednocześnie z najnowszych funkcji Source Engine.</string><string id="title">NMRiH Networking Update (1.15) Wydany</string></content>

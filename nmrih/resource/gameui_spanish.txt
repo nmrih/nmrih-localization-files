@@ -53,10 +53,11 @@
 "NMRiH_Advanced_cl_stickyironsight"		"Activar mira alternable"
 "NMRiH_Advanced_cl_voicesubtitles"		"Activar subtítulos en el chat"
 "NMRiH_Advanced_cl_ejectbrass"			"Activar cartuchos eyectados"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"Activar sombras de linternas (pesado)"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Activar Luces Dinámicas para Fogonazos (pesado)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Desactivar HTML en el Mensaje del Día (MOTD)"
 "NMRiH_Advanced_fov_allow_change"		"El campo de visión (FOV) puede ser alterado por la jugabilidad"
-"NMRiH_Advanced_nmrih_screenspace"		"Activar efectos de pantalla (desactivar sólo para testeo)"
+"NMRiH_Advanced_nmrih_screenspace"		"Activar efectos de pantalla (desactivar solo para testeo)"
 "NMRiH_Advanced_nmrih_screenspace_shadow"	"Activar Efecto de Viñeta"
 "NMRiH_Advanced_nmrih_grain"			"Activar Grano de Película"
 "NMRiH_Advanced_nmrih_grain_intensity"	"Intensidad del efecto de Grano de Película"
@@ -72,6 +73,14 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"Calidad de efectos de impacto"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Alta, con escombros"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Baja, sin escombros"
+"NMRiH_Advanced_cl_predictpickup"		"Predicción de objetos en mano"
+"NMRiH_Advanced_cl_predictpickup_0"		"No predecir posición"
+"NMRiH_Advanced_cl_predictpickup_1"		"Predecir posición siempre"
+"NMRiH_Advanced_cl_predictpickup_2"		"Solo predecir items de objetivos"
+"NMRiH_Advanced_cl_radialfog"		"Opciones de neblina radial"
+"NMRiH_Advanced_cl_radialfog_-1"	"Determinado por el mapa"
+"NMRiH_Advanced_cl_radialfog_0"		"Apagada (neblina original)"
+"NMRiH_Advanced_cl_radialfog_1"		"Encendida"
 
 "NMRiH_Difficulty"	"Dificultad"
 
@@ -86,17 +95,26 @@
 "NMRiH_GameType_PVP"			"PvP"
 "NMRiH_GameType_Minigame"		"Minijuego"
 
-"NMRiH_LAN"				"Sólo LAN"
-"NMRiH_Coplay"			"Usar Coplay (Networking de Steam)"
+"NMRiH_Server"				"Tipo"
+"NMRiH_Server_Solo"			"Un Solo Jugador"
+"NMRiH_Server_LAN"			"Red Local"
+"NMRiH_Server_Public"		"Público"
+"NMRiH_Server_FriendsOnly"	"Solo Amigos"
+"NMRiH_Server_Unlisted"		"Sin Listar"
 
-"NMRiH_Difficulty_Tooltip"	"Elige una dificultad.\nClásica: Opciones predeterminadas, reapariciones fijas activadas.\nCasual: Reapariciones automáticas y con armas.\nPesadilla: Vida/densidad de zombis y chance de infección aumentadas.\nPvP: Activa el puntaje y avisos de muertes de PvP, deactiva zombis y objetivos."
+"NMRiH_LAN"				"Solo LAN"
+"NMRiH_Coplay"			"Usar Red de Steam"
+
+"NMRiH_Server_Tooltip"	"Elige un tipo de servidor (para la red de Stean):\nUn Solo Jugador: Juega fuera de línea.\nRed Local: Crea una partida en LAN.\nPúblico: Crea una partida pública.\nSolo Amigos: Partida accesible solo vía invitación.\nSin Listar: No visible en el buscador de servidores."
+
+"NMRiH_Difficulty_Tooltip"	"Elige una dificultad.\nClásica: Opciones predeterminadas, reapariciones fijas activadas.\nCasual: Reapariciones automáticas y con armas.\nPesadilla: Vida/densidad de zombis y chance de infección aumentadas.\nPvP: Activa el puntaje y avisos de muertes de PvP, desactiva zombis y objetivos."
 "NMRiH_Map_Time_Tooltip"	"Tiempo límite del mapa."
 "NMRiH_LAN_Tooltip"	"Fuerza conexiones via LAN, no anuncia el servidor como público."
-"NMRiH_FriendlyFire_Tooltip"	"Activa el fuego amigo, jugadores infectados siempre reciben daño."
-"NMRiH_RealismMode_Tooltip"	"Modo Realismo: reapariciones desactivadas, zombis sólo reciben daño a la cabeza y cada disparo a la cabeza mata instantáneamente, sin importar el tipo de munición."
+"NMRiH_FriendlyFire_Tooltip"	"Activa el fuego amigo, los jugadores infectados siempre recibirán daño."
+"NMRiH_RealismMode_Tooltip"	"Modo Realismo: reapariciones desactivadas, los zombis solo reciben daño a la cabeza y cada disparo a la cabeza mata instantáneamente, sin importar el tipo de munición."
 "NMRiH_HardcoreSurvival_Tooltip"	"Esconde las ayudas visuales en modo Supervivencia."
 "NMRiH_Max_Players_Tooltip"	"Límite de jugadores, mínimo de 2, máximo de 8."
-"NMRiH_Coplay_Tooltip"	"Coplay provee una implementación del Networking de Steam para conexiones directas entre clientes (peer-to-peer). Esto saltea el requerimiento de abrir los puertos de tu router."
+"NMRiH_Coplay_Tooltip"	"Usa la red de Steam para conexiones directas entre clientes (peer-to-peer). Saltea el requerimiento de abrir los puertos de tu router."
 "NMRiH_AdvOptions"	"Opciones Extendidas..."
 "NMRiH_AdvOptions_Tooltip"	"Editar opciones de juego extendidas."
 
@@ -133,8 +151,8 @@
 "AmmoCheckType"				"Chequeo de Munición"
 
 "AmmoCheckType_Both"			"Voz e interfaz"
-"AmmoCheckType_Voice"			"Sólo voz"
-"AmmoCheckType_HUD"			"Sólo interfaz"
+"AmmoCheckType_Voice"			"Solo voz"
+"AmmoCheckType_HUD"			"Solo interfaz"
 
 "Title_CharacterSelect"			"Elección de Personaje"
 
@@ -198,7 +216,7 @@
 "Challenge_Desc_nmo_broadway_blitz_2"	"¡En el modo Blitz, puedes ganar más tiempo al completar objetivos!"
 
 "Challenge_Name_nmo_broadway2_challenge_1"	"Sueños del Aro"
-"Challenge_Desc_nmo_broadway2_challenge_1"	"Todo jugador sueña con lograrlo... lograr escapar en una pieza."
+"Challenge_Desc_nmo_broadway2_challenge_1"	"Todo jugador sueña con lograrlo... lograr escapar intacto."
 "Challenge_Name_nmo_broadway2_challenge_2"	"Sobre Raíles"
 "Challenge_Desc_nmo_broadway2_challenge_2"	"Parece que nuestro helicóptero de rescate ha caído. ¡Escapa con el tren!"
 "Challenge_Name_nmo_broadway2_challenge_3"	"Te Ha Crecido la Panzer"
@@ -234,12 +252,12 @@
 "Challenge_Desc_nmo_fema_challenge_2"	"No podemos despegar sin combustible, ¡continúa bombeando el diesel!"
 
 "Challenge_Name_nmo_junction_challenge_1"	"No Más Santuarios"
-"Challenge_Desc_nmo_junction_challenge_1"	"Has un intento para escapar de la ciudad para siempre."
+"Challenge_Desc_nmo_junction_challenge_1"	"Haz un intento para escapar de la ciudad para siempre."
 
 "Challenge_Name_nmo_lakeside_challenge_1"	"Ir con la Corriente"
 "Challenge_Desc_nmo_lakeside_challenge_1"	"No verás esto todos los días."
 "Challenge_Name_nmo_lakeside_challenge_2"	"A la Deriva"
-"Challenge_Desc_nmo_lakeside_challenge_2"	"¿No puedes conectar? ¡No te sucede sólo a ti!"
+"Challenge_Desc_nmo_lakeside_challenge_2"	"¿No puedes conectar? ¡No te sucede solo a ti!"
 
 "Challenge_Name_nmo_quarantine_challenge_1"	"La Fuga"
 "Challenge_Desc_nmo_quarantine_challenge_1"	"¡Ups!, qué lío hemos hecho."
@@ -257,7 +275,7 @@
 "Challenge_Name_nmo_shoreline_challenge_1"	"Excursionista"
 "Challenge_Desc_nmo_shoreline_challenge_1"	"No me parece que a la gente de aquí le gusten los turistas..."
 "Challenge_Name_nmo_shoreline_challenge_2"	"Desviado"
-"Challenge_Desc_nmo_shoreline_challenge_2"	"Progresa en el mapa por todo el camino alternativo."
+"Challenge_Desc_nmo_shoreline_challenge_2"	"Progresa en el mapa a través del camino alternativo completo."
 
 "Challenge_Name_nmo_suzhou_challenge_1"	"Día Para El Olvido"
 "Challenge_Desc_nmo_suzhou_challenge_1"	"Completa una partida con la cadena de objetivos más larga posible."
@@ -280,13 +298,13 @@
 "Challenge_Desc_nmo_underground_challenge_1"	"No llegarás lejos..."
 "Challenge_Name_nmo_underground_challenge_2"	"Empuja el Carro"
 "Challenge_Desc_nmo_underground_challenge_2"	"¡Empujad vagoneta canija!"
-"Challenge_Name_nmo_underground_challenge_3"	"Catador Promedio de Armas Blancas"
+"Challenge_Name_nmo_underground_challenge_3"	"Catador de Armas Blancas Promedio"
 "Challenge_Desc_nmo_underground_challenge_3"	"¡Completa el mapa sin armas de fuego o explosivos!"
 
 "Challenge_Name_nmo_zephyr_challenge_1"	"Ruta de los Zephyrs"
 "Challenge_Desc_nmo_zephyr_challenge_1"	"Escuchar una voz humana es tan alentador."
 "Challenge_Name_nmo_zephyr_challenge_2"	"Falta de Mantenimiento"
-"Challenge_Desc_nmo_zephyr_challenge_2"	"¿Qué sucede con ese maquinista? Parece que nada funciona."
+"Challenge_Desc_nmo_zephyr_challenge_2"	"¿Qué sucede con ese maquinista? Parece que nada le funciona."
 
 "Downloading_Workshop_Map"		"Descargando mapa desde el Workshop..."
 "Downloading_Workshop_Map_Progress"		"Descargando mapa desde el Workshop... (%s1/%s2)"
@@ -318,7 +336,7 @@
 "Mutator_Desc_nostamina"	"Los jugadores tendrán estamina infinita."
 
 "Mutator_Name_nozombierespawn"	"Sin Reapariciones de Zombis"
-"Mutator_Desc_nozombierespawn"	"Los zombis no reapareceran."
+"Mutator_Desc_nozombierespawn"	"Los zombis no reaparecerán."
 
 "Mutator_Name_weightlessammo"	"Munición sin Peso"
 "Mutator_Desc_weightlessammo"	"La munición no ocupará espacio en el inventario."
@@ -345,6 +363,7 @@
 "Addon_Manager_ApplyChanges"		"Aplicar cambios"
 "Addon_Manager_InvalidAddon"		"Este add-on es incompatible."
 "Addon_Manager_MultiSelect"			"[%s1 add-ons seleccionados]"
+"Addon_Manager_DefaultDesc"			"No hay descripción disponible."
 
 "Addon_Manager_DropMenu_Disable"	"Desactivar"
 "Addon_Manager_DropMenu_ShowInfo"	"Mostrar Información"
@@ -390,15 +409,15 @@
 "Addon_Manager_DisabledNotice"		"Los add-ons se encuentran desactivados, sin embargo, todavía puedes administrarlos. Puedes activar add-ons en las opciones. \n(Esto no aplica a mapas del Workshop.)"
 "Addon_Manager_NoConnection"		"No hay conexión a Steam, no es posible administrar add-ons del Workshop. Tus add-ons instalados previamente funcionan offline."
 
-"Addon_Manager_UnsubscribeAddon_Title"		"Desuscribir Add-on"
-"Addon_Manager_UnsubscribeAddon_Message"	"%s1 será desuscrito, ¿estás seguro?"
+"Addon_Manager_UnsubscribeAddon_Title"		"Desuscribir de Add-on"
+"Addon_Manager_UnsubscribeAddon_Message"	"Te desuscribirás de %s1, ¿estás seguro?"
 
 "Addon_Manager_UninstallAddon_Title"	"Desinstalar Add-on"
 "Addon_Manager_UninstallAddon_Message"	"%s1 será eliminado permanentemente si continúas, esto no puede revertirse."
 "Addon_Manager_UninstallAddon_Tip"		"CONSEJO: Puedes desactivar add-ons fácilmente desde el menú desplegable en vez de removerlos."
 "Addon_Manager_UninstallAddon_Failed"	"¡Ha fallado la desinstalación!"
 
-"Addon_Manager_MultiSelectUninstall_Title"		"Desinstalar add-ons múltiples"
+"Addon_Manager_MultiSelectUninstall_Title"		"Desinstalar múltiples add-ons"
 "Addon_Manager_MultiSelectUninstall_Message"	"%s1 add-ons seleccionados serán desinstalados/desuscritos, ¿estás seguro?"
 
 "Addon_Manager_SubscribedAddon"			"El administrador de add-ons ha detectado que te has suscrito a add-ons nuevos."
@@ -454,7 +473,7 @@
 "Workshop_Publisher_TaskSelection_UpdateExisting"	"Actualizar add-on existente"		
 
 "Workshop_Publisher_NoConnection"	"No hay conexión a Steam, Publisher no disponible."
-"Workshop_Publisher_NoAddons"		"Los add-ons se encuentran desactivados, Publisher no está disponible."
+"Workshop_Publisher_NoAddons"		"Los add-ons están desactivados, el Publisher no está disponible."
 
 "Workshop_Publisher_AddonForm_Title"				"Título: *"
 "Workshop_Publisher_AddonForm_Desc"					"Descripción:"
@@ -493,7 +512,7 @@
 "Workshop_Publisher_Filter_GIF"				"Imágenes GIF (*.gif)"
 
 "Workshop_Publisher_Visibility_Public"		"Público"
-"Workshop_Publisher_Visibility_FriendsOnly"	"Sólo Amigos"
+"Workshop_Publisher_Visibility_FriendsOnly"	"Solo Amigos"
 "Workshop_Publisher_Visibility_Private"		"Privado"
 "Workshop_Publisher_Visibility_Unlisted"	"Fuera de Búsqueda"
 
@@ -503,8 +522,8 @@
 
 "Workshop_Publisher_OpenInWorkshop"			"Abrir en el Workshop..."
 
-"Workshop_Publisher_ConfirmClose"			"Hay cambios que no fueron piblicados, ¿deseas salir?"
-"Workshop_Publisher_ConfirmClear"			"Hay cambios que no fueron piblicados, ¿deseas limpiar el formulario?"
+"Workshop_Publisher_ConfirmClose"			"Hay cambios que no fueron publicados, ¿deseas salir?"
+"Workshop_Publisher_ConfirmClear"			"Hay cambios que no fueron publicados, ¿deseas limpiar el formulario?"
 
 "Workshop_Publisher_Status_StartingUp"				"Iniciando..."
 "Workshop_Publisher_Status_PreparingConfig"			"Preparando configuración..."
@@ -528,7 +547,7 @@
 "Workshop_Publisher_Error_TooBigPreview"	"El archivo de vista previa es demasiado grande, el límite es de 1 MB."
 "Workshop_Publisher_Error_PublisherError"	"Error de Publisher"
 "Workshop_Publisher_Error_UploadFailed"		"Ha ocurrido un error, tu add-on no se ha publicado. (Código de error: %s1)"
-"Workshop_Publisher_Error_InvalidBSP"		"¡BSP inválido! El archivo puede estar corrompido o ser incompatible."
+"Workshop_Publisher_Error_InvalidBSP"		"¡BSP inválido! El archivo puede estar corrompido o es incompatible."
 
 "Workshop_Publisher_MissingNMO"				"¡El mapa de objetivos seleccionado no tiene un archivo .nmo! Asegúrate que dicho archivo se encuentre en el mismo directorio que el BSP elegido.\nSi publicas este mapa, los objetivos no funcionarán."
 "Workshop_Publisher_MissingNAV"				"¡El mapa seleccionado no tiene un archivo .nav! Asegúrate que dicho archivo se encuentre en el mismo directorio que el BSP elegido.\nSi publicas este mapa, los zombis podrían moverse incorrectamente."
@@ -558,7 +577,7 @@
 "UGC_SoundPacks"						"Paquetes de Sonidos"
 "UGC_HUD_UI"							"HUD / Interfaz"
 "UGC_Scripts_Resources"					"Scripts / Recursos"
-"UGC_Mutators"							"Mutators"
+"UGC_Mutators"							"Mutadores"
 "UGC_Miscellaneous"						"Misceláneo"
 } 
 }
