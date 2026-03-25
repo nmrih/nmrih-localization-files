@@ -53,6 +53,7 @@
 "NMRiH_Advanced_cl_stickyironsight"		"Activar mira alternable"
 "NMRiH_Advanced_cl_voicesubtitles"		"Activar subtítulos en el chat"
 "NMRiH_Advanced_cl_ejectbrass"			"Activar cartuchos eyectados"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"Activar sombras de linternas (pesado)"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Activar Luces Dinámicas para Fogonazos (pesado)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Desactivar HTML en el Mensaje del Día (MOTD)"
 "NMRiH_Advanced_fov_allow_change"		"El campo de visión (FOV) puede ser alterado por la jugabilidad"
@@ -72,6 +73,14 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"Calidad de efectos de impacto"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Alta, con escombros"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Baja, sin escombros"
+"NMRiH_Advanced_cl_predictpickup"		"Predicción de objetos en mano"
+"NMRiH_Advanced_cl_predictpickup_0"		"No predecir posición"
+"NMRiH_Advanced_cl_predictpickup_1"		"Predecir posición siempre"
+"NMRiH_Advanced_cl_predictpickup_2"		"Solo predecir items de objetivos"
+"NMRiH_Advanced_cl_radialfog"		"Opciones de neblina radial"
+"NMRiH_Advanced_cl_radialfog_-1"	"Determinado por el mapa"
+"NMRiH_Advanced_cl_radialfog_0"		"Apagada (neblina original)"
+"NMRiH_Advanced_cl_radialfog_1"		"Encendida"
 
 "NMRiH_Difficulty"	"Dificultad"
 
@@ -86,8 +95,17 @@
 "NMRiH_GameType_PVP"			"PvP"
 "NMRiH_GameType_Minigame"		"Minijuego"
 
+"NMRiH_Server"				"Tipo"
+"NMRiH_Server_Solo"			"Un Solo Jugador"
+"NMRiH_Server_LAN"			"Red Local"
+"NMRiH_Server_Public"		"Público"
+"NMRiH_Server_FriendsOnly"	"Solo Amigos"
+"NMRiH_Server_Unlisted"		"Sin Listar"
+
 "NMRiH_LAN"				"Solo LAN"
-"NMRiH_Coplay"			"Usar Coplay (Networking de Steam)"
+"NMRiH_Coplay"			"Usar Red de Steam"
+
+"NMRiH_Server_Tooltip"	"Elige un tipo de servidor (para la red de Stean):\nUn Solo Jugador: Juega fuera de línea.\nRed Local: Crea una partida en LAN.\nPúblico: Crea una partida pública.\nSolo Amigos: Partida accesible solo vía invitación.\nSin Listar: No visible en el buscador de servidores."
 
 "NMRiH_Difficulty_Tooltip"	"Elige una dificultad.\nClásica: Opciones predeterminadas, reapariciones fijas activadas.\nCasual: Reapariciones automáticas y con armas.\nPesadilla: Vida/densidad de zombis y chance de infección aumentadas.\nPvP: Activa el puntaje y avisos de muertes de PvP, desactiva zombis y objetivos."
 "NMRiH_Map_Time_Tooltip"	"Tiempo límite del mapa."
@@ -96,7 +114,7 @@
 "NMRiH_RealismMode_Tooltip"	"Modo Realismo: reapariciones desactivadas, los zombis solo reciben daño a la cabeza y cada disparo a la cabeza mata instantáneamente, sin importar el tipo de munición."
 "NMRiH_HardcoreSurvival_Tooltip"	"Esconde las ayudas visuales en modo Supervivencia."
 "NMRiH_Max_Players_Tooltip"	"Límite de jugadores, mínimo de 2, máximo de 8."
-"NMRiH_Coplay_Tooltip"	"Coplay provee una implementación del Networking de Steam para conexiones directas entre clientes (peer-to-peer). Esto saltea el requerimiento de abrir los puertos de tu router."
+"NMRiH_Coplay_Tooltip"	"Usa la red de Steam para conexiones directas entre clientes (peer-to-peer). Saltea el requerimiento de abrir los puertos de tu router."
 "NMRiH_AdvOptions"	"Opciones Extendidas..."
 "NMRiH_AdvOptions_Tooltip"	"Editar opciones de juego extendidas."
 
@@ -345,6 +363,7 @@
 "Addon_Manager_ApplyChanges"		"Aplicar cambios"
 "Addon_Manager_InvalidAddon"		"Este add-on es incompatible."
 "Addon_Manager_MultiSelect"			"[%s1 add-ons seleccionados]"
+"Addon_Manager_DefaultDesc"			"No hay descripción disponible."
 
 "Addon_Manager_DropMenu_Disable"	"Desactivar"
 "Addon_Manager_DropMenu_ShowInfo"	"Mostrar Información"
