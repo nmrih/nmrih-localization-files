@@ -53,6 +53,7 @@
 [*]Corrigidas notificações falsas de renascimento (ex: o som toca e a janela pisca enquanto 'aguarda ponto de spawn')
 [*]Corrigido o problema em que a mira não era desativada ao considerar o suicídio
 [*]Corrigida a colisão das partículas de chuva, contribuição de BigHatMarley (#1579)
+[*]Corrigidos vários problemas ao restaurar salvamentos em mapas que utilizam transição de nível
 [*]Corrigidos os painéis de caixas de suprimentos e teclados numéricos que não redimensionavam corretamente ao alterar a resolução
 [*]Corrigida a vocalização ociosa dos zumbis que era cortada durante gemidos mais longos
 [/list]
@@ -64,13 +65,17 @@
 [*]Adicionada a entidade "npc_nmrih_basezombie", classe base para um zumbi genérico, útil para zumbis personalizados
 [*]Adicionada a entidade "skybox_swapper", troca o material da skybox 2D
 [*]Adicionada a entidade "trigger_tonemap", que altera os controladores de tonemap para jogadores que tocam o gatilho
+[*]Adicionado o evento de jogo "inventory_box_item_taken", disparado quando o jogador pega um item de uma caixa de suprimentos
+[*]Adicionado o evento de jogo "player_voice_command", disparado quando o jogador usa um comando de voz, incl. falas automáticas (dor, sangramento, etc.)
 [*]Adicionado input "HeadSplit" para zumbis (#1569)
 [*]Adicionado campo de sobreposição de colisão (hull override) aos zumbis
-[*]Adicionada entrada "RevertAllMapCvars" à entidade "logic_ruleset", que reverte todas as variáveis de console (cvars) alteradas por um mapa ativo para um valor base (quando disponível) ou padrão
-[*]Adicionado campo-chave "Despawn Ignore Population" à entidade "func_zombie_spawn"
+[*] Adicionada a entrada "RevertAllMapCvars" à entidade "logic_ruleset"; ela reverte todas as cvars alteradas por um mapa ativo para o valor base (quando disponível) ou para o padrão, mas não reverte alterações de dificuldade, script ou mutadores
+[*]Adicionadas as entradas "ForceRespawnPlayer" e "ForceRespawnAllPlayers" à entidade "nmrih_game_state", que forçam o renascimento de jogadores ignorando a verificação de pontos de spawn válidos
+[*]Adicionado o parâmetro "Despawn Ignore Population" à entidade "func_zombie_spawn"; por padrão, zumbis só desaparecem (despawn) quando a população da zona excede o limite máximo, mesmo que não estejam sendo vistos; quando definido como 'No', utiliza o comportamento clássico, no qual zonas visitadas mantêm o número máximo de zumbis; quando definido como 'Yes', zumbis fora do campo de visão sempre desaparecem.
 [*]Adicionado o campo-chave "Hide TAKE Button" (Ocultar Botão Pegar) para a entidade "item_inventorybox"
-[*]Adicionado o campo-chave "HUD Style" à entidade "logic_progress", que altera o estilo visual da barra de progresso, com a nova adição de um círculo desenhado no centro da tela
+[*]Adicionado o campo-chave "HUD Style" à entidade "logic_progress"; ele altera o estilo visual da barra de progresso, incluindo um círculo desenhado no sentido horário no centro da tela.
 [*]Adicionado o campo-chave "Ignore Grease" aos zumbis; quando ativado, o zumbi não alternará entre grupos de colisão atribuídos a NPCs para atravessar uns aos outros
+[*]Adicionado o campo-chave "Ignore Wind?" para entidades de brush de partículas de poeira
 [*]Adicionado campo-chave "Ignore Zombie Rules" para zumbis. Quando ativado, as regras do jogo os tratarão como um NPC genérico
 [*]Adicionado suporte a quebras de linha à entidade "point_message_multiplayer"
 [*]Adicionadas flags de spawn ausentes à entidade "point_viewcontrol_multiplayer"
@@ -93,45 +98,56 @@
 [*]NMRObjective: Adicionadas barras de rolagem para quando os nós ficam fora da área de trabalho
 [*]NMRObjective: Otimizações e melhorias diversas
 [*]VScript: Adicionadas as funções CAI_BaseNPC: CanLagCompensate() e SetCanLagCompensate()
-[*]VScript: Adicionadas funções CBaseAnimating SetPlayerDrawFilter() e DrawFilterAllPlayers()
+[*]VScript: Adicionadas funções CBaseAnimating SetPlayerDrawFilter() e DrawFilterAllPlayers(); quando definido como verdadeiro, este modelo não será visível para o jogador especificado
 [*]VScript: Adicionada a função CBaseEntity: IsZombie(), que retorna verdadeiro se a entidade for considerada um zumbi válido pela lógica do jogo
-[*]VScript: Adicionado hook OnTakeDamage à CBaseEntity, permitindo modificar as informações de dano recebido antes de aplicá-las
-[*]VScript: Adicionado o hook TraceAttack à CBaseEntity, chamado quando a entidade está prestes a receber um traço de ataque
+[*]VScript: Adicionado o hook OnTakeDamage à classe CBaseEntity; este hook foi projetado como uma alternativa mutável ao PassesFinalDamageFilter do filter_script, permitindo modificar as informações do dano recebido antes de sua aplicação — retornar false descartará o dano recebido.
+[*]VScript: Adicionado o hook TraceAttack à classe CBaseEntity; ele é chamado quando a entidade está prestes a receber um *trace* de ataque, permitindo modificar as informações de dano recebido antes de sua aplicação. Esse hook é chamado *antes* da verificação dos filtros de dano, e retornar false descartará o *trace*.
+[*]VScript: Adicionada a função CBasePlayer: IsHLTV(), que retorna verdadeiro se o jogador for SourceTV
 [*]VScript: Adicionadas as funções de CBasePlayer: SetTonemapScale(), SetTonemapRate(), SetAutoExposureMin(), SetAutoExposureMax(), SetBloomScale(), UseDefaultAutoExposure(), UseDefaultBloomScale() e ClearTonemapParams()
 [*]VScript: Adicionadas as funções de CItem_InventoryBox: IsTakeButtonHidden() e SetTakeButtonHidden()
 [*]VScript: Adicionada a função SetCircle() à CLogicProgress
 [*]VScript: Adicionada função SetModelOverride() à CNMRiH_BarricadePoint
 [*]VScript: Adicionadas as funções de CNMRiH_BaseZombie: IsRecognizedByGameRules(), SetIgnoreZombieRules() e SetIgnoreGrease()
 [*]VScript: Adicionada função DidGunshotSuicide() à CNMRiH_Player
-[*]VScript: Adicionada a função ForceTransmit() à CNMRiH_Player, que envia atualizações de rede para todos os clientes
-[*]VScript: Adicionada a função SetForcedRespawn() em CNMRiH_Player
-[*]VScript: Adicionadas as funções de CNMRiH_Player: HasJumpAbility(), HasDuckAbility(), SetJumpAbility() e SetDuckAbility()
+[*]VScript: Adicionada a função ForceTransmit() à classe CNMRiH_Player; ela envia uma atualização de rede para todos os clientes, mesmo quando o jogador está inativo para eles (filtrado pelo PVS)
+[*]VScript: Adicionada a função SetForcedRespawn() à classe CNMRiH_Player; ela marca o próximo renascimento como forçado e pula a verificação de ponto de surgimento válido, revertendo a configuração após o renascimento
+[*]VScript: Adicionada a função SetVaccinated() em CNMRiH_Player, que define diretamente o estado de vacinado e ignora a chance de cegueira parcial
+[*]VScript: Adicionadas as funções CNMRiH_Player HasJumpAbility(), HasDuckAbility(), SetJumpAbility() e SetDuckAbility(), que definem se o jogador pode ou não pular/agachar, com previsão (prediction) no cliente
 [*]VScript: Adicionados hooks OnWeaponDrop, OnWeaponEquip e OnWeaponSwitch à CNMRiH_Player
 [*]VScript: Adicionada implementação consistente de rand() e RAND_MAX em todas as plataformas
 [*]VScript: Adicionadas constantes para máscaras de botões, grupos de colisão e tipos de dano do NMRiH
 [*]VScript: Adicionadas funções GetAdjacentAreas() e GetAdjacentCount() à CScriptNavArea
+[*]VScript: Adicionada a enumeração "VoiceCommand", que lista comandos de voz disponíveis dos jogadores, incl. chamadas automáticas (dor, sangramento, etc.)
 [*]VScript: Adicionadas funções TraceEntity() e TraceHull()
-[*]VScript: Adicionado suporte a callbacks de filtro de acerto de entidade em TraceLineEx(), TraceHull() e TraceEntity()
+[*]VScript: Adicionado suporte a recursão para as funções TableToSubKeys() e SubKeysToTable() de CScriptKeyValues
+[*]VScript: Adicionado suporte para leitura de KeyValues a partir do pak lump do BSP através da função KeyValuesRead()
+[*]VScript: Adicionado suporte a callbacks de filtragem de entidade atingida em TraceLineEx(), TraceHull() e TraceEntity(), por meio de um valor "callback" que espera uma função com um único argumento para os parâmetros (ex.: "function ShouldHitEntity(params)"), onde 'params' contém as chaves: entity e contentsmask; o valor retornado filtra a entidade atingida.
 [*]VScript: A classe CScriptNavArea agora tem representação em string (i.e. "[&lt;ID&gt;] Area")
 [*]VScript: O input 'RunScriptCode' de entidades agora converte crases em aspas (i.e. ` -&gt; ")
 [*]VScript: Corrigida a função IsTalkingWalkie() da classe CNMRiH_Player que sempre retornava 'false'
 [*]VScript: Corrigido crash ao passar valores nulos para a função TraceLineEx()
-[*]VScript: Corrigidas instâncias de scripts de entidades pendentes em alguns casos, que causavam crashes
+[*]VScript: Corrigidas instâncias de script de entidade órfãs em alguns casos que causavam travamentos (por exemplo, um "prop_physics" com escopo de script sendo excluído prematuramente devido a um modelo defeituoso)
 [*]VScript: Corrigida a função SetActivity() que permitia ACT_INVALID, causando crash
 [*]VScript: Corrigidos os hooks NPC_TranslateActivity e NPC_TranslateSchedule que não verificavam tipos de retorno inválidos
 [*]VScript: Corrigido vazamento de escopo de script na exclusão de entidades
+[*]VScript: Atualizado com as últimas mudanças do Mapbase
 [/list]
 [h2]Mudança para administrador de servidor[/h2]
 [list]
-[*]Adicionada capacidade de modificar pools de modelos de zumbis, controlados pelas variáveis "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng" e "sv_zombie_models_runner"
-[*]Adicionada variável de configuração "ov_despawn_ignore_population" (#1562)
+[*] Adicionada a capacidade de modificar os conjuntos de modelos de zumbis, controlados pelas cvars "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng" e "sv_zombie_models_runner"; os modelos são definidos usando a vírgula (',') como delimitador, com caminhos relativos a models/nmr_zombie/*.mdl (ou pelo nome direto do arquivo).
+[*]Adicionada a cvar "ov_despawn_ignore_population"; por padrão, zumbis só desaparecem quando a população da zona excede o limite máximo. Defina como 0 para o comportamento padrão (*vanilla*), no qual zonas visitadas mantêm o número máximo de zumbis, ou como 1 para sempre remover zumbis que não estejam sendo vistos (#1562)
+[*]Adicionada a cvar 'sv_ammobox_entity_legacy', para compatibilidade de mapa quando alterações em entidades ammobox_ causam problemas
+[*]Adicionada a cvar 'sv_friendly_fire_ignore_infected', que quando ativada, não aplica fogo amigo forçado contra jogadores infectados
 [*]Adicionada a cvar 'sv_gamedesc_override', para permitir que donos de servidores alterem a descrição do jogo
-[*]Adicionada variável de configuração "sv_runner_randomize_collision_group"
-[*]Adicionada a cvar 'sv_tree_sway_update_time', para desativar o balanço das árvores no lado do servidor
-[*]Adicionada variável de configuração "sv_zombie_brainstem_dmg_scale"
-[*]Adicionadas variáveis de configuração para ajustar a vocalização de zumbis: "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit" e "sv_zombie_moan_freq_random"
+[*]Adicionada a cvar "sv_runner_randomize_collision_group"; os corredores sempre alternam grupos de colisão (efeito "grease") ao surgir. Quando definida como 0 e combinada com "BecomeRunner", isso emula o comportamento com falha anterior à versão v1.15.0
+[*]Adicionada a cvar 'sv_sprint_with_held_item', que permite que jogadores corram enquanto seguram um item
+[*]Adicionada a cvar "sv_tree_sway_update_time"; quando definida como 0, ela desativa a oscilação das árvores no lado do servidor (útil para compatibilidade de mapas)
+[*]Adicionada a cvar "sv_zombie_brainstem_dmg_scale"; zumbis recebem dano no hitbox do tronco cerebral multiplicado por esse fator (se sv_brainstem estiver definido como 1)
+[*]Adicionadas variáveis de configuração para ajustar a vocalização de zumbis: "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit" e "sv_zombie_moan_freq_random" (comportamento original inalterado)
 [*]Adicionado novo método de randomizar modelos de zumbis através de "sv_zombie_shuffle_models"
+[*]Corrigidos os downloads do Steam Workshop em um servidor dedicado (#1581)
 [*]Comandos de estado do jogo (como "respawnplayer") agora suportam SteamIDs e correspondências parciais de nomes
+[*]Comandos de estado do jogo agora podem forçar o renascimento de jogadores usando a opção [-force], ex: "respawnplayer -force NomeDoJogador"
 [/list]
 [h1]Mapas[/h1]
 
@@ -140,6 +156,10 @@
 [*]Tentativa de correção de partes do corpo atravessando o chão do ritual
 [*]Corrigido travamento na parte da perna (#1565)
 [*]Corrigido artefato estranho de glitch em um brush de teto
+[/list]
+[h3]nmo_boardwalk[/h3]
+[list]
+[*]Corrigidos pontos seguros de invulnerabilidade (godspots) (#1605)
 [/list]
 [h3]nmo_broadway2[/h3]
 [list]
@@ -159,6 +179,7 @@
 [list]
 [*]Adicionada iluminação para a base da alavanca
 [*]Adicionada caixa de energia em uma das casas para ocultar uma árvore aparecendo através da parede
+[*]Corrigido o gerenciador de música que não reproduzia a lista de reprodução correta para o estado de tensão (#1604)
 [*]Corrigido travamento quando a alavanca é solta na poça elétrica (#1537)
 [*]Corrigido travamento quando itens de objetivo são jogados fora do alcance (#1548)
 [/list]
@@ -170,11 +191,16 @@
 [h3]nmo_quarantine[/h3]
 [list]
 [*]Corrigido pontos de barricada no final do mapa que não funcionavam (#1561)
+[*]Corrigidos pontos seguros de invulnerabilidade (godspots) (#1605)
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Corrigidos pontos seguros de invulnerabilidade (godspots) (#1605)
 [/list]
 [h3]nmo_shoreline[/h3]
 [list]
-[*]Desativado o respawn de zumbis ao redor dos quartos no andar superior (Casual e Clássica)
-[*]Corrigida a falha que permitia ficar abaixo da zona de extração no barco
+[*]Desativado o respawn de zumbis ao redor dos quartos no andar superior da cabana (apenas nas dificuldades Casual e Clássica)
+[*]Corrigido o problema que permitia ficar embaixo da zona de extração ao subir na rampa traseira do barco
 [*]Aumentada a taxa de surgimento de kits de primeiros socorros
 [*]Pequenos ajustes para facilitar a navegação pelo mapa
 [/list]
@@ -188,6 +214,7 @@
 [/list]
 [h3]nms_midwest[/h3]
 [list]
+[*]Corrigida a capacidade de bloquear entradas de zonas com caixas militares
 [*]Corrigido bug visual no prop de barricada na zona A
 [/list]
 [h3]nms_northway[/h3]
