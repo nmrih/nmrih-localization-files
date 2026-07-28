@@ -1,0 +1,589 @@
+"lang" 
+{ 
+"Language" "latam" 
+"Tokens" 
+{ 
+"Valve_Listen_MapName"			"Mapa"
+"Valve_Movement_Title"			"MOVIMIENTO"
+"Valve_Move_Forward"			"Avanzar"
+"Valve_Move_Back"			"Retroceder"
+"Valve_Turn_Left"			"Girar a la izquierda"
+"Valve_Turn_Right"			"Girar a la derecha"
+"Valve_Move_Left"			"Desplazamiento lateral izq."
+"Valve_Move_Right"			"Desplazamiento lateral dcha."
+"Valve_Jump"				"Saltar"
+"Valve_Duck"				"Agacharse"
+"Valve_Swim_Up"				"Nadar hacia arriba"
+"Valve_Swim_Down"			"Nadar hacia abajo"
+"Valve_Look_Up"				"Mirar arriba"
+"Valve_Look_Down"			"Mirar abajo"
+"Valve_Look_Straight_Ahead"		"Mirar al frente"
+"Valve_Strafe_Modifier"			"Modificador mov. lateral"
+"Valve_Mouse_Look_Modifier"		"Modificador vista ratón"
+"Valve_Keyboard_Look_Modifier"		"Mod. vista con teclado"
+"Valve_Use_Items"			"Usar objeto (botones, máquinas,...)"
+"Valve_Pickup_Use_Objects"		"Recoger/usar objetos"
+"Valve_Communication_Title"		"COMUNICACIÓN"
+"Valve_Use_Voice_Communication"		"Usar comunicación por voz"
+"Valve_Chat_Message"			"Mensaje de chat"
+"Valve_Team_Message"			"Mensaje de equipo"
+"Valve_Combat_Title"			"ATAQUE"
+"Valve_Primary_Attack"			"Ataque principal"
+"Valve_Secondary_Attack"		"Ataque secundario"
+"Valve_Reload_Weapon"			"Recargar arma"
+"Valve_Walk"				"Caminar (moverse lentamente)"
+"Valve_Flashlight"			"Linterna"
+"Valve_Spray_Logo"			"Logotipo de aerosol"
+"Valve_ServerOfferingToConnect"		"Este servidor te está ofreciendo conectarte a:"
+"Valve_PressKeyToAccept"		"Pulsa %s1 para aceptar."
+"Valve_BindKeyToAccept"			"Configura una tecla para aceptar."
+"Valve_Weapon_Category_1"		"Categoría de armas 1"
+"Valve_Weapon_Category_2"		"Categoría de armas 2"
+"Valve_Weapon_Category_3"		"Categoría de armas 3"
+"Valve_Weapon_Category_4"		"Categoría de armas 4"
+"Valve_Weapon_Category_5"		"Categoría de armas 5"
+"Valve_Weapon_Category_6"		"Categoría de armas 6"
+"Valve_Weapon_Category_7"		"Categoría de armas 7"
+"Valve_Weapon_Category_8"		"Categoría de armas 8"
+"Valve_Weapon_Category_9"		"Categoría de armas 9"
+"Valve_Weapon_Category_0"		"Categoría de armas 0"
+"Valve_Previous_Weapon"			"Arma anterior"
+"Valve_Next_Weapon"			"Arma siguiente"
+"Valve_Last_Weapon_Used"		"Última arma usada"
+"Valve_Miscellaneous_Title"		"VARIOS"
+"Valve_Display_Scores"			"Mostrar puntuaciones multijugador"
+"Valve_Take_Screen_Shot"		"Captura de pantalla"
+"Valve_Quick_Save"			"Guardado rápido"
+"Valve_Quick_Load"			"Carga rápida"
+"Valve_Pause_Game"			"Pausar juego"
+"Valve_Quit_Game"			"Abandonar"
+"Valve_Accept_Redirect"			"Permitir redireccionamiento a otro servidor"
+"Valve_Cheer"				"Ovación"
+"Valve_Activate_In_Game_GUI"		"Activar interfaz de usuario"
+"Valve_Change_Team"			"Cambiar equipo"
+"Valve_Change_Class"			"Cambiar clase"
+"Valve_Use_Special_Skill"		"Usar habilidad especial"
+"Valve_Multiplayer_Decal_Limit"		"Límite de calcos multijugador"
+"Valve_Valid_Teams"			"Equipos válidos, en blanco para todos"
+"Valve_Frag_Limit"			"Límite de muertes"
+"Valve_Time_Limit"			"Límite de tiempo (mín.)"
+"Valve_Falling_Damage"			"Daño en caída"
+"Valve_Normal"				"Normal"
+"Valve_Realistic"			"Realista"
+"Valve_Teamplay"			"Juego en equipo"
+"Valve_Friendly_Fire"			"Fuego aliado"
+"Valve_Weapons_Stay"			"Las armas permanecen"
+"Valve_Force_Respawn"			"Forzar regeneración"
+"Valve_Footsteps"			"Pasos"
+"Valve_Autocrosshair"			"Mira automática"
+"Valve_Center_Player_Names"		"Centrar nombres de jugadores"
+"Valve_Switch_Weapons_Immediately"	"Cambiar armas de inmediato"
+"Valve_Automatic_Screenshots"		"Capturas de pantalla automáticas al acabar"
+"Valve_Observer_Crosshair"		"Mira del observador"
+"Valve_Console_Toggle"		"Activar/desactivar consola del programador"
+
+
+"Spec_Slow_Motion" "Cámara lenta"
+"Spec_No_PIP" "Picture-In-Picture no está disponible en modo Primera Persona durante el juego."
+
+"Spec_Replay" "Repetición instantánea"
+"Spec_Auto" "Automático"
+"Spec_Time" "Tiempo"
+"Spec_Map" "Mapa: %s1"
+"Spectators" "Espectadores"
+"Spec_PlayerItem_Health" "%s1 (%s2)"
+"Spec_PlayerItem" "%s1"
+"Spec_PlayerItem_Team" "%s1 (%s2)"
+"Spec_Duck"	"Pulsa AGACHARSE para ver el menú de espectador"
+"Spec_Help_Title" "Modo espectador"
+"Spec_Help_Text"  "
+Pulsa las teclas siguientes para cambiar las vistas:
+
+ DISPARAR1: Perseguir al jugador siguiente
+ DISPARAR2: Perseguir al jugador anterior
+ SALTAR: Cambiar modos de vista
+ USAR: Cambiar modo de ventana de recuadro
+ 
+ AGACHARSE: Activar menú espectador
+  
+En el modo de vista de mapa, puedes desplazarte con:
+
+ IZQUIERDA: hacia la izquierda
+ DERECHA: hacia la derecha
+ ADELANTE: Acercarte
+ ATRÁS: Alejarte
+ RATÓN: girar alrededor de mapa/objetivo
+"
+
+"Spec_Modes" 	"Opciones de cámara"
+"Spec_Mode0" 	"Cámara desactivada"
+"Spec_Mode1" 	"Cámara de la muerte"
+"Spec_Mode2" 	"Vista fija"
+"Spec_Mode3" 	"Primera persona"
+"Spec_Mode4" 	"Cámara de seguimiento"
+"Spec_Mode5" 	"Mirada libre"
+"Spec_Mode6" "Vista mapa persecución"
+"Spec_NoTarget" "No hay objetivos válidos. No se puede cambiar el modo de cámara."
+"Spec_Options"	"Opciones"
+"OBS_NONE" "Opciones de cámara"
+"OBS_CHASE_LOCKED" "Cámara persecución fija"
+"OBS_CHASE_FREE" "Cámara persecución libre"
+"OBS_ROAMING" "Mirada libre"
+"OBS_IN_EYE" "Primera persona"
+"OBS_MAP_FREE" "Vista mapa libre"
+"OBS_MAP_CHASE" "Vista mapa persecución"
+"SPECT_OPTIONS" "Opciones"
+"CAM_OPTIONS" "Opciones de cámara"
+
+"PlayerName"	"Nombre"
+"PlayerScore"	"Puntuación"
+"PlayerDeath"	"Bajas"
+"PlayerPing"	"Latencia"
+"PlayerVoice"	"Voz"
+"PlayerTracker"	"Amigo"
+
+"T0A0TITLE"	"PISTA DE ENTRENAMIENTO"
+"C0A0TITLE"	"ENTRANDO EN BLACK MESA"
+"C0A1TITLE"	"MATERIALES ANÓMALOS"
+"C1A1TITLE"	"CONSECUENCIAS IMPREVISTAS"
+"C1A2TITLE"	"COMPLEJO DE OFICINAS"
+"C1A3TITLE"	"ENEMIGOS A LA VISTA"
+"C1A4TITLE"	"FOSO EXPLOSIVO"
+"C2A1TITLE"	"ENERGÍA"
+"C2A2TITLE"	"ENCARRILADO"
+"C2A3TITLE"	"CAPTURA"
+"C2A4TITLE1"	"PROCESO DE RESIDUOS"
+"C2A4TITLE2"	"ÉTICA DUDOSA"
+"C2A5TITLE"	"TENSIÓN EN LA SUPERFICIE"
+"C3A1TITLE"	"¡OLVÍDATE DE FREEMAN!"
+"C3A2TITLE"	"NÚCLEO LAMBDA"
+"C4A1TITLE"	"XEN"
+"C4A1ATITLE"	"INTRUSO"
+"C4A2TITLE"	"EL ESCONDITE DE GONARCH"
+"C4A3TITLE"	"NIHILANTH"
+"C5TITLE"	"FIN DEL JUEGO"
+
+"Valve_Hostname"	"Nombre de host"
+"Valve_Max_Players"	"Jugadores máx."
+"Valve_Server_Password"	"Contraseña de servidor"
+
+"Valve_Close"		"Cerrar"
+"Valve_Help"		"Ayuda"
+"Valve_Settings"	"Parámetros"
+"Valve_Chat_Messages"	"Mensajes de chat"
+"Valve_Show_Status"	"Mostrar estado"
+"Valve_View_Cone"	"Cono de visión"
+"Valve_Player_Names"	"Nombres de jugadores"
+"Valve_PIP"		"Picture-In-Picture"
+"Valve_Overview"	"Vista general"
+"Valve_Overview_Off"	"Sin mapa"
+"Valve_Overview_Small"	"Mapa pequeño"
+"Valve_Overview_Large"	"Mapa grande"
+"Valve_Overview_ZoomIn"	"Aumentar"
+"Valve_Overview_Zoomout" "Disminuir"
+"Valve_Overview_Locked"	"Sin rotación"
+"Valve_Overview_Names" 	"Mostrar nombres"
+"Valve_Overview_Health" "Mostrar estado"
+"Valve_Overview_Tracks" "Mostrar pistas"
+"Valve_Auto_Director"	"Director automático"
+"Valve_Show_Scores"	"Mostrar puntuaciones"
+"Valve_Game_Saved"	"Partida guardada"
+
+"Valve_Orange"		"Naranja"
+"Valve_Yellow"		"Amarillo"
+"Valve_Blue"		"Azul"
+"Valve_Ltblue"		"Azul claro"
+"Valve_Green"		"Verde"
+"Valve_Red"		"Roja"
+"Valve_Brown"		"Marrón"
+"Valve_Ltgray"		"Gris claro"
+"Valve_Dkgray"		"Gris oscuro"
+
+"Valve_Playing"		"Jugando"
+"Valve_Stopped"		"Detenido"
+"Valve_Paused"		"En pausa"
+
+"Valve_x_1_4"		"x1/4"
+"Valve_x_1_2"		"x1/2"
+"Valve_x_1"		"x1"
+"Valve_x_2"		"x2"
+"Valve_x_4"		"x4"
+
+"Valve_ViewDemoStatus"	"%s1  %s2  %s3"
+
+"Valve_Hint_Zoom"	"%+zoom% AUMENTAR IMAGEN"
+"Valve_Hint_machinegun"	"%+USE% PARA USAR PISTOLA MONTADA"
+"Valve_Hint_Flashlight" "%impulse 100% LINTERNA"
+"Valve_Hint_PhysSwap" "%phys_swap% PARA CAMBIAR LA PISTOLA DE GRAVEDAD\n POR EL ARMA ANTERIOR"
+"Valve_Hint_Command_send"  "%impulse 50% MANDAR BATALLÓN A UN SITIO"
+"Valve_Hint_Command_recall"  "%impulse 50% DOS VECES PARA LLAMAR A BATALLÓN"
+"Valve_Hint_CraneKeys"	"%+forward% EXTENDER EL BRAZO%+back% RETRAER EL BRAZO %+moveleft% GIRAR A LA IZQUIERDA %+moveright% GIRAR A LA DERECHA %+attack% COGER O SOLTAR OBJETO" [$WIN32]
+"Valve_Hint_CraneKeys"	"%xmove% MOVER BRAZO %+attack% COGER/SOLTAR OBJETO" [$X360]
+"Valve_Hint_BoatKeys"	"%+forward% ACELERAR %+back% REDUCIR VELOCIDAD %+moveleft% GIRAR A LA IZQUIERDA %+moveright% GIRAR A LA DERECHA" [$WIN32]
+"Valve_Hint_BoatKeys"	"%xmove% ACELERAR/CONDUCIR %xlook% VISTA" [$X360]
+"Valve_Hint_JeepKeys"	"%+speed% TURBO %+jump% FRENO"
+"Valve_Hint_JeepTurbo"	"%+speed% TURBO"
+"Valve_Hint_HEVcharger" "%+use% MANTÉN PULSADO PARA CARGAR"
+"Valve_Hint_AirboatGun" "%+attack% DISPARAR PROYÉCTIL AGUA-AIRE"
+"Valve_Hint_AmmoCrate" "%+use% SACAR MUNICIÓN DE LA CAJA"
+"Valve_Hint_USEPickup"  "%+use% RECOGER OBJETO"
+"Valve_Hint_ThrowHeld"  "%+attack% ARROJAR OBJETO"
+"Valve_Hint_MomentaryButton"	"%+use% SOSTENER PARA GIRAR RUEDA"
+"Valve_Hint_ThrowBait"	"%+attack% ARROJAR CARNAZA"
+"Valve_Hint_SqueezeBait"  "%+attack2% LLAMAR A HORMIGAS LEÓN"
+"Valve_Hint_Ladder" "%+use% MONTAR/DESMONTAR ESCALERILLA"
+"Valve_Hint_Interact" "%+use% INTERVENIR"
+"Valve_Hint_Jump" "%+jump% SALTAR"
+"Valve_Hint_Movement" "%xmove% MOVER %xlook% MIRAR" [$X360] 
+"Valve_Hint_Movement" "HACIA DELANTE %+forward%ATRÁS %+back%IZQUIERDA %+moveleft%DERECHA %+moveright%" [$WIN32]
+"Valve_Hint_Door" "%+use% ABRIR PUERTA"
+"Valve_Hint_Sprint" "%+speed% CORRER"
+"Valve_Hint_Attack" "%+attack% ATACAR"
+"Valve_Hint_Crouch" "%+duck% AGACHARSE"
+"Valve_Hint_ItemCrate" "%+attack% ROMPER CAJA DE SUMINISTROS PARA CONSEGUIR OBJETOS"
+"Valve_Hint_Healthcharger" "%+use% MANTENER PULSADO PARA CURARSE CON UNA UNIDAD MÉDICA"
+"Valve_Hint_Reload"     "%+reload% RECARGAR"
+"Valve_Hint_SwimUp" "%+jump% NADAR HACIA ARRIBA"
+
+
+
+"Valve_Miscellaneous_Keyboard_Keys_Title"  "MOVIMIENTOS VARIOS"
+"Valve_Chapter"		"Capítulo"
+
+"Valve_HudPoisonDamage"	"NEUROTOXINA DETECTADA\nADMINISTRANDO ANTÍDOTO"
+
+"Valve_CreatingCache"	"Creando archivos de sonido en caché..."
+"Valve_CreatingSpecificSoundCache"	"Procesando:  %s1"
+
+"Valve_UpdatingSteamResources" "Actualizando recursos de Steam..."
+
+"Valve_Sprint"		"Correr (moverse rápidamente)"
+"Valve_Suit_Zoom"	"Zoom de traje"
+"Valve_Commander_Mode"	"Enviar / retirar al batallón"
+"Valve_Gravity_Gun"	"Arma gravitatoria"
+"Valve_CC_Toggle"	"Activar/desactivar efectos sonoros de subtítulos"
+
+"Valve_Hud_HEALTH"		"SALUD"
+"Valve_Hud_AMMO"		"MUNICIÓN"
+"Valve_Hud_AMMO_ALT"		"ALT"
+"Valve_Hud_SUIT"		"TRAJE"
+"Valve_Hud_AUX_POWER"		"POT. AUXILIAR"
+"Valve_Hud_OXYGEN"		"OXÍGENO"
+"Valve_Hud_FLASHLIGHT"		"LINTERNA"
+"Valve_Hud_SPRINT"		"CARRERA"
+"Valve_Hud_BONUS_PROGRESS"	"BONIFICACIÓN"
+
+"Valve_Hud_SQUAD_FOLLOWING"	"PELOTÓN EN MARCHA"
+"Valve_Hud_SQUAD_STATIONED"	"PELOTÓN DETENIDO"
+
+"Valve_HDRDEMO_LeftTitle"	"Apertura fija"
+"Valve_HDRDEMO_RightTitle"	"HDR (alto rango dinám.)"
+
+"Valve_Hud_CamFOV"		"Campo de visión"
+"Valve_Hud_CamHeight"	"Altura de la cámara"
+"Valve_CamArmLength"	"Longitud del brazo"
+
+"Valve_FilmDemo_FilmGrain_LeftTitle"	"Sin efecto de película antigua"
+"Valve_FilmDemo_FilmGrain_RightTitle"	"Efecto de película antigua"
+
+"Valve_FilmDemo_ColorCorrection_LeftTitle"	"Sin corrección de color"
+"Valve_FilmDemo_ColorCorrection_RightTitle"	"Corrección de color"
+
+// Xbox 360
+"Valve_Hint_Select_Weapon_357" "%slot1% SELECCIONAR MAGNUM .357"
+"Valve_Hint_Select_Weapon_AR2" "%slot2% SELECCIONAR RIFLE DE PULSO"
+"Valve_Hint_Select_Weapon_Bugbait" "%slot4% SELECCIONAR FERÓPODO"
+"Valve_Hint_Select_Weapon_Crossbow" "%slot1% SELECCIONAR BALLESTA"
+"Valve_Hint_Select_Weapon_Crowbar" "%slot3% SELECCIONAR PALANCA"
+"Valve_Hint_Select_Weapon_Frag" "%slot4% SELECCIONAR GRANADA"
+"Valve_Hint_Select_Weapon_Physcannon" "%slot3% SELECCIONAR PISTOLA ANTIGRAVEDAD"
+"Valve_Hint_Select_Weapon_Pistol" "%slot1% SELECCIONAR PISTOLA DE 9 MM"
+"Valve_Hint_Select_Weapon_RPG" "%slot4% SELECCIONAR RPG"
+"Valve_Hint_Select_Weapon_Shotgun" "%slot2% SELECCIONAR ESCOPETA"
+"Valve_Hint_Select_Weapon_SMG1" "%slot2% SELECCIONAR METRALLETA"
+"Valve_Hint_Select_WEAPONUP" "%slot1% SELECCIONAR ARMA"
+"Valve_Hint_Select_WEAPONRIGHT" "%slot2% SELECCIONAR ARMA"
+"Valve_Hint_Select_WEAPONDOWN" "%slot3% SELECCIONAR ARMA"
+"Valve_Hint_Select_WEAPONLEFT" "%slot4% SELECCIONAR ARMA"
+
+"Valve_Hint_Alt_Weapon_SMG1" "%+attack2% DISPARAR CON METRALLETA LANZAGRANADAS"
+"Valve_Hint_Alt_Weapon_Crossbow" "%+attack2% MIRA DE LA BALLESTA"
+"Valve_Hint_Alt_Weapon_AR2" "%+attack2% PULSO CARGADO"
+"Valve_Hint_Alt_Weapon_Shotgun" "%+attack% DISPARAR CON UN CAÑÓN %+attack2% DISPARAR CON DOS CAÑONES"
+"Valve_Hint_Alt_Weapon_Frag" "%+attack% LANZAR GRANADA %+attack2% DEJAR GRANADA"
+"Valve_Hint_Alt_Weapon_Bugbait" "%+attack% LANZAR FERÓPODO %+attack2% ESTRUJAR FERÓPODO"
+"Valve_Hint_Alt_Weapon_Physcannon" "%+attack% LANZAR OBJETO %+attack2% COGER OBJETO"
+
+"Valve_Hint_EnterVehicle"  "%+use% SUBIR A VEHÍCULO"
+
+"Commentary_PrimaryAttack"	"%+attack%: Iniciar/detener nodo"
+"Commentary_SecondaryAttack"	"%+attack2%: Siguiente nodo"
+
+"game_player_joined_game"	"El jugador %s1 se ha incorporado a la partida"
+"game_player_left_game"		"El jugador %s1 ha abandonado la partida (%s2)" [$WIN32]
+"game_player_left_game"		"El jugador %s1 ha abandonado la partida" [$X360]
+"game_player_joined_team"	"El jugador %s1 se ha unido al equipo %s2"
+"game_player_joined_autoteam" "El jugador %s1 ha sido asignado automáticamente al equipo %s2"
+"game_player_changed_name"	"El jugador %s1 se llama ahora %s2"
+"game_server_cvar_changed"	"El cvar '%s1' del servidor se ha cambiado por %s2"
+
+// Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
+// The control characters can be copied and pasted in notepad.
+//  = 0x02 (STX) - Use team color up to the end of the player name.  This only works at the start of the string, and precludes using the other control characters.
+//  = 0x03 (ETX) - Use team color from this point forward
+//  = 0x04 (EOT) - Use location color from this point forward
+//  = 0x05 (ENQ) - Use achievement color from this point forward
+//  = 0x01 (SOH) - Use normal color from this point forward
+"Achievement_Earned"		"%s1 ha conseguido el logro %s2"
+
+"game_nextmap"		"Siguiente mapa: %s1"
+"game_takesshots"	"Guardar automáticamente una tabla de puntuaciones al finalizar un mapa."
+
+"Cannot_Be_Spectator"			"Este servidor no permite espectadores"
+
+"Valve_DisableHTMLMOTD"		"Desactivar MOTDs HTML."
+"Valve_UseSteamCloud"		"Sincronizar con Steam Cloud."
+"Valve_SteamScreenshots"	"Guardar capturas en Steam"
+
+
+//----------------------------------------------------------------------------------------
+// Econ UI
+"ValveEcon_RootUI_Title"			"GESTIÓN DE OBJETOS"
+"ValveEcon_RootUI_OpenStore"		"Tienda"
+"ValveEcon_RootUI_OpenLoadout"		"Equipamiento"
+"ValveEcon_RootUI_OpenBackpack"		"Mochila"
+"ValveEcon_RootUI_OpenCrafting"		"Fabricación"
+"ValveEcon_RootUI_OpenTrading"		"Intercambio"
+
+//----------------------------------------------
+// Econ generic attributes
+"Attrib_TradableAfterDate"			"\nIntercambiable a partir del %s1"
+"Attrib_Store_TradableAfterDate"	"Se vuelve intercambiable tras unos días"
+"Attrib_Store_Purchased"			"No será intercambiable ni apto para la fabricación"
+"Attrib_Purchased"					"Comprado: no intercambiable ni utilizable en la fabricación"
+"Attrib_Promotion"					"Objeto promocional de la tienda: no intercambiable"
+"Attrib_AchievementItem"			"Objeto obtenido por logro: no intercambiable"
+"Attrib_CannotTrade"				"No intercambiable"
+"Attrib_CannotCraft"				"No utilizable en la fabricación"
+"Attrib_SpecialItem"				"No intercambiable ni utilizable en la fabricación"
+"Attrib_GifterAccountID"			"\nRegalo de %s1"
+"Attrib_ReferencedItem"				"Contiene: %s1"
+"Attrib_CustomDesc"					"Este objeto ha sido descrito por el usuario:"
+"Attrib_Renamed"					"Este objeto ha sido renombrado.\nSu nombre original: \"%s1\""
+"Attrib_LimitedUse"					"Objeto con límite de usos. Usos restantes: %s1"
+"Attrib_EventDate"					"Fecha de recepción: %s1"
+"Attrib_InUse"						"Actualmente en uso"
+"Attrib_Community_Description"		"Se otorga a los más valiosos colaboradores de la Comunidad"
+"Attrib_Selfmade_Description"		"¡Lo hice yo!"
+
+//----------------------------------------------
+// Econ item collection strings
+// WARNING: The code MUST be able find the '::' in this string. The second : will be replaced by a color code for the quality. 
+"Item_Found"						"%s1 ha encontrado:: %s2 %s3"
+"Item_Crafted"						"%s1 ha fabricado:: %s2 %s3"
+"Item_Traded"						"%s1 ha recibido en un intercambio:: %s2 %s3"
+"Item_Purchased"					"%s1 ha comprado:: %s2 %s3"
+"Item_FoundInCrate"					"%s1 ha abierto:: %s2 %s3"
+"Item_Gifted"						"%s1 ha recibido un regalo:: %s2 %s3"
+"Item_Earned"						"%s1 ha obtenido:: %s2 %s3"
+"Item_Refunded"						"%s1 se ha reembolsado:: %s2 %s3"
+"Item_GiftWrapped"					"%s1 ha envuelto un regalo:: %s2 %s3"
+
+"Item"					"Objeto"
+"SelectedItemNumber"	"#%selecteditem%"
+"NewItemsAcquired"		"¡%numitems% OBJETOS NUEVOS ADQUIRIDOS!"
+"NewItemAcquired"		"¡OBJETO NUEVO ADQUIRIDO!"
+"NewItemsCrafted"		"¡%numitems% NUEVOS OBJETOS FABRICADOS!"
+"NewItemCrafted"		"¡NUEVO OBJETO FABRICADO!"
+"TF_HasNewItems"		"¡Tienes nuevos objetos!"
+
+// These pickup strings have control characters embedded to set colors.
+// The control characters can be copied and pasted in notepad.
+//  = 0x01 (SOH) - Use default color from this point forward
+//  = 0x02 (STX) - Use a highlight color from this point forward
+"NewItemMethod_Dropped"			"Has encontrado:"
+"NewItemMethod_Crafted"			"Has fabricado:"
+"NewItemMethod_Traded"			"Has recibido:"
+"NewItemMethod_Purchased"		"Has comprado:"
+"NewItemMethod_FoundInCrate"	"Has abierto:"
+"NewItemMethod_Gifted"			"Has recibido un regalo:"
+"NewItemMethod_Promotion"		"Has recibido un objeto promocional de la tienda:"
+"NewItemMethod_Earned"			"Has obtenido:"
+"NewItemMethod_Refunded"		"Te han devuelto:"
+"NewItemMethod_Support"			"El servicio de asistencia al cliente te ha concedido:"
+"NewItemMethod_Foreign"			"Has encontrado de otro juego:"
+
+"NextItem"				"VER\nSIGUIENTE >"
+"PreviousItem"			"VER\n< ANTERIOR"
+"CloseItemPanel"		"VALE, REANUDAR LA PARTIDA"
+"OpenGeneralLoadout"	"EQUIPAMIENTO..."
+"OpenBackpack"			"ABRIR MOCHILA..."
+
+//----------------------------------------------
+// Econ store
+"Store_Price_New"		"¡NUEVO!"
+"Store_Price_Sale"		"¡OFERTA!"
+"Store_OK"				"Aceptar"
+"Store_CANCEL"			"Cancelar"
+"Store_NowAvailable"	"YA DISPONIBLE"
+
+"Store_ClassFilter_None"		"Todos los objetos"
+
+"Store_Cart"			"(%s1)"
+"Store_Checkout"		"Pagar"
+"Store_AddToCart"		"Añadir al carro"
+
+"StoreViewCartTitle"	"Tu carro de la compra"
+"Store_ContinueShopping" "Seguir comprando"
+"Store_CartItems"		"%s1 objetos"
+"Store_EstimatedTotal"	"total estimado"
+"Store_WAStateSalesTax"	"los impuestos de ventas serán calculados para los residentes en el estado de Washington"
+"Store_TotalSubtextB"	"Todos los objetos se añadirán a tu inventario después de la compra"
+"Store_Remove"			"Eliminar"
+"Store_CartIsEmpty"		"No tienes objetos en tu carro."
+"Store_Wallet"			"Saldo de tu cuenta de Steam: $%s1 ($%s2 si restas el contenido del carro)"
+"Store_Wallet_EmptyCart" "Saldo de tu cuenta de Steam: $%s1"
+"Store_FeaturedItem"	"¡Destacado!"
+"Store_PreviewItem"		"Vista previa"
+"Store_DetailsItem"		"Detalles"
+"Store_FreeBackpackSpace"	"Ranuras vacías en mochila: %s1"
+
+"StoreCheckout_NoItems"			"¡Tu carrito de compras está vacío!"
+"StoreCheckout_TooManyItems"	"¡Tienes demasiados objetos en tu carro de la compra!"
+"StoreCheckout_Loading"			"Procediendo al pago..."
+"StoreCheckout_Unavailable"		"El procedimiento de pago no está disponible en este momento."
+"StoreCheckout_Canceling"		"Cancelando..."
+
+"StoreUpdate_Loading"				"Cargando la tienda..."
+"StoreUpdate_NoGCResponse"			"La tienda está cerrada en este momento."
+"StoreUpdate_NewPriceSheetLoaded"	"La lista de productos se ha actualizado con la versión más reciente."
+"StoreUpdate_ContactSupport"		"Ponte en contacto con el servicio de asistencia al cliente para configurar tu cartera de Steam."
+"StoreUpdate_OverlayRequired"		"Debes activar la Comunidad Steam en la partida y reiniciar para usar la tienda."
+"StoreUpdate_SteamRequired"			"Es necesario estar conectado a Steam para usar la tienda."
+
+"StoreCheckout_Fail"				"La tienda está cerrada en este momento."
+"StoreCheckout_InvalidParam"		"¡Un programador la ha liado! Se ha transmitido un parámetro no válido al coordinador del juego. Vuelve a intentar la compra."
+"StoreCheckout_InternalError"		"Parece que se ha producido un error al inicializar o actualizar tu transacción. Por favor, vuelve a intentarlo pasado un minuto o ponte en contacto con el servicio de asistencia."
+"StoreCheckout_ContactSupport"		"Se ha producido un error con tu transacción. Por favor, ponte en contacto con el soporte técnico para recibir ayuda."
+"StoreCheckout_NotApproved"			"El coordinador del juego no ha podido aprobar tu transacción en Steam. Vuelve a intentar la compra más tarde."
+"StoreCheckout_NotLoggedin"			"Para poder realizar una compra debes iniciar sesión en Steam."
+"StoreCheckout_WrongCurrency"		"La moneda de esta transacción no se corresponde con la moneda de tu cartera."
+"StoreCheckout_NoAccount"			"Tu cuenta de Steam no está disponible en este momento. Vuelve a intentar la compra más tarde."
+"StoreCheckout_InsufficientFunds"	"No tienes suficientes fondos para completar la compra."
+"StoreCheckout_TimedOut"			"Esta transacción ha superado el tiempo límite de conexión. Vuelve a intentar la compra más tarde."
+"StoreCheckout_SteamAccountDisabled"	"Tu cuenta de Steam está desactivada. No puedes realizar una compra."
+"StoreCheckout_SteamAccountNoPurchase"	"Las transacciones con la Cartera de Steam se han desactivado en esta cuenta."
+"StoreCheckout_OldPriceSheet"			"Tu lista local de productos está obsoleta. Solicitando una nueva."
+"StoreCheckout_TransactionNotFound"		"El coordinador del juego no ha podido encontrar la identificación de esta transacción. Por favor, vuelve a intentar la compra más tarde."
+"StoreCheckout_TransactionCanceled"		"Se ha cancelado la transacción. No has recibido cargo alguno."
+"StoreCheckout_TransactionCompleted"	"Se ha completado la transacción. ¡Disfruta de tu botín!"
+"StoreCheckout_CompleteButUnfinalized"	"No se ha podido confirmar que la transacción se haya realizado correctamente. Si ha sido así, tus objetos se entregarán más adelante."
+"StoreCheckout_NotEnoughRoom"			"No tienes espacio en tu mochila para comprar tantos objetos."
+"StoreCheckout_ContactSupport_Dialog_Title"	"Aviso"
+"StoreCheckout_ContactSupport_Dialog_Btn"	"Contactar"
+
+//----------------------------------------------
+"Econ_Back"				"Atrás"
+
+"BackpackTitle"			"MOCHILA"
+"X_DeleteItem"			"X BORRAR"
+"X_Delete"				"X BORRAR"
+"X_DiscardItem"			"X DESCARTAR"
+"DiscardItem"			"Descartar permanentemente"
+"DeleteConfirmTitle"	"¿ESTÁS SEGURO?"
+"ConfirmTitle"			"¿ESTÁS SEGURO?"
+"ConfirmButtonText"		"CONTINUAR"
+"DeleteItemConfirmText"		"Si borras este objeto lo destruirás permanentemente. Esta acción no se puede deshacer."
+"MultiDeleteItemConfirmText"		"Borrar estos objetos los destruirá permanentemente. Esta acción no se puede deshacer."
+"X_DeleteConfirmButton"	"X SÍ, BÓRRALO"
+"Backpack_Delete_Item"	"MOCHILA - SIN ESPACIO"
+"DiscardExplanation"	"Has recogido este objeto, pero no queda sitio para él en tu mochila."
+"DiscardExplanation2"	"Borra uno de los siguientes objetos para hacer sitio o descarta el nuevo objeto."
+"DeleteConfirmDefault"	"¿Borrar?"
+"Discarded"				"¡DESCARTADO!"
+"ItemPanelEquipped"		"Equipado"
+
+"BackpackApplyTool"		"Selecciona a qué objeto aplicar %s1:"
+"ApplyOnItem"			"USAR CON..."
+"ConsumeItem"			"USAR"
+"RefurbishItem"			"RESTAURAR"
+"CustomizeItem"			"PERSONALIZAR"
+"ShowBaseItems"			"OBJETOS BÁSICOS"
+"ShowBackpackItems"		"OBJETOS ESPECIALES"
+"ShowBaseItemsCheckBox"	"Mostrar objetos básicos"
+"ShowDuplicateItemsCheckbox"	"Mostrar objetos duplicados"
+"WrapGift"				"ENVOLVER REGALO"
+"UnwrapGift"			"DESENVOLVER REGALO"
+"DeliverGift"			"ENTREGAR REGALO"
+"NoAction"				"SIN ACCIÓN"
+"Style"					"CONFIGURAR ESTILO"
+"TF_Item_SelectStyle"	"ESCOGER ESTILO"
+
+"RefurbishItem_RemovePaintTitle"	"¿Quitar pintura?"
+"RefurbishItem_RemovePaint"			"¿Quieres quitar el color personalizado de este objeto, restableciendo así el suyo original?\n\n(La Pintura será desechada)"
+
+"RefurbishItem_RemoveNameTitle"		"¿Quitar nombre?"
+"RefurbishItem_RemoveName"			"¿Quieres quitar el nombre personalizado de este objeto, restableciendo así el suyo original?\n\n(La Etiqueta de Nombre será desechada)"
+
+"RefurbishItem_RemoveDescTitle"		"¿Quitar descripción?"
+"RefurbishItem_RemoveDesc"			"¿Quieres quitar la descripción de este objeto, restableciendo así la suya original?\n\n(La Etiqueta de Descripción será desechada)"
+
+"RefurbishItem_Yes"					"Sí, bórralo"
+"RefurbishItem_No"					"No, déjalo"
+
+"ToolConfirmWarning"	"Recuerda: una vez que hayas usado una herramienta, la perderás."
+
+"ToolItemRenameOldItemName"	"Nombre actual:"
+"ToolItemRenameNewItemName"	"Nuevo nombre:"
+
+"ToolItemRenameOldItemDesc"	"Desc. actual del objeto:"
+"ToolItemRenameNewItemDesc"	"Desc. nueva del objeto:"
+
+// This string has control characters embedded to set colors.
+// The control characters can be copied and pasted in notepad.
+//  = 0x01 (SOH) - Use normal color from this point forward
+//  = 0x02 (STX) - Use item one color from this point forward
+//  = 0x03 (ETX) - Use item two color from this point forward
+"ToolDialogTitle"			"Usando %s1 en %s2"
+
+// Item naming
+"CraftAskName"			"Escribe el nuevo nombre de este objeto:"
+"CraftNameOk"			"¡Dale un nombre!"
+"CraftDescribeOk"		"¡Descríbelo!"
+"CraftNameCancel"		"No, gracias."
+"CraftAskNameConfirm"	"¿Seguro que deseas usar este nombre?"
+"CraftAskNameWarning"	"(El nombre será permanente y visible para todos)"
+"CraftNameConfirm"		"Sí, estoy seguro"
+"CraftInvalidName"		"El nombre no es válido"
+"CraftInvalidNameDetail"	"Solo se admiten letras, números y espacios"
+
+// Item painting
+"ToolPaintConfirm"		  "¿Seguro que deseas pintar el objeto de este color?"
+"ToolPaintConfirmWarning" "(El color será permanente y visible para todos)"
+"ToolDecodeConfirm"		  "¿Seguro que deseas abrir esta caja?"
+
+"ToolDecodeInProgress"    "Desempaquetando tu recompensa"
+"ToolGiftWrapConfirm"		  "¿Seguro que quieres envolver para regalo este objeto?"
+"ToolGiftWrapInProgress"    "Envolviendo tu regalo"
+"ToolGiftUnwrapInProgress"    "Desenvolviendo el regalo"
+
+"ToolNoTargetItems"		"No tienes ningún objeto con el que poder usar esta herramienta."
+
+"BackpackShowDetails"		"Detalles"
+"Backpack_SortBy_Header"	"Ordenar mochila"
+"Backpack_SortBy_Rarity"	"Por aspecto"
+"Backpack_SortBy_Type"		"Por tipo de objeto"
+"Backpack_SortBy_Slot"		"Por espacio equipamiento"
+
+"Codec_MPEG2"			"MPEG-2"
+"Codec_MPEG4"			"MPEG-4"
+"Codec_H261"			"H.261"
+"Codec_H263"			"H.263"
+"Codec_H264"			"H.264"
+"Codec_MJPEG_A"			"Motion JPEG A"
+"Codec_MJPEG_B"			"Motion JPEG B"
+"Codec_SORENSON3"		"Sorenson 3"
+"Codec_CINEPACK"		"Cinepack"
+"Codec_WEBM"		    "WebM"
+} 
+}

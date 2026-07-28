@@ -10,7 +10,8 @@
 "filter_servermsg"	"サーバーメッセージ"
 "filter_teamchange"	"チーム変更"
 "filter_achievement" "実績のアナウンス"
-"chat_say"				"発言："
-"chat_say_team"			"発言 (チーム)："
+"chat_say"				"発言:"
+"chat_say_team"			"発言 (チーム):"
+"chat_say_party"		"発言 (パーティー):"
 }
 }

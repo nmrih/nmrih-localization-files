@@ -141,7 +141,7 @@
 "[english]Kick_Single_Player_Title"	"Kick player"
 "Kick_Multiple_Players_Title"	"플레이어 추방"
 "[english]Kick_Multiple_Players_Title"	"Kick players"
-"Kick_Single_Player_Question"	"'%s1'님을 서버에서 추방하시겠습니까?\n"
+"Kick_Single_Player_Question"	"'%s1'님을 서버에서 추방할까요?\n"
 "[english]Kick_Single_Player_Question"	"Do you wish to kick '%s1' from the server?\n"
 "Kick_Multiple_Players_Question"	"선택한 플레이어를 서버에서 추방하시겠습니까?"
 "[english]Kick_Multiple_Players_Question"	"Do you wish to kick the selected players from the server?\n"

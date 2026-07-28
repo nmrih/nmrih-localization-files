@@ -1,8 +1,8 @@
-"lang"
-{
-"Language" "japanese"
-"Tokens"
-{
+"lang" 
+{ 
+"Language" "japanese" 
+"Tokens" 
+{ 
 "Valve_Listen_MapName"			"マップ"
 "Valve_Movement_Title"			"移動"
 "Valve_Move_Forward"			"前進"
@@ -21,8 +21,8 @@
 "Valve_Strafe_Modifier"			"平行移動モード"
 "Valve_Mouse_Look_Modifier"		"マウスルックモード"
 "Valve_Keyboard_Look_Modifier"		"キーボードルックモード"
-"Valve_Use_Items"			"アイテム(ボタン、マシン...)を使う"
-"Valve_Pickup_Use_Objects"		"対象を拾う/使う"
+"Valve_Use_Items"			"アイテム（ボタン、マシン...）を使う"
+"Valve_Pickup_Use_Objects"		"対象を拾う／使う"
 "Valve_Communication_Title"		"コミュニケーション"
 "Valve_Use_Voice_Communication"		"音声チャットを使う"
 "Valve_Chat_Message"			"チャットメッセージ"
@@ -31,7 +31,7 @@
 "Valve_Primary_Attack"			"攻撃1"
 "Valve_Secondary_Attack"		"攻撃2"
 "Valve_Reload_Weapon"			"リロード"
-"Valve_Walk"				"歩く(ゆっくり移動)"
+"Valve_Walk"				"歩く（ゆっくり移動）"
 "Valve_Flashlight"			"フラッシュライト"
 "Valve_Spray_Logo"			"スプレーロゴ"
 "Valve_ServerOfferingToConnect"		"このサーバーの接続先："
@@ -52,7 +52,7 @@
 "Valve_Last_Weapon_Used"		"直前に使った武器を選択"
 "Valve_Miscellaneous_Title"		"その他"
 "Valve_Display_Scores"			"スコアを表示"
-"Valve_Take_Screen_Shot"		"スクリーンショットを撮影"
+"Valve_Take_Screen_Shot"		"スクリーンショット撮影"
 "Valve_Quick_Save"			"クイックセーブ"
 "Valve_Quick_Load"			"クイックロード"
 "Valve_Pause_Game"			"ゲームの中断"
@@ -63,10 +63,10 @@
 "Valve_Change_Team"			"チーム変更"
 "Valve_Change_Class"			"クラス変更"
 "Valve_Use_Special_Skill"		"特殊スキルを使用"
-"Valve_Multiplayer_Decal_Limit"		"弾痕数上限(マルチプレイ)"
+"Valve_Multiplayer_Decal_Limit"		"弾痕数上限（マルチプレイ）"
 "Valve_Valid_Teams"			"使用可能チーム、すべてなら空白"
 "Valve_Frag_Limit"			"フラグ制限"
-"Valve_Time_Limit"			"時間制限(分)"
+"Valve_Time_Limit"			"時間制限（分）"
 "Valve_Falling_Damage"			"落下ダメージ"
 "Valve_Normal"				"普通"
 "Valve_Realistic"			"リアリスティック"
@@ -83,20 +83,19 @@
 "Valve_Console_Toggle"		"開発者コンソール ON/OFF"
 
 
-"Spec_Slow_Motion"	"スローモーション"
-"Spec_No_PIP" "
-ピクチャー・イン・ピクチャーは、
+"Spec_Slow_Motion" "スローモーション"
+"Spec_No_PIP" "ピクチャー・イン・ピクチャーは、
 一人称でプレイ中は使用できません。
 "
 
 "Spec_Replay" "インスタントリプレイ"
-"Spec_Auto"	"オート"
-"Spec_Time"	"時間"
+"Spec_Auto" "オート"
+"Spec_Time" "時間"
 "Spec_Map" "マップ： %s1"
 "Spectators" "観戦者"
-"Spec_PlayerItem_Health" "%s1(%s2)"
+"Spec_PlayerItem_Health" "%s1（%s2）"
 "Spec_PlayerItem" "%s1"
-"Spec_PlayerItem_Team" "%s1(%s2)"
+"Spec_PlayerItem_Team" "%s1（%s2）"
 "Spec_Duck"	"しゃがむキーで観戦メニューを開く"
 "Spec_Help_Title" "観戦モード"
 "Spec_Help_Text"  "
@@ -115,26 +114,26 @@
  右に移動 - 右に移動
  前進 - ズームイン
  後退 - ズームアウト
- マウス - マップ/ターゲットを周回
+ マウス - マップ／ターゲットを周回
 "
 
-"Spec_Modes"	"カメラオプション"
-"Spec_Mode0"	"カメラ無効"
-"Spec_Mode1"	"死後のカメラ"
-"Spec_Mode2"	"視点固定"
-"Spec_Mode3"	"プレイヤー視点"
-"Spec_Mode4"	"バードビュー"
-"Spec_Mode5"	"フリールック"
-"Spec_Mode6" "マップ見下ろし(追跡)"
-"Spec_NoTarget"	"有効なターゲットなし。 カメラモードに切替できません。"
+"Spec_Modes" 	"カメラ オプション"
+"Spec_Mode0" 	"カメラ無効"
+"Spec_Mode1" 	"死後のカメラ"
+"Spec_Mode2" 	"視点固定"
+"Spec_Mode3" 	"プレイヤー視点"
+"Spec_Mode4" 	"バードビュー"
+"Spec_Mode5" 	"フリー ルック"
+"Spec_Mode6" "マップ見下ろし（追跡）"
+"Spec_NoTarget" "有効なターゲットなし。 カメラモードに切替できません。"
 "Spec_Options"	"設定"
 "OBS_NONE" "カメラオプション"
-"OBS_CHASE_LOCKED" "バードビュー(追跡)"
-"OBS_CHASE_FREE" "バードビュー(自由)"
+"OBS_CHASE_LOCKED" "バードビュー（追跡）"
+"OBS_CHASE_FREE" "バードビュー（自由）"
 "OBS_ROAMING" "フリールック"
 "OBS_IN_EYE" "プレイヤー視点"
-"OBS_MAP_FREE" "マップ見下ろし(自由)"
-"OBS_MAP_CHASE" "マップ見下ろし(追跡)"
+"OBS_MAP_FREE" "マップ見下ろし（自由）"
+"OBS_MAP_CHASE" "マップ見下ろし（追跡）"
 "SPECT_OPTIONS" "設定"
 "CAM_OPTIONS" "カメラオプション"
 
@@ -146,28 +145,28 @@
 "PlayerTracker"	"フレンド"
 
 "T0A0TITLE"	"ハザードコース"
-"C0A0TITLE"	"ブラックメサへようこそ"
-"C0A1TITLE"	"特異物質"
-"C1A1TITLE"	"予測不可能"
-"C1A2TITLE"	"研究施設"
-"C1A3TITLE"	"敵を発見！"
-"C1A4TITLE"	"爆破試験場"
-"C2A1TITLE"	"発電機"
-"C2A2TITLE"	"構内モノレール"
-"C2A3TITLE"	"理解"
-"C2A4TITLE1"	"廃棄物処理場"
-"C2A4TITLE2"	"科学の罪"
-"C2A5TITLE"	"緊張の高まり"
-"C3A1TITLE"	"フリーマンに構うな！"
-"C3A2TITLE"	"ラムダコア"
-"C4A1TITLE"	"異界"
-"C4A1ATITLE"	"侵入者"
-"C4A2TITLE"	"ゴナークの巣"
-"C4A3TITLE"	"ニヒリス"
-"C5TITLE"	"選択の時間"
+"C0A0TITLE"	"BLACK MESA INBOUND"
+"C0A1TITLE"	"ANOMALOUS MATERIALS"
+"C1A1TITLE"	"UNFORESEEN CONSEQUENCES"
+"C1A2TITLE"	"OFFICE COMPLEX"
+"C1A3TITLE"	"WE'VE GOT HOSTILES"
+"C1A4TITLE"	"BLAST PIT"
+"C2A1TITLE"	"POWER UP"
+"C2A2TITLE"	"ON A RAIL"
+"C2A3TITLE"	"APPREHENSION"
+"C2A4TITLE1"	"RESIDUE PROCESSING"
+"C2A4TITLE2"	"QUESTIONABLE ETHICS"
+"C2A5TITLE"	"SURFACE TENSION"
+"C3A1TITLE"	"FORGET ABOUT FREEMAN!"
+"C3A2TITLE"	"LAMBDA CORE"
+"C4A1TITLE"	"XEN"
+"C4A1ATITLE"	"INTERLOPER"
+"C4A2TITLE"	"GONARCH'S LAIR"
+"C4A3TITLE"	"NIHILANTH"
+"C5TITLE"	"ENDGAME"
 
 "Valve_Hostname"	"ホストネーム"
-"Valve_Max_Players"	"最大プレイヤー"
+"Valve_Max_Players"	"最大 プレイヤー"
 "Valve_Server_Password"	"サーバーパスワード"
 
 "Valve_Close"		"閉じる"
@@ -185,9 +184,9 @@
 "Valve_Overview_ZoomIn"	"ズームイン"
 "Valve_Overview_Zoomout" "ズームアウト"
 "Valve_Overview_Locked"	"回転なし"
-"Valve_Overview_Names"	"名前を表示"
-"Valve_Overview_Health"	"ヘルスを表示"
-"Valve_Overview_Tracks"	"経路を表示"
+"Valve_Overview_Names" 	"名前を表示"
+"Valve_Overview_Health" "ヘルスを表示"
+"Valve_Overview_Tracks" "経路を表示"
 "Valve_Auto_Director"	"オートダイレクション"
 "Valve_Show_Scores"	"スコアを表示"
 "Valve_Game_Saved"	"セーブされました"
@@ -216,37 +215,37 @@
 
 "Valve_Hint_Zoom"	"%+zoom% ズーム表示"
 "Valve_Hint_machinegun"	"%+USE% 設置式銃を使う"
-"Valve_Hint_Flashlight"	"%impulse 100% フラッシュライト"
+"Valve_Hint_Flashlight" "%impulse 100% フラッシュライト"
 "Valve_Hint_PhysSwap" "%phys_swap% 重力銃を\n 前の銃と切り替える"
 "Valve_Hint_Command_send"  "%impulse 50% 部隊を場所に派遣"
 "Valve_Hint_Command_recall"  "%impulse 50% 2 回押して部隊を召還"
-"Valve_Hint_CraneKeys"	"%+forward% アームを伸ばす %+back% アームを引っ込める %+moveleft% 左を向く %+moveright% 右を向く %+attack% 対象を拾う/落とす"	[$WIN32]
-"Valve_Hint_CraneKeys"	"%xmove% アームを動かす %+attack% 対象を拾う/落とす"	[$X360]
-"Valve_Hint_BoatKeys"	"%+forward% 速度を上げる %+back% 速度を下げる %+moveleft% 左を向く %+moveright% 右を向く"	[$WIN32]
-"Valve_Hint_BoatKeys"	"%xmove% 加速する/操縦する %xlook% 視点移動"	[$X360]
+"Valve_Hint_CraneKeys"	"%+forward% アームを伸ばす %+back% アームを引っ込める %+moveleft% 左を向く %+moveright% 右を向く %+attack% 対象を拾う／落とす" [$WIN32]
+"Valve_Hint_CraneKeys"	"%xmove% アームを動かす %+attack% 対象を拾う／落とす" [$X360]
+"Valve_Hint_BoatKeys"	"%+forward% 速度を上げる %+back% 速度を下げる %+moveleft% 左を向く %+moveright% 右を向く" [$WIN32]
+"Valve_Hint_BoatKeys"	"%xmove% 加速する／操縦する %xlook% 視点移動" [$X360]
 "Valve_Hint_JeepKeys"	"%+speed% ターボ %+jump% ハンドブレーキ"
 "Valve_Hint_JeepTurbo"	"%+speed% ターボ"
-"Valve_Hint_HEVcharger"	"%+use% 押し続けてスーツを回復"
-"Valve_Hint_AirboatGun"	"%+attack% エアボートの銃を発射"
+"Valve_Hint_HEVcharger" "%+use% 押し続けてスーツを回復"
+"Valve_Hint_AirboatGun" "%+attack% エアボートの銃を発射"
 "Valve_Hint_AmmoCrate" "%+use% 弾薬をケースから取る"
-"Valve_Hint_USEPickup"	"%+use% 対象を拾う"
-"Valve_Hint_ThrowHeld"	"%+attack% つかんでいる物を投げる"
+"Valve_Hint_USEPickup"  "%+use% 対象を拾う"
+"Valve_Hint_ThrowHeld"  "%+attack% つかんでいる物を投げる"
 "Valve_Hint_MomentaryButton"	"%+use% 押し続けてホイールを回す"
 "Valve_Hint_ThrowBait"	"%+attack% フェロポッドを投げる"
 "Valve_Hint_SqueezeBait"  "%+attack2% アントライオンを呼ぶ"
-"Valve_Hint_Ladder"	"%+use% ハシゴを設置する/撤去する"
-"Valve_Hint_Interact" "%+use% 話す/操作する"
+"Valve_Hint_Ladder" "%+use% ハシゴを設置する／撤去する"
+"Valve_Hint_Interact" "%+use% 話す／操作する"
 "Valve_Hint_Jump" "%+jump% ジャンプ"
-"Valve_Hint_Movement" "%xmove% 移動 %xlook% 視点移動"	[$X360]
-"Valve_Hint_Movement" "前進 %+forward%後退 %+back%左 %+moveleft%右 %+moveright%"	[$WIN32]
+"Valve_Hint_Movement" "%xmove% 移動 %xlook% 視点移動" [$X360] 
+"Valve_Hint_Movement" "前進 %+forward%後退 %+back%左 %+moveleft%右 %+moveright%" [$WIN32]
 "Valve_Hint_Door" "%+use% ドアを開ける"
-"Valve_Hint_Sprint"	"%+speed% ダッシュ"
-"Valve_Hint_Attack"	"%+attack% 攻撃"
-"Valve_Hint_Crouch"	"%+duck% しゃがむ"
+"Valve_Hint_Sprint" "%+speed% ダッシュ"
+"Valve_Hint_Attack" "%+attack% 攻撃"
+"Valve_Hint_Crouch" "%+duck% しゃがむ"
 "Valve_Hint_ItemCrate" "%+attack% アイテムが入った箱を破壊する"
 "Valve_Hint_Healthcharger" "%+use% 押し続けて医療部隊から手当てを受ける"
-"Valve_Hint_Reload"	"%+reload% リロード"
-"Valve_Hint_SwimUp"	"%+jump% 上へ泳ぐ"
+"Valve_Hint_Reload"     "%+reload% リロード"
+"Valve_Hint_SwimUp" "%+jump% 上へ泳ぐ"
 
 
 
@@ -255,16 +254,16 @@
 
 "Valve_HudPoisonDamage"	"神経毒を検知\n解毒剤を投与中"
 
-"Valve_CreatingCache"	"サウンドキャッシュを作成中..."
-"Valve_CreatingSpecificSoundCache"	"処理中： %s1"
+"Valve_CreatingCache"	"サウンド キャッシュを作成中..."
+"Valve_CreatingSpecificSoundCache"	"処理中：%s1"
 
 "Valve_UpdatingSteamResources" "Steam のリソースを更新中..."
 
-"Valve_Sprint"		"ダッシュ(速く移動)"
+"Valve_Sprint"		"ダッシュ（速く移動）"
 "Valve_Suit_Zoom"	"スーツズーム"
-"Valve_Commander_Mode"	"部隊の派遣/召還"
+"Valve_Commander_Mode"	"部隊の派遣／召還"
 "Valve_Gravity_Gun"	"重力銃"
-"Valve_CC_Toggle"	"クローズドキャプションのSEを切り替える"
+"Valve_CC_Toggle"	"クローズドキャプションの SE を切り替える"
 
 "Valve_Hud_HEALTH"		"ヘルス"
 "Valve_Hud_AMMO"		"弾薬"
@@ -283,7 +282,7 @@
 "Valve_HDRDEMO_RightTitle"	"高ダイナミックレンジ"
 
 "Valve_Hud_CamFOV"		"FOV"
-"Valve_Hud_CamHeight"	"カメラの高さ"
+"Valve_Hud_CamHeight"	"カムの高さ"
 "Valve_CamArmLength"	"アームの長さ"
 
 "Valve_FilmDemo_FilmGrain_LeftTitle"	"フィルム粒子なし"
@@ -303,7 +302,7 @@
 "Valve_Hint_Select_Weapon_Pistol" "%slot1% 9mm ピストルを選択"
 "Valve_Hint_Select_Weapon_RPG" "%slot4% RPG を選択"
 "Valve_Hint_Select_Weapon_Shotgun" "%slot2% ショットガンを選択"
-"Valve_Hint_Select_Weapon_SMG1"	"%slot2% サブマシンガンを選択"
+"Valve_Hint_Select_Weapon_SMG1" "%slot2% サブマシンガンを選択"
 "Valve_Hint_Select_WEAPONUP" "%slot1% 武器を選択"
 "Valve_Hint_Select_WEAPONRIGHT" "%slot2% 武器を選択"
 "Valve_Hint_Select_WEAPONDOWN" "%slot3% 武器を選択"
@@ -319,12 +318,12 @@
 
 "Valve_Hint_EnterVehicle"  "%+use% 乗り物に乗る"
 
-"Commentary_PrimaryAttack"	"%+attack%： 解説を開始/中止"
-"Commentary_SecondaryAttack"	"%+attack2%： 次の解説"
+"Commentary_PrimaryAttack"	"%+attack%: 解説を開始／中止"
+"Commentary_SecondaryAttack"	"%+attack2%: 次の解説"
 
 "game_player_joined_game"	"プレイヤー %s1 がゲームに参加しました"
-"game_player_left_game"		"プレイヤー %s1 がゲームを抜けました(%s2)"	[$WIN32]
-"game_player_left_game"		"プレイヤー %s1 がゲームを抜けました"	[$X360]
+"game_player_left_game"		"プレイヤー %s1 がゲームを抜けました（%s2）" [$WIN32]
+"game_player_left_game"		"プレイヤー %s1 がゲームを抜けました" [$X360]
 "game_player_joined_team"	"プレイヤー %s1 が %s2 チームに入りました"
 "game_player_joined_autoteam" "プレイヤー %s1 は自動的にチーム%s2 に割り当てられました"
 "game_player_changed_name"	"プレイヤー %s1 が %s2 に名前を変更しました"
@@ -337,14 +336,14 @@
 //  = 0x04 (EOT) - Use location color from this point forward
 //  = 0x05 (ENQ) - Use achievement color from this point forward
 //  = 0x01 (SOH) - Use normal color from this point forward
-"Achievement_Earned"	"(%s1) は実績：%s2 を獲得しました"
+"Achievement_Earned"		"（%s1） は実績：%s2 を獲得しました"
 
 "game_nextmap"		"次のマップ：%s1"
 "game_takesshots"	"マップの終了時にスコアボードのスクリーンショットを自動的に保存する"
 
 "Cannot_Be_Spectator"			"このサーバーは観戦不可に設定されています。"
 
-"Valve_DisableHTMLMOTD"		"HTMLのMOTDを無効にします。"
+"Valve_DisableHTMLMOTD"		"HTML の MOTD を無効にします。"
 "Valve_UseSteamCloud"		"Steam クラウドと同期させる。"
 "Valve_SteamScreenshots"	"Steam にスクリーンショットを保存"
 
@@ -370,10 +369,10 @@
 "Attrib_CannotCraft"				"作成に使用不可"
 "Attrib_SpecialItem"				"トレードおよび作成不可"
 "Attrib_GifterAccountID"			"\n %s1 からのギフト"
-"Attrib_ReferencedItem"				"内容： %s1"
+"Attrib_ReferencedItem"				"内容: %s1"
 "Attrib_CustomDesc"					"このアイテムはユーザーによる説明付きです："
 "Attrib_Renamed"					"このアイテムはリネームされました。\n本来のアイテム名： \"%s1\""
-"Attrib_LimitedUse"					"使用回数制限アイテム。\n残り使用回数： %s1"
+"Attrib_LimitedUse"					"使用回数制限アイテム。\n残り使用回数: %s1"
 "Attrib_EventDate"					"受領日： %s1"
 "Attrib_InUse"						"現在使用中"
 "Attrib_Community_Description"		"コミュニティへの貢献者に捧ぐ"
@@ -381,7 +380,7 @@
 
 //----------------------------------------------
 // Econ item collection strings
-// WARNING： The code MUST be able find the '：：' in this string. The second ： will be replaced by a color code for the quality.
+// WARNING: The code MUST be able find the '::' in this string. The second : will be replaced by a color code for the quality. 
 "Item_Found"						"%s1 が %s2 %s3 を発見した"
 "Item_Crafted"						"%s1 が %s2 %s3 を作成した"
 "Item_Traded"						"%s1 が %s2 %s3 をトレードしました"
@@ -389,8 +388,8 @@
 "Item_FoundInCrate"					"%s1 が %s2 %s3 を開梱した"
 "Item_Gifted"						"%s1 が %s2 %s3 をギフトとして受け取った"
 "Item_Earned"						"%s1 が %s2 %s3 を獲得した"
-"Item_Refunded"						"%s1 は返金されました：： %s2 %s3"
-"Item_GiftWrapped"					"%s1 が ギフト用包装しました：： %s2 %s3"
+"Item_Refunded"						"%s1 は返金されました:: %s2 %s3"
+"Item_GiftWrapped"					"%s1 が ギフト用包装しました:: %s2 %s3"
 
 "Item"					"アイテム"
 "SelectedItemNumber"	"#%selecteditem%"
@@ -398,23 +397,23 @@
 "NewItemAcquired"		"新しいアイテムを獲得！"
 "NewItemsCrafted"		"新しいアイテムを %numitems% 個作成した！"
 "NewItemCrafted"		"新しいアイテムを作成した！"
-"TF_HasNewItems"		"新しいアイテムがあります！"
+"TF_HasNewItems"		"新しいアイテムがあります!"
 
 // These pickup strings have control characters embedded to set colors.
 // The control characters can be copied and pasted in notepad.
 //  = 0x01 (SOH) - Use default color from this point forward
 //  = 0x02 (STX) - Use a highlight color from this point forward
-"NewItemMethod_Dropped"			"発見しました："
+"NewItemMethod_Dropped"			"発見しました:"
 "NewItemMethod_Crafted"			"クラフトしました："
-"NewItemMethod_Traded"			"トレードしました："
-"NewItemMethod_Purchased"		"購入しました："
-"NewItemMethod_FoundInCrate"	"開梱しました："
-"NewItemMethod_Gifted"			"ギフトを受け取りました："
-"NewItemMethod_Promotion"		"ストアのプロモーションアイテムを受け取りました："
-"NewItemMethod_Earned"			"獲得しました："
-"NewItemMethod_Refunded"		"返金されました："
+"NewItemMethod_Traded"			"トレードしました:"
+"NewItemMethod_Purchased"		"購入しました:"
+"NewItemMethod_FoundInCrate"	"開梱しました:"
+"NewItemMethod_Gifted"			"ギフトを受け取りました:"
+"NewItemMethod_Promotion"		"ストアのプロモーションアイテムを受け取りました:"
+"NewItemMethod_Earned"			"獲得しました:"
+"NewItemMethod_Refunded"		"返金されました:"
 "NewItemMethod_Support"			"カスタマーサポートから受領しました："
-"NewItemMethod_Foreign"			"別のゲームから発見しました："
+"NewItemMethod_Foreign"			"別のゲームから発見しました:"
 
 "NextItem"				"表示\n次へ >"
 "PreviousItem"			"表示\n< 前へ"
@@ -424,8 +423,8 @@
 
 //----------------------------------------------
 // Econ store
-"Store_Price_New"		"NEW！"
-"Store_Price_Sale"		"セール！"
+"Store_Price_New"		"NEW!"
+"Store_Price_Sale"		"セール!"
 "Store_OK"				"OK"
 "Store_CANCEL"			"キャンセル"
 "Store_NowAvailable"	"配信中"
@@ -444,12 +443,12 @@
 "Store_TotalSubtextB"	"購入後、すべてのアイテムがインベントリに追加されます"
 "Store_Remove"			"削除"
 "Store_CartIsEmpty"		"カートにアイテムがありません。"
-"Store_Wallet"			"Steam ウォレットの残高：%s1 (カート清算後、%s2 )"
+"Store_Wallet"			"Steam ウォレットの残高：%s1 （カート清算後、%s2 ）"
 "Store_Wallet_EmptyCart" "Steam ウォレットの残高：%s1"
 "Store_FeaturedItem"	"おすすめアイテム！"
 "Store_PreviewItem"		"プレビュー"
 "Store_DetailsItem"		"詳細"
-"Store_FreeBackpackSpace"	"空のバックパックスロット： %s1"
+"Store_FreeBackpackSpace"	"空のバックパックスロット：%s1"
 
 "StoreCheckout_NoItems"			"ショッピングカートが空です！"
 "StoreCheckout_TooManyItems"	"ショッピングカート内のアイテムが多すぎます！"
@@ -539,8 +538,8 @@
 "ToolItemRenameOldItemName"	"現在のアイテム名："
 "ToolItemRenameNewItemName"	"新しいアイテム名："
 
-"ToolItemRenameOldItemDesc"	"現在のアイテム説明："
-"ToolItemRenameNewItemDesc"	"新しいアイテム説明："
+"ToolItemRenameOldItemDesc"	"現在のアイテム説明:"
+"ToolItemRenameNewItemDesc"	"新しいアイテム説明:"
 
 // This string has control characters embedded to set colors.
 // The control characters can be copied and pasted in notepad.
@@ -552,23 +551,23 @@
 // Item naming
 "CraftAskName"			"このアイテムの新しい名前を入力："
 "CraftNameOk"			"名前決定！"
-"CraftDescribeOk"		"説明してください！"
+"CraftDescribeOk"		"説明してください!"
 "CraftNameCancel"		"やめておく"
 "CraftAskNameConfirm"	"この名前を使用しますか？"
-"CraftAskNameWarning"	"(この名前は一般公開され、変更はできません)"
+"CraftAskNameWarning"	"（この名前は一般公開され、変更はできません）"
 "CraftNameConfirm"		"これで OK！"
 "CraftInvalidName"		"無効な名前です！"
 "CraftInvalidNameDetail"	"使用できるのは英数字とスペースのみです"
 
 // Item painting
-"ToolPaintConfirm"			"アイテムをこの色でペイントしますか？"
-"ToolPaintConfirmWarning"	"(この色は一般公開され、変更はできません)"
-"ToolDecodeConfirm"			"本当にこの箱を開きますか？"
+"ToolPaintConfirm"		  "アイテムをこの色でペイントしますか？"
+"ToolPaintConfirmWarning" "（この色は一般公開され、変更はできません）"
+"ToolDecodeConfirm"		  "本当にこの箱を開きますか？"
 
-"ToolDecodeInProgress"		"戦利品を開梱中"
-"ToolGiftWrapConfirm"			  "本当にこのアイテムをギフト用に包装しますか？"
-"ToolGiftWrapInProgress"		"ギフトを包装しています"
-"ToolGiftUnwrapInProgress"		  "ギフトを開けています"
+"ToolDecodeInProgress"    "戦利品を開梱中"
+"ToolGiftWrapConfirm"		  "本当にこのアイテムをギフト用に包装しますか?"
+"ToolGiftWrapInProgress"    "ギフトを包装しています"
+"ToolGiftUnwrapInProgress"    "ギフトを開けています"
 
 "ToolNoTargetItems"		"このツールを使用できるアイテムを持っていません。"
 
@@ -587,6 +586,6 @@
 "Codec_MJPEG_B"			"Motion JPEG B"
 "Codec_SORENSON3"		"Sorenson 3"
 "Codec_CINEPACK"		"Cinepack"
-"Codec_WEBM"			"WebM"
-}
+"Codec_WEBM"		    "WebM"
+} 
 }
