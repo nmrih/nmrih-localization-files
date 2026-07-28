@@ -343,7 +343,7 @@
 "[english]ServerBrowser_AddAddressToBlacklist"	"Add this address to blacklist"
 "ServerBrowser_FindGames"	"Etsi pelejä tästä osoitteesta..."
 "[english]ServerBrowser_FindGames"	"Find games at this address..."
-"ServerBrowser_SteamRunning"	"﻿Steam on oltava käynnissä, jotta voit etsiä palvelimia."
+"ServerBrowser_SteamRunning"	"Steam on oltava käynnissä, jotta voit etsiä palvelimia."
 "[english]ServerBrowser_SteamRunning"	"Steam must be running to make use of Find Servers"
 "ServerBrowser_CustomTab"	"Muokattu"
 "[english]ServerBrowser_CustomTab"	"Custom"

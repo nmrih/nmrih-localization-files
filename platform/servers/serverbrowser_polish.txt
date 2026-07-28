@@ -91,7 +91,7 @@
 "[english]ServerBrowser_EnterIPofServerToAdd"	"Enter the IP address of the server you wish to add."
 "ServerBrowser_OK"	"OK"
 "[english]ServerBrowser_OK"	"OK"
-"ServerBrowser_Examples"	"﻿Przykłady:\ntfc.valvesoftware.com\ncounterstrike.speakeasy.net:27016\n205.158.143.200:27015"
+"ServerBrowser_Examples"	"Przykłady:\ntfc.valvesoftware.com\ncounterstrike.speakeasy.net:27016\n205.158.143.200:27015"
 "[english]ServerBrowser_Examples"	"Examples:\ntfc.valvesoftware.com\ncounterstrike.speakeasy.net:27016\n205.158.143.200:27015"
 "ServerBrowser_AddServersTitle"	"Dodaj serwer — Serwery"
 "[english]ServerBrowser_AddServersTitle"	"Add Server - Servers"

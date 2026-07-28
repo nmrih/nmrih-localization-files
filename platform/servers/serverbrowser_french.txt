@@ -343,7 +343,7 @@
 "[english]ServerBrowser_AddAddressToBlacklist"	"Add this address to blacklist"
 "ServerBrowser_FindGames"	"Chercher à cette adresse..."
 "[english]ServerBrowser_FindGames"	"Find games at this address..."
-"ServerBrowser_SteamRunning"	"﻿Vous devez exécuter Steam pour utiliser la fonction de recherche de serveurs"
+"ServerBrowser_SteamRunning"	"Vous devez exécuter Steam pour utiliser la fonction de recherche de serveurs"
 "[english]ServerBrowser_SteamRunning"	"Steam must be running to make use of Find Servers"
 "ServerBrowser_CustomTab"	"Personnaliser"
 "[english]ServerBrowser_CustomTab"	"Custom"

@@ -173,7 +173,7 @@
 "ServerBrowser_AddAddressToFavorites"	"このアドレスをお気に入りに追加"
 "ServerBrowser_AddAddressToBlacklist"	"このアドレスをブラックリストに追加"
 "ServerBrowser_FindGames"	"このアドレス内でゲームを検索..."
-"ServerBrowser_SteamRunning"	"﻿サーバー検索は Steam が起動している場合にのみ実行できます"
+"ServerBrowser_SteamRunning"	"サーバー検索は Steam が起動している場合にのみ実行できます"
 "ServerBrowser_CustomTab"	"カスタム"
 "ServerBrowser_Tags"	"タグ"
 "ServerBrowser_AddCommonTags"	"共通タグを追加..."
