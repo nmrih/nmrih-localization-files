@@ -179,7 +179,7 @@
 "[english]KBEditor_CONTROL"	"Ctrl"
 "KBEditor_ALT"	"Alt"
 "[english]KBEditor_ALT"	"Alt"
-"KBHelpDialogTitle"	"Help bij toetskoppelingen"
+"KBHelpDialogTitle"	"Hulp bij toetskoppelingen"
 "[english]KBHelpDialogTitle"	"Key Bindings Help"
 "KBHelpEditBindings"	"Bewerken..."
 "[english]KBHelpEditBindings"	"Edit..."

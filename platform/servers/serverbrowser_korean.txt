@@ -289,7 +289,7 @@
 "[english]VAC_YourAccountBanned"	"Your Steam account '%account%' has been banned from secure game servers due to a cheating infraction."
 "VAC_GamesAffected"	"해당 게임은 다음과 같습니다."
 "[english]VAC_GamesAffected"	"The following games are affected:"
-"VAC_ForDetails"	"자세한 내용은 여기를 클릭하세요."
+"VAC_ForDetails"	"자세한 사항 보기"
 "[english]VAC_ForDetails"	"Click here for details"
 "VAC_ConnectionRefusedTitle"	"연결 거부 - VAC"
 "[english]VAC_ConnectionRefusedTitle"	"Connection Refused - VAC"

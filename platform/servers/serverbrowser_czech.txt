@@ -421,7 +421,7 @@
 "[english]ServerBrowser_FilterDescSubscribedOnly"	"subscribed"
 "ServerBrowser_FilterDescFeaturedOnly"	"vybrané"
 "[english]ServerBrowser_FilterDescFeaturedOnly"	"featured"
-"ServerBrowser_WorkshopFilterWorkshopOnly"	"Mapy z Workshopu"
+"ServerBrowser_WorkshopFilterWorkshopOnly"	"Mapy z workshopu"
 "[english]ServerBrowser_WorkshopFilterWorkshopOnly"	"Workshop maps"
 "ServerBrowser_WorkshopFilterSubscribed"	"Odebíráno"
 "[english]ServerBrowser_WorkshopFilterSubscribed"	"Subscribed"

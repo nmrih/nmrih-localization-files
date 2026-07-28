@@ -23,7 +23,6 @@
 [list]
 [*]Aggiunto un menu nella finestra "Crea Server" che consente di selezionare il tipo di server per la Rete di Steam, permettendo server pubblici / solo amici / non elencati senza port forwarding
 [*]Aggiunta la possibilità di mettere in pausa il gioco in modalità giocatore singolo
-[*]Aggiunto il cvar "cl_allow_particle_precipitation"; quando disattivato, converte pioggia/neve particellare in varianti predefinite nelle mappe che le utilizzano
 [/list]
 [h2]Modifiche[/h2]
 [list]

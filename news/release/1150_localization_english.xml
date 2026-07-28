@@ -23,7 +23,6 @@
 [list]
 [*]Added a menu in the Create Server dialog that selects a server type for Steam Networking, allowing public / friends-only / unlisted servers without port forwarding
 [*]Added ability to pause the game when playing in Single Player mode
-[*]Added cvar "cl_allow_particle_precipitation", when off, it converts particle rain/snow to default variants on maps that use them
 [/list]
 [h2]Changes[/h2]
 [list]
@@ -54,6 +53,7 @@
 [*]Fixed false spawn notifications (i.e. sound plays and window flashes while "waiting for spawn point")
 [*]Fixed ironsights not being turned off when contemplating suicide
 [*]Fixed particle rain collision, contributed by BigHatMarley (#1579)
+[*]Fixed several issues when restoring saves on maps that utilize level transition
 [*]Fixed supply crate and keypad panels not properly resizing on resolution change
 [*]Fixed zombie idle vocalization cutting short on longer moans
 [/list]
@@ -65,13 +65,17 @@
 [*]Added entity "npc_nmrih_basezombie", base class for a generic zombie, useful for custom zombies
 [*]Added entity "skybox_swapper", swaps 2D skybox material
 [*]Added entity "trigger_tonemap", changes tonemap controllers for players touching the trigger
+[*]Added game event "inventory_box_item_taken", fired when the player picks up an item from a supply crate
+[*]Added game event "player_voice_command", fired when the player uses a voice command, incl. automatic calls (pain, bleed, etc.)
 [*]Added "HeadSplit" input for zombies (#1569)
 [*]Added hull override keyfield to zombies
 [*]Added input "RevertAllMapCvars" to entity "logic_ruleset", it reverts all cvars that were changed by an active map to a base value (when available), or default, it doesn't revert difficulty / script / mutator changes
+[*]Added inputs "ForceRespawnPlayer" and "ForceRespawnAllPlayers" to entity "nmrih_game_state", forcefully respawns players by skipping the valid spawn point check
 [*]Added keyfield "Despawn Ignore Population" to entity "func_zombie_spawn", by default, zombies only despawn when zone population is over the maximum, even when they're unseen; when set to 'No', it uses classic behavior where visited zones keep max. zombies, when set to 'Yes', it always despawns unseen zombies
 [*]Added keyfield "Hide TAKE Button" to entity "item_inventorybox"
 [*]Added keyfield "HUD Style" to entity "logic_progress", changes visual style of the progress bar, with new addition of a circle that is drawn in clockwise direction at the center of the screen
 [*]Added keyfield "Ignore Grease" to zombies, when true, the zombie will not swap between NPC assigned collision groups to phase through each other
+[*]Added keyfield "Ignore Wind?" to dust particle brush entities
 [*]Added keyfield "Ignore Zombie Rules" to zombies, when true, game rules will treat them as a generic NPC
 [*]Added line break support to entity "point_message_multiplayer"
 [*]Added missing spawnflags to entity "point_viewcontrol_multiplayer"
@@ -98,6 +102,7 @@
 [*]VScript: Added CBaseEntity function IsZombie(), returns true if the entity is considered a valid zombie by game logic
 [*]VScript: Added CBaseEntity hook OnTakeDamage, this hook is designed as a mutable replacement for filter_script's PassesFinalDamageFilter, incoming damage info can be modified before it's applied, returning 'false' will discard received damage
 [*]VScript: Added CBaseEntity hook TraceAttack, called when the entity is about to receive an attack trace, incoming damage info can be modified before it's applied, this hook is called *before* damage filters are checked, returning false will discard the trace
+[*]VScript: Added CBasePlayer function IsHLTV(), returns true if the player is SourceTV
 [*]VScript: Added CBasePlayer functions SetTonemapScale(), SetTonemapRate(), SetAutoExposureMin(), SetAutoExposureMax(), SetBloomScale(), UseDefaultAutoExposure(), UseDefaultBloomScale(), and ClearTonemapParams()
 [*]VScript: Added CItem_InventoryBox functions IsTakeButtonHidden(), and SetTakeButtonHidden()
 [*]VScript: Added CLogicProgress function SetCircle()
@@ -106,12 +111,16 @@
 [*]VScript: Added CNMRiH_Player function DidGunshotSuicide()
 [*]VScript: Added CNMRiH_Player function ForceTransmit(), sends network update to all clients even when the player is dormant for them (filtered by PVS)
 [*]VScript: Added CNMRiH_Player function SetForcedRespawn(), flags next respawn as forced and skips valid spawn point check, then reverts on spawn
+[*]VScript: Added CNMRiH_Player function SetVaccinated(), directly sets vaccinated state, and skips the chance of partial blindness
 [*]VScript: Added CNMRiH_Player functions HasJumpAbility(), HasDuckAbility(), SetJumpAbility(), and SetDuckAbility(), overrides whether player can jump/duck or not, predicted on client
 [*]VScript: Added CNMRiH_Player hooks OnWeaponDrop, OnWeaponEquip, and OnWeaponSwitch
 [*]VScript: Added consistent rand() and RAND_MAX across platforms
 [*]VScript: Added constants for NMRiH button masks, collision groups, and damage types
 [*]VScript: Added CScriptNavArea functions GetAdjacentAreas(), and GetAdjacentCount()
+[*]VScript: Added enum "VoiceCommand", lists available player voice commands, incl. automatic calls (pain, bleed, etc.)
 [*]VScript: Added functions TraceEntity(), and TraceHull()
+[*]VScript: Added recursion support for CScriptKeyValues functions TableToSubKeys() and SubKeysToTable()
+[*]VScript: Added support for reading KeyValues from BSP pak lump via function KeyValuesRead()
 [*]VScript: Added support for trace filter hit entity callbacks on TraceLineEx(), TraceHull(), and TraceEntity(), via "callback" value that expects a function with single argument for params, e.g. "function ShouldHitEntity(params)" where 'params' have keys: entity, contentsmask; returned value filters the hit entity
 [*]VScript: Class CScriptNavArea now has string representation (i.e. "[&lt;ID&gt;] Area")
 [*]VScript: Entity input "RunScriptCode" now converts backticks to quotes (i.e. ` -&gt; ")
@@ -121,18 +130,24 @@
 [*]VScript: Fixed function SetActivity() allowing ACT_INVALID, which caused a crash
 [*]VScript: Fixed hooks NPC_TranslateActivity and NPC_TranslateSchedule not checking invalid return types
 [*]VScript: Fixed script scope leakage on entity deletion
+[*]VScript: Updated with latest changes from Mapbase
 [/list]
 [h2]Changes for server admins[/h2]
 [list]
 [*]Added ability to modify zombie model pools, controlled by cvars "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng", and "sv_zombie_models_runner", models are set with ',' delimiter relative to models/nmr_zombie/*.mdl (or direct filename)
 [*]Added cvar "ov_despawn_ignore_population", by default zombies only despawn when zone population is over the maximum, set to 0 for vanilla behavior where visited zones keep max. zombies, or 1 that always despawns unseen zombies (#1562)
+[*]Added cvar "sv_ammobox_entity_legacy", for map compatibility when changes to ammobox_ entities cause problems
+[*]Added cvar "sv_friendly_fire_ignore_infected", when set, don't apply forced friendly fire against infected players
 [*]Added cvar "sv_gamedesc_override", to let server owners change game description without plugins
 [*]Added cvar "sv_runner_randomize_collision_group", runners always switch collision groups (grease) on spawn, when 0 and paired with BecomeRunner, this emulates bugged behavior pre-v1.15.0
+[*]Added cvar "sv_sprint_with_held_item", allows players to sprint while holding an item
 [*]Added cvar "sv_tree_sway_update_time", when 0, it disables tree sway server-side (useful for map compatibility)
 [*]Added cvar "sv_zombie_brainstem_dmg_scale", zombies take this factor of brainstem hitbox damage (if sv_brainstem is set to 1)
 [*]Added cvars to tweak zombie vocalization, "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit", and "sv_zombie_moan_freq_random" (vanilla behavior unchanged)
 [*]Added new method of randomizing zombie models by shuffling a model pool and pulling entries from it, this can be controlled with cvar "sv_zombie_shuffle_models"
+[*]Fixed Steam Workshop downloads on a dedicated server (#1581)
 [*]Game state commands (such as "respawnplayer") now support SteamIDs and partial name matches as arguments
+[*]Game state commands can now forcefully respawn players via [-force] switch, e.g. "respawnplayer -force PlayerName"
 [/list]
 [h1]Maps[/h1]
 
@@ -141,6 +156,10 @@
 [*]Attempted to fix body parts going through the ritual floor
 [*]Fixed leg part softlock (#1565)
 [*]Fixed weird glitch artifact on a ceiling brush
+[/list]
+[h3]nmo_boardwalk[/h3]
+[list]
+[*]Fixed godspots (#1605)
 [/list]
 [h3]nmo_broadway2[/h3]
 [list]
@@ -160,6 +179,7 @@
 [list]
 [*]Added glow for lever base
 [*]Added power box prop in one of the houses to hide a seeping tree through a wall
+[*]Fixed music manager not playing the correct playlist for tension state (#1604)
 [*]Fixed softlock when lever is dropped into the electric puddle (#1537)
 [*]Fixed softlock when objective items are thrown out of reach (#1548)
 [/list]
@@ -171,6 +191,11 @@
 [h3]nmo_quarantine[/h3]
 [list]
 [*]Fixed barricade spots at the end of the map not working (#1561)
+[*]Fixed godspots (#1605)
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Fixed godspots (#1605)
 [/list]
 [h3]nmo_shoreline[/h3]
 [list]
@@ -189,6 +214,7 @@
 [/list]
 [h3]nms_midwest[/h3]
 [list]
+[*]Fixed ability to block zone entrances with military crates
 [*]Fixed visual bug on barricade prop at zone A
 [/list]
 [h3]nms_northway[/h3]

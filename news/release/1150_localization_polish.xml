@@ -22,7 +22,6 @@
 [list]
 [*]Dodano menu w oknie Utwórz Serwer, umożliwiające wybór typu serwera dla Steam Networking (publiczny / tylko znajomi / niepubliczny) bez przekierowywania portu
 [*]Dodano możliwość pauzy gry w trybie dla jednego gracza
-[*]Dodano cvar "cl_allow_particle_precipitation", wyłączenie konwertuje deszcz/śnieg cząsteczkowy na warianty domyślne na mapach, które ich używają
 [/list]
 [h2]Zmiany[/h2]
 [list]

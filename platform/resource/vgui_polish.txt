@@ -213,7 +213,7 @@
 "[english]FileOpenDialog_NewFolderPrompt"	"Name:"
 "FileOpenDialog_NewFolder_DefaultName"	"Nowy folder"
 "[english]FileOpenDialog_NewFolder_DefaultName"	"New Folder"
-"FileOpenDialog_ToolTip_OpenInExplorerButton"	"Otwórz w Explorerze"
+"FileOpenDialog_ToolTip_OpenInExplorerButton"	"Otwórz w Eksploratorze"
 "[english]FileOpenDialog_ToolTip_OpenInExplorerButton"	"Open In Explorer"
 "PerforceFileList_Col_Name"	"Nazwa"
 "[english]PerforceFileList_Col_Name"	"Name"

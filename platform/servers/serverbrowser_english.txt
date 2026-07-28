@@ -192,7 +192,7 @@
 "ServerBrowser_AddAddressToBlacklist"	"Add this address to blacklist"
 "ServerBrowser_FindGames"	"Find games at this address..."
 
-"ServerBrowser_SteamRunning"		"Steam Beta must be running to make use of Find Servers"
+"ServerBrowser_SteamRunning"		"Steam must be running to make use of Find Servers"
 
 "ServerBrowser_CustomTab"				"Custom"
 "ServerBrowser_Tags"					"Tags"
