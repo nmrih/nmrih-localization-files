@@ -585,5 +585,20 @@
 "Codec_SORENSON3"		"Sorenson 3"
 "Codec_CINEPACK"		"Cinepack"
 "Codec_WEBM"		    "WebM"
+
+"Valve_Timeline_Killed"			"你击杀了 %s1" // player name
+"Valve_Timeline_WereKilled"		"%s1 击杀了你!" // player name
+"Valve_Timeline_Suicide"		"你告别了这残酷的世界!"
+"Valve_Timeline_Pickup"		    "捡起了 %s1"
+
+"Start_Server_SteamNetworking" "使用 Steam 网络"
+
+"Server_Visibility" "服务器类型"
+"Server_Visibility_Local" "本地局域网 (LAN)"
+"Server_Visibility_FriendsOnly" "仅限好友"
+"Server_Visibility_Unlisted" "公开 (列表中隐藏)"
+"Server_Visibility_Global" "公开 (所有人可见)"
+"Server_NoPerms" "你没有加入此服务器的权限!"
+
 } 
 }
