@@ -84,7 +84,10 @@
 
 
 "Spec_Slow_Motion" "Rallentatore"
-"Spec_No_PIP" "Il Picture-In-Picture non è disponibile nella modalità in prima persona mentre si gioca."
+"Spec_No_PIP" "
+Il Picture-In-Picture non è disponibile 
+in modalità prima persona mentre si gioca.
+"
 
 "Spec_Replay" "Replay istantaneo"
 "Spec_Auto" "Auto"
@@ -96,21 +99,23 @@
 "Spec_PlayerItem_Team" "%s1 (%s2)"
 "Spec_Duck"	"Premi il tasto \"Accovacciati\" per il menu da spettatore"
 "Spec_Help_Title" "Modalità Spettatore"
-"Spec_Help_Text"  "Usa i seguenti tasti per cambiare visuale:
+"Spec_Help_Text"  "
+Usa i seguenti tasti per cambiare visuale:
 
-ATTACCO PRIMARIO - Telecamera a inseguimento sul giocatore seguente
-ATTACCO SECONDARIO - Telecamera a inseguimento sul giocatore precedente
-SALTA - Cambia la visuale
-USA - Cambia la modalità della finestra interna
-ACCOVACCIATI - Attiva il menu da spettatore
+ ATTACCO PRIMARIO - Telecamera a inseguimento sul giocatore seguente
+ ATTACCO SECONDARIO - Telecamera a inseguimento sul giocatore precedente
+ SALTA - Cambia la visuale
+ USA - Cambia la modalità della finestra interna
+
+ ACCOVACCIATI - Attiva il menu da spettatore
  
 Nella mappa generale, puoi spostarti con:
 
-SPOSTAMENTO SX - Muoviti a sinistra
-SPOSTAMENTO DX - Muoviti a destra
-AVANTI - Ingrandisci la mappa
-INDIETRO - Rimpicciolisci la mappa
-MOUSE - Ruota la mappa / il bersaglio
+ SPOSTAMENTO SX - Muoviti a sinistra
+ SPOSTAMENTO DX - Muoviti a destra
+ AVANTI - Ingrandisci la mappa
+ INDIETRO - Rimpicciolisci la mappa
+ MOUSE - Ruota la mappa / il bersaglio
 "
 
 "Spec_Modes" 	"Opzioni della telecamera"
@@ -583,5 +588,20 @@ MOUSE - Ruota la mappa / il bersaglio
 "Codec_SORENSON3"		"Sorenson 3"
 "Codec_CINEPACK"		"Cinepack"
 "Codec_WEBM"		    "WebM"
+
+"Valve_Timeline_Killed"			"Hai ucciso %s1" // player name
+"Valve_Timeline_WereKilled"		"%s1 ti ha ucciso!" // player name
+"Valve_Timeline_Suicide"		"Dici addio al mondo crudele!"
+"Valve_Timeline_Pickup"		    "Hai raccolto %s1"
+
+"Start_Server_SteamNetworking" "Usa Rete di Steam"
+
+"Server_Visibility" "Tipo di Server"
+"Server_Visibility_Local" "Rete Locale (LAN)"
+"Server_Visibility_FriendsOnly" "Solo amici"
+"Server_Visibility_Unlisted" "Pubblico (Non elencato)"
+"Server_Visibility_Global" "Pubblico (Elencato)"
+"Server_NoPerms" "Non ti è permesso unirti a questo server!"
+
 } 
 }
