@@ -112,7 +112,7 @@
 [*]VScript: Aggiunte le funzioni di CScriptNavArea GetAdjacentAreas() e GetAdjacentCount()
 [*]VScript: Aggiunte le funzioni TraceEntity() e TraceHull()
 [*]VScript: Aggiunto supporto per callback di filtro delle entità colpite su TraceLineEx(), TraceHull() e TraceEntity(), tramite il valore "callback" che si aspetta una funzione con un singolo argomento per i parametri, ad esempio "function ShouldHitEntity(params)" dove 'params' ha le chiavi: entity, contentsmask; il valore restituito filtra l'entità colpita
-[*]VScript: La classe CScriptNavArea ora ha una rappresentazione in stringa (es. "[<ID>] Area")
+[*]VScript: La classe CScriptNavArea ora ha una rappresentazione in stringa (es. "[&lt;ID&gt;] Area")
 [*]VScript: L'input entità "RunScriptCode" ora converte i backtick in virgolette (cioè ` -> ")
 [*]VScript: Risolto il problema per cui la funzione CNMRiH_Player IsTalkingWalkie() restituiva sempre 'false'
 [*]VScript: Risolto un crash passando valori null alla funzione TraceLineEx()
