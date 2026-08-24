@@ -10,6 +10,6 @@ do
 	if [ ! -d "$outdir" ]; then
 		mkdir "$outdir"
 	fi
-	find *.txt -type f -exec bash -c "iconv -f UTF-16BE -t UTF-16LE \"{}\" > ${outdir}/\"{}\"" \;
+	find *.txt -type f -exec bash -c "iconv -f UTF-16BE -t UTF-16LE -sc \"{}\" > ${outdir}/\"{}\"" \;
 	popd
 done
