@@ -744,7 +744,7 @@
 		"CampbloodVoice.RalphComingForYa"	"<len:1.5>死に損ないども、<delay:1.6><len:1.6>迎えに来たぞ。"
 		"CampbloodVoice.RalphLastChance"	"<len:2.2>これが最後のチャンスだ！"
 		"CampbloodVoice.RalphLightsOff"	"<len:2.8>誰か電気を消し忘れた奴はいるか？"
-		"CampbloodVoice.RalphWelcome"	"<len:2.3>"血のキャンプ"へ？<delay:2.6><len:2.1>帰れないぞ。<delay:4.9><len:2.1><I>死の呪いがあるぞ。"
+		"CampbloodVoice.RalphWelcome"	"<len:2.3>「血のキャンプ」へ？<delay:2.6><len:2.1>帰れないぞ。<delay:4.9><len:2.1><I>死の呪いがあるぞ。"
 		"CampbloodVoice.RalphYourDoomed"	"<len:3.8><I>呪いだ！ <clr:255,0,0><B>エヘェッヘッヘェッ！"
 
 		// Cleopas

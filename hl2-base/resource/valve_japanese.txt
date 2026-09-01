@@ -587,5 +587,19 @@
 "Codec_SORENSON3"		"Sorenson 3"
 "Codec_CINEPACK"		"Cinepack"
 "Codec_WEBM"		    "WebM"
+
+"Valve_Timeline_Killed"			"%s1 を倒した"
+"Valve_Timeline_WereKilled"		"%s1 に倒された！"
+"Valve_Timeline_Suicide"		"残酷な世界よ、さらばだ！"
+"Valve_Timeline_Pickup"			"%s1 を拾った"
+
+"Start_Server_SteamNetworking" "Steamネットワーキングを使用"
+
+"Server_Visibility" "サーバーの公開範囲"
+"Server_Visibility_Local" "ローカルネットワーク（LAN）"
+"Server_Visibility_FriendsOnly" "フレンドのみ"
+"Server_Visibility_Unlisted" "公開（非表示）"
+"Server_Visibility_Global" "公開（一覧に表示）"
+"Server_NoPerms" "このサーバーへの参加は許可されていません！"
 } 
 }
