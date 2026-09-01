@@ -206,6 +206,12 @@
 "ServerBrowser_ReplayColumn_Tooltip"	"このサーバーはリプレイの録画をサポートしています"
 "ServerBrowser_SupportsReplays"	"リプレイ機能サポート"
 "ServerBrowser_Workshop"	"ワークショップ"
+"ServerBrowser_WorkshopLabel"	"ワークショップ:"
+"ServerBrowser_OpenWorkshop"	"参照..."
+"ServerBrowser_SubscribedOnly"	"サブスクライブ中"
+"ServerBrowser_FeaturedOnly"	"おすすめ"
+"ServerBrowser_FilterDescSubscribedOnly"	"サブスクライブ中"
+"ServerBrowser_FilterDescFeaturedOnly"	"おすすめ"
 "ServerBrowser_WorkshopFilterWorkshopOnly"	"ワークショップマップ"
 "ServerBrowser_WorkshopFilterSubscribed"	"サブスクライブ中"
 }
