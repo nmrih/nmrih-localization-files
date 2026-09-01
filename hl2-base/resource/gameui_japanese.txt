@@ -933,7 +933,7 @@
 "GameUI_ServerRejectMustUseMatchmaking" "このサーバーはマッチメイキングを通して取り決められた接続のみ受け付けています。アドホック接続は許可されていません。\n"
 "GameUI_ServerRequireSteam"		"このサーバーはSteamが起動中にある状態を必要としています。\n"
 "GameUI_ServerAuthDisabled"			"認証が無効化されました。\n"
-"GameUI_ServerCDKeyAuthInvalid"		"インターネットサーバーでは CD キー認証が無効です。\n"
+"GameUI_ServerCDKeyAuthInvalid"		"マルチプレイヤーサーバーに接続するには Steam が起動している必要があります。\n"
 "GameUI_ServerInvalidCDKey"			"無効な CD キーです。\n"
 "GameUI_ServerCDKeyInUse"			"この CD キーは既に使われています。\n"
 
