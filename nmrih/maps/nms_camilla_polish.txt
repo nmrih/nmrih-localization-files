@@ -1,0 +1,10 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nms_camilla_final"	"Użyj radia!"
+	"nms_camilla_text1"	"Tu Departament Bezpieczeństwa Wewnętrznego USA, nie możemy was teraz ewakuować"
+	"nms_camilla_text2"	"Ale możemy wysłać wam zapasy pociągiem. Wkrótce przejedzie przez wasze miasto, przygotujcie się na odebranie skrzyni."
+}
+}

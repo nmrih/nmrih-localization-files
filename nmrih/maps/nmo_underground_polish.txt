@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_underground_Open_The_Door"	"Znajdź sposób, aby otworzyć drzwi!"
+	"nmo_underground_Fence_Welder"	"Użyj palnika na kracie!"
+	"nmo_underground_Find_Dinamite"	"Znajdź dynamit i wysadź ścianę!"
+	"nmo_underground_Elevator"	"Uruchom windę!"
+	"nmo_underground_Last_Objective"	"Użyj wszystkich zebranych przedmiotów!"
+	"nmo_underground_HelicopterCome"	"Poczekaj na helikopter!"
+	"nmo_underground_PushTheCart"	"Pchaj wózek!"
+	"nmo_underground_LootSmokeGrenade"	"Zdobądź granat dymny!"
+	"nmo_underground_FindCodeLootPaint"	"Poszukaj kodu w budynku biurowym i zdobądź puszkę farby!"
+	"nmo_underground_LootCarBattery"	"Zdobądź akumulator samochodowy!"
+	"nmo_underground_LootPaint"	"Zdobądź puszkę farby!"
+	"nmo_underground_plugs"		"Podłącz wtyczki!"
+	"nmo_underground_car"		"Pchaj samochód!"
+	"nmo_underground_sos"		"Narysuj «S.O.S»!"
+	"nmo_underground_gen"		"Uruchom generator!"
+	"nmo_underground_pliers"	"Znajdź szczypce, aby przeciąć kłódkę!"
+	"nmo_underground_propane"	"Wysadź zbiornik z propanem we właściwym miejscu!"
+	"nmo_underground_code"		"Znajdź kod, aby iść dalej!"
+	"nmo_underground_hack"		"Użyj swoich umiejętności komputerowych, aby wydostać się z tego tunelu!"
+	"nmo_underground_go"		"Przedostań się przez pomieszczenia magazynowe!"
+}
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content><string id="body">Wydano update do No More Room in Hell. Update zostanie zastosowany automatycznie po ponownym uruchomieniu gry No More Room in Hell. Najważniejsze zmiany obejmują:
+
+[h2]Nowości[/h2]
+[list]
+[*]Dodano konfigurację mutatorów — użytkownicy mogą teraz zapisywać / wczytywać swoje ustawienia (#1459)
+[*]Dodano nowy typ gry „Minigame”, obsługiwany przez prefiks map „mg_”
+[*]Aktualna nazwa mapy i typ gry są teraz wyświetlane na tablicy wyników
+[*]Eksperymentalnie: Dodano predykcję podnoszenia przedmiotów, przełączaną przez cvar „cl_predictpickup” (po włączeniu podnoszone przedmioty poruszają się płynnie mimo opóźnień)
+[/list]
+
+[h2]Zmiany[/h2]
+[list]
+[*]Bagnet może teraz trafiać w korpus postaci, co poprawia wykrywanie odepchnięć
+[*]Wycofano efekty SSAO oraz depth of field z powodu niestabilności — ustawienia nie są już zapisywane ani widoczne w opcjach, jednak cvar „nmrih_ssao” i „nmrih_dof” nadal mogą być używane
+[*]Wystrzelone strzały wygasają po pewnym czasie
+[*]Na mapach wykorzystujących level transition ekwipunek graczy i efekty statusu nie są już domyślnie przywracane po restarcie rundy
+[*]Zmniejszono rozmiar instalacji poprzez kompresję nav meshów, strumieniowanego audio i kwestii głosowych (o ~685 MB)
+[*]Bronie bez dźwiękowego sprawdzania amunicji zawsze wyświetlają informacje na HUD (młotek do barykad, łuk, piła łańcuchowa)
+
+[*]Zaktualizowano pliki lokalizacyjne:
+[list]
+[*]Podziękowania dla tłumaczy społeczności: [b]Blueberryy, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]Chcesz przetłumaczyć NMRiH na swój język? [url=https://github.com/nmrih/nmrih-localization-files]Odwiedź nasze repozytorium lokalizacyjne na GitHubie.[/url]
+[/list]
+[/list]
+
+[h2]Poprawki[/h2]
+[list]
+[*]Naprawiono przyczepione strzały powodujące błąd „physical mayhem” (#1455)
+[*]Naprawiono nieprawidłową penetrację pocisków w trybie realizmu (#1439)
+[*]Naprawiono błąd wizualny kompasu po zmianie rozdzielczości (#1396)
+[*]Naprawiono blokowanie sterowania w trybie ironsight po schowaniu latarki (#684)
+[*]Naprawiono crash przy dołączaniu do serwera z cvar „sv_allow_custom_balance” ustawionym na 1
+[*]Naprawiono brak wyświetlania aktualnego celu po zmianie rozdzielczości (#1396)
+[*]Naprawiono odradzanie się martwych graczy z 1 HP po level transition
+[*]Naprawiono sytuację, w której wyrzucenie aktualnie wyposażonego przedmiotu powodowało również upuszczenie trzymanego physics propa (#1433)
+[*]Naprawiono ciągłe zanikanie i pojawianie się wyczerpanej stacji torby z zaopatrzeniem przy spamowaniu klawisza użycia (#1423)
+[*]Naprawiono znikanie istniejącej poświaty przedmiotów po podejściu i oddaleniu się gracza (#1456)
+[*]Naprawiono widoczność latarki jako wyposażonej mimo braku jej w ekwipunku (#1424)
+[*]Naprawiono sporadyczne pojawianie się „duchów” latarek po zniknięciu graczy z pola widzenia
+[*]Naprawiono błędne wyświetlanie granatów podczas sprawdzania amunicji (#1460)
+[*]Naprawiono nieprawidłowy dźwięk piły łańcuchowej (#1231)
+[*]Naprawiono nieprawidłowe napisy przy ataku pięściami (#938)
+[*]Naprawiono natychmiastowo zrespione zombie, które nie wygasały w poprzednich strefach, przez co overlord osiągał limit i nie mógł spawnować kolejnych
+[*]Naprawiono wyświetlanie wskazówki jako „Nie podano podpisu” dla innych graczy niż aktywator (#1410)
+[*]Naprawiono zbyt małą liczbę zombie spawnujących się przez overlorda w strefach o wysokiej gęstości (np. sekcja survival na Boardwalk)
+[*]Naprawiono problemy z kolejnością wygaszania napisów
+[*]Naprawiono brak działania level transition z pluginami serwera modyfikującymi zmiany map
+[*]Naprawiono brak animacji sprintu przy przytrzymaniu strzału z pustej broni (#59)
+[*]Naprawiono niepotrzebne sieciowanie graczy i ich broni poza polem widzenia
+[*]Naprawiono błąd predykcji przy strzelaniu podczas używania triggera postępu
+[*]Naprawiono crash rich presence, gdy Steam jest niedostępny
+[*]Naprawiono przepełnienie search path uniemożliwiające wczytywanie plików napisów (rozwiązuje problem znikających napisów przy dużej liczbie dodatków Warsztatu)
+[*]Naprawiono puste pole nazwy serwera na tablicy wyników po zmianie rozdzielczości (#1396)
+[*]Naprawiono przepełnienie shadow buffer przy renderowaniu tekstur głębi latarki innych graczy (#1336)
+[*]Naprawiono przerywanie dźwięku bezczynności piły łańcuchowej przy jej uruchamianiu i odepchnięciu (#1252)
+[/list]
+
+[h2]Zmiany dla administratorów serwerów[/h2]
+[list]
+[*]Dodano cvar „hide_server” — nie ogłasza serwera w Steam, czyli ukrywa go na liście
+[*]Dodano cvar „sv_bullet_bypass_player” — pociski przenikają przez graczy; brak efektu przy włączonym friendly fire lub gdy cel jest zainfekowany (#1466)
+[*]Dodano cvar „sv_remove_unreasonable_physics” — usuwa encje, które wypadły poza świat w fizyce
+[*]Zmieniono kolejność wczytywania rulesetów — mutatory są teraz ładowane przed konfiguracją serwera
+[*]Obsługa level transition jest teraz domyślnie włączona
+[*]Workshop: Zoptymalizowano aktualizacje poprzez zmniejszenie liczby operacji na systemie plików
+[*]Workshop: Poprzedni wpis mapy jest teraz usuwany z listy, jeśli podczas update zmieniono jej nazwę
+[/list]
+
+[h1]Mapy[/h1]
+
+[h3]Wszystkie mapy[/h3]
+[list]
+[*]Dodano kilka nieużywanych utworów do listy muzyki (utwór „Sorrow” został podzielony na dwie części i dodany do sekcji ambient oraz tension)
+[*]Naprawiono dziwne odbicia na teksturze błota
+[/list]
+
+[h3]nmo_anxiety[/h3]
+[list]
+[*]Dodano clipy na schodach
+[*]Dodano kilka brakujących overlayów
+[*]Podjęto próbę naprawy blokowania się i obracania graczy, gdy van ewakuacyjny skręca w lewo
+[*]Wyczyszczono nav meshe w niegrywalnych obszarach
+[*]Naprawiono jeden z punktów spawnu graczy w tunelach
+[/list]
+
+[h3]nmo_asylum[/h3]
+[list]
+[*]Dodano ekran ładowania (#1429)
+[/list]
+
+[h3]nmo_broadway[/h3]
+[list]
+[*]Naprawiono brak napisów podczas dialogu laptopa ewakuacyjnego
+[*]Różne drobne poprawki
+[/list]
+
+[h3]nmo_cabin[/h3]
+[list]
+[*]Naprawiono błąd, przez który przy określonym łańcuchu celów prawie niemożliwe było przeniesienie arbuza do punktu wydobycia
+[/list]
+
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Naprawiono brak napisów podczas komunikatów radiowych
+[/list]
+
+[h3]nmo_shelter[/h3]
+[list]
+[*]Dodano filtry do przenikań VPhysics (koniec z odbijającymi się materiałami wybuchowymi w celu areny)
+[/list]
+
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Dodano kilka przenikań VPhysics
+[/list]
+
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Usunięto teksturę nodraw w zniszczalnej ceglanej ścianie przy kościele
+[/list]
+
+[h3]nmo_underground[/h3]
+[list]
+[*]Naprawiono softlock celu (#1452)
+[*]Dostosowano clipy
+[/list]
+
+[h3]nms_arpley[/h3]
+[list]
+[*]Podjęto próbę naprawy losowego blokowania się pociągu przez amunicję / bronie
+[/list]
+
+[h3]nms_camilla[/h3]
+[list]
+[*]Dodano kilka detali
+[/list]
+
+[h3]nms_notld[/h3]
+[list]
+[*]Dodano więcej zombie pod koniec mapy
+[*]Dodano nieużywany utwór muzyczny przy spawnie mapy
+[/list]
+
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.5 Wydany</string></content>

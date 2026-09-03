@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_quarantine_obj_gravesite"	"Znajdź łopatę i wykop paliwo na prowizorycznym cmentarzu"
+	"nmo_quarantine_obj_leavespawn"	"Wydostań się z alejki"
+	"nmo_quarantine_obj_fillup_generator_turn_on"	"Zatankuj generator i włącz go"
+	"nmo_quarantine_obj_get_sewer_key"	"Znajdź klucz do pomieszczenia konserwatorskiego"
+	"nmo_quarantine_obj_get_sewer_crank"	"Znajdź brakującą korbę i odpompowuj wodę z pomieszczenia konserwatorskiego!"
+	"nmo_quarantine_obj_leave_sewer"	"Wydostań się z kanałów"
+	"nmo_quarantine_obj_close_gate"	"Zamknij otwartą bramę kwarantanny, aby uzyskać dostęp do wewnętrznej strefy!"
+	"nmo_quarantine_obj_waitfordoor"	"Poczekaj, aż rolowane drzwi się otworzą"
+	"nmo_quarantine_obj_enter_sewer"	"Wejdź do kanałów"
+	"nmo_quarantine_obj_enter_inner_quarantine"	"Wejdź do wewnętrznej kwarantanny, zanim aktywuje się zabezpieczenie!"
+	"nmo_quarantine_obj_use_radio"	"Użyj radia!"
+	"nmo_quarantine_obj_get_walkie"	"Weź walkie-talkie"
+	"nmo_quarantine_obj_activate_siren"	"Aktywuj syrenę, gdy będziesz gotowy"
+	"nmo_quarantine_obj_survive"	"Przetrwaj przez 2 minuty"
+	"nmo_quarantine_50sec"	"Masz 50 sekund, aby dostać się do kwarantanny przed wybuchem."
+	"nmo_quarantine_10sec"	"Pozostało 10 sekund."
+}
+}

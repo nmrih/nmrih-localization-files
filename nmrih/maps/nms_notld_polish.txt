@@ -1,0 +1,8 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nms_notld_title"	"Noc żywych trupów"
+}
+}

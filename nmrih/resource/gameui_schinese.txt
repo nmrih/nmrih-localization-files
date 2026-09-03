@@ -53,6 +53,7 @@
 "NMRiH_Advanced_cl_stickyironsight"		"启用按下瞄准(关闭按住瞄准)"
 "NMRiH_Advanced_cl_voicesubtitles"		"启用聊天栏无线电语音指令显示"
 "NMRiH_Advanced_cl_ejectbrass"			"启用射击时退弹壳显示"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"启用手电筒阴影效果(expensive)"
 "NMRiH_Advanced_cl_muzzle_dlight"		"启用枪口火焰动态照明效果(expensive)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"关闭使用HTML的服务器每日消息"
 "NMRiH_Advanced_fov_allow_change"		"视野范围FOV可在游戏中被修改"
@@ -72,6 +73,14 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"碰撞冲击特效质量"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高(带碎片效果)"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低(无碎片效果)"
+"NMRiH_Advanced_cl_predictpickup"		"搬运物位置预测"
+"NMRiH_Advanced_cl_predictpickup_0"		"不预测位置"
+"NMRiH_Advanced_cl_predictpickup_1"		"始终预测位置"
+"NMRiH_Advanced_cl_predictpickup_2"		"仅预测任务物品位置"
+"NMRiH_Advanced_cl_radialfog"		"径向雾气偏好"
+"NMRiH_Advanced_cl_radialfog_-1"	"由地图决定"
+"NMRiH_Advanced_cl_radialfog_0"		"始终关闭 (经典效果)"
+"NMRiH_Advanced_cl_radialfog_1"		"始终开启"
 
 "NMRiH_Difficulty"	"游戏难度"
 
@@ -86,8 +95,17 @@
 "NMRiH_GameType_PVP"			"PvP模式"
 "NMRiH_GameType_Minigame"		"小游戏模式"
 
+"NMRiH_Server"				"类型"
+"NMRiH_Server_Solo"			"单人游戏"
+"NMRiH_Server_LAN"			"本地局域网"
+"NMRiH_Server_Public"		"公开"
+"NMRiH_Server_FriendsOnly"	"仅限好友"
+"NMRiH_Server_Unlisted"		"不公开"
+
 "NMRiH_LAN"				"仅限局域网"
-"NMRiH_Coplay"			"使用 Coplay (Steam 网络)"
+"NMRiH_Coplay"			"使用 Steam 网络"
+
+"NMRiH_Server_Tooltip"	"选择服务器类型 (适用于 Steam 网络):\n单人游戏: 进行离线游戏.\n本地局域网: 在局域网上创建游戏.\n公开: 创建公开游戏.\n仅限好友: 仅限好友邀请的游戏.\n不公开: 在服务器列表中隐藏."
 
 "NMRiH_Difficulty_Tooltip"	"选择难度级别。\n经典：默认难度，并且能够使用复活点数。\n休闲：死亡后立即重生并在复活时附带初始武器。\n噩梦：丧尸的血量、数量以及感染几率均会增加。\nPvP：启用PvP记分牌以及死亡提示，并禁用丧尸生成和游戏任务。"
 "NMRiH_Map_Time_Tooltip"	"地图时间限制。"
@@ -96,7 +114,7 @@
 "NMRiH_RealismMode_Tooltip"	"您将无法在写实模式中复活，并且丧尸只会受到爆头伤害。无论弹药类型如何，所有的爆头都是一击必杀。"
 "NMRiH_HardcoreSurvival_Tooltip"	"该模式将隐藏您的HUD菜单。"
 "NMRiH_Max_Players_Tooltip"	"玩家人数限制，最大为8人。设置为1则进行单人游戏。"
-"NMRiH_Coplay_Tooltip"	"Coplay 提供了 Steam 网络 P2P 连接的实现，这移除了联机对于端口映射的要求。"
+"NMRiH_Coplay_Tooltip"	"使用 Steam 网络进行 P2P 连接，这移除了联机对于端口映射的要求。"
 "NMRiH_AdvOptions"	"扩展设置..."
 "NMRiH_AdvOptions_Tooltip"	"编辑游戏的扩展设置。"
 
@@ -345,6 +363,7 @@
 "Addon_Manager_ApplyChanges"		"应用更改"
 "Addon_Manager_InvalidAddon"		"此插件无法兼容."
 "Addon_Manager_MultiSelect"			"[%s1 个插件已选中]"
+"Addon_Manager_DefaultDesc"			"暂无描述."
 
 "Addon_Manager_DropMenu_Disable"	"禁用"
 "Addon_Manager_DropMenu_ShowInfo"	"更多信息"
@@ -548,5 +567,17 @@
 "VPKTools_Error_BadVersion"				"不支持的Vpk版本。"
 "VPKTools_Error_BannedFileExtension"	"发现被禁用的文件拓展。"
 "VPKTools_Error_CfgFilesNotAllowed"		"配置文件 (cfg) 是不被允许的, 请在Vpk中删除 \"cfg\" 文件夹。"
+
+"UGC_ObjectiveMaps"						"任务地图"
+"UGC_SurvivalMaps"						"生存地图"
+"UGC_CustomMaps"						"自定义地图"
+"UGC_PlayerSkins"						"玩家皮肤"
+"UGC_WeaponSkins"						"武器皮肤"
+"UGC_ModelPacks"						"模型包"
+"UGC_SoundPacks"						"音效包"
+"UGC_HUD_UI"							"HUD / UI"
+"UGC_Scripts_Resources"					"脚本 / 资源包"
+"UGC_Mutators"							"游戏内容修改器"
+"UGC_Miscellaneous"						"其它"
 } 
 }  

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">地狱已满的版本更新现已发布, 更新将会在您重新启动游戏时自动应用, 新版本的主要变化包含以下内容:
+
+[h2]起源引擎升级[/h2]
+[list]
+[*]添加了 64 位支持, 在 64 位的操作系统上将自动启动 64 位的游戏文件
+[*]在视频设置中添加了无边框窗口选项
+[*]添加了双三次光照贴图 (bicubic lightmaps) (源自 半衰期2: 20 周年庆更新)
+[*]添加了径向雾气效果 (radial fog) (源自 半衰期2: 20 周年庆更新)
+[*]添加了 Steam 网络支持, 联机将不再需要端口映射
+[*]用户界面 (UI) 现在会缩放以支持更高的分辨率
+[*]添加了 Vulkan 渲染器, 目前在 Linux 系统上默认启用
+[*]修复了当玩家在客户端移动时, 当前 tick 上玩家输入的移动操作会被非玩家操作 (non-player actions) 忽略的预测问题
+[*]修复了在某些情况下, 位置等特定变量无法正确更新以匹配服务器的问题
+[*]修复了某些可破坏道具无法正确碎裂的问题
+[*]修复了在某些情况下, 例如蹲下或靠墙时, 玩家碰撞体错误预测导致每帧回滚的问题
+[*]修复了玩家基础速度 (例如传送带, 移动物体等) 在客户端与服务器间出现轻微不同步的问题
+[*]提高了本地玩家位置的网络精度, 从而减少预测错误并改善游戏体验
+[*]改善了在道具 (prop) 和其他实体 (entity) 上行走时的预测效果
+[*]现在游戏将默认以系统的原生分辨率启动，而不是 640×480
+[/list]
+[h2]新增内容[/h2]
+[list]
+[*]在创建服务器对话框中添加了一个菜单, 用于选择 Steam 网络服务器类型, 允许公开/仅限好友/不公开服务器联机不使用端口映射
+[*]在单人游戏模式中添加了暂停游戏的功能
+[/list]
+[h2]改动内容[/h2]
+[list]
+[*]在本地服务器上使用创意工坊地图时, 现在地图会自动分发给正在加入的玩家
+[*]在自杀黑屏时, 部分 HUD 元素 (例如玩家名称) 现在将被隐藏
+[*]默认的服务器名称变更为 "&lt;玩家名&gt;'s server"
+[*]控制台变量 "viewmodel_fov" 现在将被保存到玩家配置 (user config) 中
+[*]游戏难度现在会显示在服务器列表的游戏描述中
+[*]手电筒阴影现在独立于 "高" 阴影质量设置, 可以单独在高级设置中启用 (默认关闭以降低引擎崩溃风险)
+[*]改进了原生 Linux 支持以显著提升性能
+[*]优化了玩家和丧尸移动时对网络带宽的占用
+[*]进一步优化了在拥挤地图上丧尸的性能表现
+[*]重构了富状态 (rich presence) 功能以支持 Steam 网络连接, Discord 和 Steam 现在都将识别加入和邀请等服务器信息
+[*]移除了 NAT 网络连接和 Steam Deck 兼容性的警告对话框, 因为这些内容已不再相关
+[*]调整了玩家头顶的语音状态图标, 提高在黑暗地图中的辨识度
+[*]FMOD 音频引擎更新至 2.03.12 版本
+[*]现在被禁言玩家发出的语音命令会被默认屏蔽, 可通过控制台变量 "cl_voicecmd_ignore_muted_player" 控制
+[*]语言本地化文件更新:
+[list]
+
+[*]感谢社区翻译者的贡献: [b]Atheist, grobinho, Klowby, MakinDay, marcielcps, Plazehorta, RicecakeHuman[/b]
+[*]想要为地狱已满提供您的本地化语言支持吗？ [url=https://github.com/nmrih/nmrih-localization-files]欢迎访问我们在 Github 上的文件仓库。[/url]
+[/list]
+[/list]
+[h2]已修复内容[/h2]
+[list]
+[*]修复了已撤离的玩家在记分板上偶尔会被显示为 "已死亡" 的问题
+[*]修复了错误的出生提示 (例如在 "等待复活点" 时仍会播放音效和闪烁窗口的问题)
+[*]修复了吞枪自杀时瞄具不会自动关闭的问题
+[*]修复了雨雪粒子效果碰撞的问题, 贡献来自 BigHatMarley (#1579)
+[*]修复了在使用了关卡转换的地图上恢复存档时出现的多个问题
+[*]修复了在分辨率变更后, 补给箱和密码键盘无法正确缩放的问题
+[*]修复了丧尸长时间呻吟时待机音效被截断的问题
+[/list]
+[h2]地图设计与模组制作改动[/h2]
+[list]
+[*]添加 自定义丧尸模型池, 可通过以 "sv_zombie_models" 为前缀的控制台变量进行控制
+[*]添加 控制台变量 "tonemap_debug", 用于可视化当前启用的色调映射 (tonemap) 控制器及其参数
+[*]添加 "ent_minsmaxs" 命令, 将以 MapHack 友好的格式输出实体的边界框 (bounding box)
+[*]添加 实体 "npc_nmrih_basezombie", 作为通用丧尸的基类, 适用于制作自定义丧尸
+[*]添加 实体 "skybox_swapper", 用于切换 2D 天空盒材质
+[*]添加 实体 "trigger_tonemap", 用于在玩家碰到触发器时切换色调映射控制器
+[*]添加 游戏事件 (event) "inventory_box_item_taken", 当玩家从补给箱中拾取物品时触发
+[*]添加 游戏事件 "player_voice_command", 当玩家使用语音命令时触发, 包括自动发出的语音 (如疼痛, 流血等等)
+[*]为丧尸添加 "HeadSplit" 输入 (#1569)
+[*]为丧尸添加碰撞体覆盖 (hull override) 关键字 (keyfield)
+[*]为实体 "logic_ruleset" 添加 "RevertAllMapCvars" 输入, 会将所有由地图修改过的控制台变量恢复到基础值 (如果有的话) 或默认值, 但不会恢复难度/脚本/修改器造成的改动
+[*]为实体 "nmrih_game_state" 添加 "ForceRespawnPlayer" 和 "ForceRespawnAllPlayers" 输入, 将跳过有效出生点检查并强制重生玩家
+[*]为实体 "func_zombie_spawn" 添加 "Despawn Ignore Population" 关键字, 默认情况下, 丧尸只有在区域数量超过最大值时才会消失, 即使它们不在视野内; 当设置为 'No' 时, 将使用经典行为, 探索过的区域会维持最大丧尸数, 当设置为 'Yes' 时, 不在视野内的丧尸将无视数量限制, 且总是会消失
+[*]为实体 "item_inventorybox" 添加 "Hide TAKE Button" 关键字
+[*]为实体 "logic_progress" 添加 "HUD Style" 关键字, 用于更改进度条的视觉样式, 并增加了新的样式, 在屏幕中心以顺时针方向绘制的圆形进度条
+[*]为丧尸添加 "Ignore Grease" 关键字, 设置为 true 时, 丧尸将不会在 NPC 分配的碰撞组之间切换, 防止彼此穿模
+[*]为产生灰尘粒子效果的固体实体添加了 "Ignore Wind?" 关键字
+[*]为丧尸添加 "Ignore Zombie Rules" 关键字, 设置为 true 时, 游戏规则会将丧尸视作普通 NPC
+[*]为实体 "point_message_multiplayer" 添加了换行支持
+[*]为实体 "point_viewcontrol_multiplayer" 添加了缺失的属性 (spawnflags)
+[*]为实体 "nmrih_barricade" 添加了 "OnBarricade" 和 "OnBreak" 输出
+[*]为障碍木板道具添加了模型覆盖的支持
+[*]添加了经过筛选的模型可以在特定客户端上渲染的支持
+[*]FGD: 自定义 "base.fgd" 现在已被打包进 "nmrih.fgd", 以取代对基础 SDK 的类覆盖和依赖
+[*]FGD: 恢复了在 Hammer 中编辑 "Filter Name" 关键字时, 缺失的 "Mark" 和吸管按钮
+[*]修复 动态 "logic_progress" 在接收到 "StopProgress" 输入时总是完成的问题
+[*]修复 实体 "logic_script_proxy" 当使用脚本实例时在全局范围内调用无效的问题
+[*]修复 实体 "logic_script_proxy" 的输入 "SetTargetEntity" 不接受空值 (null) 的问题
+[*]修复 实体 "player_weaponstrip" 移除物品不正确的问题 (#1588)
+[*]修复 BSP 内嵌的地图本地化文件未被加载的问题
+[*]修复 NPC 上附着的模型附件出现位置偏移的问题
+[*]修复 事件 "player_spawn" 在复活点不可用时被错误触发的问题
+[*]修复 通过 "BecomeRunner" 生成的跑尸其碰撞组不会随机的问题
+[*]修复 按钮触发时火花音效无法播放的问题
+[*]MapHack: 修复 生成的固体实体 (brush entity) 碰撞边界问题
+[*]NMRObjective: 添加 拖拽框选节点的功能
+[*]NMRObjective: 当节点超出工作区范围时, 将会显示滚动条
+[*]NMRObjective: 杂项优化和改善
+[*]VScript: 添加 CAI_BaseNPC 函数 CanLagCompensate(), 和 SetCanLagCompensate()
+[*]VScript: 添加 CBaseAnimating 函数 SetPlayerDrawFilter(), 和 DrawFilterAllPlayers(), 设置成 true 时, 该模型将对给定的玩家不可见
+[*]VScript: 添加 CBaseEntity 函数 IsZombie(), 如果该实体在游戏逻辑中被认定为有效丧尸, 则返回 true
+[*]VScript: 添加 CBaseEntity 钩子 OnTakeDamage, 该钩子 (hook) 可作为实体 filter_script 中 PassesFinalDamageFilter 函数的替代, 在伤害被应用前，可以修改传入的伤害信息, 返回 'false' 将会取消受到的伤害
+[*]VScript: 添加 CBaseEntity 钩子 TraceAttack, 在实体即将接收到攻击追踪时调用, 传入的伤害信息可以在被应用前修改, 该钩子在伤害过滤器 (damage filters) 检查 *之前* 触发, 返回 false 将丢弃该追踪信息
+[*]VScript: 添加 CBasePlayer 函数 IsHLTV(), 如果玩家是 SourceTV 则返回 true
+[*]VScript: 添加 CBasePlayer 函数 SetTonemapScale(), SetTonemapRate(), SetAutoExposureMin(), SetAutoExposureMax(), SetBloomScale(), UseDefaultAutoExposure(), UseDefaultBloomScale(), 和 ClearTonemapParams()
+[*]VScript: 添加 CItem_InventoryBox 函数 IsTakeButtonHidden(), 和 SetTakeButtonHidden()
+[*]VScript: 添加 CLogicProgress 函数 SetCircle()
+[*]VScript: 添加 CNMRiH_BarricadePoint 函数 SetModelOverride()
+[*]VScript: 添加 CNMRiH_BaseZombie 函数 IsRecognizedByGameRules(), SetIgnoreZombieRules(), 和 SetIgnoreGrease()
+[*]VScript: 添加 CNMRiH_Player 函数 DidGunshotSuicide()
+[*]VScript: 添加 CNMRiH_Player 函数 ForceTransmit(), 向所有客户端发送网络更新, 即便有玩家对某些客户端处于休眠状态 (由 PVS 过滤)
+[*]VScript: 添加 CNMRiH_Player 函数 SetForcedRespawn(), 标记下一个复活点为强制复活并跳过有效出生点检查, 复活后自动恢复原有设置
+[*]VScript: 添加 CNMRiH_Player 函数 SetVaccinated(), 用于直接设置疫苗接种状态, 并跳过致盲效果判定
+[*]VScript: 添加 CNMRiH_Player 函数 HasJumpAbility(), HasDuckAbility(), SetJumpAbility(), 和 SetDuckAbility(), 用于覆盖玩家是否可以跳跃/蹲下, 并在客户端进行预测
+[*]VScript: 添加 CNMRiH_Player 钩子 OnWeaponDrop, OnWeaponEquip, 和 OnWeaponSwitch
+[*]VScript: 添加 rand() 和 RAND_MAX 在跨平台执行时表现保持一致的支持
+[*]VScript: 添加 NMRiH 按键掩码 (button masks), 碰撞组 (collision groups), 和伤害类型 (damage types) 的常量定义
+[*]VScript: 添加 CScriptNavArea 函数 GetAdjacentAreas(), 和 GetAdjacentCount()
+[*]VScript: 添加 "VoiceCommand" 枚举, 列出所有可用的玩家语音命令, 包括自动发出的语音 (如疼痛, 流血等等)
+[*]VScript: 添加 函数 TraceEntity(), 和 TraceHull()
+[*]VScript: 为 CScriptKeyValues 函数 TableToSubKeys() 和 SubKeysToTable() 添加了递归支持
+[*]VScript: 添加 函数 KeyValuesRead(), 支持从 BSP 文件的数据块 (pak lump) 中读取 KeyValues
+[*]VScript: 为 TraceLineEx(), TraceHull(), 和 TraceEntity() 添加命中实体回调过滤的支持, 通过对回调 "callback" 的值传入一个具有单个参数的函数, 例如 "function ShouldHitEntity(params)", 其参数可分为实体 (entity) 或碰撞掩码 (contentsmask); 函数的返回值可用于过滤命中的实体
+[*]VScript: 类 CScriptNavArea 现在带有字符串输出 (例如 "[&lt;ID&gt;] Area")
+[*]VScript: 实体 输入 "RunScriptCode" 现在会将反引号转换为引号 (例如 ` -&gt; ")
+[*]VScript: 修复 CNMRiH_Player 函数 IsTalkingWalkie() 总是返回 'false' 的问题
+[*]VScript: 修复 当给函数 TraceLineEx() 传入空值时会崩溃的问题
+[*]VScript: 修复 某些情况下实体的脚本实例悬空从而导致崩溃的问题 (例如带有脚本作用域的实体 "prop_physics" 由于模型错误而被提前删除时)
+[*]VScript: 修复 函数 SetActivity() 允许 ACT_INVALID 从而导致崩溃的问题
+[*]VScript: 修复 钩子 NPC_TranslateActivity 和 NPC_TranslateSchedule 不会检查无效返回类型的问题
+[*]VScript: 修复 实体删除时脚本作用域会泄漏 (memory leak) 的问题
+[*]VScript: 根据 Mapbase 的最新改动进行了更新
+[/list]
+[h2]服务器管理员改动[/h2]
+[list]
+[*]添加 修改丧尸模型池的功能, 由控制台变量 "sv_zombie_models", "sv_zombie_models_kid", "sv_zombie_models_ng", 和 "sv_zombie_models_runner" 控制, 模型之间由 ',' 分割, 路径参照 models/nmr_zombie/*.mdl (或使用完整的文件名)
+[*]添加 控制台变量 "ov_despawn_ignore_population", 默认情况下丧尸只在区域数量超过最大值时消失, 设置成 0 使用原版行为, 探索过的区域维持最大丧尸数, 或设置成 1 让不在视野内的丧尸总是消失 (#1562)
+[*]添加 控制台变量 "sv_ammobox_entity_legacy", 用于当 ammobox_ 实体被修改后导致地图出现兼容性问题时, 启用旧版行为
+[*]添加 控制台变量 "sv_friendly_fire_ignore_infected", 当启用时, 不会对已感染的玩家施加强制友军伤害
+[*]添加 控制台变量 "sv_gamedesc_override", 服主在不使用插件的情况下即可修改游戏描述
+[*]添加 控制台变量 "sv_runner_randomize_collision_group", 跑尸在生成时总是随机切换碰撞组以防止卡住 (grease), 当设置成 0 并和 BecomeRunner 使用时将还原 v1.15.0 之前的 BUG 行为
+[*]添加 控制台变量 "sv_sprint_with_held_item", 允许玩家在手持物品时奔跑
+[*]添加 控制台变量 "sv_tree_sway_update_time", 当设置成 0 时, 将在服务器端禁用树木摆动效果 (有助于改善地图兼容性)
+[*]添加 控制台变量 "sv_zombie_brainstem_dmg_scale", 丧尸受到脑干攻击的伤害会使用这个系数计算 (如果 sv_brainstem 设置成 1)
+[*]添加 控制台变量 "sv_zombie_moan_freq_angry_only", "sv_zombie_moan_freq_limit", 和 "sv_zombie_moan_freq_random" 用于调整丧尸的发声行为 (未改动原版行为)
+[*]添加 新的随机丧尸模型的方法, 即将模型池打乱后再重新抽取, 由控制台变量 "sv_zombie_shuffle_models" 控制
+[*]修复了在专用服务器上无法从 Steam 创意工坊下载物品的问题 (#1581)
+[*]游戏状态命令 (例如控制台命令 "respawnplayer") 现在支持使用 SteamID 或部分玩家名作为参数
+[*]游戏状态命令现在可以通过 [-force] 参数强制重生玩家, 例如: "respawnplayer -force 玩家名"
+[/list]
+[h1]地图改动[/h1]
+
+[h3]nmo_asylum[/h3]
+[list]
+[*]尝试修复尸体部位穿过仪式地板的问题
+[*]修复了断肢造成的卡关问题 (#1565)
+[*]修复了一个天花板上出现奇怪图形的问题
+[/list]
+[h3]nmo_boardwalk[/h3]
+[list]
+[*]修复了无敌点 (#1605)
+[/list]
+[h3]nmo_broadway2[/h3]
+[list]
+[*]在最后的梯子撤离区域添加了碰撞纹理 (clip), 使移动更加流畅
+[*]一些小的视觉效果修复
+[*]对逃生绳梯进行了调整以减少迷惑性 (#1533)
+[/list]
+[h3]nmo_cabin[/h3]
+[list]
+[*]缩短了油桶爆炸造成伤害的持续时间
+[/list]
+[h3]nmo_chinatown[/h3]
+[list]
+[*]修复了枪店中灭火器的淡出距离过近的问题
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]为拉杆底座添加发光效果
+[*]在某个房子里添加了配电箱以掩盖一棵穿模的树
+[*]修复了实体 music_manager 在紧张状态时未播放正确音效的问题 (#1604)
+[*]修复了当拉杆掉到带电水坑中造成的卡关问题 (#1537)
+[*]修复了当任务物品被扔到无法到达的地方后导致的卡关问题 (#1548)
+[/list]
+[h3]nmo_fema[/h3]
+[list]
+[*]修复了初始出生点旁石膏墙面的反射问题
+[*]调整了丧尸的导航路径
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]修复了地图末尾的路障点无法钉木板的问题 (#1561)
+[*]修复了无敌点 (#1605)
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]修复了无敌点 (#1605)
+[/list]
+[h3]nmo_shoreline[/h3]
+[list]
+[*]禁用了大屋上层卧室周围区域的丧尸重生 (仅限休闲和经典难度)
+[*]修复了站在船尾斜坡上可以进入撤离区域下方的问题
+[*]提高了急救包的刷新率
+[*]小幅调整以使地图寻路更加方便
+[/list]
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]修复了墓地砖墙上缺失的 X 标记
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]修复了房子里某些道具的淡出距离过近的问题
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]修复了可以使用军用箱子阻挡区域入口的问题
+[*]修复了地点 A 中路障道具的视觉错误
+[/list]
+[h3]nms_northway[/h3]
+[list]
+[*]修复了灭火器的淡出距离过近的问题
+[/list]
+</string><string id="subtitle">包含了 64 位支持, Steam 网络, 最新版的起源引擎, 还有更多!</string><string id="summary">端口映射成为过去! 通过 Steam 网络轻松创建属于您的公开或仅限好友的游戏, 同时享受最新版起源引擎带来的各种新特性吧.</string><string id="title">地狱已满网络联机更新 (1.15) 已发布</string></content>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content><string id="body">Wydano update do No More Room in Hell. Update zostanie zastosowany automatycznie po ponownym uruchomieniu gry No More Room in Hell. Najważniejsze zmiany obejmują:
+
+[b]Hotfix z 6 października:[/b] Wydaliśmy update dla serwerów dedykowanych, który naprawia problem z losowymi spawnerami tworzącymi ten sam loot oraz sporadyczne crashe podczas ataków zombie.
+Update jest opcjonalny, ale zachęcamy wszystkich administratorów społeczności do jego zastosowania.
+
+[h2]Nowości[/h2]
+[list]
+[*]Dodano wsteczną kompatybilność dla plików demo — naprawia problem z wcześniej nagranymi demami, które się nie odtwarzały
+[*]Dodano obsługę proporcjonalnych czcionek w napisach (tekst napisów nie jest już mały przy rozdzielczościach wyższych niż 1080p)
+[/list]
+
+[h2]Zmiany[/h2]
+[list]
+[*]Zoptymalizowano sprawdzanie zdolności zombie w pobliżu graczy — poprawa wydajności na mapach z dużą liczbą atakujących zombie
+[*]Dostosowano ustawienia sieciowe serwera w celu zmniejszenia opóźnień na zatłoczonych mapach
+
+[*]Zaktualizowano pliki lokalizacyjne:
+[list]
+[*]Podziękowania dla tłumaczy społeczności: [b]Blueberryy, Klowby, MakinDay, marcielcps, Plazehorta[/b]
+[*]Chcesz przetłumaczyć NMRiH na swój język? [url=https://github.com/nmrih/nmrih-localization-files]Odwiedź nasze repozytorium lokalizacyjne na GitHubie.[/url]
+[/list]
+[/list]
+
+[h2]Poprawki[/h2]
+[list]
+[*]Naprawiono zamachy bronią białą traktujące postacie jako przeszkody, co powodowało niespójne trafienia i brak rejestrowania wszystkich śladów z łuku zamachu
+[*]Naprawiono brak zadawania obrażeń encjom, na które gracz patrzy bezpośrednio (np. łamliwe deski)
+[*]Naprawiono brak krwi na modelach widoku (#1444)
+[*]Naprawiono brak przyznawania punktów za zabijanie przemienionych zombie w trybie survival
+[*]Naprawiono potencjalne crashe serwera spowodowane nieaktualnymi referencjami do encji w pamięci
+[*]Naprawiono rzadki crash związany z kompensacją opóźnień
+[*]Naprawiono problemy wydajności serwera związane z zombie i spawnerami overlorda
+[*]Naprawiono resetowanie opcji cieni do wartości „Medium”
+[*]Naprawiono skrzynie z zaopatrzeniem zamykające się natychmiast, nawet gdy użytkownik znajdował się w zasięgu
+[*]Naprawiono skrzynie z zaopatrzeniem, które nie sprawdzały dystansu użycia po podpięciu do ruchomego rodzica
+[*]Naprawiono nieprawidłowe usuwanie dodatków Warsztatu z listy menedżera dodatków po anulowaniu subskrypcji
+[/list]
+
+[h2]Zmiany dla twórców map i modderów[/h2]
+[list]
+[*]Dodano autouzupełnianie dla komendy konsoli „script_execute”
+[*]Dodano opcję widoczności „Unlisted” w publikatorze Warsztatu (#1351)
+[*]Naprawiono dźwięki „ambient_fmod”, które nie podążały za ruchomymi rodzicami lub źródłowymi encjami
+[*]Naprawiono crash podczas generowania nav przy obecności bone followers
+[*]Naprawiono brak uwzględniania zmodyfikowanych zombie zmieniających classname w powiadomieniach o śmierci
+[*]Naprawiono brak powrotu do tej samej mapy po użyciu „nav_generate”
+[*]Następujące encje nie wymagają już edictów: env_soundscape, func_zombie_spawn
+[*]MapHack: Naprawiono brak działania $remove_all dla encji serwerowych (#1447)
+[*]MapHack: Naprawiono zawieszanie się przy pre-entity $edit_all
+[*]VScript: Dodano funkcje CBaseEntity GetGroundEntity() oraz SetGroundEntity()
+[*]VScript: Dodano powiązania CFuncZombieSpawn
+[*]VScript: Dodano powiązania CFunc_SafeZone
+[*]VScript: Dodano powiązania CNMRiH_BarricadePoint
+[*]VScript: Dodano powiązania CNMRiH_HealthStationLocation
+[*]VScript: Dodano powiązania COverlord_Zombie_Helper
+[*]VScript: Dodano stałe atrybutów nav mesh
+[*]VScript: Dodano funkcje NavMesh NavAreaBuildPath() oraz GetNavAreasFromBuildPath()
+[*]VScript: Dodano stałe drużyn (TEAM_ANY, TEAM_UNASSIGNED itd.)
+[*]VScript: Naprawiono crash przy używaniu metod NavMesh
+[*]VScript: Naprawiono problem z „logic_script” wywołującym funkcje, których nie jest właścicielem
+[*]VScript: Naprawiono przechwytywanie hooka PassesDamageFilter przez „filter_script” (#1434)
+[*]VScript: Naprawiono potencjalny crash przy użyciu debug overlay na serwerze dedykowanym
+[*]VScript: Naprawiono encje tylko-serwerowe używające nieprawidłowo root scope dla skryptów
+[/list]
+
+[h2]Zmiany dla administratorów serwerów[/h2]
+[list]
+[*]Dodano cvar „sv_item_give”, przełączający współdzielenie przedmiotów medycznych
+[*]Naprawiono parametr linii komend „-tickrate”, który nie działał na serwerach dedykowanych Linux
+[/list]
+
+[h1]Mapy[/h1]
+
+[h3]nmo_broadway2 / nmo_brooklyn / nmo_cleopas[/h3]
+[list]
+[*]Dostosowano przenikanie
+[/list]
+
+[h3]nmo_fema[/h3]
+[list]
+[*]Naprawiono nieprawidłowy kąt drzewa (prop)
+[*]Dostosowano przenikanie i cubemapy
+[/list]
+
+[h3]nmo_shelter[/h3]
+[list]
+[*]Podniesiono poziom gruntu w sekcji kanałów, aby usunąć wymóg „crouch jump” nad zainfekowaną wodą
+[/list]
+
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Naprawiono unoszący się drut kolczasty przy forcie z opon
+[*]Dostosowano przenikanie
+[/list]
+
+[h3]nmo_zephyr[/h3]
+[list]
+[*]Drobne poprawki
+[/list]
+
+[h3]nms_arpley[/h3]
+[list]
+[*]Naprawiono cubemapy
+[/list]
+
+[h3]nms_camilla[/h3]
+[list]
+[*]Naprawiono błąd, w którym podpowiedź instruktora podążała za graczem, który aktywował przycisk
+[/list]
+
+[h3]nms_laundry[/h3]
+[list]
+[*]Alejki wokół strefy B są teraz grywalnym obszarem
+[*]Przebudowano obszar spawnu zombie przy stacji benzynowej, aby zapobiec blokowaniu się zombie w framudze drzwi
+[/list]
+
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.4 Wydany</string></content>

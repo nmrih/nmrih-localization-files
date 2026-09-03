@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">地狱已满的版本更新现已发布, 更新将会在您重新启动游戏时自动应用, 新版本的主要变化包含以下内容:
+
+[h2]新增内容[/h2]
+[list]
+[*]为离线单人游戏添加了增强支持, 在 "创建服务器" 对话框中将最大玩家数设置为 "1" 即可启用
+[/list]
+[h2]已修复内容[/h2]
+[list]
+[*]修复 跑尸会下意识地加速并追上玩家的行为问题 (这个补丁已经在 1.14.1 版本的热修复中应用)
+[*]修复 贴花 (decal) 在回合重启时溢出, 导致弹孔和血迹等其他效果在某些地图上消失的问题
+[*]修复 NPC 在被冻结时不会受到伤害的问题
+[*]修复 游戏出现网络丢包时狙击镜有时不会隐藏的问题
+[/list]
+[h2]地图设计与模组制作改动[/h2]
+[list]
+[*]添加 实体 "point_worldtext", 用于在其原点 (origin) 展示一条面向世界的文本信息
+[*]修复 参数 "sv_freeze_zombies_on_spawn" 在撤离阶段时被强制设定, 从而可能导致游戏规则 (ruleset) 无效的问题
+[*]修复 实体 "filter_activator_name" 过滤行为不正确的问题
+[*]修复 实体 "item_custom" 在被装备后与移动的门碰撞会崩溃的罕见问题
+[*]修复 静态贴花在回合重启时错误的重新生成, 最终导致贴花溢出的问题, 带有字段 targetname 的动态贴花不受影响
+[*]修复 丧尸不会攻击挡住它们的 "npc_bullseye" 实体, 而仍将玩家作为目标的问题
+[*]FMOD: 修复由地图打包的音频文件未被预缓存, 导致玩家加入服务器后听不见的问题
+[*]Ruleset: 为脚本添加 "Include" 关键字
+[*]VScript: 添加 CBaseAnimating 函数 GetModelScale(), 和 SetModelScale()
+[*]VScript: 添加 CNavMesh 函数 FindNavAreaAlongRay(), GetAreasWithAttributes(), GetNavAreasOverlappingEntityExtent(), GetObstructingEntities(), 和 NavAreaTravelDistance()
+[*]VScript: 添加 CNMRiH_Player 函数 IsInBarricadingMode(), 和 IsPlacingBoard()
+[*]VScript: 添加 CPointWorldText 绑定
+[*]VScript: CNavMesh 函数 GetNavAreasFromBuildPath(startArea, goalArea, goalPos ...) 目前接受将 null 传给参数 "goalArea", 用于计算出离 "goalPos" 尽可能最近的路径
+[*]VScript: 优化 CConvars 函数, 由脚本和游戏规则注册过的参数 (cvar) 目前获取数值将变得更加高效
+[/list]
+[h2]服务器管理员改动[/h2]
+[list]
+
+[*]添加通过参数 (cvar) 禁用物品的功能:
+[list]
+
+[*]添加 参数 "sv_ban_items", 包含禁用物品的实体名的列表, 由 ',' 分隔, 例如 "sv_ban_items me_fubar,exp_tnt,item_pills"
+[*]添加 参数 "sv_ban_items_on_entities", 将禁用物品列表应用给放置的散落实体 (例如由地图作者放置的物品)
+[*]添加 参数 "sv_ban_items_on_random_spawners", 将禁用物品列表应用给随机生成器
+[*]添加 参数 "sv_ban_items_on_supplies", 将禁用物品列表应用给补给箱
+[*]添加 参数 "sv_ban_items_override", 用于地图和脚本等使用的, 由游戏规则 (ruleset) 验证的额外禁用列表
+[/list]
+
+[*]添加第一批 传统参数 (legacy cvars), 允许服务器回滚旧版改动, 可能会影响社区玩法 (丧尸行为的参数已经在 1.14.1 版本中提前发布)
+[list]
+
+[*]添加 参数 "sv_barricade_sounds", 障碍木板受损时播放撞击声
+[*]添加 参数 "sv_bow_fix_wallbang", 修复弓箭能够穿透墙壁
+[*]添加 参数 "sv_bullet_impulse", 开启子弹冲击, 根据不同弹药类型将产生更明显的击退效果
+[*]添加 参数 "sv_cancel_throw_drop", 修复玩家在收起武器后按住丢弃键存储投掷蓄力的漏洞
+[*]添加 参数 "sv_chainsaw_fix_charge_glitch", 修复电锯可以蓄力造成额外伤害的漏洞
+[*]添加 参数 "sv_chainsaw_fix_use_entity_glitch", 修复电锯在使用物品 (例如: 补给箱) 时无限燃料的漏洞
+[*]添加 参数 "sv_dropallammo", 允许在弹药轮盘中点击右键丢弃所有弹药
+[*]添加 参数 "sv_etool_allow_shove_during_switch", 允许玩家在切换工兵铲状态时推击
+[*]添加 参数 "sv_extinguisher_use_distance", 携带灭火器的玩家和触发进度条间的使用距离
+[*]添加 参数 "sv_flame_legacy", 为燃烧击杀启用旧版伤害追踪 (v1.12.3 之前)
+[*]添加 参数 "sv_flare_gun_apply_radius_damage", 信号弹能够产生小范围爆炸, 会影响道具 (prop), 窗户, 玩家/NPC 等等
+[*]添加 参数 "sv_flare_gun_fix_oob_supply_drop", 信号弹空投会落在玩家的位置以避免超出边界
+[*]添加 参数 "sv_flare_gun_passthrough_glass", 信号弹可以穿透玻璃且不会在接触时爆炸
+[*]添加 参数 "sv_flare_gun_passthrough_player", 信号弹可以在友军伤害关闭时穿透玩家
+[*]添加 参数 "sv_grenade_angular_impulse_max", 扔出手雷后使其旋转的作用力
+[*]添加 参数 "sv_grenade_angular_impulse_min", 同上
+[*]添加 参数 "sv_grenade_infect_bypass", 被炸死的感染玩家不会转变为丧尸
+[*]添加 参数 "sv_gunshot_suicide", 允许玩家用枪自杀
+[*]添加 参数 "sv_hide_ammo_hud_on_fire", 开火后隐藏 HUD 弹药提示
+[*]添加 参数 "sv_initial_sprint_stamina_penalty", 开始冲刺时消耗的体力值
+[*]添加 参数 "sv_item_pickup_sound", 拾取物品时播放音效
+[*]添加 参数 "sv_medical_allow_use_underwater", 允许在水下使用医疗道具
+[*]添加 参数 "sv_medical_audible_sounds", 其他玩家可以听见医疗道具的使用音效
+[*]添加 参数 "sv_medical_instant_apply", 医疗道具立刻生效 (模拟 v1.07)
+[*]添加 参数 "sv_melee_impact_style", 0 = 无, 1 = 经典, 2 = 挥动弧线上产生粒子效果
+[*]添加 参数 "sv_molotov_always_burn", 燃烧弹总是引起火焰, 无论击中何处
+[*]添加 参数 "sv_npc_frozen_death_immunity", 冻结的 NPC 不会死亡, 模拟 v1.14.1 的漏洞行为
+[*]添加 参数 "sv_npc_goal_repath_tolerance", 默认值 120.0, 以阻止跑尸追上移动中的玩家
+[*]添加 参数 "sv_player_bullet_force_accumulator", 为玩家的布娃娃 (ragdoll) 应用子弹冲击力
+[*]添加 参数 "sv_player_death_music", 玩家死亡时播放音乐
+[*]添加 参数 "sv_player_duck_on_crawler_grab", 允许玩家被爬尸抓住时蹲下
+[*]添加 参数 "sv_player_fix_hitbox_desync", 修复玩家上下看时碰撞箱 (hitbox) 不同步的问题
+[*]添加 参数 "sv_player_follow_ragdoll", 在死亡后摄像机跟随玩家尸体移动
+[*]添加 参数 "sv_player_grab_ff_immunity", 被丧尸抓住的玩家不会受到友军伤害
+[*]添加 参数 "sv_player_spawn_sound", 在玩家重生时播放本地音效
+[*]添加 参数 "sv_player_water_splash", 玩家在水中会产生水花效果
+[*]添加 参数 "sv_realism_fix_bullet_penetration", 修复在写实模式下子弹不会穿透的问题
+[*]添加 参数 "sv_realism_fix_crawler_damage", 默认情况下, 对爬尸身体造成的伤害不会为零, 因为其碰撞箱难以命中
+[*]添加 参数 "sv_shove_allow_during_firemode_change", 允许玩家在切换开火模式时推击
+[*]添加 参数 "sv_shove_allow_during_ironsight", 允许玩家在抬起/落下枪械瞄准时推击
+[*]添加 参数 "sv_shove_allow_during_pickup", 允许玩家在搬运道具时推击
+[*]添加 参数 "sv_shove_drain_stamina_on_world_hit", 推击命中世界时, 会消耗体力 (例如: 墙壁, 障碍物)
+[*]添加 参数 "sv_shove_stab_sound", 在合适的推击下播放刺击音效 (例如: 用 SKS 刺刀推击时)
+[*]添加 参数 "sv_suicide_disallow_while_using", 禁止在使用触发进度条时用枪自杀
+[*]添加 参数 "sv_suicide_infect_score", 在感染后用枪自杀获得分数
+[*]添加 参数 "sv_suicide_play_impact_sound", 用枪自杀时播放撞击音效
+[*]添加 参数 "sv_voicecmd_common_sounds", 常见音效例如流血时, 使用隐藏语音指令
+[*]添加 参数 "sv_voicesubtitles", 在聊天栏中启用语音字幕
+[*]添加 参数 "sv_weapon_unload", 允许卸下枪械弹药
+[*]添加 参数 "sv_zippo_extinguish_underwater", zippo 打火机在水下会熄灭且无法点燃
+[*]添加 参数 "sv_zombie_always_attack_bullseye", 丧尸不会把 npc_bullseyes 视作障碍物, 设置为 0 时, 会模拟 v1.14.1 的漏洞行为
+[*]添加 参数 "sv_zombie_pound_sound", 丧尸攻击障碍木板, 道具, 墙壁等等时, 会播放撞击音效
+[/list]
+
+[/list]
+[h1]地图改动[/h1]
+
+[h3]nmo_shoreline[/h3]
+[list]
+[*]在大屋主入口的门上添加了障碍设置点
+[*]修复了大屋入口的楼梯上可行走的边缘
+[*]小的视觉调整 
+[*]调整了丧尸的生成和路径导航
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">版本更新 1.14.2 已发布</string></content>

@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_junction_Street_door"	"Wydostań się z bezpiecznego schronienia"
+	"nmo_junction_Break_front"	"Włam się do sklepu"
+	"nmo_junction_Turn_off_alarm"	"Wyłącz alarm"
+	"nmo_junction_Exploding_door"	"Dostań się do apartamentów przez alejkę"
+	"nmo_junction_Use_radio"	"Znajdź sposób, aby wezwać pomoc"
+	"nmo_junction_Weld_door"	"Znajdź palnik, aby przejść przez magazyn"
+	"nmo_junction_Pawnshop_fense_door"	"Otwórz drzwi do lombardu"
+	"nmo_junction_pawnshop_door_code"	"Wprowadź kod dostępu"
+	"nmo_junction_Office_progress"	"Znajdź alternatywną drogę wyjścia z budynku"
+	"nmo_junction_Find_sewer_key"	"Znajdź klucz do kanałów i na dobre uciekaj z miasta"
+	"nmo_junction_Finale_tnt"	"Umieść trzy ładunki wybuchowe w tunelu, aby zabezpieczyć ucieczkę"
+}
+}

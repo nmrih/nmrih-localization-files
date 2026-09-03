@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">[img]{STEAM_CLAN_IMAGE}/4458555/2709c86b52ba089c3dad345fccba0133190b8373.png[/img]
+
+[previewyoutube=AxVKaCgfyWs;full][/previewyoutube]
+Aktualizacja do No More Room in Hell została wydana. Aktualizacja zostanie zainstalowana automatycznie po ponownym uruchomieniu No More Room in Hell. Do większych zmian zalicza się:
+
+[h1]Nowe Mapy[/h1]
+[h3]Asylum [Objective] (autor: DrHammer)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/538e4ea189370be93f7ecb75b6c44232bcd8e22d.png[/img]
+
+[i]Potwory, Muzyka i Więcej. Czy jest lepszy sposób na spędzenie wakacji niż wędrówka po starym azylu? Zbierz znajomych i ostro imprezujcie na najnowszej mapie Asylum. Jakie horrory czekają na ciebie we wrakach festiwalu Hell-o-ween Hellapalooza w Grimwood? Jest tylko jeden sposób, by się tego dowiedzieć. Załóżcie więc kostiumy, wypchajcie policzki cukierkami i przestudiujcie okultystyczne rytuały, bo to będzie piekielnie dobra zabawa![/i]
+
+[h3]Laundry [Survival] (autor: Atheist, oryginalna mapa autorstwa Payne'a, Sotapoika'i)[/h3]
+
+[img]{STEAM_CLAN_IMAGE}/4458555/06001879bde56347d26f4b6892da69c42bba8552.png[/img]
+
+[i]Cóż to? Wszystkie cukierki rozpuściły się i poplamiły twój nowy kostium, a można go czyścić tylko chemicznie!? Cóż, więc lepiej wpadnij do pralni i wyczyść te wdzianka! Teraz otwarte 24/7![/i]
+
+[h2]Dodatkowe informacje[/h2]
+[list]
+[*]Dodano cvar "sv_kill_player_on_disconnect", zabija rozłączającego się gracza, zanim opuści on serwer
+
+[*]Dodano modyfikatory rozgrywki dla gry lokalnej i sieciowej, zwane „mutatorami”:
+
+[list]
+[*]Dodano cvar "sv_mutators", lista trwałych mutatorów z ',' separatorem
+[*]Dodano wybór mutatora w oknie dialogowym tworzenia gry
+[*]Aby dodać nowe mutatory, przejdź do katalogu „nmrih/rulesets/mutators” i utwórz nowe skrypty, przykłady są załączone
+[/list]
+
+[*]Dodano kompensację opóźnienia do zamachów w walce wręcz
+[*]Dodano osiągnięcia ukończenia mapy dla nmo_asylum i nms_laundry
+[*]Dodano nowe ikony powiadomień o śmierci dla różnych samookaleczeń (upadek, utonięcie, infekcja itp.)
+[*]Dodano opcję dla tanich efektów uderzeniowych
+[*]Dodano obsługę dźwięków otoczenia 3D przy użyciu systemu dźwiękowego FMOD.
+[*]Dodano obsługę lokalizacji specyficznej dla mapy
+[/list]
+[h2]Zmiany[/h2]
+[list]
+[*]Wszystkie ograniczenia głosowania obserwatorów (w tym martwych graczy) są teraz kontrolowane przez cvar „sv_vote_allow_spectators”, „sv_vote_allow_dead_call_vote” zostało usunięte, ponieważ jest zbędne
+[*]Budowanie barykady jest teraz słyszalne dla innych graczy
+[*]Domyślne ekrany ładowania nie mają już tekstur klawiatury
+[*]Wymuszenie czasu wstrzymania na kamerach do ekstrakcji, aby zapobiec ich zbyt wczesnemu opuszczeniu
+[*]Zainfekowani gracze nie otrzymują już obrażeń od sojuszników gdy zostają chwyceni (#1324)
+[*]Zainfekowani gracze, którzy się rozłączą, pozostawiają za sobą przemienionego zombie (#1063)
+[*]Długie napisy w dialogach zostały podzielone na segmenty (obecnie w ograniczonej liczbie języków)
+[*]Ślady walki wręcz nie powodują już obrażeń od sojuszników, jeśli trafiony gracz został chwycony podczas zamachu
+[*]Zamachy i pchnięcia w walce wręcz są teraz słyszalne dla innych graczy (#1333)
+[*]Podczas śmierci kamera patrzy teraz na ragdolla, a nie przez niego
+[*]Gracze nie są już zamrażani podczas wydobywania
+[*]Gracze nie mogą już podnosić granatów w locie, dopóki pocisk nie wyląduje lub nie odbije się od ziemi
+[*]Uniemożliwiono wybór koła kierunkowego amunicji po kliknięciu prawym przyciskiem myszy, aby uniknąć niezamierzonego upuszczenia innego typu amunicji
+
+[*]Poprawki w tablicy wyników:
+[list]
+
+[*]Zmieniono czcionkę
+[*]Teraz wyświetla liczbę graczy
+[*]Kliknięcie prawym przyciskiem myszy będzie teraz przełączać kursor zamiast kliknięcia lewym
+[/list]
+
+[*]Serwer pomija teraz klatki animacji NPC w celu zwiększenia wydajności
+
+[*]Zmiany w Warsztacie po stronie serwera:
+[list]
+
+[*]Dodano komendę „workshop_remove_all”, usuwającą wszystkie mapy z listy
+[*]Komunikaty o błędach są teraz mniej nieprecyzyjne
+[*]Teraz wyświetla postęp pobierania
+[/list]
+
+[*]Rzucane granaty przechodzą teraz przez graczy, gdy przyjacielski ogień jest wyłączony
+
+[*]Zaktualizowane pliki lokalizacyjne:
+[list]
+
+[*]Podziękowania dla tłumaczy społecznościowych: Blueberryy, Holy Crap, IBRS-4Ever, Klowby, marcielcps, Plazehorta
+[*]Chcesz przetłumaczyć NMRiH na swój język? [url=https://github.com/nmrih/nmrih-localization-files]Visit nasze repozytorium tłumaczeń w serwisie GitHub.[/url]
+[/list]
+[/list]
+[h2]Poprawki[/h2]
+[list]
+[*]Naprawiono krwawienie, które nie zatrzymywało się po ekstrakcji
+[*]Naprawiono brak lokalizacji powodów nieważności wyzwań
+[*]Naprawiono wyniki wyzwań wyświetlające nazwę z poprzednich map po włączeniu losowych celów
+[*]Naprawiono ciąg znaków „Następny / Poprzedni / Podgląd”, którego nie można było zlokalizować
+[*]Naprawiono czołgacze nie otrzymujące śmiertelnych obrażeń od strzałów w głowę w trybie realizmu (#1317)
+[*]Naprawiono brak stosowania bieżącej prędkości do ragdolla gracza po śmierci
+[*]Naprawiono zduplikowane dźwięki modelu widoku podczas obserwacji w pierwszej osobie
+[*]Naprawiono ekstremalny impuls kątowy przy rzucie granatem
+[*]Naprawiono błąd „Trudno podnosić przedmioty na wyzwalaczach postępu broni” (#1328)
+[*]Naprawiono błąd „KeyValues”, jeśli opis dodatku zawiera zastrzeżone znaki” (#1318)
+[*]Naprawiono błąd „Zarys celu ma pierwszeństwo przed zarysem ekwipunku” (#1338)
+[*]Naprawiono błąd „Problemy z wydajnością powodowane przez wystrzał/odłamki piły łańcuchowej” (#1291)
+[*]Naprawiono błąd „Gracze mogą przejąć trwające wyzwalacze postępu” (#1326)
+[*]Naprawiono błąd „Gracze, którzy dołączą później, nie otrzymają aktualnego celu” (#1329)
+[*]FNaprawiono rzadki błąd z niezamykającym się UI skrzynki z zaopatrzeniem
+[*]Naprawiono liczniki czasu odrodzenia i rozpoczęcia rundy wyświetlające „0 sekund”
+[*]Naprawiono fałszywie pozytywne wyniki walidacji zestawu reguł
+[*]Naprawiono błąd „Bagnet SKS trafia w pole ograniczające zombie” (#913)
+[*]Naprawiono możliwość oddawania głosów przez obserwatorów
+[*]Naprawiono obrócone zombie, które czasami traciły kolizje
+[*]Naprawiono AI zombie błędnie szukające osłony, gdy nie udawało się gonić wroga
+[*]Naprawiono błąd „Zombie pozostają zamrożone przez zbyt długi czas po kamerze ekstrakcji” (#1325)
+[/list]
+[h2]Zmiany dla mapperów i moderów[/h2]
+[list]
+[*]Dodano komendę „ruleset_include”, która łączy nowy zestaw reguł z aktywnym, zastępując wartości, jeśli są dostępne
+[*]Dodano entity „ambient_fmod”: Ta jednostka działa jak „ambient_generic”, ale używa systemu dźwiękowego FMOD do odtwarzania, np. do odtwarzania kilku innych formatów plików (takich jak .ogg)
+[*]Dodano funkcję „ załączania” zestawów reguł, zaprojektowanych dla mutatorów rozgrywki
+[*]Dodano nadpisanie gęstości odradzania zdefiniowanej na mapie dla „func_zombie_spawn”, aby naprawić błąd polegający na resetowaniu gęstości odradzania po ponownym uruchomieniu rundy
+[*]Dodano opcjonalną obsługę zastępowania czasu podglądu wyodrębniania czasem wstrzymania kamery (#1323)
+[*]Dodano komunikat „ObjectiveUpdate” do aktualizacji tekstu celu bez wymuszania powiadomienia
+[*]Dodano usermessage „MovePointMessage”, który przenosi istniejący punkt bez aktualizowania innych właściwości, pobiera indeks i współrzędne wektorowe
+[*]Zmieniono teksturę „defaultcubemap.vtf”
+[*]Tekst entity „point_message_multiplayer” podąża teraz za rodzicem ruchu (#1316)
+[*]Naprawiono nieprawidłowe działanie wejścia „BecomeCrawler” na zombie runnerach
+[*]Naprawiono wejście „BecomeCrawler” zmieniające dziecięce zombie w crawlery
+[*]Naprawiono „mouseclickimage” nie działający ze starszymi przyciskami menu głównego
+[*]Przywrócono i naprawiono brakujący model „hand_truck”, który zakłócał kompatybilność niestandardowych map
+[*]Entity działające tylko na serwerze mogą teraz mieć rodziców w ruchu
+
+[*]VScript:
+[list]
+
+[*]Dodano CNMRiH_BaseZombie::IsKid()
+[*]Naprawiono wartości activator, caller itp. niedziałające w RunScriptCode i powiązanych danych wejściowych
+[*]Naprawiono niedziałające hooks CBaseEntity FireBullets() i ModifyEmitSoundParams()
+[*]Naprawiono CBasePlayer nie wywodzący się z CInfectableCharacter
+[*]Naprawiono crash ObjectiveManager.StartNextObjective(), gdy funkcja ta została wywołana podczas rozgrzewki
+[/list]
+[/list]
+[h1]Mapy[/h1]
+
+[h3]Wszystkie mapy:[/h3]
+[list]
+[*]Dodano więcej arbuzów
+[*]Skompresowano pakfiles w celu zmniejszenia rozmiaru instalacji
+[*]Zastąpiono tekst gry podpowiedziami instruktorskimi
+[/list]
+[h3]nmo_broadway[/h3]
+[list]
+[*]Iskry na drzwiach wyłączają się teraz po zatrzymaniu pracy spawarki
+[/list]
+[h3]nmo_brooklyn[/h3]
+[list]
+[*]Dodano dźwięk możliwego do ugaszenia ognia na ulicy
+[*]Zmieniono zachowanie arbuza w przypadku kolizji
+[*]Możliwy do ugaszenia ogień na ulicy zadaje teraz obrażenia zombie
+[*]Naprawiono wyzwalacz zranienia włączony w furgonetce w garażu
+[/list]
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Poprawione klipy
+[/list]
+[h3]nmo_junction[/h3]
+[list]
+[*]Dodano opóźnienie w przypadku wybuchu propanu
+[*]Iskry na drzwiach wyłączają się teraz po zatrzymaniu pracy spawarki
+[/list]
+[h3]nmo_lakeside[/h3]
+[list]
+[*]Dodano opóźnienie w przypadku wybuchu propanu
+[*]Helikopter nie zabija już graczy natychmiastowo
+[/list]
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Naprawiono zepsuty krajobraz dźwiękowy ulicy
+[*]Naprawiono brak dźwięku śmigłowca wydobywającego (#1330)
+[/list]
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Naprawiono kilka miejsc zablokowania przedmiotów w pobliżu odrodzenia
+[*]Naprawiono wóz strażacki, który nie rzucał cieni
+[*]Naprawiono wiele miejsc, w których przedmioty związane z zadaniami mogły utknąć
+[*]Naprawiono niektóre pływające propy i krzaki
+[*]Usunięto kolizje z niektórych małych propów
+[*]Usunięto bezużyteczny zrzut zaopatrzenia
+[*]Przerobiona ucieczka vanem
+[*]Poprawione przenikanie krzaków
+[*]Zaktualizowano skrypty MapHack, aby działały z nowymi plikami .bsp
+[*]Różne drobne poprawki
+[/list]
+[h3]nmo_shelter[/h3]
+[list]
+[*]Dodano kilka wskazówek instruktorskich
+[*]Dodano nowy cel między dźwignią a ostatnim celem
+[*]Poprawione przenikania
+[/list]
+[h3]nmo_suzhou[/h3]
+[list]
+[*]Naprawiono najlepsze miejscówki za ladą i drzwiami ewakuacyjnymi w ostatnim obszarze
+[/list]
+[h3]nmo_underground[/h3]
+[list]
+[*]Dodano więcej światła w motelu
+[*]Dodano więcej punktów pojawiania się spawarki
+[*]Zmieniono dźwięk pętli w obszarze podziemnym
+[*]Ogień nie zabija teraz graczy natychmiastowo (tylko jeśli próbują przejść za nim)
+[*]Poprawione przenikanie i nawigacja
+[/list]
+[h3]nmo_zephyr[/h3]
+[list]
+[*]Naprawiono nierealistyczne odbicie brudu w kanałach ściekowych
+[/list]
+[h3]nms_arpley[/h3]
+[list]
+[*]Dodano wyzwalacz obrażeń dla pociągu
+[/list]
+[h3]nms_campblood[/h3]
+[list]
+[*]Dodano odradzanie się graczy podczas ewakuacji
+[/list]
+[h3]nms_drugstore[/h3]
+[list]
+[*]Różne optymalizacje
+[/list]
+[h3]nms_favela[/h3]
+[list]
+[*]Zmieniono wydobycie, teraz helikopter przylatuje przed rozpoczęciem wydobycia w nieco innym miejscu
+[/list]
+[h3]nms_flooded[/h3]
+[list]
+[*]Dodano 10 sekund do czasu wydobywania
+[/list]
+[h3]nms_midwest[/h3]
+[list]
+[*]Poprawione przenikania
+[/list]
+</string><string id="subtitle">Zawiera dwie nowe mapy, mnóstwo funkcji, ulepszeń i jeszcze więcej poprawek.</string><string id="summary">Potwory, muzyka i nie tylko. Czy jest lepszy sposób na spędzenie wakacji niż przemierzanie starego Azylu? Zbierz przyjaciół i ostro imprezuj - nowa aktualizacja zawartości NMRiH jest już dostępna!</string><string id="title">NMRiH Hell-o-ween Hellapalooza (Update 1.13 Wydany)</string></content>

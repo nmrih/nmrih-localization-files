@@ -247,7 +247,7 @@
 "[english]ServerBrowser_LastPlayed"	"Last played"
 "ServerBrowser_BlacklistedDate"	"Svartelistet dato"
 "[english]ServerBrowser_BlacklistedDate"	"Blacklisted date"
-"ServerBrowser_OfflineMode"	"Steam er for øyeblikket i offline-modus. Internett-spill vil ikke være tilgjengelige før du starter\nSteam på nytt mens du er koblet til Internett."
+"ServerBrowser_OfflineMode"	"Steam er for øyeblikket i frakoblet modus. Internett-spill vil ikke være tilgjengelige før du starter\nSteam på nytt mens du er koblet til Internett."
 "[english]ServerBrowser_OfflineMode"	"Steam is currently in Offline Mode. Internet games will not be available until you restart\nsteam while connected to the Internet."
 "ServerBrowser_ConnectToServer"	"Koble til tjener"
 "[english]ServerBrowser_ConnectToServer"	"Connect to server"

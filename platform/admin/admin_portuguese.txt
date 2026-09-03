@@ -331,7 +331,7 @@
 "[english]Graph_Players"	"Players"
 "Graph_Uptime"	"Tempo de atividade do servidor"
 "[english]Graph_Uptime"	"Server Uptime"
-"Graph_Total_Players"	"Número total de jogadores"
+"Graph_Total_Players"	"Total de jog."
 "[english]Graph_Total_Players"	"Total Players"
 "Graph_Vertical_Units"	"Unidades verticais"
 "[english]Graph_Vertical_Units"	"Vertical Units"

@@ -139,7 +139,7 @@
 "[english]ServerBrowser_BlacklistTab"	"Blacklisted Servers"
 "ServerBrowser_GameInfoTitle"	"Spelinformation"
 "[english]ServerBrowser_GameInfoTitle"	"Game Info"
-"ServerBrowser_AddToFavorites"	"Lägg i Favoriter"
+"ServerBrowser_AddToFavorites"	"Lägg till i favoriter"
 "[english]ServerBrowser_AddToFavorites"	"Add To Favorites"
 "ServerBrowser_GameInfoWithNameTitle"	"Spelinformation - %game%"
 "[english]ServerBrowser_GameInfoWithNameTitle"	"Game Info - %game%"

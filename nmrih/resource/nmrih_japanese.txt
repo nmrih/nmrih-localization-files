@@ -359,7 +359,7 @@
 "Hint_Advanced_LowStaminaVulnerable" "スタミナが少ないと非常に危険だ。 防御行動が一切できなくなる。"
 "Hint_Advanced_LowStaminaBreathing" "スタミナが少なくなると、キャラクターが必死に呼吸する声が聞こえてくる。"
 "Hint_Advanced_LowStaminaMovement" "スタミナが少なくなったらスプリントをやめよう。 移動速度が歩くよりも遅くなる。"
-"Hint_Advanced_FlareGunSupplies" "サバイバルマップをプレイしているときにフレアを空に放つと、追加の補給物資がドロップする(1ラウンドにつき1回)。"
+"Hint_Advanced_FlareGunSupplies" "サバイバルマップをプレイしているときにフレアを空に放つと、追加の補給物資が投下される(1ラウンドにつき1回)。"
 
 } 
 }   

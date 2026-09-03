@@ -1,0 +1,15 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_boardwalk_Objectives_Radio"	"Użyj radia, aby wezwać pomoc"
+	"nmo_boardwalk_Objectives_Door"	"Znajdź klucz, aby otworzyć drzwi"
+	"nmo_boardwalk_Objectives_Survive"	"Przetrwaj"
+	"nmo_boardwalk_Objectives_Secure"	"Wytrzymaj, aż nadejdzie pomoc"
+	"nmo_boardwalk_Objectives_Propane"	"Przebij się przez barykadę"
+	"nmo_boardwalk_Objectives_Can"		"Spal przeszkodę"
+	"nmo_boardwalk_Objectives_Gauntlet"	"Przedostań się do bezpiecznego domu"
+	"nmo_boardwalk_Objectives_Signal"	"Rozpal ogień sygnałowy"
+}
+}

@@ -23,5 +23,6 @@
 	"nmo_shoreline_obj_callextraction"	"Use o rádio para pedir ajuda"
 	"nmo_shoreline_obj_flare"	"Sinalize para a extração com um sinalizador"
 	"nmo_shoreline_evac"	"O resgate chega em 2 minutos. Proteja o ponto de evacuação!"
+	"nmo_shoreline_alert"	"Alguém está sinalizando para a extração!"
 }
 }

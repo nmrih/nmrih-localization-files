@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">No More Room in Hell 更新已發布。只需重新啟動 No More Room in Hell 即可自動更新。主要的更新有：
+
+[h2]新增[/h2]
+[list]
+[*]新增強化的離線單人遊戲支援，在「創建伺服器」視窗中將玩家人數上限設為「1」時生效
+[/list]
+[h2]修正[/h2]
+[list]
+[*]修正奔跑殭屍行為中會導致它們不正常加速並逮到玩家的問題 (此項修正已在前段時間 1.14.1 的 hotfix 中更新)
+[*]修正回合開始時的貼花溢出，導致彈孔與血跡等在特定地圖中消失的問題
+[*]修正凍結 NPC 無法招架
+[*]修正遊戲在發生連線封包遺失情形時，瞄準鏡的貼圖不見得會隱藏
+[/list]
+[h2]為地圖模組者製作進行的更動[/h2]
+[list]
+[*]新增 entity "point_worldtext"，在其世界中的原點顯示一段文字訊息
+[*]修正 cvar "sv_freeze_zombies_on_spawn" 在撤離階段時被強制設定，可能導致規則設定無效
+[*]修正 entity "filter_activator_name" 不正確的過濾行為 
+[*]修正當裝備中的 "item_custom" 接觸到可動的門時，可能產生的罕見崩潰情形
+[*]修正靜態貼花在回合重啟時不正確地重生而導致貼花上限溢出，有 targetname 的動態貼花則維持不變
+[*]修正殭屍鎖定玩家卻忽略阻擋它們攻勢的 "npc_bullseye" entity
+[*]FMOD: 修正包裝在地圖中的音訊檔沒有預先載入，使其在客戶端進入伺服器時變得無法聽見
+[*]規則設定: 給腳本新增 "Include" 關鍵字
+[*]VScript: 新增 CBaseAnimating functions GetModelScale() 與 SetModelScale()
+[*]VScript: 新增 CNavMesh functions FindNavAreaAlongRay(), GetAreasWithAttributes(), GetNavAreasOverlappingEntityExtent(), GetObstructingEntities(), and NavAreaTravelDistance()
+[*]VScript: 新增 CNMRiH_Player functions IsInBarricadingMode() 與 IsPlacingBoard()
+[*]VScript: 新增 CPointWorldText bindings
+[*]VScript: CNavMesh function GetNavAreasFromBuildPath(startArea, goalArea, goalPos ...) 的 "goalArea" 現在可接受 null 的範圍，以計算出前往 "goalPos" 最短的路徑
+[*]VScript: 最佳化 CConvars functions, 為腳本與規則設定所登記的 cvar 取得數值將變得更有效率
+[/list]
+[h2]為伺服器管理者進行的更動[/h2]
+[list]
+
+[*]新增透過 cvar 禁用物件的能力：
+[list]
+
+[*]新增 cvar "sv_ban_items", 顯示禁用的物件 entity 名稱列表，以「,」作分隔，例：「sv_ban_items me_fubar,exp_tnt,item_pills」
+[*]新增 cvar "sv_ban_items_on_entities", 在不綁死的 entity 上加上禁用清單 (如地圖製作者放置的物件)
+[*]新增 cvar "sv_ban_items_on_random_spawners", 在隨機產生器上加上禁用清單
+[*]新增 cvar "sv_ban_items_on_supplies", 在補給箱中加上禁用清單
+[*]新增 cvar "sv_ban_items_override", 地圖或腳本等所攜帶的額外規則設定禁用清單
+[/list]
+
+[*]新增第一批「舊版控制台參數(cvar)」，以利伺服器返回一些導致它們社群遊戲規則受到影響的變動 (殭屍行為相關 cvar 在先前的 1.14.1 已提供)
+[list]
+
+[*]新增 cvar "sv_barricade_sounds", 在木板障礙受擊時播放撞擊音效
+[*]新增 cvar "sv_bow_fix_wallbang", 修正可穿牆的弓箭
+[*]新增 cvar "sv_bullet_impulse", 開啟子彈衝擊，可基於不同彈藥種類產生更顯著的布娃娃擊退效果
+[*]新增 cvar "sv_cancel_throw_drop", 修正一個在收回武器後玩家可以持續按住「丟棄」鍵來儲存丟擲武器蓄力的錯誤
+[*]新增 cvar "sv_chainsaw_fix_charge_glitch", 修正電鋸可以蓄力產生加乘傷害的錯誤
+[*]新增 cvar "sv_chainsaw_fix_use_entity_glitch", 修正電鋸在使用物件 (如補給箱) 時會有無限燃料的錯誤
+[*]新增 cvar "sv_dropallammo", 允許在圓盤選單按下右鍵一次丟棄所有彈藥
+[*]新增 cvar "sv_etool_allow_shove_during_switch", 允許玩家在更換工兵鏟型態時推殭屍
+[*]新增 cvar "sv_extinguisher_use_distance", 玩家可對進度觸發區使用滅火器的距離
+[*]新增 cvar "sv_flame_legacy", 舊版的燃燒殺敵計算追蹤方式 (v1.12.3 之前)
+[*]新增 cvar "sv_flare_gun_apply_radius_damage", 使信號彈產生可影響物件、窗戶、玩家/NPC 等的小範圍爆炸
+[*]新增 cvar "sv_flare_gun_fix_oob_supply_drop", 使信號槍空投補給箱投放在玩家位置上以避免落到活動範圍外
+[*]新增 cvar "sv_flare_gun_passthrough_glass", 使信號彈穿透玻璃，不在接觸時引爆
+[*]新增 cvar "sv_flare_gun_passthrough_player", 使信號彈在隊友傷害關閉時穿透玩家
+[*]新增 cvar "sv_grenade_angular_impulse_max", 影響使手榴彈等投擲武器擲出後旋轉的施力
+[*]新增 cvar "sv_grenade_angular_impulse_min", 同上
+[*]新增 cvar "sv_grenade_infect_bypass", 使受感染的玩家在被炸死時不會轉化
+[*]新增 cvar "sv_gunshot_suicide", 允許舉槍自盡
+[*]新增 cvar "sv_hide_ammo_hud_on_fire", 使射擊時隱藏 HUD 彈藥提示
+[*]新增 cvar "sv_initial_sprint_stamina_penalty",  開始衝刺時的體力消耗量
+[*]新增 cvar "sv_item_pickup_sound", 使撿起物品時撥放音效
+[*]新增 cvar "sv_medical_allow_use_underwater", 允許在水下使用醫療道具
+[*]新增 cvar "sv_medical_audible_sounds", 使其他玩家可聽見使用醫療道具的聲音
+[*]新增 cvar "sv_medical_instant_apply", 醫療道具瞬間使用 (模擬 v1.07)
+[*]新增 cvar "sv_melee_impact_style", 0 = 無, 1 = 經典, 2 = 圓弧上的粒子效果
+[*]新增 cvar "sv_molotov_always_burn", 使燃燒彈不論丟到哪都能引起火勢
+[*]新增 cvar "sv_npc_frozen_death_immunity", 凍結的 NPC 不會死，模擬 v1.14.1 的錯誤行為模式
+[*]新增 cvar "sv_npc_goal_repath_tolerance", 預設值為 120.0，避免奔跑殭屍逮到移動中的玩家
+[*]新增 cvar "sv_player_bullet_force_accumulator", 使子彈衝擊力施在玩家的布娃娃上
+[*]新增 cvar "sv_player_death_music", 使死亡時撥放音樂
+[*]新增 cvar "sv_player_duck_on_crawler_grab", 允許玩家在被爬行殭屍抓住時蹲下
+[*]新增 cvar "sv_player_fix_hitbox_desync", 修正向上看與向下看時 hitbox 同步錯誤
+[*]新增 cvar "sv_player_follow_ragdoll", 使鏡頭在死亡時跟隨玩家的布娃娃
+[*]新增 cvar "sv_player_grab_ff_immunity", 使被抓住的玩家不會受到隊友傷害
+[*]新增 cvar "sv_player_spawn_sound", 使玩家出生時撥放本機音效
+[*]新增 cvar "sv_player_water_splash", 使玩家產生水花
+[*]新增 cvar "sv_realism_fix_bullet_penetration", 修正寫實模式時子彈無法貫穿
+[*]新增 cvar "sv_realism_fix_crawler_damage", 預設下，爬行殭屍身體的傷害不會無效，因為它們的 hitbox 太難命中了
+[*]新增 cvar "sv_shove_allow_during_firemode_change", 允許玩家在切換射擊模式時推殭屍
+[*]新增 cvar "sv_shove_allow_during_ironsight", 允許玩家在舉槍瞄準與離開瞄準過程中推殭屍
+[*]新增 cvar "sv_shove_allow_during_pickup", 允許玩家在舉起物件時推殭屍
+[*]新增 cvar "sv_shove_drain_stamina_on_world_hit", 若推到世界物件，則消耗耐力
+[*]新增 cvar "sv_shove_stab_sound", 在相應的推中撥放刺傷的音效 (SKS 刺刀)
+[*]新增 cvar "sv_suicide_disallow_while_using", 在使用進度時不允許進入舉槍自盡
+[*]新增 cvar "sv_suicide_infect_score", 在受感染時舉槍自盡的得分
+[*]新增 cvar "sv_suicide_play_impact_sound", 在自轟時撥放槍擊音效
+[*]新增 cvar "sv_voicecmd_common_sounds", 使用隱藏的語音指令發出如流血受傷的常見音效
+[*]新增 cvar "sv_voicesubtitles", 在聊天文字介面中顯示語音字幕
+[*]新增 cvar "sv_weapon_unload", 允許卸除槍械彈藥
+[*]新增 cvar "sv_zippo_extinguish_underwater", 打火機在水中熄滅且無法點燃
+[*]新增 cvar "sv_zombie_always_attack_bullseye", 設為 0 時，殭屍不視 npc_bullseyes 為阻礙，模擬 v1.14.1 的錯誤行為
+[*]新增 cvar "sv_zombie_pound_sound", 殭屍在攻擊木板、道具、牆壁等時撥放撞擊音效
+[/list]
+
+[/list]
+[h1]地圖[/h1]
+
+[h3]nmo_shoreline[/h3]
+[list]
+[*]在小屋正門增加木板設置點
+[*]修正小屋入口樓梯上面的可走動邊緣
+[*]一些小視覺更動
+[*]微調殭屍的生成與路徑
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">更新 1.14.2 釋出</string></content>

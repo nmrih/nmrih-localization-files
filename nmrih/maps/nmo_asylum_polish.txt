@@ -1,0 +1,27 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_asylum_Objective_Lobby_1"		"Dotrzyj do lobby"
+	"nmo_asylum_Objective_Lobby_NoWeld"	"Dotrzyj do lobby"
+	"nmo_asylum_Objective_Drain"		"Zejdź do piwnicy i spuść wodę z pryszniców"
+	"nmo_asylum_Objective_Wet_Key"		"Odblokuj schowek z zapasami"
+	"nmo_asylum_Objective_Room_Key"		"Odblokuj schowek z zapasami"
+	"nmo_asylum_Objective_Traverse"		"Przejdź przez piwnicę i wróć na parter"
+	"nmo_asylum_Objective_Welder"		"Przetnij palnikiem otwór wentylacyjny"
+	"nmo_asylum_Objective_Bomb"		"Wysadź barykadę"
+	"nmo_asylum_Objective_Power"		"Otwórz rolety bezpieczeństwa"
+	"nmo_asylum_Objective_Goto_Attic"	"Przejdź przez sypialnie na piętrze"
+	"nmo_asylum_Objective_Drop"		"Przejdź przez sypialnie na piętrze"
+	"nmo_asylum_Objective_Attic"		"Przeszukaj strych"
+	"nmo_asylum_Objective_Court"		"Przejdź przez dziedziniec"
+	"nmo_asylum_Objective_Summon_Alt"	"Zakończ rytuał"
+	"nmo_asylum_Objective_Summon_Alt2"	"Zakończ rytuał"
+	"nmo_asylum_Objective_Summon"		"Ukończ rytuał"
+	"nmo_asylum_Objective_Defend"		"Broń rytuału"
+	"nmo_asylum_Objective_Intro"		"Pożałuj swoich życiowych wyborów"
+	"nmo_asylum_Objective_StandBack"	"Odsuń się"
+	"nmo_asylum_Objective_Evac"		"Uciekaj!"
+}
+}

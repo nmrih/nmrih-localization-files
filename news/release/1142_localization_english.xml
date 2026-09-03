@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<content><string id="body">An update to No More Room in Hell has been released. The update will be applied automatically when you restart No More Room in Hell. The major changes include:
+
+[h2]Additions[/h2]
+[list]
+[*]Added enhanced support for offline solo play, enabled by selecting "1" for max. players in the "Create Server" dialog
+[/list]
+[h2]Fixes[/h2]
+[list]
+[*]Fixed an issue with runner behavior, where they would unintentionally steer faster and catch players (this patch has been applied in an earlier hotfix for 1.14.1)
+[*]Fixed decal overflow on round restarts, causing bullet holes and blood splatter etc. to disappear on certain maps
+[*]Fixed NPCs being invulnerable while frozen
+[*]Fixed sniper scope overlay not always hiding when the game suffers from network packet loss
+[/list]
+[h2]Changes for mappers and modders[/h2]
+[list]
+[*]Added entity "point_worldtext", displays a text message oriented in the world, at its origin
+[*]Fixed cvar "sv_freeze_zombies_on_spawn" being forcefully set during extraction, which could invalidate rulesets
+[*]Fixed improper filtering behavior on entity "filter_activator_name"
+[*]Fixed rare crash when equipped "item_custom" collides with a moving prop door
+[*]Fixed static decals erroneously respawning on round restart and eventually overflowing the decal limit, dynamic decals with a targetname remain unchanged
+[*]Fixed zombies targeting players instead of "npc_bullseye" entities that obstruct their attacks
+[*]FMOD: Fixed sound files packed by maps not being precached and becoming inaudible when client joins a server
+[*]Ruleset: Added "Include" keyword for scripts
+[*]VScript: Added CBaseAnimating functions GetModelScale(), and SetModelScale()
+[*]VScript: Added CNavMesh functions FindNavAreaAlongRay(), GetAreasWithAttributes(), GetNavAreasOverlappingEntityExtent(), GetObstructingEntities(), and NavAreaTravelDistance()
+[*]VScript: Added CNMRiH_Player functions IsInBarricadingMode(), and IsPlacingBoard()
+[*]VScript: Added CPointWorldText bindings
+[*]VScript: CNavMesh function GetNavAreasFromBuildPath(startArea, goalArea, goalPos ...) now accepts null parameter for "goalArea", to compute a path as close as possible to "goalPos"
+[*]VScript: Optimized CConvars functions, getting values is now more efficient for cvars registered by scripts and rulesets
+[/list]
+[h2]Changes for server admins[/h2]
+[list]
+
+[*]Added ability to ban items via cvars:
+[list]
+
+[*]Added cvar "sv_ban_items", a list of banned item entity names with ',' delimiter, e.g. "sv_ban_items me_fubar,exp_tnt,item_pills"
+[*]Added cvar "sv_ban_items_on_entities", apply item ban list to loose entities (such as items placed by mappers)
+[*]Added cvar "sv_ban_items_on_random_spawners", apply item ban list to random spawners
+[*]Added cvar "sv_ban_items_on_supplies", apply item ban list to supply crates
+[*]Added cvar "sv_ban_items_override", additional ruleset validated ban list for use with maps, scripts etc.
+[/list]
+
+[*]Added first batch of "legacy cvars", in effort to allow servers to rollback changes that may affect their community playstyle (zombie behavior cvars were shipped earlier in 1.14.1)
+[list]
+
+[*]Added cvar "sv_barricade_sounds", play impact sounds when boards get damaged
+[*]Added cvar "sv_bow_fix_wallbang", fix being able to shoot through walls with a bow
+[*]Added cvar "sv_bullet_impulse", turns on bullet impulse, which results in more visible ragdoll knockbacks based on ammo type
+[*]Added cvar "sv_cancel_throw_drop", fixes a glitch where player could hold drop key to store throw charge after holster
+[*]Added cvar "sv_chainsaw_fix_charge_glitch", fixes a bug where chainsaw can be charged to deal extra damage
+[*]Added cvar "sv_chainsaw_fix_use_entity_glitch", fixes a bug where chainsaw has infinite fuel while using something e.g. supply crate
+[*]Added cvar "sv_dropallammo", allow dropping all ammo by right clicking in the radial wheel
+[*]Added cvar "sv_etool_allow_shove_during_switch", allow players to shove while switching e-tool mode
+[*]Added cvar "sv_extinguisher_use_distance", how close to a progress trigger player must be with a fire extinguisher in order to use it
+[*]Added cvar "sv_flame_legacy", legacy tracking for flame kills (pre-v1.12.3)
+[*]Added cvar "sv_flare_gun_apply_radius_damage", projectile generates a small explosion that affects props, windows, players/NPCs and so on
+[*]Added cvar "sv_flare_gun_fix_oob_supply_drop", crates drop on player position to avoid out of bounds
+[*]Added cvar "sv_flare_gun_passthrough_glass", projectile passes through glass and won't explode on contact
+[*]Added cvar "sv_flare_gun_passthrough_player", projectile passes through players when friendly fire is off
+[*]Added cvar "sv_grenade_angular_impulse_max", apply forces to make grenades spin after throwing
+[*]Added cvar "sv_grenade_angular_impulse_min", same as above
+[*]Added cvar "sv_grenade_infect_bypass", infected players dying by explosion won't turn
+[*]Added cvar "sv_gunshot_suicide", allow gunshot suicides
+[*]Added cvar "sv_hide_ammo_hud_on_fire", hide ammo HUD after firing a shot
+[*]Added cvar "sv_initial_sprint_stamina_penalty", how much stamina does sprint initially spend
+[*]Added cvar "sv_item_pickup_sound", play sound on item pickup
+[*]Added cvar "sv_medical_allow_use_underwater", allow medical item usage underwater
+[*]Added cvar "sv_medical_audible_sounds", other players can hear medical item usage
+[*]Added cvar "sv_medical_instant_apply", medical items apply instantly (emulates v1.07)
+[*]Added cvar "sv_melee_impact_style", 0 = nothing, 1 = classic, 2 = particles across arc
+[*]Added cvar "sv_molotov_always_burn", should molotov always cause an inferno, regardless where it hits
+[*]Added cvar "sv_npc_frozen_death_immunity", frozen NPCs won't die, emulates glitched v1.14.1 behavior
+[*]Added cvar "sv_npc_goal_repath_tolerance", default value of 120.0 prevents runner zombies from catching moving players
+[*]Added cvar "sv_player_bullet_force_accumulator", apply bullet forces to player ragdolls
+[*]Added cvar "sv_player_death_music", play a tune on death
+[*]Added cvar "sv_player_duck_on_crawler_grab", allow players to duck when a crawler grabs them
+[*]Added cvar "sv_player_fix_hitbox_desync", fixes hitbox desync when looking up and down
+[*]Added cvar "sv_player_follow_ragdoll", camera follows player ragdoll on death
+[*]Added cvar "sv_player_grab_ff_immunity", grabbed players won't take friendly fire
+[*]Added cvar "sv_player_spawn_sound", play local sound on player spawn
+[*]Added cvar "sv_player_water_splash", players generate splashes on water
+[*]Added cvar "sv_realism_fix_bullet_penetration", fixes bullets not penetrating on realism mode
+[*]Added cvar "sv_realism_fix_crawler_damage", by default, body damage isn't zeroed on crawlers, as their hitboxes are difficult to hit
+[*]Added cvar "sv_shove_allow_during_firemode_change", allow players to shove during fire mode change
+[*]Added cvar "sv_shove_allow_during_ironsight", allow players to shove during ironsight raise/lower animation
+[*]Added cvar "sv_shove_allow_during_pickup", allow players to shove while carrying a prop
+[*]Added cvar "sv_shove_drain_stamina_on_world_hit", if shove hits world, drain stamina
+[*]Added cvar "sv_shove_stab_sound", play stab sound on applicable shove (SKS bayonet)
+[*]Added cvar "sv_suicide_disallow_while_using", disallow contemplating while using a progress trigger
+[*]Added cvar "sv_suicide_infect_score", score for gunshot suiciding while infected
+[*]Added cvar "sv_suicide_play_impact_sound", play impact sound on gunshot suicide
+[*]Added cvar "sv_voicecmd_common_sounds", common sounds such as bleeding use hidden voice commands
+[*]Added cvar "sv_voicesubtitles", enable voice subtitles in chat
+[*]Added cvar "sv_weapon_unload", allow unloading of firearms
+[*]Added cvar "sv_zippo_extinguish_underwater", zippo extinguishes underwater and can't be ignited
+[*]Added cvar "sv_zombie_always_attack_bullseye", zombies don't consider npc_bullseyes as obstructions, when 0, it emulates glitched v1.14.1 behavior
+[*]Added cvar "sv_zombie_pound_sound", zombies play impact sounds when pounding barricades, props, walls, etc.
+[/list]
+
+[/list]
+[h1]Maps[/h1]
+
+[h3]nmo_shoreline[/h3]
+[list]
+[*]Added barricade point on cabin main entrance door
+[*]Fixed pixelwalk above cabin entrance stairs
+[*]Small visual changes
+[*]Tweaked zombie spawning and navigation
+[/list]
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.14.2 Released</string></content>

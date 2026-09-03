@@ -1,0 +1,16 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_anxiety_Obj1"	"Przetnij zasłonę"
+	"nmo_anxiety_Obj2"	"Ugaś ogień"
+	"nmo_anxiety_Obj3"	"Zniszcz barykadę"
+	"nmo_anxiety_Obj4"	"Podnieś bramę"
+	"nmo_anxiety_Obj5"	"Opuść stację metra"
+	"nmo_anxiety_Obj6"	"Wejdź po drabinie na ogrodzenie"
+	"nmo_anxiety_Obj7"	"Przedrzyj się przez parking"
+	"nmo_anxiety_Obj8"	"Odblokuj drzwi szpitala"
+	"nmo_anxiety_Obj9"	"Znajdź klucze do kampera"
+}
+}

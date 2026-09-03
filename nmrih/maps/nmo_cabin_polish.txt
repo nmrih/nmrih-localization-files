@@ -1,0 +1,18 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_cabin_objStart"	"Wydostań się ze strychu"
+	"nmo_cabin_ObjA"	"Znajdź klucze, aby odblokować drzwi"
+	"nmo_cabin_ObjB"	"Zniszcz deski, aby przejść dalej"
+	"nmo_cabin_ObjC"	"Rodzina jest odpowiedzią, znajdź tajną księgę"
+	"nmo_cabin_ObjD"	"Odblokuj bramkę na schodach"
+	"nmo_cabin_ObjE"	"Wysadź ścianę chaty"
+	"nmo_cabin_ObjF"	"Włóż księgę na półkę"
+	"nmo_cabin_ObjG"	"Przetnij palnikiem drzwi kuchni"
+	"nmo_cabin_ObjH"	"Podłącz ponownie linię telegraficzną"
+	"nmo_cabin_ObjI"	"Znajdź akumulator samochodowy, uruchom generator i wezwij pomoc!"
+	"nmo_cabin_ObjG2"	"Przejdź przez podziemia"
+}
+}

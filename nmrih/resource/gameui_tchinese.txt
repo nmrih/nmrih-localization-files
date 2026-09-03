@@ -53,6 +53,7 @@
 "NMRiH_Advanced_cl_stickyironsight"	"啟用切換式瞄準"
 "NMRiH_Advanced_cl_voicesubtitles"	"啟用聊天室語音字幕"
 "NMRiH_Advanced_cl_ejectbrass"		"啟用彈殼彈出"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"啟用手電筒陰影 (耗費效能)"
 "NMRiH_Advanced_cl_muzzle_dlight"	"啟用槍口動態光線 (耗費效能)"
 "NMRiH_Advanced_cl_disablehtmlmotd"	"停用 HTML 本日訊息"
 "NMRiH_Advanced_fov_allow_change"	"視角寬度可在遊戲中變化"
@@ -72,6 +73,14 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"彈著點特效品質"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高，有殘骸效果"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低，無殘骸效果"
+"NMRiH_Advanced_cl_predictpickup"		"舉起物件預判"
+"NMRiH_Advanced_cl_predictpickup_0"		"不預判位置"
+"NMRiH_Advanced_cl_predictpickup_1"		"永遠預判位置"
+"NMRiH_Advanced_cl_predictpickup_2"		"僅預判目標物件"
+"NMRiH_Advanced_cl_radialfog"		"放射式霧氣效果偏好"
+"NMRiH_Advanced_cl_radialfog_-1"	"依地圖決定"
+"NMRiH_Advanced_cl_radialfog_0"		"永遠關閉 (經典霧氣效果)"
+"NMRiH_Advanced_cl_radialfog_1"		"永遠開啟"
 
 "NMRiH_Difficulty"	"難易度"
 
@@ -86,8 +95,17 @@
 "NMRiH_GameType_PVP"		"對戰"
 "NMRiH_GameType_Minigame"		"小遊戲"
 
+"NMRiH_Server"				"類型"
+"NMRiH_Server_Solo"			"單人遊戲"
+"NMRiH_Server_LAN"			"區域網路"
+"NMRiH_Server_Public"		"公開"
+"NMRiH_Server_FriendsOnly"	"僅限好友"
+"NMRiH_Server_Unlisted"		"不公開"
+
 "NMRiH_LAN"	"僅限區域網路"
-"NMRiH_Coplay"			"使用 Coplay (Steam 網路)"
+"NMRiH_Coplay"			"使用 Steam 網路"
+
+"NMRiH_Server_Tooltip"	"選擇一個伺服器類別 (Steam 網路):\n單人遊戲：進行離線遊戲。\n區域網路：主持一個區域網路遊戲。\n公開：主持一個公開遊戲。\n僅限好友：僅限邀請的遊戲。\n不公開：不列在伺服器瀏覽器上。"
 
 "NMRiH_Difficulty_Tooltip"		"選擇一個難易度。\n經典：標準設定，重生點啟用。\n休閒：持續重生，重生時給予武器。\n惡夢：增加殭屍生命值、密集度與感染風險。\n對戰：開啟對戰分數與死亡訊息並關閉殭屍與目標。"
 "NMRiH_Map_Time_Tooltip"		"地圖時間限制。"
@@ -96,7 +114,7 @@
 "NMRiH_RealismMode_Tooltip"		"在寫實模式中，重生點將被停用、殭屍只有頭部會受到傷害，且不論何種彈藥均能一發爆頭。"
 "NMRiH_HardcoreSurvival_Tooltip"	"隱藏生存模式中的抬頭顯示。"
 "NMRiH_Max_Players_Tooltip"		"玩家人數限制，至多 8 人，設為 1 人即可單人進行遊戲。"
-"NMRiH_Coplay_Tooltip"	"Coplay 可藉由 Steam 網路進行 P2P 連線。有利於移除通訊埠轉發 (Port fowarding) 的需求。"
+"NMRiH_Coplay_Tooltip"	"以 Steam 網路進行 P2P 連線。有利於移除通訊埠轉發 (Port fowarding) 的需求。"
 "NMRiH_AdvOptions"			"進階選項…"
 "NMRiH_AdvOptions_Tooltip"		"編輯進階遊戲選項。"
 
@@ -345,6 +363,7 @@
 "Addon_Manager_ApplyChanges"	"套用變更"
 "Addon_Manager_InvalidAddon"	"此插件不相容。"
 "Addon_Manager_MultiSelect"	"[%s1 已選擇]"
+"Addon_Manager_DefaultDesc"			"沒有提供描述。"
 
 "Addon_Manager_DropMenu_Disable"		"停用"
 "Addon_Manager_DropMenu_ShowInfo"		"顯示資訊"
@@ -548,5 +567,17 @@
 "VPKTools_Error_BadVersion"	"VPK 版本不支援。"
 "VPKTools_Error_BannedFileExtension"	"發現禁用檔案擴充。"
 "VPKTools_Error_CfgFilesNotAllowed"	"不允許配置 (cfg) 檔，請移除 VPK 中的 \"cfg\" 資料夾。"
+
+"UGC_ObjectiveMaps"						"目標地圖"
+"UGC_SurvivalMaps"						"生存地圖"
+"UGC_CustomMaps"						"自訂地圖"
+"UGC_PlayerSkins"						"玩家外觀"
+"UGC_WeaponSkins"						"武器外觀"
+"UGC_ModelPacks"						"模型包"
+"UGC_SoundPacks"						"音效包"
+"UGC_HUD_UI"							"HUD / UI"
+"UGC_Scripts_Resources"					"腳本 / 資源"
+"UGC_Mutators"							"調整器"
+"UGC_Miscellaneous"						"雜項"
 } 
 }  

@@ -18,5 +18,10 @@
 	"nmo_underground_car"			"Толкайте машину!"
 	"nmo_underground_sos"			"Нарисуйте знак «S.O.S»!"
 	"nmo_underground_gen"			"Включите генератор!"
+	"nmo_underground_pliers"		"Найдите кусачки, чтобы разрезать замок!"
+	"nmo_underground_propane"		"Взорвите баллон с пропаном в нужном месте!"
+	"nmo_underground_code"			"Найдите код, чтобы двигаться дальше!"
+	"nmo_underground_hack"			"Используйте свои компьютерные навыки, чтобы выбраться из этого тоннеля!"
+	"nmo_underground_go"			"Пройдите через складские помещения!"
 }
 }

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content><string id="body">Wydano update do No More Room in Hell. Update zostanie zastosowany automatycznie po ponownym uruchomieniu gry No More Room in Hell. Najważniejsze zmiany obejmują:
+
+[h2]Nowości[/h2]
+[list]
+[*]Dodano możliwość podniesienia amunicji, gdy nie mieści się w ekwipunku gracza
+[*]Dodano cvar „cl_melee_impact_effects” umożliwiający włączanie / wyłączanie efektów cząsteczkowych trafień bronią białą
+[/list]
+
+[h2]Zmiany[/h2]
+[list]
+[*]Zmniejszono efekty trafień piły łańcuchowej na postaciach (#1414)
+[*]Zmniejszono rozmiar instalacji gry poprzez kompresję różnych tekstur
+[*]Usunięto wymóg posiadania znajomych z osiągnięcia „Drużyna HAZMAT”; nowy cel to „Zabij 500 zombie przy 6 lub większej liczbie graczy”
+[*]Wyświetlane jest ostrzeżenie o kompatybilności podczas gry z użyciem środowiska Linux na Steam Decku
+[*]Wyświetlany jest wskaźnik ładowania podczas pobierania awatara użytkownika
+
+[*]Zaktualizowano pliki lokalizacyjne:
+[list]
+[*]Podziękowania dla tłumaczy społeczności: [b]Blueberryy, BloodyMoonlight, Klowby, MakinDay, marcielcps, MsLGXC, Plazehorta[/b]
+[*]Chcesz przetłumaczyć NMRiH na swój język? [url=https://github.com/nmrih/nmrih-localization-files]Odwiedź nasze repozytorium lokalizacyjne na GitHubie.[/url]
+[/list]
+[/list]
+
+[h2]Poprawki[/h2]
+[list]
+[*]Naprawiono wyrównanie tekstu przy użyciu podziałów linii w komunikatach center print
+[*]Naprawiono używanie źródła dźwięku encji przez flagę „Play everywhere” w ambient_fmod (#1426)
+[*]Naprawiono brak działania zasady spawnu opancerzonych zombie dla „npc_nmrih_runnerzombie” (#1432)
+[*]Naprawiono model samochodu powodujący crash klientów (#1436)
+[*]Naprawiono brak pełnej nieprzezroczystości cienia czcionki na czacie
+[*]Naprawiono crash przy dołączaniu gracza, gdy główny kontroler mgły zostanie usunięty
+[*]Naprawiono nadmierne efekty trafień na niektórych obiektach (#1421)
+[*]Naprawiono fałszywy błąd „Invalid BSP” w publikatorze Warsztatu (#1416)
+[*]Naprawiono tryb nieśmiertelności, jeśli gracz spawnuje się w trakcie cutscenki (#1411)
+[*]Naprawiono ślady broni białej ignorujące obiekty i ściany (#1415)
+[*]Naprawiono drobne problemy wydajności podczas renderowania
+[*]Naprawiono wyświetlanie pustej listy w oknie mutatorów po pozostawieniu go otwartego i zamknięciu panelu „create game”
+[*]Naprawiono FOV celu obserwatora, który nie korzystał z ustawień użytkownika
+[*]Naprawiono niewyśrodkowanie tekstu wiadomości punktowych
+[*]Naprawiono wyświetlanie błędnych danych w wiadomościach punktowych przy częstych aktualizacjach
+[*]Naprawiono potencjalny crash związany z encją „game_ui”
+[*]Naprawiono kilka shaderów żądających wartości dla niezdefiniowanych tekstur bazowych
+[*]Naprawiono brak precache materiału skillshot
+[/list]
+
+[h2]Zmiany dla twórców map i modderów[/h2]
+[list]
+[*]Dodano cvar „sv_ignore_win_loss_state”, zapobiegający zakończeniu rundy przy wygranej / przegranej — przydatne dla niestandardowych trybów gry
+[*]Dodano kilka encji do danych gry Hammer, w tym „generic_actor” z wyborem modelu / skórki oraz sekwencje skryptowe
+[*]Dodano właściwość powierzchni „bouncyball”
+[*]Usunięto nieużywane encje z danych gry Hammer
+[*]Encja „point_message_multiplayer” pozwala teraz na zmianę właściwości przez keyvalues
+[*]Następujące encje nie wymagają już edictów: env_instructor_hint, env_timer, game_text, logic_progress, logic_script, player_speedmod, point_message_multiplayer, scripted_sequence
+[*]Rozszerzono encję „prop_sphere” o możliwość dostosowania promienia
+[*]Ulepszono encję „point_message_multiplayer” — tekst płynnie podąża za rodzicem ruchu bez drgań, a offset wysokości można zmieniać
+[*]MapHack: Naprawiono crash serwera związany z $remove (#1425)
+[*]MapHack: Ograniczono niebezpieczne encje w potencjalnie ryzykownych funkcjach
+[*]Zaktualizowano typy obrażeń „trigger_hurt”, aby odpowiadały nadpisaniom NMRiH w Hammerze
+[*]Zaktualizowano teksturę edytora VPhysics clip
+[*]VScript: Dodano interfejs CNavMesh oraz klasę CScriptNavArea
+[*]VScript: Dodano CNMRiH_BaseZombie::GetShoved()
+[*]VScript: Dodano funkcje CNMRiH_WeaponBase SetViewModelOverride() oraz ClearViewModelOverride()
+[/list]
+
+[h2]Zmiany dla administratorów serwerów[/h2]
+[list]
+[*]Dodano cvar „sv_vote_initial_delay”, określający czas w sekundach przed możliwością rozpoczęcia pierwszego głosowania po starcie mapy (#1431)
+[*]Dodano nadpisywanie sieciowych cvarów; nowe to „sv_net_maxcleartime_override” oraz „sv_net_splitrate_override”
+[/list]
+
+[h1]Mapy[/h1]
+
+[h3]Wszystkie mapy[/h3]
+[list]
+[*]Naprawiono podpowiedzi instruktora podążające za graczami, którzy wchodzili w interakcję z celami
+[/list]
+
+[h3]nmo_boardwalk[/h3]
+[list]
+[*]Dostosowano przenikanie
+[*]Naprawiono blokowanie się shamblerów w oknach podczas celu „Survive”
+[/list]
+
+[h3]nmo_broadway2[/h3]
+[list]
+[*]Dostosowano VPhysics przenikanie
+[/list]
+
+[h3]nmo_cabin[/h3]
+[list]
+[*]Naprawiono brak flagi „debris” dla arbuza
+[/list]
+
+[h3]nmo_cleopas[/h3]
+[list]
+[*]Dodano kilka VPhysics przenikań
+[*]Obrócono spawn gracza na drugim piętrze z myślą o speedrunnerach
+[/list]
+
+[h3]nmo_lakeside[/h3]
+[list]
+[*]Drobna poprawka tekstury bluszczu
+[/list]
+
+[h3]nmo_quarantine[/h3]
+[list]
+[*]Dodano dach do baru w wewnętrznej strefie kwarantanny, ponieważ był widoczny, oraz kilka dodatkowych detali
+[*]Dodano skrzynie w pobliżu ciężarówki FastEx przy cmentarzu, aby gracze mogli podbić się ponad zombie blokujące wąskie gardło
+[*]Dodano VPhysics przenikanie w kanałach, gdzie przedmioty celu mogły zostać utracone
+[*]Dodano arbuzy
+[*]Zaryglowano drzwi, prosimy ich nie otwierać
+[*]Naprawiono błąd, w którym po podniesieniu krótkofalówki gracze mogli nieskończenie wywoływać dialog żołnierza i zniszczyć wszystkim bębenki
+[*]Naprawiono drobne przycięcie renderowania na początku kanałów
+[*]Naprawiono wiele przypadków widocznych tylnych stron displacementów
+[*]Naprawiono nieprawidłowe renderowanie czerwonego X na łamliwej sklejce przy spawnie
+[*]Naprawiono widoczne nodraw w Parku
+[*]Przeprowadzono dużą optymalizację całej mapy
+[*]Obniżono budynek w skyboxie, który psuł immersję, unosząc się w powietrzu pod pewnymi kątami
+[*]Gracze mogą teraz wejść na kontener w alejce przy pralni
+[*]Usunięto brush przenikania utrudniający zamierzony projekt
+[*]Kontener w alejce przy pralni płonie
+[*]Ogień w wewnętrznej strefie kwarantanny jest teraz słyszalny
+[*]Dostosowano nav mesh, aby zmniejszyć szanse blokowania się zombie w niektórych miejscach
+[/list]
+
+[h3]nmo_rockpit[/h3]
+[list]
+[*]Dodano dystanse wygaszania dla wielu obiektów
+[*]Naprawiono cząsteczki ognia na powierzchni, które czasami były niewidoczne
+[*]Naprawiono nieprawidłowe brushe
+[*]Poprawiono nawigację zombie w budynku na powierzchni
+[*]Inne drobne optymalizacje i poprawki
+[/list]
+
+[h3]nmo_toxteth / nmo_toxtethdark[/h3]
+[list]
+[*]Dostosowano przenikanie
+[/list]
+
+[h3]nmo_underground[/h3]
+[list]
+[*]Dodano kilka obiektów
+[*]Dostosowano VPhysics przenikanie
+[/list]
+
+[h3]nms_arpley[/h3]
+[list]
+[*]Zmniejszono obrażenia pociągu dla graczy, aby zapobiec natychmiastowej śmierci
+[/list]
+
+[h3]nms_favela[/h3]
+[list]
+[*]Dodano pałeczki świetlne, aby wyraźniej wskazać miejsce wydobycia
+[*]Zastąpiono nieużywalną drabinę rekwizytową drabiną wolnostojącą, aby uniknąć nieporozumień
+[/list]
+
+[h3]nms_isolated[/h3]
+[list]
+[*]Różne drobne poprawki
+[/list]
+
+[h3]nms_laundry[/h3]
+[list]
+[*]Dodano elektryczną pułapkę w strefie A
+[*]Dodano kilka detali
+[*]Dodano lampę naftową w strefie B
+[*]Zmieniono wartość parametru ammo_min „0” na „10” w losowych spawnerach, aby zapobiec spawnom „pustych” skrzynek z amunicją
+[*]Różne drobne poprawki
+[*]Przeniesiono miotacz ognia ze strefy A do strefy B
+[/list]
+
+[h3]nms_midwest[/h3]
+[list]
+[*]Dodano trigger obrażeń do pociągu, aby zapobiec jego blokowaniu i uniemożliwianiu innym graczom wydobycia
+[/list]
+
+</string><string id="subtitle"></string><string id="summary"></string><string id="title">Update 1.13.3 Wydany</string></content>

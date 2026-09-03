@@ -311,7 +311,7 @@
 "ChallengeInvalid"	"挑战结果将不被记录："
 "ChallengeReject_Cheats"	"已开启或使用了作弊模式。"
 "ChallengeReject_CvarChanged"	"在游戏过程中修改了服务器参数。"
-"ChallengeReject_ModifiedRuleset"	"使用了自定义游戏难度或规则集(Ruleset)。"
+"ChallengeReject_ModifiedRuleset"	"使用了自定义游戏难度或规则(Ruleset)。"
 "ChallengeReject_OutsideMapHack"	"加载了自定义 MapHack 脚本。"
 "ChallengeReject_OutsideVScript"	"运行了自定义 VScript 脚本。"
 "ChallengeReject_LateValidate"	"校验系统加载过迟。"

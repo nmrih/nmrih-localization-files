@@ -53,6 +53,7 @@
 "NMRiH_Advanced_cl_stickyironsight"		"Переключение прицела"
 "NMRiH_Advanced_cl_voicesubtitles"		"Субтитры голосовых команд в чате"
 "NMRiH_Advanced_cl_ejectbrass"			"Выпадение гильз\патронов от дробовика после выстрела"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"Включить тени от фонариков (высокое качество)"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Динамическое освещение для вспышек из дула"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Отключить HTML сообщения дня"
 "NMRiH_Advanced_fov_allow_change"		"Разрешить изменять поле зрения во время игры"
@@ -72,6 +73,14 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"Эффекты при ударе объекта"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Высок. качество, с частицами"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Низк. качество, без частиц"
+"NMRiH_Advanced_cl_predictpickup"		"Предсказывать положение переносимого предмета"
+"NMRiH_Advanced_cl_predictpickup_0"		"Не предсказывать положение"
+"NMRiH_Advanced_cl_predictpickup_1"		"Всегда предсказывать положение"
+"NMRiH_Advanced_cl_predictpickup_2"		"Предсказывать только предметы заданий"
+"NMRiH_Advanced_cl_radialfog"		"Радиальный туман"
+"NMRiH_Advanced_cl_radialfog_-1"	"Согласно настройкам карты"
+"NMRiH_Advanced_cl_radialfog_0"		"Всегда выключен (классический туман)"
+"NMRiH_Advanced_cl_radialfog_1"		"Всегда включен"
 
 "NMRiH_Difficulty"		"Сложность"
 
@@ -86,8 +95,17 @@
 "NMRiH_GameType_PVP"			"Игрок против игрока"
 "NMRiH_GameType_Minigame"		"Мини-игры"
 
+"NMRiH_Server"				"Тип"
+"NMRiH_Server_Solo"			"Одиночная игра"
+"NMRiH_Server_LAN"			"Локальная сеть"
+"NMRiH_Server_Public"		"Открытый"
+"NMRiH_Server_FriendsOnly"	"Только для друзей"
+"NMRiH_Server_Unlisted"		"Скрытый"
+
 "NMRiH_LAN"				"Только лок. сеть"
-"NMRiH_Coplay"			"Совместная игра (сетевые функции Steam)"
+"NMRiH_Coplay"			"Сетевые функции Steam"
+
+"NMRiH_Server_Tooltip"	"Выберите тип сервера (для сетевых функций Steam):\nОдиночная игра: Играть без сети.\nЛокальная сеть: Создать игру по лок. сети.\nОткрытый: Доступен в списке серверов.\nТолько для друзей: Игра только для приглашенных друзей.\nСкрытый: Не показывается в списке серверов."
 
 "NMRiH_Difficulty_Tooltip"		"Выбрать уровень сложности.\nКлассика: стандартные настройки, есть точки возрождения.\nСвободный: постоянное возрождение, оружие выдаётся при возрождении.\nКошмар: здоровье зомби, их количество и шанс заражения увеличены.\nИгрок против игрока: очки набираются путём убийства других игроков. Показываются значки убийств, нет зомби и заданий."
 "NMRiH_Map_Time_Tooltip"		"Количество времени на одну карту."
@@ -96,7 +114,7 @@
 "NMRiH_RealismMode_Tooltip"		"В режиме реализма нет точек возрождения, зомби получают урон только от попаданий в голову и, независимо от патронов, выстрелы в голову убивают с одной пули."
 "NMRiH_HardcoreSurvival_Tooltip"	"Зоны не показываются на экране."
 "NMRiH_Max_Players_Tooltip"		"Макс. игроков: максимум 8. Установите значение 1 для одиночной игры."
-"NMRiH_Coplay_Tooltip"	"Совместная игра предоставляет реализацию сетевых функций Steam для пиринговых соединений. Это устраняет необходимость переадресации портов."
+"NMRiH_Coplay_Tooltip"	"Используйте сетевые функции Steam для пиринговых соединений. Это устраняет необходимость переадресации портов."
 "NMRiH_AdvOptions"			"Расширенные..."
 "NMRiH_AdvOptions_Tooltip"		"Изменить расширенные параметры."
 
@@ -345,6 +363,7 @@
 "Addon_Manager_ApplyChanges"		"Применить изменения"
 "Addon_Manager_InvalidAddon"		"Это дополнение несовместимо."
 "Addon_Manager_MultiSelect"		"[выбрано: %s1]"
+"Addon_Manager_DefaultDesc"			"Описание отсутствует."
 
 "Addon_Manager_DropMenu_Disable"		"Отключить"
 "Addon_Manager_DropMenu_ShowInfo"		"Показать информацию"
@@ -548,6 +567,18 @@
 "VPKTools_Error_BadVersion"				"Версия VPK не поддерживается."
 "VPKTools_Error_BannedFileExtension"			"Найдено запрещённое расширение файла."
 "VPKTools_Error_CfgFilesNotAllowed"			"Конфигурация (cfg) файла недопустима к упаковке, пожалуйста удалите папку «cfg» из VPK."
+
+"UGC_ObjectiveMaps"						"Карты на прохождение"
+"UGC_SurvivalMaps"						"Карты на выживание"
+"UGC_CustomMaps"						"Пользовательские карты"
+"UGC_PlayerSkins"						"Облики игрока"
+"UGC_WeaponSkins"						"Облики оружия"
+"UGC_ModelPacks"						"Наборы моделей"
+"UGC_SoundPacks"						"Наборы звуков"
+"UGC_HUD_UI"							"Интерфейс / Меню"
+"UGC_Scripts_Resources"					"Скрипты / Ресурсы"
+"UGC_Mutators"							"Модификаторы"
+"UGC_Miscellaneous"						"Разное"
 } 
 }
 

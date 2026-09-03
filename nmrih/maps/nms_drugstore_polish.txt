@@ -1,0 +1,9 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nms_drugstore_mes1"	"Znajdź 2 płyty ze sklejki przy czerwonych glowstickach, aby zabarykadować to okno."
+	"nms_drugstore_mes2"	"Możesz teraz użyć młotka do barykad na zniszczonym oknie."
+}
+}

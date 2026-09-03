@@ -1,0 +1,9 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nms_campblood_45sec"	"45 sekund do przybycia transportu..."
+	"nms_campblood_welcome"	"Witamy w Campblood"
+}
+}

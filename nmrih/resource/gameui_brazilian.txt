@@ -53,6 +53,7 @@
 "NMRiH_Advanced_cl_stickyironsight"		"Habilitar alternância da mira"
 "NMRiH_Advanced_cl_voicesubtitles"		"Habilitar legendas de voz no bate-papo"
 "NMRiH_Advanced_cl_ejectbrass"			"Habilitar ejetar cartuchos de bala/cartuchos de espingarda"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"Habilitar sombras da lanterna (pesado)"
 "NMRiH_Advanced_cl_muzzle_dlight"		"Habilitar iluminação dinâmica para luzes de disparo (pesado)"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"Desabilitar HTML MOTD"
 "NMRiH_Advanced_fov_allow_change"		"O FOV pode ser alterado pela jogabilidade"
@@ -72,6 +73,14 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"Impacto na qualidade do efeito"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"Alta, com detritos"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"Baixo, sem detritos"
+"NMRiH_Advanced_cl_predictpickup"		"Compensação de lag de objetos carregados"
+"NMRiH_Advanced_cl_predictpickup_0"		"Não predizer posição"
+"NMRiH_Advanced_cl_predictpickup_1"		"Sempre predizer posição"
+"NMRiH_Advanced_cl_predictpickup_2"		"Apenas predizer itens de objetivos"
+"NMRiH_Advanced_cl_radialfog"		"Preferência por nevoeiro radial"
+"NMRiH_Advanced_cl_radialfog_-1"	"Deixe o mapa decidir"
+"NMRiH_Advanced_cl_radialfog_0"		"Sempre desligado (névoa clássica)"
+"NMRiH_Advanced_cl_radialfog_1"		"Sempre ligado"
 
 "NMRiH_Difficulty"	"Dificuldade"
 
@@ -86,8 +95,17 @@
 "NMRiH_GameType_PVP"			"PvP"
 "NMRiH_GameType_Minigame"		"Minigame"
 
+"NMRiH_Server"				"Tipo"
+"NMRiH_Server_Solo"			"Um Jogador"
+"NMRiH_Server_LAN"			"Rede Local"
+"NMRiH_Server_Public"		"Público"
+"NMRiH_Server_FriendsOnly"	"Apenas Amigos"
+"NMRiH_Server_Unlisted"		"Não Listado"
+
 "NMRiH_LAN"				"Apenas LAN"
-"NMRiH_Coplay"			"Usar Coplay (Rede Steam)"
+"NMRiH_Coplay"			"Usar Rede Steam"
+
+"NMRiH_Server_Tooltip"	"Escolha um tipo de servidor (para Rede Steam):\nUm Jogador: Jogue offline.\nRede Local: Para hospedar um jogo em LAN.\nPúblico: Para hospedar um jogo público.\nApenas Amigos: Jogo somente para amigos convidados.\nNão Listado: Ocultar no navegador de servidores."
 
 "NMRiH_Difficulty_Tooltip"		"Escolha um nível de dificuldade.\nClássico: opções padrão, pontos de renascimento ativos.\nCasual: Sempre renasce, armas dadas na geração.\nPesadelo: Saúde, densidade e chance de infecção do zumbi aumentam.\nPvP: Ativa pontuação PvP e avisos de morte, zumbis e objetivos desativados."
 "NMRiH_Map_Time_Tooltip"					"Limite de tempo do mapa."
@@ -345,6 +363,7 @@
 "Addon_Manager_ApplyChanges"		"Aplicar mudanças"
 "Addon_Manager_InvalidAddon"		"Este add-on é incompatível."
 "Addon_Manager_MultiSelect"			"[%s1 add-ons selecionados]"
+"Addon_Manager_DefaultDesc"			"Sem descrição disponível."
 
 "Addon_Manager_DropMenu_Disable"	"Desativar"
 "Addon_Manager_DropMenu_ShowInfo"	"Mostrar Informação"
@@ -548,5 +567,17 @@
 "VPKTools_Error_BadVersion"				"Versão VPK não suportada."
 "VPKTools_Error_BannedFileExtension"	"Foi encontrada uma extensão de arquivo banida."
 "VPKTools_Error_CfgFilesNotAllowed"		"Arquivos de configuração (cfg) não são permitidos, remova o \"cfg\" da pasta do VPK."
+
+"UGC_ObjectiveMaps"						"Mapas de Objetivos"
+"UGC_SurvivalMaps"						"Mapas de Sobrevivência"
+"UGC_CustomMaps"						"Mapas Personalizados"
+"UGC_PlayerSkins"						"Skins de Jogadores"
+"UGC_WeaponSkins"						"Skins de Armas"
+"UGC_ModelPacks"						"Pacotes de Modelos"
+"UGC_SoundPacks"						"Pacotes de Som"
+"UGC_HUD_UI"							"HUD / IU"
+"UGC_Scripts_Resources"					"Scripts / Recursos"
+"UGC_Mutators"							"Mutators"
+"UGC_Miscellaneous"						"Diversos"
 } 
 }

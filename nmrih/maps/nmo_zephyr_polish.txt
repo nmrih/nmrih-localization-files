@@ -1,0 +1,23 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_zephyr_objective1_leavebuilding"	"Znajdź kod i wydostań się z budynku biurowego"
+	"nmo_zephyr_objective2_blowwarehouse"	"Znajdź sposób, aby dostać się do magazynu"
+	"nmo_zephyr_objective2a_sewertime"	"Znajdź narzędzie, aby podważyć właz"
+	"nmo_zephyr_objective2b_blowtorchsewer"	"Stop kratę za pomocą palnika"
+	"nmo_zephyr_objective3_warehouseelevator"	"Uruchom windę i wjedź na wyższy poziom"
+	"nmo_zephyr_objective4_pickupwalkie"	"Podnieś walkie talkie"
+	"nmo_zephyr_objective5a_2710"	"Kod do drzwi to 2710"
+	"nmo_zephyr_objective5d_powerup"	"Znajdź paliwo, aby uruchomić generator"
+	"nmo_zephyr_Objective5b_2606"	"Kod do drzwi to 2606"
+	"nmo_zephyr_Objective5c_1901"	"Kod do drzwi to 1901"
+	"nmo_zephyr_objective6_activate"	"Uruchom obrotnicę"
+	"nmo_zephyr_objective6a_unclog"	"Odblokuj mechanizm obrotnicy"
+	"nmo_zephyr_objective7_switch1"	"Przełącz dźwignię za lokomotywą"
+	"nmo_zephyr_objective8_switchdasequel"	"Przełącz drugą dźwignię"
+	"nmo_zephyr_objective9_brakes"	"Zwolnij hamulce ręczne"
+	"nmo_zephyr_objective10_allaboard"	"Zawołaj przez radio maszynistę, gdy będziecie gotowi"
+}
+}

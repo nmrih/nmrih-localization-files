@@ -53,10 +53,11 @@
 "NMRiH_Advanced_cl_stickyironsight"		"切り替え式エイム"
 "NMRiH_Advanced_cl_voicesubtitles"		"チャットにボイスコマンドの字幕を表示"
 "NMRiH_Advanced_cl_ejectbrass"			"薬莢/散弾銃の薬莢の排出"
+"NMRiH_Advanced_cl_flashlightdepthtexture"	"フラッシュライトの影"
 "NMRiH_Advanced_cl_muzzle_dlight"		"マズルフラッシュのダイナミックライト"
 "NMRiH_Advanced_cl_disablehtmlmotd"		"HTML MOTDの無効化"
 "NMRiH_Advanced_fov_allow_change"		"視野角をエイム中にスケーリング"
-"NMRiH_Advanced_nmrih_screenspace"		"スクリーンシェーダー (問題発生時にのみ無効化)"
+"NMRiH_Advanced_nmrih_screenspace"		"スクリーンシェーダー (問題発生時のみ無効化)"
 "NMRiH_Advanced_nmrih_screenspace_shadow"	"スクリーンビネット"
 "NMRiH_Advanced_nmrih_grain"			"フィルムグレイン"
 "NMRiH_Advanced_nmrih_grain_intensity"	"フィルムグレインの強度"
@@ -72,6 +73,14 @@
 "NMRiH_Advanced_cl_new_impact_effects_cheap"	"衝撃エフェクトの品質"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_0"	"高、破片有り"
 "NMRiH_Advanced_cl_new_impact_effects_cheap_1"	"低、破片無し"
+"NMRiH_Advanced_cl_predictpickup"		"持ち運びオブジェクトの予測"
+"NMRiH_Advanced_cl_predictpickup_0"		"位置の予測なし"
+"NMRiH_Advanced_cl_predictpickup_1"		"常に位置を予測"
+"NMRiH_Advanced_cl_predictpickup_2"		"目標アイテムのみ位置を予測"
+"NMRiH_Advanced_cl_radialfog"		"ラジアルフォグの設定"
+"NMRiH_Advanced_cl_radialfog_-1"	"マップに依存"
+"NMRiH_Advanced_cl_radialfog_0"		"常にオフ (クラシックな霧)"
+"NMRiH_Advanced_cl_radialfog_1"		"常にオン"
 
 "NMRiH_Difficulty"	"難易度"
 
@@ -86,8 +95,17 @@
 "NMRiH_GameType_PVP"			"対戦"
 "NMRiH_GameType_Minigame"		"ミニゲーム"
 
+"NMRiH_Server"				"タイプ"
+"NMRiH_Server_Solo"			"シングルプレイ"
+"NMRiH_Server_LAN"			"ローカル通信"
+"NMRiH_Server_Public"		"公開"
+"NMRiH_Server_FriendsOnly"	"フレンドのみ"
+"NMRiH_Server_Unlisted"		"非公開"
+
 "NMRiH_LAN"				"LANのみ"
-"NMRiH_Coplay"			"Coplayを使用 (Steam ネットワーキング)"
+"NMRiH_Coplay"			"Steamネットワーキングを使用"
+
+"NMRiH_Server_Tooltip"	"サーバータイプを選択してください (Steamネットワーキング用)：\nシングルプレイ： ゲームをオフラインでプレイします。\nローカルネットワーク： LAN上でゲームをホストします。\n公開： 誰でも参加できる公開サーバーをホストします。\nフレンドのみ： フレンドだけを招待してプレイします。\n非公開： サーバーブラウザに表示されません。"
 
 "NMRiH_Difficulty_Tooltip"	"難易度を選ぶ\nクラシック： デフォルト設定、リスポーン地点有効\nカジュアル： 常にリスポーン可、武器をもってスポーン\nナイトメア： ゾンビの体力、密度、感染確率が増加\n対戦： PvPのスコアリングとデス通知を有効にし、ゾンビと目標を無効にする"
 "NMRiH_Map_Time_Tooltip"	"マップ変更までの時間"
@@ -96,7 +114,7 @@
 "NMRiH_RealismMode_Tooltip"	"リアリズムモード、リスポーン無効、ゾンビにはヘッドショットのみ有効、弾薬の種類に関係なく、ヘッドショットはすべて1ヒットキル"
 "NMRiH_HardcoreSurvival_Tooltip"	"サバイバルモードでHUDを隠す"
 "NMRiH_Max_Players_Tooltip"	"プレイヤー制限、最小2、最大8。 ソロプレイの場合は1に設定"
-"NMRiH_Coplay_Tooltip"	"Coplayはピアツーピア接続のためのSteam ネットワーキングを提供します。 これにより、ポート開放の必要がなくなります"
+"NMRiH_Coplay_Tooltip"	"Steamネットワーキングを使用します。 これにより、ポート開放の必要がなくなります"
 "NMRiH_AdvOptions"	"追加オプション..."
 "NMRiH_AdvOptions_Tooltip"	"追加のゲームオプションを編集"
 
@@ -345,6 +363,7 @@
 "Addon_Manager_ApplyChanges"		"変更を適応"
 "Addon_Manager_InvalidAddon"		"このアドオンには互換性がありません。"
 "Addon_Manager_MultiSelect"			"[%s1 個のアドオンを選択中]"
+"Addon_Manager_DefaultDesc"			"説明がありません。"
 
 "Addon_Manager_DropMenu_Disable"	"無効"
 "Addon_Manager_DropMenu_ShowInfo"	"情報を確認"
@@ -457,7 +476,7 @@
 "Workshop_Publisher_NoAddons"		"アドオンが無効になっているため、ワークショップパブリッシャーが利用できません。"
 
 "Workshop_Publisher_AddonForm_Title"				"名前： *"
-"Workshop_Publisher_AddonForm_Desc"					"解説："
+"Workshop_Publisher_AddonForm_Desc"					"説明："
 "Workshop_Publisher_AddonForm_Summary"				"概要："
 "Workshop_Publisher_AddonForm_ChangeNotes"			"変更履歴："
 "Workshop_Publisher_AddonForm_ContentPath"			"コンテンツのパス： *"
@@ -525,7 +544,7 @@
 "Workshop_Publisher_Error_NoPreviewPath"	"指定されたプレビュー画像のパスが空です。"
 "Workshop_Publisher_Error_NoContentPathExisting"	"指定されたコンテンツのパスが空です。 (既存のコンテンツを使いたい場合は、 \"そのまま\" を選択してください。)"
 "Workshop_Publisher_Error_NoPreviewPathExisting"	"指定されたプレビュー画像のパスが空です。 (既存のコンテンツを使いたい場合は、 \"そのまま\" を選択してください。)"
-"Workshop_Publisher_Error_TooBigPreview"	プレビューファイルのサイズが大きすぎます。ファイルのサイズ上限は 1MB までです"
+"Workshop_Publisher_Error_TooBigPreview"	"プレビューファイルのサイズが大きすぎます。ファイルのサイズ上限は 1MB までです"
 "Workshop_Publisher_Error_PublisherError"	"パブリッシャーエラー"
 "Workshop_Publisher_Error_UploadFailed"		"エラーが発生しました。 アドオンはまだ公開されていません。 (エラーコード： %s1)"
 "Workshop_Publisher_Error_InvalidBSP"		"無効なBSPです！ ファイルに互換性がないか、壊れている可能性があります。"
@@ -548,5 +567,17 @@
 "VPKTools_Error_BadVersion"				"このVPKのバージョンはサポートされていません。"
 "VPKTools_Error_BannedFileExtension"	"禁止されているファイル拡張子が見つかりました。"
 "VPKTools_Error_CfgFilesNotAllowed"		"設定(cfg)ファイルは許可されていないため、VPKから \"cfg\" フォルダを削除してください。"
+
+"UGC_ObjectiveMaps"						"オブジェクティブマップ"
+"UGC_SurvivalMaps"						"サバイバルマップ"
+"UGC_CustomMaps"						"カスタムマップ"
+"UGC_PlayerSkins"						"プレイヤースキン"
+"UGC_WeaponSkins"						"武器スキン"
+"UGC_ModelPacks"						"モデルパック"
+"UGC_SoundPacks"						"サウンドパック"
+"UGC_HUD_UI"							"HUD / UI"
+"UGC_Scripts_Resources"					"スクリプト / リソース"
+"UGC_Mutators"							"ミューテーター"
+"UGC_Miscellaneous"						"その他"
 } 
-}  
+}

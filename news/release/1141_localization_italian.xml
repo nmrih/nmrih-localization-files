@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <content><string id="body">È stato rilasciato un aggiornamento per No More Room in Hell. L'aggiornamento verrà applicato automaticamente al riavvio di No More Room in Hell. Le principali modifiche includono:
 
+[b]Hotfix del 19 Marzo:[/b] Abbiamo rilasciato un aggiornamento per i server dedicati che risolve un problema relativo al comportamento dei corridori.
+Questo aggiornamento è facoltativo, ma tutti gli amministratori della comunità sono invitati ad applicarlo.
+
 [h2]Novità[/h2]
 [list]
 [*]Aggiunta la possibilità di cancellare l'input da tastiera premendo il tasto Indietro

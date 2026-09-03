@@ -18,5 +18,10 @@
 	"nmo_underground_car"		"Spingi la macchina!"
 	"nmo_underground_sos"		"Disegna un «S.O.S»!"
 	"nmo_underground_gen"		"Attiva il generatore!"
+	"nmo_underground_pliers"	"Trova delle pinze per tagliare il lucchetto!"
+	"nmo_underground_propane"	"Fai esplodere la bombola di propano nel posto giusto!"
+	"nmo_underground_code"		"Trova un codice per procedere!"
+	"nmo_underground_hack"		"Utilizza le tue abilità informatiche per uscire da questo tunnel!"
+	"nmo_underground_go"		"Esplora i magazzini!"
 }
 }

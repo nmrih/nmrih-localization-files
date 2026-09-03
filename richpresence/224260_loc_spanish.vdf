@@ -9,5 +9,7 @@
 		"#Status_PlayingObjective"	"Jugando Objetivo - %map%"
 		"#Status_PlayingSurvival"	"Jugando Supervivencia - %map%"
 		"#Status_PlayingCustom"	"Jugando Custom - %map%"
+		"#Status_PlayingPvP"	"Jugando PvP - %map%"
+		"#Status_PlayingMinigame"	"Jugando Minijuego - %map%"
 	}
 }

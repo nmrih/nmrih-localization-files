@@ -317,7 +317,7 @@
 "[english]Steam_ValidLoginRequiredTitle"	"Valid Steam Login Required"
 "Steam_ValidLoginRequired"	"Nu s-a putut realiza o conexiune la serverele VAC Steam. Pentru depanarea problemelor de rețea, te rugăm să apeși pe linkul de mai jos."
 "[english]Steam_ValidLoginRequired"	"A connection to the Steam VAC servers could not be made.  For troubleshooting network issues, please click the link below."
-"VAC_ConnectionIssuesSupport_Title"	"Conectare protejată eșuată"
+"VAC_ConnectionIssuesSupport_Title"	"Conexiunea securizată a eșuat"
 "[english]VAC_ConnectionIssuesSupport_Title"	"Secure Connection Failed"
 "VAC_ConnectionIssuesSupportSite"	"Clic aici pentru a vizita pagina de Asistenţă Steam"
 "[english]VAC_ConnectionIssuesSupportSite"	"Click here to visit Steam support"

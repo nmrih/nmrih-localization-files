@@ -1,0 +1,14 @@
+"lang" 
+{ 
+"Language" "Polish" 
+"Tokens" 
+{
+	"nmo_chinatown_subway_escape"	"Ucieknij z metra!"
+	"nmo_chinatown_gate_fix"	"Znajdź paliwo do generatora, aby otworzyć bramę!"
+	"nmo_chinatown_ladder_dismount"	"Zwolnij drabinę na blokadzie drogowej!"
+	"nmo_chinatown_sewer_way"	"Znajdź drogę przez kanały!"
+	"nmo_chinatown_welder"	"Użyj palnika na zamku bramy, aby ją otworzyć!"
+	"nmo_chinatown_docks_finale"	"Uruchom radio i wezwij ratunek!"
+	"nmo_chinatown_radio"	"Ratunek nadejdzie za 60 sekund. Wytrzymajcie!"
+}
+}
