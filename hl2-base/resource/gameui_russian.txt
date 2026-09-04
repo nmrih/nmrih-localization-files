@@ -275,8 +275,8 @@
 "GameUI_MaxPlayers"	"Макс. игроков:"
 "GameUI_Password"	"Пароль"
 
-"GameUI_DARK"	"ТЁМНЫЙ"
-"GameUI_LIGHT"	"СВЕТЛЫЙ"
+"GameUI_DARK"	"ТЕМНО"
+"GameUI_LIGHT"	"СВЕТЛО"
 "GameUI_VerifyingResources"	"Проверка ресурсов..."
 "GameUI_VerifyingAndDownloading"	"Проверка и скачивание ресурсов..."
 "GameUI_UpdatingSteamResources"	"Обновление ресурсов Steam"
@@ -533,7 +533,7 @@
 "GameUI_BenchmarkResults_UploadNow"	"Переслать результаты"
 
 "GameUI_AdjustGamma"	"Настроить уровень яркости..."
-"GameUI_AdjustGamma_Title"	"НАСТРОИТЬ УРОВЕНЬ ЯРКОСТИ"
+"GameUI_AdjustGamma_Title"	"НАСТРОЙКА ЯРКОСТИ"
 
 "GameUI_DisplayMode"		"Режим отображения"
 "GameUI_DisplayTV"	"Телевизор"
@@ -810,10 +810,10 @@
 "GameUI_FOV"	"Поле зрения"
 "GameUI_EnableHUDMinMode"	"Включить минималистичный интерфейс"
 
-"GameUI_DownloadFilter_Title"	"Если игровой сервер пытается скачать\nпользовательский контент на ваш компьютер"
+"GameUI_DownloadFilter_Title"	"Если игровой сервер пытается скачать\nчто-то на ваш компьютер"
 "GameUI_DownloadFilter_ALL"	"Разрешить все польз. файлы с сервера"
 "GameUI_DownloadFilter_NoSounds"	"Не скачивать пользовательские звуки"
-"GameUI_DownloadFilter_MapsOnly"	"Загружать только карты"
+"GameUI_DownloadFilter_MapsOnly"	"Скачивать только карты"
 "GameUI_DownloadFilter_None"	"Не скачивать никакие польз. файлы"
 
 "GameUI_GameMenu_Store"				"ПОКУПКА ПРЕДМЕТОВ"

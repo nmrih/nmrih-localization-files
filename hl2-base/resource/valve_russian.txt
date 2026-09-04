@@ -96,7 +96,7 @@
 "Spec_PlayerItem_Team"	"%s1 (%s2)"
 "Spec_Duck"	"ПРИСЕСТЬ – вход в меню наблюдения"
 "Spec_Help_Title"	"Режим наблюдателя"
-"Spec_Help_Text"	"Используйте следующие клавиши для переключения видов обзора:
+"Spec_Help_Text"	"Используйте следующие клавиши для смены режимов просмотра:
 
  ОГОНЬ1 – следовать за следующим игроком
  ОГОНЬ2 – следовать за предыдущим игроком
@@ -161,7 +161,7 @@
 "C4A3TITLE"	"НИХИЛАНТ"
 "C5TITLE"	"КОНЕЦ ИГРЫ"
 
-"Valve_Hostname"	"Имя сервера"
+"Valve_Hostname"	"Название сервера"
 "Valve_Max_Players"	"Макс. число игроков"
 "Valve_Server_Password"	"Пароль сервера"
 
@@ -298,7 +298,7 @@
 "Valve_Hint_Select_Weapon_Pistol"	"%slot1% ВЫБРАТЬ 9MM ПИСТОЛЕТ"
 "Valve_Hint_Select_Weapon_RPG"	"%slot4% ВЫБРАТЬ РПГ"
 "Valve_Hint_Select_Weapon_Shotgun"	"%slot2% ВЫБРАТЬ ДРОБОВИК"
-"Valve_Hint_Select_Weapon_SMG1"	"%slot2% ВЫБРАТЬ ППМ"
+"Valve_Hint_Select_Weapon_SMG1"	"%slot2% ВЫБРАТЬ ПП"
 "Valve_Hint_Select_WEAPONUP"	"%slot1% ВЫБРАТЬ ОРУЖИЕ"
 "Valve_Hint_Select_WEAPONRIGHT"	"%slot2% ВЫБРАТЬ ОРУЖИЕ"
 "Valve_Hint_Select_WEAPONDOWN"	"%slot3% ВЫБРАТЬ ОРУЖИЕ"
@@ -368,7 +368,7 @@
 "Attrib_ReferencedItem"	"Содержит: %s1"
 "Attrib_CustomDesc"	"У этого предмета изменено описание:"
 "Attrib_Renamed"	"Этот предмет был переименован.\nИзначальное название: «%s1»"
-"Attrib_LimitedUse"	"Этот предмет можно использовать ограниченное количество раз.\nОсталось: %s1 раз(а)"
+"Attrib_LimitedUse"	"Число использований ограничено.\nОсталось: %s1"
 "Attrib_EventDate"	"Дата получения: %s1"
 "Attrib_InUse"	"Сейчас используется"
 "Attrib_Community_Description"	"Выдано за заслуги перед сообществом"
@@ -428,7 +428,7 @@
 "Store_ClassFilter_None"	"Все предметы"
 
 "Store_Cart"	"(%s1)"
-"Store_Checkout"	"Расчет"
+"Store_Checkout"	"Заказ"
 "Store_AddToCart"	"В корзину"
 
 "StoreViewCartTitle"	"Ваша корзина"
@@ -460,22 +460,22 @@
 "StoreUpdate_SteamRequired"	"Для совершения покупок в магазине необходимо подключение к Steam."
 
 "StoreCheckout_Fail"	"В данный момент магазин закрыт."
-"StoreCheckout_InvalidParam"	"Программная ошибка! Координатору игры был передан неверный параметр. Попробуйте совершить покупку еще раз."
+"StoreCheckout_InvalidParam"	"Программная ошибка! Координатору игры был передан неверный параметр. Попробуйте совершить покупку ещё раз."
 "StoreCheckout_InternalError"	"Произошла ошибка при инициализации или обновлении операции. Подождите несколько минут и повторите попытку, либо обратитесь в службу поддержки."
 "StoreCheckout_ContactSupport"	"Во время покупки произошла ошибка. Пожалуйста, обратитесь за помощью в службу поддержки."
-"StoreCheckout_NotApproved"	"Координатор игры не смог утвердить операцию через Steam. Пожалуйста, попробуйте совершить покупку через некоторое время."
+"StoreCheckout_NotApproved"	"Координатор игры не смог утвердить операцию через Steam. Попробуйте совершить покупку позже."
 "StoreCheckout_NotLoggedin"	"Для того чтобы совершить покупку, вы должны подключиться к Steam."
 "StoreCheckout_WrongCurrency"	"Валюта, выбранная для оплаты, не совпадает с валютой в вашем кошельке."
-"StoreCheckout_NoAccount"	"В настоящее время ваш счет в Steam недоступен. Пожалуйста, попробуйте совершить покупку через некоторое время."
+"StoreCheckout_NoAccount"	"Ваш аккаунт Steam недоступен. Попробуйте совершить покупку позже."
 "StoreCheckout_InsufficientFunds"	"У вас недостаточно средств на счету, чтобы совершить эту покупку."
-"StoreCheckout_TimedOut"	"Время, отведенное на перевод средств, истекло. Пожалуйста, попробуйте совершить покупку через некоторое время."
-"StoreCheckout_SteamAccountDisabled"	"Ваш счет в Steam заблокирован, вы не можете делать покупки."
-"StoreCheckout_SteamAccountNoPurchase"	"Операции с кошельком Steam недоступны для указанного счета."
+"StoreCheckout_TimedOut"	"Время на перевод средств истекло. Попробуйте совершить покупку ещё раз."
+"StoreCheckout_SteamAccountDisabled"	"Вы не можете совершать покупки: ваш аккаунт Steam заблокирован."
+"StoreCheckout_SteamAccountNoPurchase"	"Операции с кошельком Steam на этом аккаунте отключены."
 "StoreCheckout_OldPriceSheet"	"Каталог товаров устарел. Запрашивается новая версия."
-"StoreCheckout_TransactionNotFound"	"Координатор игры не нашел идентификатор сделки. Пожалуйста, попробуйте совершить покупку через некоторое время."
-"StoreCheckout_TransactionCanceled"	"Сделка отменена. Средства с вашего счета не были списаны."
-"StoreCheckout_TransactionCompleted"	"Сделка совершена! Наслаждайтесь покупками!"
-"StoreCheckout_CompleteButUnfinalized"	"Невозможно подтвердить покупку. При ее успешном завершении вы получите товар с небольшой задержкой."
+"StoreCheckout_TransactionNotFound"	"Координатор игры не нашёл идентификатор сделки. Попробуйте совершить покупку ещё раз."
+"StoreCheckout_TransactionCanceled"	"Оплата отменена. Средства с вашего счёта не списаны."
+"StoreCheckout_TransactionCompleted"	"Оплата завершена! Наслаждайтесь покупками!"
+"StoreCheckout_CompleteButUnfinalized"	"Не удалось подтвердить оплату. Если она подтвердится, вы получите товар с небольшой задержкой."
 "StoreCheckout_NotEnoughRoom"	"В рюкзаке недостаточно места для покупки такого количества предметов."
 "StoreCheckout_ContactSupport_Dialog_Title"	"Предупреждение"
 "StoreCheckout_ContactSupport_Dialog_Btn"	"Связаться"
@@ -499,9 +499,9 @@
 "DiscardExplanation2"	"Чтобы освободить место, удалите старый предмет или откажитесь от нового, нажав кнопку «Выбросить»."
 "DeleteConfirmDefault"	"Удалить?"
 "Discarded"	"ВЫБРОШЕНО!"
-"ItemPanelEquipped"	"Надето"
+"ItemPanelEquipped"	"Взято"
 
-"BackpackApplyTool"	"Выберите предмет, к которому вы хотите применить %s1:"
+"BackpackApplyTool"	"Выберите предмет, к которому вы хотите применить \"%s1\":"
 "ApplyOnItem"	"ИСПОЛЬЗ. С…"
 "ConsumeItem"	"ПРИМЕНИТЬ"
 "RefurbishItem"	"ВОССТАНОВИТЬ"
@@ -521,10 +521,10 @@
 "RefurbishItem_RemovePaint"	"Восстановить первоначальный цвет предмета?\n\n(Смытая краска не появится в инвентаре)"
 
 "RefurbishItem_RemoveNameTitle"	"Удалить название?"
-"RefurbishItem_RemoveName"	"Вернуть предмету изначальное название?\n\n(Именной ярлык не будет возвращен)"
+"RefurbishItem_RemoveName"	"Вернуть предмету изначальное название?\n\n(Именной ярлык не будет возвращён)"
 
 "RefurbishItem_RemoveDescTitle"	"Удалить описание?"
-"RefurbishItem_RemoveDesc"	"Удалить описание этого предмета, восстановив исходный текст?\n\n(Ярлык для описания не будет возвращен)"
+"RefurbishItem_RemoveDesc"	"Удалить описание этого предмета, восстановив исходный текст?\n\n(Ярлык для описания не будет возвращён)"
 
 "RefurbishItem_Yes"	"Да"
 "RefurbishItem_No"	"Нет, оставить"
@@ -551,7 +551,7 @@
 "CraftNameCancel"	"Нет, спасибо"
 "CraftAskNameConfirm"	"Вы уверены, что хотите оставить такое название?"
 "CraftAskNameWarning"	"(Это название сохранится за предметом и будет видно другим)"
-"CraftNameConfirm"	"Да! Уверены!"
+"CraftNameConfirm"	"Да, я уверен!"
 "CraftInvalidName"	"Недопустимое название!"
 "CraftInvalidNameDetail"	"Разрешены только цифры, буквы и пробелы"
 
