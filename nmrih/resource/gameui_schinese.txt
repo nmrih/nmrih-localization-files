@@ -30,15 +30,15 @@
 "NMRiH_CharSelect_VoicePreview"	"语音预览"
 
 "NMRiH_Options_Compass"			"指南针"
-"NMRiH_Options_InventoryWeapons"	"武器栏"
+"NMRiH_Options_InventoryWeapons"	"道具及武器栏"
 "NMRiH_Options_InventoryAmmo"		"弹药栏"
 "NMRiH_Options_VoiceCommands"		"语音指令"
-"NMRiH_Options_Suicide"			"自杀"
-"NMRiH_Options_Shove"			"推开/近战"
+"NMRiH_Options_Suicide"			"吞枪自杀(需要手持上膛的枪)"
+"NMRiH_Options_Shove"			"推开/使用刺刀"
 "NMRiH_Options_ShowObjective"		"显示当前任务"
-"NMRiH_Options_DropWeapon"		"丢弃武器(按住以投掷武器)"
+"NMRiH_Options_DropWeapon"		"丢弃武器(长按以投掷武器)"
 "NMRiH_Options_Sprint"			"冲刺"
-"NMRiH_Options_Reload"			"装填子弹(按住以显示弹药)"
+"NMRiH_Options_Reload"			"装填子弹(长按以显示弹药)"
 "NMRiH_Options_Holster"			"收起武器"
 "NMRiH_Options_UnloadWeapon"		"卸下武器弹药"
 "NMRiH_Call_Vote"				"发起投票"
@@ -50,7 +50,7 @@
 "NMRiH_Advanced_cl_textfilter"			"启用聊天栏过滤器(通过Steam)"
 "NMRiH_Advanced_cl_richpresence"		"启用游戏状态显示(Discord/Steam)"
 "NMRiH_Advanced_cl_vmcamera_enabled"	"启用视角晃动"
-"NMRiH_Advanced_cl_stickyironsight"		"启用按下瞄准(关闭按住瞄准)"
+"NMRiH_Advanced_cl_stickyironsight"		"启用按下瞄准(这将会关闭按住瞄准)"
 "NMRiH_Advanced_cl_voicesubtitles"		"启用聊天栏无线电语音指令显示"
 "NMRiH_Advanced_cl_ejectbrass"			"启用射击时退弹壳显示"
 "NMRiH_Advanced_cl_flashlightdepthtexture"	"启用手电筒阴影效果(expensive)"
@@ -87,12 +87,12 @@
 "NMRiH_Difficulty_Classic"		"经典"
 "NMRiH_Difficulty_Casual"		"休闲"
 "NMRiH_Difficulty_Nightmare"	"噩梦"
-"NMRiH_Difficulty_PVP"			"PvP"
+"NMRiH_Difficulty_PVP"			"对战"
 
 "NMRiH_GameType_Objective"		"任务模式"
 "NMRiH_GameType_Survival"		"生存模式"
 "NMRiH_GameType_Custom"			"自定义模式"
-"NMRiH_GameType_PVP"			"PvP模式"
+"NMRiH_GameType_PVP"			"玩家对战模式"
 "NMRiH_GameType_Minigame"		"小游戏模式"
 
 "NMRiH_Server"				"类型"
@@ -111,7 +111,7 @@
 "NMRiH_Map_Time_Tooltip"	"地图时间限制。"
 "NMRiH_LAN_Tooltip"	"强制使用局域网连接，并且服务器不会在公网中显示。"
 "NMRiH_FriendlyFire_Tooltip"	"启用友军伤害，您可以对已感染的玩家造成伤害。"
-"NMRiH_RealismMode_Tooltip"	"您将无法在写实模式中复活，并且丧尸只会受到爆头伤害。无论弹药类型如何，所有的爆头都是一击必杀。"
+"NMRiH_RealismMode_Tooltip"	"您将无法在写实模式中复活，虽然丧尸只会受到爆头伤害。但是不论弹药类型如何，只要爆头就是一击必杀。"
 "NMRiH_HardcoreSurvival_Tooltip"	"该模式将隐藏您的HUD菜单。"
 "NMRiH_Max_Players_Tooltip"	"玩家人数限制，最大为8人。设置为1则进行单人游戏。"
 "NMRiH_Coplay_Tooltip"	"使用 Steam 网络进行 P2P 连接，这移除了联机对于端口映射的要求。"
@@ -121,9 +121,9 @@
 "NMRiH_Extended_Options"	"扩展设置"
 
 "NMRiH_TokensEnabledObjective"	"任务模式: 启用复活点数"
-"NMRiH_KillsPerTokenObjective"	"任务模式: 每个复活点所需击杀数"
-"NMRiH_TokensEnabledSurvival"	"生存模式: 启用复活点数"
-"NMRiH_KillsPerTokenSurvival"	"生存模式: 每个复活点所需击杀数"
+"NMRiH_KillsPerTokenObjective"	"任务模式: 获得复活点所需击杀数"
+"NMRiH_TokensEnabledSurvival"	  "生存模式: 启用复活点数"
+"NMRiH_KillsPerTokenSurvival"	  "生存模式: 获得复活点所需击杀数"
 "NMRiH_RespawnAllowed"	"启用复活"
 "NMRiH_RespawnWithWeapon"	"复活时携带初始武器"
 "NMRiH_NearbySpawningEnabled"	"启用在附近复活"
@@ -136,7 +136,7 @@
 "NMRiH_InitialTokenCountSurvival"	"生存模式: 初始复活点个数"
 "NMRiH_ZombieHealth"	"丧尸生命值"
 "NMRiH_ZombieSpawnDensity"	"丧尸生成密度"
-"NMRiH_BrainStemMode"	"启用命中脑干时一击必杀"
+"NMRiH_BrainStemMode"	"启用爆头必杀"
 "NMRiH_InfectionChanceModifier"	"感染机率修改"
 "NMRiH_SurvivalInfectionChanceModifier"	"生存模式: 感染机率修改"
 "NMRiH_FriendlyFireModifier"	"友军伤害值修改"
@@ -164,9 +164,9 @@
 
 "NMRiH_Vote_Column_Issue"	"投票类型"
 "NMRiH_Vote_Column_Name"	"名称"
-"NMRiH_Vote_Column_Properties"	""
+"NMRiH_Vote_Column_Properties"	"属性"
 
-"NMRIH_vote_no_maps"	"没有可用的地图。"
+"NMRIH_vote_no_maps"	"地图不可用。"
 
 "Vote_kick"				"踢出玩家"
 "Vote_changelevel"		"更换地图"
@@ -175,7 +175,7 @@
 "Vote_changechallenge"		"更换挑战"
 "Vote_changedifficulty"		"更换难度"
 
-"NMRiH_Vote_Kick_Player_Other"		"是否踢出: %s1?\n(原因其它)"
+"NMRiH_Vote_Kick_Player_Other"		"是否踢出: %s1?\n(其它原因)"
 "NMRiH_Vote_Kick_Player_Cheating"		"是否踢出: %s1?\n(疑似作弊)"
 "NMRiH_Vote_Kick_Player_Idle"		"是否踢出: %s1?\n(挂机)"
 "NMRiH_Vote_Kick_Player_Griefing"		"是否踢出: %s1?\n(恶意捣乱)"
@@ -190,7 +190,7 @@
 
 "NMRiH_Scoreboard_MutePlayer"	"禁言玩家"
 "NMRiH_Scoreboard_ViewSteamProfile"	"查看Steam个人信息"
-"NMRiH_Scoreboard_Bot"	"电脑"
+"NMRiH_Scoreboard_Bot"	"机器人玩家"
 
 "NMRiH_MutedPlayer"	"已静音 %s1 的麦克风"
 "NMRiH_UnmutedPlayer"	"取消静音 %s1 的麦克风"
@@ -344,7 +344,7 @@
 "NMRiH_DeckCompatibility_Title"	"Steam Deck 兼容性"
 "NMRiH_DeckCompatibility_Message1"	"您似乎正在 Steam Deck 上游玩此游戏。"
 "NMRiH_DeckCompatibility_Message2"	"Linux 本地运行环境未经测试并可能无法稳定运行。"
-"NMRiH_DeckCompatibility_Message3"	"建议您使用 Steam Play (Proton) 以获得最大兼容性。"
+"NMRiH_DeckCompatibility_Message3"	"建议您使用 Steam Proton 以获得最大兼容性与最佳性能。"
 
 //============================
 //Add-on Manager
@@ -361,7 +361,7 @@
 "Addon_Manager_OpenInWorkshop"		"在创意工坊中打开..."
 "Addon_Manager_BrowseAddons"		"浏览更多插件..."
 "Addon_Manager_ApplyChanges"		"应用更改"
-"Addon_Manager_InvalidAddon"		"此插件无法兼容."
+"Addon_Manager_InvalidAddon"		"此插件不兼容."
 "Addon_Manager_MultiSelect"			"[%s1 个插件已选中]"
 "Addon_Manager_DefaultDesc"			"暂无描述."
 
